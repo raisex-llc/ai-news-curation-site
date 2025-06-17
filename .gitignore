@@ -1,0 +1,5 @@
+# .gitignore（ルート直下に作成）
+astro-site/node_modules/
+astro-site/dist/
+.DS_Store
+.env

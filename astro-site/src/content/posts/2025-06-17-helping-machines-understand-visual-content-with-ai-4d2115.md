@@ -1,0 +1,40 @@
+---
+title: Helping machines understand visual content with AI
+description: Coactive, founded by two MIT alumni, has built an AI-powered platform
+  to unlock new insights from content of all types.
+pubDate: Mon, 09 Jun 2025 15:45:00 -0400
+source: MIT
+tags:
+- mit
+- ai
+url: https://news.mit.edu/2025/coactive-helps-machines-understand-visual-content-ai-0609
+---
+
+Data should drive every decision a modern business makes. But most businesses have a massive blind spot: They don’t know what’s happening in their visual data.
+Coactive is working to change that. The company, founded by Cody Coleman ’13, MEng ’15 and William Gaviria Rojas ’13, has created an artificial intelligence-powered platform that can make sense of data like images, audio, and video to unlock new insights.
+Coactive’s platform can instantly search, organize, and analyze unstructured visual content to help businesses make faster, better decisions.
+“In the first big data revolution, businesses got better at getting value out of their structured data,” Coleman says, referring to data from tables and spreadsheets. “But now, approximately 80 to 90 percent of the data in the world is unstructured. In the next chapter of big data, companies will have to process data like images, video, and audio at scale, and AI is a key piece of unlocking that capability.”
+Coactive is already working with several large media and retail companies to help them understand their visual content without relying on manual sorting and tagging. That’s helping them get the right content to users faster, remove explicit content from their platforms, and uncover how specific content influences user behavior.
+More broadly, the founders believe Coactive serves as an example of how AI can empower humans to work more efficiently and solve new problems.
+“The word coactive means to work together concurrently, and that’s our grand vision: helping humans and machines work together,” Coleman says. “We believe that vision is more important now than ever because AI can either pull us apart or bring us together. We want Coactive to be an agent that pulls us together and gives human beings a new set of superpowers.”
+Giving computers vision
+Coleman met Gaviria Rojas in the summer before their first yearthrough the MIT Interphase Edge program. Both would go on to major in electrical engineering and computer science and work on bringing MIT OpenCourseWare content to Mexican universities, among other projects.
+“That was a great example of entrepreneurship,” Coleman recalls of the OpenCourseWare project. “It was really empowering to be responsible for the business and the software development. It led me to start my own small web-development businesses afterward, and to take [the MIT course] Founder’s Journey.”
+Coleman first explored the power of AI at MIT while working as a graduate researcher with the Office of Digital Learning (now MIT Open Learning), where he used machine learning to study how humans learn on MITx, which hosts massive, open online courses created by MIT faculty and instructors.
+“It was really amazing to me that you could democratize this transformational journey that I went through at MIT with digital learning — and that you could apply AI and machine learning to create adaptive systems that not only help us understand how humans learn, but also deliver more personalized learning experiences to people around the world,” Coleman says of MITx. “That was also the first time I got to explore video content and apply AI to it.”
+After MIT, Coleman went to Stanford University for his PhD, where he worked on lowering barriers to using AI. The research led him to work with companies like Pinterest and Meta on AI and machine-learning applications.
+“That’s where I was able to see around the corner into the future of what people wanted to do with AI and their content,” Coleman recalls. “I was seeing how leading companies were using AI to drive business value, and that’s where the initial spark for Coactive came from. I thought, ‘What if we create an enterprise-grade operating system for content and multimodal AI to make that easy?’”
+Meanwhile, Gaviria Rojas moved to the Bay Area in 2020 and started working as a data scientist at eBay. As part of the move, he needed help transporting his couch, and Coleman was the lucky friend he called.
+“On the car ride, we realized we both saw an explosion happening around data and AI,” Gaviria Rojas says. “At MIT, we got a front row seat to the big data revolution, and we saw people inventing technologies to unlock value from that data at scale. Cody and I realized we had another powder keg about to explode with enterprises collecting tremendous amount of data, but this time it was multimodal data like images, video, audio, and text. There was a missing technology to unlock it at scale. That was AI.”
+The platform the founders went on to build — what Coleman describes as an “AI operating system” — is model agnostic, meaning the company can swap out the AI systems under the hood as models continue to improve. Coactive’s platform includes prebuilt applications that business customers can use to do things like search through their content, generate metadata, and conduct analytics to extract insights.
+“Before AI, computers would see the world through bytes, whereas humans would see the world through vision,” Coleman says. “Now with AI, machines can finally see the world like we do, and that’s going to cause the digital and physical worlds to blur.”
+Improving the human-computer interface
+Reuters’ database of images supplies the world’s journalists with millions of photos. Before Coactive, the company relied on reporters manually entering tags with each photo so that the right images would show up when journalists searched for certain subjects.
+“It was incredible slow and expensive to go through all of these raw assets, so people just didn’t add tags,” Coleman says. “That meant when you searched for things, there were limited results even if relevant photos were in the database.”
+Now, when journalists on Reuters’ website select ‘Enable AI Search,’ Coactive can pull up relevant content based on its AI system’s understanding of the details in each image and video.
+“It’s vastly improving the quality of results for reporters, which enables them to tell better, more accurate stories than ever before,” Coleman says.
+Reuters is not alone in struggling to manage all of its content. Digital asset management is a huge component of many media and retail companies, who today often rely on manually entered metadata for sorting and searching through that content.
+Another Coactive customer is Fandom, which is one of the world’s largest platforms for information around TV shows, videogames, and movies with more than 300 million monthly active users. Fandom is using Coactive to understand visual data in their online communities and help remove excessive gore and sexualized content.
+“It used to take 24 to 48 hours for Fandom to review each new piece of content,” Coleman says. “Now with Coactive, they’ve codified their community guidelines and can generate finer-grain information in an average of about 500 milliseconds.”
+With every use case, the founders see Coactive as enabling a new paradigm in the ways humans work with machines.
+“Throughout the history of human-computer interaction, we’ve had to bend over a keyboard and mouse to input information in a way that machines could understand,” Coleman says. “Now, for the first time, we can just speak naturally, we can share images and video with AI, and it can understand that content. That’s a fundamental change in the way we think about human-computer interactions. The core vision of Coactive is because of that change, we need a new operating system and a new way of working with content and AI.”

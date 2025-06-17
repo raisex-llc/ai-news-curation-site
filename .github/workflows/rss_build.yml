@@ -1,0 +1,48 @@
+## 🤖 GitHub Actions `.github/workflows/rss_build.yml`
+
+name: Fetch RSS & Deploy to GitHub Pages
+
+on:
+  schedule:
+    - cron: "0 * * * *"   # 毎時実行
+  workflow_dispatch:       # 手動実行も可
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+
+      - name: Install Python dependencies
+        run: pip install feedparser trafilatura requests pyyaml
+
+      - name: Fetch RSS & Generate Markdown
+        run: python feed_fetcher.py
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "20"
+
+      - name: Install Node dependencies
+        run: |
+          cd astro-site
+          npm ci
+
+      - name: Build Astro
+        run: |
+          cd astro-site
+          npm run build
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: astro-site/dist

@@ -1,0 +1,23 @@
+{
+  "name": "astro-ai-news-site",
+  "type": "module",
+  "scripts": {
+    "rss": "python ../feed_fetcher.py",
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "astro": "^5.1.6",
+    "@astrojs/mdx": "^4.3.0",
+    "@astrojs/sitemap": "^3.4.1",
+    "@astrojs/tailwind": "^6.0.2"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.17",
+    "postcss": "^8.5.4",
+    "autoprefixer": "^10.4.21"
+  }
+}
+
