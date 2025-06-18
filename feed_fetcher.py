@@ -1,5 +1,5 @@
-## 🐍 feed_fetcher.py
 #!/usr/bin/env python3
+## 🐍 feed_fetcher.py
 """RSS -> Markdown 生成スクリプト
 実行すると astro-site/src/content/posts/ に .md を追加する。
 """
@@ -33,9 +33,7 @@ def slugify(text: str) -> str:
 
 def sanitize_content(text: str) -> str:
     """機密情報っぽい文字列を除去またはマスクする"""
-    # Hugging Face Access Token 例: hf_xxxxxxxxxxxxxxxxx
     text = re.sub(r'hf_[a-zA-Z0-9]{10,}', '[REDACTED_TOKEN]', text)
-    # GitHub Personal Access Token 例: ghp_xxxxxxxxxxxxxxx
     text = re.sub(r'gh[pousr]_[a-zA-Z0-9]{20,}', '[REDACTED_TOKEN]', text)
     return text
 
@@ -43,6 +41,7 @@ def fetch_article_content(url: str) -> str:
     try:
         res = requests.get(url, timeout=10)
         res.raise_for_status()
+        res.encoding = 'utf-8'  # ✅ 文字化け防止：強制的にUTF-8として扱う
         return trafilatura.extract(res.text) or ""
     except Exception as e:
         print(f"[ERROR] fail extract {url}: {e}")
@@ -75,7 +74,6 @@ def main():
             if not body:
                 continue
 
-            # ✅ ここで本文をスキャンしてトークン除去
             body = sanitize_content(body)
 
             front = {
