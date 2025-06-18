@@ -1,4 +1,4 @@
-## 🤖 GitHub Actions `.github/workflows/rss_build.yml`
+## 🤖 GitHub Actions .github/workflows/rss_build.yml
 
 name: Fetch RSS & Deploy to GitHub Pages
 
@@ -44,5 +44,5 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GH_TOKEN }}
           publish_dir: astro-site/dist
