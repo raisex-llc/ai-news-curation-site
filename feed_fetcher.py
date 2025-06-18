@@ -23,16 +23,12 @@ with open(ROOT / "rss_sources.yml", "r", encoding="utf-8") as f:
 DATE_FMT_MD = "%Y-%m-%d"
 
 def slugify(text: str) -> str:
-    # 小文字化・空白→ハイフン
     text = text.lower().replace(" ", "-")
-    # Windowsで禁止される文字を除去
     text = re.sub(r'[\\/:*?"<>|]', '', text)
-    # スラッシュや疑問符、アンパサンドなども整形
     text = text.replace("/", "-").replace("&", "and")
     return text[:80]
 
 def sanitize_content(text: str) -> str:
-    """機密情報っぽい文字列を除去またはマスクする"""
     text = re.sub(r'hf_[a-zA-Z0-9]{10,}', '[REDACTED_TOKEN]', text)
     text = re.sub(r'gh[pousr]_[a-zA-Z0-9]{20,}', '[REDACTED_TOKEN]', text)
     return text
@@ -41,8 +37,8 @@ def fetch_article_content(url: str) -> str:
     try:
         res = requests.get(url, timeout=10)
         res.raise_for_status()
-        res.encoding = 'utf-8'  # ✅ 文字化け防止：強制的にUTF-8として扱う
-        return trafilatura.extract(res.text) or ""
+        # ✅ content (bytes) を trafilatura に渡すことで内部エンコーディング処理を任せる
+        return trafilatura.extract(res.content) or ""
     except Exception as e:
         print(f"[ERROR] fail extract {url}: {e}")
         return ""
