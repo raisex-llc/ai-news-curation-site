@@ -1,13 +1,15 @@
 ---
 // [sort]/[page].astro 一覧ページ：GitHubPages対応
-import "../../../styles/global.css";
+
 import { getCollection } from "astro:content";
+import "../../../styles/global.css";
 
 const PAGE_SIZE = 30;
 const { sort, page } = Astro.params;
 const currentPage = Number(page || 1);
 
 const allPosts = await getCollection("posts");
+
 const sortedPosts = sort === "source"
   ? [...allPosts].sort((a, b) => a.data.source.localeCompare(b.data.source))
   : [...allPosts].sort((a, b) => new Date(b.data.pubDate) - new Date(a.data.pubDate));
@@ -24,7 +26,7 @@ const totalPages = Math.ceil(sortedPosts.length / PAGE_SIZE);
     <meta charset="UTF-8" />
     <title>AIニュース一覧</title>
   </head>
-  <body class="bg-[#f5f8ff] text-gray-800 font-sans px-4 sm:px-6">
+  <body class="bg-[#f5f8ff] text-gray-800 font-sans px-4 sm:px-6" id="top">
     <header class="max-w-5xl mx-auto py-4 flex flex-col sm:flex-row justify-between items-center gap-4">
       <h1 class="text-xl font-bold">AIニュースキュレーション</h1>
       <form method="get" action="/page/date/1" class="w-full sm:w-1/3">
