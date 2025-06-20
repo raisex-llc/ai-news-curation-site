@@ -37,7 +37,6 @@ def fetch_article_content(url: str) -> str:
     try:
         res = requests.get(url, timeout=10)
         res.raise_for_status()
-        # ✅ content (bytes) を trafilatura に渡すことで内部エンコーディング処理を任せる
         return trafilatura.extract(res.content) or ""
     except Exception as e:
         print(f"[ERROR] fail extract {url}: {e}")
@@ -47,6 +46,15 @@ def make_frontmatter(meta: dict) -> str:
     import yaml as _y
     fm = _y.dump(meta, allow_unicode=True, sort_keys=False)
     return f"---\n{fm}---\n\n"
+
+def extract_thumbnail(entry: dict) -> str:
+    if "media_thumbnail" in entry and entry.media_thumbnail:
+        return entry.media_thumbnail[0].get("url", "")
+    elif "image" in entry:
+        return entry.image.get("href", "")
+    elif "enclosures" in entry and entry.enclosures:
+        return entry.enclosures[0].get("href", "")
+    return ""
 
 def main():
     print(f"[DEBUG] 読み込んだソース数: {len(SOURCES)}")
@@ -75,11 +83,14 @@ def main():
             front = {
                 "title": entry.title,
                 "description": entry.get("summary", ""),
+                "summary": entry.get("summary", "")[:120],
                 "pubDate": entry.get("published", datetime.utcnow().isoformat()),
                 "source": s["name"],
                 "tags": s.get("tags", []),
                 "url": entry.link,
+                "thumbnail": extract_thumbnail(entry)
             }
+
             with open(md_path, "w", encoding="utf-8") as f:
                 f.write(make_frontmatter(front))
                 f.write(body)
