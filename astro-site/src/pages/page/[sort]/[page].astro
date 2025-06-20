@@ -25,6 +25,7 @@ const totalPages = Math.ceil(sortedPosts.length / PAGE_SIZE);
   <head>
     <meta charset="UTF-8" />
     <title>AIニュース一覧</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
   <body class="bg-[#f5f8ff] text-gray-800 font-sans px-4 sm:px-6" id="top">
     <header class="max-w-5xl mx-auto py-4 flex flex-col sm:flex-row justify-between items-center gap-4">
@@ -41,11 +42,11 @@ const totalPages = Math.ceil(sortedPosts.length / PAGE_SIZE);
 
     <main class="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 py-4">
       {paginatedPosts.map((post) => {
-        const imageUrl = post.data.image ?? "/assets/default-thumbnail.png";
+        const imageUrl = post.data.thumbnail ?? "/assets/default-thumbnail.jpg";
         const title = post.data.title;
         const source = post.data.source;
         const pubDate = new Date(post.data.pubDate).toLocaleDateString("ja-JP");
-        const summary = post.data.description?.slice(0, 100) + "...";
+        const summary = post.data.summary ?? "";
         const url = post.data.link;
 
         return (
@@ -56,9 +57,9 @@ const totalPages = Math.ceil(sortedPosts.length / PAGE_SIZE);
             class="block bg-white rounded-xl shadow hover:shadow-md transition duration-300 overflow-hidden"
           >
             <img src={imageUrl} alt={title} class="w-full h-40 object-cover" loading="lazy" />
-            <div class="p-4 space-y-2">
+            <div class="p-4 space-y-2 text-left">
               <p class="text-sm text-green-600">{source}</p>
-              <h2 class="font-bold text-blue-600 text-base">{title}</h2>
+              <h2 class="font-bold text-blue-600 text-base line-clamp-2">{title}</h2>
               <p class="text-xs text-green-700">{pubDate}</p>
               <p class="text-sm text-gray-600 line-clamp-3">{summary}</p>
             </div>
@@ -82,3 +83,25 @@ const totalPages = Math.ceil(sortedPosts.length / PAGE_SIZE);
     </footer>
   </body>
 </html>
+
+---
+export async function getStaticPaths() {
+  const PAGE_SIZE = 30;
+  const allPosts = await getCollection("posts");
+
+  const sorts = ["date", "source"];
+  const paths = [];
+
+  for (const sort of sorts) {
+    const sorted = sort === "source"
+      ? [...allPosts].sort((a, b) => a.data.source.localeCompare(b.data.source))
+      : [...allPosts].sort((a, b) => new Date(b.data.pubDate) - new Date(a.data.pubDate));
+
+    const totalPages = Math.ceil(sorted.length / PAGE_SIZE);
+    for (let i = 1; i <= totalPages; i++) {
+      paths.push({ params: { sort, page: String(i) } });
+    }
+  }
+
+  return paths;
+}
