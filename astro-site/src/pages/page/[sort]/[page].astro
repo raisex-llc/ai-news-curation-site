@@ -1,6 +1,5 @@
 ---
-// [sort]/[page].astro 一覧ページ：GitHubPages対応
-
+// [page].astro
 import { getCollection } from "astro:content";
 import "../../../styles/global.css";
 
@@ -12,7 +11,7 @@ const allPosts = await getCollection("posts");
 
 const sortedPosts = sort === "source"
   ? [...allPosts].sort((a, b) => a.data.source.localeCompare(b.data.source))
-  : [...allPosts].sort((a, b) => new Date(b.data.pubDate) - new Date(a.data.pubDate));
+  : [...allPosts].sort((a, b) => new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime());
 
 const start = (currentPage - 1) * PAGE_SIZE;
 const end = currentPage * PAGE_SIZE;
@@ -84,7 +83,7 @@ const totalPages = Math.ceil(sortedPosts.length / PAGE_SIZE);
   </body>
 </html>
 
-<!-- ✅ Astroフロントマター外で export -->
+<!-- ✅ この下は JS だけ。フロントマターなし！ -->
 export async function getStaticPaths() {
   const PAGE_SIZE = 30;
   const allPosts = await import("astro:content").then((m) => m.getCollection("posts"));
