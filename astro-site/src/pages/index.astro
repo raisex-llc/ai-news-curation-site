@@ -6,12 +6,13 @@ import { getCollection } from "astro:content";
 import "../styles/global.css";
 
 const posts = (await getCollection("posts"))
-  .filter(p => p.data?.pubDate) // pubDate があるものだけ
+  .filter(p => p.data?.pubDate)
   .sort((a, b) => new Date(b.data.pubDate) - new Date(a.data.pubDate))
-  .slice(0, 30); // 最初の30件
+  .slice(0, 30);
 
 const base = Astro.site?.pathname ?? '';
 ---
+
 <html lang="ja">
   <head>
     <meta charset="UTF-8" />
@@ -19,48 +20,47 @@ const base = Astro.site?.pathname ?? '';
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
   <body class="bg-[#f5f8ff] text-gray-800 font-sans" id="top">
-    <!-- ✅ ヘッダー -->
     <header class="text-center py-6 border-b border-gray-200">
       <h1 class="text-2xl font-bold text-blue-700">AIニュースまとめ</h1>
       <p class="text-sm text-gray-500 mt-1">最新のAI関連ニュースをお届けします</p>
     </header>
 
-    <!-- ✅ 広告枠（ヘッダー下） -->
     <div class="mx-auto max-w-screen-md py-4">
       <div class="bg-gray-100 text-center py-4">🔰 広告エリア（ヘッダー下）</div>
     </div>
 
-    <!-- ✅ 記事カード一覧 -->
     <main class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-4 max-w-screen-xl mx-auto py-8">
-      {posts.map(({ data }, index) => (
-        <a
-          href={data.link}
-          target="_blank"
-          rel="noopener noreferrer"
-          class="block border border-gray-200 rounded-lg overflow-hidden shadow hover:shadow-md transition bg-white"
-        >
-          <img
-            src={data.thumbnail || `${base}/assets/default-thumbnail.jpg`}
-            alt="サムネイル"
-            class="w-full h-48 object-cover"
-            loading="lazy"
-          />
-          <div class="p-4 text-left space-y-1">
-            <p class="text-green-600 text-xs">{data.media}</p>
-            <h2 class="text-blue-700 font-semibold text-base line-clamp-2">{data.title}</h2>
-            <p class="text-sm text-gray-600 line-clamp-3">{data.summary}</p>
-            <p class="text-xs text-green-600">{data.pubDate}</p>
-          </div>
-        </a>
-      ))}
+      {posts.map(({ data }) => {
+        const image = data.thumbnail || `${base}/assets/default-thumbnail.jpg`;
+        const date = new Date(data.pubDate).toLocaleDateString("ja-JP"); // 年/月/日のみ
+        return (
+          <a
+            href={data.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="block border border-gray-200 rounded-lg overflow-hidden shadow hover:shadow-md transition bg-white"
+          >
+            <img
+              src={image}
+              alt="サムネイル"
+              class="w-full h-48 object-cover"
+              loading="lazy"
+            />
+            <div class="p-4 text-left space-y-1">
+              <p class="text-green-600 text-xs">{data.media || data.source || "不明なメディア"}</p>
+              <h2 class="text-blue-700 font-semibold text-base line-clamp-2">{data.title}</h2>
+              <p class="text-sm text-gray-600 line-clamp-3">{data.summary}</p>
+              <p class="text-xs text-green-600">{date}</p>
+            </div>
+          </a>
+        );
+      })}
     </main>
 
-    <!-- ✅ 広告枠（カード下） -->
     <div class="mx-auto max-w-screen-md py-4">
       <div class="bg-gray-100 text-center py-4">📢 広告エリア（記事下）</div>
     </div>
 
-    <!-- ✅ ページネーション + TOPへ -->
     <div class="flex flex-col sm:flex-row justify-center gap-4 py-6 items-center">
       <a href={`${base}/page/date/2`} class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">
         次のページ →
@@ -70,7 +70,6 @@ const base = Astro.site?.pathname ?? '';
       </a>
     </div>
 
-    <!-- ✅ フッター -->
     <footer class="text-center text-sm text-gray-500 py-6 border-t border-gray-200">
       © 2025 raisex, LLC. All rights reserved.
     </footer>
