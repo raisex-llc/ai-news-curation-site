@@ -84,18 +84,19 @@ const totalPages = Math.ceil(sortedPosts.length / PAGE_SIZE);
   </body>
 </html>
 
-<!-- 👇 getStaticPaths は HTML の外、かつ Astro フロントマター外で定義 -->
+<!-- ✅ Astroフロントマター外で export -->
 export async function getStaticPaths() {
   const PAGE_SIZE = 30;
-  const allPosts = await import("astro:content").then(m => m.getCollection("posts"));
+  const allPosts = await import("astro:content").then((m) => m.getCollection("posts"));
 
   const sorts = ["date", "source"];
   const paths = [];
 
   for (const sort of sorts) {
-    const sorted = sort === "source"
-      ? [...allPosts].sort((a, b) => a.data.source.localeCompare(b.data.source))
-      : [...allPosts].sort((a, b) => new Date(b.data.pubDate) - new Date(a.data.pubDate));
+    const sorted =
+      sort === "source"
+        ? [...allPosts].sort((a, b) => a.data.source.localeCompare(b.data.source))
+        : [...allPosts].sort((a, b) => new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime());
 
     const totalPages = Math.ceil(sorted.length / PAGE_SIZE);
     for (let i = 1; i <= totalPages; i++) {
