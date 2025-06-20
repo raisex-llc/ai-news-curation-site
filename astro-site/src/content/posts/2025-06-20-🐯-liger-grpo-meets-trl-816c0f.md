@@ -9,7 +9,6 @@ tags:
 - transformers
 - nlp
 url: https://huggingface.co/blog/liger-grpo
-thumbnail: ''
 ---
 
 Thank you for your great work.

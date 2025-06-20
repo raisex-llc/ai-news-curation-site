@@ -9,7 +9,6 @@ tags:
 - transformers
 - nlp
 url: https://huggingface.co/blog/screensuite
-thumbnail: ''
 ---
 
 ScreenSuite - The most comprehensive evaluation suite for GUI Agents!

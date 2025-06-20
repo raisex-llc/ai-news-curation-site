@@ -9,7 +9,6 @@ tags:
 - transformers
 - nlp
 url: https://huggingface.co/blog/vllm-colocate
-thumbnail: ''
 ---
 
 No GPU left behind: Unlocking Efficiency with Co-located vLLM in TRL

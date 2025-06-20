@@ -9,7 +9,6 @@ tags:
 - transformers
 - nlp
 url: https://huggingface.co/blog/nanovlm
-thumbnail: ''
 ---
 
 nanoVLM: The simplest repository to train your VLM in pure PyTorch

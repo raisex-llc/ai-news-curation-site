@@ -10,7 +10,6 @@ tags:
 - transformers
 - nlp
 url: https://huggingface.co/blog/smolvla
-thumbnail: ''
 ---
 
 SmolVLA: Efficient Vision-Language-Action Model trained on Lerobot Community Data

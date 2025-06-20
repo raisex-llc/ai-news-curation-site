@@ -55,8 +55,7 @@
         "summary",
         "pubDate",
         "source",
-        "url",
-        "thumbnail"
+        "url"
       ],
       "additionalProperties": false
     }

@@ -9,7 +9,6 @@ tags:
 - transformers
 - nlp
 url: https://huggingface.co/blog/hello-hf-kernels
-thumbnail: ''
 ---
 
 🏎️ Enhance Your Models in 5 Minutes with the Hugging Face Kernel Hub

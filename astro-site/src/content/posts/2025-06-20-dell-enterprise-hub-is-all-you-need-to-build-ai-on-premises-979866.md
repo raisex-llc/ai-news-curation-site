@@ -9,7 +9,6 @@ tags:
 - transformers
 - nlp
 url: https://huggingface.co/blog/dell-ai-applications
-thumbnail: ''
 ---
 
 Dell Enterprise Hub is all you need to build AI on premises

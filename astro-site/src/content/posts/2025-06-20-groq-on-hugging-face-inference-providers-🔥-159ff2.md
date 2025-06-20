@@ -9,7 +9,6 @@ tags:
 - transformers
 - nlp
 url: https://huggingface.co/blog/inference-providers-groq
-thumbnail: ''
 ---
 
 Groq on Hugging Face Inference Providers 🔥

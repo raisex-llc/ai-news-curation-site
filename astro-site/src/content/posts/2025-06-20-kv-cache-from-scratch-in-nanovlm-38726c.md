@@ -9,7 +9,6 @@ tags:
 - transformers
 - nlp
 url: https://huggingface.co/blog/kv-cache
-thumbnail: ''
 ---
 
 KV Cache from scratch in nanoVLM

@@ -9,7 +9,6 @@ tags:
 - transformers
 - nlp
 url: https://huggingface.co/blog/python-tiny-agents
-thumbnail: ''
 ---
 
 Tiny Agents in Python: an MCP-powered agent in ~70 lines of code

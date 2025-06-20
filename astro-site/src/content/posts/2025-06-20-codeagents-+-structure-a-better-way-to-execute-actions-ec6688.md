@@ -9,7 +9,6 @@ tags:
 - transformers
 - nlp
 url: https://huggingface.co/blog/structured-codeagent
-thumbnail: ''
 ---
 
 CodeAgents + Structure: A Better Way to Execute Actions

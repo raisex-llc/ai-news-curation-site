@@ -9,7 +9,6 @@ tags:
 - transformers
 - nlp
 url: https://huggingface.co/blog/nvidia-training-cluster
-thumbnail: ''
 ---
 
 Introducing Training Cluster as a Service - a new collaboration with NVIDIA

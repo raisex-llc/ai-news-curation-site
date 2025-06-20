@@ -9,7 +9,6 @@ tags:
 - transformers
 - nlp
 url: https://huggingface.co/blog/azure-ai-foundry
-thumbnail: ''
 ---
 
 Microsoft and Hugging Face expand collaboration to make open models easy to use on Azure

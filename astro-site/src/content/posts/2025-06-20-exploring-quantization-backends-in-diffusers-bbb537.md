@@ -9,7 +9,6 @@ tags:
 - transformers
 - nlp
 url: https://huggingface.co/blog/diffusers-quantization
-thumbnail: ''
 ---
 
 Exploring Quantization Backends in Diffusers

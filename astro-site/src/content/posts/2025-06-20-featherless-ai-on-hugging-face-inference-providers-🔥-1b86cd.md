@@ -9,7 +9,6 @@ tags:
 - transformers
 - nlp
 url: https://huggingface.co/blog/inference-providers-featherless
-thumbnail: ''
 ---
 
 Featherless AI on Hugging Face Inference Providers 🔥
