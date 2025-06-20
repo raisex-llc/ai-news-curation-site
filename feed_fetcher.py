@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
-## 🐍 feed_fetcher.py
-"""RSS -> Markdown 生成スクリプト
-実行すると astro-site/src/content/posts/ に .md を追加する。
+"""🐍 RSS -> Markdown 生成スクリプト
+astro-site/src/content/posts/ に .md を追加する。
 """
 import feedparser
 import requests
@@ -54,7 +53,7 @@ def extract_thumbnail(entry: dict) -> str:
         return entry.image.get("href", "")
     elif "enclosures" in entry and entry.enclosures:
         return entry.enclosures[0].get("href", "")
-    return ""
+    return None  # ← ❗空文字ではなく None
 
 def main():
     print(f"[DEBUG] 読み込んだソース数: {len(SOURCES)}")
@@ -65,6 +64,7 @@ def main():
             print(f"[ERROR] {s['name']} RSS取得エラー: {feed.bozo_exception}")
         else:
             print(f"[DEBUG] {s['name']} - entries数: {len(feed.entries)}")
+
         for entry in feed.entries:
             date_prefix = datetime.utcnow().strftime(DATE_FMT_MD)
             slug_base = slugify(entry.title)
@@ -80,20 +80,27 @@ def main():
 
             body = sanitize_content(body)
 
+            thumbnail_url = extract_thumbnail(entry)
+            if thumbnail_url is not None and not re.match(r"^https?://", thumbnail_url):
+                thumbnail_url = None  # 無効なURLは除外
+
             front = {
-                "title": entry.title,
-                "description": entry.get("summary", ""),
-                "summary": entry.get("summary", "")[:120],
+                "title": entry.title.strip(),
+                "description": entry.get("summary", "").strip(),
+                "summary": entry.get("summary", "").strip()[:120],
                 "pubDate": entry.get("published", datetime.utcnow().isoformat()),
                 "source": s["name"],
                 "tags": s.get("tags", []),
                 "url": entry.link,
-                "thumbnail": extract_thumbnail(entry)
             }
+
+            if thumbnail_url:
+                front["thumbnail"] = thumbnail_url  # 有効なときだけ追加
 
             with open(md_path, "w", encoding="utf-8") as f:
                 f.write(make_frontmatter(front))
                 f.write(body)
+
             print(f"[INFO] saved {md_path}")
 
 if __name__ == "__main__":
