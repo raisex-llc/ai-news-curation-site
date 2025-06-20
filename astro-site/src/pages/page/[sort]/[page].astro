@@ -1,7 +1,9 @@
 ---
 // [sort]/[page].astro
 // ✅ Astro Frontmatterで getStaticPaths を定義
+
 import { getCollection } from "astro:content";
+import "../../styles/global.css";
 
 export async function getStaticPaths() {
   const PAGE_SIZE = 30;
@@ -47,14 +49,12 @@ const totalPages = Math.ceil(sortedPosts.length / PAGE_SIZE);
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
   <body class="bg-[#f5f8ff] text-gray-800 font-sans" id="top">
-    <!-- ✅ ヘッダー -->
     <header class="text-center py-6 border-b border-gray-200">
       <h1 class="text-2xl font-bold text-blue-700">AIニュースまとめ</h1>
       <p class="text-sm text-gray-500 mt-1">最新のAI関連ニュースをお届けします</p>
     </header>
 
-    <!-- ✅ カード一覧 -->
-    <main class="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 py-4">
+    <main class="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-4 py-8">
       {
         paginatedPosts.map((post) => {
           const imageUrl = post.data.thumbnail ?? "/assets/default-thumbnail.jpg";
@@ -69,11 +69,11 @@ const totalPages = Math.ceil(sortedPosts.length / PAGE_SIZE);
               href={url}
               target="_blank"
               rel="noopener noreferrer"
-              class="block bg-white rounded-xl shadow hover:shadow-md transition duration-300 overflow-hidden"
+              class="block bg-white rounded-xl border border-gray-300 shadow-sm hover:shadow-md transition overflow-hidden"
             >
-              <img src={imageUrl} alt={title} class="w-full h-40 object-cover" loading="lazy" />
+              <img src={imageUrl} alt="サムネイル" class="w-full h-40 object-cover bg-gray-100" loading="lazy" />
               <div class="p-4 space-y-1 text-left">
-                <p class="text-xs text-green-600">{source}</p>
+                <p class="text-xs text-green-600 font-medium">{source}</p>
                 <h2 class="font-semibold text-blue-700 text-base line-clamp-2">{title}</h2>
                 <p class="text-xs text-green-700">{pubDate}</p>
                 <p class="text-sm text-gray-600 line-clamp-3">{summary}</p>
@@ -84,7 +84,6 @@ const totalPages = Math.ceil(sortedPosts.length / PAGE_SIZE);
       }
     </main>
 
-    <!-- ✅ ページネーション + TOPへ -->
     <div class="flex flex-col sm:flex-row justify-center gap-4 py-6 items-center">
       {currentPage < totalPages && (
         <a href={`/page/${sort}/${currentPage + 1}`} class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">
@@ -96,7 +95,6 @@ const totalPages = Math.ceil(sortedPosts.length / PAGE_SIZE);
       </a>
     </div>
 
-    <!-- ✅ フッター -->
     <footer class="text-center text-sm text-gray-500 py-6 border-t border-gray-200">
       © 2025 raisex, LLC. All rights reserved.
     </footer>
