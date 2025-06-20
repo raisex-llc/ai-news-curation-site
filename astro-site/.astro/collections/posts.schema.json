@@ -10,6 +10,9 @@
         "description": {
           "type": "string"
         },
+        "summary": {
+          "type": "string"
+        },
         "pubDate": {
           "anyOf": [
             {
@@ -39,15 +42,21 @@
           "type": "string",
           "format": "uri"
         },
+        "thumbnail": {
+          "type": "string",
+          "format": "uri"
+        },
         "$schema": {
           "type": "string"
         }
       },
       "required": [
         "title",
+        "summary",
         "pubDate",
         "source",
-        "url"
+        "url",
+        "thumbnail"
       ],
       "additionalProperties": false
     }
