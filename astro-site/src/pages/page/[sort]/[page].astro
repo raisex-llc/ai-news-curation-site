@@ -85,9 +85,10 @@ const totalPages = Math.ceil(sortedPosts.length / PAGE_SIZE);
 </html>
 
 ---
+// 👇 getStaticPaths は HTML の外、かつ Astro フロントマター外で定義
 export async function getStaticPaths() {
   const PAGE_SIZE = 30;
-  const allPosts = await getCollection("posts");
+  const allPosts = await import("astro:content").then(m => m.getCollection("posts"));
 
   const sorts = ["date", "source"];
   const paths = [];
