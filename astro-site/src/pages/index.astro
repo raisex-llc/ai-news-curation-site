@@ -3,7 +3,7 @@
 // 🏠 Flipboard風 一覧ページ（1ページ目）
 // Markdown記事を取得
 import { getCollection } from "astro:content";
-import "../../styles/global.css";
+import "../styles/global.css";
 
 const posts = (await getCollection("posts"))
   .sort((a, b) => new Date(b.data.pubDate) - new Date(a.data.pubDate))
