@@ -4,24 +4,12 @@ import "../../../styles/global.css";
 import { getCollection } from "astro:content";
 import Card from "../../../components/ArticleCard.astro";
 
-const { sort, page } = Astro.params;
-const currentPage = parseInt(page);
+// ページネーション定義
 const PAGE_SIZE = 30;
 
-const allPosts = await getCollection("posts");
-
-const sorted = sort === "source"
-  ? [...allPosts].sort((a, b) => a.data.source.localeCompare(b.data.source))
-  : [...allPosts].sort((a, b) => new Date(b.data.pubDate) - new Date(a.data.pubDate));
-
-const totalPages = Math.ceil(sorted.length / PAGE_SIZE);
-const paginated = sorted.slice((currentPage - 1) * PAGE_SIZE, currentPage * PAGE_SIZE);
-
-// ✅ 修正済みの getStaticPaths
+// getStaticPaths 定義（⚠️ ブロック内に完全に含める）
 export async function getStaticPaths() {
-  const PAGE_SIZE = 30;
   const allPosts = await getCollection("posts");
-
   const sorts = ["date", "source"];
   const paths = [];
 
@@ -36,11 +24,20 @@ export async function getStaticPaths() {
     }
   }
 
-  return {
-    paths,
-    fallback: false, // ← ✅ これを追加しないと Astro がエラーを出す
-  };
+  return paths; // ✅ ここ重要：「{ paths }」ではない、「配列」で返す
 }
+
+// 各ページのデータ取得
+const { sort, page } = Astro.params;
+const currentPage = parseInt(page);
+const allPosts = await getCollection("posts");
+
+const sorted = sort === "source"
+  ? [...allPosts].sort((a, b) => a.data.source.localeCompare(b.data.source))
+  : [...allPosts].sort((a, b) => new Date(b.data.pubDate) - new Date(a.data.pubDate));
+
+const totalPages = Math.ceil(sorted.length / PAGE_SIZE);
+const paginated = sorted.slice((currentPage - 1) * PAGE_SIZE, currentPage * PAGE_SIZE);
 ---
 
 <html lang="ja">
