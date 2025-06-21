@@ -1,55 +1,55 @@
 ---
-// ✅ フロントマター：ページごとのデータ取得
-import { getCollection } from 'astro:content';
-import ArticleCard from '../../../components/ArticleCard.astro';
+// /src/pages/page/[sort]/[page].astro
+import "../../../styles/global.css";
+import { getCollection } from "astro:content";
+import Card from "../../../components/Card.astro";
 
 const PAGE_SIZE = 30;
+
 const { sort, page } = Astro.params;
+const currentPage = parseInt(page);
+const allPosts = await getCollection("posts");
 
-const allPosts = await getCollection('posts');
-const sortedPosts = sort === 'source'
+const sorted = sort === "source"
   ? [...allPosts].sort((a, b) => a.data.source.localeCompare(b.data.source))
-  : [...allPosts].sort((a, b) => new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime());
+  : [...allPosts].sort((a, b) => new Date(b.data.pubDate) - new Date(a.data.pubDate));
 
-const currentPage = Number(page);
-const totalPages = Math.ceil(sortedPosts.length / PAGE_SIZE);
-const startIndex = (currentPage - 1) * PAGE_SIZE;
-const posts = sortedPosts.slice(startIndex, startIndex + PAGE_SIZE);
+const totalPages = Math.ceil(sorted.length / PAGE_SIZE);
+const paginated = sorted.slice((currentPage - 1) * PAGE_SIZE, currentPage * PAGE_SIZE);
 ---
 
 <html lang="ja">
   <head>
     <meta charset="UTF-8" />
-    <title>AIニュース一覧（{sort}）– Page {page}</title>
+    <title>ニュース一覧 - {{ sort }}順</title>
   </head>
-  <body class="bg-white text-black">
-    <main class="max-w-5xl mx-auto px-4 py-8">
-      <h1 class="text-3xl font-bold mb-6">AIニュース一覧（{sort}） - Page {page}</h1>
-
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-        {posts.map(post => (
-          <ArticleCard
+  <body>
+    <main class="max-w-screen-md mx-auto px-4 py-8">
+      <h1 class="text-2xl font-bold mb-6">ニュース一覧（{{ sort }}順）</h1>
+      <div class="space-y-6">
+        {paginated.map((post) => (
+          <Card
             title={post.data.title}
             pubDate={post.data.pubDate}
-            description={post.data.summary}
-            media={post.data.source}
-            thumbnail={post.data.thumbnail}
+            source={post.data.source}
             url={post.data.url}
+            thumbnail={post.data.thumbnail}
+            summary={post.data.summary}
           />
         ))}
       </div>
 
-      <div class="mt-8 flex justify-center gap-4">
-        {currentPage > 1 && (
-          <a href={`/page/${sort}/${currentPage - 1}`} class="px-4 py-2 bg-gray-200 rounded hover:bg-gray-300">
-            ← 前
-          </a>
-        )}
-        {currentPage < totalPages && (
-          <a href={`/page/${sort}/${currentPage + 1}`} class="px-4 py-2 bg-gray-200 rounded hover:bg-gray-300">
-            次 →
-          </a>
-        )}
+      <nav class="mt-10 flex justify-between items-center">
+        {currentPage > 1 ? (
+          <a href={`/page/${sort}/${currentPage - 1}`} class="text-blue-500 hover:underline">← 前のページ</a>
+        ) : <span></span>}
+        {currentPage < totalPages ? (
+          <a href={`/page/${sort}/${currentPage + 1}`} class="text-blue-500 hover:underline">次のページ →</a>
+        ) : <span></span>}
+      </nav>
+
+      <div class="mt-8 text-center">
+        <a href="/" class="text-sm text-gray-500 hover:underline">ページTOPへ</a>
       </div>
     </main>
   </body>
