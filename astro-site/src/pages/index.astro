@@ -3,88 +3,57 @@
 // 🏠 Flipboard風 一覧ページ（1ページ目）
 
 import { getCollection } from "astro:content";
-import "../styles/global.css";
 
-const posts = (await getCollection("posts"))
-  .filter(p => p.data?.pubDate)
-  .sort((a, b) => new Date(b.data.pubDate) - new Date(a.data.pubDate))
-  .slice(0, 30);
-
-const base = Astro.site?.pathname ?? '';
+const posts = await getCollection("posts");
+const PAGE_SIZE = 30;
+const currentPage = 1;
+const totalPages = Math.ceil(posts.length / PAGE_SIZE);
+const paginatedPosts = posts
+  .sort((a, b) => new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime())
+  .slice(0, PAGE_SIZE);
 ---
 
 <html lang="ja">
   <head>
     <meta charset="UTF-8" />
-    <title>AIニュースまとめ - 最新記事</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>最新AIニュースまとめ</title>
+    <link rel="stylesheet" href="/styles/global.css" />
   </head>
-  <body class="bg-[#f5f8ff] text-gray-800 font-sans">
-    <header class="sticky top-0 z-50 bg-[#f5f8ff] border-b border-gray-200">
-      <div class="flex flex-wrap justify-between items-center px-4 py-4 max-w-screen-xl mx-auto">
-        <div class="flex items-center gap-2">
-          <span class="text-3xl">🤖</span>
-          <h1 class="text-2xl font-bold text-sky-500 whitespace-nowrap">最新AIニュースまとめ</h1>
+  <body class="bg-gray-100 text-gray-900">
+    <header class="sticky top-0 z-50 bg-gray-100 border-b border-gray-300 px-4 py-2 flex flex-wrap items-center justify-between">
+      <div class="flex items-center gap-2">
+        <img src="/assets/logo.png" alt="ロゴ" class="w-10 h-10 object-contain" />
+        <h1 class="text-2xl font-bold text-sky-500">最新AIニュースまとめ</h1>
+        <span class="text-sm text-gray-600 ml-4">(ページ {currentPage} / 全{totalPages}ページ中)</span>
+      </div>
+      <div class="flex flex-wrap items-center gap-4 mt-2 md:mt-0">
+        <nav class="text-sm text-gray-700 flex gap-2">
+          並び順：
+          <a href="/page/date/1/" class="text-blue-600 hover:underline">新着順（投稿日が新しい順）</a> |
+          <a href="/page/source/1/" class="text-blue-600 hover:underline">ソース別</a>
+        </nav>
+        <div class="flex items-center gap-1">
+          <label for="search" class="text-blue-600 text-sm">記事検索</label>
+          <input id="search" name="search" type="text" placeholder="Search" class="border rounded px-2 py-1 text-sm" />
         </div>
-        <div class="flex flex-wrap gap-4 items-center text-sm text-gray-600">
-          <div class="flex gap-2">
-            <span>並び順：</span>
-            <a href="/page/date/1" class="text-blue-700 hover:underline">新着順（投稿日が新しい順）</a>
-            <span>|</span>
-            <a href="/page/source/1" class="text-blue-700 hover:underline">ソース別</a>
-          </div>
-          <div class="flex items-center gap-2">
-            <span class="text-sm text-gray-600">（ページ 1 / 全XXページ中）</span>
-          </div>
-          <div class="flex gap-2 items-center">
-            <span class="text-blue-700">記事検索</span>
-            <input type="text" placeholder="Search" class="border px-2 py-1 rounded" />
-          </div>
-          <div class="flex gap-3">
-            <span class="text-blue-500">← 前のページ</span>
-            <span class="text-blue-500">次のページ →</span>
-          </div>
+        <div class="text-sm text-blue-600">
+          <a href="#" class="mr-2">← 前のページ</a>
+          <a href="/page/date/2/">次のページ →</a>
         </div>
       </div>
     </header>
 
-    <main class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-4 max-w-screen-xl mx-auto py-8">
-      {
-        posts.map(({ data }) => {
-          const image = data.thumbnail || `${base}/assets/default-thumbnail.jpg`;
-          const title = data.title;
-          const source = data.media || data.source || "不明なメディア";
-          const date = new Date(data.pubDate).toLocaleDateString("ja-JP");
-          const summary = data.summary || "";
-          const url = data.url || "#";
-
-          return (
-            <a
-              href={url}
-              target="_blank"
-              rel="noopener noreferrer"
-              class="block bg-white border border-gray-300 rounded-lg overflow-hidden shadow hover:shadow-md transition"
-            >
-              <img
-                src={image}
-                alt="サムネイル"
-                class="w-full h-48 object-cover bg-gray-100"
-                loading="lazy"
-              />
-              <div class="p-4 text-left space-y-1">
-                <p class="text-green-600 text-xs font-medium">{source}</p>
-                <h2 class="text-blue-700 font-semibold text-base line-clamp-2">{title}</h2>
-                <p class="text-xs text-green-600">{date}</p>
-                <p class="text-sm text-gray-600 line-clamp-3">{summary}</p>
-              </div>
-            </a>
-          );
-        })
-      }
+    <main class="p-4">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        {paginatedPosts.map(post => (
+          <a href={post.data.url} target="_blank" rel="noopener noreferrer" class="block bg-white rounded-lg shadow p-4 hover:bg-gray-50 transition">
+            <img src={post.data.thumbnail ?? "/no-image.png"} alt="サムネイル" class="w-full h-40 object-cover rounded mb-2" />
+            <div class="text-sm text-gray-500">{post.data.source}：{new Date(post.data.pubDate).toLocaleDateString("ja-JP")}</div>
+            <h2 class="font-semibold">{post.data.title}</h2>
+            <p class="text-sm text-gray-600 mt-1">{post.data.summary ?? ""}</p>
+          </a>
+        ))}
+      </div>
     </main>
-
-    <footer class="text-center text-sm text-gray-500 py-6 border-t border-gray-200">
-      © 2025 raisex, LLC. All rights reserved.
-    </footer>
   </body>
 </html>

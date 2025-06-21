@@ -1,123 +1,64 @@
 ---
 // [sort]/[page].astro
+
 import { getCollection } from "astro:content";
-import "../../../styles/global.css";
 
-export async function getStaticPaths() {
-  const PAGE_SIZE = 30;
-  const allPosts = await getCollection("posts");
-  const sorts = ["date", "source"];
-  const paths = [];
-
-  for (const sort of sorts) {
-    const sorted =
-      sort === "source"
-        ? [...allPosts].sort((a, b) => a.data.source.localeCompare(b.data.source))
-        : [...allPosts].sort((a, b) => new Date(b.data.pubDate) - new Date(a.data.pubDate));
-
-    const totalPages = Math.ceil(sorted.length / PAGE_SIZE);
-    for (let i = 1; i <= totalPages; i++) {
-      paths.push({ params: { sort, page: String(i) } });
-    }
-  }
-
-  return paths;
-}
-
-const PAGE_SIZE = 30;
 const { sort, page } = Astro.params;
-const currentPage = Number(page || 1);
+const currentPage = parseInt(page);
+const PAGE_SIZE = 30;
 const allPosts = await getCollection("posts");
 
 const sortedPosts = sort === "source"
   ? [...allPosts].sort((a, b) => a.data.source.localeCompare(b.data.source))
-  : [...allPosts].sort((a, b) => new Date(b.data.pubDate) - new Date(a.data.pubDate));
+  : [...allPosts].sort((a, b) => new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime());
 
-const start = (currentPage - 1) * PAGE_SIZE;
-const end = currentPage * PAGE_SIZE;
-const paginatedPosts = sortedPosts.slice(start, end);
 const totalPages = Math.ceil(sortedPosts.length / PAGE_SIZE);
+const start = (currentPage - 1) * PAGE_SIZE;
+const end = start + PAGE_SIZE;
+const paginatedPosts = sortedPosts.slice(start, end);
 ---
 
 <html lang="ja">
   <head>
     <meta charset="UTF-8" />
-    <title>最新AIニュースまとめ</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AIニュース - {sort}順 {page}ページ目</title>
+    <link rel="stylesheet" href="/styles/global.css" />
   </head>
-  <body class="bg-[#f5f8ff] text-gray-800 font-sans">
-    <header class="sticky top-0 bg-[#f5f8ff] z-50 border-b border-gray-300 shadow-sm">
-      <div class="max-w-7xl mx-auto px-4 py-4 flex flex-col sm:flex-row items-center justify-between gap-4">
-        <div class="flex flex-col sm:flex-row items-start sm:items-center gap-2">
-          <h1 class="text-3xl font-bold text-sky-500 whitespace-nowrap">🤖 最新AIニュースまとめ</h1>
-          <p class="text-sm text-gray-600 sm:ml-4">(ページ {currentPage} / 全{totalPages}ページ中)</p>
-        </div>
-        <div class="flex items-center gap-2">
-          <label class="text-sm text-blue-800 font-medium">記事検索</label>
-          <input type="text" placeholder="Search" class="px-2 py-1 border rounded text-sm" />
-        </div>
+  <body class="bg-gray-100 text-gray-900">
+    <header class="sticky top-0 z-50 bg-gray-100 border-b border-gray-300 px-4 py-2 flex flex-wrap items-center justify-between">
+      <div class="flex items-center gap-2">
+        <img src="/assets/logo.png" alt="ロゴ" class="w-10 h-10 object-contain" />
+        <h1 class="text-2xl font-bold text-sky-500">最新AIニュースまとめ</h1>
+        <span class="text-sm text-gray-600 ml-4">(ページ {currentPage} / 全{totalPages}ページ中)</span>
       </div>
-      <div class="max-w-7xl mx-auto px-4 pb-2 flex flex-wrap gap-4 items-center text-sm text-blue-800">
-        <div class="flex items-center gap-2">
-          <span class="text-gray-600">並び順：</span>
-          <a href="/page/date/1" class={sort === "date" ? "font-bold underline" : ""}>新着順（投稿日が新しい順）</a>
-          <span>|</span>
-          <a href="/page/source/1" class={sort === "source" ? "font-bold underline" : ""}>ソース別</a>
+      <div class="flex flex-wrap items-center gap-4 mt-2 md:mt-0">
+        <nav class="text-sm text-gray-700 flex gap-2">
+          並び順：
+          <a href="/page/date/1/" class="text-blue-600 hover:underline">新着順（投稿日が新しい順）</a> |
+          <a href="/page/source/1/" class="text-blue-600 hover:underline">ソース別</a>
+        </nav>
+        <div class="flex items-center gap-1">
+          <label for="search" class="text-blue-600 text-sm">記事検索</label>
+          <input id="search" name="search" type="text" placeholder="Search" class="border rounded px-2 py-1 text-sm" />
         </div>
-        <div class="ml-auto flex items-center gap-4 text-blue-700">
-          {currentPage > 1 && (
-            <a href={`/page/${sort}/${currentPage - 1}`}>&larr; 前のページ</a>
-          )}
-          {currentPage < totalPages && (
-            <a href={`/page/${sort}/${currentPage + 1}`}>次のページ &rarr;</a>
-          )}
+        <div class="text-sm text-blue-600">
+          {currentPage > 1 && <a href={`/page/${sort}/${currentPage - 1}/`} class="mr-2">← 前のページ</a>}
+          {currentPage < totalPages && <a href={`/page/${sort}/${currentPage + 1}/`}>次のページ →</a>}
         </div>
       </div>
     </header>
 
-    <main class="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-4 py-8">
-      {
-        paginatedPosts.map((post) => {
-          const imageUrl = post.data.thumbnail ?? "/assets/default-thumbnail.jpg";
-          const title = post.data.title;
-          const source = post.data.media ?? post.data.source ?? "不明なメディア";
-          const pubDate = new Date(post.data.pubDate).toLocaleDateString("ja-JP");
-          const summary = post.data.summary ?? "";
-          const url = post.data.url ?? post.data.link ?? "#";
-
-          return (
-            <a
-              href={url}
-              target="_blank"
-              rel="noopener noreferrer"
-              class="block bg-white rounded-xl border border-gray-300 shadow-sm hover:shadow-md transition overflow-hidden"
-            >
-              <img src={imageUrl} alt="サムネイル" class="w-full h-40 object-cover bg-gray-100" loading="lazy" />
-              <div class="p-4 space-y-1 text-left">
-                <p class="text-xs text-green-600 font-medium">{source}</p>
-                <h2 class="font-semibold text-blue-700 text-base line-clamp-2">{title}</h2>
-                <p class="text-xs text-green-700">{pubDate}</p>
-                <p class="text-sm text-gray-600 line-clamp-3">{summary}</p>
-              </div>
-            </a>
-          );
-        })
-      }
+    <main class="p-4">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        {paginatedPosts.map(post => (
+          <a href={post.data.url} target="_blank" rel="noopener noreferrer" class="block bg-white rounded-lg shadow p-4 hover:bg-gray-50 transition">
+            <img src={post.data.thumbnail ?? "/no-image.png"} alt="サムネイル" class="w-full h-40 object-cover rounded mb-2" />
+            <div class="text-sm text-gray-500">{post.data.source}：{new Date(post.data.pubDate).toLocaleDateString("ja-JP")}</div>
+            <h2 class="font-semibold">{post.data.title}</h2>
+            <p class="text-sm text-gray-600 mt-1">{post.data.summary ?? ""}</p>
+          </a>
+        ))}
+      </div>
     </main>
-
-    <div class="flex flex-col sm:flex-row justify-center gap-4 py-6 items-center">
-      {currentPage < totalPages && (
-        <a href={`/page/${sort}/${currentPage + 1}`} class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">
-          次のページ →
-        </a>
-      )}
-      <a href="#top" class="bg-gray-300 text-gray-800 px-4 py-2 rounded hover:bg-gray-400">
-        ページTOPへ ↑
-      </a>
-    </div>
-
-    <footer class="text-center text-sm text-gray-500 py-6 border-t border-gray-200">
-      © 2025 raisex, LLC. All rights reserved.
-    </footer>
   </body>
 </html>
