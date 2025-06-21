@@ -4,10 +4,21 @@ import "../../../styles/global.css";
 import { getCollection } from "astro:content";
 import Card from "../../../components/ArticleCard.astro";
 
-// ページネーション定義
+// ✅ 1. ページネーションサイズ（この定義は export 関数の中でも使えないため、再定義が必要）
+const { sort, page } = Astro.params;
+const currentPage = parseInt(page);
+const allPosts = await getCollection("posts");
+
 const PAGE_SIZE = 30;
 
-// getStaticPaths 定義（⚠️ ブロック内に完全に含める）
+const sorted = sort === "source"
+  ? [...allPosts].sort((a, b) => a.data.source.localeCompare(b.data.source))
+  : [...allPosts].sort((a, b) => new Date(b.data.pubDate) - new Date(a.data.pubDate));
+
+const totalPages = Math.ceil(sorted.length / PAGE_SIZE);
+const paginated = sorted.slice((currentPage - 1) * PAGE_SIZE, currentPage * PAGE_SIZE);
+
+// ✅ 2. getStaticPaths は中で PAGE_SIZE を再定義する！
 export async function getStaticPaths() {
   const allPosts = await getCollection("posts");
   const sorts = ["date", "source"];
@@ -18,26 +29,16 @@ export async function getStaticPaths() {
       ? [...allPosts].sort((a, b) => a.data.source.localeCompare(b.data.source))
       : [...allPosts].sort((a, b) => new Date(b.data.pubDate) - new Date(a.data.pubDate));
 
+    const PAGE_SIZE = 30; // ← ⚠️ 関数スコープ内で再定義しないと Astro は build 時に落ちる
+
     const totalPages = Math.ceil(sorted.length / PAGE_SIZE);
     for (let i = 1; i <= totalPages; i++) {
       paths.push({ params: { sort, page: String(i) } });
     }
   }
 
-  return paths; // ✅ ここ重要：「{ paths }」ではない、「配列」で返す
+  return paths;
 }
-
-// 各ページのデータ取得
-const { sort, page } = Astro.params;
-const currentPage = parseInt(page);
-const allPosts = await getCollection("posts");
-
-const sorted = sort === "source"
-  ? [...allPosts].sort((a, b) => a.data.source.localeCompare(b.data.source))
-  : [...allPosts].sort((a, b) => new Date(b.data.pubDate) - new Date(a.data.pubDate));
-
-const totalPages = Math.ceil(sorted.length / PAGE_SIZE);
-const paginated = sorted.slice((currentPage - 1) * PAGE_SIZE, currentPage * PAGE_SIZE);
 ---
 
 <html lang="ja">
