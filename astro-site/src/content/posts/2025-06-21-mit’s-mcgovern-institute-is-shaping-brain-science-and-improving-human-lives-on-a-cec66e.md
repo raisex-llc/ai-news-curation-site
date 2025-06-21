@@ -1,0 +1,33 @@
+---
+title: MIT’s McGovern Institute is shaping brain science and improving human lives
+  on a global scale
+description: A quarter century after its founding, the McGovern Institute reflects
+  on its discoveries in the areas of neuroscience, neurotechnology, artificial intelligence,
+  brain-body connections, and therapeutics.
+summary: A quarter century after its founding, the McGovern Institute reflects on
+  its discoveries in the areas of neuroscience, n
+pubDate: Fri, 18 Apr 2025 10:40:00 -0400
+source: MIT
+tags:
+- mit
+- ai
+url: https://news.mit.edu/2025/mit-mcgovern-institute-shaping-brain-science-improving-human-lives-0418
+---
+
+In 2000, Patrick J. McGovern ’59 and Lore Harp McGovern made an extraordinary gift to establish the McGovern Institute for Brain Research at MIT, driven by their deep curiosity about the human mind and their belief in the power of science to change lives. Their $350 million pledge began with a simple yet audacious vision: to understand the human brain in all its complexity, and to leverage that understanding for the betterment of humanity.
+Twenty-five years later, the McGovern Institute stands as a testament to the power of interdisciplinary collaboration, continuing to shape our understanding of the brain and improve the quality of life for people worldwide.
+In the beginning
+“This is, by any measure, a truly historic moment for MIT,” said MIT’s 15th president, Charles M. Vest, during his opening remarks at an event in 2000 to celebrate the McGovern gift agreement. “The creation of the McGovern Institute will launch one of the most profound and important scientific ventures of this century in what surely will be a cornerstone of MIT scientific contributions from the decades ahead.”
+Vest tapped Phillip A. Sharp, MIT Institute professor emeritus of biology and Nobel laureate, to lead the institute, and appointed six MIT professors — Emilio Bizzi, Martha Constantine-Paton, Ann Graybiel PhD ’71, H. Robert Horvitz ’68, Nancy Kanwisher ’80, PhD ’86, and Tomaso Poggio — to represent its founding faculty. Construction began in 2003 on Building 46, a 376,000 square foot research complex at the northeastern edge of campus. MIT’s new “gateway from the north” would eventually house the McGovern Institute, the Picower Institute for Learning and Memory, and MIT’s Department of Brain and Cognitive Sciences.
+Robert Desimone, the Doris and Don Berkey Professor of Neuroscience at MIT, succeeded Sharp as director of the McGovern Institute in 2005, and assembled a distinguished roster of 22 faculty members, including a Nobel laureate, a Breakthrough Prize winner, two National Medal of Science/Technology awardees, and 15 members of the American Academy of Arts and Sciences.
+A quarter century of innovation
+On April 11, 2025, the McGovern Institute celebrated its 25th anniversary with a half-day symposium featuring presentations by MIT Institute Professor Robert Langer, alumni speakers from various McGovern labs, and Desimone, who is in his 20th year as director of the institute.
+Desimone highlighted the institute’s recent discoveries, including the development of the CRISPR genome-editing system, which has culminated in the world’s first CRISPR gene therapy approved for humans — a remarkable achievement that is ushering in a new era of transformative medicine. In other milestones, McGovern researchers developed the first prosthetic limb fully controlled by the body’s nervous system; a flexible probe that taps into gut-brain communication; an expansion microscopy technique that paves the way for biology labs around the world to perform nanoscale imaging; and advanced computational models that demonstrate how we see, hear, use language, and even think about what others are thinking. Equally transformative has been the McGovern Institute’s work in neuroimaging, uncovering the architecture of human thought and establishing markers that signal the early emergence of mental illness, before symptoms even appear.
+Synergy and open science
+“I am often asked what makes us different from other neuroscience institutes and programs around the world,” says Desimone. “My answer is simple. At the McGovern Institute, the whole is greater than the sum of its parts.”
+Many discoveries at the McGovern Institute have depended on collaborations across multiple labs, ranging from biological engineering to human brain imaging and artificial intelligence. In modern brain research, significant advances often require the joint expertise of people working in neurophysiology, behavior, computational analysis, neuroanatomy, and molecular biology. More than a dozen different MIT departments are represented by McGovern faculty and graduate students, and this synergy has led to insights and innovations that are far greater than what any single discipline could achieve alone.
+Also baked into the McGovern ethos is a spirit of open science, where newly developed technologies are shared with colleagues around the world. Through hospital partnerships for example, McGovern researchers are testing their tools and therapeutic interventions in clinical settings, accelerating their discoveries into real-world solutions.
+The McGovern legacy
+Hundreds of scientific papers have emerged from McGovern labs over the past 25 years, but most faculty would argue that it’s the people — the young researchers — that truly define the McGovern Institute. Award-winning faculty often attract the brightest young minds, but many McGovern faculty also serve as mentors, creating a diverse and vibrant scientific community that is setting the global standard for brain research and its applications. Kanwisher, for example, has guided more than 70 doctoral students and postdocs who have gone on to become leading scientists around the world. Three of her former students, Evelina Fedorenko PhD ’07, Josh McDermott PhD ’06, and Rebecca Saxe PhD ’03, the John W. Jarve (1978) Professor of Brain and Cognitive Sciences, are now her colleagues at the McGovern Institute. Other McGovern alumni shared stories of mentorship, science, and real-world impact at the 25th anniversary symposium.
+Looking to the future, the McGovern community is more committed than ever to unraveling the mysteries of the brain and making a meaningful difference in lives of individuals at a global scale.
+“By promoting team science, open communication, and cross-discipline partnerships,” says institute co-founder Lore Harp McGovern, “our culture demonstrates how individual expertise can be amplified through collective effort. I am honored to be the co-founder of this incredible institution — onward to the next 25 years!”

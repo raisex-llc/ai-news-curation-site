@@ -1,62 +1,40 @@
 ---
 // /pages/index.astro
 // 🏠 Flipboard風 一覧ページ（1ページ目）
-
 import { getCollection } from "astro:content";
 import ArticleCard from "../components/ArticleCard.astro";
 
-const posts = (await getCollection("posts"))
-  .filter(p => p.data.pubDate)
-  .sort((a, b) => new Date(b.data.pubDate) - new Date(a.data.pubDate))
-  .slice(0, 30);
-
-// ここは実際のページ数に応じて動的に置き換えてください
-const currentPage = 1;
-const totalPages = 1;
+const PAGE_SIZE = 30;
+const allPosts = await getCollection("posts");
+const sorted = [...allPosts].sort(
+  (a, b) => new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime()
+);
+const paginatedPosts = sorted.slice(0, PAGE_SIZE);
+const totalPages = Math.ceil(sorted.length / PAGE_SIZE);
 ---
 
 <html lang="ja">
   <head>
     <meta charset="UTF-8" />
     <title>最新AIニュースまとめ</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href={Astro.site.pathname + "/_astro/index.css"} />
   </head>
   <body class="bg-gray-100 text-gray-800">
-    <!-- ヘッダー（固定化） -->
-    <header class="sticky top-0 z-50 bg-gray-100 py-2 border-b border-gray-300">
-      <div class="max-w-7xl mx-auto px-4 flex flex-wrap items-center justify-between">
-        <div class="flex items-center space-x-3">
-          <img src="/assets/logo.png" alt="ロゴ" class="w-16 h-16 object-contain" />
-          <h1 class="text-3xl font-bold text-sky-500">最新AIニュースまとめ</h1>
-          <span class="text-gray-600 text-sm">(ページ {currentPage} / 全{totalPages}ページ中)</span>
-        </div>
-        <div class="flex flex-wrap items-center space-x-4 text-sm mt-2 sm:mt-0">
-          <span>並び順：</span>
-          <a href="/page/date/1" class="text-blue-600 hover:underline">新着順（投稿日が新しい順）</a>
-          <span>|</span>
-          <a href="/page/source/1" class="text-blue-600 hover:underline">ソース別</a>
-          <span>|</span>
-          <label class="text-blue-600">記事検索</label>
-          <input type="text" placeholder="Search" class="border px-2 py-1 rounded" />
-          <span>|</span>
-          <a href="/page/date/1" class="text-blue-600 hover:underline">← 前のページ</a>
-          <a href="/page/date/2" class="text-blue-600 hover:underline">次のページ →</a>
-        </div>
+    <main class="max-w-6xl mx-auto px-4 py-8">
+      <div class="mb-4 flex flex-col md:flex-row md:items-center md:justify-between">
+        <h1 class="text-2xl font-bold text-sky-500 mb-2 md:mb-0">最新AIニュースまとめ</h1>
       </div>
-    </header>
 
-    <!-- 記事カードグリッド -->
-    <main class="max-w-7xl mx-auto px-4 py-6">
       <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {posts.map(post => (
+        {paginatedPosts.map((post) => (
           <ArticleCard {...post.data} />
         ))}
       </div>
-    </main>
 
-    <footer class="text-center text-sm text-gray-500 py-6">
-      © 2025 raisex, LLC. All rights reserved.
-    </footer>
+      {totalPages > 1 && (
+        <div class="mt-8 flex justify-end text-sm text-blue-600">
+          <a href={`/page/2`} class="hover:underline">次のページ →</a>
+        </div>
+      )}
+    </main>
   </body>
 </html>

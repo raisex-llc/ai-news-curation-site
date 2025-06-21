@@ -1,0 +1,44 @@
+---
+title: The sweet taste of a new idea
+description: Sendhil Mullainathan brings a lifetime of unique perspectives to research
+  in behavioral economics and machine learning.
+summary: Sendhil Mullainathan brings a lifetime of unique perspectives to research
+  in behavioral economics and machine learning.
+pubDate: Mon, 19 May 2025 16:30:00 -0400
+source: MIT
+tags:
+- mit
+- ai
+url: https://news.mit.edu/2025/sweet-taste-new-idea-sendhil-mullainathan-0519
+---
+
+Behavioral economist Sendhil Mullainathan has never forgotten the pleasure he felt the first time he tasted a delicious crisp, yet gooey Levain cookie. He compares the experience to when he encounters new ideas.
+“That hedonic pleasure is pretty much the same pleasure I get hearing a new idea, discovering a new way of looking at a situation, or thinking about something, getting stuck and then having a breakthrough. You get this kind of core basic reward,” says Mullainathan, the Peter de Florez Professor with dual appointments in the MIT departments of Economics and Electrical Engineering and Computer Science, and a principal investigator at the MIT Laboratory for Information and Decision Systems (LIDS).
+Mullainathan’s love of new ideas, and by extension of going beyond the usual interpretation of a situation or problem by looking at it from many different angles, seems to have started very early. As a child in school, he says, the multiple-choice answers on tests all seemed to offer possibilities for being correct.
+“They would say, ‘Here are three things. Which of these choices is the fourth?’ Well, I was like, ‘I don’t know.’ There are good explanations for all of them,” Mullainathan says. “While there’s a simple explanation that most people would pick, natively, I just saw things quite differently.”
+Mullainathan says the way his mind works, and has always worked, is “out of phase” — that is, not in sync with how most people would readily pick the one correct answer on a test. He compares the way he thinks to “one of those videos where an army’s marching and one guy’s not in step, and everyone is thinking, what’s wrong with this guy?”
+Luckily, Mullainathan says, “being out of phase is kind of helpful in research.”
+And apparently so. Mullainathan has received a MacArthur “Genius Grant,” has been designated a “Young Global Leader” by the World Economic Forum, was named a “Top 100 thinker” by Foreign Policy magazine, was included in the “Smart List: 50 people who will change the world” by Wired magazine, and won the Infosys Prize, the largest monetary award in India recognizing excellence in science and research.
+Another key aspect of who Mullainathan is as a researcher — his focus on financial scarcity — also dates back to his childhood. When he was about 10, just a few years after his family moved to the Los Angeles area from India, his father lost his job as an aerospace engineer because of a change in security clearance laws regarding immigrants. When his mother told him that without work, the family would have no money, he says he was incredulous.
+“At first I thought, that can’t be right. It didn’t quite process,” he says. “So that was the first time I thought, there’s no floor. Anything can happen. It was the first time I really appreciated economic precarity.”
+His family got by running a video store and then other small businesses, and Mullainathan made it to Cornell University, where he studied computer science, economics, and mathematics. Although he was doing a lot of math, he found himself drawn not to standard economics, but to the behavioral economics of an early pioneer in the field, Richard Thaler, who later won the Nobel Memorial Prize in Economic Sciences for his work. Behavioral economics brings the psychological, and often irrational, aspects of human behavior into the study of economic decision-making.
+“It’s the non-math part of this field that’s fascinating,” says Mullainathan. “What makes it intriguing is that the math in economics isn’t working. The math is elegant, the theorems. But it’s not working because people are weird and complicated and interesting.”
+Behavioral economics was so new as Mullainathan was graduating that he says Thaler advised him to study standard economics in graduate school and make a name for himself before concentrating on behavioral economics, “because it was so marginalized. It was considered super risky because it didn’t even fit a field,” Mullainathan says.
+Unable to resist thinking about humanity’s quirks and complications, however, Mullainathan focused on behavioral economics, got his PhD at Harvard University, and says he then spent about 10 years studying people.
+“I wanted to get the intuition that a good academic psychologist has about people. I was committed to understanding people,” he says.
+As Mullainathan was formulating theories about why people make certain economic choices, he wanted to test these theories empirically.
+In 2013, he published a paper in Science titled “Poverty Impedes Cognitive Function.” The research measured sugarcane farmers’ performance on intelligence tests in the days before their yearly harvest, when they were out of money, sometimes nearly to the point of starvation. In the controlled study, the same farmers took tests after their harvest was in and they had been paid for a successful crop — and they scored significantly higher.
+Mullainathan says he is gratified that the research had far-reaching impact, and that those who make policy often take its premise into account.
+“Policies as a whole are kind of hard to change,” he says, “but I do think it has created sensitivity at every level of the design process, that people realize that, for example, if I make a program for people living in economic precarity hard to sign up for, that’s really going to be a massive tax.”
+To Mullainathan, the most important effect of the research was on individuals, an impact he saw in reader comments that appeared after the research was covered in The Guardian.
+“Ninety percent of the people who wrote those comments said things like, ‘I was economically insecure at one point. This perfectly reflects what it felt like to be poor.’”
+Such insights into the way outside influences affect personal lives could be among important advances made possible by algorithms, Mullainathan says.
+“I think in the past era of science, science was done in big labs, and it was actioned into big things. I think the next age of science will be just as much about allowing individuals to rethink who they are and what their lives are like.”
+Last year, Mullainathan came back to MIT (after having previously taught at MIT from 1998 to 2004) to focus on artificial intelligence and machine learning.
+“I wanted to be in a place where I could have one foot in computer science and one foot in a top-notch behavioral economics department,” he says. “And really, if you just objectively said ‘what are the places that are A-plus in both,’ MIT is at the top of that list.”
+While AI can automate tasks and systems, such automation of abilities humans already possess is “hard to get excited about,” he says. Computer science can be used to expand human abilities, a notion only limited by our creativity in asking questions.
+“We should be asking, what capacity do you want expanded? How could we build an algorithm to help you expand that capacity? Computer science as a discipline has always been so fantastic at taking hard problems and building solutions,” he says. “If you have a capacity that you’d like to expand, that seems like a very hard computing challenge. Let’s figure out how to take that on.”
+The sciences that “are very far from having hit the frontier that physics has hit,” like psychology and economics, could be on the verge of huge developments, Mullainathan says. “I fundamentally believe that the next generation of breakthroughs is going to come from the intersection of understanding of people and understanding of algorithms.”
+He explains a possible use of AI in which a decision-maker, for example a judge or doctor, could have access to what their average decision would be related to a particular set of circumstances. Such an average would be potentially freer of day-to-day influences — such as a bad mood, indigestion, slow traffic on the way to work, or a fight with a spouse.
+Mullainathan sums the idea up as “average-you is better than you. Imagine an algorithm that made it easy to see what you would normally do. And that’s not what you’re doing in the moment. You may have a good reason to be doing something different, but asking that question is immensely helpful.”
+Going forward, Mullainathan will absolutely be trying to work toward such new ideas — because to him, they offer such a delicious reward.

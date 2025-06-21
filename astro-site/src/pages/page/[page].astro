@@ -1,0 +1,64 @@
+---
+// [page].astro
+import { getCollection } from 'astro:content';
+import ArticleCard from '../../components/ArticleCard.astro';
+
+// 定数：1ページあたりの表示数
+const PAGE_SIZE = 30;
+
+// パラメータ取得
+const { page } = Astro.params;
+const currentPage = parseInt(page || '1');
+
+// 全投稿取得（新着順にソート）
+const allPosts = (await getCollection("posts")).sort((a, b) => {
+  return new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime();
+});
+
+// ページング処理
+const totalPages = Math.ceil(allPosts.length / PAGE_SIZE);
+const start = (currentPage - 1) * PAGE_SIZE;
+const end = start + PAGE_SIZE;
+const posts = allPosts.slice(start, end);
+---
+
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>最新AIニュースまとめ - ページ {currentPage}</title>
+  </head>
+  <body class="bg-gray-100 text-gray-800">
+    <main class="max-w-screen-xl mx-auto px-4 py-6">
+      <!-- ✅ ヘッダー -->
+      <div class="flex items-center space-x-4 mb-6">
+        <img src="/logo.png" alt="ロゴ" class="w-10 h-10" />
+        <h1 class="text-2xl font-bold text-blue-600">最新AIニュースまとめ</h1>
+        <span class="text-sm text-gray-500">(ページ {currentPage} / 全{totalPages}ページ中)</span>
+      </div>
+
+      <!-- ✅ 記事カード一覧 -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+        {posts.map(post => (
+          <ArticleCard
+            title={post.data.title}
+            pubDate={post.data.pubDate}
+            description={post.data.description}
+            media={post.data.media}
+            thumbnail={post.data.thumbnail}
+            url={post.data.url}
+          />
+        ))}
+      </div>
+
+      <!-- ✅ ページナビゲーション -->
+      <nav class="mt-8 flex justify-center items-center space-x-6 text-sm text-blue-600">
+        {currentPage > 1 && (
+          <a href={`/page/${currentPage - 1}/`} class="hover:underline">← 前のページ</a>
+        )}
+        {currentPage < totalPages && (
+          <a href={`/page/${currentPage + 1}/`} class="hover:underline">次のページ →</a>
+        )}
+      </nav>
+    </main>
+  </body>
+</html>
