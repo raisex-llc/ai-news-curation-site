@@ -2,84 +2,69 @@
 // [sort]/[page].astro
 
 import { getCollection } from "astro:content";
+import ArticleCard from "../../../components/ArticleCard.astro";
 
-export async function getStaticPaths() {
-  const PAGE_SIZE = 30;
-  const allPosts = await getCollection("posts");
-
-  const sorts = ["date", "source"];
-  const paths = [];
-
-  for (const sort of sorts) {
-    const sorted = sort === "source"
-      ? [...allPosts].sort((a, b) => a.data.source.localeCompare(b.data.source))
-      : [...allPosts].sort((a, b) => new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime());
-
-    const totalPages = Math.ceil(sorted.length / PAGE_SIZE);
-    for (let i = 1; i <= totalPages; i++) {
-      paths.push({ params: { sort, page: String(i) } });
-    }
-  }
-
-  return paths;
-}
-
+const PAGE_SIZE = 30;
 const { sort, page } = Astro.params;
 const currentPage = parseInt(page);
-const PAGE_SIZE = 30;
 const allPosts = await getCollection("posts");
 
 const sortedPosts = sort === "source"
   ? [...allPosts].sort((a, b) => a.data.source.localeCompare(b.data.source))
-  : [...allPosts].sort((a, b) => new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime());
+  : [...allPosts].sort((a, b) => new Date(b.data.pubDate) - new Date(a.data.pubDate));
 
 const totalPages = Math.ceil(sortedPosts.length / PAGE_SIZE);
-const start = (currentPage - 1) * PAGE_SIZE;
-const end = start + PAGE_SIZE;
-const paginatedPosts = sortedPosts.slice(start, end);
+const paginatedPosts = sortedPosts.slice(
+  (currentPage - 1) * PAGE_SIZE,
+  currentPage * PAGE_SIZE
+);
 ---
 
 <html lang="ja">
   <head>
     <meta charset="UTF-8" />
-    <title>AIニュース - {sort}順 {page}ページ目</title>
-    <link rel="stylesheet" href="/styles/global.css" />
+    <title>最新AIニュースまとめ</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
-  <body class="bg-gray-100 text-gray-900">
-    <header class="sticky top-0 z-50 bg-gray-100 border-b border-gray-300 px-4 py-2 flex flex-wrap items-center justify-between">
-      <div class="flex items-center gap-2">
-        <img src="/assets/logo.png" alt="ロゴ" class="w-10 h-10 object-contain" />
-        <h1 class="text-2xl font-bold text-sky-500">最新AIニュースまとめ</h1>
-        <span class="text-sm text-gray-600 ml-4">(ページ {currentPage} / 全{totalPages}ページ中)</span>
-      </div>
-      <div class="flex flex-wrap items-center gap-4 mt-2 md:mt-0">
-        <nav class="text-sm text-gray-700 flex gap-2">
-          並び順：
-          <a href="/page/date/1/" class="text-blue-600 hover:underline">新着順（投稿日が新しい順）</a> |
-          <a href="/page/source/1/" class="text-blue-600 hover:underline">ソース別</a>
-        </nav>
-        <div class="flex items-center gap-1">
-          <label for="search" class="text-blue-600 text-sm">記事検索</label>
-          <input id="search" name="search" type="text" placeholder="Search" class="border rounded px-2 py-1 text-sm" />
+  <body class="bg-gray-100 text-gray-800">
+    <!-- ヘッダー -->
+    <header class="sticky top-0 z-50 bg-gray-100 py-2 border-b border-gray-300">
+      <div class="max-w-7xl mx-auto px-4 flex flex-wrap items-center justify-between">
+        <div class="flex items-center space-x-3">
+          <img src="/assets/logo.png" alt="ロゴ" class="w-16 h-16 object-contain" />
+          <h1 class="text-3xl font-bold text-sky-500">最新AIニュースまとめ</h1>
+          <span class="text-gray-600 text-sm">(ページ {currentPage} / 全{totalPages}ページ中)</span>
         </div>
-        <div class="text-sm text-blue-600">
-          {currentPage > 1 && <a href={`/page/${sort}/${currentPage - 1}/`} class="mr-2">← 前のページ</a>}
-          {currentPage < totalPages && <a href={`/page/${sort}/${currentPage + 1}/`}>次のページ →</a>}
+        <div class="flex flex-wrap items-center space-x-4 text-sm mt-2 sm:mt-0">
+          <span>並び順：</span>
+          <a href="/page/date/1" class="text-blue-600 hover:underline">新着順</a>
+          <span>|</span>
+          <a href="/page/source/1" class="text-blue-600 hover:underline">ソース別</a>
+          <span>|</span>
+          <label class="text-blue-600">記事検索</label>
+          <input type="text" placeholder="Search" class="border px-2 py-1 rounded" />
+          <span>|</span>
+          {currentPage > 1 && (
+            <a href={`/page/${sort}/${currentPage - 1}`} class="text-blue-600 hover:underline">← 前のページ</a>
+          )}
+          {currentPage < totalPages && (
+            <a href={`/page/${sort}/${currentPage + 1}`} class="text-blue-600 hover:underline">次のページ →</a>
+          )}
         </div>
       </div>
     </header>
 
-    <main class="p-4">
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+    <!-- 記事カードグリッド -->
+    <main class="max-w-7xl mx-auto px-4 py-6">
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
         {paginatedPosts.map(post => (
-          <a href={post.data.url} target="_blank" rel="noopener noreferrer" class="block bg-white rounded-lg shadow p-4 hover:bg-gray-50 transition">
-            <img src={post.data.thumbnail ?? "/no-image.png"} alt="サムネイル" class="w-full h-40 object-cover rounded mb-2" />
-            <div class="text-sm text-gray-500">{post.data.source}：{new Date(post.data.pubDate).toLocaleDateString("ja-JP")}</div>
-            <h2 class="font-semibold">{post.data.title}</h2>
-            <p class="text-sm text-gray-600 mt-1">{post.data.summary ?? ""}</p>
-          </a>
+          <ArticleCard {...post.data} />
         ))}
       </div>
     </main>
+
+    <footer class="text-center text-sm text-gray-500 py-6">
+      © 2025 raisex, LLC. All rights reserved.
+    </footer>
   </body>
 </html>
