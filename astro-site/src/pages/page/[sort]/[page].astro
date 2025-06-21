@@ -2,10 +2,9 @@
 import { getCollection } from "astro:content";
 import ArticleCard from "../../../components/ArticleCard.astro";
 
-// ✅ ここに置く！PAGE_SIZEの定義は import の後で OK
-const PAGE_SIZE = 30;
-
+// ✅ getStaticPaths の中で PAGE_SIZE を定義！
 export async function getStaticPaths() {
+  const PAGE_SIZE = 30;
   const allPosts = await getCollection("posts");
   const sorts = ["date", "source"];
   const paths = [];
@@ -24,6 +23,8 @@ export async function getStaticPaths() {
   return paths;
 }
 
+// ✅ ページ描画用のデータ取得処理
+const PAGE_SIZE = 30;
 const { sort, page } = Astro.params;
 const currentPage = parseInt(page);
 const allPosts = await getCollection("posts");
