@@ -28,7 +28,7 @@ export async function getStaticPaths() {
   return paths;
 }
 
-// ✅ 記事一覧データの準備
+// ✅ 記事データ取得とページ分割
 const PAGE_SIZE = 30;
 const { sort, page } = Astro.params;
 const currentPage = Number(page || 1);
@@ -63,7 +63,8 @@ const totalPages = Math.ceil(sortedPosts.length / PAGE_SIZE);
           pubDate={new Date(post.data.pubDate).toLocaleDateString("ja-JP")}
           source={post.data.media || post.data.source || "不明なメディア"}
           thumbnail={post.data.thumbnail}
-          link={post.data.link}
+          link={post.data.link ?? post.data.url ?? "#"}
+          summary={post.data.summary || post.body.slice(0, 80) + "..."}
         />
       ))}
     </main>
