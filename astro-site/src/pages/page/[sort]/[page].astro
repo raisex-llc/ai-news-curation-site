@@ -1,49 +1,20 @@
 ---
+// ✅ フロントマター：ページごとのデータ取得
 import { getCollection } from 'astro:content';
 import ArticleCard from '../../../components/ArticleCard.astro';
 
-// 🔁 Astro.params を使って現在のページ情報を取得
-const { sort, page } = Astro.params;
-const allPosts = await getCollection('posts');
-
-// 🔁 ページサイズ（定数）
 const PAGE_SIZE = 30;
+const { sort, page } = Astro.params;
 
-// 🔁 ソート処理
+const allPosts = await getCollection('posts');
 const sortedPosts = sort === 'source'
   ? [...allPosts].sort((a, b) => a.data.source.localeCompare(b.data.source))
-  : [...allPosts].sort((a, b) => new Date(b.data.pubDate) - new Date(a.data.pubDate));
+  : [...allPosts].sort((a, b) => new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime());
 
-// 🔁 ページネーション処理
 const currentPage = Number(page);
 const totalPages = Math.ceil(sortedPosts.length / PAGE_SIZE);
 const startIndex = (currentPage - 1) * PAGE_SIZE;
 const posts = sortedPosts.slice(startIndex, startIndex + PAGE_SIZE);
----
-
-// ✅ 静的ルート生成関数（ここで PAGE_SIZE を再定義！）
-export async function getStaticPaths() {
-  const PAGE_SIZE = 30; // ❗ここでも再定義が必要（Astroの仕様）
-  const allPosts = await getCollection('posts');
-  const sorts = ['date', 'source'];
-  const paths = [];
-
-  for (const sort of sorts) {
-    const sorted = sort === 'source'
-      ? [...allPosts].sort((a, b) => a.data.source.localeCompare(b.data.source))
-      : [...allPosts].sort((a, b) => new Date(b.data.pubDate) - new Date(a.data.pubDate));
-
-    const totalPages = Math.ceil(sorted.length / PAGE_SIZE);
-    for (let i = 1; i <= totalPages; i++) {
-      paths.push({ params: { sort, page: String(i) } });
-    }
-  }
-
-  return {
-    params: paths.map((p) => p.params),
-    props: {}, // 空でOK
-  };
-}
 ---
 
 <html lang="ja">
@@ -69,8 +40,16 @@ export async function getStaticPaths() {
       </div>
 
       <div class="mt-8 flex justify-center gap-4">
-        {currentPage > 1 && <a href={`/page/${sort}/${currentPage - 1}`} class="px-4 py-2 bg-gray-200 rounded hover:bg-gray-300">← 前</a>}
-        {currentPage < totalPages && <a href={`/page/${sort}/${currentPage + 1}`} class="px-4 py-2 bg-gray-200 rounded hover:bg-gray-300">次 →</a>}
+        {currentPage > 1 && (
+          <a href={`/page/${sort}/${currentPage - 1}`} class="px-4 py-2 bg-gray-200 rounded hover:bg-gray-300">
+            ← 前
+          </a>
+        )}
+        {currentPage < totalPages && (
+          <a href={`/page/${sort}/${currentPage + 1}`} class="px-4 py-2 bg-gray-200 rounded hover:bg-gray-300">
+            次 →
+          </a>
+        )}
       </div>
     </main>
   </body>
