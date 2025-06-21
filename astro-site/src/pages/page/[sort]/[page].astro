@@ -2,12 +2,12 @@
 // /src/pages/page/[sort]/[page].astro
 import "../../../styles/global.css";
 import { getCollection } from "astro:content";
-import Card from "../../../components/Card.astro";
-
-const PAGE_SIZE = 30;
+import Card from "../../../components/ArticleCard.astro";
 
 const { sort, page } = Astro.params;
 const currentPage = parseInt(page);
+const PAGE_SIZE = 30;
+
 const allPosts = await getCollection("posts");
 
 const sorted = sort === "source"
@@ -16,16 +16,39 @@ const sorted = sort === "source"
 
 const totalPages = Math.ceil(sorted.length / PAGE_SIZE);
 const paginated = sorted.slice((currentPage - 1) * PAGE_SIZE, currentPage * PAGE_SIZE);
+
+// ✅ 静的パス生成（正しい位置）
+export async function getStaticPaths() {
+  const PAGE_SIZE = 30;
+  const allPosts = await getCollection("posts");
+
+  const sorts = ["date", "source"];
+  const paths = [];
+
+  for (const sort of sorts) {
+    const sorted = sort === "source"
+      ? [...allPosts].sort((a, b) => a.data.source.localeCompare(b.data.source))
+      : [...allPosts].sort((a, b) => new Date(b.data.pubDate) - new Date(a.data.pubDate));
+
+    const totalPages = Math.ceil(sorted.length / PAGE_SIZE);
+    for (let i = 1; i <= totalPages; i++) {
+      paths.push({ params: { sort, page: String(i) } });
+    }
+  }
+
+  return { paths };
+}
 ---
 
 <html lang="ja">
   <head>
     <meta charset="UTF-8" />
-    <title>ニュース一覧 - {{ sort }}順</title>
+    <title>ニュース一覧（{sort}順）</title>
   </head>
   <body>
     <main class="max-w-screen-md mx-auto px-4 py-8">
-      <h1 class="text-2xl font-bold mb-6">ニュース一覧（{{ sort }}順）</h1>
+      <h1 class="text-2xl font-bold mb-6">ニュース一覧（{sort}順）</h1>
+
       <div class="space-y-6">
         {paginated.map((post) => (
           <Card
@@ -43,6 +66,7 @@ const paginated = sorted.slice((currentPage - 1) * PAGE_SIZE, currentPage * PAGE
         {currentPage > 1 ? (
           <a href={`/page/${sort}/${currentPage - 1}`} class="text-blue-500 hover:underline">← 前のページ</a>
         ) : <span></span>}
+
         {currentPage < totalPages ? (
           <a href={`/page/${sort}/${currentPage + 1}`} class="text-blue-500 hover:underline">次のページ →</a>
         ) : <span></span>}
