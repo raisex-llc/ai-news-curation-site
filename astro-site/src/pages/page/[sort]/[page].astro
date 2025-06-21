@@ -17,7 +17,7 @@ const sorted = sort === "source"
 const totalPages = Math.ceil(sorted.length / PAGE_SIZE);
 const paginated = sorted.slice((currentPage - 1) * PAGE_SIZE, currentPage * PAGE_SIZE);
 
-// ✅ 静的パス生成（正しい位置）
+// ✅ 修正済みの getStaticPaths
 export async function getStaticPaths() {
   const PAGE_SIZE = 30;
   const allPosts = await getCollection("posts");
@@ -36,7 +36,10 @@ export async function getStaticPaths() {
     }
   }
 
-  return { paths };
+  return {
+    paths,
+    fallback: false, // ← ✅ これを追加しないと Astro がエラーを出す
+  };
 }
 ---
 
