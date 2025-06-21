@@ -1,43 +1,57 @@
 ---
 // src/components/ArticleCard.astro
-
-import { format } from 'date-fns';
-
-const { post } = Astro.props;
-const { title, description, url, pubDate, source, thumbnail } = post.data;
+// Props
+export interface Props {
+  title: string;
+  pubDate: string;
+  description: string;
+  media: string;
+  thumbnail: string;
+  url: string;
+}
+const { title, pubDate, description, media, thumbnail, url } = Astro.props;
 ---
 
-<a href={url} target="_blank" rel="noopener noreferrer" class="block max-w-sm mx-auto bg-white border border-gray-200 rounded-lg shadow hover:shadow-lg transition overflow-hidden">
-  <!-- メディア名 -->
-  <div class="px-4 pt-4 text-sm text-green-600 font-semibold">
-    {source}
+<article class="bg-white shadow rounded-lg overflow-hidden border border-gray-200 flex flex-col h-full">
+  <!-- ✅ メディア名（上部） -->
+  <div class="p-3 text-sm text-green-600 font-semibold border-b border-gray-100">
+    {media}
   </div>
 
-  <!-- サムネイル画像 -->
-  {thumbnail ? (
+  <!-- ✅ サムネイル画像 -->
+  <a href={url} target="_blank" rel="noopener noreferrer">
     <img
       src={thumbnail}
-      alt="記事サムネイル"
-      class="w-full h-48 object-cover mt-2"
+      alt={title}
+      class="w-full h-48 object-cover"
+      loading="lazy"
     />
-  ) : (
-    <div class="w-full h-48 bg-gray-200 flex items-center justify-center text-gray-500 mt-2">
-      画像なし
-    </div>
-  )}
+  </a>
 
-  <!-- タイトル -->
-  <div class="px-4 pt-4 font-bold text-blue-600 text-lg leading-snug">
-    {title}
+  <!-- ✅ タイトル -->
+  <div class="p-3">
+    <a
+      href={url}
+      target="_blank"
+      rel="noopener noreferrer"
+      class="block text-lg font-bold text-blue-600 hover:underline mb-1"
+    >
+      {title}
+    </a>
+
+    <!-- ✅ 投稿日 -->
+    <p class="text-sm text-green-500 mb-2">
+      {new Date(pubDate).toLocaleDateString('ja-JP', {
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric',
+        timeZone: 'Asia/Tokyo',
+      })}
+    </p>
+
+    <!-- ✅ 要約（本文冒頭） -->
+    <p class="text-gray-700 text-sm line-clamp-4">
+      {description}
+    </p>
   </div>
-
-  <!-- 投稿日 -->
-  <div class="px-4 pt-2 text-sm text-green-500">
-    {format(new Date(pubDate), "yyyy年MM月dd日")}
-  </div>
-
-  <!-- 要約 -->
-  <p class="px-4 pt-2 pb-4 text-sm text-gray-700 line-clamp-4">
-    {description}
-  </p>
-</a>
+</article>
