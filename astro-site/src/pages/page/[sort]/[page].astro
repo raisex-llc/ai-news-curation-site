@@ -2,10 +2,8 @@
 // [sort]/[page].astro
 
 import { getCollection } from "astro:content";
-import ArticleCard from "../../../components/ArticleCard.astro";
 import "../../../styles/global.css";
 
-// ✅ 静的パスの生成
 export async function getStaticPaths() {
   const PAGE_SIZE = 30;
   const allPosts = await getCollection("posts");
@@ -17,7 +15,7 @@ export async function getStaticPaths() {
     const sorted =
       sort === "source"
         ? [...allPosts].sort((a, b) => a.data.source.localeCompare(b.data.source))
-        : [...allPosts].sort((a, b) => new Date(b.data.pubDate) - new Date(a.data.pubDate));
+        : [...allPosts].sort((a, b) => new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime());
 
     const totalPages = Math.ceil(sorted.length / PAGE_SIZE);
     for (let i = 1; i <= totalPages; i++) {
@@ -28,7 +26,6 @@ export async function getStaticPaths() {
   return paths;
 }
 
-// ✅ 記事データ取得とページ分割
 const PAGE_SIZE = 30;
 const { sort, page } = Astro.params;
 const currentPage = Number(page || 1);
@@ -36,7 +33,7 @@ const allPosts = await getCollection("posts");
 
 const sortedPosts = sort === "source"
   ? [...allPosts].sort((a, b) => a.data.source.localeCompare(b.data.source))
-  : [...allPosts].sort((a, b) => new Date(b.data.pubDate) - new Date(a.data.pubDate));
+  : [...allPosts].sort((a, b) => new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime());
 
 const start = (currentPage - 1) * PAGE_SIZE;
 const end = currentPage * PAGE_SIZE;
@@ -57,24 +54,38 @@ const totalPages = Math.ceil(sortedPosts.length / PAGE_SIZE);
     </header>
 
     <main class="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-4 py-8">
-      {paginatedPosts.map(post => (
-        <ArticleCard
-          title={post.data.title}
-          pubDate={new Date(post.data.pubDate).toLocaleDateString("ja-JP")}
-          source={post.data.media || post.data.source || "不明なメディア"}
-          thumbnail={post.data.thumbnail}
-          link={post.data.link ?? post.data.url ?? "#"}
-          summary={post.data.summary || post.body.slice(0, 80) + "..."}
-        />
-      ))}
+      {
+        paginatedPosts.map((post) => {
+          const imageUrl = post.data.thumbnail ?? "/assets/default-thumbnail.jpg";
+          const title = post.data.title;
+          const source = post.data.media ?? post.data.source ?? "不明なメディア";
+          const pubDate = new Date(post.data.pubDate).toLocaleDateString("ja-JP");
+          const summary = post.data.summary ?? "";
+          const url = post.data.url ?? "#"; // ← ✅ 修正ポイント
+
+          return (
+            <a
+              href={url}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="block bg-white rounded-xl border border-gray-300 shadow-sm hover:shadow-md transition overflow-hidden"
+            >
+              <img src={imageUrl} alt="サムネイル" class="w-full h-40 object-cover bg-gray-100" loading="lazy" />
+              <div class="p-4 space-y-1 text-left">
+                <p class="text-xs text-green-600 font-medium">{source}</p>
+                <h2 class="font-semibold text-blue-700 text-base line-clamp-2">{title}</h2>
+                <p class="text-xs text-green-700">{pubDate}</p>
+                <p class="text-sm text-gray-600 line-clamp-3">{summary}</p>
+              </div>
+            </a>
+          );
+        })
+      }
     </main>
 
     <div class="flex flex-col sm:flex-row justify-center gap-4 py-6 items-center">
       {currentPage < totalPages && (
-        <a
-          href={`/page/${sort}/${currentPage + 1}`}
-          class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700"
-        >
+        <a href={`/page/${sort}/${currentPage + 1}`} class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">
           次のページ →
         </a>
       )}
