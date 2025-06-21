@@ -1,15 +1,15 @@
 ---
 // /src/pages/page/[sort]/[page].astro
-
 import "../../../styles/global.css";
 import { getCollection } from "astro:content";
 import Card from "../../../components/ArticleCard.astro";
 
+// ✅ 1. ページネーションサイズ（この定義は export 関数の中でも使えないため、再定義が必要）
 const { sort, page } = Astro.params;
 const currentPage = parseInt(page);
-const PAGE_SIZE = 30;
-
 const allPosts = await getCollection("posts");
+
+const PAGE_SIZE = 30;
 
 const sorted = sort === "source"
   ? [...allPosts].sort((a, b) => a.data.source.localeCompare(b.data.source))
@@ -18,7 +18,7 @@ const sorted = sort === "source"
 const totalPages = Math.ceil(sorted.length / PAGE_SIZE);
 const paginated = sorted.slice((currentPage - 1) * PAGE_SIZE, currentPage * PAGE_SIZE);
 
-// ⚠️ スコープ内で PAGE_SIZE 再定義必要
+// ✅ 2. getStaticPaths は中で PAGE_SIZE を再定義する！
 export async function getStaticPaths() {
   const allPosts = await getCollection("posts");
   const sorts = ["date", "source"];
@@ -29,7 +29,8 @@ export async function getStaticPaths() {
       ? [...allPosts].sort((a, b) => a.data.source.localeCompare(b.data.source))
       : [...allPosts].sort((a, b) => new Date(b.data.pubDate) - new Date(a.data.pubDate));
 
-    const PAGE_SIZE = 30;
+    const PAGE_SIZE = 30; // ← ⚠️ 関数スコープ内で再定義しないと Astro は build 時に落ちる
+
     const totalPages = Math.ceil(sorted.length / PAGE_SIZE);
     for (let i = 1; i <= totalPages; i++) {
       paths.push({ params: { sort, page: String(i) } });
@@ -45,30 +46,10 @@ export async function getStaticPaths() {
     <meta charset="UTF-8" />
     <title>ニュース一覧（{sort}順）</title>
   </head>
-  <body class="bg-gray-50">
-    <!-- ✅ 固定ヘッダー -->
-    <header class="sticky top-0 z-50 bg-white shadow-sm border-b px-4 py-3 flex items-center justify-between">
-      <div class="flex items-center space-x-3">
-        <img src="/ai-icon.png" alt="AIアイコン" class="w-8 h-8" />
-        <div class="text-blue-600 font-bold text-lg">
-          最新AIニュースまとめ
-          <span class="text-sm text-gray-600 font-normal ml-2">(ページ {currentPage} / 全{totalPages}ページ中)</span>
-        </div>
-      </div>
-      <div class="flex items-center space-x-3">
-        <select class="border text-sm rounded px-2 py-1">
-          <option selected={sort === "date"}>新着順</option>
-          <option selected={sort === "source"}>媒体順</option>
-        </select>
-        <input type="text" placeholder="記事検索" class="text-sm border rounded px-2 py-1 w-32" />
-        {currentPage < totalPages ? (
-          <a href={`/page/${sort}/${currentPage + 1}`} class="text-blue-600 text-sm hover:underline">→ 次のページ</a>
-        ) : null}
-      </div>
-    </header>
-
-    <!-- ✅ 本文 -->
+  <body>
     <main class="max-w-screen-md mx-auto px-4 py-8">
+      <h1 class="text-2xl font-bold mb-6">ニュース一覧（{sort}順）</h1>
+
       <div class="space-y-6">
         {paginated.map((post) => (
           <Card
