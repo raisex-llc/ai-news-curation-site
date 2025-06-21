@@ -1,8 +1,9 @@
 ---
-const PAGE_SIZE = 30;
-
 import { getCollection } from "astro:content";
 import ArticleCard from "../../../components/ArticleCard.astro";
+
+// ✅ ここに置く！PAGE_SIZEの定義は import の後で OK
+const PAGE_SIZE = 30;
 
 export async function getStaticPaths() {
   const allPosts = await getCollection("posts");
