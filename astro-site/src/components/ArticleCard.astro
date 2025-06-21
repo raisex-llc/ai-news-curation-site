@@ -1,0 +1,28 @@
+---
+// astro-site/src/components/ArticleCard.astro
+
+const {
+  title,
+  pubDate,
+  source,
+  thumbnail,
+  link,
+  summary
+} = Astro.props;
+---
+
+<a
+  href={link}
+  target="_blank"
+  rel="noopener noreferrer"
+  class="block rounded-lg shadow hover:shadow-lg transition duration-200 border border-gray-200 p-4 h-full"
+>
+  <img
+    src={thumbnail ?? "/default-thumbnail.jpg"}
+    alt="サムネイル"
+    class="w-full h-40 object-cover mb-3 rounded"
+  />
+  <div class="text-sm text-gray-500 mb-1">{source}・{pubDate}</div>
+  <h3 class="text-base font-semibold line-clamp-2 mb-2">{title}</h3>
+  <p class="text-sm text-gray-700 line-clamp-3">{summary}</p>
+</a>

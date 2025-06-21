@@ -3,6 +3,7 @@
 // 🏠 Flipboard風 一覧ページ（1ページ目）
 
 import { getCollection } from "astro:content";
+import ArticleCard from "../components/ArticleCard.astro";
 import "../styles/global.css";
 
 const posts = (await getCollection("posts"))
@@ -31,34 +32,24 @@ const base = Astro.site?.pathname ?? '';
 
     <main class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-4 max-w-screen-xl mx-auto py-8">
       {
-        posts.map(({ data }) => {
+        posts.map(post => {
+          const data = post.data;
           const image = data.thumbnail || `${base}/assets/default-thumbnail.jpg`;
           const title = data.title;
           const source = data.media || data.source || "不明なメディア";
           const date = new Date(data.pubDate).toLocaleDateString("ja-JP");
-          const summary = data.summary || "";
+          const summary = data.summary || post.body.slice(0, 80) + "...";
           const url = data.link;
 
           return (
-            <a
-              href={url}
-              target="_blank"
-              rel="noopener noreferrer"
-              class="block bg-white border border-gray-300 rounded-lg overflow-hidden shadow hover:shadow-md transition"
-            >
-              <img
-                src={image}
-                alt="サムネイル"
-                class="w-full h-48 object-cover bg-gray-100"
-                loading="lazy"
-              />
-              <div class="p-4 text-left space-y-1">
-                <p class="text-green-600 text-xs font-medium">{source}</p>
-                <h2 class="text-blue-700 font-semibold text-base line-clamp-2">{title}</h2>
-                <p class="text-xs text-green-600">{date}</p>
-                <p class="text-sm text-gray-600 line-clamp-3">{summary}</p>
-              </div>
-            </a>
+            <ArticleCard
+              title={title}
+              pubDate={date}
+              source={source}
+              thumbnail={image}
+              link={url}
+              summary={summary}
+            />
           );
         })
       }
