@@ -26,48 +26,19 @@ const base = Astro.site?.pathname ?? '';
       <p class="text-sm text-gray-500 mt-1">最新のAI関連ニュースをお届けします</p>
     </header>
 
-    <div class="mx-auto max-w-screen-md py-4">
-      <div class="bg-gray-100 text-center py-4">🔰 広告エリア（ヘッダー下）</div>
-    </div>
-
     <main class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-4 max-w-screen-xl mx-auto py-8">
-      {posts.map((post) => {
-        const data = post.data;
-        const image = data.thumbnail || `${base}/assets/default-thumbnail.jpg`;
-        const title = data.title;
-        const source = data.media || data.source || "不明なメディア";
-        const date = new Date(data.pubDate).toLocaleDateString("ja-JP");
-        const summary = data.summary || post.body.slice(0, 80) + "...";
-        const url = data.link;
-
+      {posts.map(post => {
+        const { title, pubDate, source, media, thumbnail, link } = post.data;
         return (
           <ArticleCard
             title={title}
-            pubDate={date}
-            source={source}
-            thumbnail={image}
-            link={url}
-            summary={summary}
+            pubDate={new Date(pubDate).toLocaleDateString("ja-JP")}
+            source={media || source || "不明なメディア"}
+            thumbnail={thumbnail}
+            link={link}
           />
         );
       })}
     </main>
-
-    <div class="mx-auto max-w-screen-md py-4">
-      <div class="bg-gray-100 text-center py-4">📢 広告エリア（記事下）</div>
-    </div>
-
-    <div class="flex flex-col sm:flex-row justify-center gap-4 py-6 items-center">
-      <a href={`${base}/page/date/2`} class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">
-        次のページ →
-      </a>
-      <a href="#top" class="bg-gray-300 text-gray-800 px-4 py-2 rounded hover:bg-gray-400">
-        ページTOPへ ↑
-      </a>
-    </div>
-
-    <footer class="text-center text-sm text-gray-500 py-6 border-t border-gray-200">
-      © 2025 raisex, LLC. All rights reserved.
-    </footer>
   </body>
 </html>

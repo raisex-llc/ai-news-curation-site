@@ -1,10 +1,11 @@
 ---
 // [sort]/[page].astro
-// ✅ Astro Frontmatterで getStaticPaths を定義
 
 import { getCollection } from "astro:content";
+import ArticleCard from "../../../components/ArticleCard.astro";
 import "../../../styles/global.css";
 
+// ✅ 静的パス生成
 export async function getStaticPaths() {
   const PAGE_SIZE = 30;
   const allPosts = await getCollection("posts");
@@ -27,6 +28,7 @@ export async function getStaticPaths() {
   return paths;
 }
 
+// ✅ ページ用データ処理
 const PAGE_SIZE = 30;
 const { sort, page } = Astro.params;
 const currentPage = Number(page || 1);
@@ -55,33 +57,15 @@ const totalPages = Math.ceil(sortedPosts.length / PAGE_SIZE);
     </header>
 
     <main class="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-4 py-8">
-      {
-        paginatedPosts.map((post) => {
-          const imageUrl = post.data.thumbnail ?? "/assets/default-thumbnail.jpg";
-          const title = post.data.title;
-          const source = post.data.media ?? post.data.source ?? "不明なメディア";
-          const pubDate = new Date(post.data.pubDate).toLocaleDateString("ja-JP");
-          const summary = post.data.summary ?? "";
-          const url = post.data.link;
-
-          return (
-            <a
-              href={url}
-              target="_blank"
-              rel="noopener noreferrer"
-              class="block bg-white rounded-xl border border-gray-300 shadow-sm hover:shadow-md transition overflow-hidden"
-            >
-              <img src={imageUrl} alt="サムネイル" class="w-full h-40 object-cover bg-gray-100" loading="lazy" />
-              <div class="p-4 space-y-1 text-left">
-                <p class="text-xs text-green-600 font-medium">{source}</p>
-                <h2 class="font-semibold text-blue-700 text-base line-clamp-2">{title}</h2>
-                <p class="text-xs text-green-700">{pubDate}</p>
-                <p class="text-sm text-gray-600 line-clamp-3">{summary}</p>
-              </div>
-            </a>
-          );
-        })
-      }
+      {paginatedPosts.map(post => (
+        <ArticleCard
+          title={post.data.title}
+          pubDate={new Date(post.data.pubDate).toLocaleDateString("ja-JP")}
+          source={post.data.media || post.data.source || "不明なメディア"}
+          thumbnail={post.data.thumbnail}
+          link={post.data.link}
+        />
+      ))}
     </main>
 
     <div class="flex flex-col sm:flex-row justify-center gap-4 py-6 items-center">
