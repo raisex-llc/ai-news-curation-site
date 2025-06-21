@@ -1,12 +1,8 @@
 ---
-// [sort]/[page].astro
-// ✅ Astro Frontmatterで getStaticPaths を定義
+const PAGE_SIZE = 30;
 
 import { getCollection } from "astro:content";
 import ArticleCard from "../../../components/ArticleCard.astro";
-
-// ✅ ページあたりの記事数（上部で定義すること）
-const PAGE_SIZE = 30;
 
 export async function getStaticPaths() {
   const allPosts = await getCollection("posts");
@@ -27,7 +23,6 @@ export async function getStaticPaths() {
   return paths;
 }
 
-// ✅ ページ用データ取得
 const { sort, page } = Astro.params;
 const currentPage = parseInt(page);
 const allPosts = await getCollection("posts");
