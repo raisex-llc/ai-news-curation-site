@@ -18,6 +18,16 @@ const currentPage = parseInt(page);
 const totalPages = Math.ceil(sortedPosts.length / PAGE_SIZE);
 const startIndex = (currentPage - 1) * PAGE_SIZE;
 const currentPosts = sortedPosts.slice(startIndex, startIndex + PAGE_SIZE);
+
+// ✅ getStaticPaths を .astro ファイル内に記述
+export async function getStaticPaths() {
+  const allPosts = await getCollection("posts");
+  const totalPages = Math.ceil(allPosts.length / PAGE_SIZE);
+
+  return Array.from({ length: totalPages }, (_, i) => ({
+    params: { page: String(i + 1) },
+  }));
+}
 ---
 
 <html lang="ja">
@@ -58,11 +68,3 @@ const currentPosts = sortedPosts.slice(startIndex, startIndex + PAGE_SIZE);
     </main>
   </body>
 </html>
-export async function getStaticPaths() {
-  const allPosts = await getCollection("posts");
-  const totalPages = Math.ceil(allPosts.length / 30);
-
-  return Array.from({ length: totalPages }, (_, i) => ({
-    params: { page: String(i + 1) },
-  }));
-}
