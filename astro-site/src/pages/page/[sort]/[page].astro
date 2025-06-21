@@ -5,7 +5,7 @@ import { getCollection } from "astro:content";
 import ArticleCard from "../../../components/ArticleCard.astro";
 import "../../../styles/global.css";
 
-// ✅ 静的パス生成
+// ✅ 静的パスの生成
 export async function getStaticPaths() {
   const PAGE_SIZE = 30;
   const allPosts = await getCollection("posts");
@@ -17,7 +17,7 @@ export async function getStaticPaths() {
     const sorted =
       sort === "source"
         ? [...allPosts].sort((a, b) => a.data.source.localeCompare(b.data.source))
-        : [...allPosts].sort((a, b) => new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime());
+        : [...allPosts].sort((a, b) => new Date(b.data.pubDate) - new Date(a.data.pubDate));
 
     const totalPages = Math.ceil(sorted.length / PAGE_SIZE);
     for (let i = 1; i <= totalPages; i++) {
@@ -28,7 +28,7 @@ export async function getStaticPaths() {
   return paths;
 }
 
-// ✅ ページ用データ処理
+// ✅ 記事一覧データの準備
 const PAGE_SIZE = 30;
 const { sort, page } = Astro.params;
 const currentPage = Number(page || 1);
@@ -36,7 +36,7 @@ const allPosts = await getCollection("posts");
 
 const sortedPosts = sort === "source"
   ? [...allPosts].sort((a, b) => a.data.source.localeCompare(b.data.source))
-  : [...allPosts].sort((a, b) => new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime());
+  : [...allPosts].sort((a, b) => new Date(b.data.pubDate) - new Date(a.data.pubDate));
 
 const start = (currentPage - 1) * PAGE_SIZE;
 const end = currentPage * PAGE_SIZE;
@@ -70,7 +70,10 @@ const totalPages = Math.ceil(sortedPosts.length / PAGE_SIZE);
 
     <div class="flex flex-col sm:flex-row justify-center gap-4 py-6 items-center">
       {currentPage < totalPages && (
-        <a href={`/page/${sort}/${currentPage + 1}`} class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">
+        <a
+          href={`/page/${sort}/${currentPage + 1}`}
+          class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700"
+        >
           次のページ →
         </a>
       )}
