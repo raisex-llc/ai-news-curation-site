@@ -1,27 +1,43 @@
 ---
 // src/components/ArticleCard.astro
-const {
-  title = "No title",
-  pubDate = "不明な日付",
-  source = "不明なメディア",
-  thumbnail = "/assets/default-thumbnail.jpg",
-  link = "#"
-} = Astro.props;
+
+import { format } from 'date-fns';
+
+const { post } = Astro.props;
+const { title, description, url, pubDate, source, thumbnail } = post.data;
 ---
 
-<a
-  href={link}
-  target="_blank"
-  rel="noopener noreferrer"
-  class="block rounded-lg shadow hover:shadow-lg transition duration-200 border border-gray-200 p-4 h-full"
->
-  <img
-    src={thumbnail}
-    alt="サムネイル"
-    class="w-full h-40 object-cover mb-3 rounded"
-  />
-  <div class="text-sm text-gray-500 mb-1">{source}・{pubDate}</div>
-  <h3 class="text-base font-semibold line-clamp-2 mb-2">{title}</h3>
+<a href={url} target="_blank" rel="noopener noreferrer" class="block max-w-sm mx-auto bg-white border border-gray-200 rounded-lg shadow hover:shadow-lg transition overflow-hidden">
+  <!-- メディア名 -->
+  <div class="px-4 pt-4 text-sm text-green-600 font-semibold">
+    {source}
+  </div>
+
+  <!-- サムネイル画像 -->
+  {thumbnail ? (
+    <img
+      src={thumbnail}
+      alt="記事サムネイル"
+      class="w-full h-48 object-cover mt-2"
+    />
+  ) : (
+    <div class="w-full h-48 bg-gray-200 flex items-center justify-center text-gray-500 mt-2">
+      画像なし
+    </div>
+  )}
+
+  <!-- タイトル -->
+  <div class="px-4 pt-4 font-bold text-blue-600 text-lg leading-snug">
+    {title}
+  </div>
+
+  <!-- 投稿日 -->
+  <div class="px-4 pt-2 text-sm text-green-500">
+    {format(new Date(pubDate), "yyyy年MM月dd日")}
+  </div>
+
+  <!-- 要約 -->
+  <p class="px-4 pt-2 pb-4 text-sm text-gray-700 line-clamp-4">
+    {description}
+  </p>
 </a>
-
-
