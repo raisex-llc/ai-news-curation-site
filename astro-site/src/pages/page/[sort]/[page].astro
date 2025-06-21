@@ -18,7 +18,7 @@ const sorted = sort === "source"
 const totalPages = Math.ceil(sorted.length / PAGE_SIZE);
 const paginated = sorted.slice((currentPage - 1) * PAGE_SIZE, currentPage * PAGE_SIZE);
 
-// ⚠️ スコープ内で PAGE_SIZE 再定義必要
+// スコープ対策
 export async function getStaticPaths() {
   const allPosts = await getCollection("posts");
   const sorts = ["date", "source"];
@@ -43,14 +43,15 @@ export async function getStaticPaths() {
 <html lang="ja">
   <head>
     <meta charset="UTF-8" />
-    <title>ニュース一覧（{sort}順）</title>
+    <title>最新AIニュースまとめ</title>
   </head>
-  <body class="bg-gray-50">
+  <body class="bg-gray-100 text-gray-800">
+    
     <!-- ✅ 固定ヘッダー -->
-    <header class="sticky top-0 z-50 bg-white shadow-sm border-b px-4 py-3 flex items-center justify-between">
+    <header class="sticky top-0 z-50 bg-white border-b border-gray-200 px-4 py-3 flex items-center justify-between">
       <div class="flex items-center space-x-3">
         <img src="/ai-icon.png" alt="AIアイコン" class="w-8 h-8" />
-        <div class="text-blue-600 font-bold text-lg">
+        <div class="text-sky-500 text-xl font-bold">
           最新AIニュースまとめ
           <span class="text-sm text-gray-600 font-normal ml-2">(ページ {currentPage} / 全{totalPages}ページ中)</span>
         </div>
@@ -67,9 +68,9 @@ export async function getStaticPaths() {
       </div>
     </header>
 
-    <!-- ✅ 本文 -->
-    <main class="max-w-screen-md mx-auto px-4 py-8">
-      <div class="space-y-6">
+    <!-- ✅ ニュースカード表示 -->
+    <main class="max-w-6xl mx-auto px-4 py-8">
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
         {paginated.map((post) => (
           <Card
             title={post.data.title}
@@ -82,18 +83,10 @@ export async function getStaticPaths() {
         ))}
       </div>
 
-      <nav class="mt-10 flex justify-between items-center">
-        {currentPage > 1 ? (
-          <a href={`/page/${sort}/${currentPage - 1}`} class="text-blue-500 hover:underline">← 前のページ</a>
-        ) : <span></span>}
-
-        {currentPage < totalPages ? (
-          <a href={`/page/${sort}/${currentPage + 1}`} class="text-blue-500 hover:underline">次のページ →</a>
-        ) : <span></span>}
-      </nav>
-
-      <div class="mt-8 text-center">
-        <a href="/" class="text-sm text-gray-500 hover:underline">ページTOPへ</a>
+      <div class="mt-8 flex justify-end text-sm text-blue-600">
+        {currentPage < totalPages && (
+          <a href={`/page/${sort}/${currentPage + 1}`} class="hover:underline">次のページ →</a>
+        )}
       </div>
     </main>
   </body>
