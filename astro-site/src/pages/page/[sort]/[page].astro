@@ -1,18 +1,35 @@
 ---
-// src/pages/page/[sort]/[page].astro
+import { getCollection } from 'astro:content';
+import ArticleCard from '../../../components/ArticleCard.astro';
 
-import { getCollection } from "astro:content";
-import ArticleCard from "../../../components/ArticleCard.astro";
+// 🔁 Astro.params を使って現在のページ情報を取得
+const { sort, page } = Astro.params;
+const allPosts = await getCollection('posts');
 
-const PAGE_SIZE = 30; // ← 最上部に定義しておくことが重要
+// 🔁 ページサイズ（定数）
+const PAGE_SIZE = 30;
 
+// 🔁 ソート処理
+const sortedPosts = sort === 'source'
+  ? [...allPosts].sort((a, b) => a.data.source.localeCompare(b.data.source))
+  : [...allPosts].sort((a, b) => new Date(b.data.pubDate) - new Date(a.data.pubDate));
+
+// 🔁 ページネーション処理
+const currentPage = Number(page);
+const totalPages = Math.ceil(sortedPosts.length / PAGE_SIZE);
+const startIndex = (currentPage - 1) * PAGE_SIZE;
+const posts = sortedPosts.slice(startIndex, startIndex + PAGE_SIZE);
+---
+
+// ✅ 静的ルート生成関数（ここで PAGE_SIZE を再定義！）
 export async function getStaticPaths() {
-  const allPosts = await getCollection("posts");
-  const sorts = ["date", "source"];
+  const PAGE_SIZE = 30; // ❗ここでも再定義が必要（Astroの仕様）
+  const allPosts = await getCollection('posts');
+  const sorts = ['date', 'source'];
   const paths = [];
 
   for (const sort of sorts) {
-    const sorted = sort === "source"
+    const sorted = sort === 'source'
       ? [...allPosts].sort((a, b) => a.data.source.localeCompare(b.data.source))
       : [...allPosts].sort((a, b) => new Date(b.data.pubDate) - new Date(a.data.pubDate));
 
@@ -22,67 +39,38 @@ export async function getStaticPaths() {
     }
   }
 
-  return paths;
-}
-
-export async function get({ params }) {
-  const allPosts = await getCollection("posts");
-  const sort = params.sort;
-  const currentPage = parseInt(params.page || "1", 10);
-
-  const sorted = sort === "source"
-    ? [...allPosts].sort((a, b) => a.data.source.localeCompare(b.data.source))
-    : [...allPosts].sort((a, b) => new Date(b.data.pubDate) - new Date(a.data.pubDate));
-
-  const start = (currentPage - 1) * PAGE_SIZE;
-  const end = start + PAGE_SIZE;
-  const pagePosts = sorted.slice(start, end);
-
   return {
-    props: {
-      posts: pagePosts,
-      currentPage,
-      totalPages: Math.ceil(sorted.length / PAGE_SIZE),
-      sort,
-    },
+    params: paths.map((p) => p.params),
+    props: {}, // 空でOK
   };
 }
-
-const { posts, currentPage, totalPages, sort } = Astro.props;
 ---
 
 <html lang="ja">
   <head>
     <meta charset="UTF-8" />
-    <title>AIニュース一覧（{sort}） - ページ {currentPage}</title>
+    <title>AIニュース一覧（{sort}）– Page {page}</title>
   </head>
   <body class="bg-white text-black">
     <main class="max-w-5xl mx-auto px-4 py-8">
-      <h1 class="text-3xl font-bold mb-6">AIニュース一覧（{sort}）</h1>
+      <h1 class="text-3xl font-bold mb-6">AIニュース一覧（{sort}） - Page {page}</h1>
 
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-        {posts.map((post) => (
-          <ArticleCard {...post.data} />
+        {posts.map(post => (
+          <ArticleCard
+            title={post.data.title}
+            pubDate={post.data.pubDate}
+            description={post.data.summary}
+            media={post.data.source}
+            thumbnail={post.data.thumbnail}
+            url={post.data.url}
+          />
         ))}
       </div>
 
       <div class="mt-8 flex justify-center gap-4">
-        {currentPage > 1 && (
-          <a
-            href={`/page/${sort}/${currentPage - 1}`}
-            class="px-4 py-2 bg-gray-200 rounded hover:bg-gray-300"
-          >
-            ← 前のページ
-          </a>
-        )}
-        {currentPage < totalPages && (
-          <a
-            href={`/page/${sort}/${currentPage + 1}`}
-            class="px-4 py-2 bg-gray-200 rounded hover:bg-gray-300"
-          >
-            次のページ →
-          </a>
-        )}
+        {currentPage > 1 && <a href={`/page/${sort}/${currentPage - 1}`} class="px-4 py-2 bg-gray-200 rounded hover:bg-gray-300">← 前</a>}
+        {currentPage < totalPages && <a href={`/page/${sort}/${currentPage + 1}`} class="px-4 py-2 bg-gray-200 rounded hover:bg-gray-300">次 →</a>}
       </div>
     </main>
   </body>
