@@ -14,6 +14,7 @@ import os
 from datetime import datetime
 from pathlib import Path
 from bs4 import BeautifulSoup
+from urllib.parse import urljoin  # ✅ 絶対パス化のため追加
 
 ROOT = Path(__file__).resolve().parent
 CONTENT_DIR = ROOT / "astro-site" / "src" / "content" / "posts"
@@ -39,25 +40,29 @@ def slugify(text: str) -> str:
 
 
 def extract_thumbnail(url):
-    """OGP画像・Twitterカード・imgタグから画像URL抽出 + ログ出力"""
+    """OGP画像・Twitterカード・imgタグから画像URL抽出（絶対パス対応 + ログ出力）"""
     try:
         res = requests.get(url, timeout=10, headers={"User-Agent": "Mozilla/5.0"})
         soup = BeautifulSoup(res.text, "html.parser")
 
+        # OGP画像
         og = soup.find("meta", property="og:image")
         if og and og.get("content"):
             print(f"[OGP] {url} → {og['content']}")
             return og["content"]
 
+        # Twitterカード
         tw = soup.find("meta", attrs={"name": "twitter:image"})
         if tw and tw.get("content"):
             print(f"[Twitter] {url} → {tw['content']}")
             return tw["content"]
 
+        # 最初の img タグ → 絶対URL化
         img = soup.find("img")
         if img and img.get("src"):
-            print(f"[img tag] {url} → {img['src']}")
-            return img["src"]
+            abs_url = urljoin(url, img["src"])
+            print(f"[img tag] {url} → {abs_url}")
+            return abs_url
 
     except Exception as e:
         print(f"[thumbnail error] {url} → {e}")
