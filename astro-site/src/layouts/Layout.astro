@@ -15,7 +15,7 @@ const q = Astro.url?.searchParams.get('q') || '';
     <header id="top" class="sticky top-0 z-50 bg-white border-b border-gray-200 px-4 py-4 space-y-4">
       <!-- 上段：ロゴ＆タイトル（リンク付き） -->
       <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between space-y-2 sm:space-y-0">
-        <a href="https://raisex-llc.github.io/ai-news-curation-site/" class="flex items-center space-x-3 hover:opacity-80">
+        <a href="/ai-news-curation-site/" class="flex items-center space-x-3 hover:opacity-80">
           <img src="/ai-news-curation-site/assets/ai-icon.png" alt="AIアイコン" class="w-10 h-10" />
           <div class="text-sky-500 text-2xl font-bold">最新AIニュースまとめ</div>
         </a>
@@ -26,7 +26,7 @@ const q = Astro.url?.searchParams.get('q') || '';
         )}
       </div>
 
-      <!-- 中段：検索 + 次のページ -->
+      <!-- 中段：検索 + ページナビゲーション -->
       <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
         <form action="" method="get" class="w-full sm:w-auto">
           <input
@@ -38,14 +38,18 @@ const q = Astro.url?.searchParams.get('q') || '';
           />
         </form>
 
-        {currentPage && totalPages && currentPage < totalPages && (
-          <a
-            href={`/ai-news-curation-site/page/${sort}/${currentPage + 1}`}
-            class="text-blue-600 text-sm hover:underline text-right"
-          >
-            → 次のページ
-          </a>
-        )}
+        <div class="text-sm flex justify-end gap-4 text-blue-600">
+          {currentPage && currentPage > 1 && (
+            <a href={`/ai-news-curation-site/page/${sort}/${currentPage - 1}`} class="hover:underline">
+              ← 前のページ
+            </a>
+          )}
+          {currentPage && totalPages && currentPage < totalPages && (
+            <a href={`/ai-news-curation-site/page/${sort}/${currentPage + 1}`} class="hover:underline">
+              → 次のページ
+            </a>
+          )}
+        </div>
       </div>
 
       <!-- 下段：ヘッダー内広告 -->
@@ -82,13 +86,20 @@ const q = Astro.url?.searchParams.get('q') || '';
 
     <!-- ✅ フッター -->
     <footer class="text-center text-xs text-gray-500 py-6">
-      {currentPage && currentPage < totalPages && (
-        <a href={`/ai-news-curation-site/page/${sort}/${currentPage + 1}`} class="text-blue-500 mr-4">
-          次のページ
-        </a>
-      )}
-      <a href="#top" class="text-blue-500">ページTOPへ</a>
-      <div class="mt-2">© 2024 raisex, LLC. All rights reserved.</div>
+      <div class="mb-2 space-x-4">
+        {currentPage && currentPage > 1 && (
+          <a href={`/ai-news-curation-site/page/${sort}/${currentPage - 1}`} class="text-blue-500">
+            ← 前のページ
+          </a>
+        )}
+        {currentPage && currentPage < totalPages && (
+          <a href={`/ai-news-curation-site/page/${sort}/${currentPage + 1}`} class="text-blue-500">
+            次のページ →
+          </a>
+        )}
+        <a href="#top" class="text-blue-500">ページTOPへ</a>
+      </div>
+      <div>© 2024 raisex, LLC. All rights reserved.</div>
     </footer>
   </body>
 </html>
