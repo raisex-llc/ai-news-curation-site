@@ -1,9 +1,9 @@
 ---
-// /src/pages/page/[sort]/[page].astro
+// /page/[sort]/[page].astro
 
-import "../../../styles/global.css";
+import Layout from "../../../layouts/Layout.astro";
 import { getCollection } from "astro:content";
-import Card from "../../../components/ArticleCard.astro";
+import ArticleCard from "../../../components/ArticleCard.astro";
 
 const { sort, page } = Astro.params;
 const currentPage = parseInt(page);
@@ -18,7 +18,6 @@ const sorted = sort === "source"
 const totalPages = Math.ceil(sorted.length / PAGE_SIZE);
 const paginated = sorted.slice((currentPage - 1) * PAGE_SIZE, currentPage * PAGE_SIZE);
 
-// スコープ対策
 export async function getStaticPaths() {
   const allPosts = await getCollection("posts");
   const sorts = ["date", "source"];
@@ -29,7 +28,6 @@ export async function getStaticPaths() {
       ? [...allPosts].sort((a, b) => a.data.source.localeCompare(b.data.source))
       : [...allPosts].sort((a, b) => new Date(b.data.pubDate) - new Date(a.data.pubDate));
 
-    const PAGE_SIZE = 30;
     const totalPages = Math.ceil(sorted.length / PAGE_SIZE);
     for (let i = 1; i <= totalPages; i++) {
       paths.push({ params: { sort, page: String(i) } });
@@ -40,54 +38,16 @@ export async function getStaticPaths() {
 }
 ---
 
-<html lang="ja">
-  <head>
-    <meta charset="UTF-8" />
-    <title>最新AIニュースまとめ</title>
-  </head>
-  <body class="bg-gray-100 text-gray-800">
-    
-    <!-- ✅ 固定ヘッダー -->
-    <header class="sticky top-0 z-50 bg-white border-b border-gray-200 px-4 py-3 flex items-center justify-between">
-      <div class="flex items-center space-x-3">
-        <img src="/ai-icon.png" alt="AIアイコン" class="w-8 h-8" />
-        <div class="text-sky-500 text-xl font-bold">
-          最新AIニュースまとめ
-          <span class="text-sm text-gray-600 font-normal ml-2">(ページ {currentPage} / 全{totalPages}ページ中)</span>
-        </div>
-      </div>
-      <div class="flex items-center space-x-3">
-        <select class="border text-sm rounded px-2 py-1">
-          <option selected={sort === "date"}>新着順</option>
-          <option selected={sort === "source"}>媒体順</option>
-        </select>
-        <input type="text" placeholder="記事検索" class="text-sm border rounded px-2 py-1 w-32" />
-        {currentPage < totalPages ? (
-          <a href={`/page/${sort}/${currentPage + 1}`} class="text-blue-600 text-sm hover:underline">→ 次のページ</a>
-        ) : null}
-      </div>
-    </header>
+<Layout currentPage={currentPage} totalPages={totalPages} sort={sort}>
+  <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+    {paginated.map((post) => (
+      <ArticleCard {...post.data} />
+    ))}
+  </div>
 
-    <!-- ✅ ニュースカード表示 -->
-    <main class="max-w-6xl mx-auto px-4 py-8">
-      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {paginated.map((post) => (
-          <Card
-            title={post.data.title}
-            pubDate={post.data.pubDate}
-            source={post.data.source}
-            url={post.data.url}
-            thumbnail={post.data.thumbnail}
-            summary={post.data.summary}
-          />
-        ))}
-      </div>
-
-      <div class="mt-8 flex justify-end text-sm text-blue-600">
-        {currentPage < totalPages && (
-          <a href={`/page/${sort}/${currentPage + 1}`} class="hover:underline">次のページ →</a>
-        )}
-      </div>
-    </main>
-  </body>
-</html>
+  {currentPage < totalPages && (
+    <div class="mt-8 flex justify-end text-sm text-blue-600">
+      <a href={`/page/${sort}/${currentPage + 1}`} class="hover:underline">次のページ →</a>
+    </div>
+  )}
+</Layout>

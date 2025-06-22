@@ -1,0 +1,58 @@
+---
+// layouts/Layout.astro
+
+const { children, currentPage, totalPages, sort } = Astro.props;
+---
+
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>最新AIニュースまとめ</title>
+  </head>
+  <body class="bg-gray-100 text-gray-800">
+    <!-- ✅ 固定ヘッダー -->
+    <header class="sticky top-0 z-50 bg-white border-b border-gray-200 px-4 py-3 flex items-center justify-between">
+      <div class="flex items-center space-x-3">
+        <img src="/ai-icon.png" alt="AIアイコン" class="w-8 h-8" />
+        <div class="text-sky-500 text-xl font-bold">
+          最新AIニュースまとめ
+          {typeof currentPage !== 'undefined' && typeof totalPages !== 'undefined' && (
+            <span class="text-sm text-gray-600 font-normal ml-2">(ページ {currentPage} / 全{totalPages}ページ中)</span>
+          )}
+        </div>
+      </div>
+      <div class="flex items-center space-x-3">
+        <select class="border text-sm rounded px-2 py-1">
+          <option selected={sort === "date"}>新着順</option>
+          <option selected={sort === "source"}>媒体順</option>
+        </select>
+        <input type="text" placeholder="記事検索" class="text-sm border rounded px-2 py-1 w-32" />
+        {typeof currentPage !== 'undefined' && currentPage < totalPages && (
+          <a href={`/page/${sort}/${currentPage + 1}`} class="text-blue-600 text-sm hover:underline">→ 次のページ</a>
+        )}
+      </div>
+    </header>
+
+    <!-- ✅ 本文 + 右広告 -->
+    <main class="max-w-6xl mx-auto px-4 py-8 flex flex-col lg:flex-row gap-6">
+      <div class="flex-1">
+        <div class="mb-4 bg-gray-200 text-center py-2">🔳 ヘッダー下広告</div>
+        {children}
+        <div class="mt-8 bg-gray-200 text-center py-2">🔳 フッター固定広告</div>
+      </div>
+      <aside class="hidden lg:block w-48 space-y-4">
+        <div class="bg-gray-300 h-32 flex items-center justify-center">🔳 バナー広告</div>
+        <div class="bg-gray-300 h-32 flex items-center justify-center">🔳 バナー広告</div>
+        <div class="bg-gray-300 h-32 flex items-center justify-center">🔳 バナー広告</div>
+      </aside>
+    </main>
+
+    <!-- ✅ フッター -->
+    <footer class="text-center text-xs text-gray-500 py-6">
+      <a href="/page/${sort}/${currentPage + 1}" class="text-blue-500 mr-4">次のページ</a>
+      <a href="/" class="text-blue-500">サイトTOPへ</a>
+      <div class="mt-2">© 2024 raisex, LLC. All rights reserved.</div>
+    </footer>
+  </body>
+</html>

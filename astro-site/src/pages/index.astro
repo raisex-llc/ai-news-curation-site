@@ -1,6 +1,7 @@
 ---
 // /pages/index.astro
 // 🏠 Flipboard風 一覧ページ（1ページ目）
+import Layout from "../layouts/Layout.astro";
 import { getCollection } from "astro:content";
 import ArticleCard from "../components/ArticleCard.astro";
 
@@ -13,28 +14,16 @@ const paginatedPosts = sorted.slice(0, PAGE_SIZE);
 const totalPages = Math.ceil(sorted.length / PAGE_SIZE);
 ---
 
-<html lang="ja">
-  <head>
-    <meta charset="UTF-8" />
-    <title>最新AIニュースまとめ</title>
-  </head>
-  <body class="bg-gray-100 text-gray-800">
-    <main class="max-w-6xl mx-auto px-4 py-8">
-      <div class="mb-4 flex flex-col md:flex-row md:items-center md:justify-between">
-        <h1 class="text-2xl font-bold text-sky-500 mb-2 md:mb-0">最新AIニュースまとめ</h1>
-      </div>
+<Layout currentPage={1} totalPages={totalPages} sort="date">
+  <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+    {paginatedPosts.map((post) => (
+      <ArticleCard {...post.data} />
+    ))}
+  </div>
 
-      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {paginatedPosts.map((post) => (
-          <ArticleCard {...post.data} />
-        ))}
-      </div>
-
-      {totalPages > 1 && (
-        <div class="mt-8 flex justify-end text-sm text-blue-600">
-          <a href={`/page/2`} class="hover:underline">次のページ →</a>
-        </div>
-      )}
-    </main>
-  </body>
-</html>
+  {totalPages > 1 && (
+    <div class="mt-8 flex justify-end text-sm text-blue-600">
+      <a href={`/page/date/2`} class="hover:underline">次のページ →</a>
+    </div>
+  )}
+</Layout>
