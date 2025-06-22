@@ -1,65 +1,61 @@
 ---
 // /pages/index.astro
 // 🏠 Flipboard風 一覧ページ（1ページ目）
-
-import "../styles/global.css";
-import { getCollection } from "astro:content";
+// ✅ 必要な読み込み
 import Card from "../components/ArticleCard.astro";
+import { getCollection } from "astro:content";
 
 const PAGE_SIZE = 30;
 const allPosts = await getCollection("posts");
-const sorted = [...allPosts].sort((a, b) => new Date(b.data.pubDate) - new Date(a.data.pubDate));
 const currentPage = 1;
-const totalPages = Math.ceil(sorted.length / PAGE_SIZE);
-const paginated = sorted.slice(0, PAGE_SIZE);
+const totalPages = Math.ceil(allPosts.length / PAGE_SIZE);
+const posts = allPosts
+  .sort((a, b) => new Date(b.data.pubDate) - new Date(a.data.pubDate))
+  .slice(0, PAGE_SIZE);
 ---
 
+<!-- ✅ グローバルスタイル -->
 <html lang="ja">
   <head>
     <meta charset="UTF-8" />
     <title>最新AIニュースまとめ</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
-  <body class="bg-gray-100 text-gray-800">
-
+  <body class="bg-gray-100 text-gray-900">
     <!-- ✅ 固定ヘッダー -->
-    <header class="sticky top-0 z-50 bg-white border-b border-gray-200 px-4 py-3 flex items-center justify-between">
+    <header class="sticky top-0 z-50 bg-white border-b border-gray-300 px-4 py-2 flex items-center justify-between shadow-sm">
       <div class="flex items-center space-x-3">
-        <img src="/ai-icon.png" alt="AIアイコン" class="w-8 h-8" />
-        <div class="text-sky-500 text-xl font-bold">
+        <img src="/ai-icon.png" alt="AI" class="w-10 h-10" />
+        <h1 class="text-sky-500 text-xl font-bold leading-tight">
           最新AIニュースまとめ
-          <span class="text-sm text-gray-600 font-normal ml-2">(ページ {currentPage} / 全{totalPages}ページ中)</span>
-        </div>
+          <span class="ml-2 text-sm text-gray-600 font-normal align-middle">
+            （ページ {currentPage} ／ 全{totalPages}ページ中）
+          </span>
+        </h1>
       </div>
       <div class="flex items-center space-x-3">
-        <select class="border text-sm rounded px-2 py-1">
+        <select class="border border-gray-300 rounded px-2 py-1 text-sm">
           <option selected>新着順</option>
         </select>
-        <input type="text" placeholder="記事検索" class="text-sm border rounded px-2 py-1 w-32" />
+        <input
+          type="text"
+          placeholder="記事検索"
+          class="border border-gray-300 rounded px-2 py-1 text-sm w-32"
+        />
         {totalPages > 1 && (
-          <a href={`/page/date/2`} class="text-blue-600 text-sm hover:underline">→ 次のページ</a>
+          <a href={`/page/date/2`} class="text-blue-600 text-sm hover:underline whitespace-nowrap">
+            → 次のページ
+          </a>
         )}
       </div>
     </header>
 
-    <!-- ✅ カード一覧 -->
-    <main class="max-w-6xl mx-auto px-4 py-8">
-      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {paginated.map((post) => (
-          <Card
-            title={post.data.title}
-            pubDate={post.data.pubDate}
-            source={post.data.source}
-            url={post.data.url}
-            thumbnail={post.data.thumbnail}
-            summary={post.data.summary}
-          />
+    <!-- ✅ カード表示 -->
+    <main class="p-4 max-w-7xl mx-auto">
+      <div class="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+        {posts.map(post => (
+          <Card post={post} />
         ))}
-      </div>
-
-      <div class="mt-8 flex justify-end text-sm text-blue-600">
-        {totalPages > 1 && (
-          <a href={`/page/date/2`} class="hover:underline">次のページ →</a>
-        )}
       </div>
     </main>
   </body>
