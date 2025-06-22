@@ -1,0 +1,29 @@
+---
+// /pages/index.astro
+// 🏠 Flipboard風 一覧ページ（1ページ目）
+import Layout from "../layouts/Layout.astro";
+import { getCollection } from "astro:content";
+import ArticleCard from "../components/ArticleCard.astro";
+
+const PAGE_SIZE = 30;
+const allPosts = await getCollection("posts");
+const sorted = [...allPosts].sort(
+  (a, b) => new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime()
+);
+const paginatedPosts = sorted.slice(0, PAGE_SIZE);
+const totalPages = Math.ceil(sorted.length / PAGE_SIZE);
+---
+
+<Layout currentPage={1} totalPages={totalPages} sort="date">
+  <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+    {paginatedPosts.map((post) => (
+      <ArticleCard {...post.data} />
+    ))}
+  </div>
+
+  {totalPages > 1 && (
+    <div class="mt-8 flex justify-end text-sm text-blue-600">
+      <a href={`/page/date/2`} class="hover:underline">次のページ →</a>
+    </div>
+  )}
+</Layout>
