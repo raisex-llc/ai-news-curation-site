@@ -7,7 +7,19 @@ import ArticleCard from "../components/ArticleCard.astro";
 
 const PAGE_SIZE = 30;
 const allPosts = await getCollection("posts");
-const sorted = [...allPosts].sort(
+
+// ✅ 検索キーワードの取得（クエリパラメータ）
+const search = new URL(Astro.request.url).searchParams.get("q")?.toLowerCase() ?? "";
+
+// ✅ フィルタ処理：title・description・body に含まれるか
+const filteredPosts = allPosts.filter(post =>
+  post.data.title.toLowerCase().includes(search) ||
+  post.data.description.toLowerCase().includes(search) ||
+  (post.body && post.body.toLowerCase().includes(search))
+);
+
+// ✅ 投稿日降順でソートしてページネーション
+const sorted = [...filteredPosts].sort(
   (a, b) => new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime()
 );
 const paginatedPosts = sorted.slice(0, PAGE_SIZE);
@@ -15,6 +27,16 @@ const totalPages = Math.ceil(sorted.length / PAGE_SIZE);
 ---
 
 <Layout currentPage={1} totalPages={totalPages} sort="date">
+  <form method="GET" class="mb-4">
+    <input
+      type="text"
+      name="q"
+      value={search}
+      placeholder="記事検索"
+      class="text-sm border rounded px-2 py-1 w-full sm:w-72"
+    />
+  </form>
+
   <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
     {paginatedPosts.map((post) => (
       <ArticleCard
@@ -30,7 +52,9 @@ const totalPages = Math.ceil(sorted.length / PAGE_SIZE);
 
   {totalPages > 1 && (
     <div class="mt-8 flex justify-end text-sm text-blue-600">
-      <a href={`/page/date/2`} class="hover:underline">次のページ →</a>
+      <a href="/ai-news-curation-site/page/date/2" class="hover:underline">
+        次のページ →
+      </a>
     </div>
   )}
 </Layout>
