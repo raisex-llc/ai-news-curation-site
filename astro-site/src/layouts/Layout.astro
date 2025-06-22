@@ -11,33 +11,42 @@ const { currentPage, totalPages, sort } = Astro.props;
   </head>
   <body class="bg-gray-100 text-gray-800">
     <!-- ✅ 固定ヘッダー（広告付き） -->
-    <header class="sticky top-0 z-50 bg-white border-b border-gray-200 px-4 py-4 space-y-2">
-      <!-- 上段：ロゴ・タイトル・ページ情報・検索 -->
-      <div class="flex items-center justify-between">
+    <header class="sticky top-0 z-50 bg-white border-b border-gray-200 px-4 py-4 space-y-4">
+      <!-- ✅ 上段：ロゴ・タイトル・ページ情報 -->
+      <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between space-y-2 sm:space-y-0">
         <div class="flex items-center space-x-3">
-          <!-- ✅ ロゴ画像パス修正 -->
-          <img src="/ai-news-curation-site/assets/ai-icon.png" alt="AIアイコン" class="w-8 h-8" />
-          <div class="text-sky-500 text-xl font-bold">
+          <!-- ✅ ロゴ画像（拡大） -->
+          <img src="/ai-news-curation-site/assets/ai-icon.png" alt="AIアイコン" class="w-10 h-10" />
+          <div class="text-sky-500 text-2xl font-bold">
             最新AIニュースまとめ
-            {typeof currentPage !== 'undefined' && typeof totalPages !== 'undefined' && (
-              <span class="text-sm text-gray-600 font-normal ml-2">(ページ {currentPage} / 全{totalPages}ページ中)</span>
-            )}
           </div>
         </div>
-        <div class="flex items-center space-x-3">
-          <select class="border text-sm rounded px-2 py-1">
-            <option selected={sort === "date"}>新着順</option>
-            <option selected={sort === "source"}>媒体順</option>
-          </select>
-          <input type="text" placeholder="記事検索" class="text-sm border rounded px-2 py-1 w-32" />
-          {typeof currentPage !== 'undefined' && currentPage < totalPages && (
-            <a href={`/page/${sort}/${currentPage + 1}`} class="text-blue-600 text-sm hover:underline">→ 次のページ</a>
-          )}
-        </div>
+        {typeof currentPage !== 'undefined' && typeof totalPages !== 'undefined' && (
+          <div class="text-sm text-gray-600 font-normal ml-1 sm:ml-0">
+            （ページ {currentPage} / 全{totalPages}ページ中）
+          </div>
+        )}
       </div>
 
-      <!-- ✅ 中央寄せ & 幅調整された広告 -->
-      <div class="mx-auto max-w-4xl rounded bg-gray-200 text-center py-2 text-sm">
+      <!-- ✅ 中段：検索フォーム＋ページネーション -->
+      <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
+        <input
+          type="text"
+          placeholder="記事検索"
+          class="text-sm border rounded px-2 py-1 w-full sm:w-52"
+        />
+        {typeof currentPage !== 'undefined' && currentPage < totalPages && (
+          <a
+            href={`/page/${sort}/${currentPage + 1}`}
+            class="text-blue-600 text-sm hover:underline text-right"
+          >
+            → 次のページ
+          </a>
+        )}
+      </div>
+
+      <!-- ✅ 下段：中央寄せ・2/3幅の広告 -->
+      <div class="mx-auto max-w-3xl rounded bg-gray-200 text-center py-2 text-sm">
         🔳 ヘッダー内広告募集中
       </div>
     </header>
