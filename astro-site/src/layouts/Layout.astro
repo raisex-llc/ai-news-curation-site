@@ -1,9 +1,7 @@
 ---
 // layouts/Layout.astro
-
-const { children, currentPage, totalPages, sort } = Astro.props;
+const { currentPage, totalPages, sort } = Astro.props;
 ---
-
 <html lang="ja">
   <head>
     <meta charset="UTF-8" />
@@ -38,7 +36,10 @@ const { children, currentPage, totalPages, sort } = Astro.props;
     <main class="max-w-6xl mx-auto px-4 py-8 flex flex-col lg:flex-row gap-6">
       <div class="flex-1">
         <div class="mb-4 bg-gray-200 text-center py-2">🔳 ヘッダー下広告</div>
-        {children}
+
+        <!-- 🔻ここが重要 -->
+        <slot />
+
         <div class="mt-8 bg-gray-200 text-center py-2">🔳 フッター固定広告</div>
       </div>
       <aside class="hidden lg:block w-48 space-y-4">
@@ -50,7 +51,7 @@ const { children, currentPage, totalPages, sort } = Astro.props;
 
     <!-- ✅ フッター -->
     <footer class="text-center text-xs text-gray-500 py-6">
-      <a href="/page/${sort}/${currentPage + 1}" class="text-blue-500 mr-4">次のページ</a>
+      <a href={`/page/${sort}/${currentPage + 1}`} class="text-blue-500 mr-4">次のページ</a>
       <a href="/" class="text-blue-500">サイトTOPへ</a>
       <div class="mt-2">© 2024 raisex, LLC. All rights reserved.</div>
     </footer>
