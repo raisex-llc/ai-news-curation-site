@@ -15,7 +15,8 @@ const { currentPage, totalPages, sort } = Astro.props;
       <!-- 上段：ロゴ・タイトル・ページ情報・検索 -->
       <div class="flex items-center justify-between">
         <div class="flex items-center space-x-3">
-          <img src="/assets/ai-icon.png" alt="AIアイコン" class="w-8 h-8" />
+          <!-- ✅ ロゴ画像パス修正 -->
+          <img src="/ai-news-curation-site/assets/ai-icon.png" alt="AIアイコン" class="w-8 h-8" />
           <div class="text-sky-500 text-xl font-bold">
             最新AIニュースまとめ
             {typeof currentPage !== 'undefined' && typeof totalPages !== 'undefined' && (
@@ -35,8 +36,10 @@ const { currentPage, totalPages, sort } = Astro.props;
         </div>
       </div>
 
-      <!-- 下段：ヘッダー固定広告 -->
-      <div class="bg-gray-200 text-center py-2 text-sm">🔳 ヘッダー下広告募集中</div>
+      <!-- ✅ 中央寄せ & 幅調整された広告 -->
+      <div class="mx-auto max-w-4xl rounded bg-gray-200 text-center py-2 text-sm">
+        🔳 ヘッダー内広告募集中
+      </div>
     </header>
 
     <!-- ✅ 本文 + 右広告 -->
