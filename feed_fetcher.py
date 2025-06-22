@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """
+feed_fetcher.py
 RSS → Markdown 変換 + サムネイル画像抽出
 astro-site/src/content/posts/ に .md を追加する。
 """
@@ -38,28 +39,29 @@ def slugify(text: str) -> str:
 
 
 def extract_thumbnail(url):
-    """OGP画像・Twitterカード・imgタグから画像URL抽出"""
+    """OGP画像・Twitterカード・imgタグから画像URL抽出 + ログ出力"""
     try:
         res = requests.get(url, timeout=10, headers={"User-Agent": "Mozilla/5.0"})
         soup = BeautifulSoup(res.text, "html.parser")
 
-        # OGP画像優先
         og = soup.find("meta", property="og:image")
         if og and og.get("content"):
+            print(f"[OGP] {url} → {og['content']}")
             return og["content"]
 
-        # Twitterカード fallback
         tw = soup.find("meta", attrs={"name": "twitter:image"})
         if tw and tw.get("content"):
+            print(f"[Twitter] {url} → {tw['content']}")
             return tw["content"]
 
-        # 最初の img タグ fallback
         img = soup.find("img")
         if img and img.get("src"):
+            print(f"[img tag] {url} → {img['src']}")
             return img["src"]
 
     except Exception as e:
         print(f"[thumbnail error] {url} → {e}")
+    print(f"[No image found] {url}")
     return ""
 
 
