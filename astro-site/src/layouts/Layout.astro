@@ -9,6 +9,8 @@ const q = Astro.url?.searchParams.get('q') || '';
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>最新AIニュースまとめ</title>
+    <!-- ✅ 検索JSの読み込み（検索フォームに反応） -->
+    <script src="/ai-news-curation-site/search.js" defer></script>
   </head>
   <body class="bg-gray-100 text-gray-800">
     <!-- ✅ 固定ヘッダー -->
