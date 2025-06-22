@@ -13,12 +13,12 @@ const q = Astro.url?.searchParams.get('q') || '';
   <body class="bg-gray-100 text-gray-800">
     <!-- ✅ 固定ヘッダー -->
     <header id="top" class="sticky top-0 z-50 bg-white border-b border-gray-200 px-4 py-4 space-y-4">
-      <!-- 上段：ロゴ＆タイトル -->
+      <!-- 上段：ロゴ＆タイトル（リンク付き） -->
       <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between space-y-2 sm:space-y-0">
-        <div class="flex items-center space-x-3">
+        <a href="/" class="flex items-center space-x-3 hover:opacity-80">
           <img src="/ai-news-curation-site/assets/ai-icon.png" alt="AIアイコン" class="w-10 h-10" />
           <div class="text-sky-500 text-2xl font-bold">最新AIニュースまとめ</div>
-        </div>
+        </a>
         {currentPage && totalPages && (
           <div class="text-sm text-gray-600 font-normal ml-1 sm:ml-0">
             （ページ {currentPage} / 全{totalPages}ページ中）
@@ -26,7 +26,7 @@ const q = Astro.url?.searchParams.get('q') || '';
         )}
       </div>
 
-      <!-- 中段：検索 + ページネーション -->
+      <!-- 中段：検索 + 次のページ -->
       <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
         <form action="" method="get" class="w-full sm:w-auto">
           <input
