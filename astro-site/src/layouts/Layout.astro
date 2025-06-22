@@ -97,7 +97,13 @@ const q = Astro.url?.searchParams.get('q') || '';
             次のページ →
           </a>
         )}
-        <a href="#top" class="text-blue-500">ページTOPへ</a>
+        {currentPage && sort ? (
+          <a href={`/ai-news-curation-site/page/${sort}/${currentPage}#top`} class="text-blue-500">
+            ページTOPへ
+          </a>
+        ) : (
+          <a href="/ai-news-curation-site/#top" class="text-blue-500">ページTOPへ</a>
+        )}
       </div>
       <div>© 2024 raisex, LLC. All rights reserved.</div>
     </footer>
