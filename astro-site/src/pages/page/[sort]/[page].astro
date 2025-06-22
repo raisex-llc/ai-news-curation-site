@@ -8,25 +8,12 @@ import "../../../styles/global.css";
 const { sort, page } = Astro.params;
 const currentPage = parseInt(page);
 const allPosts = await getCollection("posts");
+
 const PAGE_SIZE = 30;
 
-// ✅ 検索対応：クエリ取得
-const query = new URL(Astro.request.url).searchParams.get("q") || "";
-
-let filtered = [...allPosts];
-if (query) {
-  const q = query.toLowerCase();
-  filtered = allPosts.filter(
-    (post) =>
-      post.data.title.toLowerCase().includes(q) ||
-      post.data.summary.toLowerCase().includes(q) ||
-      post.data.source.toLowerCase().includes(q)
-  );
-}
-
 const sorted = sort === "source"
-  ? [...filtered].sort((a, b) => a.data.source.localeCompare(b.data.source))
-  : [...filtered].sort((a, b) => new Date(b.data.pubDate) - new Date(a.data.pubDate));
+  ? [...allPosts].sort((a, b) => a.data.source.localeCompare(b.data.source))
+  : [...allPosts].sort((a, b) => new Date(b.data.pubDate) - new Date(a.data.pubDate));
 
 const totalPages = Math.ceil(sorted.length / PAGE_SIZE);
 const paginated = sorted.slice((currentPage - 1) * PAGE_SIZE, currentPage * PAGE_SIZE);
@@ -35,6 +22,8 @@ export async function getStaticPaths() {
   const allPosts = await getCollection("posts");
   const sorts = ["date", "source"];
   const paths = [];
+
+  const PAGE_SIZE = 30; // ✅ ← ここに必要！
 
   for (const sort of sorts) {
     const sorted = sort === "source"
@@ -52,38 +41,34 @@ export async function getStaticPaths() {
 ---
 
 <Layout {sort} {currentPage} {totalPages}>
-  <div class="max-w-screen-md mx-auto px-4 py-8">
+  <main class="max-w-screen-md mx-auto px-4 py-8">
     <h1 class="text-2xl font-bold mb-6">ニュース一覧（{sort}順）</h1>
-
-    {query && (
-      <p class="text-sm text-gray-500 mb-4">「{query}」の検索結果：{filtered.length}件</p>
-    )}
 
     <div class="space-y-6">
       {paginated.map((post) => (
         <Card
           title={post.data.title}
           pubDate={post.data.pubDate}
-          media={post.data.source}
+          source={post.data.source}
           url={post.data.url}
           thumbnail={post.data.thumbnail}
-          description={post.data.summary}
+          summary={post.data.summary}
         />
       ))}
     </div>
 
     <nav class="mt-10 flex justify-between items-center">
       {currentPage > 1 ? (
-        <a href={`/ai-news-curation-site/page/${sort}/${currentPage - 1}${query ? `?q=${query}` : ""}`} class="text-blue-500 hover:underline">← 前のページ</a>
+        <a href={`/ai-news-curation-site/page/${sort}/${currentPage - 1}`} class="text-blue-500 hover:underline">← 前のページ</a>
       ) : <span></span>}
 
       {currentPage < totalPages ? (
-        <a href={`/ai-news-curation-site/page/${sort}/${currentPage + 1}${query ? `?q=${query}` : ""}`} class="text-blue-500 hover:underline">次のページ →</a>
+        <a href={`/ai-news-curation-site/page/${sort}/${currentPage + 1}`} class="text-blue-500 hover:underline">次のページ →</a>
       ) : <span></span>}
     </nav>
 
     <div class="mt-8 text-center">
-      <a href="#top" class="text-sm text-blue-500 hover:underline">ページTOPへ</a>
+      <a href="#top" class="text-sm text-gray-500 hover:underline">ページTOPへ</a>
     </div>
-  </div>
+  </main>
 </Layout>
