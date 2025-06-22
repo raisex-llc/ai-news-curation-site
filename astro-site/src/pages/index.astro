@@ -1,7 +1,7 @@
 ---
 // /pages/index.astro
 // 🏠 Flipboard風 一覧ページ（1ページ目）
-// ✅ 必要な読み込み
+
 import Card from "../components/ArticleCard.astro";
 import { getCollection } from "astro:content";
 
@@ -14,7 +14,6 @@ const posts = allPosts
   .slice(0, PAGE_SIZE);
 ---
 
-<!-- ✅ グローバルスタイル -->
 <html lang="ja">
   <head>
     <meta charset="UTF-8" />
@@ -22,10 +21,10 @@ const posts = allPosts
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
   <body class="bg-gray-100 text-gray-900">
-    <!-- ✅ 固定ヘッダー -->
+    <!-- ✅ 固定ヘッダーのみ修正（logo.pngに対応） -->
     <header class="sticky top-0 z-50 bg-white border-b border-gray-300 px-4 py-2 flex items-center justify-between shadow-sm">
       <div class="flex items-center space-x-3">
-        <img src="/ai-icon.png" alt="AI" class="w-10 h-10" />
+        <img src="/assets/logo.png" alt="AI" class="w-10 h-10" />
         <h1 class="text-sky-500 text-xl font-bold leading-tight">
           最新AIニュースまとめ
           <span class="ml-2 text-sm text-gray-600 font-normal align-middle">
@@ -50,7 +49,7 @@ const posts = allPosts
       </div>
     </header>
 
-    <!-- ✅ カード表示 -->
+    <!-- ✅ カードは今までの構成を維持 -->
     <main class="p-4 max-w-7xl mx-auto">
       <div class="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
         {posts.map(post => (
