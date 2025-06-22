@@ -1,9 +1,7 @@
 ---
 // layouts/Layout.astro
-
 const { currentPage, totalPages, sort } = Astro.props;
-const basePath = "/ai-news-curation-site"; // ✅ GitHub Pages対応
-const hasPagination = typeof currentPage !== 'undefined' && typeof totalPages !== 'undefined';
+const q = Astro.url?.searchParams.get('q') || '';
 ---
 
 <html lang="ja">
@@ -15,32 +13,34 @@ const hasPagination = typeof currentPage !== 'undefined' && typeof totalPages !=
   <body class="bg-gray-100 text-gray-800">
     <!-- ✅ 固定ヘッダー -->
     <header id="top" class="sticky top-0 z-50 bg-white border-b border-gray-200 px-4 py-4 space-y-4">
+      <!-- 上段：ロゴ＆タイトル -->
       <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between space-y-2 sm:space-y-0">
         <div class="flex items-center space-x-3">
-          <img src={`${basePath}/assets/ai-icon.png`} alt="AIアイコン" class="w-10 h-10" />
+          <img src="/ai-news-curation-site/assets/ai-icon.png" alt="AIアイコン" class="w-10 h-10" />
           <div class="text-sky-500 text-2xl font-bold">最新AIニュースまとめ</div>
         </div>
-        {hasPagination && (
+        {currentPage && totalPages && (
           <div class="text-sm text-gray-600 font-normal ml-1 sm:ml-0">
             （ページ {currentPage} / 全{totalPages}ページ中）
           </div>
         )}
       </div>
 
-      <!-- ✅ 検索フォーム + ページネーション -->
+      <!-- 中段：検索 + ページネーション -->
       <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
-        <form method="GET" class="w-full sm:w-72">
+        <form action="" method="get" class="w-full sm:w-auto">
           <input
             type="text"
             name="q"
+            value={q}
             placeholder="記事検索"
-            class="text-sm border rounded px-2 py-1 w-full"
+            class="text-sm border rounded px-2 py-1 w-full sm:w-72"
           />
         </form>
 
-        {hasPagination && currentPage < totalPages && (
+        {currentPage && totalPages && currentPage < totalPages && (
           <a
-            href={`${basePath}/page/${sort}/${currentPage + 1}`}
+            href={`/ai-news-curation-site/page/${sort}/${currentPage + 1}`}
             class="text-blue-600 text-sm hover:underline text-right"
           >
             → 次のページ
@@ -48,29 +48,29 @@ const hasPagination = typeof currentPage !== 'undefined' && typeof totalPages !=
         )}
       </div>
 
-      <!-- ✅ 広告 -->
+      <!-- 下段：ヘッダー内広告 -->
       <div class="mx-auto max-w-3xl rounded bg-gray-200 text-center py-2 text-sm">
         🔳 ヘッダー内広告募集中
       </div>
     </header>
 
-    <!-- ✅ 本文 -->
+    <!-- ✅ 本文と右カラム -->
     <main class="max-w-6xl mx-auto px-4 py-8 flex flex-col lg:flex-row gap-6">
       <div class="flex-1">
         <slot />
 
-        <!-- ✅ モバイルバナー -->
+        <!-- モバイル広告 -->
         <div class="mt-6 space-y-4 block lg:hidden">
           <div class="bg-gray-300 h-32 flex items-center justify-center">🔳 バナー広告募集中</div>
           <div class="bg-gray-300 h-32 flex items-center justify-center">🔳 バナー広告募集中</div>
           <div class="bg-gray-300 h-32 flex items-center justify-center">🔳 バナー広告募集中</div>
         </div>
 
-        <!-- ✅ フッター広告 -->
+        <!-- フッター広告 -->
         <div class="mt-8 bg-gray-200 text-center py-2">🔳 フッター固定広告募集中</div>
       </div>
 
-      <!-- ✅ 右カラム広告 -->
+      <!-- 右広告：デスクトップのみ -->
       <aside class="hidden lg:block w-48">
         <div class="sticky top-24 space-y-4">
           <div class="bg-gray-300 h-32 flex items-center justify-center">🔳 バナー広告募集中</div>
@@ -82,8 +82,8 @@ const hasPagination = typeof currentPage !== 'undefined' && typeof totalPages !=
 
     <!-- ✅ フッター -->
     <footer class="text-center text-xs text-gray-500 py-6">
-      {hasPagination && currentPage < totalPages && (
-        <a href={`${basePath}/page/${sort}/${currentPage + 1}`} class="text-blue-500 mr-4">
+      {currentPage && currentPage < totalPages && (
+        <a href={`/ai-news-curation-site/page/${sort}/${currentPage + 1}`} class="text-blue-500 mr-4">
           次のページ
         </a>
       )}
