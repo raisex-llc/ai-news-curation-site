@@ -7,20 +7,22 @@ import ArticleCard from "../components/ArticleCard.astro";
 const PAGE_SIZE = 30;
 const allPosts = await getCollection("posts");
 
-// ✅ 安全なクエリ取得方法（Astro.url を使用）
+// ✅ クエリ取得
 const search = Astro.url?.searchParams.get("q")?.toLowerCase() ?? "";
 
-// ✅ フィルタ処理
+// ✅ フィルタ
 const filteredPosts = allPosts.filter(post =>
   post.data.title.toLowerCase().includes(search) ||
   post.data.description.toLowerCase().includes(search) ||
   (post.body && post.body.toLowerCase().includes(search))
 );
 
-// ✅ ソート＆ページング
+// ✅ pubDate 降順ソート
 const sorted = [...filteredPosts].sort(
   (a, b) => new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime()
 );
+
+// ✅ ページング
 const paginatedPosts = sorted.slice(0, PAGE_SIZE);
 const totalPages = Math.ceil(sorted.length / PAGE_SIZE);
 ---

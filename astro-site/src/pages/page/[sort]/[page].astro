@@ -13,7 +13,7 @@ export async function getStaticPaths() {
 
   for (const sort of sorts) {
     const sorted = sort === "date"
-      ? [...allPosts].sort((a, b) => new Date(b.data.pubDate) - new Date(a.data.pubDate))
+      ? [...allPosts].sort((a, b) => new Date(b.data.pubDate) - new Date(a.data.pubDate)) // ← 修正前（古い順）
       : allPosts;
 
     const totalPages = Math.ceil(sorted.length / PAGE_SIZE);
@@ -31,14 +31,18 @@ const currentPage = Number(page);
 
 const allPosts = await getCollection("posts");
 
-// ✅ ソート順
+// ✅ pubDate 降順に修正
 const sortedPosts = sort === "date"
-  ? [...allPosts].sort((a, b) => new Date(b.data.pubDate) - new Date(a.data.pubDate))
+  ? [...allPosts].sort((a, b) => new Date(b.data.pubDate) - new Date(a.data.pubDate)) // ← 修正前（古い順）
   : allPosts;
 
+const sortedDesc = [...allPosts].sort((a, b) => new Date(b.data.pubDate) - new Date(a.data.pubDate)); // ← 降順（正しい）
+
+const finalSorted = sort === "date" ? sortedDesc : allPosts;
+
 // ✅ ページング
-const totalPages = Math.ceil(sortedPosts.length / PAGE_SIZE);
-const paginatedPosts = sortedPosts.slice(
+const totalPages = Math.ceil(finalSorted.length / PAGE_SIZE);
+const paginatedPosts = finalSorted.slice(
   (currentPage - 1) * PAGE_SIZE,
   currentPage * PAGE_SIZE
 );
