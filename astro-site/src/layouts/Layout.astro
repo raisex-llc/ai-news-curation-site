@@ -15,7 +15,6 @@ const { currentPage, totalPages, sort } = Astro.props;
       <!-- ✅ 上段：ロゴ・タイトル・ページ情報 -->
       <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between space-y-2 sm:space-y-0">
         <div class="flex items-center space-x-3">
-          <!-- ✅ ロゴ画像（拡大） -->
           <img src="/ai-news-curation-site/assets/ai-icon.png" alt="AIアイコン" class="w-10 h-10" />
           <div class="text-sky-500 text-2xl font-bold">
             最新AIニュースまとめ
@@ -33,7 +32,7 @@ const { currentPage, totalPages, sort } = Astro.props;
         <input
           type="text"
           placeholder="記事検索"
-          class="text-sm border rounded px-2 py-1 w-full sm:w-52"
+          class="text-sm border rounded px-2 py-1 w-full sm:w-72"
         />
         {typeof currentPage !== 'undefined' && currentPage < totalPages && (
           <a
@@ -57,10 +56,18 @@ const { currentPage, totalPages, sort } = Astro.props;
         <!-- 🔻記事スロット -->
         <slot />
 
+        <!-- ✅ モバイル用のバナー広告（右カラムの代替） -->
+        <div class="mt-6 space-y-4 block lg:hidden">
+          <div class="bg-gray-300 h-32 flex items-center justify-center">🔳 バナー広告募集中</div>
+          <div class="bg-gray-300 h-32 flex items-center justify-center">🔳 バナー広告募集中</div>
+          <div class="bg-gray-300 h-32 flex items-center justify-center">🔳 バナー広告募集中</div>
+        </div>
+
+        <!-- ✅ フッター広告 -->
         <div class="mt-8 bg-gray-200 text-center py-2">🔳 フッター固定広告募集中</div>
       </div>
 
-      <!-- ✅ スクロール固定の右広告 -->
+      <!-- ✅ デスクトップ専用：スクロール固定の右広告 -->
       <aside class="hidden lg:block w-48">
         <div class="sticky top-24 space-y-4">
           <div class="bg-gray-300 h-32 flex items-center justify-center">🔳 バナー広告募集中</div>
