@@ -28,7 +28,7 @@ const q = Astro.url?.searchParams.get('q') || '';
 
       <!-- 中段：検索 + ページナビゲーション -->
       <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
-        <form action="" method="get" class="w-full sm:w-auto">
+        <form action="" method="get" class="w-full sm:w-auto flex gap-2">
           <input
             type="text"
             name="q"
@@ -36,6 +36,12 @@ const q = Astro.url?.searchParams.get('q') || '';
             placeholder="記事検索"
             class="text-sm border rounded px-2 py-1 w-full sm:w-72"
           />
+          <button
+            type="submit"
+            class="bg-blue-500 text-white text-sm px-3 py-1 rounded hover:bg-blue-600"
+          >
+            検索
+          </button>
         </form>
 
         <div class="text-sm flex justify-end gap-4 text-blue-600">
