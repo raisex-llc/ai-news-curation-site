@@ -1,34 +1,21 @@
 ---
 // pages/page/[sort]/[page].astro
 import Layout from "../../../layouts/Layout.astro";
-import Card from "../../../components/ArticleCard.astro";
+import ArticleCard from "../../../components/ArticleCard.astro";
 import { getCollection } from "astro:content";
-import "../../../styles/global.css";
-
-const { sort, page } = Astro.params;
-const currentPage = parseInt(page);
-const allPosts = await getCollection("posts");
-
-const PAGE_SIZE = 30;
-
-const sorted = sort === "source"
-  ? [...allPosts].sort((a, b) => a.data.source.localeCompare(b.data.source))
-  : [...allPosts].sort((a, b) => new Date(b.data.pubDate) - new Date(a.data.pubDate));
-
-const totalPages = Math.ceil(sorted.length / PAGE_SIZE);
-const paginated = sorted.slice((currentPage - 1) * PAGE_SIZE, currentPage * PAGE_SIZE);
 
 export async function getStaticPaths() {
+  const PAGE_SIZE = 30;
   const allPosts = await getCollection("posts");
-  const sorts = ["date", "source"];
+
+  const sorts = ["date"];
   const paths = [];
 
   for (const sort of sorts) {
-    const sorted = sort === "source"
-      ? [...allPosts].sort((a, b) => a.data.source.localeCompare(b.data.source))
-      : [...allPosts].sort((a, b) => new Date(b.data.pubDate) - new Date(a.data.pubDate));
+    const sorted = sort === "date"
+      ? [...allPosts].sort((a, b) => new Date(b.data.pubDate) - new Date(a.data.pubDate))
+      : allPosts;
 
-    const PAGE_SIZE = 30;
     const totalPages = Math.ceil(sorted.length / PAGE_SIZE);
     for (let i = 1; i <= totalPages; i++) {
       paths.push({ params: { sort, page: String(i) } });
@@ -37,37 +24,37 @@ export async function getStaticPaths() {
 
   return paths;
 }
+
+const PAGE_SIZE = 30;
+const { sort, page } = Astro.params;
+const currentPage = Number(page);
+
+const allPosts = await getCollection("posts");
+
+// ✅ ソート順
+const sortedPosts = sort === "date"
+  ? [...allPosts].sort((a, b) => new Date(b.data.pubDate) - new Date(a.data.pubDate))
+  : allPosts;
+
+// ✅ ページング
+const totalPages = Math.ceil(sortedPosts.length / PAGE_SIZE);
+const paginatedPosts = sortedPosts.slice(
+  (currentPage - 1) * PAGE_SIZE,
+  currentPage * PAGE_SIZE
+);
 ---
 
-<Layout {sort} {currentPage} {totalPages}>
-  <main class="max-w-screen-md mx-auto px-4 py-8">
-    <h1 class="text-2xl font-bold mb-6">ニュース一覧（{sort}順）</h1>
-
-    <div class="space-y-6">
-      {paginated.map((post) => (
-        <Card
-          title={post.data.title}
-          pubDate={post.data.pubDate}
-          source={post.data.source}
-          url={post.data.url}
-          thumbnail={post.data.thumbnail}
-          summary={post.data.summary}
-        />
-      ))}
-    </div>
-
-    <nav class="mt-10 flex justify-between items-center">
-      {currentPage > 1 ? (
-        <a href={`/page/${sort}/${currentPage - 1}`} class="text-blue-500 hover:underline">← 前のページ</a>
-      ) : <span></span>}
-
-      {currentPage < totalPages ? (
-        <a href={`/page/${sort}/${currentPage + 1}`} class="text-blue-500 hover:underline">次のページ →</a>
-      ) : <span></span>}
-    </nav>
-
-    <div class="mt-8 text-center">
-      <a href="/" class="text-sm text-gray-500 hover:underline">ページTOPへ</a>
-    </div>
-  </main>
+<Layout currentPage={currentPage} totalPages={totalPages} sort={sort}>
+  <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+    {paginatedPosts.map((post) => (
+      <ArticleCard
+        title={post.data.title}
+        pubDate={post.data.pubDate}
+        description={post.data.description}
+        media={post.data.source}
+        thumbnail={post.data.thumbnail}
+        url={post.data.url}
+      />
+    ))}
+  </div>
 </Layout>

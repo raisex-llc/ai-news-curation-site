@@ -1,59 +1,119 @@
 ---
 // layouts/Layout.astro
 const { currentPage, totalPages, sort } = Astro.props;
+const q = Astro.url?.searchParams.get('q') || '';
 ---
+
 <html lang="ja">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>最新AIニュースまとめ</title>
+    <!-- ✅ 検索JSの読み込み（検索フォームに反応） -->
+    <script src="/ai-news-curation-site/search.js" defer></script>
   </head>
   <body class="bg-gray-100 text-gray-800">
     <!-- ✅ 固定ヘッダー -->
-    <header class="sticky top-0 z-50 bg-white border-b border-gray-200 px-4 py-3 flex items-center justify-between">
-      <div class="flex items-center space-x-3">
-        <img src="/ai-icon.png" alt="AIアイコン" class="w-8 h-8" />
-        <div class="text-sky-500 text-xl font-bold">
-          最新AIニュースまとめ
-          {typeof currentPage !== 'undefined' && typeof totalPages !== 'undefined' && (
-            <span class="text-sm text-gray-600 font-normal ml-2">(ページ {currentPage} / 全{totalPages}ページ中)</span>
+    <header id="top" class="sticky top-0 z-50 bg-white border-b border-gray-200 px-4 py-4 space-y-4">
+      <!-- 上段：ロゴ＆タイトル（リンク付き） -->
+      <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between space-y-2 sm:space-y-0">
+        <a href="/ai-news-curation-site/" class="flex items-center space-x-3 hover:opacity-80">
+          <img src="/ai-news-curation-site/assets/ai-icon.png" alt="AIアイコン" class="w-10 h-10" />
+          <div class="text-sky-500 text-2xl font-bold">最新AIニュースまとめ</div>
+        </a>
+        {currentPage && totalPages && (
+          <div class="text-sm text-gray-600 font-normal ml-1 sm:ml-0">
+            （ページ {currentPage} / 全{totalPages}ページ中）
+          </div>
+        )}
+      </div>
+
+      <!-- 中段：検索 + ページナビゲーション -->
+      <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
+        <form action="" method="get" class="w-full sm:w-auto flex gap-2">
+          <input
+            type="text"
+            name="q"
+            value={q}
+            placeholder="記事検索"
+            class="text-sm border rounded px-2 py-1 w-full sm:w-72"
+          />
+          <button
+            type="submit"
+            class="bg-blue-500 text-white text-sm px-3 py-1 rounded hover:bg-blue-600"
+          >
+            検索
+          </button>
+        </form>
+
+        <div class="text-sm flex justify-end gap-4 text-blue-600">
+          {currentPage && currentPage > 1 && (
+            <a href={`/ai-news-curation-site/page/${sort}/${currentPage - 1}`} class="hover:underline">
+              ← 前のページ
+            </a>
+          )}
+          {currentPage && totalPages && currentPage < totalPages && (
+            <a href={`/ai-news-curation-site/page/${sort}/${currentPage + 1}`} class="hover:underline">
+              次のページ →
+            </a>
           )}
         </div>
       </div>
-      <div class="flex items-center space-x-3">
-        <select class="border text-sm rounded px-2 py-1">
-          <option selected={sort === "date"}>新着順</option>
-          <option selected={sort === "source"}>媒体順</option>
-        </select>
-        <input type="text" placeholder="記事検索" class="text-sm border rounded px-2 py-1 w-32" />
-        {typeof currentPage !== 'undefined' && currentPage < totalPages && (
-          <a href={`/page/${sort}/${currentPage + 1}`} class="text-blue-600 text-sm hover:underline">→ 次のページ</a>
-        )}
+
+      <!-- 下段：ヘッダー内広告 -->
+      <div class="mx-auto max-w-3xl rounded bg-gray-200 text-center py-2 text-sm">
+        🔳 ヘッダー内広告募集中
       </div>
     </header>
 
-    <!-- ✅ 本文 + 右広告 -->
+    <!-- ✅ 本文と右カラム -->
     <main class="max-w-6xl mx-auto px-4 py-8 flex flex-col lg:flex-row gap-6">
       <div class="flex-1">
-        <div class="mb-4 bg-gray-200 text-center py-2">🔳 ヘッダー下広告</div>
-
-        <!-- 🔻ここが重要 -->
         <slot />
 
-        <div class="mt-8 bg-gray-200 text-center py-2">🔳 フッター固定広告</div>
+        <!-- モバイル広告 -->
+        <div class="mt-6 space-y-4 block lg:hidden">
+          <div class="bg-gray-300 h-32 flex items-center justify-center">🔳 バナー広告募集中</div>
+          <div class="bg-gray-300 h-32 flex items-center justify-center">🔳 バナー広告募集中</div>
+          <div class="bg-gray-300 h-32 flex items-center justify-center">🔳 バナー広告募集中</div>
+        </div>
+
+        <!-- フッター広告 -->
+        <div class="mt-8 bg-gray-200 text-center py-2">🔳 フッター固定広告募集中</div>
       </div>
-      <aside class="hidden lg:block w-48 space-y-4">
-        <div class="bg-gray-300 h-32 flex items-center justify-center">🔳 バナー広告</div>
-        <div class="bg-gray-300 h-32 flex items-center justify-center">🔳 バナー広告</div>
-        <div class="bg-gray-300 h-32 flex items-center justify-center">🔳 バナー広告</div>
+
+      <!-- 右広告：デスクトップのみ -->
+      <aside class="hidden lg:block w-48">
+        <div class="sticky top-24 space-y-4">
+          <div class="bg-gray-300 h-32 flex items-center justify-center">🔳 バナー広告募集中</div>
+          <div class="bg-gray-300 h-32 flex items-center justify-center">🔳 バナー広告募集中</div>
+          <div class="bg-gray-300 h-32 flex items-center justify-center">🔳 バナー広告募集中</div>
+        </div>
       </aside>
     </main>
 
     <!-- ✅ フッター -->
     <footer class="text-center text-xs text-gray-500 py-6">
-      <a href={`/page/${sort}/${currentPage + 1}`} class="text-blue-500 mr-4">次のページ</a>
-      <a href="/" class="text-blue-500">サイトTOPへ</a>
-      <div class="mt-2">© 2024 raisex, LLC. All rights reserved.</div>
+      <div class="mb-2 space-x-4">
+        {currentPage && currentPage > 1 && (
+          <a href={`/ai-news-curation-site/page/${sort}/${currentPage - 1}`} class="text-blue-500">
+            ← 前のページ
+          </a>
+        )}
+        {currentPage && currentPage < totalPages && (
+          <a href={`/ai-news-curation-site/page/${sort}/${currentPage + 1}`} class="text-blue-500">
+            次のページ →
+          </a>
+        )}
+        {currentPage && sort ? (
+          <a href={`/ai-news-curation-site/page/${sort}/${currentPage}#top`} class="text-blue-500">
+            ページTOPへ
+          </a>
+        ) : (
+          <a href="/ai-news-curation-site/#top" class="text-blue-500">ページTOPへ</a>
+        )}
+      </div>
+      <div>© 2024 raisex, LLC. All rights reserved.</div>
     </footer>
   </body>
 </html>
