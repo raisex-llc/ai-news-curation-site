@@ -10,34 +10,38 @@ const { currentPage, totalPages, sort } = Astro.props;
     <title>最新AIニュースまとめ</title>
   </head>
   <body class="bg-gray-100 text-gray-800">
-    <!-- ✅ 固定ヘッダー -->
-    <header class="sticky top-0 z-50 bg-white border-b border-gray-200 px-4 py-3 flex items-center justify-between">
-      <div class="flex items-center space-x-3">
-        <img src="../../public/assets/ai-icon.png" alt="AIアイコン" class="w-8 h-8" />
-        <div class="text-sky-500 text-xl font-bold">
-          最新AIニュースまとめ
-          {typeof currentPage !== 'undefined' && typeof totalPages !== 'undefined' && (
-            <span class="text-sm text-gray-600 font-normal ml-2">(ページ {currentPage} / 全{totalPages}ページ中)</span>
+    <!-- ✅ 固定ヘッダー（広告付き） -->
+    <header class="sticky top-0 z-50 bg-white border-b border-gray-200 px-4 py-4 space-y-2">
+      <!-- 上段：ロゴ・タイトル・ページ情報・検索 -->
+      <div class="flex items-center justify-between">
+        <div class="flex items-center space-x-3">
+          <img src="/assets/ai-icon.png" alt="AIアイコン" class="w-8 h-8" />
+          <div class="text-sky-500 text-xl font-bold">
+            最新AIニュースまとめ
+            {typeof currentPage !== 'undefined' && typeof totalPages !== 'undefined' && (
+              <span class="text-sm text-gray-600 font-normal ml-2">(ページ {currentPage} / 全{totalPages}ページ中)</span>
+            )}
+          </div>
+        </div>
+        <div class="flex items-center space-x-3">
+          <select class="border text-sm rounded px-2 py-1">
+            <option selected={sort === "date"}>新着順</option>
+            <option selected={sort === "source"}>媒体順</option>
+          </select>
+          <input type="text" placeholder="記事検索" class="text-sm border rounded px-2 py-1 w-32" />
+          {typeof currentPage !== 'undefined' && currentPage < totalPages && (
+            <a href={`/page/${sort}/${currentPage + 1}`} class="text-blue-600 text-sm hover:underline">→ 次のページ</a>
           )}
         </div>
       </div>
-      <div class="flex items-center space-x-3">
-        <select class="border text-sm rounded px-2 py-1">
-          <option selected={sort === "date"}>新着順</option>
-          <option selected={sort === "source"}>媒体順</option>
-        </select>
-        <input type="text" placeholder="記事検索" class="text-sm border rounded px-2 py-1 w-32" />
-        {typeof currentPage !== 'undefined' && currentPage < totalPages && (
-          <a href={`/page/${sort}/${currentPage + 1}`} class="text-blue-600 text-sm hover:underline">→ 次のページ</a>
-        )}
-      </div>
+
+      <!-- 下段：ヘッダー固定広告 -->
+      <div class="bg-gray-200 text-center py-2 text-sm">🔳 ヘッダー下広告募集中</div>
     </header>
 
     <!-- ✅ 本文 + 右広告 -->
     <main class="max-w-6xl mx-auto px-4 py-8 flex flex-col lg:flex-row gap-6">
       <div class="flex-1">
-        <div class="mb-4 bg-gray-200 text-center py-2">🔳 ヘッダー下広告募集中</div>
-
         <!-- 🔻記事スロット -->
         <slot />
 
