@@ -11,6 +11,7 @@ import trafilatura
 import yaml
 import hashlib
 import os
+import sys
 from datetime import datetime
 from pathlib import Path
 from bs4 import BeautifulSoup
@@ -71,13 +72,14 @@ def extract_thumbnail(url):
 
 
 def write_post(title, description, date, source, url, thumbnail):
-    slug = slugify(title or hashlib.md5(url.encode()).hexdigest())
-    dt = datetime.strptime(date, "%a, %d %b %Y %H:%M:%S %Z")
-    date_str = dt.strftime(DATE_FMT_MD)
-    filename = f"{date_str}-{slug}.md"
-    filepath = CONTENT_DIR / filename
+    try:
+        slug = slugify(title or hashlib.md5(url.encode()).hexdigest())
+        dt = datetime.strptime(date, "%a, %d %b %Y %H:%M:%S %Z")
+        date_str = dt.strftime(DATE_FMT_MD)
+        filename = f"{date_str}-{slug}.md"
+        filepath = CONTENT_DIR / filename
 
-    content = f"""---
+        content = f"""---
 title: {title or 'Untitled'}
 description: "{description.strip().replace('"', "'") if description else ''}"
 pubDate: {date}
@@ -87,28 +89,38 @@ thumbnail: {thumbnail}
 ---
 
 """
-    filepath.write_text(content, encoding="utf-8")
-    print(f"✅ saved: {filename}")
+        filepath.write_text(content, encoding="utf-8")
+        print(f"✅ saved: {filename}")
+    except Exception as e:
+        print(f"❌ Failed to write post '{title}': {e}")
+        raise
 
 
 def main():
-    for source in SOURCES:
-        url = source["url"]
-        media = source["name"]
-        feed = feedparser.parse(url)
-        print(f"📰 {media} - {url}")
+    try:
+        for source in SOURCES:
+            url = source["url"]
+            media = source["name"]
+            feed = feedparser.parse(url)
+            print(f"📰 {media} - {url}")
 
-        for entry in feed.entries:
-            title = entry.get("title", "")
-            summary = entry.get("summary", "")
-            link = entry.get("link", "")
-            pub = entry.get("published", "")
+            for entry in feed.entries:
+                title = entry.get("title", "")
+                summary = entry.get("summary", "")
+                link = entry.get("link", "")
+                pub = entry.get("published", "")
 
-            if not title or not pub or not link:
-                continue
+                if not title or not pub or not link:
+                    continue
 
-            thumb = extract_thumbnail(link)
-            write_post(title, summary, pub, media, link, thumb)
+                thumb = extract_thumbnail(link)
+                write_post(title, summary, pub, media, link, thumb)
+    except Exception as e:
+        print(f"\n❌ Unhandled Error: {e}")
+        sys.exit(1)
+
+    # 正常終了
+    sys.exit(0)
 
 
 if __name__ == "__main__":
