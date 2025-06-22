@@ -7,17 +7,17 @@ import ArticleCard from "../components/ArticleCard.astro";
 const PAGE_SIZE = 30;
 const allPosts = await getCollection("posts");
 
-// ✅ クエリパラメータから検索ワード取得
-const search = new URL(Astro.request.url).searchParams.get("q")?.toLowerCase() ?? "";
+// ✅ 安全なクエリ取得方法（Astro.url を使用）
+const search = Astro.url?.searchParams.get("q")?.toLowerCase() ?? "";
 
-// ✅ 検索ワードが含まれる記事にフィルタ（title / description / body にマッチ）
+// ✅ フィルタ処理
 const filteredPosts = allPosts.filter(post =>
   post.data.title.toLowerCase().includes(search) ||
   post.data.description.toLowerCase().includes(search) ||
   (post.body && post.body.toLowerCase().includes(search))
 );
 
-// ✅ 投稿日順にソートして1ページ目分だけ抽出
+// ✅ ソート＆ページング
 const sorted = [...filteredPosts].sort(
   (a, b) => new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime()
 );
@@ -25,7 +25,6 @@ const paginatedPosts = sorted.slice(0, PAGE_SIZE);
 const totalPages = Math.ceil(sorted.length / PAGE_SIZE);
 ---
 
-<!-- ✅ Layout に currentPage/totalPages/並び順を渡す -->
 <Layout currentPage={1} totalPages={totalPages} sort="date">
   <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
     {paginatedPosts.map((post) => (
