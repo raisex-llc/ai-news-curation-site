@@ -13,23 +13,23 @@ const { title, pubDate, description, media, thumbnail, url } = Astro.props;
 ---
 
 <article class="bg-white shadow rounded-lg overflow-hidden border border-gray-200 flex flex-col h-full">
-  <!-- ✅ メディア名（上部） -->
-  <div class="p-3 text-sm text-green-600 font-semibold border-b border-gray-100">
+  <!-- ✅ 媒体名（画像の上に表示） -->
+  <div class="text-sm text-green-600 font-semibold px-3 pt-3">
     {media}
   </div>
 
   <!-- ✅ サムネイル画像 -->
-  <a href={url} target="_blank" rel="noopener noreferrer">
+  <a href={url} target="_blank" rel="noopener noreferrer" class="block px-3">
     <img
       src={thumbnail}
       alt={title}
-      class="w-full h-48 object-cover"
+      class="w-full h-48 object-cover rounded-md"
       loading="lazy"
     />
   </a>
 
-  <!-- ✅ タイトル -->
-  <div class="p-3">
+  <!-- ✅ タイトルなど -->
+  <div class="p-3 flex flex-col h-full">
     <a
       href={url}
       target="_blank"
@@ -39,7 +39,6 @@ const { title, pubDate, description, media, thumbnail, url } = Astro.props;
       {title}
     </a>
 
-    <!-- ✅ 投稿日 -->
     <p class="text-sm text-green-500 mb-2">
       {new Date(pubDate).toLocaleDateString('ja-JP', {
         year: 'numeric',
@@ -49,7 +48,6 @@ const { title, pubDate, description, media, thumbnail, url } = Astro.props;
       })}
     </p>
 
-    <!-- ✅ 要約（本文冒頭） -->
     <p class="text-gray-700 text-sm line-clamp-4">
       {description}
     </p>
