@@ -46,7 +46,7 @@ const q = Astro.url?.searchParams.get('q') || '';
           )}
           {currentPage && totalPages && currentPage < totalPages && (
             <a href={`/ai-news-curation-site/page/${sort}/${currentPage + 1}`} class="hover:underline">
-              → 次のページ
+              次のページ →
             </a>
           )}
         </div>
