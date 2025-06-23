@@ -9,28 +9,27 @@ const q = Astro.url?.searchParams.get('q') || '';
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>最新AIニュースまとめ</title>
-    <!-- ✅ 検索JSの読み込み（検索フォームに反応） -->
     <script src="/ai-news-curation-site/search.js" defer></script>
   </head>
   <body class="bg-gray-100 text-gray-800">
     <!-- ✅ 固定ヘッダー -->
-    <header id="top" class="sticky top-0 z-50 bg-white border-b border-gray-200 px-4 py-4 space-y-4">
-      <!-- 上段：ロゴ＆タイトル（リンク付き） -->
-      <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between space-y-2 sm:space-y-0">
-        <a href="/ai-news-curation-site/" class="flex items-center space-x-3 hover:opacity-80">
-          <img src="/ai-news-curation-site/assets/ai-icon.png" alt="AIアイコン" class="w-10 h-10" />
-          <div class="text-sky-500 text-2xl font-bold">最新AIニュースまとめ</div>
-        </a>
-        {currentPage && totalPages && (
-          <div class="text-sm text-gray-600 font-normal ml-1 sm:ml-0">
-            （ページ {currentPage} / 全{totalPages}ページ中）
-          </div>
-        )}
-      </div>
+    <header id="top" class="sticky top-0 z-50 bg-white border-b border-gray-200 px-4 py-6">
+      <div class="max-w-screen-lg mx-auto flex flex-col items-center gap-4">
+        <!-- 上段：ロゴ＆タイトル + ページ数 -->
+        <div class="flex flex-col items-center">
+          <a href="/ai-news-curation-site/" class="flex items-center space-x-3 hover:opacity-80">
+            <img src="/ai-news-curation-site/assets/ai-icon.png" alt="AIアイコン" class="w-10 h-10" />
+            <div class="text-sky-500 text-2xl font-bold">最新AIニュースまとめ</div>
+          </a>
+          {currentPage && totalPages && (
+            <div class="text-sm text-gray-600 font-normal mt-1">
+              （ページ {currentPage} / 全{totalPages}ページ中）
+            </div>
+          )}
+        </div>
 
-      <!-- 中段：検索 + ページナビゲーション -->
-      <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
-        <form action="" method="get" class="w-full sm:w-auto flex gap-2">
+        <!-- 中段：検索フォーム -->
+        <form action="" method="get" class="w-full sm:w-auto flex gap-2 justify-center">
           <input
             type="text"
             name="q"
@@ -46,7 +45,8 @@ const q = Astro.url?.searchParams.get('q') || '';
           </button>
         </form>
 
-        <div class="text-sm flex justify-end gap-4 text-blue-600">
+        <!-- 下段：ページナビゲーション -->
+        <div class="text-sm flex justify-center gap-4 text-blue-600">
           {currentPage && currentPage > 1 && (
             <a href={`/ai-news-curation-site/page/${sort}/${currentPage - 1}`} class="hover:underline">
               ← 前のページ
@@ -58,11 +58,11 @@ const q = Astro.url?.searchParams.get('q') || '';
             </a>
           )}
         </div>
-      </div>
 
-      <!-- 下段：ヘッダー内広告 -->
-      <div class="mx-auto max-w-3xl rounded bg-gray-200 text-center py-2 text-sm">
-        🔳 ヘッダー内広告募集中
+        <!-- ヘッダー内広告 -->
+        <div class="w-full rounded bg-gray-200 text-center py-2 text-sm">
+          🔳 ヘッダー内広告募集中
+        </div>
       </div>
     </header>
 
@@ -82,7 +82,7 @@ const q = Astro.url?.searchParams.get('q') || '';
         <div class="mt-8 bg-gray-200 text-center py-2">🔳 フッター固定広告募集中</div>
       </div>
 
-      <!-- 右広告：デスクトップのみ -->
+      <!-- デスクトップ右広告 -->
       <aside class="hidden lg:block w-48">
         <div class="sticky top-24 space-y-4">
           <div class="bg-gray-300 h-32 flex items-center justify-center">🔳 バナー広告募集中</div>
