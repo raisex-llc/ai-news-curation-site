@@ -76,13 +76,18 @@ def write_post(title, description, date, source, url, thumbnail):
         filename = f"{date_str}-{slug}.md"
         filepath = CONTENT_DIR / filename
 
+        # YAML出力に使う値（空やnullであっても文字列にする）
+        desc = (description or '').strip().replace('"', "'")
+        thumb_line = f'thumbnail: "{thumbnail}"' if thumbnail and thumbnail.startswith("http") else ""
+
         content = f"""---
 title: {title or 'Untitled'}
-description: "{(description or '').strip().replace('"', "'")}"
+description: "{desc}"
+summary: "{desc}"
 pubDate: {date}
 source: {source}
 url: {url}
-thumbnail: "{thumbnail or ''}"
+{thumb_line}
 ---
 
 """
@@ -110,8 +115,13 @@ def main():
                 if not title or not pub or not link:
                     continue
 
-                thumb = extract_thumbnail(link)
-                write_post(title, summary, pub, media, link, thumb)
+                # 🧪 デバッグログ（必要に応じて削除可）
+                print(f"\n🧪 CHECK URL: {link}")
+                extracted = extract_thumbnail(link)
+                print(f"→ EXTRACTED: {extracted}\n")
+
+                write_post(title, summary, pub, media, link, extracted)
+
     except Exception as e:
         print(f"\n❌ Unhandled Error: {e}")
         sys.exit(1)
