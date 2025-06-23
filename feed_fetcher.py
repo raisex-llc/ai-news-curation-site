@@ -15,7 +15,7 @@ import sys
 from datetime import datetime
 from pathlib import Path
 from bs4 import BeautifulSoup
-from urllib.parse import urljoin  # ✅ 絶対パス化のため追加
+from urllib.parse import urljoin
 
 ROOT = Path(__file__).resolve().parent
 CONTENT_DIR = ROOT / "astro-site" / "src" / "content" / "posts"
@@ -74,7 +74,8 @@ def extract_thumbnail(url):
 def write_post(title, description, date, source, url, thumbnail):
     try:
         slug = slugify(title or hashlib.md5(url.encode()).hexdigest())
-        dt = datetime.strptime(date, "%a, %d %b %Y %H:%M:%S %Z")
+        # ✅ 修正ポイント：+0000 形式に対応（%Z → %z）
+        dt = datetime.strptime(date, "%a, %d %b %Y %H:%M:%S %z")
         date_str = dt.strftime(DATE_FMT_MD)
         filename = f"{date_str}-{slug}.md"
         filepath = CONTENT_DIR / filename
@@ -119,7 +120,6 @@ def main():
         print(f"\n❌ Unhandled Error: {e}")
         sys.exit(1)
 
-    # 正常終了
     sys.exit(0)
 
 
