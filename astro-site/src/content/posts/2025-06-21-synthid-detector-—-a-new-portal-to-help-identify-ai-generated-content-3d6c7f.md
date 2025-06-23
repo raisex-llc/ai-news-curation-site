@@ -1,17 +1,11 @@
 ---
-title: SynthID Detector — a new portal to help identify AI-generated content
-description: Learn about the new SynthID Detector portal we announced at I/O to help
-  people understand how the content they see online was generated.
-summary: Learn about the new SynthID Detector portal we announced at I/O to help people
-  understand how the content they see onlin
-pubDate: Tue, 20 May 2025 09:45:00 +0000
-source: DeepMind Blog
-tags:
-- deepmind
-- alpha
-- ai
-url: https://deepmind.google/discover/blog/synthid-detector--a-new-portal-to-help-identify-ai-generated-content/
-thumbnail: https://lh3.googleusercontent.com/7PuJVaCORCRCmSZFB2jl5P39r26Nm6Pkeu93NO9ZiSSf3nrd3AHNNO6AxcYIgJueak64scyraKjnda_DrVc6K3uN4i_z4jMq5p3YxpznETozNLQ0=w528-h297-n-nu-rw
+title: "SynthID Detector — a new portal to help identify AI-generated content"
+description: "Learn about the new SynthID Detector portal we announced at I/O to help people understand how the content they see online was generated."
+summary: "Learn about the new SynthID Detector portal we announced at I/O to help people understand how the content they see onlin"
+pubDate: "Tue, 20 May 2025 09:45:00 +0000"
+source: "DeepMind Blog"
+url: "https://deepmind.google/discover/blog/synthid-detector--a-new-portal-to-help-identify-ai-generated-content/"
+thumbnail: "https://lh3.googleusercontent.com/7PuJVaCORCRCmSZFB2jl5P39r26Nm6Pkeu93NO9ZiSSf3nrd3AHNNO6AxcYIgJueak64scyraKjnda_DrVc6K3uN4i_z4jMq5p3YxpznETozNLQ0=w528-h297-n-nu-rw"
 ---
 
 SynthID Detector — a new portal to help identify AI-generated content

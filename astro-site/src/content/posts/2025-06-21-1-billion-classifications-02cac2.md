@@ -1,14 +1,11 @@
 ---
-title: 1 Billion Classifications
-description: ''
-summary: ''
-pubDate: Thu, 13 Feb 2025 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/billion-classifications
+title: "1 Billion Classifications"
+description: ""
+summary: ""
+pubDate: "Thu, 13 Feb 2025 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/billion-classifications"
+thumbnail: ""
 ---
 
 1 Billion Classifications

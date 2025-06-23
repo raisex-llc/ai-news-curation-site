@@ -1,16 +1,11 @@
 ---
-title: DXが進まない自治体、職員の行動を阻むものとは……？　Deep Researchが出した答えは
-description: 人は、35歳を過ぎてから登場した技術を「不自然で受け入れがたいもの」と感じる――。ダグラス・アダムスが示した法則は事実か。Deep Researchが出力した結果とは。半分お遊びで使ってみたDeep
-  Researchは、自治体業務にも十分生かせそうだ。
-summary: 人は、35歳を過ぎてから登場した技術を「不自然で受け入れがたいもの」と感じる――。ダグラス・アダムスが示した法則は事実か。Deep Researchが出力した結果とは。半分お遊びで使ってみたDeep
-  Researchは、自治体業務にも十分生
-pubDate: Thu, 19 Jun 2025 07:00:00 +0900
-source: ITmedia AI
-tags:
-- japan
-- itmedia
-- ai
-url: https://www.itmedia.co.jp/business/articles/2506/19/news018.html
+title: "DXが進まない自治体、職員の行動を阻むものとは……？　Deep Researchが出した答えは"
+description: "人は、35歳を過ぎてから登場した技術を「不自然で受け入れがたいもの」と感じる――。ダグラス・アダムスが示した法則は事実か。Deep Researchが出力した結果とは。半分お遊びで使ってみたDeep Researchは、自治体業務にも十分生かせそうだ。"
+summary: "人は、35歳を過ぎてから登場した技術を「不自然で受け入れがたいもの」と感じる――。ダグラス・アダムスが示した法則は事実か。Deep Researchが出力した結果とは。半分お遊びで使ってみたDeep Researchは、自治体業務にも十分生"
+pubDate: "Thu, 19 Jun 2025 07:00:00 +0900"
+source: "ITmedia AI"
+url: "https://www.itmedia.co.jp/business/articles/2506/19/news018.html"
+thumbnail: ""
 ---
 
 川口弘行合同会社代表社員。芝浦工業大学大学院博士（後期）課程修了。博士（工学）。2009年高知県CIO補佐官に着任して以来、省庁、地方自治体のデジタル化に関わる。

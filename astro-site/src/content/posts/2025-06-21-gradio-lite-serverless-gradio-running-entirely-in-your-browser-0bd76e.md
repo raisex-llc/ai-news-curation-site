@@ -1,14 +1,11 @@
 ---
-title: 'Gradio-Lite: Serverless Gradio Running Entirely in Your Browser'
-description: ''
-summary: ''
-pubDate: Thu, 19 Oct 2023 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/gradio-lite
+title: "Gradio-Lite: Serverless Gradio Running Entirely in Your Browser"
+description: ""
+summary: ""
+pubDate: "Thu, 19 Oct 2023 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/gradio-lite"
+thumbnail: ""
 ---
 
 Gradio-Lite: Serverless Gradio Running Entirely in Your Browser

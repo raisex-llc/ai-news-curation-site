@@ -1,17 +1,11 @@
 ---
-title: 'Behind “ANCESTRA”: combining Veo with live-action filmmaking'
-description: We partnered with Darren Aronofsky, Eliza McNitt and a team of more than
-  200 people to make a film using Veo and live-action filmmaking.
-summary: We partnered with Darren Aronofsky, Eliza McNitt and a team of more than
-  200 people to make a film using Veo and live-ac
-pubDate: Fri, 13 Jun 2025 13:30:00 +0000
-source: DeepMind Blog
-tags:
-- deepmind
-- alpha
-- ai
-url: https://deepmind.google/discover/blog/behind-ancestra-combining-veo-with-live-action-filmmaking/
-thumbnail: https://lh3.googleusercontent.com/ffMWPkLuet140ClChIVcJGPHB2imhkVge9g6lcFMuT3mqEhHq3xH2N2C6QzR2TiwNMpLS6w_-9ryrUXtImQveebzD8Q9skv3mo1aXkUiuKee8NX1bwU=w528-h297-n-nu-rw
+title: "Behind “ANCESTRA”: combining Veo with live-action filmmaking"
+description: "We partnered with Darren Aronofsky, Eliza McNitt and a team of more than 200 people to make a film using Veo and live-action filmmaking."
+summary: "We partnered with Darren Aronofsky, Eliza McNitt and a team of more than 200 people to make a film using Veo and live-ac"
+pubDate: "Fri, 13 Jun 2025 13:30:00 +0000"
+source: "DeepMind Blog"
+url: "https://deepmind.google/discover/blog/behind-ancestra-combining-veo-with-live-action-filmmaking/"
+thumbnail: "https://lh3.googleusercontent.com/ffMWPkLuet140ClChIVcJGPHB2imhkVge9g6lcFMuT3mqEhHq3xH2N2C6QzR2TiwNMpLS6w_-9ryrUXtImQveebzD8Q9skv3mo1aXkUiuKee8NX1bwU=w528-h297-n-nu-rw"
 ---
 
 Behind “ANCESTRA:” combining Veo with live-action filmmaking

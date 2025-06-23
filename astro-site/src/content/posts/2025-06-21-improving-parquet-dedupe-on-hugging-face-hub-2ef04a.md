@@ -1,14 +1,11 @@
 ---
-title: Improving Parquet Dedupe on Hugging Face Hub
-description: ''
-summary: ''
-pubDate: Sat, 05 Oct 2024 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/improve_parquet_dedupe
+title: "Improving Parquet Dedupe on Hugging Face Hub"
+description: ""
+summary: ""
+pubDate: "Sat, 05 Oct 2024 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/improve_parquet_dedupe"
+thumbnail: ""
 ---
 
 Improving Parquet Dedupe on Hugging Face Hub

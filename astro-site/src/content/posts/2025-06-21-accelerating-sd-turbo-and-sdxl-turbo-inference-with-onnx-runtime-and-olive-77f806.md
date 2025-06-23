@@ -1,14 +1,11 @@
 ---
-title: Accelerating SD Turbo and SDXL Turbo Inference with ONNX Runtime and Olive
-description: ''
-summary: ''
-pubDate: Mon, 15 Jan 2024 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/sdxl_ort_inference
+title: "Accelerating SD Turbo and SDXL Turbo Inference with ONNX Runtime and Olive"
+description: ""
+summary: ""
+pubDate: "Mon, 15 Jan 2024 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/sdxl_ort_inference"
+thumbnail: ""
 ---
 
 Accelerating SD Turbo and SDXL Turbo Inference with ONNX Runtime and Olive

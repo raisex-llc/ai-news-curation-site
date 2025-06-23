@@ -1,15 +1,11 @@
 ---
-title: HuggingFace, IISc partner to supercharge model building on India's diverse
-  languages
-description: ''
-summary: ''
-pubDate: Thu, 27 Feb 2025 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/iisc-huggingface-collab
+title: "HuggingFace, IISc partner to supercharge model building on India's diverse languages"
+description: ""
+summary: ""
+pubDate: "Thu, 27 Feb 2025 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/iisc-huggingface-collab"
+thumbnail: ""
 ---
 
 HuggingFace, IISc partner to supercharge model building on India's diverse languages

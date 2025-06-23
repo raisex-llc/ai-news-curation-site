@@ -1,14 +1,11 @@
 ---
-title: 'Judge Arena: Benchmarking LLMs as Evaluators'
-description: ''
-summary: ''
-pubDate: Tue, 19 Nov 2024 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/arena-atla
+title: "Judge Arena: Benchmarking LLMs as Evaluators"
+description: ""
+summary: ""
+pubDate: "Tue, 19 Nov 2024 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/arena-atla"
+thumbnail: ""
 ---
 
 Judge Arena: Benchmarking LLMs as Evaluators

@@ -1,15 +1,11 @@
 ---
-title: 'Introducing the Enterprise Scenarios Leaderboard: a Leaderboard for Real World
-  Use Cases'
-description: ''
-summary: ''
-pubDate: Wed, 31 Jan 2024 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/leaderboard-patronus
+title: "Introducing the Enterprise Scenarios Leaderboard: a Leaderboard for Real World Use Cases"
+description: ""
+summary: ""
+pubDate: "Wed, 31 Jan 2024 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/leaderboard-patronus"
+thumbnail: ""
 ---
 
 Introducing the Enterprise Scenarios Leaderboard: a Leaderboard for Real World Use Cases

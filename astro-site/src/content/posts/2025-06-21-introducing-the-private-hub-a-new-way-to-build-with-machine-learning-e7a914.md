@@ -1,14 +1,11 @@
 ---
-title: 'Introducing the Private Hub: A New Way to Build With Machine Learning'
-description: ''
-summary: ''
-pubDate: Wed, 03 Aug 2022 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/introducing-private-hub
+title: "Introducing the Private Hub: A New Way to Build With Machine Learning"
+description: ""
+summary: ""
+pubDate: "Wed, 03 Aug 2022 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/introducing-private-hub"
+thumbnail: ""
 ---
 
 Introducing the Private Hub: A New Way to Build With Machine Learning

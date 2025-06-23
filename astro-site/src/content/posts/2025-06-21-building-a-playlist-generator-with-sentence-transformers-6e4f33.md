@@ -1,14 +1,11 @@
 ---
-title: Building a Playlist Generator with Sentence Transformers
-description: ''
-summary: ''
-pubDate: Wed, 13 Jul 2022 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/playlist-generator
+title: "Building a Playlist Generator with Sentence Transformers"
+description: ""
+summary: ""
+pubDate: "Wed, 13 Jul 2022 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/playlist-generator"
+thumbnail: ""
 ---
 
 Building a Playlist Generator with Sentence Transformers

@@ -1,14 +1,11 @@
 ---
-title: 'Open LLM Leaderboard: DROP deep dive'
-description: ''
-summary: ''
-pubDate: Fri, 01 Dec 2023 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/open-llm-leaderboard-drop
+title: "Open LLM Leaderboard: DROP deep dive"
+description: ""
+summary: ""
+pubDate: "Fri, 01 Dec 2023 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/open-llm-leaderboard-drop"
+thumbnail: ""
 ---
 
 Open LLM Leaderboard: DROP deep dive

@@ -1,14 +1,11 @@
 ---
-title: Experimenting with Automatic PII Detection on the Hub using Presidio
-description: ''
-summary: ''
-pubDate: Wed, 10 Jul 2024 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/presidio-pii-detection
+title: "Experimenting with Automatic PII Detection on the Hub using Presidio"
+description: ""
+summary: ""
+pubDate: "Wed, 10 Jul 2024 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/presidio-pii-detection"
+thumbnail: ""
 ---
 
 Experimenting with Automatic PII Detection on the Hub using Presidio

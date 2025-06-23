@@ -1,14 +1,11 @@
 ---
-title: Introduction to 3D Gaussian Splatting
-description: ''
-summary: ''
-pubDate: Mon, 18 Sep 2023 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/gaussian-splatting
+title: "Introduction to 3D Gaussian Splatting"
+description: ""
+summary: ""
+pubDate: "Mon, 18 Sep 2023 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/gaussian-splatting"
+thumbnail: ""
 ---
 
 Introduction to 3D Gaussian Splatting

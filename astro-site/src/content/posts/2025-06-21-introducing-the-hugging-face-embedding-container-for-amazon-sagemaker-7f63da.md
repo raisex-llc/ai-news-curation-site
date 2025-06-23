@@ -1,14 +1,11 @@
 ---
-title: Introducing the Hugging Face Embedding Container for Amazon SageMaker
-description: ''
-summary: ''
-pubDate: Fri, 07 Jun 2024 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/sagemaker-huggingface-embedding
+title: "Introducing the Hugging Face Embedding Container for Amazon SageMaker"
+description: ""
+summary: ""
+pubDate: "Fri, 07 Jun 2024 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/sagemaker-huggingface-embedding"
+thumbnail: ""
 ---
 
 Introducing the Hugging Face Embedding Container for Amazon SageMaker

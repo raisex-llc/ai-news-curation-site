@@ -1,14 +1,11 @@
 ---
-title: PatchTSMixer in HuggingFace
-description: ''
-summary: ''
-pubDate: Fri, 19 Jan 2024 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/patchtsmixer
+title: "PatchTSMixer in HuggingFace"
+description: ""
+summary: ""
+pubDate: "Fri, 19 Jan 2024 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/patchtsmixer"
+thumbnail: ""
 ---
 
 PatchTSMixer in HuggingFace - Getting Started

@@ -1,14 +1,11 @@
 ---
-title: Introducing the AMD 5th Gen EPYC™ CPU
-description: ''
-summary: ''
-pubDate: Thu, 10 Oct 2024 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/huggingface-amd-turin
+title: "Introducing the AMD 5th Gen EPYC™ CPU"
+description: ""
+summary: ""
+pubDate: "Thu, 10 Oct 2024 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/huggingface-amd-turin"
+thumbnail: ""
 ---
 
 Introducing the AMD 5th Gen EPYC™ CPU

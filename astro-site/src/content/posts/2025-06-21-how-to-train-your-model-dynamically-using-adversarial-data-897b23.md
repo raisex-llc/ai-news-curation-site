@@ -1,14 +1,11 @@
 ---
-title: How to train your model dynamically using adversarial data
-description: ''
-summary: ''
-pubDate: Sat, 16 Jul 2022 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/mnist-adversarial
+title: "How to train your model dynamically using adversarial data"
+description: ""
+summary: ""
+pubDate: "Sat, 16 Jul 2022 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/mnist-adversarial"
+thumbnail: ""
 ---
 
 How to train your model dynamically using adversarial data

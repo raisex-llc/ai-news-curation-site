@@ -1,14 +1,11 @@
 ---
-title: An Introduction to Q-Learning Part 1
-description: ''
-summary: ''
-pubDate: Wed, 18 May 2022 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/deep-rl-q-part1
+title: "An Introduction to Q-Learning Part 1"
+description: ""
+summary: ""
+pubDate: "Wed, 18 May 2022 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/deep-rl-q-part1"
+thumbnail: ""
 ---
 
 An Introduction to Q-Learning Part 1

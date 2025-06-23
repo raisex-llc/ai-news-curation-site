@@ -5,6 +5,4 @@ summary: "We’re open-sourcing OpenAI Baselines, our internal effort to reprodu
 pubDate: Wed, 24 May 2017 07:00:00 GMT
 source: OpenAI Blog
 url: https://openai.com/index/openai-baselines-dqn
-
 ---
-

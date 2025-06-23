@@ -1,14 +1,11 @@
 ---
-title: Vision Language Models (Better, Faster, Stronger)
-description: ''
-summary: ''
-pubDate: Mon, 12 May 2025 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/vlms-2025
+title: "Vision Language Models (Better, Faster, Stronger)"
+description: ""
+summary: ""
+pubDate: "Mon, 12 May 2025 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/vlms-2025"
+thumbnail: ""
 ---
 
 Vision Language Models (Better, Faster, Stronger)

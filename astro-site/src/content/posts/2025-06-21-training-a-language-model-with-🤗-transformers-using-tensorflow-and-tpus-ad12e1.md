@@ -1,14 +1,11 @@
 ---
-title: Training a language model with 🤗 Transformers using TensorFlow and TPUs
-description: ''
-summary: ''
-pubDate: Thu, 27 Apr 2023 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/tf_tpu
+title: "Training a language model with 🤗 Transformers using TensorFlow and TPUs"
+description: ""
+summary: ""
+pubDate: "Thu, 27 Apr 2023 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/tf_tpu"
+thumbnail: ""
 ---
 
 Training a language model with 🤗 Transformers using TensorFlow and TPUs

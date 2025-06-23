@@ -1,14 +1,11 @@
 ---
-title: Visualize proteins on Hugging Face Spaces
-description: ''
-summary: ''
-pubDate: Wed, 24 Aug 2022 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/spaces_3dmoljs
+title: "Visualize proteins on Hugging Face Spaces"
+description: ""
+summary: ""
+pubDate: "Wed, 24 Aug 2022 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/spaces_3dmoljs"
+thumbnail: ""
 ---
 
 Visualize proteins on Hugging Face Spaces

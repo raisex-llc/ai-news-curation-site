@@ -1,14 +1,11 @@
 ---
-title: The Hugging Face Hub for Galleries, Libraries, Archives and Museums
-description: ''
-summary: ''
-pubDate: Mon, 12 Jun 2023 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/hf-hub-glam-guide
+title: "The Hugging Face Hub for Galleries, Libraries, Archives and Museums"
+description: ""
+summary: ""
+pubDate: "Mon, 12 Jun 2023 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/hf-hub-glam-guide"
+thumbnail: ""
 ---
 
 The Hugging Face Hub for Galleries, Libraries, Archives and Museums

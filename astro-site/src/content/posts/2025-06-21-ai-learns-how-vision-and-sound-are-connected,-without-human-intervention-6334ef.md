@@ -1,15 +1,11 @@
 ---
-title: AI learns how vision and sound are connected, without human intervention
-description: This new machine-learning model can match corresponding audio and visual
-  data, which could someday help robots interact in the real world.
-summary: 'This new machine-learning model can match corresponding audio and visual
-  data, which could someday help robots interact '
-pubDate: Thu, 22 May 2025 00:00:00 -0400
-source: MIT
-tags:
-- mit
-- ai
-url: https://news.mit.edu/2025/ai-learns-how-vision-and-sound-are-connected-without-human-intervention-0522
+title: "AI learns how vision and sound are connected, without human intervention"
+description: "This new machine-learning model can match corresponding audio and visual data, which could someday help robots interact in the real world."
+summary: "This new machine-learning model can match corresponding audio and visual data, which could someday help robots interact"
+pubDate: "Thu, 22 May 2025 00:00:00 -0400"
+source: "MIT"
+url: "https://news.mit.edu/2025/ai-learns-how-vision-and-sound-are-connected-without-human-intervention-0522"
+thumbnail: ""
 ---
 
 Humans naturally learn by making connections between sight and sound. For instance, we can watch someone playing the cello and recognize that the cellist’s movements are generating the music we hear.

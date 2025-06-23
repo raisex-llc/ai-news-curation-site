@@ -1,14 +1,11 @@
 ---
-title: Accelerating Hugging Face Transformers with AWS Inferentia2
-description: ''
-summary: ''
-pubDate: Mon, 17 Apr 2023 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/accelerate-transformers-with-inferentia2
+title: "Accelerating Hugging Face Transformers with AWS Inferentia2"
+description: ""
+summary: ""
+pubDate: "Mon, 17 Apr 2023 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/accelerate-transformers-with-inferentia2"
+thumbnail: ""
 ---
 
 Accelerating Hugging Face Transformers with AWS Inferentia2

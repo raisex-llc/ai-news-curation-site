@@ -1,14 +1,11 @@
 ---
-title: A Short Summary of Chinese AI Global Expansion
-description: ''
-summary: ''
-pubDate: Thu, 03 Oct 2024 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/chinese-ai-expansion
+title: "A Short Summary of Chinese AI Global Expansion"
+description: ""
+summary: ""
+pubDate: "Thu, 03 Oct 2024 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/chinese-ai-expansion"
+thumbnail: ""
 ---
 
 A Short Summary of Chinese AI Global Expansion

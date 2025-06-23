@@ -1,14 +1,11 @@
 ---
-title: Hugging Face Text Generation Inference available for AWS Inferentia2
-description: ''
-summary: ''
-pubDate: Thu, 01 Feb 2024 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/text-generation-inference-on-inferentia2
+title: "Hugging Face Text Generation Inference available for AWS Inferentia2"
+description: ""
+summary: ""
+pubDate: "Thu, 01 Feb 2024 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/text-generation-inference-on-inferentia2"
+thumbnail: ""
 ---
 
 Hugging Face Text Generation Inference available for AWS Inferentia2

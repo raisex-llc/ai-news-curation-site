@@ -1,14 +1,11 @@
 ---
-title: Goodbye cold boot - how we made LoRA inference 300% faster
-description: ''
-summary: ''
-pubDate: Tue, 05 Dec 2023 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/lora-adapters-dynamic-loading
+title: "Goodbye cold boot - how we made LoRA inference 300% faster"
+description: ""
+summary: ""
+pubDate: "Tue, 05 Dec 2023 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/lora-adapters-dynamic-loading"
+thumbnail: ""
 ---
 
 Goodbye cold boot - how we made LoRA Inference 300% faster

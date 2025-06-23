@@ -1,14 +1,11 @@
 ---
-title: 'Chat Templates: An End to the Silent Performance Killer'
-description: ''
-summary: ''
-pubDate: Tue, 03 Oct 2023 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/chat-templates
+title: "Chat Templates: An End to the Silent Performance Killer"
+description: ""
+summary: ""
+pubDate: "Tue, 03 Oct 2023 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/chat-templates"
+thumbnail: ""
 ---
 
 Chat Templates

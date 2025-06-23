@@ -1,15 +1,11 @@
 ---
-title: The sweet taste of a new idea
-description: Sendhil Mullainathan brings a lifetime of unique perspectives to research
-  in behavioral economics and machine learning.
-summary: Sendhil Mullainathan brings a lifetime of unique perspectives to research
-  in behavioral economics and machine learning.
-pubDate: Mon, 19 May 2025 16:30:00 -0400
-source: MIT
-tags:
-- mit
-- ai
-url: https://news.mit.edu/2025/sweet-taste-new-idea-sendhil-mullainathan-0519
+title: "The sweet taste of a new idea"
+description: "Sendhil Mullainathan brings a lifetime of unique perspectives to research in behavioral economics and machine learning."
+summary: "Sendhil Mullainathan brings a lifetime of unique perspectives to research in behavioral economics and machine learning."
+pubDate: "Mon, 19 May 2025 16:30:00 -0400"
+source: "MIT"
+url: "https://news.mit.edu/2025/sweet-taste-new-idea-sendhil-mullainathan-0519"
+thumbnail: ""
 ---
 
 Behavioral economist Sendhil Mullainathan has never forgotten the pleasure he felt the first time he tasted a delicious crisp, yet gooey Levain cookie. He compares the experience to when he encounters new ideas.

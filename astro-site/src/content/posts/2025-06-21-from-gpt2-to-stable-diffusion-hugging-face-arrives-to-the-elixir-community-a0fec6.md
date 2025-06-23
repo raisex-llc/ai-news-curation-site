@@ -1,14 +1,11 @@
 ---
-title: 'From GPT2 to Stable Diffusion: Hugging Face arrives to the Elixir community'
-description: ''
-summary: ''
-pubDate: Fri, 09 Dec 2022 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/elixir-bumblebee
+title: "From GPT2 to Stable Diffusion: Hugging Face arrives to the Elixir community"
+description: ""
+summary: ""
+pubDate: "Fri, 09 Dec 2022 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/elixir-bumblebee"
+thumbnail: ""
 ---
 
 From GPT2 to Stable Diffusion: Hugging Face arrives to the Elixir community

@@ -1,14 +1,11 @@
 ---
-title: Leveraging Hugging Face for complex generative AI use cases
-description: ''
-summary: ''
-pubDate: Sat, 01 Jul 2023 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/writer-case-study
+title: "Leveraging Hugging Face for complex generative AI use cases"
+description: ""
+summary: ""
+pubDate: "Sat, 01 Jul 2023 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/writer-case-study"
+thumbnail: ""
 ---
 
 Leveraging Hugging Face for complex generative AI use casess

@@ -1,15 +1,11 @@
 ---
-title: '3 Questions: How to help students recognize potential bias in their AI datasets'
-description: Courses on developing AI models for health care need to focus more on
-  identifying and addressing bias, says Leo Anthony Celi.
-summary: 'Courses on developing AI models for health care need to focus more on identifying
-  and addressing bias, says Leo Anthony '
-pubDate: Mon, 02 Jun 2025 10:30:00 -0400
-source: MIT
-tags:
-- mit
-- ai
-url: https://news.mit.edu/2025/3-questions-recognizing-potential-bias-in-ai-datasets-0602
+title: "3 Questions: How to help students recognize potential bias in their AI datasets"
+description: "Courses on developing AI models for health care need to focus more on identifying and addressing bias, says Leo Anthony Celi."
+summary: "Courses on developing AI models for health care need to focus more on identifying and addressing bias, says Leo Anthony"
+pubDate: "Mon, 02 Jun 2025 10:30:00 -0400"
+source: "MIT"
+url: "https://news.mit.edu/2025/3-questions-recognizing-potential-bias-in-ai-datasets-0602"
+thumbnail: ""
 ---
 
 Every year, thousands of students take courses that teach them how to deploy artificial intelligence models that can help doctors diagnose disease and determine appropriate treatments. However, many of these courses omit a key element: training students to detect flaws in the training data used to develop the models.

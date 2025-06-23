@@ -1,14 +1,11 @@
 ---
-title: Accelerated Inference with Optimum and Transformers Pipelines
-description: ''
-summary: ''
-pubDate: Tue, 10 May 2022 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/optimum-inference
+title: "Accelerated Inference with Optimum and Transformers Pipelines"
+description: ""
+summary: ""
+pubDate: "Tue, 10 May 2022 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/optimum-inference"
+thumbnail: ""
 ---
 
 Accelerated Inference with Optimum and Transformers Pipelines

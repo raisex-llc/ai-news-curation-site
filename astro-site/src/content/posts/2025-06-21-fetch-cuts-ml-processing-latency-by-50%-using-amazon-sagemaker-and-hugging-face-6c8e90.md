@@ -1,14 +1,11 @@
 ---
-title: Fetch Cuts ML Processing Latency by 50% Using Amazon SageMaker & Hugging Face
-description: ''
-summary: ''
-pubDate: Fri, 01 Sep 2023 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/fetch-case-study
+title: "Fetch Cuts ML Processing Latency by 50% Using Amazon SageMaker & Hugging Face"
+description: ""
+summary: ""
+pubDate: "Fri, 01 Sep 2023 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/fetch-case-study"
+thumbnail: ""
 ---
 
 Fetch Cuts ML Processing Latency by 50% Using Amazon SageMaker & Hugging Face

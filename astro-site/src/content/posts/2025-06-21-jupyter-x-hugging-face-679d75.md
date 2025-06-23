@@ -1,14 +1,11 @@
 ---
-title: Jupyter X Hugging Face
-description: ''
-summary: ''
-pubDate: Thu, 23 Mar 2023 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/notebooks-hub
+title: "Jupyter X Hugging Face"
+description: ""
+summary: ""
+pubDate: "Thu, 23 Mar 2023 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/notebooks-hub"
+thumbnail: ""
 ---
 
 Jupyter X Hugging Face

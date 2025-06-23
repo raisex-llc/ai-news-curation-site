@@ -1,14 +1,11 @@
 ---
-title: Subscribe to Enterprise Hub with your AWS Account
-description: ''
-summary: ''
-pubDate: Thu, 09 May 2024 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/enterprise-hub-aws-marketplace
+title: "Subscribe to Enterprise Hub with your AWS Account"
+description: ""
+summary: ""
+pubDate: "Thu, 09 May 2024 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/enterprise-hub-aws-marketplace"
+thumbnail: ""
 ---
 
 Subscribe to Enterprise Hub with your AWS Account

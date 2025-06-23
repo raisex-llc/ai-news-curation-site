@@ -1,17 +1,11 @@
 ---
-title: Experiment with Gemini 2.0 Flash native image generation
-description: Native image output is available in Gemini 2.0 Flash for developers to
-  experiment with in Google AI Studio and the Gemini API.
-summary: Native image output is available in Gemini 2.0 Flash for developers to experiment
-  with in Google AI Studio and the Gemin
-pubDate: Wed, 12 Mar 2025 14:58:00 +0000
-source: DeepMind Blog
-tags:
-- deepmind
-- alpha
-- ai
-url: https://deepmind.google/discover/blog/experiment-with-gemini-20-flash-native-image-generation/
-thumbnail: https://lh3.googleusercontent.com/3YfTGZst3RNar_7vzz6PhJ8L0508dMqxLq9XLl9u2k1HXTsdn-vifGNLHfF9Kel_VVJPtaxrueirXVf9RiZmGRsnqO7TNLDfaLKiy6t6qFytX6dZ=w528-h297-n-nu-rw
+title: "Experiment with Gemini 2.0 Flash native image generation"
+description: "Native image output is available in Gemini 2.0 Flash for developers to experiment with in Google AI Studio and the Gemini API."
+summary: "Native image output is available in Gemini 2.0 Flash for developers to experiment with in Google AI Studio and the Gemin"
+pubDate: "Wed, 12 Mar 2025 14:58:00 +0000"
+source: "DeepMind Blog"
+url: "https://deepmind.google/discover/blog/experiment-with-gemini-20-flash-native-image-generation/"
+thumbnail: "https://lh3.googleusercontent.com/3YfTGZst3RNar_7vzz6PhJ8L0508dMqxLq9XLl9u2k1HXTsdn-vifGNLHfF9Kel_VVJPtaxrueirXVf9RiZmGRsnqO7TNLDfaLKiy6t6qFytX6dZ=w528-h297-n-nu-rw"
 ---
 
 In December we first introduced native image output in Gemini 2.0 Flash to trusted testers. Today, we're making it available for developer experimentation across all regions currently supported by Google AI Studio. You can test this new capability using an experimental version of Gemini 2.0 Flash (gemini-2.0-flash-exp) in Google AI Studio and via the Gemini API.

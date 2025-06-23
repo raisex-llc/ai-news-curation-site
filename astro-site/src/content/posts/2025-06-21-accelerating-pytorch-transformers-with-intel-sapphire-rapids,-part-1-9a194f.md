@@ -1,14 +1,11 @@
 ---
-title: Accelerating PyTorch Transformers with Intel Sapphire Rapids, part 1
-description: ''
-summary: ''
-pubDate: Mon, 02 Jan 2023 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/intel-sapphire-rapids
+title: "Accelerating PyTorch Transformers with Intel Sapphire Rapids, part 1"
+description: ""
+summary: ""
+pubDate: "Mon, 02 Jan 2023 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/intel-sapphire-rapids"
+thumbnail: ""
 ---
 
 Accelerating PyTorch Transformers with Intel Sapphire Rapids, part 1

@@ -1,15 +1,11 @@
 ---
-title: Nyströmformer, Approximating self-attention in linear time and memory via the
-  Nyström method
-description: ''
-summary: ''
-pubDate: Tue, 02 Aug 2022 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/nystromformer
+title: "Nyströmformer, Approximating self-attention in linear time and memory via the Nyström method"
+description: ""
+summary: ""
+pubDate: "Tue, 02 Aug 2022 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/nystromformer"
+thumbnail: ""
 ---
 
 Nyströmformer: Approximating self-attention in linear time and memory via the Nyström method

@@ -1,14 +1,11 @@
 ---
-title: Hugging Face on PyTorch / XLA TPUs
-description: ''
-summary: ''
-pubDate: Tue, 09 Feb 2021 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/pytorch-xla
+title: "Hugging Face on PyTorch / XLA TPUs"
+description: ""
+summary: ""
+pubDate: "Tue, 09 Feb 2021 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/pytorch-xla"
+thumbnail: ""
 ---
 
 Hugging Face on PyTorch / XLA TPUs: Faster and cheaper training

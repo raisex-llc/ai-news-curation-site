@@ -1,16 +1,11 @@
 ---
-title: Melding data, systems, and society
-description: A new book from Professor Munther Dahleh details the creation of a unique
-  kind of transdisciplinary center, uniting many specialties through a common need
-  for data science.
-summary: A new book from Professor Munther Dahleh details the creation of a unique
-  kind of transdisciplinary center, uniting many
-pubDate: Tue, 10 Jun 2025 14:25:00 -0400
-source: MIT
-tags:
-- mit
-- ai
-url: https://news.mit.edu/2025/data-systems-and-society-0610
+title: "Melding data, systems, and society"
+description: "A new book from Professor Munther Dahleh details the creation of a unique kind of transdisciplinary center, uniting many specialties through a common need for data science."
+summary: "A new book from Professor Munther Dahleh details the creation of a unique kind of transdisciplinary center, uniting many"
+pubDate: "Tue, 10 Jun 2025 14:25:00 -0400"
+source: "MIT"
+url: "https://news.mit.edu/2025/data-systems-and-society-0610"
+thumbnail: ""
 ---
 
 Research that crosses the traditional boundaries of academic disciplines, and boundaries between academia, industry, and government, is increasingly widespread, and has sometimes led to the spawning of significant new disciplines. But Munther Dahleh, a professor of electrical engineering and computer science at MIT, says that such multidisciplinary and interdisciplinary work often suffers from a number of shortcomings and handicaps compared to more traditionally focused disciplinary work.

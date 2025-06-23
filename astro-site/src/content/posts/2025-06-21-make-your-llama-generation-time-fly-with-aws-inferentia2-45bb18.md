@@ -1,14 +1,11 @@
 ---
-title: Make your llama generation time fly with AWS Inferentia2
-description: ''
-summary: ''
-pubDate: Tue, 07 Nov 2023 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/inferentia-llama2
+title: "Make your llama generation time fly with AWS Inferentia2"
+description: ""
+summary: ""
+pubDate: "Tue, 07 Nov 2023 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/inferentia-llama2"
+thumbnail: ""
 ---
 
 Make your llama generation time fly with AWS Inferentia2

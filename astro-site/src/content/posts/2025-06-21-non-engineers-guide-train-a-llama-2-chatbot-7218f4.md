@@ -1,14 +1,11 @@
 ---
-title: 'Non-engineers guide: Train a LLaMA 2 chatbot'
-description: ''
-summary: ''
-pubDate: Thu, 28 Sep 2023 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/Llama2-for-non-engineers
+title: "Non-engineers guide: Train a LLaMA 2 chatbot"
+description: ""
+summary: ""
+pubDate: "Thu, 28 Sep 2023 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/Llama2-for-non-engineers"
+thumbnail: ""
 ---
 
 Non-engineers guide: Train a LLaMA 2 chatbot

@@ -1,14 +1,11 @@
 ---
-title: Making ML-powered web games with Transformers.js
-description: ''
-summary: ''
-pubDate: Wed, 05 Jul 2023 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/ml-web-games
+title: "Making ML-powered web games with Transformers.js"
+description: ""
+summary: ""
+pubDate: "Wed, 05 Jul 2023 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/ml-web-games"
+thumbnail: ""
 ---
 
 Making ML-powered web games with Transformers.js

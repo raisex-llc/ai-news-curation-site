@@ -1,14 +1,11 @@
 ---
-title: The AI tools for Art Newsletter - Issue 1
-description: ''
-summary: ''
-pubDate: Fri, 31 Jan 2025 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/ai-art-newsletter-jan-25
+title: "The AI tools for Art Newsletter - Issue 1"
+description: ""
+summary: ""
+pubDate: "Fri, 31 Jan 2025 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/ai-art-newsletter-jan-25"
+thumbnail: ""
 ---
 
 The AI tools for Art Newsletter

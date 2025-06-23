@@ -1,14 +1,11 @@
 ---
-title: 'Letting Large Models Debate: The First Multilingual LLM Debate Competition'
-description: ''
-summary: ''
-pubDate: Wed, 20 Nov 2024 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/debate
+title: "Letting Large Models Debate: The First Multilingual LLM Debate Competition"
+description: ""
+summary: ""
+pubDate: "Wed, 20 Nov 2024 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/debate"
+thumbnail: ""
 ---
 
 Letting Large Models Debate: The First Multilingual LLM Debate Competition

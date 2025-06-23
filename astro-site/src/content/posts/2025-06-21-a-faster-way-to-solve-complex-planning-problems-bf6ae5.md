@@ -1,16 +1,11 @@
 ---
-title: A faster way to solve complex planning problems
-description: By eliminating redundant computations, a new data-driven method can streamline
-  processes like scheduling trains, routing delivery drivers, or assigning airline
-  crews.
-summary: By eliminating redundant computations, a new data-driven method can streamline
-  processes like scheduling trains, routing
-pubDate: Wed, 16 Apr 2025 00:00:00 -0400
-source: MIT
-tags:
-- mit
-- ai
-url: https://news.mit.edu/2025/faster-way-solve-complex-planning-problems-0416
+title: "A faster way to solve complex planning problems"
+description: "By eliminating redundant computations, a new data-driven method can streamline processes like scheduling trains, routing delivery drivers, or assigning airline crews."
+summary: "By eliminating redundant computations, a new data-driven method can streamline processes like scheduling trains, routing"
+pubDate: "Wed, 16 Apr 2025 00:00:00 -0400"
+source: "MIT"
+url: "https://news.mit.edu/2025/faster-way-solve-complex-planning-problems-0416"
+thumbnail: ""
 ---
 
 When some commuter trains arrive at the end of the line, they must travel to a switching platform to be turned around so they can depart the station later, often from a different platform than the one at which they arrived.

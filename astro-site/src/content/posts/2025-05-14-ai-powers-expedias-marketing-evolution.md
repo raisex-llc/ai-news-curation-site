@@ -1,10 +1,10 @@
 ---
-title: AI powers Expedia’s marketing evolution
+title: "AI powers Expedia’s marketing evolution"
 description: "A conversation with Jochen Koedijk, Chief Marketing Officer of Expedia Group."
 summary: "A conversation with Jochen Koedijk, Chief Marketing Officer of Expedia Group."
-pubDate: Wed, 14 May 2025 10:00:00 GMT
-source: OpenAI Blog
-url: https://openai.com/index/expedia-jochen-koedijk
-
+pubDate: "Wed, 14 May 2025 10:00:00 GMT"
+source: "OpenAI Blog"
+url: "https://openai.com/index/expedia-jochen-koedijk"
+thumbnail: ""
 ---
 

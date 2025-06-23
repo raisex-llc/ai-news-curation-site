@@ -1,14 +1,11 @@
 ---
-title: Geminiを業務で使いこなす！　Google Cloudが指南する「プロンプト入力」4つのポイントは？
-description: GoogleのAI「Gemini」を業務で使いこなすには──？　Google Cloudの担当者がレクチャーした。
-summary: GoogleのAI「Gemini」を業務で使いこなすには──？　Google Cloudの担当者がレクチャーした。
-pubDate: Thu, 19 Jun 2025 06:00:00 +0900
-source: ITmedia AI
-tags:
-- japan
-- itmedia
-- ai
-url: https://www.itmedia.co.jp/business/articles/2506/19/news008.html
+title: "Geminiを業務で使いこなす！　Google Cloudが指南する「プロンプト入力」4つのポイントは？"
+description: "GoogleのAI「Gemini」を業務で使いこなすには──？　Google Cloudの担当者がレクチャーした。"
+summary: "GoogleのAI「Gemini」を業務で使いこなすには──？　Google Cloudの担当者がレクチャーした。"
+pubDate: "Thu, 19 Jun 2025 06:00:00 +0900"
+source: "ITmedia AI"
+url: "https://www.itmedia.co.jp/business/articles/2506/19/news008.html"
+thumbnail: ""
 ---
 
 従業員の生成AI利用率90％超のリアル！ いちばんやさしい生成AIのはじめかた

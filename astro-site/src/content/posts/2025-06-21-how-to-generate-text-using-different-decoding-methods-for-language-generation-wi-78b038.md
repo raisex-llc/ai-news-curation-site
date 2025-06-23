@@ -1,15 +1,11 @@
 ---
-title: 'How to generate text: using different decoding methods for language generation
-  with Transformers'
-description: ''
-summary: ''
-pubDate: Sun, 01 Mar 2020 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/how-to-generate
+title: "How to generate text: using different decoding methods for language generation with Transformers"
+description: ""
+summary: ""
+pubDate: "Sun, 01 Mar 2020 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/how-to-generate"
+thumbnail: ""
 ---
 
 How to generate text: using different decoding methods for language generation with Transformers

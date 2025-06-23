@@ -1,14 +1,11 @@
 ---
-title: Hugging Face Reads, Feb. 2021 - Long-range Transformers
-description: ''
-summary: ''
-pubDate: Tue, 09 Mar 2021 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/long-range-transformers
+title: "Hugging Face Reads, Feb. 2021 - Long-range Transformers"
+description: ""
+summary: ""
+pubDate: "Tue, 09 Mar 2021 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/long-range-transformers"
+thumbnail: ""
 ---
 
 Hugging Face Reads, Feb. 2021 - Long-range Transformers

@@ -1,14 +1,11 @@
 ---
-title: 'SmolVLM2: Bringing Video Understanding to Every Device'
-description: ''
-summary: ''
-pubDate: Thu, 20 Feb 2025 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/smolvlm2
+title: "SmolVLM2: Bringing Video Understanding to Every Device"
+description: ""
+summary: ""
+pubDate: "Thu, 20 Feb 2025 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/smolvlm2"
+thumbnail: ""
 ---
 
 SmolVLM2: Bringing Video Understanding to Every Device

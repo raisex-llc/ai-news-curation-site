@@ -1,14 +1,11 @@
 ---
-title: LoRA training scripts of the world, unite!
-description: ''
-summary: ''
-pubDate: Tue, 02 Jan 2024 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/sdxl_lora_advanced_script
+title: "LoRA training scripts of the world, unite!"
+description: ""
+summary: ""
+pubDate: "Tue, 02 Jan 2024 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/sdxl_lora_advanced_script"
+thumbnail: ""
 ---
 
 LoRA training scripts of the world, unite!

@@ -1,14 +1,11 @@
 ---
-title: Graph Classification with Transformers
-description: ''
-summary: ''
-pubDate: Fri, 14 Apr 2023 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/graphml-classification
+title: "Graph Classification with Transformers"
+description: ""
+summary: ""
+pubDate: "Fri, 14 Apr 2023 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/graphml-classification"
+thumbnail: ""
 ---
 
 Graph classification with Transformers

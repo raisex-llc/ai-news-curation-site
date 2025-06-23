@@ -1,15 +1,11 @@
 ---
-title: 'Introducing Gemini: our largest and most capable AI model'
-description: Making AI more helpful for everyone
-summary: Making AI more helpful for everyone
-pubDate: Wed, 06 Dec 2023 15:13:00 +0000
-source: DeepMind Blog
-tags:
-- deepmind
-- alpha
-- ai
-url: https://deepmind.google/discover/blog/introducing-gemini-our-largest-and-most-capable-ai-model/
-thumbnail: https://lh3.googleusercontent.com/Q0zuCWPmwm3zjORWtYXpWMeRIyQ55zVbcviNcZ-LIFexKaQyL9i9T0TZwHHC_bsvynuW_CkfM6AoLkgw9JTt6GGRRAX2lT2Qx4ekC69vhB11vcj3=w528-h297-n-nu-rw
+title: "Introducing Gemini: our largest and most capable AI model"
+description: "Making AI more helpful for everyone"
+summary: "Making AI more helpful for everyone"
+pubDate: "Wed, 06 Dec 2023 15:13:00 +0000"
+source: "DeepMind Blog"
+url: "https://deepmind.google/discover/blog/introducing-gemini-our-largest-and-most-capable-ai-model/"
+thumbnail: "https://lh3.googleusercontent.com/Q0zuCWPmwm3zjORWtYXpWMeRIyQ55zVbcviNcZ-LIFexKaQyL9i9T0TZwHHC_bsvynuW_CkfM6AoLkgw9JTt6GGRRAX2lT2Qx4ekC69vhB11vcj3=w528-h297-n-nu-rw"
 ---
 
 Introducing Gemini: our largest and most capable AI model

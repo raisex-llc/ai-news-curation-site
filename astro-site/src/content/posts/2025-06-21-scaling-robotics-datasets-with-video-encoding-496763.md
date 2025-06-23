@@ -1,14 +1,11 @@
 ---
-title: Scaling robotics datasets with video encoding
-description: ''
-summary: ''
-pubDate: Tue, 27 Aug 2024 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/video-encoding
+title: "Scaling robotics datasets with video encoding"
+description: ""
+summary: ""
+pubDate: "Tue, 27 Aug 2024 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/video-encoding"
+thumbnail: ""
 ---
 
 Scaling robotics datasets with video encoding

@@ -1,14 +1,11 @@
 ---
-title: Visualize and understand GPU memory in PyTorch
-description: ''
-summary: ''
-pubDate: Tue, 24 Dec 2024 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/train_memory
+title: "Visualize and understand GPU memory in PyTorch"
+description: ""
+summary: ""
+pubDate: "Tue, 24 Dec 2024 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/train_memory"
+thumbnail: ""
 ---
 
 Visualize and understand GPU memory in PyTorch

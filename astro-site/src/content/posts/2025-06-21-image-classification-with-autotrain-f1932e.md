@@ -1,14 +1,11 @@
 ---
-title: Image Classification with AutoTrain
-description: ''
-summary: ''
-pubDate: Wed, 28 Sep 2022 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/autotrain-image-classification
+title: "Image Classification with AutoTrain"
+description: ""
+summary: ""
+pubDate: "Wed, 28 Sep 2022 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/autotrain-image-classification"
+thumbnail: ""
 ---
 
 Image Classification with AutoTrain

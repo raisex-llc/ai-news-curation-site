@@ -1,14 +1,11 @@
 ---
-title: Training CodeParrot 🦜 from Scratch
-description: ''
-summary: ''
-pubDate: Wed, 08 Dec 2021 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/codeparrot
+title: "Training CodeParrot 🦜 from Scratch"
+description: ""
+summary: ""
+pubDate: "Wed, 08 Dec 2021 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/codeparrot"
+thumbnail: ""
 ---
 
 Training CodeParrot 🦜 from Scratch

@@ -1,15 +1,11 @@
 ---
-title: New tool evaluates progress in reinforcement learning
-description: “IntersectionZoo,” a benchmarking tool, uses a real-world traffic problem
-  to test progress in deep reinforcement learning algorithms.
-summary: “IntersectionZoo,” a benchmarking tool, uses a real-world traffic problem
-  to test progress in deep reinforcement learnin
-pubDate: Mon, 05 May 2025 16:00:00 -0400
-source: MIT
-tags:
-- mit
-- ai
-url: https://news.mit.edu/2025/new-tool-evaluate-progress-reinforcement-learning-0505
+title: "New tool evaluates progress in reinforcement learning"
+description: "“IntersectionZoo,” a benchmarking tool, uses a real-world traffic problem to test progress in deep reinforcement learning algorithms."
+summary: "“IntersectionZoo,” a benchmarking tool, uses a real-world traffic problem to test progress in deep reinforcement learnin"
+pubDate: "Mon, 05 May 2025 16:00:00 -0400"
+source: "MIT"
+url: "https://news.mit.edu/2025/new-tool-evaluate-progress-reinforcement-learning-0505"
+thumbnail: ""
 ---
 
 If there’s one thing that characterizes driving in any major city, it’s the constant stop-and-go as traffic lights change and as cars and trucks merge and separate and turn and park. This constant stopping and starting is extremely inefficient, driving up the amount of pollution, including greenhouse gases, that gets emitted per mile of driving.

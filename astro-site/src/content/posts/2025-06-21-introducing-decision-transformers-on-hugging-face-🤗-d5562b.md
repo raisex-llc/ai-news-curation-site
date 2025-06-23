@@ -1,14 +1,11 @@
 ---
-title: Introducing Decision Transformers on Hugging Face 🤗
-description: ''
-summary: ''
-pubDate: Mon, 28 Mar 2022 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/decision-transformers
+title: "Introducing Decision Transformers on Hugging Face 🤗"
+description: ""
+summary: ""
+pubDate: "Mon, 28 Mar 2022 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/decision-transformers"
+thumbnail: ""
 ---
 
 Introducing Decision Transformers on Hugging Face 🤗

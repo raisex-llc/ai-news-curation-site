@@ -1,14 +1,11 @@
 ---
-title: Don't repeat yourself - 🤗 Transformers Design Philosophy
-description: ''
-summary: ''
-pubDate: Tue, 05 Apr 2022 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/transformers-design-philosophy
+title: "Don't repeat yourself - 🤗 Transformers Design Philosophy"
+description: ""
+summary: ""
+pubDate: "Tue, 05 Apr 2022 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/transformers-design-philosophy"
+thumbnail: ""
 ---
 
 Don't Repeat Yourself*

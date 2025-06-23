@@ -1,15 +1,11 @@
 ---
-title: Teaching AI models what they don’t know
-description: A team of MIT researchers founded Themis AI to quantify AI model uncertainty
-  and address knowledge gaps.
-summary: A team of MIT researchers founded Themis AI to quantify AI model uncertainty
-  and address knowledge gaps.
-pubDate: Tue, 03 Jun 2025 00:00:00 -0400
-source: MIT
-tags:
-- mit
-- ai
-url: https://news.mit.edu/2025/themis-ai-teaches-ai-models-what-they-dont-know-0603
+title: "Teaching AI models what they don’t know"
+description: "A team of MIT researchers founded Themis AI to quantify AI model uncertainty and address knowledge gaps."
+summary: "A team of MIT researchers founded Themis AI to quantify AI model uncertainty and address knowledge gaps."
+pubDate: "Tue, 03 Jun 2025 00:00:00 -0400"
+source: "MIT"
+url: "https://news.mit.edu/2025/themis-ai-teaches-ai-models-what-they-dont-know-0603"
+thumbnail: ""
 ---
 
 Artificial intelligence systems like ChatGPT provide plausible-sounding answers to any question you might ask. But they don’t always reveal the gaps in their knowledge or areas where they’re uncertain. That problem can have huge consequences as AI systems are increasingly used to do things like develop drugs, synthesize information, and drive autonomous cars.

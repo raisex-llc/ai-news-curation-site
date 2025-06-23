@@ -1,14 +1,11 @@
 ---
-title: Large-scale Near-deduplication Behind BigCode
-description: ''
-summary: ''
-pubDate: Tue, 16 May 2023 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/dedup
+title: "Large-scale Near-deduplication Behind BigCode"
+description: ""
+summary: ""
+pubDate: "Tue, 16 May 2023 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/dedup"
+thumbnail: ""
 ---
 
 Large-scale Near-deduplication Behind BigCode

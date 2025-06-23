@@ -1,14 +1,11 @@
 ---
-title: Supercharged Customer Service with Machine Learning
-description: ''
-summary: ''
-pubDate: Mon, 25 Apr 2022 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/supercharge-customer-service-with-machine-learning
+title: "Supercharged Customer Service with Machine Learning"
+description: ""
+summary: ""
+pubDate: "Mon, 25 Apr 2022 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/supercharge-customer-service-with-machine-learning"
+thumbnail: ""
 ---
 
 Supercharged Customer Service with Machine Learning

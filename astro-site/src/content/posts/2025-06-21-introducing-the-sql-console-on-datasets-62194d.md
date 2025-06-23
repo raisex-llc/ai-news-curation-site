@@ -1,14 +1,11 @@
 ---
-title: Introducing the SQL Console on Datasets
-description: ''
-summary: ''
-pubDate: Tue, 17 Sep 2024 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/sql-console
+title: "Introducing the SQL Console on Datasets"
+description: ""
+summary: ""
+pubDate: "Tue, 17 Sep 2024 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/sql-console"
+thumbnail: ""
 ---
 
 Introducing the SQL Console on Datasets

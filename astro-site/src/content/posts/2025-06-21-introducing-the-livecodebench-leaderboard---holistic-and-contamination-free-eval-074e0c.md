@@ -1,15 +1,11 @@
 ---
-title: Introducing the LiveCodeBench Leaderboard - Holistic and Contamination-Free
-  Evaluation of Code LLMs
-description: ''
-summary: ''
-pubDate: Tue, 16 Apr 2024 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/leaderboard-livecodebench
+title: "Introducing the LiveCodeBench Leaderboard - Holistic and Contamination-Free Evaluation of Code LLMs"
+description: ""
+summary: ""
+pubDate: "Tue, 16 Apr 2024 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/leaderboard-livecodebench"
+thumbnail: ""
 ---
 
 Introducing the LiveCodeBench Leaderboard - Holistic and Contamination-Free Evaluation of Code LLMs

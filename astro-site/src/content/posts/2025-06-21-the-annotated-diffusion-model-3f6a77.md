@@ -1,14 +1,11 @@
 ---
-title: The Annotated Diffusion Model
-description: ''
-summary: ''
-pubDate: Tue, 07 Jun 2022 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/annotated-diffusion
+title: "The Annotated Diffusion Model"
+description: ""
+summary: ""
+pubDate: "Tue, 07 Jun 2022 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/annotated-diffusion"
+thumbnail: ""
 ---
 
 The Annotated Diffusion Model

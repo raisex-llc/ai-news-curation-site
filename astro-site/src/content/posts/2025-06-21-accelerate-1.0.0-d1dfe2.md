@@ -1,14 +1,11 @@
 ---
-title: Accelerate 1.0.0
-description: ''
-summary: ''
-pubDate: Fri, 13 Sep 2024 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/accelerate-v1
+title: "Accelerate 1.0.0"
+description: ""
+summary: ""
+pubDate: "Fri, 13 Sep 2024 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/accelerate-v1"
+thumbnail: ""
 ---
 
 Accelerate 1.0.0

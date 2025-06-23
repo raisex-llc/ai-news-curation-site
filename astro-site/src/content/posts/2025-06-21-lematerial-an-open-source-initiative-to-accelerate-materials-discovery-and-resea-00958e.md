@@ -1,15 +1,11 @@
 ---
-title: 'LeMaterial: an open source initiative to accelerate materials discovery and
-  research'
-description: ''
-summary: ''
-pubDate: Tue, 10 Dec 2024 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/lematerial
+title: "LeMaterial: an open source initiative to accelerate materials discovery and research"
+description: ""
+summary: ""
+pubDate: "Tue, 10 Dec 2024 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/lematerial"
+thumbnail: ""
 ---
 
 LeMaterial: an open source initiative to accelerate materials discovery and research

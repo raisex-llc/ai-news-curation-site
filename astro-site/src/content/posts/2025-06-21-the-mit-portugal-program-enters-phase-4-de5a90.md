@@ -1,16 +1,11 @@
 ---
-title: The MIT-Portugal Program enters Phase 4
-description: New phase will support continued exploration of ideas and solutions in
-  fields ranging from AI to nanotech to climate — with emphasis on educational exchanges
-  and entrepreneurship.
-summary: New phase will support continued exploration of ideas and solutions in fields
-  ranging from AI to nanotech to climate — w
-pubDate: Wed, 30 Apr 2025 16:20:00 -0400
-source: MIT
-tags:
-- mit
-- ai
-url: https://news.mit.edu/2025/mit-portugal-program-enters-phase-4-0430
+title: "The MIT-Portugal Program enters Phase 4"
+description: "New phase will support continued exploration of ideas and solutions in fields ranging from AI to nanotech to climate — with emphasis on educational exchanges and entrepreneurship."
+summary: "New phase will support continued exploration of ideas and solutions in fields ranging from AI to nanotech to climate — w"
+pubDate: "Wed, 30 Apr 2025 16:20:00 -0400"
+source: "MIT"
+url: "https://news.mit.edu/2025/mit-portugal-program-enters-phase-4-0430"
+thumbnail: ""
 ---
 
 Since its founding 19 years ago as a pioneering collaboration with Portuguese universities, research institutions and corporations, the MIT-Portugal Program (MPP) has achieved a slew of successes — from enabling 47 entrepreneurial spinoffs and funding over 220 joint projects between MIT and Portuguese researchers to training a generation of exceptional researchers on both sides of the Atlantic.

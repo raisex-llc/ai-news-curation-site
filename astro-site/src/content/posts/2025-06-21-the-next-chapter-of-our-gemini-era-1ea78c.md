@@ -1,15 +1,11 @@
 ---
-title: The next chapter of our Gemini era
-description: We're bringing Gemini to more Google products
-summary: We're bringing Gemini to more Google products
-pubDate: Thu, 08 Feb 2024 13:00:00 +0000
-source: DeepMind Blog
-tags:
-- deepmind
-- alpha
-- ai
-url: https://deepmind.google/discover/blog/google-gemini-update-sundar-pichai-2024/
-thumbnail: https://lh3.googleusercontent.com/aPkHsK5aNj4yngfSwi_6l3I7VtlYGA14m_NziK5AWlh-1t7a8v47q39r6tKFT3_qiGkyE8pyRzfgkskTDA05XBtu1l0ql2KYuvhClcPD6G7qPjp61vU=w528-h297-n-nu-rw
+title: "The next chapter of our Gemini era"
+description: "We're bringing Gemini to more Google products"
+summary: "We're bringing Gemini to more Google products"
+pubDate: "Thu, 08 Feb 2024 13:00:00 +0000"
+source: "DeepMind Blog"
+url: "https://deepmind.google/discover/blog/google-gemini-update-sundar-pichai-2024/"
+thumbnail: "https://lh3.googleusercontent.com/aPkHsK5aNj4yngfSwi_6l3I7VtlYGA14m_NziK5AWlh-1t7a8v47q39r6tKFT3_qiGkyE8pyRzfgkskTDA05XBtu1l0ql2KYuvhClcPD6G7qPjp61vU=w528-h297-n-nu-rw"
 ---
 
 The next chapter of our Gemini era

@@ -1,14 +1,11 @@
 ---
-title: '4M Models Scanned: Protect AI + Hugging Face 6 Months In'
-description: ''
-summary: ''
-pubDate: Mon, 14 Apr 2025 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/pai-6-month
+title: "4M Models Scanned: Protect AI + Hugging Face 6 Months In"
+description: ""
+summary: ""
+pubDate: "Mon, 14 Apr 2025 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/pai-6-month"
+thumbnail: ""
 ---
 
 4M Models Scanned: Protect AI + Hugging Face 6 Months In

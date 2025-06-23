@@ -1,10 +1,10 @@
 ---
-title: Delivering high-performance customer support
+title: "Delivering high-performance customer support"
 description: "Decagon and OpenAI deliver high-performance, fully automated customer support at scale"
 summary: "Decagon and OpenAI deliver high-performance, fully automated customer support at scale"
-pubDate: Tue, 29 Oct 2024 10:00:00 GMT
-source: OpenAI Blog
-url: https://openai.com/index/decagon
-
+pubDate: "Tue, 29 Oct 2024 10:00:00 GMT"
+source: "OpenAI Blog"
+url: "https://openai.com/index/decagon"
+thumbnail: ""
 ---
 

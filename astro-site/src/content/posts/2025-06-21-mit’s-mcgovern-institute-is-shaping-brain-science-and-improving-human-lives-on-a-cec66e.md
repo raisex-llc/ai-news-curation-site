@@ -1,17 +1,11 @@
 ---
-title: MIT’s McGovern Institute is shaping brain science and improving human lives
-  on a global scale
-description: A quarter century after its founding, the McGovern Institute reflects
-  on its discoveries in the areas of neuroscience, neurotechnology, artificial intelligence,
-  brain-body connections, and therapeutics.
-summary: A quarter century after its founding, the McGovern Institute reflects on
-  its discoveries in the areas of neuroscience, n
-pubDate: Fri, 18 Apr 2025 10:40:00 -0400
-source: MIT
-tags:
-- mit
-- ai
-url: https://news.mit.edu/2025/mit-mcgovern-institute-shaping-brain-science-improving-human-lives-0418
+title: "MIT’s McGovern Institute is shaping brain science and improving human lives on a global scale"
+description: "A quarter century after its founding, the McGovern Institute reflects on its discoveries in the areas of neuroscience, neurotechnology, artificial intelligence, brain-body connections, and therapeutics."
+summary: "A quarter century after its founding, the McGovern Institute reflects on its discoveries in the areas of neuroscience, n"
+pubDate: "Fri, 18 Apr 2025 10:40:00 -0400"
+source: "MIT"
+url: "https://news.mit.edu/2025/mit-mcgovern-institute-shaping-brain-science-improving-human-lives-0418"
+thumbnail: ""
 ---
 
 In 2000, Patrick J. McGovern ’59 and Lore Harp McGovern made an extraordinary gift to establish the McGovern Institute for Brain Research at MIT, driven by their deep curiosity about the human mind and their belief in the power of science to change lives. Their $350 million pledge began with a simple yet audacious vision: to understand the human brain in all its complexity, and to leverage that understanding for the betterment of humanity.

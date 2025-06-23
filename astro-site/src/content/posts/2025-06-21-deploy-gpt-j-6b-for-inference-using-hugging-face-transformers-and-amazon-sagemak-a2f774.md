@@ -1,14 +1,11 @@
 ---
-title: Deploy GPT-J 6B for inference using Hugging Face Transformers and Amazon SageMaker
-description: ''
-summary: ''
-pubDate: Tue, 11 Jan 2022 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/gptj-sagemaker
+title: "Deploy GPT-J 6B for inference using Hugging Face Transformers and Amazon SageMaker"
+description: ""
+summary: ""
+pubDate: "Tue, 11 Jan 2022 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/gptj-sagemaker"
+thumbnail: ""
 ---
 
 Deploy GPT-J 6B for inference using Hugging Face Transformers and Amazon SageMaker

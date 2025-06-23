@@ -1,14 +1,11 @@
 ---
-title: Fine-Tune W2V2-Bert for low-resource ASR with 🤗 Transformers
-description: ''
-summary: ''
-pubDate: Fri, 19 Jan 2024 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/fine-tune-w2v2-bert
+title: "Fine-Tune W2V2-Bert for low-resource ASR with 🤗 Transformers"
+description: ""
+summary: ""
+pubDate: "Fri, 19 Jan 2024 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/fine-tune-w2v2-bert"
+thumbnail: ""
 ---
 
 Fine-Tune W2V2-Bert for low-resource ASR with 🤗 Transformers

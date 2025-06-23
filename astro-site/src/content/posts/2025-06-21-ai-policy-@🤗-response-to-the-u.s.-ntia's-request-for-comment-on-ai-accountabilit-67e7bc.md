@@ -1,14 +1,11 @@
 ---
-title: 'AI Policy @🤗: Response to the U.S. NTIA''s Request for Comment on AI Accountability'
-description: ''
-summary: ''
-pubDate: Tue, 20 Jun 2023 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/policy-ntia-rfc
+title: "AI Policy @🤗: Response to the U.S. NTIA's Request for Comment on AI Accountability"
+description: ""
+summary: ""
+pubDate: "Tue, 20 Jun 2023 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/policy-ntia-rfc"
+thumbnail: ""
 ---
 
 AI Policy @🤗: Response to the U.S. National Telecommunications and Information Administration’s (NTIA) Request for Comment on AI Accountability

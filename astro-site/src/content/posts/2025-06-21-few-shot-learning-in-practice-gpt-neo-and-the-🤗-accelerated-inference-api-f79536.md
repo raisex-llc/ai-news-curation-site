@@ -1,14 +1,11 @@
 ---
-title: 'Few-shot learning in practice: GPT-NEO and the 🤗 Accelerated Inference API'
-description: ''
-summary: ''
-pubDate: Thu, 03 Jun 2021 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/few-shot-learning-gpt-neo-and-inference-api
+title: "Few-shot learning in practice: GPT-NEO and the 🤗 Accelerated Inference API"
+description: ""
+summary: ""
+pubDate: "Thu, 03 Jun 2021 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/few-shot-learning-gpt-neo-and-inference-api"
+thumbnail: ""
 ---
 
 Few-shot learning in practice: GPT-Neo and the 🤗 Accelerated Inference API

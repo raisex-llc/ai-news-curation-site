@@ -1,14 +1,11 @@
 ---
-title: Llama 2 on Amazon SageMaker a Benchmark
-description: ''
-summary: ''
-pubDate: Tue, 26 Sep 2023 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/llama-sagemaker-benchmark
+title: "Llama 2 on Amazon SageMaker a Benchmark"
+description: ""
+summary: ""
+pubDate: "Tue, 26 Sep 2023 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/llama-sagemaker-benchmark"
+thumbnail: ""
 ---
 
 Llama 2 on Amazon SageMaker a Benchmark

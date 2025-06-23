@@ -1,10 +1,10 @@
 ---
-title: Function calling and other API updates
+title: "Function calling and other API updates"
 description: "We’re announcing updates including more steerable API models, function calling capabilities, longer context, and lower prices."
 summary: "We’re announcing updates including more steerable API models, function calling capabilities, longer context, and lower prices."
-pubDate: Tue, 13 Jun 2023 07:00:00 GMT
-source: OpenAI Blog
-url: https://openai.com/index/function-calling-and-other-api-updates
-
+pubDate: "Tue, 13 Jun 2023 07:00:00 GMT"
+source: "OpenAI Blog"
+url: "https://openai.com/index/function-calling-and-other-api-updates"
+thumbnail: ""
 ---
 

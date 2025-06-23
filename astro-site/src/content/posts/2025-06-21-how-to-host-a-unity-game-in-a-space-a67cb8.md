@@ -1,14 +1,11 @@
 ---
-title: How to host a Unity game in a Space
-description: ''
-summary: ''
-pubDate: Fri, 21 Apr 2023 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/unity-in-spaces
+title: "How to host a Unity game in a Space"
+description: ""
+summary: ""
+pubDate: "Fri, 21 Apr 2023 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/unity-in-spaces"
+thumbnail: ""
 ---
 
 How to host a Unity game in a Space

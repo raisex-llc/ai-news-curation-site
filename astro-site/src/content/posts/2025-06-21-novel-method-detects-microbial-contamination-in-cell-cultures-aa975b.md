@@ -1,15 +1,11 @@
 ---
-title: Novel method detects microbial contamination in cell cultures
-description: Ultraviolet light “fingerprints” on cell cultures and machine learning
-  can provide a definitive yes/no contamination assessment within 30 minutes.
-summary: Ultraviolet light “fingerprints” on cell cultures and machine learning can
-  provide a definitive yes/no contamination ass
-pubDate: Fri, 25 Apr 2025 22:00:00 -0400
-source: MIT
-tags:
-- mit
-- ai
-url: https://news.mit.edu/2025/novel-method-detects-microbial-contamination-smart-0425
+title: "Novel method detects microbial contamination in cell cultures"
+description: "Ultraviolet light “fingerprints” on cell cultures and machine learning can provide a definitive yes/no contamination assessment within 30 minutes."
+summary: "Ultraviolet light “fingerprints” on cell cultures and machine learning can provide a definitive yes/no contamination ass"
+pubDate: "Fri, 25 Apr 2025 22:00:00 -0400"
+source: "MIT"
+url: "https://news.mit.edu/2025/novel-method-detects-microbial-contamination-smart-0425"
+thumbnail: ""
 ---
 
 Researchers from the Critical Analytics for Manufacturing Personalized-Medicine (CAMP) interdisciplinary research group of the Singapore-MIT Alliance for Research and Technology (SMART), MIT’s research enterprise in Singapore, in collaboration with MIT, A*STAR Skin Research Labs, and the National University of Singapore, have developed a novel method that can quickly and automatically detect and monitor microbial contamination in cell therapy products (CTPs) early on during the manufacturing process. By measuring ultraviolet light absorbance of cell culture fluids and using machine learning to recognize light absorption patterns associated with microbial contamination, this preliminary testing method aims to reduce the overall time taken for sterility testing and, subsequently, the time patients need to wait for CTP doses. This is especially crucial where timely administration of treatments can be life-saving for terminally ill patients.

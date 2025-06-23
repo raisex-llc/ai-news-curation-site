@@ -1,14 +1,11 @@
 ---
-title: Welcome to Inference Providers on the Hub 🔥
-description: ''
-summary: ''
-pubDate: Tue, 28 Jan 2025 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/inference-providers
+title: "Welcome to Inference Providers on the Hub 🔥"
+description: ""
+summary: ""
+pubDate: "Tue, 28 Jan 2025 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/inference-providers"
+thumbnail: ""
 ---
 
 Welcome to Inference Providers on the Hub 🔥

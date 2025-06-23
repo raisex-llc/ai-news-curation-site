@@ -1,14 +1,11 @@
 ---
-title: Announcing our new Content Guidelines and Policy
-description: ''
-summary: ''
-pubDate: Thu, 15 Jun 2023 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/content-guidelines-update
+title: "Announcing our new Content Guidelines and Policy"
+description: ""
+summary: ""
+pubDate: "Thu, 15 Jun 2023 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/content-guidelines-update"
+thumbnail: ""
 ---
 
 Announcing our new Community Policy

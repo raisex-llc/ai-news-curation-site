@@ -1,14 +1,11 @@
 ---
-title: Optimizing your LLM in production
-description: ''
-summary: ''
-pubDate: Fri, 15 Sep 2023 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/optimize-llm
+title: "Optimizing your LLM in production"
+description: ""
+summary: ""
+pubDate: "Fri, 15 Sep 2023 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/optimize-llm"
+thumbnail: ""
 ---
 
 Optimizing your LLM in production

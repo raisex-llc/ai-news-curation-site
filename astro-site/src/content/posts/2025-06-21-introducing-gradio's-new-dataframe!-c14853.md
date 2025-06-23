@@ -1,14 +1,11 @@
 ---
-title: Introducing Gradio's new Dataframe!
-description: ''
-summary: ''
-pubDate: Mon, 24 Mar 2025 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/gradio-dataframe-upgrade
+title: "Introducing Gradio's new Dataframe!"
+description: ""
+summary: ""
+pubDate: "Mon, 24 Mar 2025 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/gradio-dataframe-upgrade"
+thumbnail: ""
 ---
 
 Introducing Gradio's new Dataframe!

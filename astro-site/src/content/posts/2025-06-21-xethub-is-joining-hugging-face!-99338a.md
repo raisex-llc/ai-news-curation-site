@@ -1,14 +1,11 @@
 ---
-title: XetHub is joining Hugging Face!
-description: ''
-summary: ''
-pubDate: Thu, 08 Aug 2024 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/xethub-joins-hf
+title: "XetHub is joining Hugging Face!"
+description: ""
+summary: ""
+pubDate: "Thu, 08 Aug 2024 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/xethub-joins-hf"
+thumbnail: ""
 ---
 
 XetHub is joining Hugging Face!

@@ -1,14 +1,11 @@
 ---
-title: YouTubeショートに動画生成AI「Veo 3」統合へ　今夏
-description: 米YouTubeが、YouTube Shortsに米Googleの動画生成AI「Veo 3」を統合すると発表した。
-summary: 米YouTubeが、YouTube Shortsに米Googleの動画生成AI「Veo 3」を統合すると発表した。
-pubDate: Thu, 19 Jun 2025 13:53:00 +0900
-source: ITmedia AI
-tags:
-- japan
-- itmedia
-- ai
-url: https://www.itmedia.co.jp/news/articles/2506/19/news085.html
+title: "YouTubeショートに動画生成AI「Veo 3」統合へ　今夏"
+description: "米YouTubeが、YouTube Shortsに米Googleの動画生成AI「Veo 3」を統合すると発表した。"
+summary: "米YouTubeが、YouTube Shortsに米Googleの動画生成AI「Veo 3」を統合すると発表した。"
+pubDate: "Thu, 19 Jun 2025 13:53:00 +0900"
+source: "ITmedia AI"
+url: "https://www.itmedia.co.jp/news/articles/2506/19/news085.html"
+thumbnail: ""
 ---
 
 米YouTubeは6月18日（現地時間）、今夏の後半をめどに、YouTube Shortsに米Googleの動画生成AI「Veo 3」を統合すると発表した。

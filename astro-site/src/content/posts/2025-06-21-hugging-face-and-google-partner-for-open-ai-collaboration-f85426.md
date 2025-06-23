@@ -1,14 +1,11 @@
 ---
-title: Hugging Face and Google partner for open AI collaboration
-description: ''
-summary: ''
-pubDate: Thu, 25 Jan 2024 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/gcp-partnership
+title: "Hugging Face and Google partner for open AI collaboration"
+description: ""
+summary: ""
+pubDate: "Thu, 25 Jan 2024 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/gcp-partnership"
+thumbnail: ""
 ---
 
 Hugging Face and Google partner for open AI collaboration

@@ -1,15 +1,11 @@
 ---
-title: Making LLMs even more accessible with bitsandbytes, 4-bit quantization and
-  QLoRA
-description: ''
-summary: ''
-pubDate: Wed, 24 May 2023 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/4bit-transformers-bitsandbytes
+title: "Making LLMs even more accessible with bitsandbytes, 4-bit quantization and QLoRA"
+description: ""
+summary: ""
+pubDate: "Wed, 24 May 2023 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/4bit-transformers-bitsandbytes"
+thumbnail: ""
 ---
 
 Making LLMs even more accessible with bitsandbytes, 4-bit quantization and QLoRA

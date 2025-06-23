@@ -1,13 +1,11 @@
 ---
-title: Novel AI model inspired by neural dynamics from the brain
-description: New type of “state-space model” leverages principles of harmonic oscillators.
-summary: New type of “state-space model” leverages principles of harmonic oscillators.
-pubDate: Fri, 02 May 2025 15:30:00 -0400
-source: MIT
-tags:
-- mit
-- ai
-url: https://news.mit.edu/2025/novel-ai-model-inspired-neural-dynamics-from-brain-0502
+title: "Novel AI model inspired by neural dynamics from the brain"
+description: "New type of “state-space model” leverages principles of harmonic oscillators."
+summary: "New type of “state-space model” leverages principles of harmonic oscillators."
+pubDate: "Fri, 02 May 2025 15:30:00 -0400"
+source: "MIT"
+url: "https://news.mit.edu/2025/novel-ai-model-inspired-neural-dynamics-from-brain-0502"
+thumbnail: ""
 ---
 
 Researchers from MIT’s Computer Science and Artificial Intelligence Laboratory (CSAIL) have developed a novel artificial intelligence model inspired by neural oscillations in the brain, with the goal of significantly advancing how machine learning algorithms handle long sequences of data.

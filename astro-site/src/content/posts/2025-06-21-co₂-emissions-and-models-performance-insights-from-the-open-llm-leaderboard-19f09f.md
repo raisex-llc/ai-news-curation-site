@@ -1,14 +1,11 @@
 ---
-title: 'CO₂ Emissions and Models Performance: Insights from the Open LLM Leaderboard'
-description: ''
-summary: ''
-pubDate: Thu, 09 Jan 2025 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/leaderboard-emissions-analysis
+title: "CO₂ Emissions and Models Performance: Insights from the Open LLM Leaderboard"
+description: ""
+summary: ""
+pubDate: "Thu, 09 Jan 2025 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/leaderboard-emissions-analysis"
+thumbnail: ""
 ---
 
 CO₂ Emissions and Models Performance: Insights from the Open LLM Leaderboard

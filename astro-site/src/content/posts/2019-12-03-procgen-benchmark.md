@@ -1,10 +1,10 @@
 ---
-title: Procgen Benchmark
+title: "Procgen Benchmark"
 description: "We’re releasing Procgen Benchmark, 16 simple-to-use procedurally-generated environments which provide a direct measure of how quickly a reinforcement learning agent learns generalizable skills."
 summary: "We’re releasing Procgen Benchmark, 16 simple-to-use procedurally-generated environments which provide a direct measure of how quickly a reinforcement learning agent learns generalizable skills."
-pubDate: Tue, 03 Dec 2019 08:00:00 GMT
-source: OpenAI Blog
-url: https://openai.com/index/procgen-benchmark
-
+pubDate: "Tue, 03 Dec 2019 08:00:00 GMT"
+source: "OpenAI Blog"
+url: "https://openai.com/index/procgen-benchmark"
+thumbnail: ""
 ---
 

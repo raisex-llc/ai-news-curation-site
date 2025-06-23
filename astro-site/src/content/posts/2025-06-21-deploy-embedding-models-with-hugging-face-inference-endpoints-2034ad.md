@@ -1,14 +1,11 @@
 ---
-title: Deploy Embedding Models with Hugging Face Inference Endpoints
-description: ''
-summary: ''
-pubDate: Tue, 24 Oct 2023 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/inference-endpoints-embeddings
+title: "Deploy Embedding Models with Hugging Face Inference Endpoints"
+description: ""
+summary: ""
+pubDate: "Tue, 24 Oct 2023 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/inference-endpoints-embeddings"
+thumbnail: ""
 ---
 
 Deploy Embedding Models with Hugging Face Inference Endpoints

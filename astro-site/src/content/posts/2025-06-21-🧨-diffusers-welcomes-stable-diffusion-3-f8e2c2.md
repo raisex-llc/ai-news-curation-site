@@ -1,14 +1,11 @@
 ---
-title: 🧨 Diffusers welcomes Stable Diffusion 3
-description: ''
-summary: ''
-pubDate: Wed, 12 Jun 2024 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/sd3
+title: "🧨 Diffusers welcomes Stable Diffusion 3"
+description: ""
+summary: ""
+pubDate: "Wed, 12 Jun 2024 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/sd3"
+thumbnail: ""
 ---
 
 🧨 Diffusers welcomes Stable Diffusion 3

@@ -1,14 +1,11 @@
 ---
-title: Deprecation of Git Authentication using password
-description: ''
-summary: ''
-pubDate: Fri, 25 Aug 2023 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/password-git-deprecation
+title: "Deprecation of Git Authentication using password"
+description: ""
+summary: ""
+pubDate: "Fri, 25 Aug 2023 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/password-git-deprecation"
+thumbnail: ""
 ---
 
 Hugging Face Hub: Important Git Authentication Changes

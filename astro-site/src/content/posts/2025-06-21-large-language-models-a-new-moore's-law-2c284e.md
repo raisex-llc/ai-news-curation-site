@@ -1,14 +1,11 @@
 ---
-title: 'Large Language Models: A New Moore''s Law?'
-description: ''
-summary: ''
-pubDate: Tue, 26 Oct 2021 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/large-language-models
+title: "Large Language Models: A New Moore's Law?"
+description: ""
+summary: ""
+pubDate: "Tue, 26 Oct 2021 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/large-language-models"
+thumbnail: ""
 ---
 
 Large Language Models: A New Moore's Law?

@@ -1,14 +1,11 @@
 ---
-title: 'AMD + 🤗: Large Language Models Out-of-the-Box Acceleration with AMD GPU'
-description: ''
-summary: ''
-pubDate: Tue, 05 Dec 2023 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/huggingface-and-optimum-amd
+title: "AMD + 🤗: Large Language Models Out-of-the-Box Acceleration with AMD GPU"
+description: ""
+summary: ""
+pubDate: "Tue, 05 Dec 2023 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/huggingface-and-optimum-amd"
+thumbnail: ""
 ---
 
 AMD + 🤗: Large Language Models Out-of-the-Box Acceleration with AMD GPU

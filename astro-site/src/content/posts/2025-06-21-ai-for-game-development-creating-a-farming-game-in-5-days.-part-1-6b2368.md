@@ -1,14 +1,11 @@
 ---
-title: 'AI for Game Development: Creating a Farming Game in 5 Days. Part 1'
-description: ''
-summary: ''
-pubDate: Mon, 02 Jan 2023 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/ml-for-games-1
+title: "AI for Game Development: Creating a Farming Game in 5 Days. Part 1"
+description: ""
+summary: ""
+pubDate: "Mon, 02 Jan 2023 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/ml-for-games-1"
+thumbnail: ""
 ---
 
 AI for Game Development: Creating a Farming Game in 5 Days. Part 1

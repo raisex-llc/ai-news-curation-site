@@ -1,14 +1,11 @@
 ---
-title: Trace & Evaluate your Agent with Arize Phoenix
-description: ''
-summary: ''
-pubDate: Fri, 28 Feb 2025 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/smolagents-phoenix
+title: "Trace & Evaluate your Agent with Arize Phoenix"
+description: ""
+summary: ""
+pubDate: "Fri, 28 Feb 2025 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/smolagents-phoenix"
+thumbnail: ""
 ---
 
 Trace & Evaluate your Agent with Arize Phoenix

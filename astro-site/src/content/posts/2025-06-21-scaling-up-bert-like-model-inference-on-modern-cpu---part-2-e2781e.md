@@ -1,14 +1,11 @@
 ---
-title: Scaling up BERT-like model Inference on modern CPU - Part 2
-description: ''
-summary: ''
-pubDate: Thu, 04 Nov 2021 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/bert-cpu-scaling-part-2
+title: "Scaling up BERT-like model Inference on modern CPU - Part 2"
+description: ""
+summary: ""
+pubDate: "Thu, 04 Nov 2021 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/bert-cpu-scaling-part-2"
+thumbnail: ""
 ---
 
 Scaling up BERT-like model Inference on modern CPU - Part 2

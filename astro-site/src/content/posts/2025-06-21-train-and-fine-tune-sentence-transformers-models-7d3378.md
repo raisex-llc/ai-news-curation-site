@@ -1,14 +1,11 @@
 ---
-title: Train and Fine-Tune Sentence Transformers Models
-description: ''
-summary: ''
-pubDate: Wed, 10 Aug 2022 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/how-to-train-sentence-transformers
+title: "Train and Fine-Tune Sentence Transformers Models"
+description: ""
+summary: ""
+pubDate: "Wed, 10 Aug 2022 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/how-to-train-sentence-transformers"
+thumbnail: ""
 ---
 
 Train and Fine-Tune Sentence Transformers Models

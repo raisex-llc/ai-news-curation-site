@@ -1,14 +1,11 @@
 ---
-title: Introducing the Hugging Face LLM Inference Container for Amazon SageMaker
-description: ''
-summary: ''
-pubDate: Wed, 31 May 2023 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/sagemaker-huggingface-llm
+title: "Introducing the Hugging Face LLM Inference Container for Amazon SageMaker"
+description: ""
+summary: ""
+pubDate: "Wed, 31 May 2023 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/sagemaker-huggingface-llm"
+thumbnail: ""
 ---
 
 Introducing the Hugging Face LLM Inference Container for Amazon SageMaker

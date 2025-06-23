@@ -1,15 +1,11 @@
 ---
-title: Helping machines understand visual content with AI
-description: Coactive, founded by two MIT alumni, has built an AI-powered platform
-  to unlock new insights from content of all types.
-summary: Coactive, founded by two MIT alumni, has built an AI-powered platform to
-  unlock new insights from content of all types.
-pubDate: Mon, 09 Jun 2025 15:45:00 -0400
-source: MIT
-tags:
-- mit
-- ai
-url: https://news.mit.edu/2025/coactive-helps-machines-understand-visual-content-ai-0609
+title: "Helping machines understand visual content with AI"
+description: "Coactive, founded by two MIT alumni, has built an AI-powered platform to unlock new insights from content of all types."
+summary: "Coactive, founded by two MIT alumni, has built an AI-powered platform to unlock new insights from content of all types."
+pubDate: "Mon, 09 Jun 2025 15:45:00 -0400"
+source: "MIT"
+url: "https://news.mit.edu/2025/coactive-helps-machines-understand-visual-content-ai-0609"
+thumbnail: ""
 ---
 
 Data should drive every decision a modern business makes. But most businesses have a massive blind spot: They don’t know what’s happening in their visual data.

@@ -1,14 +1,11 @@
 ---
-title: Retrieval Augmented Generation with Huggingface Transformers and Ray
-description: ''
-summary: ''
-pubDate: Wed, 10 Feb 2021 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/ray-rag
+title: "Retrieval Augmented Generation with Huggingface Transformers and Ray"
+description: ""
+summary: ""
+pubDate: "Wed, 10 Feb 2021 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/ray-rag"
+thumbnail: ""
 ---
 
 Retrieval Augmented Generation with Huggingface Transformers and Ray

@@ -1,14 +1,11 @@
 ---
-title: Introducing HELMET
-description: ''
-summary: ''
-pubDate: Wed, 16 Apr 2025 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/helmet
+title: "Introducing HELMET"
+description: ""
+summary: ""
+pubDate: "Wed, 16 Apr 2025 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/helmet"
+thumbnail: ""
 ---
 
 Introducing HELMET: Holistically Evaluating Long-context Language Models

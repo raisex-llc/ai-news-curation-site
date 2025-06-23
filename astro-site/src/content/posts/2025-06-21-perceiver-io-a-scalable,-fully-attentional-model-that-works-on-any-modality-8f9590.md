@@ -1,14 +1,11 @@
 ---
-title: 'Perceiver IO: a scalable, fully-attentional model that works on any modality'
-description: ''
-summary: ''
-pubDate: Wed, 15 Dec 2021 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/perceiver
+title: "Perceiver IO: a scalable, fully-attentional model that works on any modality"
+description: ""
+summary: ""
+pubDate: "Wed, 15 Dec 2021 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/perceiver"
+thumbnail: ""
 ---
 
 Perceiver IO: a scalable, fully-attentional model that works on any modality

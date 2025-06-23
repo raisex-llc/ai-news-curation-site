@@ -1,14 +1,11 @@
 ---
-title: Welcome PaddlePaddle to the Hugging Face Hub
-description: ''
-summary: ''
-pubDate: Tue, 17 Jan 2023 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/paddlepaddle
+title: "Welcome PaddlePaddle to the Hugging Face Hub"
+description: ""
+summary: ""
+pubDate: "Tue, 17 Jan 2023 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/paddlepaddle"
+thumbnail: ""
 ---
 
 Welcome PaddlePaddle to the Hugging Face Hub

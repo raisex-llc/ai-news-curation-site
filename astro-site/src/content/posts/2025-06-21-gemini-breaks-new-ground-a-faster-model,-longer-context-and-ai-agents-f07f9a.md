@@ -1,18 +1,11 @@
 ---
-title: 'Gemini breaks new ground: a faster model, longer context and AI agents'
-description: We’re introducing a series of updates across the Gemini family of models,
-  including the new 1.5 Flash, our lightweight model for speed and efficiency, and
-  Project Astra, our vision for the future of AI assistants.
-summary: We’re introducing a series of updates across the Gemini family of models,
-  including the new 1.5 Flash, our lightweight m
-pubDate: Tue, 14 May 2024 17:58:00 +0000
-source: DeepMind Blog
-tags:
-- deepmind
-- alpha
-- ai
-url: https://deepmind.google/discover/blog/gemini-breaks-new-ground-a-faster-model-longer-context-and-ai-agents/
-thumbnail: https://lh3.googleusercontent.com/7Ru1lGbuLDZfpp65l87w0Uvv8gJ0mE7CZvKmNfaN7dsixAlXd4_yQ2RNrFnqBqpyljcXqz2s2B8Y44gvu7nkOjTCOM7blRN8-TzIWwTlg3jFT94V=w528-h297-n-nu-rw
+title: "Gemini breaks new ground: a faster model, longer context and AI agents"
+description: "We’re introducing a series of updates across the Gemini family of models, including the new 1.5 Flash, our lightweight model for speed and efficiency, and Project Astra, our vision for the future of AI assistants."
+summary: "We’re introducing a series of updates across the Gemini family of models, including the new 1.5 Flash, our lightweight m"
+pubDate: "Tue, 14 May 2024 17:58:00 +0000"
+source: "DeepMind Blog"
+url: "https://deepmind.google/discover/blog/gemini-breaks-new-ground-a-faster-model-longer-context-and-ai-agents/"
+thumbnail: "https://lh3.googleusercontent.com/7Ru1lGbuLDZfpp65l87w0Uvv8gJ0mE7CZvKmNfaN7dsixAlXd4_yQ2RNrFnqBqpyljcXqz2s2B8Y44gvu7nkOjTCOM7blRN8-TzIWwTlg3jFT94V=w528-h297-n-nu-rw"
 ---
 
 Gemini breaks new ground with a faster model, longer context, AI agents and more

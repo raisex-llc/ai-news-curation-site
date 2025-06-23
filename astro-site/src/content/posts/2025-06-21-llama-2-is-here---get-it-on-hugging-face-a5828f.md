@@ -1,14 +1,11 @@
 ---
-title: Llama 2 is here - get it on Hugging Face
-description: ''
-summary: ''
-pubDate: Tue, 18 Jul 2023 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/llama2
+title: "Llama 2 is here - get it on Hugging Face"
+description: ""
+summary: ""
+pubDate: "Tue, 18 Jul 2023 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/llama2"
+thumbnail: ""
 ---
 
 Llama 2 is here - get it on Hugging Face

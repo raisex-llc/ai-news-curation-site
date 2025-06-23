@@ -1,18 +1,11 @@
 ---
-title: Generate videos in Gemini and Whisk with Veo 2
-description: Transform text-based prompts into high-resolution eight-second videos
-  in Gemini Advanced and use Whisk Animate to turn images into eight-second animated
-  clips.
-summary: Transform text-based prompts into high-resolution eight-second videos in
-  Gemini Advanced and use Whisk Animate to turn i
-pubDate: Tue, 15 Apr 2025 17:00:00 +0000
-source: DeepMind Blog
-tags:
-- deepmind
-- alpha
-- ai
-url: https://deepmind.google/discover/blog/generate-videos-in-gemini-and-whisk-with-veo-2/
-thumbnail: https://lh3.googleusercontent.com/kKc-lZheuv6Uf2ime6MiysAb6tyEP0dU-w0l0x5T_aFP3P7kyKOli2n-UlncPcDBripaYBiLUGZE8eHvPep0BkoI085RqoPXajYQKE25lguhrgq2Cw=w528-h297-n-nu-rw
+title: "Generate videos in Gemini and Whisk with Veo 2"
+description: "Transform text-based prompts into high-resolution eight-second videos in Gemini Advanced and use Whisk Animate to turn images into eight-second animated clips."
+summary: "Transform text-based prompts into high-resolution eight-second videos in Gemini Advanced and use Whisk Animate to turn i"
+pubDate: "Tue, 15 Apr 2025 17:00:00 +0000"
+source: "DeepMind Blog"
+url: "https://deepmind.google/discover/blog/generate-videos-in-gemini-and-whisk-with-veo-2/"
+thumbnail: "https://lh3.googleusercontent.com/kKc-lZheuv6Uf2ime6MiysAb6tyEP0dU-w0l0x5T_aFP3P7kyKOli2n-UlncPcDBripaYBiLUGZE8eHvPep0BkoI085RqoPXajYQKE25lguhrgq2Cw=w528-h297-n-nu-rw"
 ---
 
 Generate videos in Gemini and Whisk with Veo 2

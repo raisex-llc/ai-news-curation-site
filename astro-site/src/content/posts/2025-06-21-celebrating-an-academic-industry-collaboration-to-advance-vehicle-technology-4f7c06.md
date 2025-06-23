@@ -1,16 +1,11 @@
 ---
-title: Celebrating an academic-industry collaboration to advance vehicle technology
-description: MIT Advanced Vehicle Technology Consortium marks a decade of developing
-  data that improve understanding of how drivers use and respond to increasingly sophisticated
-  automotive features.
-summary: MIT Advanced Vehicle Technology Consortium marks a decade of developing data
-  that improve understanding of how drivers u
-pubDate: Mon, 16 Jun 2025 14:45:00 -0400
-source: MIT
-tags:
-- mit
-- ai
-url: https://news.mit.edu/2025/celebrating-academic-industry-collaboration-advance-vehicle-technology-0616
+title: "Celebrating an academic-industry collaboration to advance vehicle technology"
+description: "MIT Advanced Vehicle Technology Consortium marks a decade of developing data that improve understanding of how drivers use and respond to increasingly sophisticated automotive features."
+summary: "MIT Advanced Vehicle Technology Consortium marks a decade of developing data that improve understanding of how drivers u"
+pubDate: "Mon, 16 Jun 2025 14:45:00 -0400"
+source: "MIT"
+url: "https://news.mit.edu/2025/celebrating-academic-industry-collaboration-advance-vehicle-technology-0616"
+thumbnail: ""
 ---
 
 On May 6, MIT AgeLab’s Advanced Vehicle Technology (AVT) Consortium, part of the MIT Center for Transportation and Logistics, celebrated 10 years of its global academic-industry collaboration. AVT was founded with the aim of developing new data that contribute to automotive manufacturers, suppliers, and insurers’ real-world understanding of how drivers use and respond to increasingly sophisticated vehicle technologies, such as assistive and automated driving, while accelerating the applied insight needed to advance design and development. The celebration event brought together stakeholders from across the industry for a set of keynote addresses and panel discussions on critical topics significant to the industry and its future, including artificial intelligence, automotive technology, collision repair, consumer behavior, sustainability, vehicle safety policy, and global competitiveness.

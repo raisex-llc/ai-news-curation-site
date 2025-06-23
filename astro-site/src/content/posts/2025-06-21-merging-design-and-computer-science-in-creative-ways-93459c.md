@@ -1,15 +1,11 @@
 ---
-title: Merging design and computer science in creative ways
-description: MAD Fellow Alexander Htet Kyaw connects humans, machines, and the physical
-  world using AI and augmented reality.
-summary: MAD Fellow Alexander Htet Kyaw connects humans, machines, and the physical
-  world using AI and augmented reality.
-pubDate: Mon, 28 Apr 2025 16:55:00 -0400
-source: MIT
-tags:
-- mit
-- ai
-url: https://news.mit.edu/2025/alexander-htet-kyaw-merging-design-computer-science-in-creative-ways-0428
+title: "Merging design and computer science in creative ways"
+description: "MAD Fellow Alexander Htet Kyaw connects humans, machines, and the physical world using AI and augmented reality."
+summary: "MAD Fellow Alexander Htet Kyaw connects humans, machines, and the physical world using AI and augmented reality."
+pubDate: "Mon, 28 Apr 2025 16:55:00 -0400"
+source: "MIT"
+url: "https://news.mit.edu/2025/alexander-htet-kyaw-merging-design-computer-science-in-creative-ways-0428"
+thumbnail: ""
 ---
 
 The speed with which new technologies hit the market is nothing compared to the speed with which talented researchers find creative ways to use them, train them, even turn them into things we can’t live without. One such researcher is MIT MAD Fellow Alexander Htet Kyaw, a graduate student pursuing dual master’s degrees in architectural studies in computation and in electrical engineering and computer science.

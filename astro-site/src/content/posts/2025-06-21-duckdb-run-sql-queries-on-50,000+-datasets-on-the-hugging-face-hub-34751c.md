@@ -1,14 +1,11 @@
 ---
-title: 'DuckDB: run SQL queries on 50,000+ datasets on the Hugging Face Hub'
-description: ''
-summary: ''
-pubDate: Wed, 07 Jun 2023 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/hub-duckdb
+title: "DuckDB: run SQL queries on 50,000+ datasets on the Hugging Face Hub"
+description: ""
+summary: ""
+pubDate: "Wed, 07 Jun 2023 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/hub-duckdb"
+thumbnail: ""
 ---
 
 DuckDB: run SQL queries on 50,000+ datasets on the Hugging Face Hub

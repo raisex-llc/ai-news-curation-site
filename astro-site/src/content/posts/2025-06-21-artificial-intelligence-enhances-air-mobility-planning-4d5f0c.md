@@ -1,15 +1,11 @@
 ---
-title: Artificial intelligence enhances air mobility planning
-description: Lincoln Laboratory is transitioning tools to the 618th Air Operations
-  Center to streamline global transport logistics.
-summary: Lincoln Laboratory is transitioning tools to the 618th Air Operations Center
-  to streamline global transport logistics.
-pubDate: Fri, 25 Apr 2025 12:00:00 -0400
-source: MIT
-tags:
-- mit
-- ai
-url: https://news.mit.edu/2025/artificial-intelligence-enhances-air-mobility-planning-0425
+title: "Artificial intelligence enhances air mobility planning"
+description: "Lincoln Laboratory is transitioning tools to the 618th Air Operations Center to streamline global transport logistics."
+summary: "Lincoln Laboratory is transitioning tools to the 618th Air Operations Center to streamline global transport logistics."
+pubDate: "Fri, 25 Apr 2025 12:00:00 -0400"
+source: "MIT"
+url: "https://news.mit.edu/2025/artificial-intelligence-enhances-air-mobility-planning-0425"
+thumbnail: ""
 ---
 
 Every day, hundreds of chat messages flow between pilots, crew, and controllers of the Air Mobility Command's 618th Air Operations Center (AOC). These controllers direct a thousand-wide fleet of aircraft, juggling variables to determine which routes to fly, how much time fueling or loading supplies will take, or who can fly those missions. Their mission planning allows the U.S. Air Force to quickly respond to national security needs around the globe.

@@ -1,14 +1,11 @@
 ---
-title: We Raised $100 Million for Open & Collaborative Machine Learning 🚀
-description: ''
-summary: ''
-pubDate: Mon, 09 May 2022 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/series-c
+title: "We Raised $100 Million for Open & Collaborative Machine Learning 🚀"
+description: ""
+summary: ""
+pubDate: "Mon, 09 May 2022 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/series-c"
+thumbnail: ""
 ---
 
 We Raised $100 Million for Open & Collaborative Machine Learning 🚀

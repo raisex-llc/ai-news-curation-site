@@ -1,15 +1,11 @@
 ---
-title: 'Investing in Performance: Fine-tune small models with LLM insights  - a CFM
-  case study'
-description: ''
-summary: ''
-pubDate: Tue, 03 Dec 2024 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/cfm-case-study
+title: "Investing in Performance: Fine-tune small models with LLM insights  - a CFM case study"
+description: ""
+summary: ""
+pubDate: "Tue, 03 Dec 2024 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/cfm-case-study"
+thumbnail: ""
 ---
 
 Investing in Performance: Fine-tune small models with LLM insights - a CFM case study

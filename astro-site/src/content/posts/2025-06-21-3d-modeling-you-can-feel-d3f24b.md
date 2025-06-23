@@ -1,15 +1,11 @@
 ---
-title: 3D modeling you can feel
-description: TactStyle, a system developed by CSAIL researchers, uses image prompts
-  to replicate both the visual appearance and tactile properties of 3D models.
-summary: TactStyle, a system developed by CSAIL researchers, uses image prompts to
-  replicate both the visual appearance and tacti
-pubDate: Tue, 22 Apr 2025 15:00:00 -0400
-source: MIT
-tags:
-- mit
-- ai
-url: https://news.mit.edu/2025/3d-modeling-you-can-feel-0422
+title: "3D modeling you can feel"
+description: "TactStyle, a system developed by CSAIL researchers, uses image prompts to replicate both the visual appearance and tactile properties of 3D models."
+summary: "TactStyle, a system developed by CSAIL researchers, uses image prompts to replicate both the visual appearance and tacti"
+pubDate: "Tue, 22 Apr 2025 15:00:00 -0400"
+source: "MIT"
+url: "https://news.mit.edu/2025/3d-modeling-you-can-feel-0422"
+thumbnail: ""
 ---
 
 Essential for many industries ranging from Hollywood computer-generated imagery to product design, 3D modeling tools often use text or image prompts to dictate different aspects of visual appearance, like color and form. As much as this makes sense as a first point of contact, these systems are still limited in their realism due to their neglect of something central to the human experience: touch.

@@ -1,15 +1,11 @@
 ---
-title: Have a damaged painting? Restore it in just hours with an AI-generated “mask”
-description: A new method can physically restore original paintings using digitally
-  constructed films, which can be removed if desired.
-summary: A new method can physically restore original paintings using digitally constructed
-  films, which can be removed if desire
-pubDate: Wed, 11 Jun 2025 11:00:00 -0400
-source: MIT
-tags:
-- mit
-- ai
-url: https://news.mit.edu/2025/restoring-damaged-paintings-using-ai-generated-mask-0611
+title: "Have a damaged painting? Restore it in just hours with an AI-generated “mask”"
+description: "A new method can physically restore original paintings using digitally constructed films, which can be removed if desired."
+summary: "A new method can physically restore original paintings using digitally constructed films, which can be removed if desire"
+pubDate: "Wed, 11 Jun 2025 11:00:00 -0400"
+source: "MIT"
+url: "https://news.mit.edu/2025/restoring-damaged-paintings-using-ai-generated-mask-0611"
+thumbnail: ""
 ---
 
 Art restoration takes steady hands and a discerning eye. For centuries, conservators have restored paintings by identifying areas needing repair, then mixing an exact shade to fill in one area at a time. Often, a painting can have thousands of tiny regions requiring individual attention. Restoring a single painting can take anywhere from a few weeks to over a decade.

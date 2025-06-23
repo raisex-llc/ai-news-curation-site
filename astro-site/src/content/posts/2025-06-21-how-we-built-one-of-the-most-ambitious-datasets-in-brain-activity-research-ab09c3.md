@@ -1,14 +1,11 @@
 ---
-title: How we built one of the most ambitious datasets in brain activity research
-description: Four small, translucent zebrafish swim against a dark background
-summary: Four small, translucent zebrafish swim against a dark background
-pubDate: Mon, 09 Jun 2025 16:00:00 +0000
-source: Google AI Blog
-tags:
-- google
-- gemini
-- research
-url: https://blog.google/technology/research/zapbench-zebrafish-brain-mapping/
+title: "How we built one of the most ambitious datasets in brain activity research"
+description: "Four small, translucent zebrafish swim against a dark background"
+summary: "Four small, translucent zebrafish swim against a dark background"
+pubDate: "Mon, 09 Jun 2025 16:00:00 +0000"
+source: "Google AI Blog"
+url: "https://blog.google/technology/research/zapbench-zebrafish-brain-mapping/"
+thumbnail: ""
 ---
 
 How we built one of the most ambitious datasets in brain activity research

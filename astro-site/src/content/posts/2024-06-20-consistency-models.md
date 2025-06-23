@@ -1,10 +1,10 @@
 ---
-title: Consistency Models
+title: "Consistency Models"
 description: "Diffusion models have significantly advanced the fields of image, audio, and video generation, but they depend on an iterative sampling process that causes slow generation."
 summary: "Diffusion models have significantly advanced the fields of image, audio, and video generation, but they depend on an iterative sampling process that causes slow generation."
-pubDate: Thu, 20 Jun 2024 00:00:00 GMT
-source: OpenAI Blog
-url: https://openai.com/index/consistency-models
-
+pubDate: "Thu, 20 Jun 2024 00:00:00 GMT"
+source: "OpenAI Blog"
+url: "https://openai.com/index/consistency-models"
+thumbnail: ""
 ---
 

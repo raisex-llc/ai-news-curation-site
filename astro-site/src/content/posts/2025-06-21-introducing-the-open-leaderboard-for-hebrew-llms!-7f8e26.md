@@ -1,14 +1,11 @@
 ---
-title: Introducing the Open Leaderboard for Hebrew LLMs!
-description: ''
-summary: ''
-pubDate: Sun, 05 May 2024 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/leaderboard-hebrew
+title: "Introducing the Open Leaderboard for Hebrew LLMs!"
+description: ""
+summary: ""
+pubDate: "Sun, 05 May 2024 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/leaderboard-hebrew"
+thumbnail: ""
 ---
 
 Introducing the Open Leaderboard for Hebrew LLMs!

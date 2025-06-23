@@ -1,14 +1,11 @@
 ---
-title: 'Deep Dive: Vision Transformers On Hugging Face Optimum Graphcore'
-description: ''
-summary: ''
-pubDate: Thu, 18 Aug 2022 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/vision-transformers
+title: "Deep Dive: Vision Transformers On Hugging Face Optimum Graphcore"
+description: ""
+summary: ""
+pubDate: "Thu, 18 Aug 2022 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/vision-transformers"
+thumbnail: ""
 ---
 
 Deep Dive: Vision Transformers On Hugging Face Optimum Graphcore

@@ -1,14 +1,11 @@
 ---
-title: Simple considerations for simple people building fancy neural networks
-description: ''
-summary: ''
-pubDate: Thu, 25 Feb 2021 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/simple-considerations
+title: "Simple considerations for simple people building fancy neural networks"
+description: ""
+summary: ""
+pubDate: "Thu, 25 Feb 2021 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/simple-considerations"
+thumbnail: ""
 ---
 
 🚧 Simple considerations for simple people building fancy neural networks

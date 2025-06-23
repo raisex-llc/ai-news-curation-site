@@ -1,16 +1,11 @@
 ---
-title: Benchmarking the next generation of never-ending learners
-description: Learning how to build upon knowledge by tapping 30 years of computer
-  vision research
-summary: Learning how to build upon knowledge by tapping 30 years of computer vision
-  research
-pubDate: Tue, 22 Nov 2022 00:00:00 +0000
-source: DeepMind Blog
-tags:
-- deepmind
-- alpha
-- ai
-url: https://deepmind.google/discover/blog/benchmarking-the-next-generation-of-never-ending-learners/
+title: "Benchmarking the next generation of never-ending learners"
+description: "Learning how to build upon knowledge by tapping 30 years of computer vision research"
+summary: "Learning how to build upon knowledge by tapping 30 years of computer vision research"
+pubDate: "Tue, 22 Nov 2022 00:00:00 +0000"
+source: "DeepMind Blog"
+url: "https://deepmind.google/discover/blog/benchmarking-the-next-generation-of-never-ending-learners/"
+thumbnail: ""
 ---
 
 Research

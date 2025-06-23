@@ -1,10 +1,10 @@
 ---
-title: Strengthening America’s AI leadership with the U.S. National Laboratories
+title: "Strengthening America’s AI leadership with the U.S. National Laboratories"
 description: "OpenAI’s latest line of reasoning models will be used by nation’s leading scientists to drive scientific breakthroughs."
 summary: "OpenAI’s latest line of reasoning models will be used by nation’s leading scientists to drive scientific breakthroughs."
-pubDate: Thu, 30 Jan 2025 10:00:00 GMT
-source: OpenAI Blog
-url: https://openai.com/index/strengthening-americas-ai-leadership-with-the-us-national-laboratories
-
+pubDate: "Thu, 30 Jan 2025 10:00:00 GMT"
+source: "OpenAI Blog"
+url: "https://openai.com/index/strengthening-americas-ai-leadership-with-the-us-national-laboratories"
+thumbnail: ""
 ---
 

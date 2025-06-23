@@ -1,14 +1,11 @@
 ---
-title: Speech Synthesis, Recognition, and More With SpeechT5
-description: ''
-summary: ''
-pubDate: Wed, 08 Feb 2023 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/speecht5
+title: "Speech Synthesis, Recognition, and More With SpeechT5"
+description: ""
+summary: ""
+pubDate: "Wed, 08 Feb 2023 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/speecht5"
+thumbnail: ""
 ---
 
 Speech Synthesis, Recognition, and More With SpeechT5

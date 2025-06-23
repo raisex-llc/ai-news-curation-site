@@ -1,14 +1,11 @@
 ---
-title: Welcome Gemma 2 - Google's new open LLM
-description: ''
-summary: ''
-pubDate: Thu, 27 Jun 2024 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/gemma2
+title: "Welcome Gemma 2 - Google's new open LLM"
+description: ""
+summary: ""
+pubDate: "Thu, 27 Jun 2024 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/gemma2"
+thumbnail: ""
 ---
 
 Welcome Gemma 2 - Google’s new open LLM

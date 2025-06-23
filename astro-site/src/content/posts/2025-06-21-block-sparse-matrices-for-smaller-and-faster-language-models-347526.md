@@ -1,14 +1,11 @@
 ---
-title: Block Sparse Matrices for Smaller and Faster Language Models
-description: ''
-summary: ''
-pubDate: Thu, 10 Sep 2020 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/pytorch_block_sparse
+title: "Block Sparse Matrices for Smaller and Faster Language Models"
+description: ""
+summary: ""
+pubDate: "Thu, 10 Sep 2020 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/pytorch_block_sparse"
+thumbnail: ""
 ---
 
 Block Sparse Matrices for Smaller and Faster Language Models

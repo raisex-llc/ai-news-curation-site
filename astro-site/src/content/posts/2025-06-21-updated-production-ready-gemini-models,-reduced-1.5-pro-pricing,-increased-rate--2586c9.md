@@ -1,16 +1,11 @@
 ---
-title: Updated production-ready Gemini models, reduced 1.5 Pro pricing, increased
-  rate limits, and more
-description: We’re releasing two updated production-ready Gemini models
-summary: We’re releasing two updated production-ready Gemini models
-pubDate: Tue, 24 Sep 2024 16:03:03 +0000
-source: DeepMind Blog
-tags:
-- deepmind
-- alpha
-- ai
-url: https://deepmind.google/discover/blog/updated-production-ready-gemini-models-reduced-15-pro-pricing-increased-rate-limits-and-more/
-thumbnail: https://lh3.googleusercontent.com/2R3O1ga5WBNp_QZaOLNoKUGxrazvc2zwruKj7NU40osSXVuCFBTAzTfRetTu8f9X7CxPtY5U0Qkj-yWeGHcK2VbTP71_2QJSSFhl9Hg9op_APbULtw=w528-h297-n-nu-rw
+title: "Updated production-ready Gemini models, reduced 1.5 Pro pricing, increased rate limits, and more"
+description: "We’re releasing two updated production-ready Gemini models"
+summary: "We’re releasing two updated production-ready Gemini models"
+pubDate: "Tue, 24 Sep 2024 16:03:03 +0000"
+source: "DeepMind Blog"
+url: "https://deepmind.google/discover/blog/updated-production-ready-gemini-models-reduced-15-pro-pricing-increased-rate-limits-and-more/"
+thumbnail: "https://lh3.googleusercontent.com/2R3O1ga5WBNp_QZaOLNoKUGxrazvc2zwruKj7NU40osSXVuCFBTAzTfRetTu8f9X7CxPtY5U0Qkj-yWeGHcK2VbTP71_2QJSSFhl9Hg9op_APbULtw=w528-h297-n-nu-rw"
 ---
 
 Today, we’re releasing two updated production-ready Gemini models: Gemini-1.5-Pro-002 and Gemini-1.5-Flash-002 along with:

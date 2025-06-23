@@ -1,14 +1,11 @@
 ---
-title: Introducing Snowball Fight ☃️, our First ML-Agents Environment
-description: ''
-summary: ''
-pubDate: Thu, 02 Dec 2021 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/snowball-fight
+title: "Introducing Snowball Fight ☃️, our First ML-Agents Environment"
+description: ""
+summary: ""
+pubDate: "Thu, 02 Dec 2021 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/snowball-fight"
+thumbnail: ""
 ---
 
 Introducing Snowball Fight ☃️, our First ML-Agents Environment

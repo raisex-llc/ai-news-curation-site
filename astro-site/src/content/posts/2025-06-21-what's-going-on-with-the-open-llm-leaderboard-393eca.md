@@ -1,14 +1,11 @@
 ---
-title: What's going on with the Open LLM Leaderboard?
-description: ''
-summary: ''
-pubDate: Fri, 23 Jun 2023 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/open-llm-leaderboard-mmlu
+title: "What's going on with the Open LLM Leaderboard?"
+description: ""
+summary: ""
+pubDate: "Fri, 23 Jun 2023 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/open-llm-leaderboard-mmlu"
+thumbnail: ""
 ---
 
 What's going on with the Open LLM Leaderboard?

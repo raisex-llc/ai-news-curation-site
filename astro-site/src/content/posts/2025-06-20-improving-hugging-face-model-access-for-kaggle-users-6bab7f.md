@@ -1,14 +1,11 @@
 ---
-title: Improving Hugging Face Model Access for Kaggle Users
-description: ''
-summary: ''
-pubDate: Wed, 14 May 2025 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/kaggle-integration
+title: "Improving Hugging Face Model Access for Kaggle Users"
+description: ""
+summary: ""
+pubDate: "Wed, 14 May 2025 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/kaggle-integration"
+thumbnail: ""
 ---
 
 Improving Hugging Face Model Access for Kaggle Users

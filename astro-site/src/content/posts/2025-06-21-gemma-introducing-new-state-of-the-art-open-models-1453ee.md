@@ -1,17 +1,11 @@
 ---
-title: 'Gemma: Introducing new state-of-the-art open models'
-description: Gemma is built for responsible AI development from the same research
-  and technology used to create Gemini models.
-summary: Gemma is built for responsible AI development from the same research and
-  technology used to create Gemini models.
-pubDate: Wed, 21 Feb 2024 13:06:00 +0000
-source: DeepMind Blog
-tags:
-- deepmind
-- alpha
-- ai
-url: https://deepmind.google/discover/blog/gemma-introducing-new-state-of-the-art-open-models/
-thumbnail: https://lh3.googleusercontent.com/W9I_aPDHG68VNEKO37BLkv5miU8OjC2xfTyd6x6tlrzVZJckNLoGTX9VmwqtrbchFkrjE6oXyZlqXx28rWek1fqyX5FVuLopScs7_LauKNMVHsT0TQ=w528-h297-n-nu-rw
+title: "Gemma: Introducing new state-of-the-art open models"
+description: "Gemma is built for responsible AI development from the same research and technology used to create Gemini models."
+summary: "Gemma is built for responsible AI development from the same research and technology used to create Gemini models."
+pubDate: "Wed, 21 Feb 2024 13:06:00 +0000"
+source: "DeepMind Blog"
+url: "https://deepmind.google/discover/blog/gemma-introducing-new-state-of-the-art-open-models/"
+thumbnail: "https://lh3.googleusercontent.com/W9I_aPDHG68VNEKO37BLkv5miU8OjC2xfTyd6x6tlrzVZJckNLoGTX9VmwqtrbchFkrjE6oXyZlqXx28rWek1fqyX5FVuLopScs7_LauKNMVHsT0TQ=w528-h297-n-nu-rw"
 ---
 
 Gemma: Introducing new state-of-the-art open models

@@ -1,15 +1,11 @@
 ---
-title: Rationale engineering generates a compact new tool for gene therapy
-description: Researchers redesign a compact RNA-guided enzyme from bacteria, making
-  it an efficient editor of human DNA.
-summary: Researchers redesign a compact RNA-guided enzyme from bacteria, making it
-  an efficient editor of human DNA.
-pubDate: Wed, 28 May 2025 16:15:00 -0400
-source: MIT
-tags:
-- mit
-- ai
-url: https://news.mit.edu/2025/rationale-engineering-generates-compact-new-tool-gene-therapy-0528
+title: "Rationale engineering generates a compact new tool for gene therapy"
+description: "Researchers redesign a compact RNA-guided enzyme from bacteria, making it an efficient editor of human DNA."
+summary: "Researchers redesign a compact RNA-guided enzyme from bacteria, making it an efficient editor of human DNA."
+pubDate: "Wed, 28 May 2025 16:15:00 -0400"
+source: "MIT"
+url: "https://news.mit.edu/2025/rationale-engineering-generates-compact-new-tool-gene-therapy-0528"
+thumbnail: ""
 ---
 
 Scientists at the McGovern Institute for Brain Research at MIT and the Broad Institute of MIT and Harvard have re-engineered a compact RNA-guided enzyme they found in bacteria into an efficient, programmable editor of human DNA.

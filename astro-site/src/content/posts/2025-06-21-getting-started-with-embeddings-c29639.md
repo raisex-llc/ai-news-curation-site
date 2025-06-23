@@ -1,14 +1,11 @@
 ---
-title: Getting Started With Embeddings
-description: ''
-summary: ''
-pubDate: Thu, 23 Jun 2022 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/getting-started-with-embeddings
+title: "Getting Started With Embeddings"
+description: ""
+summary: ""
+pubDate: "Thu, 23 Jun 2022 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/getting-started-with-embeddings"
+thumbnail: ""
 ---
 
 Getting Started With Embeddings

@@ -1,10 +1,10 @@
 ---
-title: Our Transformers Code Agent beats the GAIA benchmark!
+title: "Our Transformers Code Agent beats the GAIA benchmark!"
 description: ""
 summary: ""
-pubDate: Mon, 01 Jul 2024 00:00:00 GMT
-source: Hugging Face Blog
-url: https://huggingface.co/blog/beating-gaia
+pubDate: "Mon, 01 Jul 2024 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/beating-gaia"
 thumbnail: "https://huggingface.co/blog/assets/beating-gaia/thumbnail.jpeg"
 ---
 

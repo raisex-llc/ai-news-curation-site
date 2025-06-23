@@ -1,14 +1,11 @@
 ---
-title: Convert Transformers to ONNX with Hugging Face Optimum
-description: ''
-summary: ''
-pubDate: Wed, 22 Jun 2022 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/convert-transformers-to-onnx
+title: "Convert Transformers to ONNX with Hugging Face Optimum"
+description: ""
+summary: ""
+pubDate: "Wed, 22 Jun 2022 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/convert-transformers-to-onnx"
+thumbnail: ""
 ---
 
 Convert Transformers to ONNX with Hugging Face Optimum

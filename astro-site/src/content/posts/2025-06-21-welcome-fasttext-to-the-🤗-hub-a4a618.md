@@ -1,14 +1,11 @@
 ---
-title: Welcome fastText to the 🤗 Hub
-description: ''
-summary: ''
-pubDate: Tue, 06 Jun 2023 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/fasttext
+title: "Welcome fastText to the 🤗 Hub"
+description: ""
+summary: ""
+pubDate: "Tue, 06 Jun 2023 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/fasttext"
+thumbnail: ""
 ---
 
 Welcome fastText to the Hugging Face Hub

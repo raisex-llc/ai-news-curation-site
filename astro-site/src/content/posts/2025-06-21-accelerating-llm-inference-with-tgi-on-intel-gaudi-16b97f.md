@@ -1,14 +1,11 @@
 ---
-title: Accelerating LLM Inference with TGI on Intel Gaudi
-description: ''
-summary: ''
-pubDate: Fri, 28 Mar 2025 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/intel-gaudi-backend-for-tgi
+title: "Accelerating LLM Inference with TGI on Intel Gaudi"
+description: ""
+summary: ""
+pubDate: "Fri, 28 Mar 2025 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/intel-gaudi-backend-for-tgi"
+thumbnail: ""
 ---
 
 🚀 Accelerating LLM Inference with TGI on Intel Gaudi

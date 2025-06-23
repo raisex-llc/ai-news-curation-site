@@ -1,14 +1,11 @@
 ---
-title: Optimum-NVIDIA - Unlock blazingly fast LLM inference in just 1 line of code
-description: ''
-summary: ''
-pubDate: Tue, 05 Dec 2023 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/optimum-nvidia
+title: "Optimum-NVIDIA - Unlock blazingly fast LLM inference in just 1 line of code"
+description: ""
+summary: ""
+pubDate: "Tue, 05 Dec 2023 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/optimum-nvidia"
+thumbnail: ""
 ---
 
 Optimum-NVIDIA on Hugging Face enables blazingly fast LLM inference in just 1 line of code

@@ -1,16 +1,11 @@
 ---
-title: AI-enabled control system helps autonomous drones stay on target in uncertain
-  environments
-description: The system automatically learns to adapt to unknown disturbances such
-  as gusting winds.
-summary: The system automatically learns to adapt to unknown disturbances such as
-  gusting winds.
-pubDate: Mon, 09 Jun 2025 16:40:00 -0400
-source: MIT
-tags:
-- mit
-- ai
-url: https://news.mit.edu/2025/ai-enabled-control-system-helps-autonomous-drones-uncertain-environments-0609
+title: "AI-enabled control system helps autonomous drones stay on target in uncertain environments"
+description: "The system automatically learns to adapt to unknown disturbances such as gusting winds."
+summary: "The system automatically learns to adapt to unknown disturbances such as gusting winds."
+pubDate: "Mon, 09 Jun 2025 16:40:00 -0400"
+source: "MIT"
+url: "https://news.mit.edu/2025/ai-enabled-control-system-helps-autonomous-drones-uncertain-environments-0609"
+thumbnail: ""
 ---
 
 An autonomous drone carrying water to help extinguish a wildfire in the Sierra Nevada might encounter swirling Santa Ana winds that threaten to push it off course. Rapidly adapting to these unknown disturbances inflight presents an enormous challenge for the drone’s flight control system.

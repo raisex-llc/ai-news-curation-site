@@ -1,17 +1,11 @@
 ---
-title: 'Our next-generation model: Gemini 1.5'
-description: The model delivers dramatically enhanced performance, with a breakthrough
-  in long-context understanding across modalities.
-summary: The model delivers dramatically enhanced performance, with a breakthrough
-  in long-context understanding across modalitie
-pubDate: Thu, 15 Feb 2024 15:00:00 +0000
-source: DeepMind Blog
-tags:
-- deepmind
-- alpha
-- ai
-url: https://deepmind.google/discover/blog/our-next-generation-model-gemini-15/
-thumbnail: https://lh3.googleusercontent.com/Se6oq2AMhClyeRiPu-fyaEn8pg8ERbIN2Yqde-p3HrQM0nu2wVBRZ_9lVj1i2K6ADtpqk0JIHiu-UQx0hAFUVZ4lhRFYyT4of_dV40YUCoEb2z-fNQ=w528-h297-n-nu-rw
+title: "Our next-generation model: Gemini 1.5"
+description: "The model delivers dramatically enhanced performance, with a breakthrough in long-context understanding across modalities."
+summary: "The model delivers dramatically enhanced performance, with a breakthrough in long-context understanding across modalitie"
+pubDate: "Thu, 15 Feb 2024 15:00:00 +0000"
+source: "DeepMind Blog"
+url: "https://deepmind.google/discover/blog/our-next-generation-model-gemini-15/"
+thumbnail: "https://lh3.googleusercontent.com/Se6oq2AMhClyeRiPu-fyaEn8pg8ERbIN2Yqde-p3HrQM0nu2wVBRZ_9lVj1i2K6ADtpqk0JIHiu-UQx0hAFUVZ4lhRFYyT4of_dV40YUCoEb2z-fNQ=w528-h297-n-nu-rw"
 ---
 
 Our next-generation model: Gemini 1.5

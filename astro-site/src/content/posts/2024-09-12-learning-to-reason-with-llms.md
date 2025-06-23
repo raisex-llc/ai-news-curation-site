@@ -1,10 +1,10 @@
 ---
-title: Learning to reason with LLMs
+title: "Learning to reason with LLMs"
 description: "We are introducing OpenAI o1, a new large language model trained with reinforcement learning to perform complex reasoning. o1 thinks before it answers—it can produce a long internal chain of thought before responding to the user."
 summary: "We are introducing OpenAI o1, a new large language model trained with reinforcement learning to perform complex reasoning. o1 thinks before it answers—it can produce a long internal chain of thought before responding to the user."
-pubDate: Thu, 12 Sep 2024 10:02:00 GMT
-source: OpenAI Blog
-url: https://openai.com/index/learning-to-reason-with-llms
-
+pubDate: "Thu, 12 Sep 2024 10:02:00 GMT"
+source: "OpenAI Blog"
+url: "https://openai.com/index/learning-to-reason-with-llms"
+thumbnail: ""
 ---
 

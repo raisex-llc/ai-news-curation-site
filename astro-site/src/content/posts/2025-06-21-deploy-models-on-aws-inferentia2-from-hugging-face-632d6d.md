@@ -1,14 +1,11 @@
 ---
-title: Deploy models on AWS Inferentia2 from Hugging Face
-description: ''
-summary: ''
-pubDate: Wed, 22 May 2024 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/inferentia-inference-endpoints
+title: "Deploy models on AWS Inferentia2 from Hugging Face"
+description: ""
+summary: ""
+pubDate: "Wed, 22 May 2024 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/inferentia-inference-endpoints"
+thumbnail: ""
 ---
 
 Deploy models on AWS Inferentia2 from Hugging Face

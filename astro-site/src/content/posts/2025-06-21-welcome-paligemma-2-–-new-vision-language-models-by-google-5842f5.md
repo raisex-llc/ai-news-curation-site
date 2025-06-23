@@ -1,14 +1,11 @@
 ---
-title: Welcome PaliGemma 2 – New vision language models by Google
-description: ''
-summary: ''
-pubDate: Thu, 05 Dec 2024 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/paligemma2
+title: "Welcome PaliGemma 2 – New vision language models by Google"
+description: ""
+summary: ""
+pubDate: "Thu, 05 Dec 2024 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/paligemma2"
+thumbnail: ""
 ---
 
 Welcome PaliGemma 2 – New vision language models by Google

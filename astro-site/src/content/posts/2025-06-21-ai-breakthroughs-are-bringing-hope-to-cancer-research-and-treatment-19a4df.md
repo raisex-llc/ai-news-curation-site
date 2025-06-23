@@ -1,17 +1,11 @@
 ---
-title: AI breakthroughs are bringing hope to cancer research and treatment
-description: A presentation slide displays "Why not?" in multiple languages, representing
-  global communication. Smaller images show Ruth Porat on stage, medical professionals,
-  and 3D virus models, connecting technology with healthcare.
-summary: A presentation slide displays "Why not?" in multiple languages, representing
-  global communication. Smaller images show R
-pubDate: Wed, 04 Jun 2025 18:00:00 +0000
-source: Google AI Blog
-tags:
-- google
-- gemini
-- research
-url: https://blog.google/technology/health/ruth-porat-remarks-asco/
+title: "AI breakthroughs are bringing hope to cancer research and treatment"
+description: "A presentation slide displays 'Why not?' in multiple languages, representing global communication. Smaller images show Ruth Porat on stage, medical professionals, and 3D virus models, connecting technology with healthcare."
+summary: "A presentation slide displays 'Why not?' in multiple languages, representing global communication. Smaller images show R"
+pubDate: "Wed, 04 Jun 2025 18:00:00 +0000"
+source: "Google AI Blog"
+url: "https://blog.google/technology/health/ruth-porat-remarks-asco/"
+thumbnail: ""
 ---
 
 AI breakthroughs are bringing hope to cancer research and treatment

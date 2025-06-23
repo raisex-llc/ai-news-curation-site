@@ -1,15 +1,11 @@
 ---
-title: Advanced audio dialog and generation with Gemini 2.5
-description: Gemini 2.5 has new capabilities in AI-powered audio dialog and generation.
-summary: Gemini 2.5 has new capabilities in AI-powered audio dialog and generation.
-pubDate: Tue, 03 Jun 2025 17:15:47 +0000
-source: DeepMind Blog
-tags:
-- deepmind
-- alpha
-- ai
-url: https://deepmind.google/discover/blog/advanced-audio-dialog-and-generation-with-gemini-25/
-thumbnail: https://lh3.googleusercontent.com/6sGpsoYb7GRGRu_aWHAFl6z6tE2ArllKaSHAkGYQKemKl_oM5wtjJEm1pbA6VlGardymb3nTyA0UIY2gWxASl95FTo0LzyPo3z_aa_I4jTmhZhDmaA=w528-h297-n-nu-rw
+title: "Advanced audio dialog and generation with Gemini 2.5"
+description: "Gemini 2.5 has new capabilities in AI-powered audio dialog and generation."
+summary: "Gemini 2.5 has new capabilities in AI-powered audio dialog and generation."
+pubDate: "Tue, 03 Jun 2025 17:15:47 +0000"
+source: "DeepMind Blog"
+url: "https://deepmind.google/discover/blog/advanced-audio-dialog-and-generation-with-gemini-25/"
+thumbnail: "https://lh3.googleusercontent.com/6sGpsoYb7GRGRu_aWHAFl6z6tE2ArllKaSHAkGYQKemKl_oM5wtjJEm1pbA6VlGardymb3nTyA0UIY2gWxASl95FTo0LzyPo3z_aa_I4jTmhZhDmaA=w528-h297-n-nu-rw"
 ---
 
 Advanced audio dialog and generation with Gemini 2.5

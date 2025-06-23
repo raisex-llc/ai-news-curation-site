@@ -1,16 +1,11 @@
 ---
-title: Teaching AI models the broad strokes to sketch more like humans do
-description: SketchAgent, a drawing system developed by MIT CSAIL researchers, sketches
-  up concepts stroke-by-stroke, teaching language models to visually express concepts
-  on their own and collaborate with humans.
-summary: SketchAgent, a drawing system developed by MIT CSAIL researchers, sketches
-  up concepts stroke-by-stroke, teaching langua
-pubDate: Mon, 02 Jun 2025 14:50:00 -0400
-source: MIT
-tags:
-- mit
-- ai
-url: https://news.mit.edu/2025/teaching-ai-models-to-sketch-more-like-humans-0602
+title: "Teaching AI models the broad strokes to sketch more like humans do"
+description: "SketchAgent, a drawing system developed by MIT CSAIL researchers, sketches up concepts stroke-by-stroke, teaching language models to visually express concepts on their own and collaborate with humans."
+summary: "SketchAgent, a drawing system developed by MIT CSAIL researchers, sketches up concepts stroke-by-stroke, teaching langua"
+pubDate: "Mon, 02 Jun 2025 14:50:00 -0400"
+source: "MIT"
+url: "https://news.mit.edu/2025/teaching-ai-models-to-sketch-more-like-humans-0602"
+thumbnail: ""
 ---
 
 When you’re trying to communicate or understand ideas, words don’t always do the trick. Sometimes the more efficient approach is to do a simple sketch of that concept — for example, diagramming a circuit might help make sense of how the system works.

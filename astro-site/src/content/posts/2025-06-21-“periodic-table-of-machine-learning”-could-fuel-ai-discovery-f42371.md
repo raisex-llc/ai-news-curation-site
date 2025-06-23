@@ -1,15 +1,11 @@
 ---
-title: “Periodic table of machine learning” could fuel AI discovery
-description: Researchers have created a unifying framework that can help scientists
-  combine existing ideas to improve AI models or create new ones.
-summary: Researchers have created a unifying framework that can help scientists combine
-  existing ideas to improve AI models or cr
-pubDate: Wed, 23 Apr 2025 00:00:00 -0400
-source: MIT
-tags:
-- mit
-- ai
-url: https://news.mit.edu/2025/machine-learning-periodic-table-could-fuel-ai-discovery-0423
+title: "“Periodic table of machine learning” could fuel AI discovery"
+description: "Researchers have created a unifying framework that can help scientists combine existing ideas to improve AI models or create new ones."
+summary: "Researchers have created a unifying framework that can help scientists combine existing ideas to improve AI models or cr"
+pubDate: "Wed, 23 Apr 2025 00:00:00 -0400"
+source: "MIT"
+url: "https://news.mit.edu/2025/machine-learning-periodic-table-could-fuel-ai-discovery-0423"
+thumbnail: ""
 ---
 
 MIT researchers have created a periodic table that shows how more than 20 classical machine-learning algorithms are connected. The new framework sheds light on how scientists could fuse strategies from different methods to improve existing AI models or come up with new ones.

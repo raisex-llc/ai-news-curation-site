@@ -1,14 +1,11 @@
 ---
-title: 'LeRobot Community Datasets: The “ImageNet” of Robotics — When and How?'
-description: ''
-summary: ''
-pubDate: Sun, 11 May 2025 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/lerobot-datasets
+title: "LeRobot Community Datasets: The “ImageNet” of Robotics — When and How?"
+description: ""
+summary: ""
+pubDate: "Sun, 11 May 2025 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/lerobot-datasets"
+thumbnail: ""
 ---
 
 LeRobot Community Datasets: The “ImageNet” of Robotics — When and How?

@@ -1,15 +1,11 @@
 ---
-title: Introducing ⚔️ AI vs. AI ⚔️ a deep reinforcement learning multi-agents competition
-  system
-description: ''
-summary: ''
-pubDate: Tue, 07 Feb 2023 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/aivsai
+title: "Introducing ⚔️ AI vs. AI ⚔️ a deep reinforcement learning multi-agents competition system"
+description: ""
+summary: ""
+pubDate: "Tue, 07 Feb 2023 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/aivsai"
+thumbnail: ""
 ---
 
 Introducing ⚔️ AI vs. AI ⚔️ a deep reinforcement learning multi-agents competition system

@@ -1,14 +1,11 @@
 ---
-title: Announcing the 🤗 AI Research Residency Program
-description: ''
-summary: ''
-pubDate: Tue, 22 Mar 2022 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/ai-residency
+title: "Announcing the 🤗 AI Research Residency Program"
+description: ""
+summary: ""
+pubDate: "Tue, 22 Mar 2022 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/ai-residency"
+thumbnail: ""
 ---
 
 Announcing the 🤗 AI Research Residency Program 🎉 🎉 🎉

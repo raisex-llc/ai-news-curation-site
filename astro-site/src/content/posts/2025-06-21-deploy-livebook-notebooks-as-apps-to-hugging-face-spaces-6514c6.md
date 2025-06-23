@@ -1,14 +1,11 @@
 ---
-title: Deploy Livebook notebooks as apps to Hugging Face Spaces
-description: ''
-summary: ''
-pubDate: Thu, 15 Jun 2023 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/livebook-app-deployment
+title: "Deploy Livebook notebooks as apps to Hugging Face Spaces"
+description: ""
+summary: ""
+pubDate: "Thu, 15 Jun 2023 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/livebook-app-deployment"
+thumbnail: ""
 ---
 
 Deploy Livebook notebooks as apps to Hugging Face Spaces

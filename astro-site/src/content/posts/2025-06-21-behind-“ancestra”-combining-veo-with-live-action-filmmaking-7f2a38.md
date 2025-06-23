@@ -1,14 +1,11 @@
 ---
-title: Behind “ANCESTRA:” combining Veo with live-action filmmaking
-description: Image of a baby in the womb with word ANCESTRA at the bottom
-summary: Image of a baby in the womb with word ANCESTRA at the bottom
-pubDate: Fri, 13 Jun 2025 13:00:00 +0000
-source: Google AI Blog
-tags:
-- google
-- gemini
-- research
-url: https://blog.google/technology/google-deepmind/ancestra-behind-the-scenes/
+title: "Behind “ANCESTRA:” combining Veo with live-action filmmaking"
+description: "Image of a baby in the womb with word ANCESTRA at the bottom"
+summary: "Image of a baby in the womb with word ANCESTRA at the bottom"
+pubDate: "Fri, 13 Jun 2025 13:00:00 +0000"
+source: "Google AI Blog"
+url: "https://blog.google/technology/google-deepmind/ancestra-behind-the-scenes/"
+thumbnail: ""
 ---
 
 Behind “ANCESTRA:” combining Veo with live-action filmmaking

@@ -1,14 +1,11 @@
 ---
-title: Hosting your Models and Datasets on Hugging Face Spaces using Streamlit
-description: ''
-summary: ''
-pubDate: Tue, 05 Oct 2021 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/streamlit-spaces
+title: "Hosting your Models and Datasets on Hugging Face Spaces using Streamlit"
+description: ""
+summary: ""
+pubDate: "Tue, 05 Oct 2021 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/streamlit-spaces"
+thumbnail: ""
 ---
 
 Hosting your Models and Datasets on Hugging Face Spaces using Streamlit

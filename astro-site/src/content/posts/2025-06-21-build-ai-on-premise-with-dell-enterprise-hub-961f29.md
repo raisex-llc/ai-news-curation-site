@@ -1,14 +1,11 @@
 ---
-title: Build AI on premise with Dell Enterprise Hub
-description: ''
-summary: ''
-pubDate: Tue, 21 May 2024 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/dell-enterprise-hub
+title: "Build AI on premise with Dell Enterprise Hub"
+description: ""
+summary: ""
+pubDate: "Tue, 21 May 2024 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/dell-enterprise-hub"
+thumbnail: ""
 ---
 
 Build AI on premise with Dell Enterprise Hub

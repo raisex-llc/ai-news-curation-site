@@ -1,15 +1,11 @@
 ---
-title: 'Databricks ❤️ Hugging Face: up to 40% faster training and tuning of Large
-  Language Models'
-description: ''
-summary: ''
-pubDate: Wed, 26 Apr 2023 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/databricks-case-study
+title: "Databricks ❤️ Hugging Face: up to 40% faster training and tuning of Large Language Models"
+description: ""
+summary: ""
+pubDate: "Wed, 26 Apr 2023 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/databricks-case-study"
+thumbnail: ""
 ---
 
 Databricks ❤️ Hugging Face: up to 40% faster training and tuning of Large Language Models

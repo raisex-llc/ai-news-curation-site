@@ -1,14 +1,11 @@
 ---
-title: Results of the Open Source AI Game Jam
-description: ''
-summary: ''
-pubDate: Fri, 21 Jul 2023 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/game-jam-first-edition-results
+title: "Results of the Open Source AI Game Jam"
+description: ""
+summary: ""
+pubDate: "Fri, 21 Jul 2023 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/game-jam-first-edition-results"
+thumbnail: ""
 ---
 
 Results of the Open Source AI Game Jam

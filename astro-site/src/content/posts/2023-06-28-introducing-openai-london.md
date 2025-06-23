@@ -1,10 +1,10 @@
 ---
-title: Introducing OpenAI London
+title: "Introducing OpenAI London"
 description: "We are excited to announce OpenAI’s first international expansion with a new office in London, United Kingdom."
 summary: "We are excited to announce OpenAI’s first international expansion with a new office in London, United Kingdom."
-pubDate: Wed, 28 Jun 2023 07:00:00 GMT
-source: OpenAI Blog
-url: https://openai.com/index/introducing-openai-london
-
+pubDate: "Wed, 28 Jun 2023 07:00:00 GMT"
+source: "OpenAI Blog"
+url: "https://openai.com/index/introducing-openai-london"
+thumbnail: ""
 ---
 

@@ -12,7 +12,7 @@ export const collections = {
       source: z.string(),
       tags: z.array(z.string()).optional(),
       url: z.string().url(),
-      thumbnail: z.string().url().optional(), // ✅ optional対応でビルドエラー回避
+      thumbnail: z.string().optional().or(z.literal("")), // ✅ 空文字も許容
     }),
   }),
 };

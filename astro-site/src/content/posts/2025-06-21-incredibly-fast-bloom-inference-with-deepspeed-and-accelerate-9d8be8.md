@@ -1,14 +1,11 @@
 ---
-title: Incredibly Fast BLOOM Inference with DeepSpeed and Accelerate
-description: ''
-summary: ''
-pubDate: Fri, 16 Sep 2022 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/bloom-inference-pytorch-scripts
+title: "Incredibly Fast BLOOM Inference with DeepSpeed and Accelerate"
+description: ""
+summary: ""
+pubDate: "Fri, 16 Sep 2022 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/bloom-inference-pytorch-scripts"
+thumbnail: ""
 ---
 
 Incredibly Fast BLOOM Inference with DeepSpeed and Accelerate

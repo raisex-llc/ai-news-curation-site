@@ -1,14 +1,11 @@
 ---
-title: 🐯 Liger GRPO meets TRL
-description: ''
-summary: ''
-pubDate: Sun, 25 May 2025 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/liger-grpo
+title: "🐯 Liger GRPO meets TRL"
+description: ""
+summary: ""
+pubDate: "Sun, 25 May 2025 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/liger-grpo"
+thumbnail: ""
 ---
 
 Thank you for your great work.

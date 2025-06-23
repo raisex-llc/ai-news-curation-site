@@ -1,14 +1,11 @@
 ---
-title: We’re expanding our Gemini 2.5 family of models
-description: Blue and black futuristic illustration with Gemini 2.5 logo in the middle
-summary: Blue and black futuristic illustration with Gemini 2.5 logo in the middle
-pubDate: Tue, 17 Jun 2025 16:00:00 +0000
-source: Google AI Blog
-tags:
-- google
-- gemini
-- research
-url: https://blog.google/products/gemini/gemini-2-5-model-family-expands/
+title: "We’re expanding our Gemini 2.5 family of models"
+description: "Blue and black futuristic illustration with Gemini 2.5 logo in the middle"
+summary: "Blue and black futuristic illustration with Gemini 2.5 logo in the middle"
+pubDate: "Tue, 17 Jun 2025 16:00:00 +0000"
+source: "Google AI Blog"
+url: "https://blog.google/products/gemini/gemini-2-5-model-family-expands/"
+thumbnail: ""
 ---
 
 We’re expanding our Gemini 2.5 family of models

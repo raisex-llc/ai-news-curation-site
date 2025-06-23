@@ -1,10 +1,10 @@
 ---
-title: Delivering nuanced insights from customer feedback
+title: "Delivering nuanced insights from customer feedback"
 description: "Using GPT-3 to deliver fast, nuanced insights from customer feedback."
 summary: "Using GPT-3 to deliver fast, nuanced insights from customer feedback."
-pubDate: Wed, 04 Jan 2023 00:00:00 GMT
-source: OpenAI Blog
-url: https://openai.com/index/yabble
-
+pubDate: "Wed, 04 Jan 2023 00:00:00 GMT"
+source: "OpenAI Blog"
+url: "https://openai.com/index/yabble"
+thumbnail: ""
 ---
 

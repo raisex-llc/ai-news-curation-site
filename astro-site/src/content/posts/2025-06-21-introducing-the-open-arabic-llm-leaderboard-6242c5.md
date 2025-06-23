@@ -1,14 +1,11 @@
 ---
-title: Introducing the Open Arabic LLM Leaderboard
-description: ''
-summary: ''
-pubDate: Tue, 14 May 2024 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/leaderboard-arabic
+title: "Introducing the Open Arabic LLM Leaderboard"
+description: ""
+summary: ""
+pubDate: "Tue, 14 May 2024 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/leaderboard-arabic"
+thumbnail: ""
 ---
 
 Introducing the Open Arabic LLM Leaderboard

@@ -1,14 +1,11 @@
 ---
-title: Director of Machine Learning Insights [Series]
-description: ''
-summary: ''
-pubDate: Wed, 27 Apr 2022 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/ml-director-insights
+title: "Director of Machine Learning Insights [Series]"
+description: ""
+summary: ""
+pubDate: "Wed, 27 Apr 2022 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/ml-director-insights"
+thumbnail: ""
 ---
 
 Director of Machine Learning Insights [Part 1]

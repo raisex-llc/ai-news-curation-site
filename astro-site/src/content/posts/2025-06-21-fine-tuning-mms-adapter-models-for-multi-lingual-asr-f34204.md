@@ -1,14 +1,11 @@
 ---
-title: Fine-tuning MMS Adapter Models for Multi-Lingual ASR
-description: ''
-summary: ''
-pubDate: Mon, 19 Jun 2023 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/mms_adapters
+title: "Fine-tuning MMS Adapter Models for Multi-Lingual ASR"
+description: ""
+summary: ""
+pubDate: "Mon, 19 Jun 2023 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/mms_adapters"
+thumbnail: ""
 ---
 
 Fine-tuning MMS Adapter Models for Multi-Lingual ASR

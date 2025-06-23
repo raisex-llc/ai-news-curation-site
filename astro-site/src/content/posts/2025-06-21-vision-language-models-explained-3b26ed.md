@@ -1,14 +1,11 @@
 ---
-title: Vision Language Models Explained
-description: ''
-summary: ''
-pubDate: Thu, 11 Apr 2024 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/vlms
+title: "Vision Language Models Explained"
+description: ""
+summary: ""
+pubDate: "Thu, 11 Apr 2024 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/vlms"
+thumbnail: ""
 ---
 
 Vision Language Models Explained

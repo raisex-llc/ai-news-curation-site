@@ -1,14 +1,11 @@
 ---
-title: Liftoff! How to get started with your first ML project 🚀
-description: ''
-summary: ''
-pubDate: Wed, 29 Jun 2022 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/your-first-ml-project
+title: "Liftoff! How to get started with your first ML project 🚀"
+description: ""
+summary: ""
+pubDate: "Wed, 29 Jun 2022 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/your-first-ml-project"
+thumbnail: ""
 ---
 
 Liftoff! How to get started with your first ML project 🚀

@@ -1,14 +1,11 @@
 ---
-title: 'Introducing Optimum: The Optimization Toolkit for Transformers at Scale'
-description: ''
-summary: ''
-pubDate: Tue, 14 Sep 2021 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/hardware-partners-program
+title: "Introducing Optimum: The Optimization Toolkit for Transformers at Scale"
+description: ""
+summary: ""
+pubDate: "Tue, 14 Sep 2021 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/hardware-partners-program"
+thumbnail: ""
 ---
 
 Introducing 🤗 Optimum: The Optimization Toolkit for Transformers at Scale

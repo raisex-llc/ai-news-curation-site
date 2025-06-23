@@ -1,14 +1,11 @@
 ---
-title: Introduction to Graph Machine Learning
-description: ''
-summary: ''
-pubDate: Tue, 03 Jan 2023 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/intro-graphml
+title: "Introduction to Graph Machine Learning"
+description: ""
+summary: ""
+pubDate: "Tue, 03 Jan 2023 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/intro-graphml"
+thumbnail: ""
 ---
 
 Introduction to Graph Machine Learning

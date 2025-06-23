@@ -1,14 +1,11 @@
 ---
-title: Evaluating Audio Reasoning with Big Bench Audio
-description: ''
-summary: ''
-pubDate: Fri, 20 Dec 2024 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/big-bench-audio-release
+title: "Evaluating Audio Reasoning with Big Bench Audio"
+description: ""
+summary: ""
+pubDate: "Fri, 20 Dec 2024 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/big-bench-audio-release"
+thumbnail: ""
 ---
 
 Evaluating Audio Reasoning with Big Bench Audio

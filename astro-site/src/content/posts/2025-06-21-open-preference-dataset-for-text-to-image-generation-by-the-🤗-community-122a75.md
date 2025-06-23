@@ -1,14 +1,11 @@
 ---
-title: Open Preference Dataset for Text-to-Image Generation by the 🤗 Community
-description: ''
-summary: ''
-pubDate: Mon, 09 Dec 2024 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/image-preferences
+title: "Open Preference Dataset for Text-to-Image Generation by the 🤗 Community"
+description: ""
+summary: ""
+pubDate: "Mon, 09 Dec 2024 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/image-preferences"
+thumbnail: ""
 ---
 
 Open Preference Dataset for Text-to-Image Generation by the 🤗 Community

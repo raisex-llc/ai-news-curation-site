@@ -1,14 +1,11 @@
 ---
-title: Opinion Classification with Kili and HuggingFace AutoTrain
-description: ''
-summary: ''
-pubDate: Thu, 28 Apr 2022 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/opinion-classification-with-kili
+title: "Opinion Classification with Kili and HuggingFace AutoTrain"
+description: ""
+summary: ""
+pubDate: "Thu, 28 Apr 2022 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/opinion-classification-with-kili"
+thumbnail: ""
 ---
 
 Opinion Classification with Kili and HuggingFace AutoTrain

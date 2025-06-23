@@ -1,14 +1,11 @@
 ---
-title: Getting Started with Sentiment Analysis using Python
-description: ''
-summary: ''
-pubDate: Wed, 02 Feb 2022 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/sentiment-analysis-python
+title: "Getting Started with Sentiment Analysis using Python"
+description: ""
+summary: ""
+pubDate: "Wed, 02 Feb 2022 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/sentiment-analysis-python"
+thumbnail: ""
 ---
 
 Getting Started with Sentiment Analysis using Python

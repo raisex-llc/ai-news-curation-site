@@ -1,14 +1,11 @@
 ---
-title: Making thousands of open LLMs bloom in the Vertex AI Model Garden
-description: ''
-summary: ''
-pubDate: Wed, 10 Apr 2024 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/google-cloud-model-garden
+title: "Making thousands of open LLMs bloom in the Vertex AI Model Garden"
+description: ""
+summary: ""
+pubDate: "Wed, 10 Apr 2024 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/google-cloud-model-garden"
+thumbnail: ""
 ---
 
 Making thousands of open LLMs bloom in the Vertex AI Model Garden

@@ -1,15 +1,11 @@
 ---
-title: Making AI models more trustworthy for high-stakes settings
-description: A new method helps convey uncertainty more precisely, which could give
-  researchers and medical clinicians better information to make decisions.
-summary: A new method helps convey uncertainty more precisely, which could give researchers
-  and medical clinicians better informa
-pubDate: Thu, 01 May 2025 00:00:00 -0400
-source: MIT
-tags:
-- mit
-- ai
-url: https://news.mit.edu/2025/making-ai-models-more-trustworthy-high-stakes-settings-0501
+title: "Making AI models more trustworthy for high-stakes settings"
+description: "A new method helps convey uncertainty more precisely, which could give researchers and medical clinicians better information to make decisions."
+summary: "A new method helps convey uncertainty more precisely, which could give researchers and medical clinicians better informa"
+pubDate: "Thu, 01 May 2025 00:00:00 -0400"
+source: "MIT"
+url: "https://news.mit.edu/2025/making-ai-models-more-trustworthy-high-stakes-settings-0501"
+thumbnail: ""
 ---
 
 The ambiguity in medical imaging can present major challenges for clinicians who are trying to identify disease. For instance, in a chest X-ray, pleural effusion, an abnormal buildup of fluid in the lungs, can look very much like pulmonary infiltrates, which are accumulations of pus or blood.

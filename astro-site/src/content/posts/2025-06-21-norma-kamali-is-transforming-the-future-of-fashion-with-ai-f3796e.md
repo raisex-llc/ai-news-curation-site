@@ -1,14 +1,11 @@
 ---
-title: Norma Kamali is transforming the future of fashion with AI
-description: The renowned designer embraces generative AI to preserve and propel her
-  legacy.
-summary: The renowned designer embraces generative AI to preserve and propel her legacy.
-pubDate: Tue, 22 Apr 2025 14:00:00 -0400
-source: MIT
-tags:
-- mit
-- ai
-url: https://news.mit.edu/2025/norma-kamali-transforming-future-fashion-ai-0422
+title: "Norma Kamali is transforming the future of fashion with AI"
+description: "The renowned designer embraces generative AI to preserve and propel her legacy."
+summary: "The renowned designer embraces generative AI to preserve and propel her legacy."
+pubDate: "Tue, 22 Apr 2025 14:00:00 -0400"
+source: "MIT"
+url: "https://news.mit.edu/2025/norma-kamali-transforming-future-fashion-ai-0422"
+thumbnail: ""
 ---
 
 What happens when a fashion legend taps into the transformative power of artificial intelligence? For more than five decades, fashion designer and entrepreneur Norma Kamali has pioneered bold industry shifts, creating iconic silhouettes worn by celebrities including Whitney Houston and Jessica Biel. Now, she is embracing a new frontier — one that merges creativity with algorithms and AI to redefine the future of her industry.

@@ -1,15 +1,11 @@
 ---
-title: 'Q&A: A roadmap for revolutionizing health care through data-driven innovation'
-description: A new book coauthored by MIT’s Dimitris Bertsimas explores how analytics
-  is driving decisions and outcomes in health care.
-summary: A new book coauthored by MIT’s Dimitris Bertsimas explores how analytics
-  is driving decisions and outcomes in health car
-pubDate: Mon, 05 May 2025 16:15:00 -0400
-source: MIT
-tags:
-- mit
-- ai
-url: https://news.mit.edu/2025/qa-roadmap-revolutionizing-health-care-through-data-driven-innovation-0505
+title: "Q&A: A roadmap for revolutionizing health care through data-driven innovation"
+description: "A new book coauthored by MIT’s Dimitris Bertsimas explores how analytics is driving decisions and outcomes in health care."
+summary: "A new book coauthored by MIT’s Dimitris Bertsimas explores how analytics is driving decisions and outcomes in health car"
+pubDate: "Mon, 05 May 2025 16:15:00 -0400"
+source: "MIT"
+url: "https://news.mit.edu/2025/qa-roadmap-revolutionizing-health-care-through-data-driven-innovation-0505"
+thumbnail: ""
 ---
 
 What if data could help predict a patient’s prognosis, streamline hospital operations, or optimize human resources in medicine? A book fresh off the shelves, “The Analytics Edge in Healthcare,” shows that this is already happening, and demonstrates how to scale it.

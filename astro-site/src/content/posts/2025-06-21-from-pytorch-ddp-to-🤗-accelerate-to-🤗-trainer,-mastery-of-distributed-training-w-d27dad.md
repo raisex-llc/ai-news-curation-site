@@ -1,15 +1,11 @@
 ---
-title: From PyTorch DDP to 🤗 Accelerate to 🤗 Trainer, mastery of distributed training
-  with ease
-description: ''
-summary: ''
-pubDate: Fri, 21 Oct 2022 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/pytorch-ddp-accelerate-transformers
+title: "From PyTorch DDP to 🤗 Accelerate to 🤗 Trainer, mastery of distributed training with ease"
+description: ""
+summary: ""
+pubDate: "Fri, 21 Oct 2022 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/pytorch-ddp-accelerate-transformers"
+thumbnail: ""
 ---
 
 From PyTorch DDP to Accelerate to Trainer, mastery of distributed training with ease

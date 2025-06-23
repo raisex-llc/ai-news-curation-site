@@ -1,14 +1,11 @@
 ---
-title: Docmatix - a huge dataset for Document Visual Question Answering
-description: ''
-summary: ''
-pubDate: Thu, 18 Jul 2024 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/docmatix
+title: "Docmatix - a huge dataset for Document Visual Question Answering"
+description: ""
+summary: ""
+pubDate: "Thu, 18 Jul 2024 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/docmatix"
+thumbnail: ""
 ---
 
 Docmatix - A huge dataset for Document Visual Question Answering

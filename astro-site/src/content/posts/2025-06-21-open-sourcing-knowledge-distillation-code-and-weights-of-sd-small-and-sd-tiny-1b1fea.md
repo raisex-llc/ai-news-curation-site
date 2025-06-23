@@ -1,14 +1,11 @@
 ---
-title: Open-sourcing Knowledge Distillation Code and Weights of SD-Small and SD-Tiny
-description: ''
-summary: ''
-pubDate: Tue, 01 Aug 2023 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/sd_distillation
+title: "Open-sourcing Knowledge Distillation Code and Weights of SD-Small and SD-Tiny"
+description: ""
+summary: ""
+pubDate: "Tue, 01 Aug 2023 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/sd_distillation"
+thumbnail: ""
 ---
 
 Open-sourcing Knowledge Distillation Code and Weights of SD-Small and SD-Tiny

@@ -1,14 +1,11 @@
 ---
-title: 'Swift Diffusers: Fast Stable Diffusion for Mac'
-description: ''
-summary: ''
-pubDate: Fri, 24 Feb 2023 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/fast-mac-diffusers
+title: "Swift Diffusers: Fast Stable Diffusion for Mac"
+description: ""
+summary: ""
+pubDate: "Fri, 24 Feb 2023 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/fast-mac-diffusers"
+thumbnail: ""
 ---
 
 Swift 🧨Diffusers: Fast Stable Diffusion for Mac

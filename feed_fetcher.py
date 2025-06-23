@@ -29,13 +29,17 @@ with open(ROOT / "rss_sources.yml", "r", encoding="utf-8") as f:
 
 DATE_FMT_MD = "%Y-%m-%d"
 
-
 def slugify(text: str) -> str:
     text = text.lower()
     text = re.sub(r"[^\w\s-]", "", text)         # 英数字・空白・ハイフン以外を除去
     text = re.sub(r"[\s_]+", "-", text)          # 空白とアンダースコアをハイフン化
     return text.strip("-")
 
+def sanitize(value: str) -> str:
+    """YAML用に文字列を安全化（null回避・クォート対応）"""
+    if value is None:
+        return ""
+    return str(value).strip().replace('"', "'")
 
 def extract_thumbnail(url):
     """OGP画像・Twitterカード・imgタグから画像URL抽出（絶対パス対応 + ログ出力）"""
@@ -67,7 +71,6 @@ def extract_thumbnail(url):
     print(f"[No image found] {url}")
     return ""
 
-
 def write_post(title, description, date, source, url, thumbnail):
     try:
         slug = slugify(title or hashlib.md5(url.encode()).hexdigest())
@@ -76,32 +79,22 @@ def write_post(title, description, date, source, url, thumbnail):
         filename = f"{date_str}-{slug}.md"
         filepath = CONTENT_DIR / filename
 
-        desc = (description or '').strip().replace('"', "'")
+        content = f"""---
+title: "{sanitize(title)}"
+description: "{sanitize(description)}"
+summary: "{sanitize(description)}"
+pubDate: "{sanitize(date)}"
+source: "{sanitize(source)}"
+url: "{sanitize(url)}"
+thumbnail: "{sanitize(thumbnail)}"
+---
 
-        lines = [
-            "---",
-            f'title: {title or "Untitled"}',
-            f'description: "{desc}"',
-            f'summary: "{desc}"',
-            f'pubDate: {date}',
-            f'source: {source}',
-            f'url: {url}',
-        ]
-
-        if thumbnail and thumbnail.startswith("http"):
-            lines.append(f'thumbnail: "{thumbnail}"')
-
-        lines.append("---")
-        lines.append("")  # YAMLと本文の間に1行空行
-
-        content = "\n".join(lines)
-
+"""
         filepath.write_text(content, encoding="utf-8")
         print(f"✅ saved: {filename}")
     except Exception as e:
         print(f"❌ Failed to write post '{title}': {e}")
         raise
-
 
 def main():
     try:
@@ -121,17 +114,16 @@ def main():
                     continue
 
                 print(f"\n🧪 CHECK URL: {link}")
-                extracted = extract_thumbnail(link)
-                print(f"→ EXTRACTED: {extracted}\n")
+                thumb = extract_thumbnail(link)
+                print(f"→ EXTRACTED: {thumb}\n")
 
-                write_post(title, summary, pub, media, link, extracted)
+                write_post(title, summary, pub, media, link, thumb)
 
     except Exception as e:
         print(f"\n❌ Unhandled Error: {e}")
         sys.exit(1)
 
     sys.exit(0)
-
 
 if __name__ == "__main__":
     main()

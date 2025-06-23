@@ -1,14 +1,11 @@
 ---
-title: 'Deep Learning over the Internet: Training Language Models Collaboratively'
-description: ''
-summary: ''
-pubDate: Thu, 15 Jul 2021 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/collaborative-training
+title: "Deep Learning over the Internet: Training Language Models Collaboratively"
+description: ""
+summary: ""
+pubDate: "Thu, 15 Jul 2021 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/collaborative-training"
+thumbnail: ""
 ---
 
 Deep Learning over the Internet: Training Language Models Collaboratively

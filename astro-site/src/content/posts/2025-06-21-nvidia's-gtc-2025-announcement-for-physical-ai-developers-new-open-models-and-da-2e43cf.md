@@ -1,15 +1,11 @@
 ---
-title: 'NVIDIA''s GTC 2025 Announcement for Physical AI Developers: New Open Models
-  and Datasets'
-description: ''
-summary: ''
-pubDate: Tue, 18 Mar 2025 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/nvidia-physical-ai
+title: "NVIDIA's GTC 2025 Announcement for Physical AI Developers: New Open Models and Datasets"
+description: ""
+summary: ""
+pubDate: "Tue, 18 Mar 2025 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/nvidia-physical-ai"
+thumbnail: ""
 ---
 
 NVIDIA's GTC 2025 Announcement for Physical AI Developers: New Open Models and Datasets

@@ -1,15 +1,11 @@
 ---
-title: 'Welcome Gemma 3: Google''s all new multimodal, multilingual, long context
-  open LLM'
-description: ''
-summary: ''
-pubDate: Wed, 12 Mar 2025 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/gemma3
+title: "Welcome Gemma 3: Google's all new multimodal, multilingual, long context open LLM"
+description: ""
+summary: ""
+pubDate: "Wed, 12 Mar 2025 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/gemma3"
+thumbnail: ""
 ---
 
 Welcome Gemma 3: Google's all new multimodal, multilingual, long context open LLM

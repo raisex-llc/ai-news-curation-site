@@ -1,14 +1,11 @@
 ---
-title: Preference Tuning LLMs with Direct Preference Optimization Methods
-description: ''
-summary: ''
-pubDate: Thu, 18 Jan 2024 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/pref-tuning
+title: "Preference Tuning LLMs with Direct Preference Optimization Methods"
+description: ""
+summary: ""
+pubDate: "Thu, 18 Jan 2024 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/pref-tuning"
+thumbnail: ""
 ---
 
 Preference Tuning LLMs with Direct Preference Optimization Methods

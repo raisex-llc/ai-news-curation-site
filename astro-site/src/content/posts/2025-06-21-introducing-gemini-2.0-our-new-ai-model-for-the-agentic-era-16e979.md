@@ -1,17 +1,11 @@
 ---
-title: 'Introducing Gemini 2.0: our new AI model for the agentic era'
-description: Today, we’re announcing Gemini 2.0, our most capable multimodal AI model
-  yet.
-summary: Today, we’re announcing Gemini 2.0, our most capable multimodal AI model
-  yet.
-pubDate: Wed, 11 Dec 2024 15:30:40 +0000
-source: DeepMind Blog
-tags:
-- deepmind
-- alpha
-- ai
-url: https://deepmind.google/discover/blog/introducing-gemini-20-our-new-ai-model-for-the-agentic-era/
-thumbnail: https://lh3.googleusercontent.com/SresVCXLvYPfFosb0TQ7ux4XG0rtds1hAYOzMcayK9eeGv684ZcgcSUN95biWiMTpIHDPzuFiau-Lwsnz8qwkCQtJ-wILDf1XspScVimH6ObeBQKkg=w528-h297-n-nu-rw
+title: "Introducing Gemini 2.0: our new AI model for the agentic era"
+description: "Today, we’re announcing Gemini 2.0, our most capable multimodal AI model yet."
+summary: "Today, we’re announcing Gemini 2.0, our most capable multimodal AI model yet."
+pubDate: "Wed, 11 Dec 2024 15:30:40 +0000"
+source: "DeepMind Blog"
+url: "https://deepmind.google/discover/blog/introducing-gemini-20-our-new-ai-model-for-the-agentic-era/"
+thumbnail: "https://lh3.googleusercontent.com/SresVCXLvYPfFosb0TQ7ux4XG0rtds1hAYOzMcayK9eeGv684ZcgcSUN95biWiMTpIHDPzuFiau-Lwsnz8qwkCQtJ-wILDf1XspScVimH6ObeBQKkg=w528-h297-n-nu-rw"
 ---
 
 Introducing Gemini 2.0: our new AI model for the agentic era

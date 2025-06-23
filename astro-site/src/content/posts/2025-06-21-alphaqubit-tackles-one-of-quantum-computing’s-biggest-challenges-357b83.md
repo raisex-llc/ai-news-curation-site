@@ -1,17 +1,11 @@
 ---
-title: AlphaQubit tackles one of quantum computing’s biggest challenges
-description: Our new AI system accurately identifies errors inside quantum computers,
-  helping to make this new technology more reliable.
-summary: Our new AI system accurately identifies errors inside quantum computers,
-  helping to make this new technology more reliab
-pubDate: Wed, 20 Nov 2024 18:00:00 +0000
-source: DeepMind Blog
-tags:
-- deepmind
-- alpha
-- ai
-url: https://deepmind.google/discover/blog/alphaqubit-tackles-one-of-quantum-computings-biggest-challenges/
-thumbnail: https://lh3.googleusercontent.com/5E3cNGtS0t4rKlZ1BYBXU93xYwONyYQqIpmY-askDQ9jpTPVb-JH20Gk3wxcMdokGY2ygzjj_crFIy-MYFY-VnekgQVzbSs0Y64AwejEChybPTie8A=w528-h297-n-nu-rw
+title: "AlphaQubit tackles one of quantum computing’s biggest challenges"
+description: "Our new AI system accurately identifies errors inside quantum computers, helping to make this new technology more reliable."
+summary: "Our new AI system accurately identifies errors inside quantum computers, helping to make this new technology more reliab"
+pubDate: "Wed, 20 Nov 2024 18:00:00 +0000"
+source: "DeepMind Blog"
+url: "https://deepmind.google/discover/blog/alphaqubit-tackles-one-of-quantum-computings-biggest-challenges/"
+thumbnail: "https://lh3.googleusercontent.com/5E3cNGtS0t4rKlZ1BYBXU93xYwONyYQqIpmY-askDQ9jpTPVb-JH20Gk3wxcMdokGY2ygzjj_crFIy-MYFY-VnekgQVzbSs0Y64AwejEChybPTie8A=w528-h297-n-nu-rw"
 ---
 
 AlphaQubit tackles one of quantum computing’s biggest challenges

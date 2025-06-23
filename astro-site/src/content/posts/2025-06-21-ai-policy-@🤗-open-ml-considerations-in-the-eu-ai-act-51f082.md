@@ -1,14 +1,11 @@
 ---
-title: 'AI Policy @🤗: Open ML Considerations in the EU AI Act'
-description: ''
-summary: ''
-pubDate: Mon, 24 Jul 2023 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/eu-ai-act-oss
+title: "AI Policy @🤗: Open ML Considerations in the EU AI Act"
+description: ""
+summary: ""
+pubDate: "Mon, 24 Jul 2023 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/eu-ai-act-oss"
+thumbnail: ""
 ---
 
 AI Policy @🤗: Open ML Considerations in the EU AI Act

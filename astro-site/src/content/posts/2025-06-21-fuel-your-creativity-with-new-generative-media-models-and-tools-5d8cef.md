@@ -1,16 +1,11 @@
 ---
-title: Fuel your creativity with new generative media models and tools
-description: Introducing Veo 3 and Imagen 4, and a new tool for filmmaking called
-  Flow.
-summary: Introducing Veo 3 and Imagen 4, and a new tool for filmmaking called Flow.
-pubDate: Tue, 20 May 2025 09:45:00 +0000
-source: DeepMind Blog
-tags:
-- deepmind
-- alpha
-- ai
-url: https://deepmind.google/discover/blog/fuel-your-creativity-with-new-generative-media-models-and-tools/
-thumbnail: https://lh3.googleusercontent.com/FZxhqmiKx-wasF3B7e0_yZVD8PQX7Pa_zuGXlPSNSub-UDkPNr4i1Uk-lR2BzMg_FGkO3Jb_vbkBnOnfE3w7Fo1ErtFqM1bGEB6xoAjQCnnCvXb3Qw=w528-h297-n-nu-rw
+title: "Fuel your creativity with new generative media models and tools"
+description: "Introducing Veo 3 and Imagen 4, and a new tool for filmmaking called Flow."
+summary: "Introducing Veo 3 and Imagen 4, and a new tool for filmmaking called Flow."
+pubDate: "Tue, 20 May 2025 09:45:00 +0000"
+source: "DeepMind Blog"
+url: "https://deepmind.google/discover/blog/fuel-your-creativity-with-new-generative-media-models-and-tools/"
+thumbnail: "https://lh3.googleusercontent.com/FZxhqmiKx-wasF3B7e0_yZVD8PQX7Pa_zuGXlPSNSub-UDkPNr4i1Uk-lR2BzMg_FGkO3Jb_vbkBnOnfE3w7Fo1ErtFqM1bGEB6xoAjQCnnCvXb3Qw=w528-h297-n-nu-rw"
 ---
 
 Fuel your creativity with new generative media models and tools

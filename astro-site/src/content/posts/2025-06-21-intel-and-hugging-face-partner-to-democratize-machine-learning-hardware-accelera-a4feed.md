@@ -1,14 +1,11 @@
 ---
-title: Intel and Hugging Face Partner to Democratize Machine Learning Hardware Acceleration
-description: ''
-summary: ''
-pubDate: Wed, 15 Jun 2022 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/intel
+title: "Intel and Hugging Face Partner to Democratize Machine Learning Hardware Acceleration"
+description: ""
+summary: ""
+pubDate: "Wed, 15 Jun 2022 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/intel"
+thumbnail: ""
 ---
 
 Intel and Hugging Face Partner to Democratize Machine Learning Hardware Acceleration

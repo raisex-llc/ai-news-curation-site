@@ -1,14 +1,11 @@
 ---
-title: Exploring Quantization Backends in Diffusers
-description: ''
-summary: ''
-pubDate: Wed, 21 May 2025 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/diffusers-quantization
+title: "Exploring Quantization Backends in Diffusers"
+description: ""
+summary: ""
+pubDate: "Wed, 21 May 2025 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/diffusers-quantization"
+thumbnail: ""
 ---
 
 Exploring Quantization Backends in Diffusers

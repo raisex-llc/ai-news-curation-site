@@ -1,14 +1,11 @@
 ---
-title: Accelerating over 130,000 Hugging Face models with ONNX Runtime
-description: ''
-summary: ''
-pubDate: Wed, 04 Oct 2023 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/ort-accelerating-hf-models
+title: "Accelerating over 130,000 Hugging Face models with ONNX Runtime"
+description: ""
+summary: ""
+pubDate: "Wed, 04 Oct 2023 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/ort-accelerating-hf-models"
+thumbnail: ""
 ---
 
 Accelerating over 130,000 Hugging Face models with ONNX Runtime

@@ -1,14 +1,11 @@
 ---
-title: Fit More and Train Faster With ZeRO via DeepSpeed and FairScale
-description: ''
-summary: ''
-pubDate: Tue, 19 Jan 2021 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/zero-deepspeed-fairscale
+title: "Fit More and Train Faster With ZeRO via DeepSpeed and FairScale"
+description: ""
+summary: ""
+pubDate: "Tue, 19 Jan 2021 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/zero-deepspeed-fairscale"
+thumbnail: ""
 ---
 
 Fit More and Train Faster With ZeRO via DeepSpeed and FairScale

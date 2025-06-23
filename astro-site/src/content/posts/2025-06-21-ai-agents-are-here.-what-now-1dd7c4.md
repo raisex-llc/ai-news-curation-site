@@ -1,14 +1,11 @@
 ---
-title: AI Agents Are Here. What Now?
-description: ''
-summary: ''
-pubDate: Mon, 13 Jan 2025 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/ethics-soc-7
+title: "AI Agents Are Here. What Now?"
+description: ""
+summary: ""
+pubDate: "Mon, 13 Jan 2025 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/ethics-soc-7"
+thumbnail: ""
 ---
 
 AI Agents Are Here. What Now?

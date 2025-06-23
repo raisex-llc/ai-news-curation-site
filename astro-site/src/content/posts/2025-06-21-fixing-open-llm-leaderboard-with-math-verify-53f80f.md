@@ -1,14 +1,11 @@
 ---
-title: Fixing Open LLM Leaderboard with Math-Verify
-description: ''
-summary: ''
-pubDate: Fri, 14 Feb 2025 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/math_verify_leaderboard
+title: "Fixing Open LLM Leaderboard with Math-Verify"
+description: ""
+summary: ""
+pubDate: "Fri, 14 Feb 2025 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/math_verify_leaderboard"
+thumbnail: ""
 ---
 
 Fixing Open LLM Leaderboard with Math-Verify

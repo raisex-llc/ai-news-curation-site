@@ -1,14 +1,11 @@
 ---
-title: Dell Enterprise Hub is all you need to build AI on premises
-description: ''
-summary: ''
-pubDate: Fri, 23 May 2025 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/dell-ai-applications
+title: "Dell Enterprise Hub is all you need to build AI on premises"
+description: ""
+summary: ""
+pubDate: "Fri, 23 May 2025 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/dell-ai-applications"
+thumbnail: ""
 ---
 
 Dell Enterprise Hub is all you need to build AI on premises

@@ -1,14 +1,11 @@
 ---
-title: Welcome the Falcon 3 Family of Open Models!
-description: ''
-summary: ''
-pubDate: Tue, 17 Dec 2024 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/falcon3
+title: "Welcome the Falcon 3 Family of Open Models!"
+description: ""
+summary: ""
+pubDate: "Tue, 17 Dec 2024 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/falcon3"
+thumbnail: ""
 ---
 
 Welcome to the Falcon 3 Family of Open Models!

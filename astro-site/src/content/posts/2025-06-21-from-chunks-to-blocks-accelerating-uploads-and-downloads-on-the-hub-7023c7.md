@@ -1,14 +1,11 @@
 ---
-title: 'From Chunks to Blocks: Accelerating Uploads and Downloads on the Hub'
-description: ''
-summary: ''
-pubDate: Wed, 12 Feb 2025 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/from-chunks-to-blocks
+title: "From Chunks to Blocks: Accelerating Uploads and Downloads on the Hub"
+description: ""
+summary: ""
+pubDate: "Wed, 12 Feb 2025 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/from-chunks-to-blocks"
+thumbnail: ""
 ---
 
 From Chunks to Blocks: Accelerating Uploads and Downloads on the Hub

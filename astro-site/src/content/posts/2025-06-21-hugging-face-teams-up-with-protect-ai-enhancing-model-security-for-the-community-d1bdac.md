@@ -1,14 +1,11 @@
 ---
-title: 'Hugging Face Teams Up with Protect AI: Enhancing Model Security for the Community'
-description: ''
-summary: ''
-pubDate: Tue, 22 Oct 2024 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/protectai
+title: "Hugging Face Teams Up with Protect AI: Enhancing Model Security for the Community"
+description: ""
+summary: ""
+pubDate: "Tue, 22 Oct 2024 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/protectai"
+thumbnail: ""
 ---
 
 Hugging Face Teams Up with Protect AI: Enhancing Model Security for the Community

@@ -1,14 +1,11 @@
 ---
-title: Introducing NPC-Playground, a 3D playground to interact with LLM-powered NPCs
-description: ''
-summary: ''
-pubDate: Wed, 05 Jun 2024 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/npc-gigax-cubzh
+title: "Introducing NPC-Playground, a 3D playground to interact with LLM-powered NPCs"
+description: ""
+summary: ""
+pubDate: "Wed, 05 Jun 2024 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/npc-gigax-cubzh"
+thumbnail: ""
 ---
 
 Introducing NPC-Playground, a 3D playground to interact with LLM-powered NPCs

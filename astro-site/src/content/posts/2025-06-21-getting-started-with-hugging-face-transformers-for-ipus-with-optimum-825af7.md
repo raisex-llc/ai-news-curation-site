@@ -1,14 +1,11 @@
 ---
-title: Getting Started with Hugging Face Transformers for IPUs with Optimum
-description: ''
-summary: ''
-pubDate: Tue, 30 Nov 2021 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/graphcore-getting-started
+title: "Getting Started with Hugging Face Transformers for IPUs with Optimum"
+description: ""
+summary: ""
+pubDate: "Tue, 30 Nov 2021 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/graphcore-getting-started"
+thumbnail: ""
 ---
 
 Getting Started with Hugging Face Transformers for IPUs with Optimum

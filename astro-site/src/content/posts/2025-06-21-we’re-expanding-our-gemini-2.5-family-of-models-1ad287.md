@@ -1,17 +1,11 @@
 ---
-title: We’re expanding our Gemini 2.5 family of models
-description: Gemini 2.5 Flash and Pro are now generally available, and we’re introducing
-  2.5 Flash-Lite, our most cost-efficient and fastest 2.5 model yet.
-summary: 'Gemini 2.5 Flash and Pro are now generally available, and we’re introducing
-  2.5 Flash-Lite, our most cost-efficient and '
-pubDate: Tue, 17 Jun 2025 16:01:00 +0000
-source: DeepMind Blog
-tags:
-- deepmind
-- alpha
-- ai
-url: https://deepmind.google/discover/blog/were-expanding-our-gemini-25-family-of-models/
-thumbnail: https://lh3.googleusercontent.com/W9PL-AhEIkMIIOofH5enUao22iPF2hTcpQb8RzhB-ICENAH1H157Ano1Sct-aTwBLENLzy_To594B_Nr4AuE4cXLqUlGUE7dC6F6iJ4oxWWXU9vO=w528-h297-n-nu-rw
+title: "We’re expanding our Gemini 2.5 family of models"
+description: "Gemini 2.5 Flash and Pro are now generally available, and we’re introducing 2.5 Flash-Lite, our most cost-efficient and fastest 2.5 model yet."
+summary: "Gemini 2.5 Flash and Pro are now generally available, and we’re introducing 2.5 Flash-Lite, our most cost-efficient and"
+pubDate: "Tue, 17 Jun 2025 16:01:00 +0000"
+source: "DeepMind Blog"
+url: "https://deepmind.google/discover/blog/were-expanding-our-gemini-25-family-of-models/"
+thumbnail: "https://lh3.googleusercontent.com/W9PL-AhEIkMIIOofH5enUao22iPF2hTcpQb8RzhB-ICENAH1H157Ano1Sct-aTwBLENLzy_To594B_Nr4AuE4cXLqUlGUE7dC6F6iJ4oxWWXU9vO=w528-h297-n-nu-rw"
 ---
 
 We’re expanding our Gemini 2.5 family of models

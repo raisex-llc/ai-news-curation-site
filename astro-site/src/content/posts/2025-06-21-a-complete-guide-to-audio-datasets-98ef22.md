@@ -1,14 +1,11 @@
 ---
-title: A Complete Guide to Audio Datasets
-description: ''
-summary: ''
-pubDate: Thu, 15 Dec 2022 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/audio-datasets
+title: "A Complete Guide to Audio Datasets"
+description: ""
+summary: ""
+pubDate: "Thu, 15 Dec 2022 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/audio-datasets"
+thumbnail: ""
 ---
 
 A Complete Guide to Audio Datasets

@@ -1,14 +1,11 @@
 ---
-title: 'Case Study: Millisecond Latency using Hugging Face Infinity and modern CPUs'
-description: ''
-summary: ''
-pubDate: Thu, 13 Jan 2022 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/infinity-cpu-performance
+title: "Case Study: Millisecond Latency using Hugging Face Infinity and modern CPUs"
+description: ""
+summary: ""
+pubDate: "Thu, 13 Jan 2022 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/infinity-cpu-performance"
+thumbnail: ""
 ---
 
 Case Study: Millisecond Latency using Hugging Face Infinity and modern CPUs

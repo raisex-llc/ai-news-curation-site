@@ -1,14 +1,11 @@
 ---
-title: VQ Diffusion with 🧨 Diffusers
-description: ''
-summary: ''
-pubDate: Wed, 30 Nov 2022 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/vq-diffusion
+title: "VQ Diffusion with 🧨 Diffusers"
+description: ""
+summary: ""
+pubDate: "Wed, 30 Nov 2022 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/vq-diffusion"
+thumbnail: ""
 ---
 
 VQ-Diffusion

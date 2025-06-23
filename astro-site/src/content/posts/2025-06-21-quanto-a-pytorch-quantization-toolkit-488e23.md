@@ -1,14 +1,11 @@
 ---
-title: 'quanto: a pytorch quantization toolkit'
-description: ''
-summary: ''
-pubDate: Mon, 18 Mar 2024 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/quanto-introduction
+title: "quanto: a pytorch quantization toolkit"
+description: ""
+summary: ""
+pubDate: "Mon, 18 Mar 2024 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/quanto-introduction"
+thumbnail: ""
 ---
 
 Quanto: a PyTorch quantization backend for Optimum

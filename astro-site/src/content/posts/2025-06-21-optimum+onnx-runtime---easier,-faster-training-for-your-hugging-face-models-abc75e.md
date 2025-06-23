@@ -1,14 +1,11 @@
 ---
-title: Optimum+ONNX Runtime - Easier, Faster training for your Hugging Face models
-description: ''
-summary: ''
-pubDate: Tue, 24 Jan 2023 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/optimum-onnxruntime-training
+title: "Optimum+ONNX Runtime - Easier, Faster training for your Hugging Face models"
+description: ""
+summary: ""
+pubDate: "Tue, 24 Jan 2023 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/optimum-onnxruntime-training"
+thumbnail: ""
 ---
 
 Optimum + ONNX Runtime: Easier, Faster training for your Hugging Face models

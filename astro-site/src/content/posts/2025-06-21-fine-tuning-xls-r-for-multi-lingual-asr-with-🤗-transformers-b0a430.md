@@ -1,14 +1,11 @@
 ---
-title: Fine-tuning XLS-R for Multi-Lingual ASR with 🤗 Transformers
-description: ''
-summary: ''
-pubDate: Mon, 15 Nov 2021 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/fine-tune-xlsr-wav2vec2
+title: "Fine-tuning XLS-R for Multi-Lingual ASR with 🤗 Transformers"
+description: ""
+summary: ""
+pubDate: "Mon, 15 Nov 2021 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/fine-tune-xlsr-wav2vec2"
+thumbnail: ""
 ---
 
 Fine-tuning XLS-R for Multi-Lingual ASR with 🤗 Transformers

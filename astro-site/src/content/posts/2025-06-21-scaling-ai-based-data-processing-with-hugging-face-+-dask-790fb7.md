@@ -1,14 +1,11 @@
 ---
-title: Scaling AI-based Data Processing with Hugging Face + Dask
-description: ''
-summary: ''
-pubDate: Wed, 09 Oct 2024 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/dask-scaling
+title: "Scaling AI-based Data Processing with Hugging Face + Dask"
+description: ""
+summary: ""
+pubDate: "Wed, 09 Oct 2024 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/dask-scaling"
+thumbnail: ""
 ---
 
 Scaling AI-Based Data Processing with Hugging Face + Dask

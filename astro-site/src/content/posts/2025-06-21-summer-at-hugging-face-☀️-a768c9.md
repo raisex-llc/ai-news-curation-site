@@ -1,14 +1,11 @@
 ---
-title: Summer at Hugging Face ☀️
-description: ''
-summary: ''
-pubDate: Fri, 24 Sep 2021 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/summer-at-huggingface
+title: "Summer at Hugging Face ☀️"
+description: ""
+summary: ""
+pubDate: "Fri, 24 Sep 2021 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/summer-at-huggingface"
+thumbnail: ""
 ---
 
 Summer At Hugging Face 😎

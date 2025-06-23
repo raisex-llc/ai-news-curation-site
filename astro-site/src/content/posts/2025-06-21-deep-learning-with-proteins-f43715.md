@@ -1,14 +1,11 @@
 ---
-title: Deep Learning with Proteins
-description: ''
-summary: ''
-pubDate: Fri, 02 Dec 2022 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/deep-learning-with-proteins
+title: "Deep Learning with Proteins"
+description: ""
+summary: ""
+pubDate: "Fri, 02 Dec 2022 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/deep-learning-with-proteins"
+thumbnail: ""
 ---
 
 Deep Learning With Proteins

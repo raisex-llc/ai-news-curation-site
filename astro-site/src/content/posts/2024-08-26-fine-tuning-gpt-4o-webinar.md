@@ -1,10 +1,10 @@
 ---
-title: Fine-Tuning GPT-4o Webinar
+title: "Fine-Tuning GPT-4o Webinar"
 description: "Fine-Tuning GPT-4o Webinar"
 summary: "Fine-Tuning GPT-4o Webinar"
-pubDate: Mon, 26 Aug 2024 00:00:00 GMT
-source: OpenAI Blog
-url: https://openai.com/business/fine-tuning-gpt-4o-webinar
-
+pubDate: "Mon, 26 Aug 2024 00:00:00 GMT"
+source: "OpenAI Blog"
+url: "https://openai.com/business/fine-tuning-gpt-4o-webinar"
+thumbnail: ""
 ---
 

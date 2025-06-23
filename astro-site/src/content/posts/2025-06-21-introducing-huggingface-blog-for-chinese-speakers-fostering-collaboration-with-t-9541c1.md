@@ -1,15 +1,11 @@
 ---
-title: 'Introducing HuggingFace blog for Chinese speakers: Fostering Collaboration
-  with the Chinese AI community'
-description: ''
-summary: ''
-pubDate: Mon, 24 Apr 2023 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/chinese-language-blog
+title: "Introducing HuggingFace blog for Chinese speakers: Fostering Collaboration with the Chinese AI community"
+description: ""
+summary: ""
+pubDate: "Mon, 24 Apr 2023 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/chinese-language-blog"
+thumbnail: ""
 ---
 
 Introducing HuggingFace blog for Chinese speakers: Fostering Collaboration with the Chinese AI community

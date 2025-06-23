@@ -1,15 +1,11 @@
 ---
-title: Bringing meaning into technology deployment
-description: The MIT Ethics of Computing Research Symposium showcases projects at
-  the intersection of technology, ethics, and social responsibility.
-summary: 'The MIT Ethics of Computing Research Symposium showcases projects at the
-  intersection of technology, ethics, and social '
-pubDate: Wed, 11 Jun 2025 16:15:00 -0400
-source: MIT
-tags:
-- mit
-- ai
-url: https://news.mit.edu/2025/bringing-meaning-technology-deployment-0611
+title: "Bringing meaning into technology deployment"
+description: "The MIT Ethics of Computing Research Symposium showcases projects at the intersection of technology, ethics, and social responsibility."
+summary: "The MIT Ethics of Computing Research Symposium showcases projects at the intersection of technology, ethics, and social"
+pubDate: "Wed, 11 Jun 2025 16:15:00 -0400"
+source: "MIT"
+url: "https://news.mit.edu/2025/bringing-meaning-technology-deployment-0611"
+thumbnail: ""
 ---
 
 In 15 TED Talk-style presentations, MIT faculty recently discussed their pioneering research that incorporates social, ethical, and technical considerations and expertise, each supported by seed grants established by the Social and Ethical Responsibilities of Computing (SERC), a cross-cutting initiative of the MIT Schwarzman College of Computing. The call for proposals last summer was met with nearly 70 applications. A committee with representatives from every MIT school and the college convened to select the winning projects that received up to $100,000 in funding.

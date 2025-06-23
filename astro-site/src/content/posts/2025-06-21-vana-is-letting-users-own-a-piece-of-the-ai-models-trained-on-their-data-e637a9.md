@@ -1,15 +1,11 @@
 ---
-title: Vana is letting users own a piece of the AI models trained on their data
-description: More than 1 million people are contributing their data to Vana’s decentralized
-  network, which started as an MIT class project.
-summary: More than 1 million people are contributing their data to Vana’s decentralized
-  network, which started as an MIT class pr
-pubDate: Thu, 03 Apr 2025 00:00:00 -0400
-source: MIT
-tags:
-- mit
-- ai
-url: https://news.mit.edu/2025/vana-lets-users-own-piece-ai-models-trained-on-their-data-0403
+title: "Vana is letting users own a piece of the AI models trained on their data"
+description: "More than 1 million people are contributing their data to Vana’s decentralized network, which started as an MIT class project."
+summary: "More than 1 million people are contributing their data to Vana’s decentralized network, which started as an MIT class pr"
+pubDate: "Thu, 03 Apr 2025 00:00:00 -0400"
+source: "MIT"
+url: "https://news.mit.edu/2025/vana-lets-users-own-piece-ai-models-trained-on-their-data-0403"
+thumbnail: ""
 ---
 
 In February 2024, Reddit struck a $60 million deal with Google to let the search giant use data on the platform to train its artificial intelligence models. Notably absent from the discussions were Reddit users, whose data were being sold.

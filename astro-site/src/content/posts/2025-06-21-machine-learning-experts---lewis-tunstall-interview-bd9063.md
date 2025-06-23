@@ -1,14 +1,11 @@
 ---
-title: Machine Learning Experts - Lewis Tunstall Interview
-description: ''
-summary: ''
-pubDate: Wed, 13 Apr 2022 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/lewis-tunstall-interview
+title: "Machine Learning Experts - Lewis Tunstall Interview"
+description: ""
+summary: ""
+pubDate: "Wed, 13 Apr 2022 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/lewis-tunstall-interview"
+thumbnail: ""
 ---
 
 Machine Learning Experts - Lewis Tunstall

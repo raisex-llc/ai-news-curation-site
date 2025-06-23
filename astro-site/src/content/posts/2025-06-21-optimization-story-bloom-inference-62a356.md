@@ -1,14 +1,11 @@
 ---
-title: 'Optimization story: Bloom inference'
-description: ''
-summary: ''
-pubDate: Wed, 12 Oct 2022 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/bloom-inference-optimization
+title: "Optimization story: Bloom inference"
+description: ""
+summary: ""
+pubDate: "Wed, 12 Oct 2022 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/bloom-inference-optimization"
+thumbnail: ""
 ---
 
 Optimization story: Bloom inference

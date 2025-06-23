@@ -1,10 +1,10 @@
 ---
-title: OpenAI’s API now available with no waitlist
+title: "OpenAI’s API now available with no waitlist"
 description: "Wider availability made possible by safety progress."
 summary: "Wider availability made possible by safety progress."
-pubDate: Thu, 18 Nov 2021 08:00:00 GMT
-source: OpenAI Blog
-url: https://openai.com/index/api-no-waitlist
-
+pubDate: "Thu, 18 Nov 2021 08:00:00 GMT"
+source: "OpenAI Blog"
+url: "https://openai.com/index/api-no-waitlist"
+thumbnail: ""
 ---
 

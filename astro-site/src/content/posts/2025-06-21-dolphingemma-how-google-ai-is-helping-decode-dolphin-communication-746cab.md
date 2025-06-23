@@ -1,18 +1,11 @@
 ---
-title: 'DolphinGemma: How Google AI is helping decode dolphin communication'
-description: DolphinGemma, a large language model developed by Google, is helping
-  scientists study how dolphins communicate — and hopefully find out what they're
-  saying, too.
-summary: DolphinGemma, a large language model developed by Google, is helping scientists
-  study how dolphins communicate — and hop
-pubDate: Mon, 14 Apr 2025 17:00:00 +0000
-source: DeepMind Blog
-tags:
-- deepmind
-- alpha
-- ai
-url: https://deepmind.google/discover/blog/dolphingemma-how-google-ai-is-helping-decode-dolphin-communication/
-thumbnail: https://lh3.googleusercontent.com/I4XIOUffm7QcLIdlD4MzdDyyhRfZSPyX6Ay0GSZ6f_LcmQ0FS3MoGg8mTsHsePHQkfG1Mg4P8C-nG17FDk0MJ2lQIhe1c_TkOwYKGOiWHMC9ouRzsQ=w528-h297-n-nu-rw
+title: "DolphinGemma: How Google AI is helping decode dolphin communication"
+description: "DolphinGemma, a large language model developed by Google, is helping scientists study how dolphins communicate — and hopefully find out what they're saying, too."
+summary: "DolphinGemma, a large language model developed by Google, is helping scientists study how dolphins communicate — and hop"
+pubDate: "Mon, 14 Apr 2025 17:00:00 +0000"
+source: "DeepMind Blog"
+url: "https://deepmind.google/discover/blog/dolphingemma-how-google-ai-is-helping-decode-dolphin-communication/"
+thumbnail: "https://lh3.googleusercontent.com/I4XIOUffm7QcLIdlD4MzdDyyhRfZSPyX6Ay0GSZ6f_LcmQ0FS3MoGg8mTsHsePHQkfG1Mg4P8C-nG17FDk0MJ2lQIhe1c_TkOwYKGOiWHMC9ouRzsQ=w528-h297-n-nu-rw"
 ---
 
 DolphinGemma: How Google AI is helping decode dolphin communication

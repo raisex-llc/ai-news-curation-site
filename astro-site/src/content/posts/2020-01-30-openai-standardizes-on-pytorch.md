@@ -1,10 +1,10 @@
 ---
-title: OpenAI standardizes on PyTorch
+title: "OpenAI standardizes on PyTorch"
 description: "We are standardizing OpenAI’s deep learning framework on PyTorch."
 summary: "We are standardizing OpenAI’s deep learning framework on PyTorch."
-pubDate: Thu, 30 Jan 2020 08:00:00 GMT
-source: OpenAI Blog
-url: https://openai.com/index/openai-pytorch
-
+pubDate: "Thu, 30 Jan 2020 08:00:00 GMT"
+source: "OpenAI Blog"
+url: "https://openai.com/index/openai-pytorch"
+thumbnail: ""
 ---
 

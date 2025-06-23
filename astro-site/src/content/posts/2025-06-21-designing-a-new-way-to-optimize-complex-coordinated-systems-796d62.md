@@ -1,15 +1,11 @@
 ---
-title: Designing a new way to optimize complex coordinated systems
-description: Using diagrams to represent interactions in multipart systems can provide
-  a faster way to design software improvements.
-summary: Using diagrams to represent interactions in multipart systems can provide
-  a faster way to design software improvements.
-pubDate: Thu, 24 Apr 2025 15:00:00 -0400
-source: MIT
-tags:
-- mit
-- ai
-url: https://news.mit.edu/2025/designing-new-way-optimize-complex-coordinated-systems-0424
+title: "Designing a new way to optimize complex coordinated systems"
+description: "Using diagrams to represent interactions in multipart systems can provide a faster way to design software improvements."
+summary: "Using diagrams to represent interactions in multipart systems can provide a faster way to design software improvements."
+pubDate: "Thu, 24 Apr 2025 15:00:00 -0400"
+source: "MIT"
+url: "https://news.mit.edu/2025/designing-new-way-optimize-complex-coordinated-systems-0424"
+thumbnail: ""
 ---
 
 Coordinating complicated interactive systems, whether it’s the different modes of transportation in a city or the various components that must work together to make an effective and efficient robot, is an increasingly important subject for software designers to tackle. Now, researchers at MIT have developed an entirely new way of approaching these complex problems, using simple diagrams as a tool to reveal better approaches to software optimization in deep-learning models.

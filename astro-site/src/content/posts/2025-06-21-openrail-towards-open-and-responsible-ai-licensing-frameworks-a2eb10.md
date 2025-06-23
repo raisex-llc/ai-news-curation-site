@@ -1,14 +1,11 @@
 ---
-title: 'OpenRAIL: Towards open and responsible AI licensing frameworks'
-description: ''
-summary: ''
-pubDate: Wed, 31 Aug 2022 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/open_rail
+title: "OpenRAIL: Towards open and responsible AI licensing frameworks"
+description: ""
+summary: ""
+pubDate: "Wed, 31 Aug 2022 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/open_rail"
+thumbnail: ""
 ---
 
 OpenRAIL: Towards open and responsible AI licensing frameworks

@@ -1,10 +1,10 @@
 ---
-title: OpenAI Five Benchmark
+title: "OpenAI Five Benchmark"
 description: "The OpenAI Five Benchmark match is now over!"
 summary: "The OpenAI Five Benchmark match is now over!"
-pubDate: Wed, 18 Jul 2018 07:00:00 GMT
-source: OpenAI Blog
-url: https://openai.com/index/openai-five-benchmark
-
+pubDate: "Wed, 18 Jul 2018 07:00:00 GMT"
+source: "OpenAI Blog"
+url: "https://openai.com/index/openai-five-benchmark"
+thumbnail: ""
 ---
 

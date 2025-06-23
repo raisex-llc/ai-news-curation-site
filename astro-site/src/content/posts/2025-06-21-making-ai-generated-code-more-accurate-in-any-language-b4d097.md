@@ -1,15 +1,11 @@
 ---
-title: Making AI-generated code more accurate in any language
-description: A new technique automatically guides an LLM toward outputs that adhere
-  to the rules of whatever programming language or other format is being used.
-summary: 'A new technique automatically guides an LLM toward outputs that adhere to
-  the rules of whatever programming language or '
-pubDate: Fri, 18 Apr 2025 00:00:00 -0400
-source: MIT
-tags:
-- mit
-- ai
-url: https://news.mit.edu/2025/making-ai-generated-code-more-accurate-0418
+title: "Making AI-generated code more accurate in any language"
+description: "A new technique automatically guides an LLM toward outputs that adhere to the rules of whatever programming language or other format is being used."
+summary: "A new technique automatically guides an LLM toward outputs that adhere to the rules of whatever programming language or"
+pubDate: "Fri, 18 Apr 2025 00:00:00 -0400"
+source: "MIT"
+url: "https://news.mit.edu/2025/making-ai-generated-code-more-accurate-0418"
+thumbnail: ""
 ---
 
 Programmers can now use large language models (LLMs) to generate computer code more quickly. However, this only makes programmers’ lives easier if that code follows the rules of the programming language and doesn’t cause a computer to crash.

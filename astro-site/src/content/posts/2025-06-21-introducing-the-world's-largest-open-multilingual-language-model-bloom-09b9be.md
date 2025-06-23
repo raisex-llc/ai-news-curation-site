@@ -1,14 +1,11 @@
 ---
-title: 'Introducing The World''s Largest Open Multilingual Language Model: BLOOM'
-description: ''
-summary: ''
-pubDate: Tue, 12 Jul 2022 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/bloom
+title: "Introducing The World's Largest Open Multilingual Language Model: BLOOM"
+description: ""
+summary: ""
+pubDate: "Tue, 12 Jul 2022 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/bloom"
+thumbnail: ""
 ---
 
 🌸 Introducing The World's Largest Open Multilingual Language Model: BLOOM 🌸

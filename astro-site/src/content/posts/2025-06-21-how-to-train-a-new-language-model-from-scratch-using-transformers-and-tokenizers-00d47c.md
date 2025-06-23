@@ -1,14 +1,11 @@
 ---
-title: How to train a new language model from scratch using Transformers and Tokenizers
-description: ''
-summary: ''
-pubDate: Fri, 14 Feb 2020 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/how-to-train
+title: "How to train a new language model from scratch using Transformers and Tokenizers"
+description: ""
+summary: ""
+pubDate: "Fri, 14 Feb 2020 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/how-to-train"
+thumbnail: ""
 ---
 
 How to train a new language model from scratch using Transformers and Tokenizers

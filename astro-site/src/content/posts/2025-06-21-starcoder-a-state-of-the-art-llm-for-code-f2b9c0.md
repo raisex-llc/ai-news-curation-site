@@ -1,14 +1,11 @@
 ---
-title: 'StarCoder: A State-of-the-Art LLM for Code'
-description: ''
-summary: ''
-pubDate: Thu, 04 May 2023 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/starcoder
+title: "StarCoder: A State-of-the-Art LLM for Code"
+description: ""
+summary: ""
+pubDate: "Thu, 04 May 2023 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/starcoder"
+thumbnail: ""
 ---
 
 StarCoder: A State-of-the-Art LLM for Code

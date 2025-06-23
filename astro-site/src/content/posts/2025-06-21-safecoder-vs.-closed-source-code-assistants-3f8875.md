@@ -1,14 +1,11 @@
 ---
-title: SafeCoder vs. Closed-source Code Assistants
-description: ''
-summary: ''
-pubDate: Mon, 11 Sep 2023 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/safecoder-vs-closed-source-code-assistants
+title: "SafeCoder vs. Closed-source Code Assistants"
+description: ""
+summary: ""
+pubDate: "Mon, 11 Sep 2023 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/safecoder-vs-closed-source-code-assistants"
+thumbnail: ""
 ---
 
 SafeCoder vs. Closed-source Code Assistants

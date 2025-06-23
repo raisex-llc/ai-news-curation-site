@@ -1,14 +1,11 @@
 ---
-title: Introducing Training Cluster as a Service - a new collaboration with NVIDIA
-description: ''
-summary: ''
-pubDate: Wed, 11 Jun 2025 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/nvidia-training-cluster
+title: "Introducing Training Cluster as a Service - a new collaboration with NVIDIA"
+description: ""
+summary: ""
+pubDate: "Wed, 11 Jun 2025 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/nvidia-training-cluster"
+thumbnail: ""
 ---
 
 Introducing Training Cluster as a Service - a new collaboration with NVIDIA

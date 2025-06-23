@@ -1,15 +1,11 @@
 ---
-title: Why we’re switching to Hugging Face Inference Endpoints, and maybe you should
-  too
-description: ''
-summary: ''
-pubDate: Wed, 15 Feb 2023 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/mantis-case-study
+title: "Why we’re switching to Hugging Face Inference Endpoints, and maybe you should too"
+description: ""
+summary: ""
+pubDate: "Wed, 15 Feb 2023 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/mantis-case-study"
+thumbnail: ""
 ---
 
 Why we’re switching to Hugging Face Inference Endpoints, and maybe you should too

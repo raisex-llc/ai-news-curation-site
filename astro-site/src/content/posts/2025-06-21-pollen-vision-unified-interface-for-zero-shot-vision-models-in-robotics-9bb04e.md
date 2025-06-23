@@ -1,14 +1,11 @@
 ---
-title: 'Pollen-Vision: Unified interface for Zero-Shot vision models in robotics'
-description: ''
-summary: ''
-pubDate: Mon, 25 Mar 2024 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/pollen-vision
+title: "Pollen-Vision: Unified interface for Zero-Shot vision models in robotics"
+description: ""
+summary: ""
+pubDate: "Mon, 25 Mar 2024 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/pollen-vision"
+thumbnail: ""
 ---
 
 Pollen-Vision: Unified interface for Zero-Shot vision models in robotics

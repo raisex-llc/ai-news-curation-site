@@ -1,14 +1,11 @@
 ---
-title: Announcing Evaluation on the Hub
-description: ''
-summary: ''
-pubDate: Tue, 28 Jun 2022 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/eval-on-the-hub
+title: "Announcing Evaluation on the Hub"
+description: ""
+summary: ""
+pubDate: "Tue, 28 Jun 2022 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/eval-on-the-hub"
+thumbnail: ""
 ---
 
 Announcing Evaluation on the Hub

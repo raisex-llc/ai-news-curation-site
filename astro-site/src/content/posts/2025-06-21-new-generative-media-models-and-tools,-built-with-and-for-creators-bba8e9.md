@@ -1,18 +1,11 @@
 ---
-title: New generative media models and tools, built with and for creators
-description: We’re introducing Veo, our most capable model for generating high-definition
-  video, and Imagen 3, our highest quality text-to-image model. We’re also sharing
-  new demo recordings created with our Music AI Sandbox.
-summary: We’re introducing Veo, our most capable model for generating high-definition
-  video, and Imagen 3, our highest quality te
-pubDate: Tue, 14 May 2024 17:57:00 +0000
-source: DeepMind Blog
-tags:
-- deepmind
-- alpha
-- ai
-url: https://deepmind.google/discover/blog/new-generative-media-models-and-tools-built-with-and-for-creators/
-thumbnail: https://lh3.googleusercontent.com/YPfZ3rUBlBJ5JJsGrE65a0F-lhwdLr9_qTvHekeDVNkt4tFdYo72v0OFgWX7MeCaBjgmacBAB6MuObvb4kiVmiWFwKSDCbVZUv9Xx9NdUEOiWoeBBw=w528-h297-n-nu-rw
+title: "New generative media models and tools, built with and for creators"
+description: "We’re introducing Veo, our most capable model for generating high-definition video, and Imagen 3, our highest quality text-to-image model. We’re also sharing new demo recordings created with our Music AI Sandbox."
+summary: "We’re introducing Veo, our most capable model for generating high-definition video, and Imagen 3, our highest quality te"
+pubDate: "Tue, 14 May 2024 17:57:00 +0000"
+source: "DeepMind Blog"
+url: "https://deepmind.google/discover/blog/new-generative-media-models-and-tools-built-with-and-for-creators/"
+thumbnail: "https://lh3.googleusercontent.com/YPfZ3rUBlBJ5JJsGrE65a0F-lhwdLr9_qTvHekeDVNkt4tFdYo72v0OFgWX7MeCaBjgmacBAB6MuObvb4kiVmiWFwKSDCbVZUv9Xx9NdUEOiWoeBBw=w528-h297-n-nu-rw"
 ---
 
 New generative media models and tools, built with and for creators

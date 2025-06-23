@@ -1,14 +1,11 @@
 ---
-title: Hugging Face + PyCharm
-description: ''
-summary: ''
-pubDate: Tue, 05 Nov 2024 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/pycharm-integration
+title: "Hugging Face + PyCharm"
+description: ""
+summary: ""
+pubDate: "Tue, 05 Nov 2024 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/pycharm-integration"
+thumbnail: ""
 ---
 
 Hugging Face + PyCharm

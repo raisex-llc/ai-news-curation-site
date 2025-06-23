@@ -1,14 +1,11 @@
 ---
-title: 'A failed experiment: Infini-Attention, and why we should keep trying?'
-description: ''
-summary: ''
-pubDate: Wed, 14 Aug 2024 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/infini-attention
+title: "A failed experiment: Infini-Attention, and why we should keep trying?"
+description: ""
+summary: ""
+pubDate: "Wed, 14 Aug 2024 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/infini-attention"
+thumbnail: ""
 ---
 
 A failed experiment: Infini-Attention, and why we should keep trying?

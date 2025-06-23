@@ -1,15 +1,11 @@
 ---
-title: How Sempre Health is leveraging the Expert Acceleration Program to accelerate
-  their ML roadmap
-description: ''
-summary: ''
-pubDate: Thu, 19 May 2022 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/sempre-health-eap-case-study
+title: "How Sempre Health is leveraging the Expert Acceleration Program to accelerate their ML roadmap"
+description: ""
+summary: ""
+pubDate: "Thu, 19 May 2022 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/sempre-health-eap-case-study"
+thumbnail: ""
 ---
 
 How Sempre Health is leveraging the Expert Acceleration Program to accelerate their ML roadmap

@@ -1,14 +1,11 @@
 ---
-title: Inference for PROs
-description: ''
-summary: ''
-pubDate: Fri, 22 Sep 2023 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/inference-pro
+title: "Inference for PROs"
+description: ""
+summary: ""
+pubDate: "Fri, 22 Sep 2023 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/inference-pro"
+thumbnail: ""
 ---
 
 Inference for PROs

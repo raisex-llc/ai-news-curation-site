@@ -1,14 +1,11 @@
 ---
-title: An Introduction to Deep Reinforcement Learning
-description: ''
-summary: ''
-pubDate: Wed, 04 May 2022 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/deep-rl-intro
+title: "An Introduction to Deep Reinforcement Learning"
+description: ""
+summary: ""
+pubDate: "Wed, 04 May 2022 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/deep-rl-intro"
+thumbnail: ""
 ---
 
 An Introduction to Deep Reinforcement Learning

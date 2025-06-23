@@ -1,16 +1,11 @@
 ---
-title: 5 things from I/O to try right now
-description: Collage on a dark background showing AI-generated media including humpback
-  whales jumping from the water and the very detailed face of a chameleon
-summary: Collage on a dark background showing AI-generated media including humpback
-  whales jumping from the water and the very de
-pubDate: Thu, 12 Jun 2025 16:00:00 +0000
-source: Google AI Blog
-tags:
-- google
-- gemini
-- research
-url: https://blog.google/technology/ai/io-2025-tools-to-try-globally/
+title: "5 things from I/O to try right now"
+description: "Collage on a dark background showing AI-generated media including humpback whales jumping from the water and the very detailed face of a chameleon"
+summary: "Collage on a dark background showing AI-generated media including humpback whales jumping from the water and the very de"
+pubDate: "Thu, 12 Jun 2025 16:00:00 +0000"
+source: "Google AI Blog"
+url: "https://blog.google/technology/ai/io-2025-tools-to-try-globally/"
+thumbnail: ""
 ---
 
 5 things from I/O to try right now

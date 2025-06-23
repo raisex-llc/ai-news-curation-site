@@ -1,14 +1,11 @@
 ---
-title: Googleアプリでの「AI Mode」、音声会話式検索の提供開始（米国で）
-description: Googleが米国で、Googleアプリの新機能「Search Live」の提供を開始した。これは対話型のAI検索「AI Mode」の一部で、音声で質問すると音声で回答が得られる。画面には情報源のリンクが表示される。
-summary: Googleが米国で、Googleアプリの新機能「Search Live」の提供を開始した。これは対話型のAI検索「AI Mode」の一部で、音声で質問すると音声で回答が得られる。画面には情報源のリンクが表示される。
-pubDate: Thu, 19 Jun 2025 05:48:00 +0900
-source: ITmedia AI
-tags:
-- japan
-- itmedia
-- ai
-url: https://www.itmedia.co.jp/aiplus/articles/2506/19/news056.html
+title: "Googleアプリでの「AI Mode」、音声会話式検索の提供開始（米国で）"
+description: "Googleが米国で、Googleアプリの新機能「Search Live」の提供を開始した。これは対話型のAI検索「AI Mode」の一部で、音声で質問すると音声で回答が得られる。画面には情報源のリンクが表示される。"
+summary: "Googleが米国で、Googleアプリの新機能「Search Live」の提供を開始した。これは対話型のAI検索「AI Mode」の一部で、音声で質問すると音声で回答が得られる。画面には情報源のリンクが表示される。"
+pubDate: "Thu, 19 Jun 2025 05:48:00 +0900"
+source: "ITmedia AI"
+url: "https://www.itmedia.co.jp/aiplus/articles/2506/19/news056.html"
+thumbnail: ""
 ---
 
 米Googleは6月18日（現地時間）、Google I/O 2025で紹介した「AI Mode」での「Search Live」の提供を米国のGoogleアプリで開始したと発表した。

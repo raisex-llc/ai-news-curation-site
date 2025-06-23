@@ -1,14 +1,11 @@
 ---
-title: Training and Finetuning Embedding Models with Sentence Transformers v3
-description: ''
-summary: ''
-pubDate: Tue, 28 May 2024 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/train-sentence-transformers
+title: "Training and Finetuning Embedding Models with Sentence Transformers v3"
+description: ""
+summary: ""
+pubDate: "Tue, 28 May 2024 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/train-sentence-transformers"
+thumbnail: ""
 ---
 
 Training and Finetuning Embedding Models with Sentence Transformers v3

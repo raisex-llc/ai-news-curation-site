@@ -1,14 +1,11 @@
 ---
-title: Hugging Face on AMD Instinct MI300 GPU
-description: ''
-summary: ''
-pubDate: Tue, 21 May 2024 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/huggingface-amd-mi300
+title: "Hugging Face on AMD Instinct MI300 GPU"
+description: ""
+summary: ""
+pubDate: "Tue, 21 May 2024 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/huggingface-amd-mi300"
+thumbnail: ""
 ---
 
 Hugging Face on AMD Instinct MI300 GPU

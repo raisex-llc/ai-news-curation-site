@@ -1,14 +1,11 @@
 ---
-title: Very Large Language Models and How to Evaluate Them
-description: ''
-summary: ''
-pubDate: Mon, 03 Oct 2022 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/zero-shot-eval-on-the-hub
+title: "Very Large Language Models and How to Evaluate Them"
+description: ""
+summary: ""
+pubDate: "Mon, 03 Oct 2022 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/zero-shot-eval-on-the-hub"
+thumbnail: ""
 ---
 
 Very Large Language Models and How to Evaluate Them

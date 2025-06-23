@@ -1,15 +1,11 @@
 ---
-title: Hugging Face and IBM partner on watsonx.ai, the next-generation enterprise
-  studio for AI builders
-description: ''
-summary: ''
-pubDate: Tue, 23 May 2023 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/huggingface-and-ibm
+title: "Hugging Face and IBM partner on watsonx.ai, the next-generation enterprise studio for AI builders"
+description: ""
+summary: ""
+pubDate: "Tue, 23 May 2023 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/huggingface-and-ibm"
+thumbnail: ""
 ---
 
 Hugging Face and IBM partner on watsonx.ai, the next-generation enterprise studio for AI builders

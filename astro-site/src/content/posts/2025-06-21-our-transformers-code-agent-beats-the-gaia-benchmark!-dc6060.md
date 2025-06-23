@@ -1,14 +1,11 @@
 ---
-title: Our Transformers Code Agent beats the GAIA benchmark!
-description: ''
-summary: ''
-pubDate: Mon, 01 Jul 2024 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/beating-gaia
+title: "Our Transformers Code Agent beats the GAIA benchmark!"
+description: ""
+summary: ""
+pubDate: "Mon, 01 Jul 2024 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/beating-gaia"
+thumbnail: ""
 ---
 
 Our Transformers Code Agent beats the GAIA benchmark!

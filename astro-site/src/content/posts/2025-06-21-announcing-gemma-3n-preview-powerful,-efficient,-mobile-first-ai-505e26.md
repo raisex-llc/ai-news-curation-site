@@ -1,19 +1,11 @@
 ---
-title: 'Announcing Gemma 3n preview: Powerful, efficient, mobile-first AI'
-description: Gemma 3n is a cutting-edge open model designed for fast, multimodal AI
-  on devices, featuring optimized performance, unique flexibility with a 2-in-1 model,
-  and expanded multimodal understanding with audio, empowering developers to build
-  live, interactive applications and sophisticated audio-centric experiences.
-summary: Gemma 3n is a cutting-edge open model designed for fast, multimodal AI on
-  devices, featuring optimized performance, uniq
-pubDate: Tue, 20 May 2025 09:45:00 +0000
-source: DeepMind Blog
-tags:
-- deepmind
-- alpha
-- ai
-url: https://deepmind.google/discover/blog/announcing-gemma-3n-preview-powerful-efficient-mobile-first-ai/
-thumbnail: https://lh3.googleusercontent.com/y93ENNueDqV2w0AzhBr0yJtpa_vXK638toH_p7lvUIfW3XBeCfvqDNKkMDSd73hEWz9OXjF8-t_okwv3p1UXJWOmYT3iowNWkkigvxwZfeM40jNYVQ=w528-h297-n-nu-rw
+title: "Announcing Gemma 3n preview: Powerful, efficient, mobile-first AI"
+description: "Gemma 3n is a cutting-edge open model designed for fast, multimodal AI on devices, featuring optimized performance, unique flexibility with a 2-in-1 model, and expanded multimodal understanding with audio, empowering developers to build live, interactive applications and sophisticated audio-centric experiences."
+summary: "Gemma 3n is a cutting-edge open model designed for fast, multimodal AI on devices, featuring optimized performance, uniq"
+pubDate: "Tue, 20 May 2025 09:45:00 +0000"
+source: "DeepMind Blog"
+url: "https://deepmind.google/discover/blog/announcing-gemma-3n-preview-powerful-efficient-mobile-first-ai/"
+thumbnail: "https://lh3.googleusercontent.com/y93ENNueDqV2w0AzhBr0yJtpa_vXK638toH_p7lvUIfW3XBeCfvqDNKkMDSd73hEWz9OXjF8-t_okwv3p1UXJWOmYT3iowNWkkigvxwZfeM40jNYVQ=w528-h297-n-nu-rw"
 ---
 
 Following the exciting launches of Gemma 3 and Gemma 3 QAT, our family of state-of-the-art open models capable of running on a single cloud or desktop accelerator, we're pushing our vision for accessible AI even further. Gemma 3 delivered powerful capabilities for developers, and we're now extending that vision to highly capable, real-time AI operating directly on the devices you use every day – your phones, tablets, and laptops.

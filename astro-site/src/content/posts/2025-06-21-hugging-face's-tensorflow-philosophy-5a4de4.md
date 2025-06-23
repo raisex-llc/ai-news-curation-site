@@ -1,14 +1,11 @@
 ---
-title: Hugging Face's TensorFlow Philosophy
-description: ''
-summary: ''
-pubDate: Fri, 12 Aug 2022 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/tensorflow-philosophy
+title: "Hugging Face's TensorFlow Philosophy"
+description: ""
+summary: ""
+pubDate: "Fri, 12 Aug 2022 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/tensorflow-philosophy"
+thumbnail: ""
 ---
 
 Hugging Face's TensorFlow Philosophy

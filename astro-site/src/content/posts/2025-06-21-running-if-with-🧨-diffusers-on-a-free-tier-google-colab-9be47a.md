@@ -1,14 +1,11 @@
 ---
-title: Running IF with 🧨 diffusers on a Free Tier Google Colab
-description: ''
-summary: ''
-pubDate: Wed, 26 Apr 2023 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/if
+title: "Running IF with 🧨 diffusers on a Free Tier Google Colab"
+description: ""
+summary: ""
+pubDate: "Wed, 26 Apr 2023 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/if"
+thumbnail: ""
 ---
 
 Running IF with 🧨 diffusers on a Free Tier Google Colab

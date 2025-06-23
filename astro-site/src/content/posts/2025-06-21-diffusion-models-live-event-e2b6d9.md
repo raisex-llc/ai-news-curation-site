@@ -1,14 +1,11 @@
 ---
-title: Diffusion Models Live Event
-description: ''
-summary: ''
-pubDate: Fri, 25 Nov 2022 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/diffusion-models-event
+title: "Diffusion Models Live Event"
+description: ""
+summary: ""
+pubDate: "Fri, 25 Nov 2022 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/diffusion-models-event"
+thumbnail: ""
 ---
 
 Diffusion Models Live Event

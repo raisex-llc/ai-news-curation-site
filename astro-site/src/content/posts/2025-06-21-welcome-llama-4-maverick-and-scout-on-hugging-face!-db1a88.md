@@ -1,14 +1,11 @@
 ---
-title: Welcome Llama 4 Maverick & Scout on Hugging Face!
-description: ''
-summary: ''
-pubDate: Sat, 05 Apr 2025 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/llama4-release
+title: "Welcome Llama 4 Maverick & Scout on Hugging Face!"
+description: ""
+summary: ""
+pubDate: "Sat, 05 Apr 2025 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/llama4-release"
+thumbnail: ""
 ---
 
 Welcome Llama 4 Maverick & Scout on Hugging Face

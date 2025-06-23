@@ -1,14 +1,11 @@
 ---
-title: 🧨 Diffusers welcomes Stable Diffusion 3.5 Large
-description: ''
-summary: ''
-pubDate: Tue, 22 Oct 2024 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/sd3-5
+title: "🧨 Diffusers welcomes Stable Diffusion 3.5 Large"
+description: ""
+summary: ""
+pubDate: "Tue, 22 Oct 2024 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/sd3-5"
+thumbnail: ""
 ---
 
 🧨 Diffusers welcomes Stable Diffusion 3.5 Large

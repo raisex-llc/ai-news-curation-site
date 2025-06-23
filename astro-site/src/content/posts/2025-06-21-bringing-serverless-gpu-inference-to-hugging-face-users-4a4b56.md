@@ -1,14 +1,11 @@
 ---
-title: Bringing serverless GPU inference to Hugging Face users
-description: ''
-summary: ''
-pubDate: Tue, 02 Apr 2024 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/cloudflare-workers-ai
+title: "Bringing serverless GPU inference to Hugging Face users"
+description: ""
+summary: ""
+pubDate: "Tue, 02 Apr 2024 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/cloudflare-workers-ai"
+thumbnail: ""
 ---
 
 Bringing serverless GPU inference to Hugging Face users

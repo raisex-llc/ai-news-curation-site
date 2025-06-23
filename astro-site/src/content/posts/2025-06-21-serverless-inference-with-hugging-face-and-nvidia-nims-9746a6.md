@@ -1,14 +1,11 @@
 ---
-title: Serverless Inference with Hugging Face and NVIDIA NIMs
-description: ''
-summary: ''
-pubDate: Mon, 29 Jul 2024 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/inference-dgx-cloud
+title: "Serverless Inference with Hugging Face and NVIDIA NIMs"
+description: ""
+summary: ""
+pubDate: "Mon, 29 Jul 2024 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/inference-dgx-cloud"
+thumbnail: ""
 ---
 
 Serverless Inference with Hugging Face and NVIDIA NIM

@@ -1,14 +1,11 @@
 ---
-title: Stable Diffusion in JAX/Flax 🚀
-description: ''
-summary: ''
-pubDate: Thu, 13 Oct 2022 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/stable_diffusion_jax
+title: "Stable Diffusion in JAX/Flax 🚀"
+description: ""
+summary: ""
+pubDate: "Thu, 13 Oct 2022 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/stable_diffusion_jax"
+thumbnail: ""
 ---
 
 🧨 Stable Diffusion in JAX / Flax !

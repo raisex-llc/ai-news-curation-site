@@ -1,16 +1,11 @@
 ---
-title: With AI, researchers predict the location of virtually any protein within a
-  human cell
-description: Trained with a joint understanding of protein and cell behavior, the
-  model could help with diagnosing disease and developing new drugs.
-summary: Trained with a joint understanding of protein and cell behavior, the model
-  could help with diagnosing disease and develo
-pubDate: Thu, 15 May 2025 10:30:00 -0400
-source: MIT
-tags:
-- mit
-- ai
-url: https://news.mit.edu/2025/researchers-predict-protein-location-within-human-cell-using-ai-0515
+title: "With AI, researchers predict the location of virtually any protein within a human cell"
+description: "Trained with a joint understanding of protein and cell behavior, the model could help with diagnosing disease and developing new drugs."
+summary: "Trained with a joint understanding of protein and cell behavior, the model could help with diagnosing disease and develo"
+pubDate: "Thu, 15 May 2025 10:30:00 -0400"
+source: "MIT"
+url: "https://news.mit.edu/2025/researchers-predict-protein-location-within-human-cell-using-ai-0515"
+thumbnail: ""
 ---
 
 A protein located in the wrong part of a cell can contribute to several diseases, such as Alzheimer’s, cystic fibrosis, and cancer. But there are about 70,000 different proteins and protein variants in a single human cell, and since scientists can typically only test for a handful in one experiment, it is extremely costly and time-consuming to identify proteins’ locations manually.

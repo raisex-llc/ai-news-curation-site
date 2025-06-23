@@ -1,14 +1,11 @@
 ---
-title: Deep Q-Learning with Atari
-description: ''
-summary: ''
-pubDate: Tue, 07 Jun 2022 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/deep-rl-dqn
+title: "Deep Q-Learning with Atari"
+description: ""
+summary: ""
+pubDate: "Tue, 07 Jun 2022 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/deep-rl-dqn"
+thumbnail: ""
 ---
 
 Deep Q-Learning with Space Invaders

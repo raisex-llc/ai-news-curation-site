@@ -1,16 +1,11 @@
 ---
-title: A sounding board for strengthening the student experience
-description: Composed of “computing bilinguals,” the Undergraduate Advisory Group
-  provides vital input to help advance the mission of the MIT Schwarzman College of
-  Computing.
-summary: Composed of “computing bilinguals,” the Undergraduate Advisory Group provides
-  vital input to help advance the mission of
-pubDate: Tue, 17 Jun 2025 16:00:00 -0400
-source: MIT
-tags:
-- mit
-- ai
-url: https://news.mit.edu/2025/sounding-board-for-strengthening-student-experience-0617
+title: "A sounding board for strengthening the student experience"
+description: "Composed of “computing bilinguals,” the Undergraduate Advisory Group provides vital input to help advance the mission of the MIT Schwarzman College of Computing."
+summary: "Composed of “computing bilinguals,” the Undergraduate Advisory Group provides vital input to help advance the mission of"
+pubDate: "Tue, 17 Jun 2025 16:00:00 -0400"
+source: "MIT"
+url: "https://news.mit.edu/2025/sounding-board-for-strengthening-student-experience-0617"
+thumbnail: ""
 ---
 
 During his first year at MIT in 2021, Matthew Caren ’25 received an intriguing email inviting students to apply to become members of the MIT Schwarzman College of Computing’s (SCC) Undergraduate Advisory Group (UAG). He immediately shot off an application.

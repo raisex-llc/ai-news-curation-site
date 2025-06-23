@@ -1,14 +1,11 @@
 ---
-title: Transformer-based Encoder-Decoder Models
-description: ''
-summary: ''
-pubDate: Sat, 10 Oct 2020 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/encoder-decoder
+title: "Transformer-based Encoder-Decoder Models"
+description: ""
+summary: ""
+pubDate: "Sat, 10 Oct 2020 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/encoder-decoder"
+thumbnail: ""
 ---
 
 Transformers-based Encoder-Decoder Models

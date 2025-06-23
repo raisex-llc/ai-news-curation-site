@@ -1,17 +1,11 @@
 ---
-title: Introducing Gemini 2.5 Flash
-description: Gemini 2.5 Flash is our first fully hybrid reasoning model, giving developers
-  the ability to turn thinking on or off.
-summary: Gemini 2.5 Flash is our first fully hybrid reasoning model, giving developers
-  the ability to turn thinking on or off.
-pubDate: Thu, 17 Apr 2025 19:02:00 +0000
-source: DeepMind Blog
-tags:
-- deepmind
-- alpha
-- ai
-url: https://deepmind.google/discover/blog/introducing-gemini-2-5-flash/
-thumbnail: https://lh3.googleusercontent.com/oLv3Jl8j5l64yXU6YCE-238fqaeNuq9DOmOhksHZwUjJNDlB18xVehDswPohGRaN1cdArPSFA5cdZsXSqhFU-Jy5F6THyhGfo9L_QkZfNQDeKzxP2S8=w528-h297-n-nu-rw
+title: "Introducing Gemini 2.5 Flash"
+description: "Gemini 2.5 Flash is our first fully hybrid reasoning model, giving developers the ability to turn thinking on or off."
+summary: "Gemini 2.5 Flash is our first fully hybrid reasoning model, giving developers the ability to turn thinking on or off."
+pubDate: "Thu, 17 Apr 2025 19:02:00 +0000"
+source: "DeepMind Blog"
+url: "https://deepmind.google/discover/blog/introducing-gemini-2-5-flash/"
+thumbnail: "https://lh3.googleusercontent.com/oLv3Jl8j5l64yXU6YCE-238fqaeNuq9DOmOhksHZwUjJNDlB18xVehDswPohGRaN1cdArPSFA5cdZsXSqhFU-Jy5F6THyhGfo9L_QkZfNQDeKzxP2S8=w528-h297-n-nu-rw"
 ---
 
 Today we are rolling out an early version of Gemini 2.5 Flash in preview through the Gemini API via Google AI Studio and Vertex AI. Building upon the popular foundation of 2.0 Flash, this new version delivers a major upgrade in reasoning capabilities, while still prioritizing speed and cost. Gemini 2.5 Flash is our first fully hybrid reasoning model, giving developers the ability to turn thinking on or off. The model also allows developers to set thinking budgets to find the right tradeoff between quality, cost, and latency. Even with thinking off, developers can maintain the fast speeds of 2.0 Flash, and improve performance.

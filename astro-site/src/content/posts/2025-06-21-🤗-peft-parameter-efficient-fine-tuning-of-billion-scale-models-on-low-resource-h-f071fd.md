@@ -1,15 +1,11 @@
 ---
-title: '🤗 PEFT: Parameter-Efficient Fine-Tuning of Billion-Scale Models on Low-Resource
-  Hardware'
-description: ''
-summary: ''
-pubDate: Fri, 10 Feb 2023 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/peft
+title: "🤗 PEFT: Parameter-Efficient Fine-Tuning of Billion-Scale Models on Low-Resource Hardware"
+description: ""
+summary: ""
+pubDate: "Fri, 10 Feb 2023 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/peft"
+thumbnail: ""
 ---
 
 🤗 PEFT: Parameter-Efficient Fine-Tuning of Billion-Scale Models on Low-Resource Hardware

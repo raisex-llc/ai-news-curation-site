@@ -1,15 +1,11 @@
 ---
-title: Introducing Gemma 3
-description: The most capable model you can run on a single GPU or TPU.
-summary: The most capable model you can run on a single GPU or TPU.
-pubDate: Wed, 12 Mar 2025 08:00:00 +0000
-source: DeepMind Blog
-tags:
-- deepmind
-- alpha
-- ai
-url: https://deepmind.google/discover/blog/introducing-gemma-3/
-thumbnail: https://lh3.googleusercontent.com/pd84c3HIdaWj5JDWm1cMSvUcuFjmYxzpzlIzW8Cr9K8-W9IhbRCWhaIV97aeABjUDGEgxjFdC116y3YkWF3Y5G7bKiNQmtkA5CJbIn7lebU9mVF7SCA=w528-h297-n-nu-rw
+title: "Introducing Gemma 3"
+description: "The most capable model you can run on a single GPU or TPU."
+summary: "The most capable model you can run on a single GPU or TPU."
+pubDate: "Wed, 12 Mar 2025 08:00:00 +0000"
+source: "DeepMind Blog"
+url: "https://deepmind.google/discover/blog/introducing-gemma-3/"
+thumbnail: "https://lh3.googleusercontent.com/pd84c3HIdaWj5JDWm1cMSvUcuFjmYxzpzlIzW8Cr9K8-W9IhbRCWhaIV97aeABjUDGEgxjFdC116y3YkWF3Y5G7bKiNQmtkA5CJbIn7lebU9mVF7SCA=w528-h297-n-nu-rw"
 ---
 
 Introducing Gemma 3: The most capable model you can run on a single GPU or TPU

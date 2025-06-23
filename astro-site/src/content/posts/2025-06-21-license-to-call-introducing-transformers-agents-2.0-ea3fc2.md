@@ -1,14 +1,11 @@
 ---
-title: 'License to Call: Introducing Transformers Agents 2.0'
-description: ''
-summary: ''
-pubDate: Mon, 13 May 2024 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/agents
+title: "License to Call: Introducing Transformers Agents 2.0"
+description: ""
+summary: ""
+pubDate: "Mon, 13 May 2024 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/agents"
+thumbnail: ""
 ---
 
 License to Call: Introducing Transformers Agents 2.0

@@ -1,17 +1,11 @@
 ---
-title: Get an audio overview of Search results in Labs, then click through to learn
-  more.
-description: A phone screen showing Google search results with a section titled "Search
-  Labs | Audio Overviews" and an audio player.
-summary: A phone screen showing Google search results with a section titled "Search
-  Labs | Audio Overviews" and an audio player.
-pubDate: Fri, 13 Jun 2025 15:30:00 +0000
-source: Google AI Blog
-tags:
-- google
-- gemini
-- research
-url: https://blog.google/products/search/audio-overviews-search-labs/
+title: "Get an audio overview of Search results in Labs, then click through to learn more."
+description: "A phone screen showing Google search results with a section titled 'Search Labs | Audio Overviews' and an audio player."
+summary: "A phone screen showing Google search results with a section titled 'Search Labs | Audio Overviews' and an audio player."
+pubDate: "Fri, 13 Jun 2025 15:30:00 +0000"
+source: "Google AI Blog"
+url: "https://blog.google/products/search/audio-overviews-search-labs/"
+thumbnail: ""
 ---
 
 Today, we’re launching a new Search experiment in Labs – Audio Overviews, which uses our latest Gemini models to generate quick, conversational audio overviews for certain search queries. Searching for a topic you’re not familiar with? An audio overview can help you get a lay of the land, offering a convenient, hands-free way to absorb information whether you're multitasking or simply prefer an audio experience.

@@ -1,14 +1,11 @@
 ---
-title: Yes, Transformers are Effective for Time Series Forecasting (+ Autoformer)
-description: ''
-summary: ''
-pubDate: Fri, 16 Jun 2023 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/autoformer
+title: "Yes, Transformers are Effective for Time Series Forecasting (+ Autoformer)"
+description: ""
+summary: ""
+pubDate: "Fri, 16 Jun 2023 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/autoformer"
+thumbnail: ""
 ---
 
 Yes, Transformers are Effective for Time Series Forecasting (+ Autoformer)

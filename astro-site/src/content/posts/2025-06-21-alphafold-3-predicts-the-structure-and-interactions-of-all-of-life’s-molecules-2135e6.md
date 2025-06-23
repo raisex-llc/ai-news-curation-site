@@ -1,16 +1,11 @@
 ---
-title: AlphaFold 3 predicts the structure and interactions of all of life’s molecules
-description: Introducing a new AI model developed by Google DeepMind and Isomorphic
-  Labs.
-summary: Introducing a new AI model developed by Google DeepMind and Isomorphic Labs.
-pubDate: Wed, 08 May 2024 16:00:00 +0000
-source: DeepMind Blog
-tags:
-- deepmind
-- alpha
-- ai
-url: https://deepmind.google/discover/blog/alphafold-3-predicts-the-structure-and-interactions-of-all-lifes-molecules/
-thumbnail: https://lh3.googleusercontent.com/EGsJtAnEB_nw64x0pyREMShwOQagDgPTOH68kY2HwYK5IcYmnQfzSiHAen2Zu3MUosD7796BdM1Y095_n0FItZbFHI_VNs31mIppLTlkbgcIR674LQ=w528-h297-n-nu-rw
+title: "AlphaFold 3 predicts the structure and interactions of all of life’s molecules"
+description: "Introducing a new AI model developed by Google DeepMind and Isomorphic Labs."
+summary: "Introducing a new AI model developed by Google DeepMind and Isomorphic Labs."
+pubDate: "Wed, 08 May 2024 16:00:00 +0000"
+source: "DeepMind Blog"
+url: "https://deepmind.google/discover/blog/alphafold-3-predicts-the-structure-and-interactions-of-all-lifes-molecules/"
+thumbnail: "https://lh3.googleusercontent.com/EGsJtAnEB_nw64x0pyREMShwOQagDgPTOH68kY2HwYK5IcYmnQfzSiHAen2Zu3MUosD7796BdM1Y095_n0FItZbFHI_VNs31mIppLTlkbgcIR674LQ=w528-h297-n-nu-rw"
 ---
 
 AlphaFold 3 predicts the structure and interactions of all of life’s molecules

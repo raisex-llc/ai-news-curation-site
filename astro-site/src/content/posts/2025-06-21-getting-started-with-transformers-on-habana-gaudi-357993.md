@@ -1,14 +1,11 @@
 ---
-title: Getting Started with Transformers on Habana Gaudi
-description: ''
-summary: ''
-pubDate: Tue, 26 Apr 2022 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/getting-started-habana
+title: "Getting Started with Transformers on Habana Gaudi"
+description: ""
+summary: ""
+pubDate: "Tue, 26 Apr 2022 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/getting-started-habana"
+thumbnail: ""
 ---
 
 Getting Started with Transformers on Habana Gaudi

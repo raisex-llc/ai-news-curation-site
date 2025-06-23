@@ -1,14 +1,11 @@
 ---
-title: How 🤗 Accelerate runs very large models thanks to PyTorch
-description: ''
-summary: ''
-pubDate: Tue, 27 Sep 2022 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/accelerate-large-models
+title: "How 🤗 Accelerate runs very large models thanks to PyTorch"
+description: ""
+summary: ""
+pubDate: "Tue, 27 Sep 2022 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/accelerate-large-models"
+thumbnail: ""
 ---
 
 How 🤗 Accelerate runs very large models thanks to PyTorch

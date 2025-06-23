@@ -1,14 +1,11 @@
 ---
-title: 'Rocket Money x Hugging Face: Scaling Volatile ML Models in Production'
-description: ''
-summary: ''
-pubDate: Tue, 19 Sep 2023 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/rocketmoney-case-study
+title: "Rocket Money x Hugging Face: Scaling Volatile ML Models in Production"
+description: ""
+summary: ""
+pubDate: "Tue, 19 Sep 2023 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/rocketmoney-case-study"
+thumbnail: ""
 ---
 
 Rocket Money x Hugging Face: Scaling Volatile ML Models in Production

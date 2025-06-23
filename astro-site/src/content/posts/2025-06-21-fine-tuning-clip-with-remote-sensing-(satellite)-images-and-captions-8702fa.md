@@ -1,14 +1,11 @@
 ---
-title: Fine tuning CLIP with Remote Sensing (Satellite) images and captions
-description: ''
-summary: ''
-pubDate: Wed, 13 Oct 2021 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/fine-tune-clip-rsicd
+title: "Fine tuning CLIP with Remote Sensing (Satellite) images and captions"
+description: ""
+summary: ""
+pubDate: "Wed, 13 Oct 2021 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/fine-tune-clip-rsicd"
+thumbnail: ""
 ---
 
 Fine tuning CLIP with Remote Sensing (Satellite) images and captions

@@ -1,14 +1,11 @@
 ---
-title: Faster Stable Diffusion with Core ML on iPhone, iPad, and Mac
-description: ''
-summary: ''
-pubDate: Thu, 15 Jun 2023 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/fast-diffusers-coreml
+title: "Faster Stable Diffusion with Core ML on iPhone, iPad, and Mac"
+description: ""
+summary: ""
+pubDate: "Thu, 15 Jun 2023 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/fast-diffusers-coreml"
+thumbnail: ""
 ---
 
 Faster Stable Diffusion with Core ML on iPhone, iPad, and Mac

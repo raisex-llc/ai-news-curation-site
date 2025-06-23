@@ -1,14 +1,11 @@
 ---
-title: 'Finally, a Replacement for BERT: Introducing ModernBERT'
-description: ''
-summary: ''
-pubDate: Thu, 19 Dec 2024 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/modernbert
+title: "Finally, a Replacement for BERT: Introducing ModernBERT"
+description: ""
+summary: ""
+pubDate: "Thu, 19 Dec 2024 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/modernbert"
+thumbnail: ""
 ---
 
 Finally, a Replacement for BERT

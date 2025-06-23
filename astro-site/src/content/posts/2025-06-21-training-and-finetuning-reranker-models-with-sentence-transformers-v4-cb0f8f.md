@@ -1,14 +1,11 @@
 ---
-title: Training and Finetuning Reranker Models with Sentence Transformers v4
-description: ''
-summary: ''
-pubDate: Wed, 26 Mar 2025 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/train-reranker
+title: "Training and Finetuning Reranker Models with Sentence Transformers v4"
+description: ""
+summary: ""
+pubDate: "Wed, 26 Mar 2025 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/train-reranker"
+thumbnail: ""
 ---
 
 Training and Finetuning Reranker Models with Sentence Transformers v4

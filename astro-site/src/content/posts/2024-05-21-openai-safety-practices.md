@@ -1,10 +1,10 @@
 ---
-title: OpenAI safety practices
+title: "OpenAI safety practices"
 description: "Artificial general intelligence has the potential to benefit nearly every aspect of our lives—so it must be developed and deployed responsibly."
 summary: "Artificial general intelligence has the potential to benefit nearly every aspect of our lives—so it must be developed and deployed responsibly."
-pubDate: Tue, 21 May 2024 06:00:00 GMT
-source: OpenAI Blog
-url: https://openai.com/index/openai-safety-update
-
+pubDate: "Tue, 21 May 2024 06:00:00 GMT"
+source: "OpenAI Blog"
+url: "https://openai.com/index/openai-safety-update"
+thumbnail: ""
 ---
 

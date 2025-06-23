@@ -1,14 +1,11 @@
 ---
-title: Rearchitecting Hugging Face Uploads and Downloads
-description: ''
-summary: ''
-pubDate: Tue, 26 Nov 2024 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/rearchitecting-uploads-and-downloads
+title: "Rearchitecting Hugging Face Uploads and Downloads"
+description: ""
+summary: ""
+pubDate: "Tue, 26 Nov 2024 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/rearchitecting-uploads-and-downloads"
+thumbnail: ""
 ---
 
 Rearchitecting Hugging Face Uploads and Downloads

@@ -1,15 +1,11 @@
 ---
-title: How we really judge AI
-description: Forget optimists vs. Luddites. Most people evaluate AI based on its perceived
-  capability and their need for personalization.
-summary: Forget optimists vs. Luddites. Most people evaluate AI based on its perceived
-  capability and their need for personalizat
-pubDate: Tue, 10 Jun 2025 11:30:00 -0400
-source: MIT
-tags:
-- mit
-- ai
-url: https://news.mit.edu/2025/how-we-really-judge-ai-0610
+title: "How we really judge AI"
+description: "Forget optimists vs. Luddites. Most people evaluate AI based on its perceived capability and their need for personalization."
+summary: "Forget optimists vs. Luddites. Most people evaluate AI based on its perceived capability and their need for personalizat"
+pubDate: "Tue, 10 Jun 2025 11:30:00 -0400"
+source: "MIT"
+url: "https://news.mit.edu/2025/how-we-really-judge-ai-0610"
+thumbnail: ""
 ---
 
 Suppose you were shown that an artificial intelligence tool offers accurate predictions about some stocks you own. How would you feel about using it? Now, suppose you are applying for a job at a company where the HR department uses an AI system to screen resumes. Would you be comfortable with that?

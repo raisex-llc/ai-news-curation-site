@@ -1,14 +1,11 @@
 ---
-title: Generating Human-level Text with Contrastive Search in Transformers 🤗
-description: ''
-summary: ''
-pubDate: Tue, 08 Nov 2022 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/introducing-csearch
+title: "Generating Human-level Text with Contrastive Search in Transformers 🤗"
+description: ""
+summary: ""
+pubDate: "Tue, 08 Nov 2022 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/introducing-csearch"
+thumbnail: ""
 ---
 
 Generating Human-level Text with Contrastive Search in Transformers 🤗

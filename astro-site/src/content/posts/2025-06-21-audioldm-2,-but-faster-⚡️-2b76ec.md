@@ -1,14 +1,11 @@
 ---
-title: AudioLDM 2, but faster ⚡️
-description: ''
-summary: ''
-pubDate: Wed, 30 Aug 2023 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/audioldm2
+title: "AudioLDM 2, but faster ⚡️"
+description: ""
+summary: ""
+pubDate: "Wed, 30 Aug 2023 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/audioldm2"
+thumbnail: ""
 ---
 
 AudioLDM 2, but faster ⚡️

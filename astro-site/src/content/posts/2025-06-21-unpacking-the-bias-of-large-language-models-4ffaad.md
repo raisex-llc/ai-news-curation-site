@@ -1,15 +1,11 @@
 ---
-title: Unpacking the bias of large language models
-description: In a new study, researchers discover the root cause of a type of bias
-  in LLMs, paving the way for more accurate and reliable AI systems.
-summary: In a new study, researchers discover the root cause of a type of bias in
-  LLMs, paving the way for more accurate and reli
-pubDate: Tue, 17 Jun 2025 16:00:00 -0400
-source: MIT
-tags:
-- mit
-- ai
-url: https://news.mit.edu/2025/unpacking-large-language-model-bias-0617
+title: "Unpacking the bias of large language models"
+description: "In a new study, researchers discover the root cause of a type of bias in LLMs, paving the way for more accurate and reliable AI systems."
+summary: "In a new study, researchers discover the root cause of a type of bias in LLMs, paving the way for more accurate and reli"
+pubDate: "Tue, 17 Jun 2025 16:00:00 -0400"
+source: "MIT"
+url: "https://news.mit.edu/2025/unpacking-large-language-model-bias-0617"
+thumbnail: ""
 ---
 
 Research has shown that large language models (LLMs) tend to overemphasize information at the beginning and end of a document or conversation, while neglecting the middle.

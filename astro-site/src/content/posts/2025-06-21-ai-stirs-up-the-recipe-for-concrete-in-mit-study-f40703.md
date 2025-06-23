@@ -1,15 +1,11 @@
 ---
-title: AI stirs up the recipe for concrete in MIT study
-description: With demand for cement alternatives rising, an MIT team uses machine
-  learning to hunt for new ingredients across the scientific literature.
-summary: With demand for cement alternatives rising, an MIT team uses machine learning
-  to hunt for new ingredients across the sci
-pubDate: Mon, 02 Jun 2025 15:45:00 -0400
-source: MIT
-tags:
-- mit
-- ai
-url: https://news.mit.edu/2025/ai-stirs-recipe-for-concrete-0602
+title: "AI stirs up the recipe for concrete in MIT study"
+description: "With demand for cement alternatives rising, an MIT team uses machine learning to hunt for new ingredients across the scientific literature."
+summary: "With demand for cement alternatives rising, an MIT team uses machine learning to hunt for new ingredients across the sci"
+pubDate: "Mon, 02 Jun 2025 15:45:00 -0400"
+source: "MIT"
+url: "https://news.mit.edu/2025/ai-stirs-recipe-for-concrete-0602"
+thumbnail: ""
 ---
 
 For weeks, the whiteboard in the lab was crowded with scribbles, diagrams, and chemical formulas. A research team across the Olivetti Group and the MIT Concrete Sustainability Hub (CSHub) was working intensely on a key problem: How can we reduce the amount of cement in concrete to save on costs and emissions?

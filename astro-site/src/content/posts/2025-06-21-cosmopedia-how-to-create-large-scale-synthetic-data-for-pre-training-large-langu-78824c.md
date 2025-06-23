@@ -1,15 +1,11 @@
 ---
-title: 'Cosmopedia: how to create large-scale synthetic data for pre-training Large
-  Language Models'
-description: ''
-summary: ''
-pubDate: Wed, 20 Mar 2024 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/cosmopedia
+title: "Cosmopedia: how to create large-scale synthetic data for pre-training Large Language Models"
+description: ""
+summary: ""
+pubDate: "Wed, 20 Mar 2024 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/cosmopedia"
+thumbnail: ""
 ---
 
 Cosmopedia: how to create large-scale synthetic data for pre-training

@@ -1,14 +1,11 @@
 ---
-title: Fine-tuning 20B LLMs with RLHF on a 24GB consumer GPU
-description: ''
-summary: ''
-pubDate: Thu, 09 Mar 2023 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/trl-peft
+title: "Fine-tuning 20B LLMs with RLHF on a 24GB consumer GPU"
+description: ""
+summary: ""
+pubDate: "Thu, 09 Mar 2023 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/trl-peft"
+thumbnail: ""
 ---
 
 Fine-tuning 20B LLMs with RLHF on a 24GB consumer GPU

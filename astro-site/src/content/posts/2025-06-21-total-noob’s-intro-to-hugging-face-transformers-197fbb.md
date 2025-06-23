@@ -1,14 +1,11 @@
 ---
-title: Total noob’s intro to Hugging Face Transformers
-description: ''
-summary: ''
-pubDate: Fri, 22 Mar 2024 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/noob_intro_transformers
+title: "Total noob’s intro to Hugging Face Transformers"
+description: ""
+summary: ""
+pubDate: "Fri, 22 Mar 2024 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/noob_intro_transformers"
+thumbnail: ""
 ---
 
 Total noob’s intro to Hugging Face Transformers

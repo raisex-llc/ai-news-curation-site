@@ -1,14 +1,11 @@
 ---
-title: Controlling Language Model Generation with NVIDIA's LogitsProcessorZoo
-description: ''
-summary: ''
-pubDate: Mon, 23 Dec 2024 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/logits-processor-zoo
+title: "Controlling Language Model Generation with NVIDIA's LogitsProcessorZoo"
+description: ""
+summary: ""
+pubDate: "Mon, 23 Dec 2024 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/logits-processor-zoo"
+thumbnail: ""
 ---
 
 Controlling Language Model Generation with NVIDIA's LogitsProcessorZoo

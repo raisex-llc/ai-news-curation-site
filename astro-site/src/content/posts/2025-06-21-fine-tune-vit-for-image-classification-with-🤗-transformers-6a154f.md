@@ -1,14 +1,11 @@
 ---
-title: Fine-Tune ViT for Image Classification with 🤗 Transformers
-description: ''
-summary: ''
-pubDate: Fri, 11 Feb 2022 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/fine-tune-vit
+title: "Fine-Tune ViT for Image Classification with 🤗 Transformers"
+description: ""
+summary: ""
+pubDate: "Fri, 11 Feb 2022 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/fine-tune-vit"
+thumbnail: ""
 ---
 
 Fine-Tune ViT for Image Classification with 🤗 Transformers

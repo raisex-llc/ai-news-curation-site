@@ -1,14 +1,11 @@
 ---
-title: Accelerate your models with 🤗 Optimum Intel and OpenVINO
-description: ''
-summary: ''
-pubDate: Wed, 02 Nov 2022 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/openvino
+title: "Accelerate your models with 🤗 Optimum Intel and OpenVINO"
+description: ""
+summary: ""
+pubDate: "Wed, 02 Nov 2022 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/openvino"
+thumbnail: ""
 ---
 
 Accelerate your models with 🤗 Optimum Intel and OpenVINO

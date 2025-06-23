@@ -1,17 +1,11 @@
 ---
-title: Start building with Gemini 2.0 Flash and Flash-Lite
-description: Gemini 2.0 Flash-Lite is now generally available in the Gemini API for
-  production use in Google AI Studio and for enterprise customers on Vertex AI
-summary: Gemini 2.0 Flash-Lite is now generally available in the Gemini API for production
-  use in Google AI Studio and for enterp
-pubDate: Tue, 25 Feb 2025 18:02:12 +0000
-source: DeepMind Blog
-tags:
-- deepmind
-- alpha
-- ai
-url: https://deepmind.google/discover/blog/start-building-with-gemini-20-flash-and-flash-lite/
-thumbnail: https://lh3.googleusercontent.com/ppuR9mrJez2EawCQCHGzrYEoXiZJavMD77HIMV0icT4X-clg7Ss42pO-mPQrvVwBVZ8-9tEXPf91f7ARmwLOOsKtSe5-0DLLEavnhI6uK3UFMRMM=w528-h297-n-nu-rw
+title: "Start building with Gemini 2.0 Flash and Flash-Lite"
+description: "Gemini 2.0 Flash-Lite is now generally available in the Gemini API for production use in Google AI Studio and for enterprise customers on Vertex AI"
+summary: "Gemini 2.0 Flash-Lite is now generally available in the Gemini API for production use in Google AI Studio and for enterp"
+pubDate: "Tue, 25 Feb 2025 18:02:12 +0000"
+source: "DeepMind Blog"
+url: "https://deepmind.google/discover/blog/start-building-with-gemini-20-flash-and-flash-lite/"
+thumbnail: "https://lh3.googleusercontent.com/ppuR9mrJez2EawCQCHGzrYEoXiZJavMD77HIMV0icT4X-clg7Ss42pO-mPQrvVwBVZ8-9tEXPf91f7ARmwLOOsKtSe5-0DLLEavnhI6uK3UFMRMM=w528-h297-n-nu-rw"
 ---
 
 Since the launch of the Gemini 2.0 Flash model family, developers are discovering new use cases for this highly efficient family of models. Gemini 2.0 Flash offers stronger performance over 1.5 Flash and 1.5 Pro, plus simplified pricing that makes our 1 million token context window more affordable.

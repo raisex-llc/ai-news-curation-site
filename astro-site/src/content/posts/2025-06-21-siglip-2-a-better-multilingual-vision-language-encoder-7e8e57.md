@@ -1,14 +1,11 @@
 ---
-title: 'SigLIP 2: A better multilingual vision language encoder'
-description: ''
-summary: ''
-pubDate: Fri, 21 Feb 2025 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/siglip2
+title: "SigLIP 2: A better multilingual vision language encoder"
+description: ""
+summary: ""
+pubDate: "Fri, 21 Feb 2025 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/siglip2"
+thumbnail: ""
 ---
 
 SigLIP 2: A better multilingual vision language encoder

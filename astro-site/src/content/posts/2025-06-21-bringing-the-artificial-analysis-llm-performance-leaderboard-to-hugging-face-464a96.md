@@ -1,14 +1,11 @@
 ---
-title: Bringing the Artificial Analysis LLM Performance Leaderboard to Hugging Face
-description: ''
-summary: ''
-pubDate: Fri, 03 May 2024 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/leaderboard-artificial-analysis
+title: "Bringing the Artificial Analysis LLM Performance Leaderboard to Hugging Face"
+description: ""
+summary: ""
+pubDate: "Fri, 03 May 2024 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/leaderboard-artificial-analysis"
+thumbnail: ""
 ---
 
 Bringing the Artificial Analysis LLM Performance Leaderboard to Hugging Face

@@ -1,14 +1,11 @@
 ---
-title: 'Faster Training and Inference: Habana Gaudi®2 vs Nvidia A100 80GB'
-description: ''
-summary: ''
-pubDate: Wed, 14 Dec 2022 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/habana-gaudi-2-benchmark
+title: "Faster Training and Inference: Habana Gaudi®2 vs Nvidia A100 80GB"
+description: ""
+summary: ""
+pubDate: "Wed, 14 Dec 2022 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/habana-gaudi-2-benchmark"
+thumbnail: ""
 ---
 
 Faster Training and Inference: Habana Gaudi®-2 vs Nvidia A100 80GB

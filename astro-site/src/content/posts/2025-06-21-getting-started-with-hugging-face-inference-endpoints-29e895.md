@@ -1,14 +1,11 @@
 ---
-title: Getting started with Hugging Face Inference Endpoints
-description: ''
-summary: ''
-pubDate: Fri, 14 Oct 2022 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/inference-endpoints
+title: "Getting started with Hugging Face Inference Endpoints"
+description: ""
+summary: ""
+pubDate: "Fri, 14 Oct 2022 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/inference-endpoints"
+thumbnail: ""
 ---
 
 Getting Started with Hugging Face Inference Endpoints

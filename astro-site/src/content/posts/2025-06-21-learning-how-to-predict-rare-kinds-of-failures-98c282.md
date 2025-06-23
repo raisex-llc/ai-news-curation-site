@@ -1,15 +1,11 @@
 ---
-title: Learning how to predict rare kinds of failures
-description: Researchers are developing algorithms to predict failures when automation
-  meets the real world in areas like air traffic scheduling or autonomous vehicles.
-summary: Researchers are developing algorithms to predict failures when automation
-  meets the real world in areas like air traffic
-pubDate: Wed, 21 May 2025 16:35:00 -0400
-source: MIT
-tags:
-- mit
-- ai
-url: https://news.mit.edu/2025/learning-how-predict-rare-kinds-failures-0521
+title: "Learning how to predict rare kinds of failures"
+description: "Researchers are developing algorithms to predict failures when automation meets the real world in areas like air traffic scheduling or autonomous vehicles."
+summary: "Researchers are developing algorithms to predict failures when automation meets the real world in areas like air traffic"
+pubDate: "Wed, 21 May 2025 16:35:00 -0400"
+source: "MIT"
+url: "https://news.mit.edu/2025/learning-how-predict-rare-kinds-failures-0521"
+thumbnail: ""
 ---
 
 On Dec. 21, 2022, just as peak holiday season travel was getting underway, Southwest Airlines went through a cascading series of failures in their scheduling, initially triggered by severe winter weather in the Denver area. But the problems spread through their network, and over the course of the next 10 days the crisis ended up stranding over 2 million passengers and causing losses of $750 million for the airline.

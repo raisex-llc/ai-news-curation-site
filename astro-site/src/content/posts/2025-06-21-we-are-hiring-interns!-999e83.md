@@ -1,14 +1,11 @@
 ---
-title: We are hiring interns!
-description: ''
-summary: ''
-pubDate: Tue, 29 Nov 2022 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/interns-2023
+title: "We are hiring interns!"
+description: ""
+summary: ""
+pubDate: "Tue, 29 Nov 2022 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/interns-2023"
+thumbnail: ""
 ---
 
 We are hiring interns!

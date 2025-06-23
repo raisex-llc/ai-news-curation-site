@@ -1,15 +1,11 @@
 ---
-title: 'BigCodeBench: Benchmarking Large Language Models on Solving Practical and
-  Challenging Programming Tasks'
-description: ''
-summary: ''
-pubDate: Tue, 18 Jun 2024 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/leaderboard-bigcodebench
+title: "BigCodeBench: Benchmarking Large Language Models on Solving Practical and Challenging Programming Tasks"
+description: ""
+summary: ""
+pubDate: "Tue, 18 Jun 2024 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/leaderboard-bigcodebench"
+thumbnail: ""
 ---
 
 BigCodeBench: The Next Generation of HumanEval

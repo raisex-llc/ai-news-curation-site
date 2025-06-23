@@ -1,14 +1,11 @@
 ---
-title: 'SetFit: Efficient Few-Shot Learning Without Prompts'
-description: ''
-summary: ''
-pubDate: Mon, 26 Sep 2022 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/setfit
+title: "SetFit: Efficient Few-Shot Learning Without Prompts"
+description: ""
+summary: ""
+pubDate: "Mon, 26 Sep 2022 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/setfit"
+thumbnail: ""
 ---
 
 SetFit: Efficient Few-Shot Learning Without Prompts

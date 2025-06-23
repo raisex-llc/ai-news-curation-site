@@ -1,14 +1,11 @@
 ---
-title: Announcing New Dataset Search Features
-description: ''
-summary: ''
-pubDate: Mon, 08 Jul 2024 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/datasets-filters
+title: "Announcing New Dataset Search Features"
+description: ""
+summary: ""
+pubDate: "Mon, 08 Jul 2024 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/datasets-filters"
+thumbnail: ""
 ---
 
 Announcing New Dataset Search Features

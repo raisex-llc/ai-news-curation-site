@@ -1,14 +1,11 @@
 ---
-title: 'Director of Machine Learning Insights [Part 2: SaaS Edition]'
-description: ''
-summary: ''
-pubDate: Fri, 13 May 2022 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/ml-director-insights-2
+title: "Director of Machine Learning Insights [Part 2: SaaS Edition]"
+description: ""
+summary: ""
+pubDate: "Fri, 13 May 2022 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/ml-director-insights-2"
+thumbnail: ""
 ---
 
 Director of Machine Learning Insights [Part 2: SaaS Edition]

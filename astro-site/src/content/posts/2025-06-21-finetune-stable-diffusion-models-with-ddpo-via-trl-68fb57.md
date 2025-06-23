@@ -1,14 +1,11 @@
 ---
-title: Finetune Stable Diffusion Models with DDPO via TRL
-description: ''
-summary: ''
-pubDate: Fri, 29 Sep 2023 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/trl-ddpo
+title: "Finetune Stable Diffusion Models with DDPO via TRL"
+description: ""
+summary: ""
+pubDate: "Fri, 29 Sep 2023 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/trl-ddpo"
+thumbnail: ""
 ---
 
 Finetune Stable Diffusion Models with DDPO via TRL

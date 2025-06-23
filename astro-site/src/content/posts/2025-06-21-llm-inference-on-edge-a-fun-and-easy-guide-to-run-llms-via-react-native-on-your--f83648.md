@@ -1,15 +1,11 @@
 ---
-title: 'LLM Inference on Edge: A Fun and Easy Guide to run LLMs via React Native on
-  your Phone!'
-description: ''
-summary: ''
-pubDate: Fri, 07 Mar 2025 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/llm-inference-on-edge
+title: "LLM Inference on Edge: A Fun and Easy Guide to run LLMs via React Native on your Phone!"
+description: ""
+summary: ""
+pubDate: "Fri, 07 Mar 2025 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/llm-inference-on-edge"
+thumbnail: ""
 ---
 
 LLM Inference on Edge: A Fun and Easy Guide to run LLMs via React Native on your Phone!

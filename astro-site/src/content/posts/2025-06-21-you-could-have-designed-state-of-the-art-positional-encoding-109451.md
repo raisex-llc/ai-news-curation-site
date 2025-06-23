@@ -1,14 +1,11 @@
 ---
-title: You could have designed state of the art positional encoding
-description: ''
-summary: ''
-pubDate: Mon, 25 Nov 2024 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/designing-positional-encoding
+title: "You could have designed state of the art positional encoding"
+description: ""
+summary: ""
+pubDate: "Mon, 25 Nov 2024 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/designing-positional-encoding"
+thumbnail: ""
 ---
 
 You could have designed state of the art positional encoding

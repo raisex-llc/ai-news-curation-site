@@ -1,14 +1,11 @@
 ---
-title: 'The Transformers Library: standardizing model definitions'
-description: ''
-summary: ''
-pubDate: Thu, 15 May 2025 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/transformers-model-definition
+title: "The Transformers Library: standardizing model definitions"
+description: ""
+summary: ""
+pubDate: "Thu, 15 May 2025 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/transformers-model-definition"
+thumbnail: ""
 ---
 
 The Transformers Library: standardizing model definitions

@@ -1,15 +1,11 @@
 ---
-title: 'NPHardEval Leaderboard: Unveiling the Reasoning Abilities of Large Language
-  Models through Complexity Classes and Dynamic Updates'
-description: ''
-summary: ''
-pubDate: Fri, 02 Feb 2024 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/leaderboard-nphardeval
+title: "NPHardEval Leaderboard: Unveiling the Reasoning Abilities of Large Language Models through Complexity Classes and Dynamic Updates"
+description: ""
+summary: ""
+pubDate: "Fri, 02 Feb 2024 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/leaderboard-nphardeval"
+thumbnail: ""
 ---
 
 NPHardEval Leaderboard: Unveiling the Reasoning Abilities of Large Language Models through Complexity Classes and Dynamic Updates

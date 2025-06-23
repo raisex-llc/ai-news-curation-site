@@ -1,10 +1,10 @@
 ---
-title: Building AI-powered apps for business
+title: "Building AI-powered apps for business"
 description: "Retool uses GPT-4 to give businesses a fast, secure way to build AI-powered apps."
 summary: "Retool uses GPT-4 to give businesses a fast, secure way to build AI-powered apps."
-pubDate: Wed, 11 Oct 2023 07:00:00 GMT
-source: OpenAI Blog
-url: https://openai.com/index/retool
-
+pubDate: "Wed, 11 Oct 2023 07:00:00 GMT"
+source: "OpenAI Blog"
+url: "https://openai.com/index/retool"
+thumbnail: ""
 ---
 

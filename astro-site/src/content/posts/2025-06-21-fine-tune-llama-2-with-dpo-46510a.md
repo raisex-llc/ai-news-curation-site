@@ -1,14 +1,11 @@
 ---
-title: Fine-tune Llama 2 with DPO
-description: ''
-summary: ''
-pubDate: Tue, 08 Aug 2023 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/dpo-trl
+title: "Fine-tune Llama 2 with DPO"
+description: ""
+summary: ""
+pubDate: "Tue, 08 Aug 2023 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/dpo-trl"
+thumbnail: ""
 ---
 
 Fine-tune Llama 2 with DPO

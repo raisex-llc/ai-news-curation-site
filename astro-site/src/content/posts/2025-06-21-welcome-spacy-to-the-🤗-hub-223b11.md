@@ -1,14 +1,11 @@
 ---
-title: Welcome spaCy to the 🤗 Hub
-description: ''
-summary: ''
-pubDate: Tue, 13 Jul 2021 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/spacy
+title: "Welcome spaCy to the 🤗 Hub"
+description: ""
+summary: ""
+pubDate: "Tue, 13 Jul 2021 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/spacy"
+thumbnail: ""
 ---
 
 Welcome spaCy to the Hugging Face Hub

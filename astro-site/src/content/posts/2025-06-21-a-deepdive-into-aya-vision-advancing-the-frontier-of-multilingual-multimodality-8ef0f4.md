@@ -1,14 +1,11 @@
 ---
-title: 'A Deepdive into Aya Vision: Advancing the Frontier of Multilingual Multimodality'
-description: ''
-summary: ''
-pubDate: Tue, 04 Mar 2025 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/aya-vision
+title: "A Deepdive into Aya Vision: Advancing the Frontier of Multilingual Multimodality"
+description: ""
+summary: ""
+pubDate: "Tue, 04 Mar 2025 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/aya-vision"
+thumbnail: ""
 ---
 
 A Deepdive into Aya Vision: Advancing the Frontier of Multilingual Multimodality

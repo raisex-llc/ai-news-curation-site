@@ -1,16 +1,11 @@
 ---
-title: MIT Department of Economics to launch James M. and Cathleen D. Stone Center
-  on Inequality and Shaping the Future of Work
-description: With support from the Stone Foundation, the center will advance cutting-edge
-  research and inform policy.
-summary: With support from the Stone Foundation, the center will advance cutting-edge
-  research and inform policy.
-pubDate: Tue, 13 May 2025 16:35:00 -0400
-source: MIT
-tags:
-- mit
-- ai
-url: https://news.mit.edu/2025/mit-economics-department-launches-james-cathleen-stone-center-inequality-shaping-future-work-0513
+title: "MIT Department of Economics to launch James M. and Cathleen D. Stone Center on Inequality and Shaping the Future of Work"
+description: "With support from the Stone Foundation, the center will advance cutting-edge research and inform policy."
+summary: "With support from the Stone Foundation, the center will advance cutting-edge research and inform policy."
+pubDate: "Tue, 13 May 2025 16:35:00 -0400"
+source: "MIT"
+url: "https://news.mit.edu/2025/mit-economics-department-launches-james-cathleen-stone-center-inequality-shaping-future-work-0513"
+thumbnail: ""
 ---
 
 Starting in July, MIT’s Shaping the Future of Work Initiative in the Department of Economics will usher in a significant new era of research, policy, and education of the next generation of scholars, made possible by a gift from the James M. and Cathleen D. Stone Foundation. In recognition of the gift and the expansion of priorities it supports, on July 1 the initiative will become part of the new James M. and Cathleen D. Stone Center on Inequality and Shaping the Future of Work. This center will be officially launched at a public event in fall 2025.

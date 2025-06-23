@@ -1,14 +1,11 @@
 ---
-title: Deploying Speech-to-Speech on Hugging Face
-description: ''
-summary: ''
-pubDate: Tue, 22 Oct 2024 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/s2s_endpoint
+title: "Deploying Speech-to-Speech on Hugging Face"
+description: ""
+summary: ""
+pubDate: "Tue, 22 Oct 2024 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/s2s_endpoint"
+thumbnail: ""
 ---
 
 Deploying Speech-to-Speech on Hugging Face

@@ -1,16 +1,11 @@
 ---
-title: Combining technology, education, and human connection to improve online learning
-description: Caitlin Morris, a PhD student and 2024 MAD Fellow affiliated with the
-  MIT Media Lab, designs digital learning platforms that make room for the “social
-  magic” that influences curiosity and motivation.
-summary: 'Caitlin Morris, a PhD student and 2024 MAD Fellow affiliated with the MIT
-  Media Lab, designs digital learning platforms '
-pubDate: Tue, 17 Jun 2025 16:25:00 -0400
-source: MIT
-tags:
-- mit
-- ai
-url: https://news.mit.edu/2025/caitlin-morris-combines-tech-education-human-connection-improve-online-learning-0617
+title: "Combining technology, education, and human connection to improve online learning"
+description: "Caitlin Morris, a PhD student and 2024 MAD Fellow affiliated with the MIT Media Lab, designs digital learning platforms that make room for the “social magic” that influences curiosity and motivation."
+summary: "Caitlin Morris, a PhD student and 2024 MAD Fellow affiliated with the MIT Media Lab, designs digital learning platforms"
+pubDate: "Tue, 17 Jun 2025 16:25:00 -0400"
+source: "MIT"
+url: "https://news.mit.edu/2025/caitlin-morris-combines-tech-education-human-connection-improve-online-learning-0617"
+thumbnail: ""
 ---
 
 MIT Morningside Academy for Design (MAD) Fellow Caitlin Morris is an architect, artist, researcher, and educator who has studied psychology and used online learning tools to teach herself coding and other skills. She’s a soft-spoken observer, with a keen interest in how people use space and respond to their environments. Combining her observational skills with active community engagement, she works at the intersection of technology, education, and human connection to improve digital learning platforms.

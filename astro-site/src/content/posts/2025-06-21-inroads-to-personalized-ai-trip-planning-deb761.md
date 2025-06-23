@@ -1,16 +1,11 @@
 ---
-title: Inroads to personalized AI trip planning
-description: A new framework from the MIT-IBM Watson AI Lab supercharges language
-  models, so they can reason over, interactively develop, and verify valid, complex
-  travel agendas.
-summary: A new framework from the MIT-IBM Watson AI Lab supercharges language models,
-  so they can reason over, interactively deve
-pubDate: Tue, 10 Jun 2025 15:00:00 -0400
-source: MIT
-tags:
-- mit
-- ai
-url: https://news.mit.edu/2025/inroads-personalized-ai-trip-planning-0610
+title: "Inroads to personalized AI trip planning"
+description: "A new framework from the MIT-IBM Watson AI Lab supercharges language models, so they can reason over, interactively develop, and verify valid, complex travel agendas."
+summary: "A new framework from the MIT-IBM Watson AI Lab supercharges language models, so they can reason over, interactively deve"
+pubDate: "Tue, 10 Jun 2025 15:00:00 -0400"
+source: "MIT"
+url: "https://news.mit.edu/2025/inroads-personalized-ai-trip-planning-0610"
+thumbnail: ""
 ---
 
 Travel agents help to provide end-to-end logistics — like transportation, accommodations, meals, and lodging — for businesspeople, vacationers, and everyone in between. For those looking to make their own arrangements, large language models (LLMs) seem like they would be a strong tool to employ for this task because of their ability to iteratively interact using natural language, provide some commonsense reasoning, collect information, and call other tools in to help with the task at hand. However, recent work has found that state-of-the-art LLMs struggle with complex logistical and mathematical reasoning, as well as problems with multiple constraints, like trip planning, where they’ve been found to provide viable solutions 4 percent or less of the time, even with additional tools and application programming interfaces (APIs).

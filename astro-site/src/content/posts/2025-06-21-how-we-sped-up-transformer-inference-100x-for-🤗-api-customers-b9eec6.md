@@ -1,14 +1,11 @@
 ---
-title: How we sped up transformer inference 100x for 🤗 API customers
-description: ''
-summary: ''
-pubDate: Mon, 18 Jan 2021 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/accelerated-inference
+title: "How we sped up transformer inference 100x for 🤗 API customers"
+description: ""
+summary: ""
+pubDate: "Mon, 18 Jan 2021 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/accelerated-inference"
+thumbnail: ""
 ---
 
 How we sped up transformer inference 100x for 🤗 API customers

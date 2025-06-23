@@ -1,14 +1,11 @@
 ---
-title: Machine Learning Experts - Sasha Luccioni Interview
-description: ''
-summary: ''
-pubDate: Tue, 17 May 2022 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/sasha-luccioni-interview
+title: "Machine Learning Experts - Sasha Luccioni Interview"
+description: ""
+summary: ""
+pubDate: "Tue, 17 May 2022 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/sasha-luccioni-interview"
+thumbnail: ""
 ---
 
 Machine Learning Experts - Sasha Luccioni

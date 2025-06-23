@@ -1,17 +1,11 @@
 ---
-title: Images altered to trick machine vision can influence humans too
-description: In a series of experiments published in Nature Communications, we found
-  evidence that human judgments are indeed systematically influenced by adversarial
-  perturbations.
-summary: In a series of experiments published in Nature Communications, we found evidence
-  that human judgments are indeed systema
-pubDate: Tue, 02 Jan 2024 16:00:00 +0000
-source: DeepMind Blog
-tags:
-- deepmind
-- alpha
-- ai
-url: https://deepmind.google/discover/blog/images-altered-to-trick-machine-vision-can-influence-humans-too/
+title: "Images altered to trick machine vision can influence humans too"
+description: "In a series of experiments published in Nature Communications, we found evidence that human judgments are indeed systematically influenced by adversarial perturbations."
+summary: "In a series of experiments published in Nature Communications, we found evidence that human judgments are indeed systema"
+pubDate: "Tue, 02 Jan 2024 16:00:00 +0000"
+source: "DeepMind Blog"
+url: "https://deepmind.google/discover/blog/images-altered-to-trick-machine-vision-can-influence-humans-too/"
+thumbnail: ""
 ---
 
 Research

@@ -1,14 +1,11 @@
 ---
-title: Deploy MusicGen in no time with Inference Endpoints
-description: ''
-summary: ''
-pubDate: Fri, 04 Aug 2023 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/run-musicgen-as-an-api
+title: "Deploy MusicGen in no time with Inference Endpoints"
+description: ""
+summary: ""
+pubDate: "Fri, 04 Aug 2023 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/run-musicgen-as-an-api"
+thumbnail: ""
 ---
 
 Deploy MusicGen in no time with Inference Endpoints

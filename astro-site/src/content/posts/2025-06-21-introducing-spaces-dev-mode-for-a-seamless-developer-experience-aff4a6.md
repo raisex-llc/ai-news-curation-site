@@ -1,14 +1,11 @@
 ---
-title: Introducing Spaces Dev Mode for a seamless developer experience
-description: ''
-summary: ''
-pubDate: Tue, 21 May 2024 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/spaces-dev-mode
+title: "Introducing Spaces Dev Mode for a seamless developer experience"
+description: ""
+summary: ""
+pubDate: "Tue, 21 May 2024 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/spaces-dev-mode"
+thumbnail: ""
 ---
 
 Introducing Spaces Dev Mode for a seamless developer experience

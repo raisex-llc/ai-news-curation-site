@@ -1,10 +1,10 @@
 ---
-title: Fine-tuning GPT-3 to scale video creation
+title: "Fine-tuning GPT-3 to scale video creation"
 description: "Fine-tuning GPT-3 to power and scale done-for-you video creation."
 summary: "Fine-tuning GPT-3 to power and scale done-for-you video creation."
-pubDate: Tue, 03 Jan 2023 08:00:00 GMT
-source: OpenAI Blog
-url: https://openai.com/index/waymark
-
+pubDate: "Tue, 03 Jan 2023 08:00:00 GMT"
+source: "OpenAI Blog"
+url: "https://openai.com/index/waymark"
+thumbnail: ""
 ---
 

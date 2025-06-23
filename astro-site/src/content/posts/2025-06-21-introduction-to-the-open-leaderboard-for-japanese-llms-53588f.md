@@ -1,14 +1,11 @@
 ---
-title: Introduction to the Open Leaderboard for Japanese LLMs
-description: ''
-summary: ''
-pubDate: Wed, 20 Nov 2024 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/leaderboard-japanese
+title: "Introduction to the Open Leaderboard for Japanese LLMs"
+description: ""
+summary: ""
+pubDate: "Wed, 20 Nov 2024 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/leaderboard-japanese"
+thumbnail: ""
 ---
 
 Introduction to the Open Leaderboard for Japanese LLMs

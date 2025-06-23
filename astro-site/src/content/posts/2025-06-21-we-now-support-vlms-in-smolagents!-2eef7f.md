@@ -1,14 +1,11 @@
 ---
-title: We now support VLMs in smolagents!
-description: ''
-summary: ''
-pubDate: Fri, 24 Jan 2025 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/smolagents-can-see
+title: "We now support VLMs in smolagents!"
+description: ""
+summary: ""
+pubDate: "Fri, 24 Jan 2025 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/smolagents-can-see"
+thumbnail: ""
 ---
 
 We just gave sight to smolagents

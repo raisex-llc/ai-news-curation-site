@@ -1,14 +1,11 @@
 ---
-title: 'Director of Machine Learning Insights [Part 3: Finance Edition]'
-description: ''
-summary: ''
-pubDate: Tue, 14 Jun 2022 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/ml-director-insights-3
+title: "Director of Machine Learning Insights [Part 3: Finance Edition]"
+description: ""
+summary: ""
+pubDate: "Tue, 14 Jun 2022 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/ml-director-insights-3"
+thumbnail: ""
 ---
 
 Director of Machine Learning Insights [Part 3: Finance Edition]

@@ -1,14 +1,11 @@
 ---
-title: Hyperparameter Search with Transformers and Ray Tune
-description: ''
-summary: ''
-pubDate: Mon, 02 Nov 2020 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/ray-tune
+title: "Hyperparameter Search with Transformers and Ray Tune"
+description: ""
+summary: ""
+pubDate: "Mon, 02 Nov 2020 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/ray-tune"
+thumbnail: ""
 ---
 
 Hyperparameter Search with Transformers and Ray Tune

@@ -1,14 +1,11 @@
 ---
-title: Introducing the Open Chain of Thought Leaderboard
-description: ''
-summary: ''
-pubDate: Tue, 23 Apr 2024 00:00:00 GMT
-source: Hugging Face Blog
-tags:
-- huggingface
-- transformers
-- nlp
-url: https://huggingface.co/blog/leaderboard-cot
+title: "Introducing the Open Chain of Thought Leaderboard"
+description: ""
+summary: ""
+pubDate: "Tue, 23 Apr 2024 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/leaderboard-cot"
+thumbnail: ""
 ---
 
 Introducing the Open Chain of Thought Leaderboard
