@@ -1,15 +1,16 @@
 ---
 // layouts/Layout.astro
 const { currentPage, totalPages, sort } = Astro.props;
-const q = Astro.url?.searchParams.get('q') || '';
-const media = Astro.url?.searchParams.get('media') || '';
+const q = Astro.url?.searchParams.get("q") || "";
+const media = Astro.url?.searchParams.get("media") || "";
 
-// ✅ クエリ文字列を組み立て
+// ✅ クエリ文字列を組み立て（ページ遷移リンク用）
 const queryString = [q && `q=${encodeURIComponent(q)}`, media && `media=${encodeURIComponent(media)}`]
   .filter(Boolean)
-  .join('&');
-const qs = queryString ? `?${queryString}` : '';
+  .join("&");
+const qs = queryString ? `?${queryString}` : "";
 ---
+
 <html lang="ja">
   <head>
     <meta charset="UTF-8" />
@@ -18,7 +19,7 @@ const qs = queryString ? `?${queryString}` : '';
     <script src="/ai-news-curation-site/search.js" defer></script>
   </head>
   <body class="bg-gray-100 text-gray-800">
-    <!-- ✅ 固定ヘッダー -->
+    <!-- ✅ ヘッダー -->
     <header id="top" class="sticky top-0 z-50 bg-white border-b border-gray-200 px-4 py-3">
       <div class="max-w-[960px] mx-auto flex flex-col md:flex-row md:items-center md:justify-between gap-2">
         <!-- 左：ロゴ＆タイトル -->
@@ -34,30 +35,32 @@ const qs = queryString ? `?${queryString}` : '';
         )}
       </div>
 
-      <!-- 中段：検索フォーム2列 -->
+      <!-- ✅ 検索フォーム -->
       <div class="mt-3 flex flex-col sm:flex-row justify-center items-center gap-4 px-2 w-full">
-        <!-- プルダウン -->
-        <form action="" method="get" class="flex gap-2 w-full sm:w-auto justify-center">
+        <!-- プルダウン：媒体名 -->
+        <form method="get" class="flex gap-2 w-full sm:w-auto justify-center">
+          <input type="hidden" name="q" value={q} />
           <select name="media" class="text-sm border rounded px-2 py-1 w-full sm:w-60">
             <option value="">媒体名で検索</option>
-            <option value="arXiv AI" selected={media === 'arXiv AI'}>arXiv AI</option>
-            <option value="Hugging Face Blog" selected={media === 'Hugging Face Blog'}>Hugging Face Blog</option>
-            <option value="OpenAI Blog" selected={media === 'OpenAI Blog'}>OpenAI Blog</option>
-            <option value="Google AI Blog" selected={media === 'Google AI Blog'}>Google AI Blog</option>
-            <option value="Microsoft Research Blog" selected={media === 'Microsoft Research Blog'}>Microsoft Research Blog</option>
-            <option value="DeepMind Blog" selected={media === 'DeepMind Blog'}>DeepMind Blog</option>
-            <option value="MIT" selected={media === 'MIT'}>MIT</option>
-            <option value="ITmedia AI" selected={media === 'ITmedia AI'}>ITmedia AI</option>
-            <option value="AI Smily" selected={media === 'AI Smily'}>AI Smily</option>
-            <option value="AI Shift" selected={media === 'AI Shift'}>AI Shift</option>
+            <option value="arXiv AI" selected={media === "arXiv AI"}>arXiv AI</option>
+            <option value="Hugging Face Blog" selected={media === "Hugging Face Blog"}>Hugging Face Blog</option>
+            <option value="OpenAI Blog" selected={media === "OpenAI Blog"}>OpenAI Blog</option>
+            <option value="Google AI Blog" selected={media === "Google AI Blog"}>Google AI Blog</option>
+            <option value="Microsoft Research Blog" selected={media === "Microsoft Research Blog"}>Microsoft Research Blog</option>
+            <option value="DeepMind Blog" selected={media === "DeepMind Blog"}>DeepMind Blog</option>
+            <option value="MIT" selected={media === "MIT"}>MIT</option>
+            <option value="ITmedia AI" selected={media === "ITmedia AI"}>ITmedia AI</option>
+            <option value="AI Smily" selected={media === "AI Smily"}>AI Smily</option>
+            <option value="AI Shift" selected={media === "AI Shift"}>AI Shift</option>
           </select>
           <button type="submit" class="bg-blue-500 text-white text-sm px-3 py-1 rounded hover:bg-blue-600">
             検索
           </button>
         </form>
 
-        <!-- フリーワード -->
-        <form action="" method="get" class="flex gap-2 w-full sm:w-auto justify-center">
+        <!-- フリーワード検索 -->
+        <form method="get" class="flex gap-2 w-full sm:w-auto justify-center">
+          <input type="hidden" name="media" value={media} />
           <input
             type="text"
             name="q"
@@ -71,7 +74,7 @@ const qs = queryString ? `?${queryString}` : '';
         </form>
       </div>
 
-      <!-- ページナビ -->
+      <!-- ✅ ページナビ -->
       <div class="mt-2 text-sm flex justify-center gap-4 text-blue-600">
         {currentPage > 1 && (
           <a href={`/ai-news-curation-site/page/${sort}/${currentPage - 1}${qs}`} class="hover:underline">
@@ -99,7 +102,7 @@ const qs = queryString ? `?${queryString}` : '';
       <div class="w-full lg:w-3/4">
         <slot />
 
-        <!-- モバイルバナー -->
+        <!-- モバイル広告 -->
         <div class="mt-6 space-y-4 block lg:hidden">
           <div class="bg-gray-300 h-32 flex items-center justify-center">🔳 バナー広告募集中</div>
           <div class="bg-gray-300 h-32 flex items-center justify-center">🔳 バナー広告募集中</div>
@@ -114,7 +117,7 @@ const qs = queryString ? `?${queryString}` : '';
         </div>
       </div>
 
-      <!-- 右：固定バナー -->
+      <!-- 右：PCバナー広告（固定） -->
       <aside class="hidden lg:block w-full lg:w-1/4">
         <div class="sticky top-48 space-y-4">
           <div class="bg-gray-300 h-32 flex items-center justify-center">🔳 バナー広告募集中</div>

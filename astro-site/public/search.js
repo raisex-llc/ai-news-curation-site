@@ -9,14 +9,13 @@ window.addEventListener("DOMContentLoaded", () => {
   const cards = document.querySelectorAll(".article-card");
 
   cards.forEach((card) => {
-    const text = card.innerText?.toLowerCase() ?? "";
+    const text = card.innerText.toLowerCase();
     const cardMedia = card.getAttribute("data-media")?.toLowerCase() ?? "";
 
     const matchQ = !q || text.includes(q);
     const matchMedia = !media || cardMedia.includes(media);
 
-    // AND 条件で表示制御
-    card.style.display = (matchQ && matchMedia) ? "" : "none";
+    card.style.display = matchQ && matchMedia ? "" : "none";
   });
 });
 

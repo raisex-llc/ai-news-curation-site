@@ -1,9 +1,10 @@
 ---
-// pages/page/[sort]/[page].astro
+// src/pages/page/[sort]/[page].astro
 import Layout from "../../../layouts/Layout.astro";
 import ArticleCard from "../../../components/ArticleCard.astro";
 import { getCollection } from "astro:content";
 
+// ✅ 静的パス生成
 export async function getStaticPaths() {
   const PAGE_SIZE = 30;
   const allPosts = await getCollection("posts");
@@ -26,11 +27,12 @@ const PAGE_SIZE = 30;
 const { sort, page } = Astro.params;
 const currentPage = Number(page);
 
-const allPosts = await getCollection("posts");
-
-// ✅ クエリ取得（null対策・小文字）
+// ✅ クエリ取得
 const q = Astro.url?.searchParams.get("q")?.toLowerCase() ?? "";
 const media = Astro.url?.searchParams.get("media")?.toLowerCase() ?? "";
+
+// ✅ 投稿データ取得
+const allPosts = await getCollection("posts");
 
 // ✅ フィルタ処理（AND条件）
 const filteredPosts = allPosts.filter(post => {

@@ -14,7 +14,10 @@ const { title, pubDate, description, media, thumbnail, url } = Astro.props;
 const fallback = "https://github.com/raisex-llc/ai-news-curation-site/blob/gh-pages/assets/ai-icon.png?raw=true";
 ---
 
-<article class="article-card bg-white shadow rounded-lg overflow-hidden border border-gray-200 flex flex-col h-full">
+<article
+  class="article-card bg-white shadow rounded-lg overflow-hidden border border-gray-200 flex flex-col h-full"
+  data-media={media}
+>
   <!-- ✅ 媒体名 -->
   <div class="text-sm text-green-600 font-semibold px-3 pt-3">
     {media}
