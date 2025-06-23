@@ -59,32 +59,6 @@ const paginatedPosts = sortedPosts.slice(
 ---
 
 <Layout currentPage={currentPage} totalPages={totalPages} sort={sort}>
-  <!-- ✅ 検索フォーム -->
-  <form method="GET" class="flex flex-col md:flex-row gap-2 mb-4 items-center justify-center">
-    <!-- ✅ 媒体名プルダウン -->
-    <div class="flex gap-2">
-      <select name="media" class="border rounded px-2 py-1">
-        <option value="" selected={!media}>媒体名を選択</option>
-        <option value="openai" selected={media === "openai"}>OpenAI</option>
-        <option value="arxiv" selected={media === "arxiv"}>arXiv</option>
-        <option value="itmedia" selected={media === "itmedia"}>ITmedia</option>
-      </select>
-      <button type="submit" class="bg-blue-500 text-white px-4 py-1 rounded">検索</button>
-    </div>
-
-    <!-- ✅ フリーワード検索 -->
-    <div class="flex gap-2">
-      <input
-        type="text"
-        name="q"
-        placeholder="フリーワード検索"
-        value={q}
-        class="border rounded px-2 py-1 w-64"
-      />
-      <button type="submit" class="bg-blue-500 text-white px-4 py-1 rounded">検索</button>
-    </div>
-  </form>
-
   <!-- ✅ 投稿カード -->
   <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
     {paginatedPosts.map((post) => (

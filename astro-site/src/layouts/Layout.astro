@@ -1,4 +1,5 @@
 ---
+// layouts/Layout.astro
 const { currentPage, totalPages, sort } = Astro.props;
 const q = Astro.url?.searchParams.get('q') || '';
 const media = Astro.url?.searchParams.get('media') || '';
@@ -37,10 +38,7 @@ const qs = queryString ? `?${queryString}` : '';
       <div class="mt-3 flex flex-col sm:flex-row justify-center items-center gap-4 px-2 w-full">
         <!-- プルダウン -->
         <form action="" method="get" class="flex gap-2 w-full sm:w-auto justify-center">
-          <select
-            name="media"
-            class="text-sm border rounded px-2 py-1 w-full sm:w-60"
-          >
+          <select name="media" class="text-sm border rounded px-2 py-1 w-full sm:w-60">
             <option value="">媒体名で検索</option>
             <option value="arXiv AI" selected={media === 'arXiv AI'}>arXiv AI</option>
             <option value="Hugging Face Blog" selected={media === 'Hugging Face Blog'}>Hugging Face Blog</option>
@@ -53,10 +51,7 @@ const qs = queryString ? `?${queryString}` : '';
             <option value="AI Smily" selected={media === 'AI Smily'}>AI Smily</option>
             <option value="AI Shift" selected={media === 'AI Shift'}>AI Shift</option>
           </select>
-          <button
-            type="submit"
-            class="bg-blue-500 text-white text-sm px-3 py-1 rounded hover:bg-blue-600"
-          >
+          <button type="submit" class="bg-blue-500 text-white text-sm px-3 py-1 rounded hover:bg-blue-600">
             検索
           </button>
         </form>
@@ -70,10 +65,7 @@ const qs = queryString ? `?${queryString}` : '';
             placeholder="フリーワード検索"
             class="text-sm border rounded px-2 py-1 w-full sm:w-72"
           />
-          <button
-            type="submit"
-            class="bg-blue-500 text-white text-sm px-3 py-1 rounded hover:bg-blue-600"
-          >
+          <button type="submit" class="bg-blue-500 text-white text-sm px-3 py-1 rounded hover:bg-blue-600">
             検索
           </button>
         </form>
@@ -81,12 +73,12 @@ const qs = queryString ? `?${queryString}` : '';
 
       <!-- ページナビ -->
       <div class="mt-2 text-sm flex justify-center gap-4 text-blue-600">
-        {currentPage && currentPage > 1 && (
+        {currentPage > 1 && (
           <a href={`/ai-news-curation-site/page/${sort}/${currentPage - 1}${qs}`} class="hover:underline">
             ← 前のページ
           </a>
         )}
-        {currentPage && totalPages && currentPage < totalPages && (
+        {currentPage < totalPages && (
           <a href={`/ai-news-curation-site/page/${sort}/${currentPage + 1}${qs}`} class="hover:underline">
             次のページ →
           </a>
@@ -135,12 +127,12 @@ const qs = queryString ? `?${queryString}` : '';
     <!-- ✅ フッター -->
     <footer class="text-center text-xs text-gray-500 py-6">
       <div class="mb-2 space-x-4">
-        {currentPage && currentPage > 1 && (
+        {currentPage > 1 && (
           <a href={`/ai-news-curation-site/page/${sort}/${currentPage - 1}${qs}`} class="text-blue-500">
             ← 前のページ
           </a>
         )}
-        {currentPage && currentPage < totalPages && (
+        {currentPage < totalPages && (
           <a href={`/ai-news-curation-site/page/${sort}/${currentPage + 1}${qs}`} class="text-blue-500">
             次のページ →
           </a>
