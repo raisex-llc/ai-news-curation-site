@@ -1,3 +1,7 @@
+"""
+fix_md_yaml.py
+md記事用整形コード
+"""
 import os
 import yaml
 import re

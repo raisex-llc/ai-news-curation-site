@@ -1,3 +1,7 @@
+"""
+fix_openai_blog_urls.py
+OpenAI Blog記事用整形コード
+"""
 import os
 from pathlib import Path
 import re
