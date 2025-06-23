@@ -28,11 +28,11 @@ const currentPage = Number(page);
 
 const allPosts = await getCollection("posts");
 
-// ✅ クエリ取得（日本語ロケール対応）
+// ✅ クエリ取得（null対策・小文字）
 const q = Astro.url?.searchParams.get("q")?.toLowerCase() ?? "";
 const media = Astro.url?.searchParams.get("media")?.toLowerCase() ?? "";
 
-// ✅ 絞り込み（AND条件）
+// ✅ フィルタ処理（AND条件）
 const filteredPosts = allPosts.filter(post => {
   const title = post.data.title?.toLowerCase() ?? "";
   const desc = post.data.description?.toLowerCase() ?? "";
@@ -45,24 +45,47 @@ const filteredPosts = allPosts.filter(post => {
   return matchQ && matchMedia;
 });
 
-// ✅ pubDate 降順ソート
+// ✅ pubDate 降順ソート（固定）
 const sortedPosts = [...filteredPosts].sort(
-  (a, b) => new Date(b.data.pubDate) - new Date(a.data.pubDate)
+  (a, b) => new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime()
 );
-const sortedDesc = [...filteredPosts].sort(
-  (a, b) => new Date(b.data.pubDate) - new Date(a.data.pubDate)
-);
-const finalSorted = sort === "date" ? sortedDesc : filteredPosts;
 
 // ✅ ページング
-const totalPages = Math.ceil(finalSorted.length / PAGE_SIZE);
-const paginatedPosts = finalSorted.slice(
+const totalPages = Math.ceil(sortedPosts.length / PAGE_SIZE);
+const paginatedPosts = sortedPosts.slice(
   (currentPage - 1) * PAGE_SIZE,
   currentPage * PAGE_SIZE
 );
 ---
 
 <Layout currentPage={currentPage} totalPages={totalPages} sort={sort}>
+  <!-- ✅ 検索フォーム -->
+  <form method="GET" class="flex flex-col md:flex-row gap-2 mb-4 items-center justify-center">
+    <!-- ✅ 媒体名プルダウン -->
+    <div class="flex gap-2">
+      <select name="media" class="border rounded px-2 py-1">
+        <option value="" selected={!media}>媒体名を選択</option>
+        <option value="openai" selected={media === "openai"}>OpenAI</option>
+        <option value="arxiv" selected={media === "arxiv"}>arXiv</option>
+        <option value="itmedia" selected={media === "itmedia"}>ITmedia</option>
+      </select>
+      <button type="submit" class="bg-blue-500 text-white px-4 py-1 rounded">検索</button>
+    </div>
+
+    <!-- ✅ フリーワード検索 -->
+    <div class="flex gap-2">
+      <input
+        type="text"
+        name="q"
+        placeholder="フリーワード検索"
+        value={q}
+        class="border rounded px-2 py-1 w-64"
+      />
+      <button type="submit" class="bg-blue-500 text-white px-4 py-1 rounded">検索</button>
+    </div>
+  </form>
+
+  <!-- ✅ 投稿カード -->
   <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
     {paginatedPosts.map((post) => (
       <div class="article-card" data-media={post.data.source}>
