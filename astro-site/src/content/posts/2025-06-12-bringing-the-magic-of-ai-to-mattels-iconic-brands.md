@@ -5,6 +5,6 @@ summary: "OpenAI and Mattel are partnering to integrate AI into iconic brands su
 pubDate: "Thu, 12 Jun 2025 00:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/mattels-iconic-brands"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

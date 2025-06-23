@@ -5,6 +5,6 @@ summary: "A conversation with Andrea Ellis, Chief Financial Officer of Fanatics 
 pubDate: "Thu, 13 Feb 2025 10:01:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/fanatics-betting-gaming-andrea-ellis"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

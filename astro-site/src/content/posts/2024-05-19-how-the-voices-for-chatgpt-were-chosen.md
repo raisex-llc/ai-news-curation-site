@@ -5,6 +5,6 @@ summary: "How the voices for ChatGPT were chosen We worked with industry-leading
 pubDate: "Sun, 19 May 2024 23:30:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/how-the-voices-for-chatgpt-were-chosen"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

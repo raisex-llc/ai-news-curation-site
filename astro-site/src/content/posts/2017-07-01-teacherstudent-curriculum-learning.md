@@ -5,6 +5,6 @@ summary: ""
 pubDate: "Sat, 01 Jul 2017 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/teacher-student-curriculum-learning"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

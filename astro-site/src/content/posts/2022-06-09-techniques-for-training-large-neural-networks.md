@@ -5,6 +5,6 @@ summary: "Large neural networks are at the core of many recent advances in AI, b
 pubDate: "Thu, 09 Jun 2022 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/techniques-for-training-large-neural-networks"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

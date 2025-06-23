@@ -5,6 +5,6 @@ summary: "Indeed, whose mission is to help people get jobs, is the world’s #1 
 pubDate: "Thu, 15 Aug 2024 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/indeed"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

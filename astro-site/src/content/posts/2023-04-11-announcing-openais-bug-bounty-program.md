@@ -5,6 +5,6 @@ summary: "This initiative is essential to our commitment to develop safe and adv
 pubDate: "Tue, 11 Apr 2023 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/bug-bounty-program"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

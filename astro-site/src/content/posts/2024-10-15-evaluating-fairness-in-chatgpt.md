@@ -5,6 +5,6 @@ summary: "We've analyzed how ChatGPT responds to users based on their name, usin
 pubDate: "Tue, 15 Oct 2024 10:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/evaluating-fairness-in-chatgpt"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

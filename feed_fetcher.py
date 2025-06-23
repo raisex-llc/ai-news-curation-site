@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """
 統合版 feed_fetcher.py
-RSS → Markdown変換 + YAML整形 + OpenAI URL修正 + OpenAI/汎用代替サムネイル対応 + バックスラッシュ削除
+RSS → Markdown変換 + YAML整形 + OpenAI URL修正 +
+OpenAI/ArXiv/その他サムネイル補完 + バックスラッシュ削除
 """
 
 import feedparser
@@ -153,10 +154,12 @@ def main():
                 thumb = extract_thumbnail(link)
                 print(f"→ EXTRACTED: {thumb}")
 
-                # ✅ サムネイル取得失敗時の補完処理
+                # ✅ サムネイル取得失敗時の媒体別補完
                 if not thumb:
-                    if media == "OpenAI Blog" and "openai.com/blog/" in link:
+                    if media == "OpenAI Blog":
                         thumb = "/assets/openai_logo.png"
+                    elif media == "arXiv AI":
+                        thumb = "/assets/arxiv.png"
                     else:
                         thumb = "/assets/ai-icon.png"
 

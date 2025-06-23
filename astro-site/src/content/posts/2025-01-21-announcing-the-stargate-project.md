@@ -5,6 +5,6 @@ summary: "Announcing The Stargate Project"
 pubDate: "Tue, 21 Jan 2025 13:30:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/announcing-the-stargate-project"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

@@ -5,6 +5,6 @@ summary: "Today, OpenAI is sharing the EU Economic Blueprint—a set of proposal
 pubDate: "Mon, 07 Apr 2025 00:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/global-affairs/openais-eu-economic-blueprint"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

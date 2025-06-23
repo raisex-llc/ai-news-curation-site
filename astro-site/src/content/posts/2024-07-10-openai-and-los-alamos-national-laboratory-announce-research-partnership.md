@@ -5,6 +5,6 @@ summary: "OpenAI and Los Alamos National Laboratory are working to develop safet
 pubDate: "Wed, 10 Jul 2024 06:30:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/openai-and-los-alamos-national-laboratory-work-together"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

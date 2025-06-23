@@ -5,6 +5,6 @@ summary: "We’ve observed agents discovering progressively more complex tool us
 pubDate: "Tue, 17 Sep 2019 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/emergent-tool-use"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

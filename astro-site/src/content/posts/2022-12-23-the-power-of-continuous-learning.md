@@ -5,6 +5,6 @@ summary: "Lilian Weng works on Applied AI Research at OpenAI."
 pubDate: "Fri, 23 Dec 2022 08:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/the-power-of-continuous-learning"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

@@ -5,6 +5,6 @@ summary: "As part of our DALL·E 2 research preview, more than 3,000 artists fro
 pubDate: "Thu, 14 Jul 2022 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/dall-e-2-extending-creativity"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

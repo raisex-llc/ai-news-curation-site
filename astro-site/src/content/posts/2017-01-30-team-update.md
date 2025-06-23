@@ -5,6 +5,6 @@ summary: "The OpenAI team is now 45 people. Together, we’re pushing the fronti
 pubDate: "Mon, 30 Jan 2017 08:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/team-update-january"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

@@ -5,6 +5,6 @@ summary: "New features in the Responses API: Remote MCP, image gen, Code Interpr
 pubDate: "Wed, 21 May 2025 08:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/new-tools-and-features-in-the-responses-api"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

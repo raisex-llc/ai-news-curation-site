@@ -5,6 +5,6 @@ summary: "Altera uses GPT-4o to build a new area of human collaboration"
 pubDate: "Tue, 01 Oct 2024 09:59:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/altera"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

@@ -5,6 +5,6 @@ summary: "We’re launching OpenAI for Government, a new initiative focused on b
 pubDate: "Mon, 16 Jun 2025 00:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/global-affairs/introducing-openai-for-government"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

@@ -5,6 +5,6 @@ summary: "Arizona State University embraces ChatGPT campus-wide to personalize l
 pubDate: "Mon, 26 Aug 2024 04:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/asu"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

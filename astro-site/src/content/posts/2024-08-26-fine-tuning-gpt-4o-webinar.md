@@ -5,6 +5,6 @@ summary: "Fine-Tuning GPT-4o Webinar"
 pubDate: "Mon, 26 Aug 2024 00:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/business/fine-tuning-gpt-4o-webinar"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

@@ -5,6 +5,6 @@ summary: "We are introducing embeddings, a new endpoint in the OpenAI API that m
 pubDate: "Tue, 25 Jan 2022 08:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/introducing-text-and-code-embeddings"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

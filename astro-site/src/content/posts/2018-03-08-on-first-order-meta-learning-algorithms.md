@@ -5,6 +5,6 @@ summary: ""
 pubDate: "Thu, 08 Mar 2018 08:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/on-first-order-meta-learning-algorithms"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

@@ -5,6 +5,6 @@ summary: "The Atlantic is announcing a strategic content and product partnership
 pubDate: "Wed, 29 May 2024 07:30:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/enhancing-news-in-chatgpt-with-the-atlantic"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

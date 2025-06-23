@@ -5,6 +5,6 @@ summary: "We’re proud to announce that the 2021 class of OpenAI Scholars has
 pubDate: "Mon, 10 May 2021 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/openai-scholars-2021-final-projects"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

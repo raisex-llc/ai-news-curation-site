@@ -5,6 +5,6 @@ summary: "We’re releasing an API for accessing new AI models developed by Open
 pubDate: "Thu, 11 Jun 2020 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/openai-api"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

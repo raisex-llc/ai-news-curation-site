@@ -5,6 +5,6 @@ summary: "Ensuring that AI systems are built, deployed, and used safely is criti
 pubDate: "Wed, 05 Apr 2023 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/our-approach-to-ai-safety"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

@@ -5,6 +5,6 @@ summary: "How Iceland is using GPT-4 to preserve its language."
 pubDate: "Tue, 14 Mar 2023 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/government-of-iceland"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

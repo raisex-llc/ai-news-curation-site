@@ -5,6 +5,6 @@ summary: "Put AI to Work: Lessons from Hundreds of Successful Deployments"
 pubDate: "Tue, 10 Sep 2024 00:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/business/put-ai-to-work-lessons-from-hundreds-of-successful-deployments"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

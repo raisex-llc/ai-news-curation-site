@@ -5,6 +5,6 @@ summary: "An OpenAI and MIT Media Lab Research collaboration."
 pubDate: "Fri, 21 Mar 2025 10:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/affective-use-study"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

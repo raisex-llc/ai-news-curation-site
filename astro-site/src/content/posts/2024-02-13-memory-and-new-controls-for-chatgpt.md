@@ -5,6 +5,6 @@ summary: "We’re testing the ability for ChatGPT to remember things you discuss
 pubDate: "Tue, 13 Feb 2024 00:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/memory-and-new-controls-for-chatgpt"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

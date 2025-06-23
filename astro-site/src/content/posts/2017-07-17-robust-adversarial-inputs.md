@@ -5,6 +5,6 @@ summary: "We’ve created images that reliably fool neural network classifiers w
 pubDate: "Mon, 17 Jul 2017 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/robust-adversarial-inputs"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

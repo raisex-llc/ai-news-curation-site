@@ -5,6 +5,6 @@ summary: "Improving teaching and learning in Brazil"
 pubDate: "Tue, 17 Sep 2024 05:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/arco-education"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

@@ -5,6 +5,6 @@ summary: "We’re working with Microsoft to start running most of our large-scal
 pubDate: "Tue, 15 Nov 2016 08:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/openai-and-microsoft"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

@@ -5,6 +5,6 @@ summary: ""
 pubDate: "Tue, 03 Oct 2023 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/dall-e-3-system-card"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

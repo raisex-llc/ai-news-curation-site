@@ -5,6 +5,6 @@ summary: "We’re launching Stargate UAE – the first international deployment 
 pubDate: "Thu, 22 May 2025 00:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/introducing-stargate-uae"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

@@ -5,6 +5,6 @@ summary: "Elon Musk’s latest legal filing against OpenAI marks his fourth atte
 pubDate: "Fri, 13 Dec 2024 00:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/elon-musk-wanted-an-openai-for-profit"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

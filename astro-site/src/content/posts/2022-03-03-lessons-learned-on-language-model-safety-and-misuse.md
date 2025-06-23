@@ -5,6 +5,6 @@ summary: "We describe our latest thinking in the hope of helping other AI develo
 pubDate: "Thu, 03 Mar 2022 08:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/language-model-safety-and-misuse"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

@@ -5,6 +5,6 @@ summary: "OpenAI o3 and o4-mini represent a significant breakthrough in visual p
 pubDate: "Wed, 16 Apr 2025 10:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/thinking-with-images"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

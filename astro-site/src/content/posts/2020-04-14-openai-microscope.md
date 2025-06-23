@@ -5,6 +5,6 @@ summary: "We’re introducing OpenAI Microscope, a collection of visualizations
 pubDate: "Tue, 14 Apr 2020 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/microscope"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

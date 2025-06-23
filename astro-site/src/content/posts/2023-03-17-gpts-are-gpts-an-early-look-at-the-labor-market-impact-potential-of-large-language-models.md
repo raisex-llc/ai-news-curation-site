@@ -5,6 +5,6 @@ summary: ""
 pubDate: "Fri, 17 Mar 2023 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/gpts-are-gpts"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

@@ -5,6 +5,6 @@ summary: ""
 pubDate: "Mon, 04 Feb 2019 08:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/computational-limitations-in-robust-classification-and-win-win-results"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

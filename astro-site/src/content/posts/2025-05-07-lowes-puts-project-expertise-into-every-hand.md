@@ -5,6 +5,6 @@ summary: "Lowe’s partnered with OpenAI to build Mylow and Mylow Companion, AI-
 pubDate: "Wed, 07 May 2025 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/lowes"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

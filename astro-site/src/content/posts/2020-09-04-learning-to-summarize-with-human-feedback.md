@@ -5,6 +5,6 @@ summary: "We’ve applied reinforcement learning from human feedback to train la
 pubDate: "Fri, 04 Sep 2020 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/learning-to-summarize-with-human-feedback"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

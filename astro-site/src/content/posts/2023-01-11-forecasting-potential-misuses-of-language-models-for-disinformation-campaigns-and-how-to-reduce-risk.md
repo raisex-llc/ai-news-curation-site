@@ -5,6 +5,6 @@ summary: "OpenAI researchers collaborated with Georgetown University’s Center 
 pubDate: "Wed, 11 Jan 2023 08:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/forecasting-misuse"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

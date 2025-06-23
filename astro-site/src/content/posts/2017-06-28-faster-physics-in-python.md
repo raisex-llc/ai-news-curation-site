@@ -5,6 +5,6 @@ summary: "We’re open-sourcing a high-performance Python library for robotic si
 pubDate: "Wed, 28 Jun 2017 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/faster-physics-in-python"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

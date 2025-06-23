@@ -5,6 +5,6 @@ summary: "We show that for the task of simulated robot wrestling, a meta-learnin
 pubDate: "Wed, 11 Oct 2017 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/meta-learning-for-wrestling"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

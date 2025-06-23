@@ -5,6 +5,6 @@ summary: "Increasing enterprise support with more security features and controls
 pubDate: "Tue, 23 Apr 2024 00:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/more-enterprise-grade-features-for-api-customers"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

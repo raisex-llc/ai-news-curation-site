@@ -5,6 +5,6 @@ summary: "Introducing GPT-4o and making more capabilities available for free in 
 pubDate: "Mon, 13 May 2024 10:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/spring-update"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

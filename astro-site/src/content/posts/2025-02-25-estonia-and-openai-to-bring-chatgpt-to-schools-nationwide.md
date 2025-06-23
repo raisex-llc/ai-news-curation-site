@@ -5,6 +5,6 @@ summary: "Estonia and OpenAI to bring ChatGPT to schools nationwide. OpenAI will
 pubDate: "Tue, 25 Feb 2025 04:15:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/estonia-schools-and-chatgpt"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

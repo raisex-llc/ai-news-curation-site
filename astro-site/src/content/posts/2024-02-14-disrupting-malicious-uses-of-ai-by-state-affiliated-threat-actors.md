@@ -5,6 +5,6 @@ summary: "We terminated accounts associated with state-affiliated threat actors.
 pubDate: "Wed, 14 Feb 2024 08:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/disrupting-malicious-uses-of-ai-by-state-affiliated-threat-actors"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

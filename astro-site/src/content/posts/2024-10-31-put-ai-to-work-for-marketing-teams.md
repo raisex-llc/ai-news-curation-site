@@ -5,6 +5,6 @@ summary: "Put AI to Work for Marketing Teams"
 pubDate: "Thu, 31 Oct 2024 00:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/business/put-ai-to-work-for-marketing-teams"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

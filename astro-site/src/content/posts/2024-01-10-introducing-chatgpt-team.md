@@ -5,6 +5,6 @@ summary: "We’re launching a new ChatGPT plan for teams of all sizes, which pro
 pubDate: "Wed, 10 Jan 2024 08:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/introducing-chatgpt-team"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

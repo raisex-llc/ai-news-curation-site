@@ -5,6 +5,6 @@ summary: "OpenAI announces the opening of its first office in Germany, based in 
 pubDate: "Thu, 22 May 2025 23:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/openai-deutschland"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

@@ -5,6 +5,6 @@ summary: "Discover how the San Antonio Spurs are using custom GPTs to enhance fa
 pubDate: "Wed, 07 May 2025 09:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/san-antonio-spurs"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

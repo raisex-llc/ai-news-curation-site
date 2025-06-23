@@ -5,6 +5,6 @@ summary: "The power of personalized AI"
 pubDate: "Fri, 17 Jan 2025 13:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/global-affairs/the-power-of-personalized-ai"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

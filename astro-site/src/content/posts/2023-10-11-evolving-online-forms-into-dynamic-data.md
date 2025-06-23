@@ -5,6 +5,6 @@ summary: "Typeform evolves online forms into dynamic and conversational data col
 pubDate: "Wed, 11 Oct 2023 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/typeform"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

@@ -5,6 +5,6 @@ summary: "By combining commercial experience and deep LLM expertise with OpenAIâ
 pubDate: "Tue, 19 Nov 2024 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/rox"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

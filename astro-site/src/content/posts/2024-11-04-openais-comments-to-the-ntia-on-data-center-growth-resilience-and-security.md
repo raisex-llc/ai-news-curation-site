@@ -5,6 +5,6 @@ summary: "This comment was submitted in response to a request for information fr
 pubDate: "Mon, 04 Nov 2024 12:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/global-affairs/comments-to-the-ntia-on-data-center-growth-resilience-and-security"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

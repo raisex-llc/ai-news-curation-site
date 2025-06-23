@@ -5,6 +5,6 @@ summary: "We are excited to announce OpenAI’s first international expansion wi
 pubDate: "Wed, 28 Jun 2023 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/introducing-openai-london"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

@@ -5,6 +5,6 @@ summary: "OpenAI’s Economic Blueprint"
 pubDate: "Mon, 13 Jan 2025 03:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/global-affairs/openais-economic-blueprint"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

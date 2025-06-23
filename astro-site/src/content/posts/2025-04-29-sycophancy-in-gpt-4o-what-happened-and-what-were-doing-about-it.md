@@ -5,6 +5,6 @@ summary: "We have rolled back last week’s GPT‑4o update in ChatGPT so people
 pubDate: "Tue, 29 Apr 2025 18:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/sycophancy-in-gpt-4o"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

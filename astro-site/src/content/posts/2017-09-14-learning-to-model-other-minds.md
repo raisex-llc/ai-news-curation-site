@@ -5,6 +5,6 @@ summary: "We’re releasing an algorithm which accounts for the fact that other 
 pubDate: "Thu, 14 Sep 2017 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/learning-to-model-other-minds"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

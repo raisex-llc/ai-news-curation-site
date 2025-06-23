@@ -5,6 +5,6 @@ summary: "Introducing OpenAI o1"
 pubDate: "Thu, 12 Sep 2024 10:03:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/introducing-openai-o1-preview"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

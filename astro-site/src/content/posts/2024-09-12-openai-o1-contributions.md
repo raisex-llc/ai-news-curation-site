@@ -5,6 +5,6 @@ summary: "OpenAI o1 Contributions"
 pubDate: "Thu, 12 Sep 2024 10:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/openai-o1-contributions"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

@@ -5,6 +5,6 @@ summary: "We’re clarifying how ChatGPT’s behavior is shaped and our plans fo
 pubDate: "Thu, 16 Feb 2023 08:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/how-should-ai-systems-behave"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

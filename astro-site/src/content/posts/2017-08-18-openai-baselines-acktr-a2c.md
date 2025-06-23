@@ -5,6 +5,6 @@ summary: "We’re releasing two new OpenAI Baselines implementations: ACKTR and 
 pubDate: "Fri, 18 Aug 2017 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/openai-baselines-acktr-a2c"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

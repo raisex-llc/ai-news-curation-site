@@ -5,6 +5,6 @@ summary: "Cohere, OpenAI, and AI21 Labs have developed a preliminary set of best
 pubDate: "Thu, 02 Jun 2022 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/best-practices-for-deploying-language-models"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

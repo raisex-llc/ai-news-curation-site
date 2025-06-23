@@ -5,6 +5,6 @@ summary: "We’re releasing Procgen Benchmark, 16 simple-to-use procedurally-ge
 pubDate: "Tue, 03 Dec 2019 08:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/procgen-benchmark"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

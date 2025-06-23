@@ -5,6 +5,6 @@ summary: "We (along with researchers from Berkeley and Stanford) are co-authors 
 pubDate: "Tue, 21 Jun 2016 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/concrete-ai-safety-problems"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

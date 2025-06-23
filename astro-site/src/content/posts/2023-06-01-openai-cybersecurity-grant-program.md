@@ -5,6 +5,6 @@ summary: "Our goal is to facilitate the development of AI-powered cybersecurity 
 pubDate: "Thu, 01 Jun 2023 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/openai-cybersecurity-grant-program"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

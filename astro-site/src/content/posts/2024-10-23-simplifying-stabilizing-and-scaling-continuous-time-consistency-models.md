@@ -5,6 +5,6 @@ summary: "We’ve simplified, stabilized, and scaled continuous-time consistency
 pubDate: "Wed, 23 Oct 2024 10:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/simplifying-stabilizing-and-scaling-continuous-time-consistency-models"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

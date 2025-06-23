@@ -5,6 +5,6 @@ summary: "We’ve developed an unsupervised system which learns an excellent rep
 pubDate: "Thu, 06 Apr 2017 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/unsupervised-sentiment-neuron"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

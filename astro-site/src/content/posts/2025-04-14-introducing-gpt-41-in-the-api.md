@@ -5,6 +5,6 @@ summary: "Introducing GPT-4.1 in the API—a new family of models with across-th
 pubDate: "Mon, 14 Apr 2025 10:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/gpt-4-1"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

@@ -5,6 +5,6 @@ summary: "We’re sharing a preliminary overview of the EU AI Act including upco
 pubDate: "Tue, 30 Jul 2024 00:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/global-affairs/a-primer-on-the-eu-ai-act"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

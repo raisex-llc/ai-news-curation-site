@@ -5,6 +5,6 @@ summary: "Impactful scientific work requires working on the right problems—pro
 pubDate: "Thu, 28 Jul 2016 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/special-projects"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

@@ -5,6 +5,6 @@ summary: "We’re releasing a guide for teachers using ChatGPT in their classroo
 pubDate: "Thu, 31 Aug 2023 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/teaching-with-ai"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

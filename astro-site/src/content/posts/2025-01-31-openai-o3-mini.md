@@ -5,6 +5,6 @@ summary: "Pushing the frontier of cost-effective reasoning."
 pubDate: "Fri, 31 Jan 2025 11:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/openai-o3-mini"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

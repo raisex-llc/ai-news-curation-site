@@ -5,6 +5,6 @@ summary: "Deep learning is an empirical science, and the quality of a group’s 
 pubDate: "Mon, 29 Aug 2016 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/infrastructure-for-deep-learning"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

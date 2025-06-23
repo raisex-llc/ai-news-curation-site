@@ -5,6 +5,6 @@ summary: "Rogo scales AI-driven financial research with OpenAI o1"
 pubDate: "Thu, 13 Feb 2025 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/rogo"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

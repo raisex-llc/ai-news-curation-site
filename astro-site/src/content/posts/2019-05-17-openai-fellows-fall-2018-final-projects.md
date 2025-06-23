@@ -5,6 +5,6 @@ summary: "Our second class of OpenAI Fellows has wrapped up, with each Fellow go
 pubDate: "Fri, 17 May 2019 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/openai-fellows-fall-2018"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

@@ -5,6 +5,6 @@ summary: "CodeRabbit uses OpenAI models to revolutionize code reviews—boosting
 pubDate: "Thu, 22 May 2025 10:25:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/coderabbit"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

@@ -5,6 +5,6 @@ summary: "A new $5+ million partnership aims to explore ways the development of 
 pubDate: "Tue, 18 Jul 2023 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/partnership-with-american-journalism-project-to-support-local-news"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

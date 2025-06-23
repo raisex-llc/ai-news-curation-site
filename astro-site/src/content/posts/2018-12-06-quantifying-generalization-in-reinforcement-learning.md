@@ -5,6 +5,6 @@ summary: "We’re releasing CoinRun, a training environment which provides a met
 pubDate: "Thu, 06 Dec 2018 08:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/quantifying-generalization-in-reinforcement-learning"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

@@ -5,6 +5,6 @@ summary: "An update from the OpenAI board on transitioning its for-profit entity
 pubDate: "Mon, 05 May 2025 11:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/evolving-our-structure"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

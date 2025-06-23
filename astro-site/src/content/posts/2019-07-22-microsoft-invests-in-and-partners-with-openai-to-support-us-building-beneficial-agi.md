@@ -5,6 +5,6 @@ summary: "Microsoft is investing $1 billion in OpenAI to support us building art
 pubDate: "Mon, 22 Jul 2019 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/microsoft-invests-in-and-partners-with-openai"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

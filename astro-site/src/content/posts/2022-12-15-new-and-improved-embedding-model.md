@@ -5,6 +5,6 @@ summary: "We are excited to announce a new embedding model which is significantl
 pubDate: "Thu, 15 Dec 2022 08:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/new-and-improved-embedding-model"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

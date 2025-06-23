@@ -5,6 +5,6 @@ summary: "Christian Gibson is an engineer on the Supercomputing team at OpenAI."
 pubDate: "Thu, 08 Dec 2022 08:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/discovering-the-minutiae-of-backend-systems"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

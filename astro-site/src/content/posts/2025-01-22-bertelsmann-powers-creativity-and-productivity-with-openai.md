@@ -5,6 +5,6 @@ summary: "Bertelsmann, the global media, services, and education company headqua
 pubDate: "Wed, 22 Jan 2025 17:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/bertelsmann-powers-creativity-and-productivity-with-openai"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

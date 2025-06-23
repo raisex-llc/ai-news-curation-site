@@ -5,6 +5,6 @@ summary: "We’re growing our presence in Europe with an office in Dublin, Irela
 pubDate: "Wed, 13 Sep 2023 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/introducing-openai-dublin"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

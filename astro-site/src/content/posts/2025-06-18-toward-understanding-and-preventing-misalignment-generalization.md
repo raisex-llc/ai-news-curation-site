@@ -5,6 +5,6 @@ summary: "We study how training on incorrect responses can cause broader misalig
 pubDate: "Wed, 18 Jun 2025 10:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/emergent-misalignment"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

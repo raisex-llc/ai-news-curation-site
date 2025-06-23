@@ -5,6 +5,6 @@ summary: "HealthBench is a new evaluation benchmark for AI in healthcare which e
 pubDate: "Mon, 12 May 2025 10:30:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/healthbench"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

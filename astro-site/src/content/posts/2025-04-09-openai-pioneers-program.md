@@ -5,6 +5,6 @@ summary: "Advancing model performance and real world evaluation in applied domai
 pubDate: "Wed, 09 Apr 2025 10:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/openai-pioneers-program"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

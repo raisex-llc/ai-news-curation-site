@@ -5,6 +5,6 @@ summary: "We’ve trained a large-scale unsupervised language model which genera
 pubDate: "Thu, 14 Feb 2019 08:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/better-language-models"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

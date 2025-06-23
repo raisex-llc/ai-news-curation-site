@@ -5,6 +5,6 @@ summary: "Since we introduced Sora to the world last month, we’ve been working
 pubDate: "Mon, 25 Mar 2024 00:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/sora-first-impressions"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

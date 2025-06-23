@@ -5,6 +5,6 @@ summary: "Salesforce integrates OpenAI’s enterprise-ready LLMs to transform cu
 pubDate: "Mon, 18 Mar 2024 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/salesforce"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

@@ -5,6 +5,6 @@ summary: "We’ve trained and are open-sourcing a neural net called Whisper that
 pubDate: "Wed, 21 Sep 2022 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/whisper"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

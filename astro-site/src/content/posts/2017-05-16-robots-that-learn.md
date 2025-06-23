@@ -5,6 +5,6 @@ summary: "We’ve created a robotics system, trained entirely in simulation and 
 pubDate: "Tue, 16 May 2017 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/robots-that-learn"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

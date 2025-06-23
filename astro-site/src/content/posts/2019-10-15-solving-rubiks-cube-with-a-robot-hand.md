@@ -5,6 +5,6 @@ summary: "We’ve trained a pair of neural networks to solve the Rubik’s Cube 
 pubDate: "Tue, 15 Oct 2019 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/solving-rubiks-cube"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

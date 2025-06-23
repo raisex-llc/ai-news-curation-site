@@ -5,6 +5,6 @@ summary: "We’re introducing a neural network called CLIP which efficiently lea
 pubDate: "Tue, 05 Jan 2021 08:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/clip"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

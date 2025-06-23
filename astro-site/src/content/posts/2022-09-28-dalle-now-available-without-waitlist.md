@@ -5,6 +5,6 @@ summary: "New users can start creating straight away. Lessons learned from deplo
 pubDate: "Wed, 28 Sep 2022 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/dall-e-now-available-without-waitlist"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

@@ -5,6 +5,6 @@ summary: "We’re releasing a Neural MMO, a massively multiagent game environme
 pubDate: "Mon, 04 Mar 2019 08:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/neural-mmo"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

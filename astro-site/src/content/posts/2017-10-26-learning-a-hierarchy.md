@@ -5,6 +5,6 @@ summary: "We’ve developed a hierarchical reinforcement learning algorithm that
 pubDate: "Thu, 26 Oct 2017 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/learning-a-hierarchy"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

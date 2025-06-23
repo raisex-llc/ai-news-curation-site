@@ -5,6 +5,6 @@ summary: "We’re excited to announce that OpenAI is co-organizing two NeurIPS 2
 pubDate: "Sat, 20 Jun 2020 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/procgen-minerl-competitions"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

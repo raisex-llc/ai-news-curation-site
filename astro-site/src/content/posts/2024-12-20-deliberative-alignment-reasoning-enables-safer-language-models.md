@@ -5,6 +5,6 @@ summary: "Deliberative alignment: reasoning enables safer language models Introd
 pubDate: "Fri, 20 Dec 2024 10:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/deliberative-alignment"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

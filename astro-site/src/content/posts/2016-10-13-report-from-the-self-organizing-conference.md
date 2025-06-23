@@ -5,6 +5,6 @@ summary: "Last week we hosted over a hundred and fifty AI practitioners in our o
 pubDate: "Thu, 13 Oct 2016 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/report-from-the-self-organizing-conference"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

@@ -5,6 +5,6 @@ summary: "In a multi-faceted agreement, Vox Media’s content will enhance the o
 pubDate: "Wed, 29 May 2024 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/a-content-and-product-partnership-with-vox-media"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

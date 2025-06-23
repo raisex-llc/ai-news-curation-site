@@ -5,6 +5,6 @@ summary: "Frontier reasoning models exploit loopholes when given the chance. We 
 pubDate: "Mon, 10 Mar 2025 10:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/chain-of-thought-monitoring"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

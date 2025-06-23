@@ -5,6 +5,6 @@ summary: "We’re releasing Safety Gym, a suite of environments and tools for me
 pubDate: "Thu, 21 Nov 2019 08:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/safety-gym"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

@@ -5,6 +5,6 @@ summary: "We’ve fine-tuned GPT-3 to more accurately answer open-ended question
 pubDate: "Thu, 16 Dec 2021 08:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/webgpt"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

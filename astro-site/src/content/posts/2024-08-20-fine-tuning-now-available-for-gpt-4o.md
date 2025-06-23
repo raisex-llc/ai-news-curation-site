@@ -5,6 +5,6 @@ summary: "Fine-tune custom versions of GPT-4o to increase performance and accura
 pubDate: "Tue, 20 Aug 2024 10:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/gpt-4o-fine-tuning"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

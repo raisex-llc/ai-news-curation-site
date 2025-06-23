@@ -5,6 +5,6 @@ summary: "We are now accepting applications for OpenAI Fellows and Interns for 2
 pubDate: "Tue, 09 Oct 2018 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/openai-fellows-interns-2019"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

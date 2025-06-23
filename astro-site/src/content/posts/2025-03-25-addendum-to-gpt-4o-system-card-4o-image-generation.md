@@ -5,6 +5,6 @@ summary: "4o image generation is a new, significantly more capable image generat
 pubDate: "Tue, 25 Mar 2025 11:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/gpt-4o-image-generation-system-card-addendum"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

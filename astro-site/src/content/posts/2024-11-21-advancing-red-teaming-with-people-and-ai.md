@@ -5,6 +5,6 @@ summary: "Advancing red teaming with people and AI"
 pubDate: "Thu, 21 Nov 2024 10:30:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/advancing-red-teaming-with-people-and-ai"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

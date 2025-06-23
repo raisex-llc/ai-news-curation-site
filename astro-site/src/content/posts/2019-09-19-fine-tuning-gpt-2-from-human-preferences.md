@@ -5,6 +5,6 @@ summary: "We’ve fine-tuned the 774M parameter GPT-2 language model using human
 pubDate: "Thu, 19 Sep 2019 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/fine-tuning-gpt-2"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

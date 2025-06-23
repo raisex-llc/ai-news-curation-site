@@ -5,6 +5,6 @@ summary: "OpenAI is fighting a court order at the demands of The New York Times 
 pubDate: "Thu, 05 Jun 2025 16:30:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/response-to-nyt-data-demands"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

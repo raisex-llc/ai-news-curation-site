@@ -5,6 +5,6 @@ summary: "We’ve designed a method that encourages AIs to teach each other with
 pubDate: "Thu, 15 Feb 2018 08:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/interpretable-machine-learning-through-teaching"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

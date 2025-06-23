@@ -5,6 +5,6 @@ summary: ""
 pubDate: "Wed, 08 Sep 2021 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/truthfulqa"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

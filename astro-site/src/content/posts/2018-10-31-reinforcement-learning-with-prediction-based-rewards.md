@@ -5,6 +5,6 @@ summary: "We’ve developed Random Network Distillation (RND), a prediction-bas
 pubDate: "Wed, 31 Oct 2018 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/reinforcement-learning-with-prediction-based-rewards"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

@@ -7,6 +7,6 @@ Protecting, exploring, and applying advanced artificial intelligence (AI) is our
 pubDate: "Fri, 03 May 2024 00:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/reimagining-secure-infrastructure-for-advanced-ai"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

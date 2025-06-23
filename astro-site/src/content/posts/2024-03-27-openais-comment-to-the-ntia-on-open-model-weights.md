@@ -7,6 +7,6 @@ This comment was submitted by OpenAI in response to NTIA’s March 2024 Request 
 pubDate: "Wed, 27 Mar 2024 00:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/global-affairs/openai-s-comment-to-the-ntia-on-open-model-weights"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

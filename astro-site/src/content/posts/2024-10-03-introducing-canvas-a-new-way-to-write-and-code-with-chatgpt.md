@@ -5,6 +5,6 @@ summary: "Introducing canvas"
 pubDate: "Thu, 03 Oct 2024 10:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/introducing-canvas"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

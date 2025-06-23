@@ -5,6 +5,6 @@ summary: "In our June 2025 update, we outline how we’re disrupting malicious u
 pubDate: "Thu, 05 Jun 2025 02:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/global-affairs/disrupting-malicious-uses-of-ai-june-2025"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

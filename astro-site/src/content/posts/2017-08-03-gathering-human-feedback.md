@@ -5,6 +5,6 @@ summary: "RL-Teacher is an open-source implementation of our interface to train 
 pubDate: "Thu, 03 Aug 2017 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/gathering-human-feedback"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

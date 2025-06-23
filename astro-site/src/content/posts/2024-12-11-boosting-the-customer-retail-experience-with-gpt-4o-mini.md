@@ -5,6 +5,6 @@ summary: "Zalando boosts the customer experience with its Assistant, powered by 
 pubDate: "Wed, 11 Dec 2024 06:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/zalando"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

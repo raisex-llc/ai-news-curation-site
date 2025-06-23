@@ -5,6 +5,6 @@ summary: "We’ve discovered that the gradient noise scale, a simple statistical
 pubDate: "Fri, 14 Dec 2018 08:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/how-ai-training-scales"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

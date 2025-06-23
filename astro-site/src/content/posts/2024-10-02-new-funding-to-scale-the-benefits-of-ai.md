@@ -5,6 +5,6 @@ summary: "We are making progress on our mission to ensure that artificial genera
 pubDate: "Wed, 02 Oct 2024 10:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/scale-the-benefits-of-ai"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

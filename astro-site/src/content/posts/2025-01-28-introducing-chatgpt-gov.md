@@ -5,6 +5,6 @@ summary: "ChatGPT Gov is designed to streamline government agencies’ access to
 pubDate: "Tue, 28 Jan 2025 06:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/global-affairs/introducing-chatgpt-gov"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

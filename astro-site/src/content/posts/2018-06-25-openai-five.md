@@ -5,6 +5,6 @@ summary: "Our team of five neural networks, OpenAI Five, has started to defeat a
 pubDate: "Mon, 25 Jun 2018 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/openai-five"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

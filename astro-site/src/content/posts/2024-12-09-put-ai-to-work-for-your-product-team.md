@@ -5,6 +5,6 @@ summary: "Put AI to work for your product team"
 pubDate: "Mon, 09 Dec 2024 00:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/put-ai-to-work-for-your-product-team"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

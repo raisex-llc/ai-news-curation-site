@@ -5,6 +5,6 @@ summary: "OpenAI and Schibsted Media Group announce content partnership to bring
 pubDate: "Mon, 10 Feb 2025 06:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/openai-partners-with-schibsted-media-group"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

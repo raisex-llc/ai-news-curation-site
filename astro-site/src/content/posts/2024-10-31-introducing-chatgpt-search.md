@@ -5,6 +5,6 @@ summary: "Get fast, timely answers with links to relevant web sources"
 pubDate: "Thu, 31 Oct 2024 10:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/introducing-chatgpt-search"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

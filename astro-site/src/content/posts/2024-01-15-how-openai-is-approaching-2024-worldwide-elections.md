@@ -5,6 +5,6 @@ summary: "We’re working to prevent abuse, provide transparency on AI-generated
 pubDate: "Mon, 15 Jan 2024 08:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/how-openai-is-approaching-2024-worldwide-elections"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

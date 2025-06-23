@@ -5,6 +5,6 @@ summary: "The following is the written testimony of Sam Altman, Chief Executive 
 pubDate: "Thu, 22 Jun 2023 00:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/global-affairs/testimony-of-sam-altman-before-the-us-senate"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

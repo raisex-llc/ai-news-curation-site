@@ -5,6 +5,6 @@ summary: "A Student’s Guide to Writing with ChatGPT"
 pubDate: "Wed, 13 Nov 2024 10:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/chatgpt/use-cases/student-writing-guide"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

@@ -5,6 +5,6 @@ summary: "The entire team has joined OpenAI."
 pubDate: "Wed, 16 Aug 2023 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/openai-acquires-global-illumination"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

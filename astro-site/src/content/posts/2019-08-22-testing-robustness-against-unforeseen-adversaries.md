@@ -5,6 +5,6 @@ summary: "We’ve developed a method to assess whether a neural network classifi
 pubDate: "Thu, 22 Aug 2019 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/testing-robustness"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

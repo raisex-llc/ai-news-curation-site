@@ -5,6 +5,6 @@ summary: "OpenAI o3 and OpenAI o4-mini combine state-of-the-art reasoning with f
 pubDate: "Wed, 16 Apr 2025 10:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/o3-o4-mini-system-card"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

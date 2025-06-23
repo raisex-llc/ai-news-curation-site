@@ -5,6 +5,6 @@ summary: "We use GPT-4 to automatically write explanations for the behavior of n
 pubDate: "Tue, 09 May 2023 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/language-models-can-explain-neurons-in-language-models"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

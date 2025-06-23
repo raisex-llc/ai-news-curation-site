@@ -5,6 +5,6 @@ summary: "Come to OpenAI’s office in San Francisco’s Mission District for ta
 pubDate: "Thu, 22 Feb 2018 08:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/openai-hackathon"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

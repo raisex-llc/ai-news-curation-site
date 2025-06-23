@@ -5,6 +5,6 @@ summary: "Multiagent environments where agents compete for resources are steppin
 pubDate: "Thu, 08 Jun 2017 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/learning-to-cooperate-compete-and-communicate"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 

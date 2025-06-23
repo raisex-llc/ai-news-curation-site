@@ -5,6 +5,6 @@ summary: "Diffusion models have significantly advanced the fields of image, audi
 pubDate: "Thu, 20 Jun 2024 00:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/consistency-models"
-thumbnail: "/assets/ai-icon.png"
+thumbnail: "/assets/openai_logo.png"
 ---
 
