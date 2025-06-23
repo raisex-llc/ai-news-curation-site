@@ -5,6 +5,6 @@ summary: "Zico Kolter Joins OpenAI’s Board of Directors We’re strengthening 
 pubDate: "Thu, 08 Aug 2024 12:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/zico-kolter-joins-openais-board-of-directors"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

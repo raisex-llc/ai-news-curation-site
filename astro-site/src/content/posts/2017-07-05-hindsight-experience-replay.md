@@ -5,6 +5,6 @@ summary: ""
 pubDate: "Wed, 05 Jul 2017 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/hindsight-experience-replay"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

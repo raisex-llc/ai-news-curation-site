@@ -5,6 +5,6 @@ summary: "Yesterday, OpenAI Five won a best-of-three against a team of 99.95th
 pubDate: "Mon, 06 Aug 2018 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/openai-five-benchmark-results"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

@@ -5,6 +5,6 @@ summary: "New board members named and enhancements to the governance structure i
 pubDate: "Fri, 08 Mar 2024 08:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/review-completed-altman-brockman-to-continue-to-lead-openai"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

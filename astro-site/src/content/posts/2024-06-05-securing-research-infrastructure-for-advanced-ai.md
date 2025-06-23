@@ -5,6 +5,6 @@ summary: "We outline our architecture that supports the secure training of front
 pubDate: "Wed, 05 Jun 2024 10:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/securing-research-infrastructure-for-advanced-ai"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

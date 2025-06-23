@@ -5,6 +5,6 @@ summary: "We’re releasing Triton 1.0, an open-source Python-like programming l
 pubDate: "Wed, 28 Jul 2021 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/triton"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

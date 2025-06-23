@@ -5,6 +5,6 @@ summary: ""
 pubDate: "Fri, 03 May 2019 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/transfer-of-adversarial-robustness-between-perturbation-types"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

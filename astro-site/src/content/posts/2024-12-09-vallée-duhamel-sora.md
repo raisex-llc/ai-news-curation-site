@@ -5,6 +5,6 @@ summary: "Filmmaking duo Vallée Duhamel explains how Sora helps build new world
 pubDate: "Mon, 09 Dec 2024 00:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/sora-vallee-duhamel"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

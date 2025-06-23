@@ -5,6 +5,6 @@ summary: "A factuality benchmark called SimpleQA that measures the ability for l
 pubDate: "Wed, 30 Oct 2024 10:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/introducing-simpleqa"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

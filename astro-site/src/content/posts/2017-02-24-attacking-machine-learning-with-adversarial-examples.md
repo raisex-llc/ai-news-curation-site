@@ -5,6 +5,6 @@ summary: "Adversarial examples are inputs to machine learning models that an att
 pubDate: "Fri, 24 Feb 2017 08:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/attacking-machine-learning-with-adversarial-examples"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

@@ -5,6 +5,6 @@ summary: "OpenAI and other leading labs reinforce AI safety, security and trustw
 pubDate: "Fri, 21 Jul 2023 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/moving-ai-governance-forward"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

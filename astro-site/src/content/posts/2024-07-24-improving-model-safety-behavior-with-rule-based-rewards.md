@@ -5,6 +5,6 @@ summary: "We've developed and applied a new method leveraging Rule-Based Rewards
 pubDate: "Wed, 24 Jul 2024 09:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/improving-model-safety-behavior-with-rule-based-rewards"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

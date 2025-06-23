@@ -5,6 +5,6 @@ summary: "Introducing Codex: a cloud-based software engineering agent that can w
 pubDate: "Fri, 16 May 2025 08:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/introducing-codex"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

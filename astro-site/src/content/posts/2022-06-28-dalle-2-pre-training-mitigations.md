@@ -5,6 +5,6 @@ summary: "In order to share the magic of DALL·E 2 with a broad audience, we n
 pubDate: "Tue, 28 Jun 2022 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/dall-e-2-pre-training-mitigations"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

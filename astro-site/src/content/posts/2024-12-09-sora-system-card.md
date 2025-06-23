@@ -5,6 +5,6 @@ summary: "Sora is OpenAI’s video generation model, designed to take text, imag
 pubDate: "Mon, 09 Dec 2024 00:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/sora-system-card"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

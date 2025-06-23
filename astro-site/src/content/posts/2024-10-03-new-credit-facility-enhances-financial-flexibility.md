@@ -5,6 +5,6 @@ summary: "In addition to securing $6.6 billion in new funding from leading inves
 pubDate: "Thu, 03 Oct 2024 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/new-credit-facility-enhances-financial-flexibility"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

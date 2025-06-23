@@ -5,6 +5,6 @@ summary: "We’re releasing a human-validated subset of SWE-bench that more reli
 pubDate: "Tue, 13 Aug 2024 10:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/introducing-swe-bench-verified"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

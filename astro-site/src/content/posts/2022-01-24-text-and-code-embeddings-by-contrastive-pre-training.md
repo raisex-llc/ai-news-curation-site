@@ -5,6 +5,6 @@ summary: ""
 pubDate: "Mon, 24 Jan 2022 08:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/text-and-code-embeddings-by-contrastive-pre-training"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

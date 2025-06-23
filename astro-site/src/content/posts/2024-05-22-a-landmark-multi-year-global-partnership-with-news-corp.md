@@ -5,6 +5,6 @@ summary: "Companies Join Forces to Enrich OpenAI’s Generative AI Products and 
 pubDate: "Wed, 22 May 2024 13:15:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/news-corp-and-openai-sign-landmark-multi-year-global-partnership"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

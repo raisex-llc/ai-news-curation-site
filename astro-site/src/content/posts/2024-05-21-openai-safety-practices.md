@@ -5,6 +5,6 @@ summary: "Artificial general intelligence has the potential to benefit nearly ev
 pubDate: "Tue, 21 May 2024 06:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/openai-safety-update"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

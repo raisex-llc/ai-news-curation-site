@@ -5,6 +5,6 @@ summary: "Advanced AI can transform biology and medicine—but also raises biose
 pubDate: "Wed, 18 Jun 2025 10:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/preparing-for-future-ai-capabilities-in-biology"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

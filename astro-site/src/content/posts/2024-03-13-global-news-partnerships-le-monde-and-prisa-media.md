@@ -5,6 +5,6 @@ summary: "We have partnered with international news organizations Le Monde and P
 pubDate: "Wed, 13 Mar 2024 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/global-news-partnerships-le-monde-and-prisa-media"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

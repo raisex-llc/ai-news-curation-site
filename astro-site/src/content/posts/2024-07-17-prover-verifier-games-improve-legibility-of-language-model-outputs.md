@@ -5,6 +5,6 @@ summary: "desc"
 pubDate: "Wed, 17 Jul 2024 10:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/prover-verifier-games-improve-legibility"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

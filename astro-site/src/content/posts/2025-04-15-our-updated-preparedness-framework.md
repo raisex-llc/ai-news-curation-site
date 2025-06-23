@@ -5,6 +5,6 @@ summary: "Sharing our updated framework for measuring and protecting against sev
 pubDate: "Tue, 15 Apr 2025 00:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/updating-our-preparedness-framework"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

@@ -5,6 +5,6 @@ summary: "The latest information about the Unconference is now available at the 
 pubDate: "Thu, 18 Aug 2016 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/machine-learning-unconference"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

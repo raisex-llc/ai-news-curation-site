@@ -5,6 +5,6 @@ summary: "We’ve created activation atlases (in collaboration with Google r
 pubDate: "Wed, 06 Mar 2019 08:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/introducing-activation-atlases"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

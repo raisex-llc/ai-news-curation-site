@@ -5,6 +5,6 @@ summary: "Data residency builds on OpenAI’s enterprise-grade data privacy, sec
 pubDate: "Wed, 07 May 2025 18:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/introducing-data-residency-in-asia"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

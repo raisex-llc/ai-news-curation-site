@@ -5,6 +5,6 @@ summary: "Mira Murati as CTO, Greg Brockman returns as President. Read messages 
 pubDate: "Wed, 29 Nov 2023 08:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/sam-altman-returns-as-ceo-openai-has-a-new-initial-board"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

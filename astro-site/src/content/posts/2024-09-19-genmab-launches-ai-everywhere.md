@@ -5,6 +5,6 @@ summary: "Genmab embraces ChatGPT Enterprise, supported by OpenAI’s commitment
 pubDate: "Thu, 19 Sep 2024 04:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/genmab"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

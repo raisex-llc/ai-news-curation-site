@@ -5,6 +5,6 @@ summary: "Call for expressions of interest to study the economic impacts of larg
 pubDate: "Thu, 03 Mar 2022 08:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/economic-impacts"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

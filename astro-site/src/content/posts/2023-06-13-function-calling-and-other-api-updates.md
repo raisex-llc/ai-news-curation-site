@@ -5,6 +5,6 @@ summary: "We’re announcing updates including more steerable API models, functi
 pubDate: "Tue, 13 Jun 2023 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/function-calling-and-other-api-updates"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

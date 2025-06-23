@@ -5,6 +5,6 @@ summary: "Today's LLMs are susceptible to prompt injections, jailbreaks, and oth
 pubDate: "Fri, 19 Apr 2024 19:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/the-instruction-hierarchy"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

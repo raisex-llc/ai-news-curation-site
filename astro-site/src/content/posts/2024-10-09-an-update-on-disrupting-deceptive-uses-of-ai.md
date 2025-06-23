@@ -5,6 +5,6 @@ summary: "OpenAI’s mission is to ensure that artificial general intelligence b
 pubDate: "Wed, 09 Oct 2024 03:30:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/global-affairs/an-update-on-disrupting-deceptive-uses-of-ai"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

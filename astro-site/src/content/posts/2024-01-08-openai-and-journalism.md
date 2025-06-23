@@ -5,6 +5,6 @@ summary: "We support journalism, partner with news organizations, and believe Th
 pubDate: "Mon, 08 Jan 2024 08:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/openai-and-journalism"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

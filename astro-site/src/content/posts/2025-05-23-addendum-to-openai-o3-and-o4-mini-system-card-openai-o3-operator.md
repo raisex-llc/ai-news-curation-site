@@ -5,6 +5,6 @@ summary: "We are replacing the existing GPT-4o-based model for Operator with a v
 pubDate: "Fri, 23 May 2025 00:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/o3-o4-mini-system-card-addendum-operator-o3"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

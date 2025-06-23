@@ -5,6 +5,6 @@ summary: "GPT-4o system card external testers acknowledgements"
 pubDate: "Thu, 08 Aug 2024 10:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/gpt-4o-system-card/external-testers-acknowledgements"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

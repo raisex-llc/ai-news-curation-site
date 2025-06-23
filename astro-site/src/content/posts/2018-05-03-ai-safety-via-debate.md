@@ -5,6 +5,6 @@ summary: "We’re proposing an AI safety technique which trains agents to debate
 pubDate: "Thu, 03 May 2018 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/debate"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

@@ -5,6 +5,6 @@ summary: "We’ve found that self-play allows simulated AIs to discover physical
 pubDate: "Wed, 11 Oct 2017 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/competitive-self-play"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

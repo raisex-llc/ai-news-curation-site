@@ -5,6 +5,6 @@ summary: "Geneticist Catherine Brownstein demonstrates how OpenAI o1 can speed u
 pubDate: "Thu, 12 Sep 2024 00:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/o1-genetics"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

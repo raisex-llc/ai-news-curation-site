@@ -5,6 +5,6 @@ summary: "We will also collaborate on new AI experiences for FT readers."
 pubDate: "Mon, 29 Apr 2024 00:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/content-partnership-with-financial-times"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

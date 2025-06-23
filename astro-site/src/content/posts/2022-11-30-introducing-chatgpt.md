@@ -5,6 +5,6 @@ summary: "We’ve trained a model called ChatGPT which interacts in a conversati
 pubDate: "Wed, 30 Nov 2022 08:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/chatgpt"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

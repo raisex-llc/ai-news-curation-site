@@ -5,6 +5,6 @@ summary: "OpenAI’s mission is to build safe AI, and ensure AI’s benefits are
 pubDate: "Mon, 20 Jun 2016 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/openai-technical-goals"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

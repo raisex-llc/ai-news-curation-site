@@ -5,6 +5,6 @@ summary: "We’ve trained a neural network called DALL·E that creates images fr
 pubDate: "Tue, 05 Jan 2021 08:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/dall-e"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

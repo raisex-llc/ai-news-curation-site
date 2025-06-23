@@ -5,6 +5,6 @@ summary: "A conversation with Claire Vo, Chief Product Officer of LaunchDarkly, 
 pubDate: "Tue, 04 Mar 2025 10:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/launchdarkly-claire-vo"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

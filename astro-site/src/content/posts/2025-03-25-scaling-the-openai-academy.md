@@ -5,6 +5,6 @@ summary: "Online resource hub will support AI literacy and help people from all 
 pubDate: "Tue, 25 Mar 2025 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/global-affairs/scaling-the-openai-academy"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

@@ -5,6 +5,6 @@ summary: "Economist Tyler Cowen explains how OpenAI o1 tackles complex economic 
 pubDate: "Thu, 12 Sep 2024 00:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/o1-economics"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 統合版 feed_fetcher.py
-RSS → Markdown変換 + YAML整形 + OpenAI URL修正 + OpenAI代替サムネイル対応 + バックスラッシュ削除
+RSS → Markdown変換 + YAML整形 + OpenAI URL修正 + OpenAI/汎用代替サムネイル対応 + バックスラッシュ削除
 """
 
 import feedparser
@@ -36,7 +36,7 @@ def slugify(text: str) -> str:
 def sanitize(value: str) -> str:
     if value is None:
         return ""
-    return str(value).strip().replace('"', "'").replace("\\", "")  # バックスラッシュ削除
+    return str(value).strip().replace('"', "'").replace("\\", "")
 
 def extract_thumbnail(url):
     try:
@@ -66,16 +66,15 @@ def write_post(title, description, date, source, url, thumbnail):
     date_str = dt.strftime(DATE_FMT_MD)
     filename = f"{date_str}-{slug}.md"
     filepath = CONTENT_DIR / filename
-    content = f"""---
-title: "{sanitize(title)}"
-description: "{sanitize(description)}"
-summary: "{sanitize(description)}"
-pubDate: "{sanitize(date)}"
-source: "{sanitize(source)}"
-url: "{sanitize(url)}"
-thumbnail: "{sanitize(thumbnail)}"
----\n
-"""
+    content = f"""---\n"""
+    content += f'title: "{sanitize(title)}"\n'
+    content += f'description: "{sanitize(description)}"\n'
+    content += f'summary: "{sanitize(description)}"\n'
+    content += f'pubDate: "{sanitize(date)}"\n'
+    content += f'source: "{sanitize(source)}"\n'
+    content += f'url: "{sanitize(url)}"\n'
+    content += f'thumbnail: "{sanitize(thumbnail)}"\n'
+    content += "---\n\n"
     filepath.write_text(content, encoding="utf-8")
     print(f"✅ saved: {filename}")
 
@@ -112,7 +111,7 @@ def fix_all_md_files():
     keys = ["title", "description", "summary", "pubDate", "source", "url", "thumbnail"]
     for filepath in CONTENT_DIR.glob("*.md"):
         try:
-            text = filepath.read_text(encoding="utf-8").replace("\\", "")  # バックスラッシュ削除
+            text = filepath.read_text(encoding="utf-8").replace("\\", "")
             if not text.startswith("---"):
                 continue
             parts = text.split("---")
@@ -154,8 +153,12 @@ def main():
                 thumb = extract_thumbnail(link)
                 print(f"→ EXTRACTED: {thumb}")
 
-                if media == "OpenAI Blog" and "openai.com/blog/" in link and not thumb:
-                    thumb = "/assets/openai_logo.png"
+                # ✅ サムネイル取得失敗時の補完処理
+                if not thumb:
+                    if media == "OpenAI Blog" and "openai.com/blog/" in link:
+                        thumb = "/assets/openai_logo.png"
+                    else:
+                        thumb = "/assets/ai-icon.png"
 
                 write_post(title, summary, pub, media, link, thumb)
 
@@ -164,7 +167,7 @@ def main():
         print(f"❌ Unhandled Error: {e}")
         sys.exit(1)
 
-    print("✅ 完了: Markdown 生成 + YAML整形 + URL置換 + OpenAI画像補完 + バックスラッシュ除去")
+    print("✅ 完了: Markdown 生成 + YAML整形 + URL置換 + サムネイル補完 + バックスラッシュ除去")
     sys.exit(0)
 
 if __name__ == "__main__":

@@ -5,6 +5,6 @@ summary: "Endex builds the future of financial analysis, powered by OpenAI’s r
 pubDate: "Thu, 27 Feb 2025 09:30:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/endex"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

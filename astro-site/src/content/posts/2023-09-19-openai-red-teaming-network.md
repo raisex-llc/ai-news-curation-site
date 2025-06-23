@@ -5,6 +5,6 @@ summary: "We’re announcing an open call for the OpenAI Red Teaming Network and
 pubDate: "Tue, 19 Sep 2023 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/red-teaming-network"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

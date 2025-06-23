@@ -5,6 +5,6 @@ summary: "We’ve co-authored a paper that forecasts how malicious actors could 
 pubDate: "Tue, 20 Feb 2018 08:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/preparing-for-malicious-uses-of-ai"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

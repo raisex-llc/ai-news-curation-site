@@ -5,6 +5,6 @@ summary: "We’re happy to announce several executive role changes that reflect 
 pubDate: "Thu, 05 May 2022 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/leadership-team-update"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

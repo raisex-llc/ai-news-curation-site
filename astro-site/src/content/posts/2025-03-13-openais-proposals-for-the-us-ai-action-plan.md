@@ -5,6 +5,6 @@ summary: "Recommendations build on OpenAI’s Economic Blueprint to strengthen A
 pubDate: "Thu, 13 Mar 2025 03:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/global-affairs/openai-proposals-for-the-us-ai-action-plan"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

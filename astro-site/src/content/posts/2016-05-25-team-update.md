@@ -5,6 +5,6 @@ summary: "We’d like to welcome the latest set of team members to OpenAI (and w
 pubDate: "Wed, 25 May 2016 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/team-update"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

@@ -5,6 +5,6 @@ summary: "We’re launching the GPT Store to help you find useful and popular cu
 pubDate: "Wed, 10 Jan 2024 08:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/introducing-the-gpt-store"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

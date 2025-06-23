@@ -5,6 +5,6 @@ summary: "Today we’re introducing new technology to help researchers identify 
 pubDate: "Tue, 07 May 2024 00:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/understanding-the-source-of-what-we-see-and-hear-online"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

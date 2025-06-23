@@ -5,6 +5,6 @@ summary: "OpenAI looks forward to engaging with global leaders on AI’s role in
 pubDate: "Fri, 07 Feb 2025 17:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/global-affairs/openai-at-the-paris-ai-action-summit"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

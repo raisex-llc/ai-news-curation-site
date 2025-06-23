@@ -5,6 +5,6 @@ summary: "We are beginning to roll out new voice and image capabilities in ChatG
 pubDate: "Mon, 25 Sep 2023 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/chatgpt-can-now-see-hear-and-speak"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

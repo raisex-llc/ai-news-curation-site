@@ -5,6 +5,6 @@ summary: "We aired our first-ever television ad during the Super Bowl to pique p
 pubDate: "Sun, 09 Feb 2025 22:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/global-affairs/introducing-the-intelligence-age"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

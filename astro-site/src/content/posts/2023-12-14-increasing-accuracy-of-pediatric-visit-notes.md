@@ -5,6 +5,6 @@ summary: "Summer Health reimagines pediatric doctor’s visits with OpenAI."
 pubDate: "Thu, 14 Dec 2023 08:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/summer-health"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

@@ -5,6 +5,6 @@ summary: ""
 pubDate: "Tue, 01 Aug 2023 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/confidence-building-measures-for-artificial-intelligence"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

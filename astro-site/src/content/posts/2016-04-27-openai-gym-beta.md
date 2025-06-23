@@ -5,6 +5,6 @@ summary: "We’re releasing the public beta of OpenAI Gym, a toolkit for develop
 pubDate: "Wed, 27 Apr 2016 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/openai-gym-beta"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

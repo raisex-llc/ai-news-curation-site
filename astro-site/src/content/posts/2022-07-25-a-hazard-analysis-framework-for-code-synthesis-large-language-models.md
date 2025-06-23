@@ -5,6 +5,6 @@ summary: ""
 pubDate: "Mon, 25 Jul 2022 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/a-hazard-analysis-framework-for-code-synthesis-large-language-models"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

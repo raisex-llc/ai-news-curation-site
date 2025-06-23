@@ -5,6 +5,6 @@ summary: "At OpenAI, each Thursday is Learning Day: a day where employees have t
 pubDate: "Thu, 01 Aug 2019 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/learning-day"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

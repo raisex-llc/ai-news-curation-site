@@ -5,6 +5,6 @@ summary: "Notion is a connected workspace where teams write, plan, and organize 
 pubDate: "Thu, 03 Apr 2025 10:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/notion"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

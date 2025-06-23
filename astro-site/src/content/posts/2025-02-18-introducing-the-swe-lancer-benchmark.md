@@ -5,6 +5,6 @@ summary: "Can frontier LLMs earn $1 million from real-world freelance software e
 pubDate: "Tue, 18 Feb 2025 10:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/swe-lancer"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

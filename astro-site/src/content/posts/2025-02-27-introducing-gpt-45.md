@@ -5,6 +5,6 @@ summary: "We’re releasing a research preview of GPT‑4.5—our largest and be
 pubDate: "Thu, 27 Feb 2025 10:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/introducing-gpt-4-5"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

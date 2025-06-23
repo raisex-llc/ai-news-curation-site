@@ -5,6 +5,6 @@ summary: "As part of our effort to support and develop AI talent, we’re excite
 pubDate: "Tue, 30 Nov 2021 08:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/openai-residency"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

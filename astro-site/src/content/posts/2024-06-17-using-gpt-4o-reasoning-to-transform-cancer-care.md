@@ -5,6 +5,6 @@ summary: "Color Health is working with OpenAI to pioneer a new way of accelerati
 pubDate: "Mon, 17 Jun 2024 04:15:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/color-health"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

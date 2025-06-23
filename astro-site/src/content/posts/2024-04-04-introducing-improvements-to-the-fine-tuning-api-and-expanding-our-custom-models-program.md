@@ -5,6 +5,6 @@ summary: "We’re adding new features to help developers have more control over 
 pubDate: "Thu, 04 Apr 2024 00:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/introducing-improvements-to-the-fine-tuning-api-and-expanding-our-custom-models-program"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

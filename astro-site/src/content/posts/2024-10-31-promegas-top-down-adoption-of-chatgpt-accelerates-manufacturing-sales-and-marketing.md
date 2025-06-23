@@ -5,6 +5,6 @@ summary: "Promega's top-down adoption of ChatGPT accelerates manufacturing, sale
 pubDate: "Thu, 31 Oct 2024 08:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/promega"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

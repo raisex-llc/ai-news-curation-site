@@ -5,6 +5,6 @@ summary: "The following are the Questions for the Record following Sam Altman's 
 pubDate: "Thu, 22 Jun 2023 00:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/global-affairs/sam-altman-senate-questions-for-the-record"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

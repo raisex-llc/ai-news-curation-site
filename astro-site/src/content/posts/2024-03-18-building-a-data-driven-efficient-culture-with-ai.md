@@ -5,6 +5,6 @@ summary: "Holiday Extras rolls out ChatGPT Enterprise across every team, boostin
 pubDate: "Mon, 18 Mar 2024 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/holiday-extras"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

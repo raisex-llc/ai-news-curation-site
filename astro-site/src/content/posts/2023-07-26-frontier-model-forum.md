@@ -5,6 +5,6 @@ summary: "We’re forming a new industry body to promote the safe and responsibl
 pubDate: "Wed, 26 Jul 2023 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/frontier-model-forum"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

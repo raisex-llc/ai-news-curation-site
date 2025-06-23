@@ -5,6 +5,6 @@ summary: "AI can enrich lives through beauty and creativity, and its artistic po
 pubDate: "Wed, 14 Aug 2024 10:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/the-met-museum"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

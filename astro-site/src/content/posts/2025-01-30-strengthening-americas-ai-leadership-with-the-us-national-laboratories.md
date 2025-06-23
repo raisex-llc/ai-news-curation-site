@@ -5,6 +5,6 @@ summary: "OpenAI’s latest line of reasoning models will be used by nation’s 
 pubDate: "Thu, 30 Jan 2025 10:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/strengthening-americas-ai-leadership-with-the-us-national-laboratories"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

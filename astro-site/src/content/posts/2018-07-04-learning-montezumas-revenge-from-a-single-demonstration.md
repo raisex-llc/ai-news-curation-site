@@ -5,6 +5,6 @@ summary: "We’ve trained an agent to achieve a high score of 74,500 on Montezu
 pubDate: "Wed, 04 Jul 2018 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/learning-montezumas-revenge-from-a-single-demonstration"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

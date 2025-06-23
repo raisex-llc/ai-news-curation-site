@@ -5,6 +5,6 @@ summary: "We’re publishing our Raising Concerns Policy, which protects employe
 pubDate: "Fri, 04 Oct 2024 12:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/openai-raising-concerns-policy"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

@@ -5,6 +5,6 @@ summary: "The National Institute of Standards and Technology (NIST) request for 
 pubDate: "Fri, 02 Feb 2024 00:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/global-affairs/response-to-nist-executive-order-on-ai"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

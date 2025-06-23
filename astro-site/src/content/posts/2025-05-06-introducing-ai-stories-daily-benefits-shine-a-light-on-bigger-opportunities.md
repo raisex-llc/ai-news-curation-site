@@ -5,6 +5,6 @@ summary: "Sam Altman has written that we are entering the Intelligence Age, a ti
 pubDate: "Tue, 06 May 2025 10:30:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/global-affairs/ai-stories-daily-benefits-bigger-opportunities"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

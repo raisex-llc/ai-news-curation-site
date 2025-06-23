@@ -5,6 +5,6 @@ summary: "We’ve obtained state-of-the-art results on a suite of diverse langua
 pubDate: "Mon, 11 Jun 2018 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/language-unsupervised"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

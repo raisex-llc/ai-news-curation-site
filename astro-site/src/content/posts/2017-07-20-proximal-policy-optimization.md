@@ -5,6 +5,6 @@ summary: "We’re releasing a new class of reinforcement learning algorithms, Pr
 pubDate: "Thu, 20 Jul 2017 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/openai-baselines-ppo"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

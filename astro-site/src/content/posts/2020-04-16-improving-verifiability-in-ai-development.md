@@ -5,6 +5,6 @@ summary: "We’ve contributed to a multi-stakeholder report by 58 co-authors a
 pubDate: "Thu, 16 Apr 2020 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/improving-verifiability"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

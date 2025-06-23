@@ -5,6 +5,6 @@ summary: ""
 pubDate: "Wed, 25 May 2016 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/adversarial-training-methods-for-semi-supervised-text-classification"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

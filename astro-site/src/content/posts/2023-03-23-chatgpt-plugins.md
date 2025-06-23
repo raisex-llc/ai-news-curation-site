@@ -5,6 +5,6 @@ summary: "We’ve implemented initial support for plugins in ChatGPT. Plugins ar
 pubDate: "Thu, 23 Mar 2023 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/chatgpt-plugins"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

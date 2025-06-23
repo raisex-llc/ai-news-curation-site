@@ -5,6 +5,6 @@ summary: "This post describes four projects that share a common theme of enhanci
 pubDate: "Thu, 16 Jun 2016 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/generative-models"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

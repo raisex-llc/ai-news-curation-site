@@ -5,6 +5,6 @@ summary: "We've trained a model to achieve a new state-of-the-art in mathematica
 pubDate: "Wed, 31 May 2023 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/improving-mathematical-reasoning-with-process-supervision"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

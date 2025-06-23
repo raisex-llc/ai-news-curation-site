@@ -5,6 +5,6 @@ summary: ""
 pubDate: "Thu, 02 Nov 2017 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/interpretable-and-pedagogical-examples"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

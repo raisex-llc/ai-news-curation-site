@@ -5,6 +5,6 @@ summary: "Our Dota 2 result shows that self-play can catapult the performance of
 pubDate: "Wed, 16 Aug 2017 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/more-on-dota-2"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

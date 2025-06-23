@@ -5,6 +5,6 @@ summary: "We’ve scaled Kubernetes clusters to 7,500 nodes, producing a scalabl
 pubDate: "Mon, 25 Jan 2021 08:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/scaling-kubernetes-to-7500-nodes"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

@@ -5,6 +5,6 @@ summary: "Offering automatic discounts on inputs that the model has recently see
 pubDate: "Tue, 01 Oct 2024 10:03:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/api-prompt-caching"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

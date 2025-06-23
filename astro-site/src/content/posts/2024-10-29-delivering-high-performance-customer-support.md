@@ -5,6 +5,6 @@ summary: "Decagon and OpenAI deliver high-performance, fully automated customer 
 pubDate: "Tue, 29 Oct 2024 10:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/decagon"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

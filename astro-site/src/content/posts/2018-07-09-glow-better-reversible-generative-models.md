@@ -5,6 +5,6 @@ summary: "We introduce Glow, a reversible generative model which uses invertibl
 pubDate: "Mon, 09 Jul 2018 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/glow"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

@@ -5,6 +5,6 @@ summary: "Nakasone brings cybersecurity experience to growing Board of Directors
 pubDate: "Thu, 13 Jun 2024 14:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/openai-appoints-retired-us-army-general"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

@@ -5,6 +5,6 @@ summary: "Harvey partners with OpenAI to build a custom-trained model for legal 
 pubDate: "Tue, 02 Apr 2024 00:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/harvey"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

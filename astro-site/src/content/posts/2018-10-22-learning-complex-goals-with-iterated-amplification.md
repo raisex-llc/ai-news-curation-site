@@ -5,6 +5,6 @@ summary: "We’re proposing an AI safety technique called iterated amplification
 pubDate: "Mon, 22 Oct 2018 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/learning-complex-goals-with-iterated-amplification"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

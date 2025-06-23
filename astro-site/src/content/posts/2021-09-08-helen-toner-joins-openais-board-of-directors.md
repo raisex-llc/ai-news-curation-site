@@ -5,6 +5,6 @@ summary: "Today, we’re excited to announce the appointment of Helen Toner to o
 pubDate: "Wed, 08 Sep 2021 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/helen-toner-joins"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

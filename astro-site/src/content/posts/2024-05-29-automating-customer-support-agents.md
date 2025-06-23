@@ -5,6 +5,6 @@ summary: "MavenAGI is a new software company for the AI era. They recently launc
 pubDate: "Wed, 29 May 2024 09:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/mavenagi"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

@@ -5,6 +5,6 @@ summary: "Compliance API integrations, SCIM, and GPT controls to support complia
 pubDate: "Thu, 18 Jul 2024 00:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/new-tools-for-chatgpt-enterprise"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

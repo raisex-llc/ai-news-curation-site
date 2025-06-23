@@ -5,6 +5,6 @@ summary: "A conversation with Jai Malkani, Head of AI and Product, Customer Obse
 pubDate: "Thu, 20 Feb 2025 10:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/uber-enables-outstanding-experiences"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

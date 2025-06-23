@@ -5,6 +5,6 @@ summary: "New initiative will fuel innovation by investing in developers and org
 pubDate: "Mon, 23 Sep 2024 03:30:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/global-affairs/openai-academy"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

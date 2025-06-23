@@ -5,6 +5,6 @@ summary: "A deeper dive on our findings, what went wrong, and future changes weâ
 pubDate: "Fri, 02 May 2025 08:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/expanding-on-sycophancy"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

@@ -5,6 +5,6 @@ summary: "We are sharing what we learned from our conversations across 22 countr
 pubDate: "Thu, 29 Jun 2023 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/insights-from-global-conversations"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

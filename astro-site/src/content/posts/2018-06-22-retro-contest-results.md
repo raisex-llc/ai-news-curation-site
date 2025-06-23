@@ -5,6 +5,6 @@ summary: "The first run of our Retro Contest—exploring the development of alg
 pubDate: "Fri, 22 Jun 2018 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/retro-contest-results"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

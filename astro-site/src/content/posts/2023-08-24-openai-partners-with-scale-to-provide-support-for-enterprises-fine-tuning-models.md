@@ -5,6 +5,6 @@ summary: "OpenAI’s customers can leverage Scale’s AI expertise to customize 
 pubDate: "Thu, 24 Aug 2023 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/openai-partners-with-scale-to-provide-support-for-enterprises-fine-tuning-models"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

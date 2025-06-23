@@ -5,6 +5,6 @@ summary: "Wider availability made possible by safety progress."
 pubDate: "Thu, 18 Nov 2021 08:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/api-no-waitlist"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

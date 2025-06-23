@@ -5,6 +5,6 @@ summary: "We’ve developed a simple meta-learning algorithm called Reptile whic
 pubDate: "Wed, 07 Mar 2018 08:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/reptile"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

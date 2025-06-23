@@ -5,6 +5,6 @@ summary: "Our class of eight scholars (out of 550 applicants) brings together 
 pubDate: "Wed, 13 Mar 2019 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/openai-scholars-2019-meet-our-scholars"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

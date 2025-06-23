@@ -5,6 +5,6 @@ summary: "We are standardizing OpenAI’s deep learning framework on PyTorch."
 pubDate: "Thu, 30 Jan 2020 08:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/openai-pytorch"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

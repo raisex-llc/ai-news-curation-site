@@ -5,6 +5,6 @@ summary: "Codex is a cloud-based coding agent. Codex is powered by codex-1, a ve
 pubDate: "Fri, 16 May 2025 08:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/o3-o4-mini-codex-system-card-addendum"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

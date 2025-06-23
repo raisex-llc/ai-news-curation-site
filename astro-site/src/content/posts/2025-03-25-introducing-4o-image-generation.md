@@ -5,6 +5,6 @@ summary: "At OpenAI, we have long believed image generation should be a primary 
 pubDate: "Tue, 25 Mar 2025 11:05:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/introducing-4o-image-generation"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

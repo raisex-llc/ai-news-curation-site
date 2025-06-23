@@ -5,6 +5,6 @@ summary: "We explore large-scale training of generative models on video data. Sp
 pubDate: "Thu, 15 Feb 2024 08:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/video-generation-models-as-world-simulators"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

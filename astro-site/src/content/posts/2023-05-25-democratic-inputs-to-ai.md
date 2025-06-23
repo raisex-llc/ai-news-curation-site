@@ -5,6 +5,6 @@ summary: "Our nonprofit organization, OpenAI, Inc., is launching a program to aw
 pubDate: "Thu, 25 May 2023 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/democratic-inputs-to-ai"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

@@ -5,6 +5,6 @@ summary: "Interdisciplinary artist Minne Atairu discusses how Sora helps realize
 pubDate: "Mon, 09 Dec 2024 00:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/sora-minne-atairu"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

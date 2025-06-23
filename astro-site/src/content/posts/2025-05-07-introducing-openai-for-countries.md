@@ -5,6 +5,6 @@ summary: "A new initiative to support countries around the world that want to bu
 pubDate: "Wed, 07 May 2025 03:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/global-affairs/openai-for-countries"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

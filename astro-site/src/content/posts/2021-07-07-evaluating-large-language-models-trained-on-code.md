@@ -5,6 +5,6 @@ summary: ""
 pubDate: "Wed, 07 Jul 2021 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/evaluating-large-language-models-trained-on-code"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

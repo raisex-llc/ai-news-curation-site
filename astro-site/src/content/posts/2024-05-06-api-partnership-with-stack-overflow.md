@@ -7,6 +7,6 @@ Stack Overflow and OpenAI today announced a new API partnership that will empowe
 pubDate: "Mon, 06 May 2024 00:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/api-partnership-with-stack-overflow"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

@@ -5,6 +5,6 @@ summary: "OpenAI has grown a lot. We remain focused on the same core—pursuing 
 pubDate: "Mon, 24 Mar 2025 10:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/leadership-updates-march-2025"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

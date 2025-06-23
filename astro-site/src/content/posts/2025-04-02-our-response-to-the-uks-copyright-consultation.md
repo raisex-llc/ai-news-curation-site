@@ -5,6 +5,6 @@ summary: "Recommendations for pro-innovation policies that can help make the UK 
 pubDate: "Wed, 02 Apr 2025 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/global-affairs/response-to-uk-copyright-consultation"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

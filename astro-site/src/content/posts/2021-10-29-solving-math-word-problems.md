@@ -5,6 +5,6 @@ summary: "We’ve trained a system that solves grade school math problems with 
 pubDate: "Fri, 29 Oct 2021 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/solving-math-word-problems"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

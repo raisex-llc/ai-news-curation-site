@@ -5,6 +5,6 @@ summary: "This report outlines the safety work carried out prior to releasing GP
 pubDate: "Thu, 08 Aug 2024 00:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/gpt-4o-system-card"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

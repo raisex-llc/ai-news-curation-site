@@ -5,6 +5,6 @@ summary: "Our latest image generation model is now available in the API via ‘g
 pubDate: "Wed, 23 Apr 2025 10:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/image-generation-api"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

@@ -5,6 +5,6 @@ summary: ""
 pubDate: "Tue, 15 Nov 2016 08:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/exploration"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

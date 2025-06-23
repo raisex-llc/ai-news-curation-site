@@ -5,6 +5,6 @@ summary: ""
 pubDate: "Tue, 02 Oct 2018 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/ffjord"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

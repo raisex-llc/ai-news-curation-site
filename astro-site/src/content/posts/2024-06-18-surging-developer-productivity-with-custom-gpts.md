@@ -5,6 +5,6 @@ summary: "Paf adopted ChatGPT Enterprise across its entire company, with enginee
 pubDate: "Tue, 18 Jun 2024 08:45:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/paf"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

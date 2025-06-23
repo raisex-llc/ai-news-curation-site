@@ -5,6 +5,6 @@ summary: "We’re providing 6–10 stipends and mentorship to individuals from u
 pubDate: "Tue, 06 Mar 2018 08:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/openai-scholars"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

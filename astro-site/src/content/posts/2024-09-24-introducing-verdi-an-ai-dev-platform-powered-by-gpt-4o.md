@@ -5,6 +5,6 @@ summary: "Mercado Libre introduces Verdi, an AI developer platform powered by GP
 pubDate: "Tue, 24 Sep 2024 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/mercado-libre"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

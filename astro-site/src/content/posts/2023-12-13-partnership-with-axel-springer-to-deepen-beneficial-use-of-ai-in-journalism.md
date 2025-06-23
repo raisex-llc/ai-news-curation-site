@@ -5,6 +5,6 @@ summary: "Axel Springer is the first publishing house globally to partner with u
 pubDate: "Wed, 13 Dec 2023 08:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/axel-springer-partnership"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

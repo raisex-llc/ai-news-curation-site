@@ -5,6 +5,6 @@ summary: "OpenAI and Guardian Media Group announce content partnership to bring 
 pubDate: "Fri, 14 Feb 2025 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/openai-and-guardian-media-group-launch-content-partnership"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

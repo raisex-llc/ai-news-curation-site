@@ -5,6 +5,6 @@ summary: ""
 pubDate: "Fri, 16 Dec 2022 08:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/point-e"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

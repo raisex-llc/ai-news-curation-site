@@ -5,6 +5,6 @@ summary: "Using ChatGPT to catch halibut"
 pubDate: "Tue, 04 Feb 2025 00:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/fishing-for-first-timers"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

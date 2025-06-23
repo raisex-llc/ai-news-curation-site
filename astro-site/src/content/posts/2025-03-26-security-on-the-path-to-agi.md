@@ -5,6 +5,6 @@ summary: "At OpenAI, we proactively adapt, including by building comprehensive s
 pubDate: "Wed, 26 Mar 2025 10:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/security-on-the-path-to-agi"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 

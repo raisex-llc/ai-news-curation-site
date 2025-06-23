@@ -5,6 +5,6 @@ summary: "We’re releasing eight simulated robotics environments and a Baseline
 pubDate: "Mon, 26 Feb 2018 08:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/ingredients-for-robotics-research"
-thumbnail: ""
+thumbnail: "/assets/ai-icon.png"
 ---
 
