@@ -1,0 +1,10 @@
+---
+title: "PNCS:Power-Norm Cosine Similarity for Diverse Client Selection in Federated Learning"
+description: "arXiv:2506.15923v1 Announce Type: cross Abstract: Federated Learning (FL) has emerged as a powerful paradigm for leveraging diverse datasets from multiple sources while preserving data privacy by avoiding centralized storage. However, many existing approaches fail to account for the intricate gradient correlations between remote clients, a limitation that becomes especially problematic in data heterogeneity scenarios. In this work, we propose a novel FL framework utilizing Power-Norm Cosine Similarity (PNCS) to improve client selection for model aggregation. By capturing higher-order gradient moments, PNCS addresses non-IID data challenges, enhancing convergence speed and accuracy. Additionally, we introduce a simple algorithm ensuring diverse client selection through a selection history queue. Experiments with a VGG16 model across varied data partitions demonstrate consistent improvements over state-of-the-art methods."
+summary: "arXiv:2506.15923v1 Announce Type: cross Abstract: Federated Learning (FL) has emerged as a powerful paradigm for leveraging diverse datasets from multiple sources while preserving data privacy by avoiding centralized storage. However, many existing approaches fail to account for the intricate gradient correlations between remote clients, a limitation that becomes especially problematic in data heterogeneity scenarios. In this work, we propose a novel FL framework utilizing Power-Norm Cosine Similarity (PNCS) to improve client selection for model aggregation. By capturing higher-order gradient moments, PNCS addresses non-IID data challenges, enhancing convergence speed and accuracy. Additionally, we introduce a simple algorithm ensuring diverse client selection through a selection history queue. Experiments with a VGG16 model across varied data partitions demonstrate consistent improvements over state-of-the-art methods."
+pubDate: "Mon, 23 Jun 2025 00:00:00 -0400"
+source: "arXiv AI"
+url: "https://arxiv.org/abs/2506.15923"
+thumbnail: "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+---
+

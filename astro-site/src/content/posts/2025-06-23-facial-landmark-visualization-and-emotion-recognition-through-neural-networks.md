@@ -1,0 +1,10 @@
+---
+title: "Facial Landmark Visualization and Emotion Recognition Through Neural Networks"
+description: "arXiv:2506.17191v1 Announce Type: cross Abstract: Emotion recognition from facial images is a crucial task in human-computer interaction, enabling machines to learn human emotions through facial expressions. Previous studies have shown that facial images can be used to train deep learning models; however, most of these studies do not include a through dataset analysis. Visualizing facial landmarks can be challenging when extracting meaningful dataset insights; to address this issue, we propose facial landmark box plots, a visualization technique designed to identify outliers in facial datasets. Additionally, we compare two sets of facial landmark features: (i) the landmarks' absolute positions and (ii) their displacements from a neutral expression to the peak of an emotional expression. Our results indicate that a neural network achieves better performance than a random forest classifier."
+summary: "arXiv:2506.17191v1 Announce Type: cross Abstract: Emotion recognition from facial images is a crucial task in human-computer interaction, enabling machines to learn human emotions through facial expressions. Previous studies have shown that facial images can be used to train deep learning models; however, most of these studies do not include a through dataset analysis. Visualizing facial landmarks can be challenging when extracting meaningful dataset insights; to address this issue, we propose facial landmark box plots, a visualization technique designed to identify outliers in facial datasets. Additionally, we compare two sets of facial landmark features: (i) the landmarks' absolute positions and (ii) their displacements from a neutral expression to the peak of an emotional expression. Our results indicate that a neural network achieves better performance than a random forest classifier."
+pubDate: "Mon, 23 Jun 2025 00:00:00 -0400"
+source: "arXiv AI"
+url: "https://arxiv.org/abs/2506.17191"
+thumbnail: "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+---
+

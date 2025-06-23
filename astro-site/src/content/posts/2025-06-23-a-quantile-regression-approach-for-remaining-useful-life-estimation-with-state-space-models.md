@@ -1,0 +1,10 @@
+---
+title: "A Quantile Regression Approach for Remaining Useful Life Estimation with State Space Models"
+description: "arXiv:2506.17018v1 Announce Type: new Abstract: Predictive Maintenance (PdM) is pivotal in Industry 4.0 and 5.0, proactively enhancing efficiency through accurate equipment Remaining Useful Life (RUL) prediction, thus optimizing maintenance scheduling and reducing unexpected failures and premature interventions. This paper introduces a novel RUL estimation approach leveraging State Space Models (SSM) for efficient long-term sequence modeling. To handle model uncertainty, Simoultaneous Quantile Regression (SQR) is integrated into the SSM, enabling multiple quantile estimations. The proposed method is benchmarked against traditional sequence modelling techniques (LSTM, Transformer, Informer) using the C-MAPSS dataset. Results demonstrate superior accuracy and computational efficiency of SSM models, underscoring their potential for high-stakes industrial applications."
+summary: "arXiv:2506.17018v1 Announce Type: new Abstract: Predictive Maintenance (PdM) is pivotal in Industry 4.0 and 5.0, proactively enhancing efficiency through accurate equipment Remaining Useful Life (RUL) prediction, thus optimizing maintenance scheduling and reducing unexpected failures and premature interventions. This paper introduces a novel RUL estimation approach leveraging State Space Models (SSM) for efficient long-term sequence modeling. To handle model uncertainty, Simoultaneous Quantile Regression (SQR) is integrated into the SSM, enabling multiple quantile estimations. The proposed method is benchmarked against traditional sequence modelling techniques (LSTM, Transformer, Informer) using the C-MAPSS dataset. Results demonstrate superior accuracy and computational efficiency of SSM models, underscoring their potential for high-stakes industrial applications."
+pubDate: "Mon, 23 Jun 2025 00:00:00 -0400"
+source: "arXiv AI"
+url: "https://arxiv.org/abs/2506.17018"
+thumbnail: "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+---
+

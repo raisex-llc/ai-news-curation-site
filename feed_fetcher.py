@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 統合版 feed_fetcher.py
-RSS → Markdown変換 + YAML整形 + OpenAI URL修正 + OpenAI代替サムネイル対応
+RSS → Markdown変換 + YAML整形 + OpenAI URL修正 + OpenAI代替サムネイル対応 + バックスラッシュ削除
 """
 
 import feedparser
@@ -36,7 +36,7 @@ def slugify(text: str) -> str:
 def sanitize(value: str) -> str:
     if value is None:
         return ""
-    return str(value).strip().replace('"', "'")
+    return str(value).strip().replace('"', "'").replace("\\", "")  # バックスラッシュ削除
 
 def extract_thumbnail(url):
     try:
@@ -66,7 +66,8 @@ def write_post(title, description, date, source, url, thumbnail):
     date_str = dt.strftime(DATE_FMT_MD)
     filename = f"{date_str}-{slug}.md"
     filepath = CONTENT_DIR / filename
-    content = f"""---\ntitle: "{sanitize(title)}"
+    content = f"""---
+title: "{sanitize(title)}"
 description: "{sanitize(description)}"
 summary: "{sanitize(description)}"
 pubDate: "{sanitize(date)}"
@@ -99,7 +100,7 @@ def sanitize_yaml(value, key=""):
         if key == "pubDate":
             return "2000-01-01T00:00:00.000Z"
         return ""
-    v = str(value).strip().replace('"', "'").replace("---", "")
+    v = str(value).strip().replace('"', "'").replace("---", "").replace("\\", "")
     if key == "url" and not is_valid_url(v):
         return "https://example.com"
     if key == "pubDate" and not is_valid_date(v):
@@ -107,11 +108,11 @@ def sanitize_yaml(value, key=""):
     return v
 
 def fix_all_md_files():
-    print("🔧 .md YAML frontmatter 修正 & OpenAI URL置換中...")
+    print("🔧 .md YAML frontmatter 修正 & OpenAI URL置換 & バックスラッシュ削除中...")
     keys = ["title", "description", "summary", "pubDate", "source", "url", "thumbnail"]
     for filepath in CONTENT_DIR.glob("*.md"):
         try:
-            text = filepath.read_text(encoding="utf-8")
+            text = filepath.read_text(encoding="utf-8").replace("\\", "")  # バックスラッシュ削除
             if not text.startswith("---"):
                 continue
             parts = text.split("---")
@@ -153,7 +154,6 @@ def main():
                 thumb = extract_thumbnail(link)
                 print(f"→ EXTRACTED: {thumb}")
 
-                # ✅ OpenAI Blog の場合はローカル画像に置換
                 if media == "OpenAI Blog" and "openai.com/blog/" in link and not thumb:
                     thumb = "/assets/openai_logo.png"
 
@@ -164,7 +164,7 @@ def main():
         print(f"❌ Unhandled Error: {e}")
         sys.exit(1)
 
-    print("✅ 完了: Markdown 生成 + YAML整形 + URL置換 + OpenAI画像補完")
+    print("✅ 完了: Markdown 生成 + YAML整形 + URL置換 + OpenAI画像補完 + バックスラッシュ除去")
     sys.exit(0)
 
 if __name__ == "__main__":
