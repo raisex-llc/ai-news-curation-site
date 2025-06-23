@@ -1,10 +1,10 @@
 ---
-title: StarCoder2-Instruct: Fully Transparent and Permissive Self-Alignment for Code Generation
+title: "StarCoder2-Instruct: Fully Transparent and Permissive Self-Alignment for Code Generation"
 description: ""
 summary: ""
-pubDate: Mon, 29 Apr 2024 00:00:00 GMT
-source: Hugging Face Blog
-url: https://huggingface.co/blog/sc2-instruct
-thumbnail: "https://huggingface.co/blog/assets/sc2-instruct/sc2-instruct-banner.png"
+pubDate: "2000-01-01T00:00:00.000Z"
+source: ""
+url: "https://example.com"
+thumbnail: ""
 ---
 

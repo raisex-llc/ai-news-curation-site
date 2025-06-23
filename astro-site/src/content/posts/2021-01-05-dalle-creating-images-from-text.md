@@ -1,10 +1,10 @@
 ---
-title: DALL·E: Creating images from text
-description: "We’ve trained a neural network called DALL·E that creates images from text captions for a wide range of concepts expressible in natural language."
-summary: "We’ve trained a neural network called DALL·E that creates images from text captions for a wide range of concepts expressible in natural language."
-pubDate: Tue, 05 Jan 2021 08:00:00 GMT
-source: OpenAI Blog
-url: https://openai.com/index/dall-e
-
+title: "DALL·E: Creating images from text"
+description: ""
+summary: ""
+pubDate: "2000-01-01T00:00:00.000Z"
+source: ""
+url: "https://example.com"
+thumbnail: ""
 ---
 

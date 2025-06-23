@@ -1,10 +1,10 @@
 ---
-title: Frontier AI regulation: Managing emerging risks to public safety
+title: "Frontier AI regulation: Managing emerging risks to public safety"
 description: ""
 summary: ""
-pubDate: Thu, 06 Jul 2023 07:00:00 GMT
-source: OpenAI Blog
-url: https://openai.com/index/frontier-ai-regulation
-
+pubDate: "2000-01-01T00:00:00.000Z"
+source: ""
+url: "https://example.com"
+thumbnail: ""
 ---
 

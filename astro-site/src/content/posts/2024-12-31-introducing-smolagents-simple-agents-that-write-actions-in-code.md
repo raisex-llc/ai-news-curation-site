@@ -1,10 +1,10 @@
 ---
-title: Introducing smolagents: simple agents that write actions in code.
+title: "Introducing smolagents: simple agents that write actions in code."
 description: ""
 summary: ""
-pubDate: Tue, 31 Dec 2024 00:00:00 GMT
-source: Hugging Face Blog
-url: https://huggingface.co/blog/smolagents
-thumbnail: "https://huggingface.co/blog/assets/smolagents/thumbnail.png"
+pubDate: "2000-01-01T00:00:00.000Z"
+source: ""
+url: "https://example.com"
+thumbnail: ""
 ---
 

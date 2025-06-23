@@ -1,10 +1,10 @@
 ---
-title: Introducing Agents.js: Give tools to your LLMs using JavaScript
+title: "Introducing Agents.js: Give tools to your LLMs using JavaScript"
 description: ""
 summary: ""
-pubDate: Mon, 24 Jul 2023 00:00:00 GMT
-source: Hugging Face Blog
-url: https://huggingface.co/blog/agents-js
-thumbnail: "https://huggingface.co/blog/assets/agents-js/thumbnail.png"
+pubDate: "2000-01-01T00:00:00.000Z"
+source: ""
+url: "https://example.com"
+thumbnail: ""
 ---
 

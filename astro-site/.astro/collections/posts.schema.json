@@ -43,8 +43,22 @@
           "format": "uri"
         },
         "thumbnail": {
-          "type": "string",
-          "format": "uri"
+          "anyOf": [
+            {
+              "anyOf": [
+                {
+                  "not": {}
+                },
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            {
+              "type": "string",
+              "const": ""
+            }
+          ]
         },
         "$schema": {
           "type": "string"

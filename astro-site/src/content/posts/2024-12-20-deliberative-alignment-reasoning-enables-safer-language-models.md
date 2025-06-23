@@ -1,12 +1,10 @@
 ---
-title: Deliberative alignment: reasoning enables safer language models
-description: "Deliberative alignment: reasoning enables safer language models
-Introducing our new alignment strategy for o1 models, which are directly taught safety specifications and how to reason over them."
-summary: "Deliberative alignment: reasoning enables safer language models
-Introducing our new alignment strategy for o1 models, which are directly taught safety specifications and how to reason over them."
-pubDate: Fri, 20 Dec 2024 10:00:00 GMT
-source: OpenAI Blog
-url: https://openai.com/index/deliberative-alignment
-
+title: "Deliberative alignment: reasoning enables safer language models"
+description: ""
+summary: ""
+pubDate: "2000-01-01T00:00:00.000Z"
+source: ""
+url: "https://example.com"
+thumbnail: ""
 ---
 

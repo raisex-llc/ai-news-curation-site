@@ -1,7 +1,6 @@
 ---
 title: "Inception Labsの拡散言語モデルを試してみた"
-description: "<p>こんにちは、 AIチームの戸田です。 本記事ではInception LabsのMercury APIのベータ版が使えるようになったので、簡単に試してみました。 ドキュメントはこちらで確認できます。 拡散言語モデル 現在の [&#8230;]</p>
-<p>投稿 <a href='https://www.ai-shift.co.jp/techblog/5738' rel='nofollow'>Inception Labsの拡散言語モデルを試してみた</a> は <a href='https://www.ai-shift.co.jp' rel='nofollow'>株式会社AI Shift</a> に最初に表示されました。</p>"
+description: "<p>こんにちは、 AIチームの戸田です。 本記事ではInception LabsのMercury APIのベータ版が使えるようになったので、簡単に試してみました。 ドキュメントはこちらで確認できます。 拡散言語モデル 現在の [&#8230;]</p> <p>投稿 <a href='https://www.ai-shift.co.jp/techblog/5738' rel='nofollow'>Inception Labsの拡散言語モデルを試してみた</a> は <a href='https://www.ai-shift.co.jp' rel='nofollow'>株式会社AI Shift</a> に最初に表示されました。</p>"
 summary: "<p>こんにちは、 AIチームの戸田です。 本記事ではInception LabsのMercury APIのベータ版が使えるようになったので、簡単に試してみました。 ドキュメントはこちらで確認できます。 拡散言語モデル 現在の [&#823"
 pubDate: "Thu, 01 May 2025 03:02:11 +0000"
 source: "AI Shift"

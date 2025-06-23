@@ -1,10 +1,10 @@
 ---
-title: Releasing Outlines-core 0.1.0: structured generation in Rust and Python
+title: "Releasing Outlines-core 0.1.0: structured generation in Rust and Python"
 description: ""
 summary: ""
-pubDate: Tue, 22 Oct 2024 00:00:00 GMT
-source: Hugging Face Blog
-url: https://huggingface.co/blog/outlines-core
-thumbnail: "https://huggingface.co/blog/assets/outlines-core/thumbnail.gif"
+pubDate: "2000-01-01T00:00:00.000Z"
+source: ""
+url: "https://example.com"
+thumbnail: ""
 ---
 

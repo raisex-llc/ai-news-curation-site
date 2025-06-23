@@ -1,10 +1,10 @@
 ---
-title: Expert Support case study: Bolstering a RAG app with LLM-as-a-Judge
+title: "Expert Support case study: Bolstering a RAG app with LLM-as-a-Judge"
 description: ""
 summary: ""
-pubDate: Mon, 28 Oct 2024 00:00:00 GMT
-source: Hugging Face Blog
-url: https://huggingface.co/blog/digital-green-llm-judge
-thumbnail: "https://huggingface.co/blog/assets/digital-gren-llm-judge/thumbnail.png"
+pubDate: "2000-01-01T00:00:00.000Z"
+source: ""
+url: "https://example.com"
+thumbnail: ""
 ---
 

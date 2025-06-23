@@ -1,10 +1,10 @@
 ---
-title: OpenAI Scholars 2020: Applications open
-description: "We are now accepting applications for our third class of OpenAI Scholars."
-summary: "We are now accepting applications for our third class of OpenAI Scholars."
-pubDate: Fri, 11 Oct 2019 07:00:00 GMT
-source: OpenAI Blog
-url: https://openai.com/index/openai-scholars-2020
-
+title: "OpenAI Scholars 2020: Applications open"
+description: ""
+summary: ""
+pubDate: "2000-01-01T00:00:00.000Z"
+source: ""
+url: "https://example.com"
+thumbnail: ""
 ---
 

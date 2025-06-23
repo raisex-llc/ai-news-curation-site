@@ -1,10 +1,10 @@
 ---
-title: BrowseComp: a benchmark for browsing agents
-description: "BrowseComp: a benchmark for browsing agents."
-summary: "BrowseComp: a benchmark for browsing agents."
-pubDate: Thu, 10 Apr 2025 10:00:00 GMT
-source: OpenAI Blog
-url: https://openai.com/index/browsecomp
-
+title: "BrowseComp: a benchmark for browsing agents"
+description: ""
+summary: ""
+pubDate: "2000-01-01T00:00:00.000Z"
+source: ""
+url: "https://example.com"
+thumbnail: ""
 ---
 

@@ -1,10 +1,10 @@
 ---
-title: Introducing the Private Hub: A New Way to Build With Machine Learning
+title: "Introducing the Private Hub: A New Way to Build With Machine Learning"
 description: ""
 summary: ""
-pubDate: Wed, 03 Aug 2022 00:00:00 GMT
-source: Hugging Face Blog
-url: https://huggingface.co/blog/introducing-private-hub
-thumbnail: "https://huggingface.co/blog/assets/92_introducing_private_hub/thumbnail.png"
+pubDate: "2000-01-01T00:00:00.000Z"
+source: ""
+url: "https://example.com"
+thumbnail: ""
 ---
 

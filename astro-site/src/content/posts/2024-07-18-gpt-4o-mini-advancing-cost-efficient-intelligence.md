@@ -1,10 +1,10 @@
 ---
-title: GPT-4o mini: advancing cost-efficient intelligence
-description: "Introducing the most cost-efficient small model in the market"
-summary: "Introducing the most cost-efficient small model in the market"
-pubDate: Thu, 18 Jul 2024 10:00:00 GMT
-source: OpenAI Blog
-url: https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence
-
+title: "GPT-4o mini: advancing cost-efficient intelligence"
+description: ""
+summary: ""
+pubDate: "2000-01-01T00:00:00.000Z"
+source: ""
+url: "https://example.com"
+thumbnail: ""
 ---
 

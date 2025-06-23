@@ -1,10 +1,10 @@
 ---
-title: SetFitABSA: Few-Shot Aspect Based Sentiment Analysis using SetFit
+title: "SetFitABSA: Few-Shot Aspect Based Sentiment Analysis using SetFit"
 description: ""
 summary: ""
-pubDate: Wed, 06 Dec 2023 00:00:00 GMT
-source: Hugging Face Blog
-url: https://huggingface.co/blog/setfit-absa
-thumbnail: "https://huggingface.co/blog/assets/setfit-absa/intel_hf_logo_2.png"
+pubDate: "2000-01-01T00:00:00.000Z"
+source: ""
+url: "https://example.com"
+thumbnail: ""
 ---
 

@@ -1,10 +1,10 @@
 ---
-title: TruthfulQA: Measuring how models mimic human falsehoods
+title: "TruthfulQA: Measuring how models mimic human falsehoods"
 description: ""
 summary: ""
-pubDate: Wed, 08 Sep 2021 07:00:00 GMT
-source: OpenAI Blog
-url: https://openai.com/index/truthfulqa
-
+pubDate: "2000-01-01T00:00:00.000Z"
+source: ""
+url: "https://example.com"
+thumbnail: ""
 ---
 

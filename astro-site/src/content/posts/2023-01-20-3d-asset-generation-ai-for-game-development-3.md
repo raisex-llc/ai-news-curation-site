@@ -1,10 +1,10 @@
 ---
-title: 3D Asset Generation: AI for Game Development #3
+title: "3D Asset Generation: AI for Game Development #3"
 description: ""
 summary: ""
-pubDate: Fri, 20 Jan 2023 00:00:00 GMT
-source: Hugging Face Blog
-url: https://huggingface.co/blog/ml-for-games-3
-thumbnail: "https://huggingface.co/blog/assets/124_ml-for-games/thumbnail3.png"
+pubDate: "2000-01-01T00:00:00.000Z"
+source: ""
+url: "https://example.com"
+thumbnail: ""
 ---
 
