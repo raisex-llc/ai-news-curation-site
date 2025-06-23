@@ -5,6 +5,6 @@ summary: "We present a new research direction for superalignment, together with 
 pubDate: "Thu, 14 Dec 2023 00:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/weak-to-strong-generalization"
-thumbnail: "/assets/openai_logo.png"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
 ---
 

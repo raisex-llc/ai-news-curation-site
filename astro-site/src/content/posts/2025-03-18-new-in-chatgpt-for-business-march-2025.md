@@ -5,6 +5,6 @@ summary: "Join us as we share our latest releases and how ChatGPT is becoming mo
 pubDate: "Tue, 18 Mar 2025 00:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/business/new-in-chatgpt-for-work-march-updates-2025"
-thumbnail: "/assets/openai_logo.png"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
 ---
 

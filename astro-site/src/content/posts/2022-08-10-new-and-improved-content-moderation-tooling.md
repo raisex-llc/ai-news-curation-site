@@ -5,6 +5,6 @@ summary: "We are introducing a new and improved content moderation tool. The Mo
 pubDate: "Wed, 10 Aug 2022 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/new-and-improved-content-moderation-tooling"
-thumbnail: "/assets/openai_logo.png"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
 ---
 

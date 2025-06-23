@@ -5,6 +5,6 @@ summary: "We’re releasing an analysis showing that since 2012, the amount of c
 pubDate: "Wed, 16 May 2018 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/ai-and-compute"
-thumbnail: "/assets/openai_logo.png"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
 ---
 

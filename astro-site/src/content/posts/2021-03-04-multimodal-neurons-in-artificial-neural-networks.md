@@ -5,6 +5,6 @@ summary: "We’ve discovered neurons in CLIP that respond to the same concept wh
 pubDate: "Thu, 04 Mar 2021 08:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/multimodal-neurons"
-thumbnail: "/assets/openai_logo.png"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
 ---
 

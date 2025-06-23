@@ -5,6 +5,6 @@ summary: "For the first time, developers can also instruct the text-to-speech mo
 pubDate: "Thu, 20 Mar 2025 11:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/introducing-our-next-generation-audio-models"
-thumbnail: "/assets/openai_logo.png"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
 ---
 

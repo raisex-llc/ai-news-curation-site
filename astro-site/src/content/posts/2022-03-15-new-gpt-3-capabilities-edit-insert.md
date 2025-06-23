@@ -5,6 +5,6 @@ summary: "We’ve released new versions of GPT-3 and Codex which can edit or in
 pubDate: "Tue, 15 Mar 2022 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/gpt-3-edit-insert"
-thumbnail: "/assets/openai_logo.png"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
 ---
 

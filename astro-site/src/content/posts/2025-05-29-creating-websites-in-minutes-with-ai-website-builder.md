@@ -5,6 +5,6 @@ summary: "Wix’s AI Website Builder, powered by OpenAI, lets anyone create a fu
 pubDate: "Thu, 29 May 2025 00:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/wix"
-thumbnail: "/assets/openai_logo.png"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
 ---
 

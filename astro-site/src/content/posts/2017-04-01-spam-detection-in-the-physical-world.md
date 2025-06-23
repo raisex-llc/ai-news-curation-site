@@ -5,6 +5,6 @@ summary: "We’ve created the world’s first Spam-detecting AI trained entirely
 pubDate: "Sat, 01 Apr 2017 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/spam-detection-in-the-physical-world"
-thumbnail: "/assets/openai_logo.png"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
 ---
 

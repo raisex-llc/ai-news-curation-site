@@ -5,6 +5,6 @@ summary: "OpenAI is committed to developing general-purpose artificial intellige
 pubDate: "Mon, 03 May 2021 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/will-hurd-joins"
-thumbnail: "/assets/openai_logo.png"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
 ---
 

@@ -5,6 +5,6 @@ summary: "arXiv:2505.20246v3 Announce Type: replace Abstract: Recent advances in
 pubDate: "Mon, 23 Jun 2025 00:00:00 -0400"
 source: "arXiv AI"
 url: "https://arxiv.org/abs/2505.20246"
-thumbnail: "/assets/arxiv.png"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/arxiv.png"
 ---
 

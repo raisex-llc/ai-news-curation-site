@@ -5,6 +5,6 @@ summary: "arXiv:2502.15849v4 Announce Type: replace Abstract: Western music is a
 pubDate: "Mon, 23 Jun 2025 00:00:00 -0400"
 source: "arXiv AI"
 url: "https://arxiv.org/abs/2502.15849"
-thumbnail: "/assets/arxiv.png"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/arxiv.png"
 ---
 

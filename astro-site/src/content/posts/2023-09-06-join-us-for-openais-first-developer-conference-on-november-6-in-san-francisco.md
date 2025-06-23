@@ -5,6 +5,6 @@ summary: "Developer registration for in-person attendance will open in the comin
 pubDate: "Wed, 06 Sep 2023 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/announcing-openai-devday"
-thumbnail: "/assets/openai_logo.png"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
 ---
 

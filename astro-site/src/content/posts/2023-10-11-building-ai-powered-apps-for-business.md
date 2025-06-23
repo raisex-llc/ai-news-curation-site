@@ -5,6 +5,6 @@ summary: "Retool uses GPT-4 to give businesses a fast, secure way to build AI-po
 pubDate: "Wed, 11 Oct 2023 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/retool"
-thumbnail: "/assets/openai_logo.png"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
 ---
 

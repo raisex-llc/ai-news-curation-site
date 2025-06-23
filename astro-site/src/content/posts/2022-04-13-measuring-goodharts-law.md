@@ -5,6 +5,6 @@ summary: "Goodhart’s law famously says: “When a measure becomes a target, i
 pubDate: "Wed, 13 Apr 2022 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/measuring-goodharts-law"
-thumbnail: "/assets/openai_logo.png"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
 ---
 

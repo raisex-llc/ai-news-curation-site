@@ -5,6 +5,6 @@ summary: "We trained a neural network to play Minecraft by Video PreTraining (VP
 pubDate: "Thu, 23 Jun 2022 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/vpt"
-thumbnail: "/assets/openai_logo.png"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
 ---
 

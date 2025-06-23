@@ -5,6 +5,6 @@ summary: "Paradigm uses OpenAI’s API to improve patient access to clinical tri
 pubDate: "Wed, 06 Mar 2024 08:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/paradigm"
-thumbnail: "/assets/openai_logo.png"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
 ---
 

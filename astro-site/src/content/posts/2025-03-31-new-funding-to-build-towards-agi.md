@@ -5,6 +5,6 @@ summary: "Today we’re announcing new funding—$40B at a $300B post-money valu
 pubDate: "Mon, 31 Mar 2025 15:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/march-funding-updates"
-thumbnail: "/assets/openai_logo.png"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
 ---
 

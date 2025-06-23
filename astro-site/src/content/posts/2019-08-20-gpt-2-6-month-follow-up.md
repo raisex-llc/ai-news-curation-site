@@ -5,6 +5,6 @@ summary: "We’re releasing the 774 million parameter GPT-2 language model after
 pubDate: "Tue, 20 Aug 2019 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/gpt-2-6-month-follow-up"
-thumbnail: "/assets/openai_logo.png"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
 ---
 

@@ -5,6 +5,6 @@ summary: "Mercari leverages GPT-4o mini and GPT-4 to streamline selling, enhance
 pubDate: "Thu, 27 Feb 2025 14:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/mercari"
-thumbnail: "/assets/openai_logo.png"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
 ---
 

@@ -5,6 +5,6 @@ summary: "We’ve found that adding adaptive noise to the parameters of reinforc
 pubDate: "Thu, 27 Jul 2017 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/better-exploration-with-parameter-noise"
-thumbnail: "/assets/openai_logo.png"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
 ---
 

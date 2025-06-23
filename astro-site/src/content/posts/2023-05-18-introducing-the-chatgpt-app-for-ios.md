@@ -5,6 +5,6 @@ summary: "The ChatGPT app syncs your conversations, supports voice input, and br
 pubDate: "Thu, 18 May 2023 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/introducing-the-chatgpt-app-for-ios"
-thumbnail: "/assets/openai_logo.png"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
 ---
 

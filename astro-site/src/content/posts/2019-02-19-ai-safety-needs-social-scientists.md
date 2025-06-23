@@ -5,6 +5,6 @@ summary: "We’ve written a paper arguing that long-term AI safety research need
 pubDate: "Tue, 19 Feb 2019 08:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/ai-safety-needs-social-scientists"
-thumbnail: "/assets/openai_logo.png"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
 ---
 

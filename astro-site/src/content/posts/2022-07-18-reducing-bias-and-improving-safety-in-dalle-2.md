@@ -5,6 +5,6 @@ summary: "Today, we are implementing a new technique so that DALL·E generates i
 pubDate: "Mon, 18 Jul 2022 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/reducing-bias-and-improving-safety-in-dall-e-2"
-thumbnail: "/assets/openai_logo.png"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
 ---
 

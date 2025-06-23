@@ -5,6 +5,6 @@ summary: "We are now accepting applications for our second cohort of OpenAI Scho
 pubDate: "Thu, 11 Oct 2018 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/openai-scholars-2019"
-thumbnail: "/assets/openai_logo.png"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
 ---
 

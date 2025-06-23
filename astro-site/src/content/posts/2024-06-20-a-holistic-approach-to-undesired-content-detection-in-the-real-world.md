@@ -5,6 +5,6 @@ summary: "We present a holistic approach to building a robust and useful natural
 pubDate: "Thu, 20 Jun 2024 00:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/a-holistic-approach-to-undesired-content-detection-in-the-real-world"
-thumbnail: "/assets/openai_logo.png"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
 ---
 

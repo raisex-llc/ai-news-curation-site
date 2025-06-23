@@ -5,6 +5,6 @@ summary: "We’re launching $10M in grants to support technical research towards
 pubDate: "Thu, 14 Dec 2023 08:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/superalignment-fast-grants"
-thumbnail: "/assets/openai_logo.png"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
 ---
 

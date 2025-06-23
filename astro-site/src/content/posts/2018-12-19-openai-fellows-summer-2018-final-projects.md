@@ -5,6 +5,6 @@ summary: "Our first cohort of OpenAI Fellows has concluded, with each Fellow goi
 pubDate: "Wed, 19 Dec 2018 08:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/openai-summer-fellows-2018"
-thumbnail: "/assets/openai_logo.png"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
 ---
 

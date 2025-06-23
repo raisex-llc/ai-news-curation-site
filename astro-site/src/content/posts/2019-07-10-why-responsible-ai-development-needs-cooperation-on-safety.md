@@ -5,6 +5,6 @@ summary: "We’ve written a policy research paper identifying four strategies th
 pubDate: "Wed, 10 Jul 2019 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/cooperation-on-safety"
-thumbnail: "/assets/openai_logo.png"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
 ---
 

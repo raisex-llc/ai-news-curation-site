@@ -5,6 +5,6 @@ summary: "CriticGPT, a model based on GPT-4, writes critiques of ChatGPT respons
 pubDate: "Thu, 27 Jun 2024 10:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/finding-gpt4s-mistakes-with-gpt-4"
-thumbnail: "/assets/openai_logo.png"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
 ---
 

@@ -5,6 +5,6 @@ summary: "We trained “critique-writing” models to describe flaws in summarie
 pubDate: "Mon, 13 Jun 2022 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/critiques"
-thumbnail: "/assets/openai_logo.png"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
 ---
 

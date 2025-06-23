@@ -5,6 +5,6 @@ summary: "OpenAI is a non-profit artificial intelligence research company. Our g
 pubDate: "Fri, 11 Dec 2015 08:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/introducing-openai"
-thumbnail: "/assets/openai_logo.png"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
 ---
 

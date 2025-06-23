@@ -5,6 +5,6 @@ summary: "Our latest research finds we can improve language model behavior with 
 pubDate: "Thu, 10 Jun 2021 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/improving-language-model-behavior"
-thumbnail: "/assets/openai_logo.png"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
 ---
 

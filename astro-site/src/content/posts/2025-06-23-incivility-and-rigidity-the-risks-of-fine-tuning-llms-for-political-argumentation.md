@@ -5,6 +5,6 @@ summary: "arXiv:2411.16813v3 Announce Type: replace-cross Abstract: The incivili
 pubDate: "Mon, 23 Jun 2025 00:00:00 -0400"
 source: "arXiv AI"
 url: "https://arxiv.org/abs/2411.16813"
-thumbnail: "/assets/arxiv.png"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/arxiv.png"
 ---
 

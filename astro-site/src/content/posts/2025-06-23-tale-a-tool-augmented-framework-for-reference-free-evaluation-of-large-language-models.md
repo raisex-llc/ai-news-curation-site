@@ -5,6 +5,6 @@ summary: "arXiv:2504.07385v2 Announce Type: replace-cross Abstract: As Large Lan
 pubDate: "Mon, 23 Jun 2025 00:00:00 -0400"
 source: "arXiv AI"
 url: "https://arxiv.org/abs/2504.07385"
-thumbnail: "/assets/arxiv.png"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/arxiv.png"
 ---
 

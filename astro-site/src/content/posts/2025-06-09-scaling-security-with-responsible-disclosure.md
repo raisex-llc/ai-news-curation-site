@@ -5,6 +5,6 @@ summary: "OpenAI introduces its Outbound Coordinated Disclosure Policy to guide 
 pubDate: "Mon, 09 Jun 2025 10:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/scaling-coordinated-vulnerability-disclosure"
-thumbnail: "/assets/openai_logo.png"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
 ---
 

@@ -5,6 +5,6 @@ summary: "OpenAI and Future, the global platform for specialist media, have toda
 pubDate: "Wed, 04 Dec 2024 23:30:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/openai-and-future-partner-on-specialist-content"
-thumbnail: "/assets/openai_logo.png"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
 ---
 

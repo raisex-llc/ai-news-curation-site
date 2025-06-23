@@ -5,6 +5,6 @@ summary: "We’ve discovered that evolution strategies (ES), an optimization tec
 pubDate: "Fri, 24 Mar 2017 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/evolution-strategies"
-thumbnail: "/assets/openai_logo.png"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
 ---
 

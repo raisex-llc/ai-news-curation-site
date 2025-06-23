@@ -5,6 +5,6 @@ summary: "This report outlines the safety work carried out for the OpenAI o3-min
 pubDate: "Fri, 31 Jan 2025 11:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/o3-mini-system-card"
-thumbnail: "/assets/openai_logo.png"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
 ---
 

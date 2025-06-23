@@ -5,6 +5,6 @@ summary: "Minnesota’s Enterprise Translation Office uses ChatGPT to bridge lan
 pubDate: "Thu, 26 Sep 2024 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/state-of-minnesota"
-thumbnail: "/assets/openai_logo.png"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
 ---
 

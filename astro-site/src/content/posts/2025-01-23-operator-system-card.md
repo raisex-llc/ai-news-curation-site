@@ -5,6 +5,6 @@ summary: "Drawing from OpenAI’s established safety frameworks, this document h
 pubDate: "Thu, 23 Jan 2025 10:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/operator-system-card"
-thumbnail: "/assets/openai_logo.png"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
 ---
 

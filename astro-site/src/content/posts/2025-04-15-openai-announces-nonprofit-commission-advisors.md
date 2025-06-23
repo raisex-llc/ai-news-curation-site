@@ -5,6 +5,6 @@ summary: "OpenAI is appointing four new advisors to help inform OpenAI’s phila
 pubDate: "Tue, 15 Apr 2025 13:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/nonprofit-commission-advisors"
-thumbnail: "/assets/openai_logo.png"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
 ---
 

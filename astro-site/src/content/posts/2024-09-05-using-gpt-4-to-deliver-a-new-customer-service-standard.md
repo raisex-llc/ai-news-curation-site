@@ -5,6 +5,6 @@ summary: "Ada uses GPT-4 to deliver a new customer service standard"
 pubDate: "Thu, 05 Sep 2024 08:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/ada"
-thumbnail: "/assets/openai_logo.png"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
 ---
 

@@ -5,6 +5,6 @@ summary: "We are now accepting applications for our third class of OpenAI Schola
 pubDate: "Fri, 11 Oct 2019 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/openai-scholars-2020"
-thumbnail: "/assets/openai_logo.png"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
 ---
 

@@ -5,6 +5,6 @@ summary: "An affordable offering for universities to responsibly bring AI to cam
 pubDate: "Thu, 30 May 2024 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/introducing-chatgpt-edu"
-thumbnail: "/assets/openai_logo.png"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
 ---
 

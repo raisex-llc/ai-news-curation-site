@@ -5,6 +5,6 @@ summary: "Our video generation model, Sora, is now available to use at sora.com.
 pubDate: "Mon, 09 Dec 2024 10:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/sora-is-here"
-thumbnail: "/assets/openai_logo.png"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
 ---
 

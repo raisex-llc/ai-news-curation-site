@@ -5,6 +5,6 @@ summary: "We’re developing a blueprint for evaluating the risk that a large la
 pubDate: "Wed, 31 Jan 2024 08:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/building-an-early-warning-system-for-llm-aided-biological-threat-creation"
-thumbnail: "/assets/openai_logo.png"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
 ---
 

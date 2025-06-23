@@ -5,6 +5,6 @@ summary: ""
 pubDate: "Thu, 19 Jan 2017 08:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/pixelcnn-plus-plus"
-thumbnail: "/assets/openai_logo.png"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
 ---
 

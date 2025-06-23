@@ -5,6 +5,6 @@ summary: "By integrating its data systems with OpenAI’s LLMs, Booking.com deli
 pubDate: "Thu, 20 Mar 2025 23:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/booking-com"
-thumbnail: "/assets/openai_logo.png"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
 ---
 

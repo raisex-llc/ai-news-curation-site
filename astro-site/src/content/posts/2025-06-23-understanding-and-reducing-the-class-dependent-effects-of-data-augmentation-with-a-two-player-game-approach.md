@@ -5,6 +5,6 @@ summary: "arXiv:2407.03146v4 Announce Type: replace-cross Abstract: Data augment
 pubDate: "Mon, 23 Jun 2025 00:00:00 -0400"
 source: "arXiv AI"
 url: "https://arxiv.org/abs/2407.03146"
-thumbnail: "/assets/arxiv.png"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/arxiv.png"
 ---
 

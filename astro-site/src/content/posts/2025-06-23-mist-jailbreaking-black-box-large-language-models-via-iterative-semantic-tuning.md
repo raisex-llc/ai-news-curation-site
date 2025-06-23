@@ -5,6 +5,6 @@ summary: "arXiv:2506.16792v1 Announce Type: cross Abstract: Despite efforts to a
 pubDate: "Mon, 23 Jun 2025 00:00:00 -0400"
 source: "arXiv AI"
 url: "https://arxiv.org/abs/2506.16792"
-thumbnail: "/assets/arxiv.png"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/arxiv.png"
 ---
 

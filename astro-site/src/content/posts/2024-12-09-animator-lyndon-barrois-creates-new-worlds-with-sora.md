@@ -5,6 +5,6 @@ summary: "Filmmaker Lyndon Barrois describes how to use Sora as a storytelling t
 pubDate: "Mon, 09 Dec 2024 00:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/sora-lyndon-barrois"
-thumbnail: "/assets/openai_logo.png"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
 ---
 

@@ -5,6 +5,6 @@ summary: "Canva is a visual communication platform, enjoyed by more than 175 mil
 pubDate: "Thu, 16 May 2024 00:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/canva"
-thumbnail: "/assets/openai_logo.png"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
 ---
 

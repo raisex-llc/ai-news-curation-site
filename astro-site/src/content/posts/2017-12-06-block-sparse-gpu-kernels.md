@@ -5,6 +5,6 @@ summary: "We’re releasing highly-optimized GPU kernels for an underexplored cl
 pubDate: "Wed, 06 Dec 2017 08:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/block-sparse-gpu-kernels"
-thumbnail: "/assets/openai_logo.png"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
 ---
 

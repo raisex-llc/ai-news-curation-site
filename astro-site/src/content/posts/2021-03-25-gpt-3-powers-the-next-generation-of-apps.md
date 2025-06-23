@@ -5,6 +5,6 @@ summary: "Over 300 applications are delivering GPT-3–powered search, conversat
 pubDate: "Thu, 25 Mar 2021 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/gpt-3-apps"
-thumbnail: "/assets/openai_logo.png"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
 ---
 

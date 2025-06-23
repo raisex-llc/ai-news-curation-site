@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 """
-最終版 feed_fetcher.py
-RSS → Markdown変換 + YAML整形 + サムネイル補完 + バックスラッシュ除去
-OpenAI/arXivはOGP抽出をスキップし、内部画像を使用
+feed_fetcher.py 最終決定版（絶対URL指定）
+RSS → Markdown変換 + YAML整形 + サムネイル補完（絶対URL） + バックスラッシュ除去
 """
 
 import feedparser
@@ -18,6 +17,9 @@ from pathlib import Path
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin, urlparse
 from dateutil import parser as dtparser
+
+# ✅ GitHub Pages のルートURL（末尾スラッシュなし）
+SITE_BASE = "https://raisex-llc.github.io/ai-news-curation-site"
 
 ROOT = Path(__file__).resolve().parent
 CONTENT_DIR = ROOT / "astro-site" / "src" / "content" / "posts"
@@ -41,11 +43,10 @@ def sanitize(value: str) -> str:
 
 def extract_thumbnail(url, source=""):
     try:
-        # ✅ sourceによってOGP抽出スキップ
         if source == "OpenAI Blog":
-            return "/assets/openai_logo.png"
+            return f"{SITE_BASE}/assets/openai_logo.png"
         elif source == "arXiv AI":
-            return "/assets/arxiv.png"
+            return f"{SITE_BASE}/assets/arxiv.png"
 
         res = requests.get(url, timeout=10, headers={"User-Agent": "Mozilla/5.0"})
         soup = BeautifulSoup(res.text, "html.parser")
@@ -89,6 +90,8 @@ thumbnail: "{sanitize(thumbnail)}"
 
 def is_valid_url(url):
     try:
+        if url.startswith(f"{SITE_BASE}/assets/"):
+            return True
         r = urlparse(url)
         return all([r.scheme, r.netloc])
     except:
@@ -116,7 +119,7 @@ def sanitize_yaml(value, key=""):
     return v
 
 def fix_all_md_files():
-    print("🔧 .md YAML frontmatter 修正 & OpenAI URL置換 & バックスラッシュ削除中...")
+    print("🔧 .md YAML frontmatter 修正 & URL置換 & サムネイル補完中...")
     keys = ["title", "description", "summary", "pubDate", "source", "url", "thumbnail"]
     for filepath in CONTENT_DIR.glob("*.md"):
         try:
@@ -137,11 +140,11 @@ def fix_all_md_files():
                 data["url"] = data["url"].replace("https://openai.com/index/", "https://openai.com/blog/")
             if not data.get("thumbnail"):
                 if data.get("source") == "OpenAI Blog":
-                    data["thumbnail"] = "/assets/openai_logo.png"
+                    data["thumbnail"] = f"{SITE_BASE}/assets/openai_logo.png"
                 elif data.get("source") == "arXiv AI":
-                    data["thumbnail"] = "/assets/arxiv.png"
+                    data["thumbnail"] = f"{SITE_BASE}/assets/arxiv.png"
                 else:
-                    data["thumbnail"] = "/assets/ai-icon.png"
+                    data["thumbnail"] = f"{SITE_BASE}/assets/ai-icon.png"
             fixed_yaml = "---\n"
             for key in keys:
                 fixed_yaml += f'{key}: "{sanitize_yaml(data.get(key), key)}"\n'
@@ -170,11 +173,11 @@ def main():
                 print(f"→ EXTRACTED: {thumb}")
                 if not thumb or not is_valid_url(thumb):
                     if media == "OpenAI Blog":
-                        thumb = "/assets/openai_logo.png"
+                        thumb = f"{SITE_BASE}/assets/openai_logo.png"
                     elif media == "arXiv AI":
-                        thumb = "/assets/arxiv.png"
+                        thumb = f"{SITE_BASE}/assets/arxiv.png"
                     else:
-                        thumb = "/assets/ai-icon.png"
+                        thumb = f"{SITE_BASE}/assets/ai-icon.png"
                 write_post(title, summary, pub, media, link, thumb)
 
         fix_all_md_files()
@@ -182,7 +185,7 @@ def main():
         print(f"❌ Unhandled Error: {e}")
         sys.exit(1)
 
-    print("✅ 完了: Markdown生成 + YAML整形 + サムネイル補完 + バックスラッシュ除去")
+    print("✅ 完了: Markdown生成 + サムネイル絶対URL補完 + バックスラッシュ除去")
     sys.exit(0)
 
 if __name__ == "__main__":

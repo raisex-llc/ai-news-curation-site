@@ -5,6 +5,6 @@ summary: "arXiv:2506.15894v1 Announce Type: cross Abstract: Large Language Model
 pubDate: "Mon, 23 Jun 2025 00:00:00 -0400"
 source: "arXiv AI"
 url: "https://arxiv.org/abs/2506.15894"
-thumbnail: "/assets/arxiv.png"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/arxiv.png"
 ---
 

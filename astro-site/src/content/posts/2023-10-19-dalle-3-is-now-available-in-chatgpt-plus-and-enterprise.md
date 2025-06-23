@@ -5,6 +5,6 @@ summary: "We developed a safety mitigation stack to ready DALL·E 3 for wider re
 pubDate: "Thu, 19 Oct 2023 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/dall-e-3-is-now-available-in-chatgpt-plus-and-enterprise"
-thumbnail: "/assets/openai_logo.png"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
 ---
 

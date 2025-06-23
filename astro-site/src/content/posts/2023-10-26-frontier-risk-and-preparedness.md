@@ -5,6 +5,6 @@ summary: "To support the safety of highly-capable AI systems, we are developing 
 pubDate: "Thu, 26 Oct 2023 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/frontier-risk-and-preparedness"
-thumbnail: "/assets/openai_logo.png"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
 ---
 

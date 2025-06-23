@@ -5,6 +5,6 @@ summary: "OpenAI Five lost two games against top Dota 2 players at The Internati
 pubDate: "Thu, 23 Aug 2018 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/the-international-2018-results"
-thumbnail: "/assets/openai_logo.png"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
 ---
 

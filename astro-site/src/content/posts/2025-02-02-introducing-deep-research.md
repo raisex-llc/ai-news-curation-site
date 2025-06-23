@@ -5,6 +5,6 @@ summary: "An agent that uses reasoning to synthesize large amounts of online inf
 pubDate: "Sun, 02 Feb 2025 16:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/introducing-deep-research"
-thumbnail: "/assets/openai_logo.png"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
 ---
 

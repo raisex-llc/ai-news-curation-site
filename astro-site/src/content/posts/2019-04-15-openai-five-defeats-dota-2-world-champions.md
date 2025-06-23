@@ -5,6 +5,6 @@ summary: "OpenAI Five is the first AI to beat the world champions in an esports 
 pubDate: "Mon, 15 Apr 2019 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/openai-five-defeats-dota-2-world-champions"
-thumbnail: "/assets/openai_logo.png"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
 ---
 

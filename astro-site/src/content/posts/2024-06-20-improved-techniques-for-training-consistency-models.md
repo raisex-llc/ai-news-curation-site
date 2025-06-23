@@ -5,6 +5,6 @@ summary: "Consistency models are a nascent family of generative models that can 
 pubDate: "Thu, 20 Jun 2024 00:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/improved-techniques-for-training-consistency-models"
-thumbnail: "/assets/openai_logo.png"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
 ---
 

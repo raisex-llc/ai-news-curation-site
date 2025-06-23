@@ -5,6 +5,6 @@ summary: "In this video, we share how the o1 reasoning models can help in domain
 pubDate: "Thu, 17 Oct 2024 00:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/business/solving-complex-problems-with-openai-o1-models"
-thumbnail: "/assets/openai_logo.png"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
 ---
 

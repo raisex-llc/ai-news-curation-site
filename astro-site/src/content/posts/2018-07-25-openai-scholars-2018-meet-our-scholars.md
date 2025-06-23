@@ -5,6 +5,6 @@ summary: "Our first class of OpenAI Scholars is underway, and you can now fol
 pubDate: "Wed, 25 Jul 2018 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/openai-scholars-2018-meet-our-scholars"
-thumbnail: "/assets/openai_logo.png"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
 ---
 

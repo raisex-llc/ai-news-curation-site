@@ -5,6 +5,6 @@ summary: "We welcome the courtâ€™s March 4, 2025, decision rejecting Elon Muskâ€
 pubDate: "Fri, 14 Mar 2025 09:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/court-rejects-elon"
-thumbnail: "/assets/openai_logo.png"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
 ---
 

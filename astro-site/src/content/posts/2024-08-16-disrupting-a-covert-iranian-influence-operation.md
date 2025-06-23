@@ -5,6 +5,6 @@ summary: "We banned accounts linked to a covert Iranian influence operation usin
 pubDate: "Fri, 16 Aug 2024 11:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/disrupting-a-covert-iranian-influence-operation"
-thumbnail: "/assets/openai_logo.png"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
 ---
 

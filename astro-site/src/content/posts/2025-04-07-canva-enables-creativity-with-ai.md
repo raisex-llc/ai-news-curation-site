@@ -5,6 +5,6 @@ summary: "A conversation with Cameron Adams, Chief Product Officer and Co-founde
 pubDate: "Mon, 07 Apr 2025 00:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/canva-cam-adams"
-thumbnail: "/assets/openai_logo.png"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
 ---
 

@@ -5,6 +5,6 @@ summary: "arXiv:2411.05943v2 Announce Type: replace Abstract: The rapid developm
 pubDate: "Mon, 23 Jun 2025 00:00:00 -0400"
 source: "arXiv AI"
 url: "https://arxiv.org/abs/2411.05943"
-thumbnail: "/assets/arxiv.png"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/arxiv.png"
 ---
 

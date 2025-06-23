@@ -5,6 +5,6 @@ summary: "arXiv:2411.05261v3 Announce Type: replace-cross Abstract: Despite sign
 pubDate: "Mon, 23 Jun 2025 00:00:00 -0400"
 source: "arXiv AI"
 url: "https://arxiv.org/abs/2411.05261"
-thumbnail: "/assets/arxiv.png"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/arxiv.png"
 ---
 

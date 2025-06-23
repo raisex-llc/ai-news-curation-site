@@ -5,6 +5,6 @@ summary: "arXiv:2501.10114v3 Announce Type: replace Abstract: AI agents plan and
 pubDate: "Mon, 23 Jun 2025 00:00:00 -0400"
 source: "arXiv AI"
 url: "https://arxiv.org/abs/2501.10114"
-thumbnail: "/assets/arxiv.png"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/arxiv.png"
 ---
 

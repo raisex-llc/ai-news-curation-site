@@ -5,6 +5,6 @@ summary: "Early users have created over 3 million images to date and helped us i
 pubDate: "Wed, 18 May 2022 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/dall-e-2-update"
-thumbnail: "/assets/openai_logo.png"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
 ---
 

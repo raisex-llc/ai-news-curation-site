@@ -5,6 +5,6 @@ summary: "arXiv:2506.16679v1 Announce Type: cross Abstract: Training data is at 
 pubDate: "Mon, 23 Jun 2025 00:00:00 -0400"
 source: "arXiv AI"
 url: "https://arxiv.org/abs/2506.16679"
-thumbnail: "/assets/arxiv.png"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/arxiv.png"
 ---
 

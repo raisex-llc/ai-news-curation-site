@@ -5,6 +5,6 @@ summary: "We are launching a new generation of embedding models, new GPT-4 Turbo
 pubDate: "Thu, 25 Jan 2024 08:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/new-embedding-models-and-api-updates"
-thumbnail: "/assets/openai_logo.png"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
 ---
 

@@ -5,6 +5,6 @@ summary: "arXiv:2506.15774v1 Announce Type: new Abstract: We introduce and bench
 pubDate: "Mon, 23 Jun 2025 00:00:00 -0400"
 source: "arXiv AI"
 url: "https://arxiv.org/abs/2506.15774"
-thumbnail: "/assets/arxiv.png"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/arxiv.png"
 ---
 

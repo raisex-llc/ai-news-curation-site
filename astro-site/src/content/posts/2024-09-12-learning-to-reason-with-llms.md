@@ -5,6 +5,6 @@ summary: "We are introducing OpenAI o1, a new large language model trained with 
 pubDate: "Thu, 12 Sep 2024 10:02:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/learning-to-reason-with-llms"
-thumbnail: "/assets/openai_logo.png"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
 ---
 

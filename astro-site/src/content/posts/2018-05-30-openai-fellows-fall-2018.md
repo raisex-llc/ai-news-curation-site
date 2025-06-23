@@ -5,6 +5,6 @@ summary: "We’re now accepting applications for the next cohort of OpenAI Fello
 pubDate: "Wed, 30 May 2018 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/openai-fellows"
-thumbnail: "/assets/openai_logo.png"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
 ---
 

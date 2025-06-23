@@ -5,6 +5,6 @@ summary: "arXiv:2408.09251v3 Announce Type: replace-cross Abstract: Vehicle-to-e
 pubDate: "Mon, 23 Jun 2025 00:00:00 -0400"
 source: "arXiv AI"
 url: "https://arxiv.org/abs/2408.09251"
-thumbnail: "/assets/arxiv.png"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/arxiv.png"
 ---
 

@@ -5,6 +5,6 @@ summary: "We are excited to announce our first office in Asia and we’re releas
 pubDate: "Sun, 14 Apr 2024 00:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/introducing-openai-japan"
-thumbnail: "/assets/openai_logo.png"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
 ---
 

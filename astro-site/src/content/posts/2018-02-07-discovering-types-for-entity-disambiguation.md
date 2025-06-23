@@ -5,6 +5,6 @@ summary: "We’ve built a system for automatically figuring out which object is 
 pubDate: "Wed, 07 Feb 2018 08:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/discovering-types-for-entity-disambiguation"
-thumbnail: "/assets/openai_logo.png"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
 ---
 

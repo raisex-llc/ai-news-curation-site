@@ -5,6 +5,6 @@ summary: "John Deere’s Justin Rose talks about transforming agriculture with A
 pubDate: "Tue, 06 May 2025 00:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/john-deere-justin-rose"
-thumbnail: "/assets/openai_logo.png"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
 ---
 

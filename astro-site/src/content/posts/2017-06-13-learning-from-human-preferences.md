@@ -5,6 +5,6 @@ summary: "One step towards building safe AI systems is to remove the need for hu
 pubDate: "Tue, 13 Jun 2017 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/learning-from-human-preferences"
-thumbnail: "/assets/openai_logo.png"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
 ---
 

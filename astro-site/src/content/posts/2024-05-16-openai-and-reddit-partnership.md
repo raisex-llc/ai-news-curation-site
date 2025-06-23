@@ -5,6 +5,6 @@ summary: "OpenAI and Reddit Partnership We’re bringing Reddit’s unique conte
 pubDate: "Thu, 16 May 2024 13:30:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/openai-and-reddit-partnership"
-thumbnail: "/assets/openai_logo.png"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
 ---
 

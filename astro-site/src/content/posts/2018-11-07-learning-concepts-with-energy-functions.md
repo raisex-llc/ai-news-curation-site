@@ -5,6 +5,6 @@ summary: "We’ve developed an energy-based model that can quickly learn to id
 pubDate: "Wed, 07 Nov 2018 08:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/learning-concepts-with-energy-functions"
-thumbnail: "/assets/openai_logo.png"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
 ---
 

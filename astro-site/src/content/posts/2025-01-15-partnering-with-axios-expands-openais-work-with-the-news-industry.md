@@ -5,6 +5,6 @@ summary: "Publishers representing hundreds of newsrooms and content brands are u
 pubDate: "Wed, 15 Jan 2025 03:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/partnering-with-axios-expands-openai-work-with-the-news-industry"
-thumbnail: "/assets/openai_logo.png"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
 ---
 

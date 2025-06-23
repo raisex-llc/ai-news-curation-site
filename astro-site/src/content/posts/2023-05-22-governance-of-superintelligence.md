@@ -5,6 +5,6 @@ summary: "Now is a good time to start thinking about the governance of superinte
 pubDate: "Mon, 22 May 2023 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/governance-of-superintelligence"
-thumbnail: "/assets/openai_logo.png"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
 ---
 

@@ -5,6 +5,6 @@ summary: "arXiv:2506.17041v1 Announce Type: cross Abstract: Benchmark datasets f
 pubDate: "Mon, 23 Jun 2025 00:00:00 -0400"
 source: "arXiv AI"
 url: "https://arxiv.org/abs/2506.17041"
-thumbnail: "/assets/arxiv.png"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/arxiv.png"
 ---
 

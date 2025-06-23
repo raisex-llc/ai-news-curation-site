@@ -5,6 +5,6 @@ summary: "Reinforcement learning algorithms can break in surprising, counterintu
 pubDate: "Wed, 21 Dec 2016 08:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/faulty-reward-functions"
-thumbnail: "/assets/openai_logo.png"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
 ---
 

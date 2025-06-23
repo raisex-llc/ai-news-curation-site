@@ -5,6 +5,6 @@ summary: "We’re launching a classifier trained to distinguish between AI-writt
 pubDate: "Tue, 31 Jan 2023 08:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/new-ai-classifier-for-indicating-ai-written-text"
-thumbnail: "/assets/openai_logo.png"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
 ---
 

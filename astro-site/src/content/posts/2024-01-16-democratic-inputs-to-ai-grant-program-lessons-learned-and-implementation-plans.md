@@ -5,6 +5,6 @@ summary: "We funded 10 teams from around the world to design ideas and tools to 
 pubDate: "Tue, 16 Jan 2024 08:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/democratic-inputs-to-ai-grant-program-update"
-thumbnail: "/assets/openai_logo.png"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
 ---
 

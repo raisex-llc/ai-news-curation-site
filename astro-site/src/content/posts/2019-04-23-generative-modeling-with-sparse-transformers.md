@@ -5,6 +5,6 @@ summary: "We’ve developed the Sparse Transformer, a deep neural network which 
 pubDate: "Tue, 23 Apr 2019 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/sparse-transformer"
-thumbnail: "/assets/openai_logo.png"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
 ---
 

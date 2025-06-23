@@ -5,6 +5,6 @@ summary: "We’ve trained a human-like robot hand to manipulate physical objects
 pubDate: "Mon, 30 Jul 2018 07:00:00 GMT"
 source: "OpenAI Blog"
 url: "https://openai.com/blog/learning-dexterity"
-thumbnail: "/assets/openai_logo.png"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
 ---
 
