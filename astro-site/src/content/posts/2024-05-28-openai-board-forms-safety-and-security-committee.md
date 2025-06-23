@@ -4,7 +4,7 @@ description: ""
 summary: ""
 pubDate: "Tue, 28 May 2024 03:00:00 GMT"
 source: "OpenAI Blog"
-url: "https://openai.com/index/openai-board-forms-safety-and-security-committee"
+url: "https://openai.com/blog/openai-board-forms-safety-and-security-committee"
 thumbnail: ""
 ---
 

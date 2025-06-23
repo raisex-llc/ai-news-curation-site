@@ -4,7 +4,7 @@ description: "At OpenAI, we proactively adapt, including by building comprehensi
 summary: "At OpenAI, we proactively adapt, including by building comprehensive security measures directly into our infrastructure and models."
 pubDate: "Wed, 26 Mar 2025 10:00:00 GMT"
 source: "OpenAI Blog"
-url: "https://openai.com/index/security-on-the-path-to-agi"
+url: "https://openai.com/blog/security-on-the-path-to-agi"
 thumbnail: ""
 ---
 

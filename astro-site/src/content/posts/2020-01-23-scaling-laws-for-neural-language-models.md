@@ -4,7 +4,7 @@ description: ""
 summary: ""
 pubDate: "Thu, 23 Jan 2020 08:00:00 GMT"
 source: "OpenAI Blog"
-url: "https://openai.com/index/scaling-laws-for-neural-language-models"
+url: "https://openai.com/blog/scaling-laws-for-neural-language-models"
 thumbnail: ""
 ---
 

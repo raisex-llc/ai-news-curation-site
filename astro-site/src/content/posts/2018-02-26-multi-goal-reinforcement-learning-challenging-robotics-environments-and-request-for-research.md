@@ -4,7 +4,7 @@ description: ""
 summary: ""
 pubDate: "Mon, 26 Feb 2018 08:00:00 GMT"
 source: "OpenAI Blog"
-url: "https://openai.com/index/multi-goal-reinforcement-learning"
+url: "https://openai.com/blog/multi-goal-reinforcement-learning"
 thumbnail: ""
 ---
 

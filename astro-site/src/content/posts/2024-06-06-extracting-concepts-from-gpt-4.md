@@ -4,7 +4,7 @@ description: "Using new techniques for scaling sparse autoencoders, we automatic
 summary: "Using new techniques for scaling sparse autoencoders, we automatically identified 16 million patterns in GPT-4's computations."
 pubDate: "Thu, 06 Jun 2024 00:00:00 GMT"
 source: "OpenAI Blog"
-url: "https://openai.com/index/extracting-concepts-from-gpt-4"
+url: "https://openai.com/blog/extracting-concepts-from-gpt-4"
 thumbnail: ""
 ---
 

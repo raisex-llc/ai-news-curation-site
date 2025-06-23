@@ -4,7 +4,7 @@ description: "We’re announcing updates including more steerable API models, fu
 summary: "We’re announcing updates including more steerable API models, function calling capabilities, longer context, and lower prices."
 pubDate: "Tue, 13 Jun 2023 07:00:00 GMT"
 source: "OpenAI Blog"
-url: "https://openai.com/index/function-calling-and-other-api-updates"
+url: "https://openai.com/blog/function-calling-and-other-api-updates"
 thumbnail: ""
 ---
 

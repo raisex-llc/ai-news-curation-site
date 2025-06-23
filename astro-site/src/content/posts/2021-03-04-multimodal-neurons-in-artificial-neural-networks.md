@@ -4,7 +4,7 @@ description: "We’ve discovered neurons in CLIP that respond to the same concep
 summary: "We’ve discovered neurons in CLIP that respond to the same concept whether presented literally, symbolically, or conceptually. This may explain CLIP’s accuracy in classifying surprising visual renditions of concepts, and is also an important step toward understanding the associations and biases that CLIP and similar models learn."
 pubDate: "Thu, 04 Mar 2021 08:00:00 GMT"
 source: "OpenAI Blog"
-url: "https://openai.com/index/multimodal-neurons"
+url: "https://openai.com/blog/multimodal-neurons"
 thumbnail: ""
 ---
 

@@ -4,7 +4,7 @@ description: ""
 summary: ""
 pubDate: "Fri, 16 Dec 2022 08:00:00 GMT"
 source: "OpenAI Blog"
-url: "https://openai.com/index/point-e"
+url: "https://openai.com/blog/point-e"
 thumbnail: ""
 ---
 

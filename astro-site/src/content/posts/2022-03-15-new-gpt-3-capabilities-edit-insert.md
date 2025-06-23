@@ -4,7 +4,7 @@ description: "We’ve released new versions of GPT-3 and Codex which can edit o
 summary: "We’ve released new versions of GPT-3 and Codex which can edit or insert content into existing text, rather than just completing existing text."
 pubDate: "Tue, 15 Mar 2022 07:00:00 GMT"
 source: "OpenAI Blog"
-url: "https://openai.com/index/gpt-3-edit-insert"
+url: "https://openai.com/blog/gpt-3-edit-insert"
 thumbnail: ""
 ---
 

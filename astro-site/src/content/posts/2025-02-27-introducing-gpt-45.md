@@ -4,7 +4,7 @@ description: "We’re releasing a research preview of GPT‑4.5—our largest an
 summary: "We’re releasing a research preview of GPT‑4.5—our largest and best model for chat yet. GPT‑4.5 is a step forward in scaling up pre-training and post-training."
 pubDate: "Thu, 27 Feb 2025 10:00:00 GMT"
 source: "OpenAI Blog"
-url: "https://openai.com/index/introducing-gpt-4-5"
+url: "https://openai.com/blog/introducing-gpt-4-5"
 thumbnail: ""
 ---
 

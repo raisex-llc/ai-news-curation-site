@@ -4,7 +4,7 @@ description: "Axel Springer is the first publishing house globally to partner wi
 summary: "Axel Springer is the first publishing house globally to partner with us on a deeper integration of journalism in AI technologies."
 pubDate: "Wed, 13 Dec 2023 08:00:00 GMT"
 source: "OpenAI Blog"
-url: "https://openai.com/index/axel-springer-partnership"
+url: "https://openai.com/blog/axel-springer-partnership"
 thumbnail: ""
 ---
 

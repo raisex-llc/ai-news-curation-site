@@ -4,7 +4,7 @@ description: "We’d like to welcome the latest set of team members to OpenAI (a
 summary: "We’d like to welcome the latest set of team members to OpenAI (and we’re still hiring!)"
 pubDate: "Wed, 25 May 2016 07:00:00 GMT"
 source: "OpenAI Blog"
-url: "https://openai.com/index/team-update"
+url: "https://openai.com/blog/team-update"
 thumbnail: ""
 ---
 

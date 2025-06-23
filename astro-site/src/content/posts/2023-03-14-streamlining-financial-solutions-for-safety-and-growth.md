@@ -4,7 +4,7 @@ description: "Stripe leverages GPT-4 to streamline user experience and combat fr
 summary: "Stripe leverages GPT-4 to streamline user experience and combat fraud."
 pubDate: "Tue, 14 Mar 2023 07:00:00 GMT"
 source: "OpenAI Blog"
-url: "https://openai.com/index/stripe"
+url: "https://openai.com/blog/stripe"
 thumbnail: ""
 ---
 

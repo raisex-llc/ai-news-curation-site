@@ -4,7 +4,7 @@ description: "We support journalism, partner with news organizations, and believ
 summary: "We support journalism, partner with news organizations, and believe The New York Times lawsuit is without merit."
 pubDate: "Mon, 08 Jan 2024 08:00:00 GMT"
 source: "OpenAI Blog"
-url: "https://openai.com/index/openai-and-journalism"
+url: "https://openai.com/blog/openai-and-journalism"
 thumbnail: ""
 ---
 

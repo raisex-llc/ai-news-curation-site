@@ -4,7 +4,7 @@ description: ""
 summary: ""
 pubDate: "Tue, 14 May 2024 18:00:00 GMT"
 source: "OpenAI Blog"
-url: "https://openai.com/index/jakub-pachocki-announced-as-chief-scientist"
+url: "https://openai.com/blog/jakub-pachocki-announced-as-chief-scientist"
 thumbnail: ""
 ---
 

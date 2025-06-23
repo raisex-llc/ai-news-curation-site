@@ -4,7 +4,7 @@ description: "We’ve made updates to the Model Spec based on external feedback 
 summary: "We’ve made updates to the Model Spec based on external feedback and our continued research in shaping desired model behavior."
 pubDate: "Wed, 12 Feb 2025 13:00:00 GMT"
 source: "OpenAI Blog"
-url: "https://openai.com/index/sharing-the-latest-model-spec"
+url: "https://openai.com/blog/sharing-the-latest-model-spec"
 thumbnail: ""
 ---
 

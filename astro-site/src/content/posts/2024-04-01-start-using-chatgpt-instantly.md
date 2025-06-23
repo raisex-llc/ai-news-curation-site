@@ -4,7 +4,7 @@ description: "We’re making it easier for people to experience the benefits of 
 summary: "We’re making it easier for people to experience the benefits of AI without needing to sign up"
 pubDate: "Mon, 01 Apr 2024 00:00:00 GMT"
 source: "OpenAI Blog"
-url: "https://openai.com/index/start-using-chatgpt-instantly"
+url: "https://openai.com/blog/start-using-chatgpt-instantly"
 thumbnail: ""
 ---
 

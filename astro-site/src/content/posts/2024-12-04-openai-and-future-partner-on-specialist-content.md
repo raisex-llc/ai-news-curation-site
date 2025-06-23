@@ -4,7 +4,7 @@ description: "OpenAI and Future, the global platform for specialist media, have 
 summary: "OpenAI and Future, the global platform for specialist media, have today announced a strategic partnership to bring content from Future’s 200 plus media brands to OpenAI’s users."
 pubDate: "Wed, 04 Dec 2024 23:30:00 GMT"
 source: "OpenAI Blog"
-url: "https://openai.com/index/openai-and-future-partner-on-specialist-content"
+url: "https://openai.com/blog/openai-and-future-partner-on-specialist-content"
 thumbnail: ""
 ---
 

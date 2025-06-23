@@ -4,7 +4,7 @@ description: "Zalando boosts the customer experience with its Assistant, powered
 summary: "Zalando boosts the customer experience with its Assistant, powered by GPT-4o mini"
 pubDate: "Wed, 11 Dec 2024 06:00:00 GMT"
 source: "OpenAI Blog"
-url: "https://openai.com/index/zalando"
+url: "https://openai.com/blog/zalando"
 thumbnail: ""
 ---
 

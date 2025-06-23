@@ -4,7 +4,7 @@ description: "Fine-tune a cost-efficient model with the outputs of a large front
 summary: "Fine-tune a cost-efficient model with the outputs of a large frontier model–all on the OpenAI platform"
 pubDate: "Tue, 01 Oct 2024 10:02:00 GMT"
 source: "OpenAI Blog"
-url: "https://openai.com/index/api-model-distillation"
+url: "https://openai.com/blog/api-model-distillation"
 thumbnail: ""
 ---
 

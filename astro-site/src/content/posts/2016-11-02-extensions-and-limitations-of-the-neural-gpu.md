@@ -4,7 +4,7 @@ description: ""
 summary: ""
 pubDate: "Wed, 02 Nov 2016 07:00:00 GMT"
 source: "OpenAI Blog"
-url: "https://openai.com/index/extensions-and-limitations-of-the-neural-gpu"
+url: "https://openai.com/blog/extensions-and-limitations-of-the-neural-gpu"
 thumbnail: ""
 ---
 

@@ -4,7 +4,7 @@ description: "Together with Anthropic, Google, and Microsoft, we’re announcing
 summary: "Together with Anthropic, Google, and Microsoft, we’re announcing the new Executive Director of the Frontier Model Forum and a new $10 million AI Safety Fund."
 pubDate: "Wed, 25 Oct 2023 07:00:00 GMT"
 source: "OpenAI Blog"
-url: "https://openai.com/index/frontier-model-forum-updates"
+url: "https://openai.com/blog/frontier-model-forum-updates"
 thumbnail: ""
 ---
 

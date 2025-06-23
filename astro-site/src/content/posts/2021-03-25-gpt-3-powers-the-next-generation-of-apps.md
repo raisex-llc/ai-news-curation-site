@@ -4,7 +4,7 @@ description: "Over 300 applications are delivering GPT-3–powered search, conve
 summary: "Over 300 applications are delivering GPT-3–powered search, conversation, text completion, and other advanced AI features through our API."
 pubDate: "Thu, 25 Mar 2021 07:00:00 GMT"
 source: "OpenAI Blog"
-url: "https://openai.com/index/gpt-3-apps"
+url: "https://openai.com/blog/gpt-3-apps"
 thumbnail: ""
 ---
 

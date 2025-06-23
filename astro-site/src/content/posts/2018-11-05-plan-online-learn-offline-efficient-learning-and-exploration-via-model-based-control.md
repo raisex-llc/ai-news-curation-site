@@ -4,7 +4,7 @@ description: ""
 summary: ""
 pubDate: "Mon, 05 Nov 2018 08:00:00 GMT"
 source: "OpenAI Blog"
-url: "https://openai.com/index/plan-online-learn-offline"
+url: "https://openai.com/blog/plan-online-learn-offline"
 thumbnail: ""
 ---
 

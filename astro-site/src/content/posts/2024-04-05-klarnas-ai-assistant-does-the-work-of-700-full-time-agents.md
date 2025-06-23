@@ -4,7 +4,7 @@ description: "Klarna is using AI to revolutionize personal shopping, customer se
 summary: "Klarna is using AI to revolutionize personal shopping, customer service, and employee productivity."
 pubDate: "Fri, 05 Apr 2024 00:00:00 GMT"
 source: "OpenAI Blog"
-url: "https://openai.com/index/klarna"
+url: "https://openai.com/blog/klarna"
 thumbnail: ""
 ---
 

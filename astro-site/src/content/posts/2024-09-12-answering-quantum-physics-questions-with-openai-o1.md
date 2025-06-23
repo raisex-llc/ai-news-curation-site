@@ -4,7 +4,7 @@ description: "Quantum physicist Mario Krenn uses OpenAI o1 to help answer life's
 summary: "Quantum physicist Mario Krenn uses OpenAI o1 to help answer life's biggest questions."
 pubDate: "Thu, 12 Sep 2024 00:00:00 GMT"
 source: "OpenAI Blog"
-url: "https://openai.com/index/o1-quantum-physics"
+url: "https://openai.com/blog/o1-quantum-physics"
 thumbnail: ""
 ---
 

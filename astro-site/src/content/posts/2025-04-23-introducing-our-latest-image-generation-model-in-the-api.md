@@ -4,7 +4,7 @@ description: "Our latest image generation model is now available in the API via 
 summary: "Our latest image generation model is now available in the API via ‘gpt-image-1’—enabling developers and businesses to build professional-grade, customizable visuals directly into their own tools and platforms."
 pubDate: "Wed, 23 Apr 2025 10:00:00 GMT"
 source: "OpenAI Blog"
-url: "https://openai.com/index/image-generation-api"
+url: "https://openai.com/blog/image-generation-api"
 thumbnail: ""
 ---
 

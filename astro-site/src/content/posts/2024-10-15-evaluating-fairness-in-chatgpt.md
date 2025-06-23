@@ -4,7 +4,7 @@ description: "We've analyzed how ChatGPT responds to users based on their name, 
 summary: "We've analyzed how ChatGPT responds to users based on their name, using AI research assistants to protect privacy."
 pubDate: "Tue, 15 Oct 2024 10:00:00 GMT"
 source: "OpenAI Blog"
-url: "https://openai.com/index/evaluating-fairness-in-chatgpt"
+url: "https://openai.com/blog/evaluating-fairness-in-chatgpt"
 thumbnail: ""
 ---
 

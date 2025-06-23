@@ -4,7 +4,7 @@ description: "We’re launching a new initiative to enhance the accessibility of
 summary: "We’re launching a new initiative to enhance the accessibility of our tools for nonprofit organizations, including discounted rates for ChatGPT Team and Enterprise."
 pubDate: "Thu, 30 May 2024 07:00:00 GMT"
 source: "OpenAI Blog"
-url: "https://openai.com/index/introducing-openai-for-nonprofits"
+url: "https://openai.com/blog/introducing-openai-for-nonprofits"
 thumbnail: ""
 ---
 

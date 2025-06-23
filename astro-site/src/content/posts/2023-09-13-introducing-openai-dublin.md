@@ -4,7 +4,7 @@ description: "We’re growing our presence in Europe with an office in Dublin, I
 summary: "We’re growing our presence in Europe with an office in Dublin, Ireland."
 pubDate: "Wed, 13 Sep 2023 07:00:00 GMT"
 source: "OpenAI Blog"
-url: "https://openai.com/index/introducing-openai-dublin"
+url: "https://openai.com/blog/introducing-openai-dublin"
 thumbnail: ""
 ---
 

@@ -4,7 +4,7 @@ description: "Data-driven beauty: How The Estée Lauder Companies unlocks insigh
 summary: "Data-driven beauty: How The Estée Lauder Companies unlocks insights with ChatGPT"
 pubDate: "Wed, 13 Nov 2024 00:00:00 GMT"
 source: "OpenAI Blog"
-url: "https://openai.com/index/estee-lauder"
+url: "https://openai.com/blog/estee-lauder"
 thumbnail: ""
 ---
 

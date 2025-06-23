@@ -4,7 +4,7 @@ description: ""
 summary: ""
 pubDate: "Tue, 10 Apr 2018 07:00:00 GMT"
 source: "OpenAI Blog"
-url: "https://openai.com/index/gotta-learn-fast"
+url: "https://openai.com/blog/gotta-learn-fast"
 thumbnail: ""
 ---
 

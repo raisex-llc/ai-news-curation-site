@@ -4,7 +4,7 @@ description: "Using GPT-3 to deliver fast, nuanced insights from customer feedba
 summary: "Using GPT-3 to deliver fast, nuanced insights from customer feedback."
 pubDate: "Wed, 04 Jan 2023 00:00:00 GMT"
 source: "OpenAI Blog"
-url: "https://openai.com/index/yabble"
+url: "https://openai.com/blog/yabble"
 thumbnail: ""
 ---
 

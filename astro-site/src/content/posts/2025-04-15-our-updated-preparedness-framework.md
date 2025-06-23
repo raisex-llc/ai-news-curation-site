@@ -4,7 +4,7 @@ description: "Sharing our updated framework for measuring and protecting against
 summary: "Sharing our updated framework for measuring and protecting against severe harm from frontier AI capabilities."
 pubDate: "Tue, 15 Apr 2025 00:00:00 GMT"
 source: "OpenAI Blog"
-url: "https://openai.com/index/updating-our-preparedness-framework"
+url: "https://openai.com/blog/updating-our-preparedness-framework"
 thumbnail: ""
 ---
 

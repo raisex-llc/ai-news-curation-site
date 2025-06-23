@@ -4,7 +4,7 @@ description: ""
 summary: ""
 pubDate: "Tue, 15 Nov 2016 08:00:00 GMT"
 source: "OpenAI Blog"
-url: "https://openai.com/index/exploration"
+url: "https://openai.com/blog/exploration"
 thumbnail: ""
 ---
 

@@ -4,7 +4,7 @@ description: "Healthify collaborates with OpenAI to improve millions of lives wi
 summary: "Healthify collaborates with OpenAI to improve millions of lives with sustainable weight loss."
 pubDate: "Wed, 13 Mar 2024 07:00:00 GMT"
 source: "OpenAI Blog"
-url: "https://openai.com/index/healthify"
+url: "https://openai.com/blog/healthify"
 thumbnail: ""
 ---
 

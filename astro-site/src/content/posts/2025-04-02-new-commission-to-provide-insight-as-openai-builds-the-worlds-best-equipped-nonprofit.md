@@ -4,7 +4,7 @@ description: "Already a nonprofit, and already using AI to help people solve har
 summary: "Already a nonprofit, and already using AI to help people solve hard problems, OpenAI aims to build the best-equipped nonprofit the world has ever seen—combining potentially historic financial resources with something even more powerful: technology that can scale human ingenuity itself."
 pubDate: "Wed, 02 Apr 2025 12:00:00 GMT"
 source: "OpenAI Blog"
-url: "https://openai.com/index/nonprofit-commission-guidance"
+url: "https://openai.com/blog/nonprofit-commission-guidance"
 thumbnail: ""
 ---
 

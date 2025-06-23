@@ -4,7 +4,7 @@ description: "Ensuring that AI systems are built, deployed, and used safely is c
 summary: "Ensuring that AI systems are built, deployed, and used safely is critical to our mission."
 pubDate: "Wed, 05 Apr 2023 07:00:00 GMT"
 source: "OpenAI Blog"
-url: "https://openai.com/index/our-approach-to-ai-safety"
+url: "https://openai.com/blog/our-approach-to-ai-safety"
 thumbnail: ""
 ---
 

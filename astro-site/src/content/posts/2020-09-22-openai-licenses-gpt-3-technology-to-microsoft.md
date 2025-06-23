@@ -4,7 +4,7 @@ description: "OpenAI has agreed to license GPT-3 to Microsoft for their own prod
 summary: "OpenAI has agreed to license GPT-3 to Microsoft for their own products and services."
 pubDate: "Tue, 22 Sep 2020 07:00:00 GMT"
 source: "OpenAI Blog"
-url: "https://openai.com/index/openai-licenses-gpt-3-technology-to-microsoft"
+url: "https://openai.com/blog/openai-licenses-gpt-3-technology-to-microsoft"
 thumbnail: ""
 ---
 

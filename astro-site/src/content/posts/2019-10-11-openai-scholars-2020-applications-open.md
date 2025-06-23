@@ -4,7 +4,7 @@ description: "We are now accepting applications for our third class of OpenAI Sc
 summary: "We are now accepting applications for our third class of OpenAI Scholars."
 pubDate: "Fri, 11 Oct 2019 07:00:00 GMT"
 source: "OpenAI Blog"
-url: "https://openai.com/index/openai-scholars-2020"
+url: "https://openai.com/blog/openai-scholars-2020"
 thumbnail: ""
 ---
 

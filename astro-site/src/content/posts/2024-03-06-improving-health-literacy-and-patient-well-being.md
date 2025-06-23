@@ -4,7 +4,7 @@ description: "Lifespan uses GPT-4 to radically improve health literacy and patie
 summary: "Lifespan uses GPT-4 to radically improve health literacy and patient outcomes."
 pubDate: "Wed, 06 Mar 2024 08:00:00 GMT"
 source: "OpenAI Blog"
-url: "https://openai.com/index/lifespan"
+url: "https://openai.com/blog/lifespan"
 thumbnail: ""
 ---
 

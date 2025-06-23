@@ -4,7 +4,7 @@ description: "Holiday Extras rolls out ChatGPT Enterprise across every team, boo
 summary: "Holiday Extras rolls out ChatGPT Enterprise across every team, boosting productivity by 500 hours weekly."
 pubDate: "Mon, 18 Mar 2024 07:00:00 GMT"
 source: "OpenAI Blog"
-url: "https://openai.com/index/holiday-extras"
+url: "https://openai.com/blog/holiday-extras"
 thumbnail: ""
 ---
 

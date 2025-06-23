@@ -4,7 +4,7 @@ description: ""
 summary: ""
 pubDate: "Thu, 14 Dec 2023 08:00:00 GMT"
 source: "OpenAI Blog"
-url: "https://openai.com/index/practices-for-governing-agentic-ai-systems"
+url: "https://openai.com/blog/practices-for-governing-agentic-ai-systems"
 thumbnail: ""
 ---
 

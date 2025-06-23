@@ -4,7 +4,7 @@ description: "An update on our safety & security practices"
 summary: "An update on our safety & security practices"
 pubDate: "Mon, 16 Sep 2024 13:00:00 GMT"
 source: "OpenAI Blog"
-url: "https://openai.com/index/update-on-safety-and-security-practices"
+url: "https://openai.com/blog/update-on-safety-and-security-practices"
 thumbnail: ""
 ---
 

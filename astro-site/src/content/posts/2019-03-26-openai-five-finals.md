@@ -4,7 +4,7 @@ description: "We’ll be holding our final live event for OpenAI Five at 11:30am
 summary: "We’ll be holding our final live event for OpenAI Five at 11:30am PT on April 13."
 pubDate: "Tue, 26 Mar 2019 07:00:00 GMT"
 source: "OpenAI Blog"
-url: "https://openai.com/index/openai-five-finals"
+url: "https://openai.com/blog/openai-five-finals"
 thumbnail: ""
 ---
 

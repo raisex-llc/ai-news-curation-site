@@ -4,7 +4,7 @@ description: "OpenAI o3 and OpenAI o4-mini combine state-of-the-art reasoning wi
 summary: "OpenAI o3 and OpenAI o4-mini combine state-of-the-art reasoning with full tool capabilities—web browsing, Python, image and file analysis, image generation, canvas, automations, file search, and memory."
 pubDate: "Wed, 16 Apr 2025 10:00:00 GMT"
 source: "OpenAI Blog"
-url: "https://openai.com/index/o3-o4-mini-system-card"
+url: "https://openai.com/blog/o3-o4-mini-system-card"
 thumbnail: ""
 ---
 

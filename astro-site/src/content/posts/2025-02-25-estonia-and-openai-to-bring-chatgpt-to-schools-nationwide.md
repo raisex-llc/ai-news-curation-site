@@ -4,7 +4,7 @@ description: "Estonia and OpenAI to bring ChatGPT to schools nationwide. OpenAI 
 summary: "Estonia and OpenAI to bring ChatGPT to schools nationwide. OpenAI will work with the Estonian Government to provide students and teachers in the secondary school system with access to ChatGPT Edu."
 pubDate: "Tue, 25 Feb 2025 04:15:00 GMT"
 source: "OpenAI Blog"
-url: "https://openai.com/index/estonia-schools-and-chatgpt"
+url: "https://openai.com/blog/estonia-schools-and-chatgpt"
 thumbnail: ""
 ---
 

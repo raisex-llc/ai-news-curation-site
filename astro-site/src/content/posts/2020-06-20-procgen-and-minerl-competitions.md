@@ -4,7 +4,7 @@ description: "We’re excited to announce that OpenAI is co-organizing two NeurI
 summary: "We’re excited to announce that OpenAI is co-organizing two NeurIPS 2020 competitions with AIcrowd, Carnegie Mellon University, and DeepMind, using Procgen Benchmark and MineRL."
 pubDate: "Sat, 20 Jun 2020 07:00:00 GMT"
 source: "OpenAI Blog"
-url: "https://openai.com/index/procgen-minerl-competitions"
+url: "https://openai.com/blog/procgen-minerl-competitions"
 thumbnail: ""
 ---
 

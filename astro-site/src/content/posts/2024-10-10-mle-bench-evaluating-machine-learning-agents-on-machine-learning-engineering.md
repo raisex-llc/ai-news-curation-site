@@ -4,7 +4,7 @@ description: "We introduce MLE-bench, a benchmark for measuring how well AI agen
 summary: "We introduce MLE-bench, a benchmark for measuring how well AI agents perform at machine learning engineering."
 pubDate: "Thu, 10 Oct 2024 10:00:00 GMT"
 source: "OpenAI Blog"
-url: "https://openai.com/index/mle-bench"
+url: "https://openai.com/blog/mle-bench"
 thumbnail: ""
 ---
 

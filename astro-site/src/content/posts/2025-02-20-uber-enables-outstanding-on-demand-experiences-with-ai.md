@@ -4,7 +4,7 @@ description: "A conversation with Jai Malkani, Head of AI and Product, Customer 
 summary: "A conversation with Jai Malkani, Head of AI and Product, Customer Obsession at Uber."
 pubDate: "Thu, 20 Feb 2025 10:00:00 GMT"
 source: "OpenAI Blog"
-url: "https://openai.com/index/uber-enables-outstanding-experiences"
+url: "https://openai.com/blog/uber-enables-outstanding-experiences"
 thumbnail: ""
 ---
 

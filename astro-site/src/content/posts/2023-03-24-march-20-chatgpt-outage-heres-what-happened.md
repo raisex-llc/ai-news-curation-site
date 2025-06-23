@@ -4,7 +4,7 @@ description: "An update on our findings, the actions we’ve taken, and technica
 summary: "An update on our findings, the actions we’ve taken, and technical details of the bug."
 pubDate: "Fri, 24 Mar 2023 07:00:00 GMT"
 source: "OpenAI Blog"
-url: "https://openai.com/index/march-20-chatgpt-outage"
+url: "https://openai.com/blog/march-20-chatgpt-outage"
 thumbnail: ""
 ---
 

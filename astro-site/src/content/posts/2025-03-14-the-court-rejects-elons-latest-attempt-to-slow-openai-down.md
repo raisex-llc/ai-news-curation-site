@@ -4,7 +4,7 @@ description: "We welcome the court’s March 4, 2025, decision rejecting Elon Mu
 summary: "We welcome the court’s March 4, 2025, decision rejecting Elon Musk’s latest attempt to slow down OpenAI for his personal benefit."
 pubDate: "Fri, 14 Mar 2025 09:00:00 GMT"
 source: "OpenAI Blog"
-url: "https://openai.com/index/court-rejects-elon"
+url: "https://openai.com/blog/court-rejects-elon"
 thumbnail: ""
 ---
 

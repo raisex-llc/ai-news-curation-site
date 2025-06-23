@@ -4,7 +4,7 @@ description: "A conversation with Chandhu Nair, Senior Vice President of Data, A
 summary: "A conversation with Chandhu Nair, Senior Vice President of Data, AI, and Innovation."
 pubDate: "Mon, 05 May 2025 05:00:00 GMT"
 source: "OpenAI Blog"
-url: "https://openai.com/index/lowes-chandhu-nair"
+url: "https://openai.com/blog/lowes-chandhu-nair"
 thumbnail: ""
 ---
 

@@ -4,7 +4,7 @@ description: "OpenAI’s latest line of reasoning models will be used by nation�
 summary: "OpenAI’s latest line of reasoning models will be used by nation’s leading scientists to drive scientific breakthroughs."
 pubDate: "Thu, 30 Jan 2025 10:00:00 GMT"
 source: "OpenAI Blog"
-url: "https://openai.com/index/strengthening-americas-ai-leadership-with-the-us-national-laboratories"
+url: "https://openai.com/blog/strengthening-americas-ai-leadership-with-the-us-national-laboratories"
 thumbnail: ""
 ---
 

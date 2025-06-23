@@ -4,7 +4,7 @@ description: ""
 summary: ""
 pubDate: "Thu, 03 Mar 2022 08:00:00 GMT"
 source: "OpenAI Blog"
-url: "https://openai.com/index/economic-impacts-research"
+url: "https://openai.com/blog/economic-impacts-research"
 thumbnail: ""
 ---
 

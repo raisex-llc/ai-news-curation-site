@@ -4,7 +4,7 @@ description: "OpenAI and the Lenfest Institute AI Collaborative and Fellowship p
 summary: "OpenAI and the Lenfest Institute AI Collaborative and Fellowship program"
 pubDate: "Tue, 22 Oct 2024 06:05:00 GMT"
 source: "OpenAI Blog"
-url: "https://openai.com/index/lenfest-institute"
+url: "https://openai.com/blog/lenfest-institute"
 thumbnail: ""
 ---
 

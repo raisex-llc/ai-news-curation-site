@@ -4,7 +4,7 @@ description: "We are excited to announce a new embedding model which is signific
 summary: "We are excited to announce a new embedding model which is significantly more capable, cost effective, and simpler to use."
 pubDate: "Thu, 15 Dec 2022 08:00:00 GMT"
 source: "OpenAI Blog"
-url: "https://openai.com/index/new-and-improved-embedding-model"
+url: "https://openai.com/blog/new-and-improved-embedding-model"
 thumbnail: ""
 ---
 

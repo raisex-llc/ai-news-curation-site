@@ -4,7 +4,7 @@ description: ""
 summary: ""
 pubDate: "Thu, 26 Jul 2018 07:00:00 GMT"
 source: "OpenAI Blog"
-url: "https://openai.com/index/variational-option-discovery-algorithms"
+url: "https://openai.com/blog/variational-option-discovery-algorithms"
 thumbnail: ""
 ---
 

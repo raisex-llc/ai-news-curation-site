@@ -4,7 +4,7 @@ description: "Our latest research finds we can improve language model behavior w
 summary: "Our latest research finds we can improve language model behavior with respect to specific behavioral values by fine-tuning on a small, curated dataset."
 pubDate: "Thu, 10 Jun 2021 07:00:00 GMT"
 source: "OpenAI Blog"
-url: "https://openai.com/index/improving-language-model-behavior"
+url: "https://openai.com/blog/improving-language-model-behavior"
 thumbnail: ""
 ---
 

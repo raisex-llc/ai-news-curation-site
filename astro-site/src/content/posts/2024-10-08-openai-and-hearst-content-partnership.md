@@ -4,7 +4,7 @@ description: "Hearst’s iconic brands bring curated lifestyle and local news co
 summary: "Hearst’s iconic brands bring curated lifestyle and local news content to OpenAI’s products."
 pubDate: "Tue, 08 Oct 2024 10:00:00 GMT"
 source: "OpenAI Blog"
-url: "https://openai.com/index/hearst"
+url: "https://openai.com/blog/hearst"
 thumbnail: ""
 ---
 

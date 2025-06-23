@@ -4,7 +4,7 @@ description: "A conversation with Jochen Koedijk, Chief Marketing Officer of Exp
 summary: "A conversation with Jochen Koedijk, Chief Marketing Officer of Expedia Group."
 pubDate: "Wed, 14 May 2025 10:00:00 GMT"
 source: "OpenAI Blog"
-url: "https://openai.com/index/expedia-jochen-koedijk"
+url: "https://openai.com/blog/expedia-jochen-koedijk"
 thumbnail: ""
 ---
 

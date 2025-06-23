@@ -4,7 +4,7 @@ description: "Developer registration for in-person attendance will open in the c
 summary: "Developer registration for in-person attendance will open in the coming weeks and developers everywhere will be able to livestream the keynote."
 pubDate: "Wed, 06 Sep 2023 07:00:00 GMT"
 source: "OpenAI Blog"
-url: "https://openai.com/index/announcing-openai-devday"
+url: "https://openai.com/blog/announcing-openai-devday"
 thumbnail: ""
 ---
 

@@ -4,7 +4,7 @@ description: ""
 summary: ""
 pubDate: "Tue, 18 Oct 2016 07:00:00 GMT"
 source: "OpenAI Blog"
-url: "https://openai.com/index/semi-supervised-knowledge-transfer-for-deep-learning-from-private-training-data"
+url: "https://openai.com/blog/semi-supervised-knowledge-transfer-for-deep-learning-from-private-training-data"
 thumbnail: ""
 ---
 

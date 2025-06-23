@@ -4,7 +4,7 @@ description: "We are improving our AI systems’ ability to learn from human fee
 summary: "We are improving our AI systems’ ability to learn from human feedback and to assist humans at evaluating AI. Our goal is to build a sufficiently aligned AI system that can help us solve all other alignment problems."
 pubDate: "Wed, 24 Aug 2022 07:00:00 GMT"
 source: "OpenAI Blog"
-url: "https://openai.com/index/our-approach-to-alignment-research"
+url: "https://openai.com/blog/our-approach-to-alignment-research"
 thumbnail: ""
 ---
 

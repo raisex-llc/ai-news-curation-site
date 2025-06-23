@@ -4,7 +4,7 @@ description: "BrowseComp: a benchmark for browsing agents."
 summary: "BrowseComp: a benchmark for browsing agents."
 pubDate: "Thu, 10 Apr 2025 10:00:00 GMT"
 source: "OpenAI Blog"
-url: "https://openai.com/index/browsecomp"
+url: "https://openai.com/blog/browsecomp"
 thumbnail: ""
 ---
 

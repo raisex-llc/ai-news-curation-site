@@ -4,7 +4,7 @@ description: "Paradigm uses OpenAI’s API to improve patient access to clinical
 summary: "Paradigm uses OpenAI’s API to improve patient access to clinical trials."
 pubDate: "Wed, 06 Mar 2024 08:00:00 GMT"
 source: "OpenAI Blog"
-url: "https://openai.com/index/paradigm"
+url: "https://openai.com/blog/paradigm"
 thumbnail: ""
 ---
 

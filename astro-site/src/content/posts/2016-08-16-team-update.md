@@ -4,7 +4,7 @@ description: "We’ve hired more great people to help us achieve our goals. Welc
 summary: "We’ve hired more great people to help us achieve our goals. Welcome, everyone!"
 pubDate: "Tue, 16 Aug 2016 07:00:00 GMT"
 source: "OpenAI Blog"
-url: "https://openai.com/index/team-update-august"
+url: "https://openai.com/blog/team-update-august"
 thumbnail: ""
 ---
 

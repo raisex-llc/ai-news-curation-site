@@ -4,7 +4,7 @@ description: "We introduce PaperBench, a benchmark evaluating the ability of AI 
 summary: "We introduce PaperBench, a benchmark evaluating the ability of AI agents to replicate state-of-the-art AI research."
 pubDate: "Wed, 02 Apr 2025 10:15:00 GMT"
 source: "OpenAI Blog"
-url: "https://openai.com/index/paperbench"
+url: "https://openai.com/blog/paperbench"
 thumbnail: ""
 ---
 

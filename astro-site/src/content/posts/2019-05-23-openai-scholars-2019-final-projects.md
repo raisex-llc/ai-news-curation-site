@@ -4,7 +4,7 @@ description: "Our second class of OpenAI Scholars has concluded, with all eight 
 summary: "Our second class of OpenAI Scholars has concluded, with all eight scholars producing an exciting final project showcased at Scholars Demo Day at OpenAI."
 pubDate: "Thu, 23 May 2019 07:00:00 GMT"
 source: "OpenAI Blog"
-url: "https://openai.com/index/openai-scholars-2019-final-projects"
+url: "https://openai.com/blog/openai-scholars-2019-final-projects"
 thumbnail: ""
 ---
 

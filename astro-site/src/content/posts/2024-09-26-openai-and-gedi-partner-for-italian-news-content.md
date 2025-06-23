@@ -4,7 +4,7 @@ description: "OpenAI and GEDI announce strategic partnership to bring Italian-la
 summary: "OpenAI and GEDI announce strategic partnership to bring Italian-language news content to ChatGPT."
 pubDate: "Thu, 26 Sep 2024 04:30:00 GMT"
 source: "OpenAI Blog"
-url: "https://openai.com/index/gedi"
+url: "https://openai.com/blog/gedi"
 thumbnail: ""
 ---
 

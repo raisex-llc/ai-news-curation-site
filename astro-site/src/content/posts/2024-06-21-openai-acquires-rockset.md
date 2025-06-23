@@ -4,7 +4,7 @@ description: "OpenAI Acquires Rockset"
 summary: "OpenAI Acquires Rockset"
 pubDate: "Fri, 21 Jun 2024 08:00:00 GMT"
 source: "OpenAI Blog"
-url: "https://openai.com/index/openai-acquires-rockset"
+url: "https://openai.com/blog/openai-acquires-rockset"
 thumbnail: ""
 ---
 

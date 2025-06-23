@@ -4,7 +4,7 @@ description: "Reinforcement learning algorithms can break in surprising, counter
 summary: "Reinforcement learning algorithms can break in surprising, counterintuitive ways. In this post we’ll explore one failure mode, which is where you misspecify your reward function."
 pubDate: "Wed, 21 Dec 2016 08:00:00 GMT"
 source: "OpenAI Blog"
-url: "https://openai.com/index/faulty-reward-functions"
+url: "https://openai.com/blog/faulty-reward-functions"
 thumbnail: ""
 ---
 

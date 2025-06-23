@@ -4,7 +4,7 @@ description: "Endex builds the future of financial analysis, powered by OpenAIâ€
 summary: "Endex builds the future of financial analysis, powered by OpenAIâ€™s reasoning models."
 pubDate: "Thu, 27 Feb 2025 09:30:00 GMT"
 source: "OpenAI Blog"
-url: "https://openai.com/index/endex"
+url: "https://openai.com/blog/endex"
 thumbnail: ""
 ---
 

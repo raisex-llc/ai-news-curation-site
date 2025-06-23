@@ -4,7 +4,7 @@ description: "We’re launching the GPT Store to help you find useful and popula
 summary: "We’re launching the GPT Store to help you find useful and popular custom versions of ChatGPT."
 pubDate: "Wed, 10 Jan 2024 08:00:00 GMT"
 source: "OpenAI Blog"
-url: "https://openai.com/index/introducing-the-gpt-store"
+url: "https://openai.com/blog/introducing-the-gpt-store"
 thumbnail: ""
 ---
 

@@ -4,7 +4,7 @@ description: "We outline our architecture that supports the secure training of f
 summary: "We outline our architecture that supports the secure training of frontier models."
 pubDate: "Wed, 05 Jun 2024 10:00:00 GMT"
 source: "OpenAI Blog"
-url: "https://openai.com/index/securing-research-infrastructure-for-advanced-ai"
+url: "https://openai.com/blog/securing-research-infrastructure-for-advanced-ai"
 thumbnail: ""
 ---
 
