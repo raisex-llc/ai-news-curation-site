@@ -12,11 +12,12 @@ import yaml
 import hashlib
 import os
 import sys
+import re
 from datetime import datetime
 from pathlib import Path
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
-from dateutil import parser  # ✅ 柔軟な日付解析に使用
+from dateutil import parser  # 柔軟な日付処理用
 
 ROOT = Path(__file__).resolve().parent
 CONTENT_DIR = ROOT / "astro-site" / "src" / "content" / "posts"
@@ -30,15 +31,10 @@ DATE_FMT_MD = "%Y-%m-%d"
 
 
 def slugify(text: str) -> str:
-    return (
-        text.lower()
-        .replace(" ", "-")
-        .replace("/", "-")
-        .replace(":", "-")
-        .replace("?", "")
-        .replace("&", "")
-        .replace("=", "")
-    )
+    text = text.lower()
+    text = re.sub(r"[^\w\s-]", "", text)         # 英数字・空白・ハイフン以外を除去
+    text = re.sub(r"[\s_]+", "-", text)          # 空白とアンダースコアをハイフン化
+    return text.strip("-")
 
 
 def extract_thumbnail(url):
@@ -75,7 +71,6 @@ def extract_thumbnail(url):
 def write_post(title, description, date, source, url, thumbnail):
     try:
         slug = slugify(title or hashlib.md5(url.encode()).hexdigest())
-        # ✅ 柔軟な日付フォーマット対応
         dt = parser.parse(date)
         date_str = dt.strftime(DATE_FMT_MD)
         filename = f"{date_str}-{slug}.md"
@@ -83,11 +78,11 @@ def write_post(title, description, date, source, url, thumbnail):
 
         content = f"""---
 title: {title or 'Untitled'}
-description: "{description.strip().replace('"', "'") if description else ''}"
+description: "{(description or '').strip().replace('"', "'")}"
 pubDate: {date}
 source: {source}
 url: {url}
-thumbnail: {thumbnail}
+thumbnail: "{thumbnail or ''}"
 ---
 
 """
