@@ -67,15 +67,17 @@ def write_post(title, description, date, source, url, thumbnail):
     date_str = dt.strftime(DATE_FMT_MD)
     filename = f"{date_str}-{slug}.md"
     filepath = CONTENT_DIR / filename
-    content = f"""---\n"""
-    content += f'title: "{sanitize(title)}"\n'
-    content += f'description: "{sanitize(description)}"\n'
-    content += f'summary: "{sanitize(description)}"\n'
-    content += f'pubDate: "{sanitize(date)}"\n'
-    content += f'source: "{sanitize(source)}"\n'
-    content += f'url: "{sanitize(url)}"\n'
-    content += f'thumbnail: "{sanitize(thumbnail)}"\n'
-    content += "---\n\n"
+    content = f"""---
+title: "{sanitize(title)}"
+description: "{sanitize(description)}"
+summary: "{sanitize(description)}"
+pubDate: "{sanitize(date)}"
+source: "{sanitize(source)}"
+url: "{sanitize(url)}"
+thumbnail: "{sanitize(thumbnail)}"
+---
+
+"""
     filepath.write_text(content, encoding="utf-8")
     print(f"✅ saved: {filename}")
 
@@ -127,6 +129,13 @@ def fix_all_md_files():
                 data["title"] = "Untitled"
             if data.get("source") == "OpenAI Blog" and data.get("url", "").startswith("https://openai.com/index/"):
                 data["url"] = data["url"].replace("https://openai.com/index/", "https://openai.com/blog/")
+            if not data.get("thumbnail"):
+                if data.get("source") == "OpenAI Blog":
+                    data["thumbnail"] = "/assets/openai_logo.png"
+                elif data.get("source") == "arXiv AI":
+                    data["thumbnail"] = "/assets/arxiv.png"
+                else:
+                    data["thumbnail"] = "/assets/ai-icon.png"
             fixed_yaml = "---\n"
             for key in keys:
                 fixed_yaml += f'{key}: "{sanitize_yaml(data.get(key), key)}"\n'
@@ -153,8 +162,6 @@ def main():
                 print(f"🧪 CHECK URL: {link}")
                 thumb = extract_thumbnail(link)
                 print(f"→ EXTRACTED: {thumb}")
-
-                # ✅ サムネイル取得失敗時の媒体別補完
                 if not thumb:
                     if media == "OpenAI Blog":
                         thumb = "/assets/openai_logo.png"
@@ -162,7 +169,6 @@ def main():
                         thumb = "/assets/arxiv.png"
                     else:
                         thumb = "/assets/ai-icon.png"
-
                 write_post(title, summary, pub, media, link, thumb)
 
         fix_all_md_files()
