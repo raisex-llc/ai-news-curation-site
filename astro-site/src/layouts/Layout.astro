@@ -1,5 +1,4 @@
 ---
-// layouts/Layout.astro
 const { currentPage, totalPages, sort } = Astro.props;
 const q = Astro.url?.searchParams.get('q') || '';
 ---
@@ -41,7 +40,7 @@ const q = Astro.url?.searchParams.get('q') || '';
             type="submit"
             class="bg-blue-500 text-white text-sm px-3 py-1 rounded hover:bg-blue-600"
           >
-            検索
+            검색
           </button>
         </form>
 
@@ -67,7 +66,7 @@ const q = Astro.url?.searchParams.get('q') || '';
     </header>
 
     <!-- ✅ 本文と右カラム -->
-    <main class="max-w-6xl mx-auto px-4 py-8 flex flex-col lg:flex-row gap-6">
+    <main class="max-w-6xl mx-auto px-4 py-8 pr-52 flex flex-col gap-6">
       <div class="flex-1">
         <slot />
 
@@ -81,16 +80,14 @@ const q = Astro.url?.searchParams.get('q') || '';
         <!-- フッター広告 -->
         <div class="mt-8 bg-gray-200 text-center py-2">🔳 フッター固定広告募集中</div>
       </div>
-
-      <!-- デスクトップ右広告 -->
-      <aside class="hidden lg:block w-48">
-        <div class="sticky top-24 space-y-4">
-          <div class="bg-gray-300 h-32 flex items-center justify-center">🔳 バナー広告募集中</div>
-          <div class="bg-gray-300 h-32 flex items-center justify-center">🔳 バナー広告募集中</div>
-          <div class="bg-gray-300 h-32 flex items-center justify-center">🔳 バナー広告募集中</div>
-        </div>
-      </aside>
     </main>
+
+    <!-- ✅ 固定右広告（常に右端に表示） -->
+    <aside class="hidden lg:block fixed top-24 right-4 w-48 z-30 space-y-4">
+      <div class="bg-gray-300 h-32 flex items-center justify-center">🔳 バナー広告募集中</div>
+      <div class="bg-gray-300 h-32 flex items-center justify-center">🔳 バナー広告募集中</div>
+      <div class="bg-gray-300 h-32 flex items-center justify-center">🔳 バナー広告募集中</div>
+    </aside>
 
     <!-- ✅ フッター -->
     <footer class="text-center text-xs text-gray-500 py-6">
