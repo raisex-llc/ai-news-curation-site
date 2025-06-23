@@ -20,8 +20,7 @@ const q = Astro.url?.searchParams.get('q') || '';
           <img src="/ai-news-curation-site/assets/ai-icon.png" alt="AIアイコン" class="w-12 h-12" />
           <div class="text-sky-500 text-2xl font-bold">最新AIニュースまとめ</div>
         </a>
-
-        <!-- 右：（ページ1 / 全XXページ中） -->
+        <!-- 右：ページ数 -->
         {currentPage && totalPages && (
           <div class="text-sm text-gray-600 font-normal md:text-right">
             （ページ {currentPage} / 全{totalPages}ページ中）
@@ -31,7 +30,7 @@ const q = Astro.url?.searchParams.get('q') || '';
 
       <!-- 中段：検索フォーム2列 -->
       <div class="mt-3 flex flex-col sm:flex-row justify-center items-center gap-4 px-2 w-full">
-        <!-- 左：媒体名プルダウン -->
+        <!-- プルダウン -->
         <form action="" method="get" class="flex gap-2 w-full sm:w-auto justify-center">
           <select
             name="media"
@@ -57,7 +56,7 @@ const q = Astro.url?.searchParams.get('q') || '';
           </button>
         </form>
 
-        <!-- 右：フリーワード検索 -->
+        <!-- フリーワード -->
         <form action="" method="get" class="flex gap-2 w-full sm:w-auto justify-center">
           <input
             type="text"
@@ -75,7 +74,7 @@ const q = Astro.url?.searchParams.get('q') || '';
         </form>
       </div>
 
-      <!-- 下段：ページナビゲーション -->
+      <!-- ページナビ -->
       <div class="mt-2 text-sm flex justify-center gap-4 text-blue-600">
         {currentPage && currentPage > 1 && (
           <a href={`/ai-news-curation-site/page/${sort}/${currentPage - 1}`} class="hover:underline">
@@ -89,7 +88,7 @@ const q = Astro.url?.searchParams.get('q') || '';
         )}
       </div>
 
-      <!-- ✅ ヘッダー内広告 -->
+      <!-- ヘッダー広告 -->
       <div class="mt-3 w-full flex justify-center">
         <div class="bg-gray-200 text-center py-2 text-sm w-full max-w-screen-lg rounded">
           🔳 ヘッダー内広告募集中
@@ -97,33 +96,36 @@ const q = Astro.url?.searchParams.get('q') || '';
       </div>
     </header>
 
-    <!-- ✅ 本文と右カラム -->
-    <main class="max-w-screen-xl mx-auto px-4 lg:pr-64 py-8 flex flex-col gap-6">
-      <div class="flex-1">
+    <!-- ✅ 本文2カラム構成 -->
+    <main class="max-w-screen-xl mx-auto px-4 py-8 flex flex-col lg:flex-row gap-8">
+      <!-- 左：記事リスト -->
+      <div class="w-full lg:w-3/4">
         <slot />
 
-        <!-- モバイル広告 -->
+        <!-- モバイル用バナー -->
         <div class="mt-6 space-y-4 block lg:hidden">
           <div class="bg-gray-300 h-32 flex items-center justify-center">🔳 バナー広告募集中</div>
           <div class="bg-gray-300 h-32 flex items-center justify-center">🔳 バナー広告募集中</div>
           <div class="bg-gray-300 h-32 flex items-center justify-center">🔳 バナー広告募集中</div>
         </div>
 
-        <!-- ✅ フッター広告 -->
+        <!-- ✅ フッター広告（復元済） -->
         <div class="mt-8 w-full flex justify-center">
           <div class="bg-gray-200 text-center py-2 text-sm w-full max-w-screen-lg rounded">
             🔳 フッター固定広告募集中
           </div>
         </div>
       </div>
-    </main>
 
-    <!-- ✅ 固定右広告（右端ぴったりに） -->
-    <aside class="hidden lg:block fixed top-48 right-4 w-48 z-30 space-y-4">
-      <div class="bg-gray-300 h-32 flex items-center justify-center">🔳 バナー広告募集中</div>
-      <div class="bg-gray-300 h-32 flex items-center justify-center">🔳 バナー広告募集中</div>
-      <div class="bg-gray-300 h-32 flex items-center justify-center">🔳 バナー広告募集中</div>
-    </aside>
+      <!-- 右：固定広告 -->
+      <aside class="hidden lg:block w-full lg:w-1/4">
+        <div class="sticky top-48 space-y-4">
+          <div class="bg-gray-300 h-32 flex items-center justify-center">🔳 バナー広告募集中</div>
+          <div class="bg-gray-300 h-32 flex items-center justify-center">🔳 バナー広告募集中</div>
+          <div class="bg-gray-300 h-32 flex items-center justify-center">🔳 バナー広告募集中</div>
+        </div>
+      </aside>
+    </main>
 
     <!-- ✅ フッター -->
     <footer class="text-center text-xs text-gray-500 py-6">
