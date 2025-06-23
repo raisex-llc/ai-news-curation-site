@@ -1,4 +1,5 @@
 ---
+// layouts/Layout.astro
 const { currentPage, totalPages, sort } = Astro.props;
 const q = Astro.url?.searchParams.get('q') || '';
 ---
@@ -83,7 +84,7 @@ const q = Astro.url?.searchParams.get('q') || '';
     </main>
 
     <!-- ✅ 固定右広告（常に右端に表示） -->
-    <aside class="hidden lg:block fixed top-24 right-4 w-48 z-30 space-y-4">
+    <aside class="hidden lg:block fixed top-36 right-4 w-48 z-30 space-y-4">
       <div class="bg-gray-300 h-32 flex items-center justify-center">🔳 バナー広告募集中</div>
       <div class="bg-gray-300 h-32 flex items-center justify-center">🔳 バナー広告募集中</div>
       <div class="bg-gray-300 h-32 flex items-center justify-center">🔳 バナー広告募集中</div>
