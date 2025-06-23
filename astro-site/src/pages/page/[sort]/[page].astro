@@ -12,10 +12,7 @@ export async function getStaticPaths() {
   const paths = [];
 
   for (const sort of sorts) {
-    const sorted = sort === "date"
-      ? [...allPosts].sort((a, b) => new Date(b.data.pubDate) - new Date(a.data.pubDate)) // ← 修正前（古い順）
-      : allPosts;
-
+    const sorted = [...allPosts].sort((a, b) => new Date(b.data.pubDate) - new Date(a.data.pubDate));
     const totalPages = Math.ceil(sorted.length / PAGE_SIZE);
     for (let i = 1; i <= totalPages; i++) {
       paths.push({ params: { sort, page: String(i) } });
@@ -31,14 +28,31 @@ const currentPage = Number(page);
 
 const allPosts = await getCollection("posts");
 
-// ✅ pubDate 降順に修正
-const sortedPosts = sort === "date"
-  ? [...allPosts].sort((a, b) => new Date(b.data.pubDate) - new Date(a.data.pubDate)) // ← 修正前（古い順）
-  : allPosts;
+// ✅ クエリ取得（日本語ロケール対応）
+const q = Astro.url?.searchParams.get("q")?.toLowerCase() ?? "";
+const media = Astro.url?.searchParams.get("media")?.toLowerCase() ?? "";
 
-const sortedDesc = [...allPosts].sort((a, b) => new Date(b.data.pubDate) - new Date(a.data.pubDate)); // ← 降順（正しい）
+// ✅ 絞り込み（AND条件）
+const filteredPosts = allPosts.filter(post => {
+  const title = post.data.title?.toLowerCase() ?? "";
+  const desc = post.data.description?.toLowerCase() ?? "";
+  const body = post.body?.toLowerCase() ?? "";
+  const source = post.data.source?.toLowerCase() ?? "";
 
-const finalSorted = sort === "date" ? sortedDesc : allPosts;
+  const matchQ = !q || title.includes(q) || desc.includes(q) || body.includes(q);
+  const matchMedia = !media || source.includes(media);
+
+  return matchQ && matchMedia;
+});
+
+// ✅ pubDate 降順ソート
+const sortedPosts = [...filteredPosts].sort(
+  (a, b) => new Date(b.data.pubDate) - new Date(a.data.pubDate)
+);
+const sortedDesc = [...filteredPosts].sort(
+  (a, b) => new Date(b.data.pubDate) - new Date(a.data.pubDate)
+);
+const finalSorted = sort === "date" ? sortedDesc : filteredPosts;
 
 // ✅ ページング
 const totalPages = Math.ceil(finalSorted.length / PAGE_SIZE);
@@ -51,14 +65,16 @@ const paginatedPosts = finalSorted.slice(
 <Layout currentPage={currentPage} totalPages={totalPages} sort={sort}>
   <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
     {paginatedPosts.map((post) => (
-      <ArticleCard
-        title={post.data.title}
-        pubDate={post.data.pubDate}
-        description={post.data.description}
-        media={post.data.source}
-        thumbnail={post.data.thumbnail}
-        url={post.data.url}
-      />
+      <div class="article-card" data-media={post.data.source}>
+        <ArticleCard
+          title={post.data.title}
+          pubDate={post.data.pubDate}
+          description={post.data.description}
+          media={post.data.source}
+          thumbnail={post.data.thumbnail}
+          url={post.data.url}
+        />
+      </div>
     ))}
   </div>
 </Layout>

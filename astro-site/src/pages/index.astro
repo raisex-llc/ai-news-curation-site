@@ -7,37 +7,47 @@ import ArticleCard from "../components/ArticleCard.astro";
 const PAGE_SIZE = 30;
 const allPosts = await getCollection("posts");
 
-// ✅ クエリ取得
-const search = Astro.url?.searchParams.get("q")?.toLowerCase() ?? "";
+// ✅ クエリ取得（小文字＋null対策）
+const q = Astro.url?.searchParams.get("q")?.toLowerCase() ?? "";
+const media = Astro.url?.searchParams.get("media")?.toLowerCase() ?? "";
 
-// ✅ フィルタ
-const filteredPosts = allPosts.filter(post =>
-  post.data.title.toLowerCase().includes(search) ||
-  post.data.description.toLowerCase().includes(search) ||
-  (post.body && post.body.toLowerCase().includes(search))
-);
+// ✅ フィルタ処理（AND条件）
+const filteredPosts = allPosts.filter(post => {
+  const title = post.data.title?.toLowerCase() ?? "";
+  const desc = post.data.description?.toLowerCase() ?? "";
+  const body = post.body?.toLowerCase() ?? "";
+  const source = post.data.source?.toLowerCase() ?? "";
+
+  const matchQ = !q || title.includes(q) || desc.includes(q) || body.includes(q);
+  const matchMedia = !media || source.includes(media);
+
+  return matchQ && matchMedia;
+});
 
 // ✅ pubDate 降順ソート
 const sorted = [...filteredPosts].sort(
   (a, b) => new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime()
 );
 
-// ✅ ページング
+// ✅ ページング（1ページ目のみ）
 const paginatedPosts = sorted.slice(0, PAGE_SIZE);
 const totalPages = Math.ceil(sorted.length / PAGE_SIZE);
 ---
 
 <Layout currentPage={1} totalPages={totalPages} sort="date">
+  <!-- ✅ 投稿カード一覧 -->
   <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
     {paginatedPosts.map((post) => (
-      <ArticleCard
-        title={post.data.title}
-        pubDate={post.data.pubDate}
-        description={post.data.description}
-        media={post.data.source}
-        thumbnail={post.data.thumbnail}
-        url={post.data.url}
-      />
+      <div class="article-card" data-media={post.data.source}>
+        <ArticleCard
+          title={post.data.title}
+          pubDate={post.data.pubDate}
+          description={post.data.description}
+          media={post.data.source}
+          thumbnail={post.data.thumbnail}
+          url={post.data.url}
+        />
+      </div>
     ))}
   </div>
 </Layout>
