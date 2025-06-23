@@ -5,6 +5,6 @@ summary: "arXiv:2506.15704v1 Announce Type: cross Abstract: As large language mo
 pubDate: "Mon, 23 Jun 2025 00:00:00 -0400"
 source: "arXiv AI"
 url: "https://arxiv.org/abs/2506.15704"
-thumbnail: "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+thumbnail: "/assets/arxiv.png"
 ---
 

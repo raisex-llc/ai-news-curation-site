@@ -5,6 +5,6 @@ summary: "arXiv:2506.15677v2 Announce Type: replace Abstract: AI agents today ar
 pubDate: "Mon, 23 Jun 2025 00:00:00 -0400"
 source: "arXiv AI"
 url: "https://arxiv.org/abs/2506.15677"
-thumbnail: "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+thumbnail: "/assets/arxiv.png"
 ---
 

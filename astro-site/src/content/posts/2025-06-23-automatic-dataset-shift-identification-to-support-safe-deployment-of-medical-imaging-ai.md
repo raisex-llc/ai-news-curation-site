@@ -5,6 +5,6 @@ summary: "arXiv:2411.07940v3 Announce Type: replace Abstract: Shifts in data dis
 pubDate: "Mon, 23 Jun 2025 00:00:00 -0400"
 source: "arXiv AI"
 url: "https://arxiv.org/abs/2411.07940"
-thumbnail: "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+thumbnail: "/assets/arxiv.png"
 ---
 

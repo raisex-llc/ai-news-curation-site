@@ -5,6 +5,6 @@ summary: "arXiv:2506.03147v4 Announce Type: replace-cross Abstract: Although exi
 pubDate: "Mon, 23 Jun 2025 00:00:00 -0400"
 source: "arXiv AI"
 url: "https://arxiv.org/abs/2506.03147"
-thumbnail: "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+thumbnail: "/assets/arxiv.png"
 ---
 

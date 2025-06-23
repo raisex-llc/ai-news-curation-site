@@ -5,6 +5,6 @@ summary: "arXiv:2404.12041v3 Announce Type: replace-cross Abstract: The prolifer
 pubDate: "Mon, 23 Jun 2025 00:00:00 -0400"
 source: "arXiv AI"
 url: "https://arxiv.org/abs/2404.12041"
-thumbnail: "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+thumbnail: "/assets/arxiv.png"
 ---
 

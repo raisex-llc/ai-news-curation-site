@@ -5,6 +5,6 @@ summary: "arXiv:2506.17093v1 Announce Type: cross Abstract: Polynomial Neural Ne
 pubDate: "Mon, 23 Jun 2025 00:00:00 -0400"
 source: "arXiv AI"
 url: "https://arxiv.org/abs/2506.17093"
-thumbnail: "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+thumbnail: "/assets/arxiv.png"
 ---
 

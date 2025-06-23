@@ -5,6 +5,6 @@ summary: "arXiv:2502.11422v3 Announce Type: replace Abstract: Heuristics have ac
 pubDate: "Mon, 23 Jun 2025 00:00:00 -0400"
 source: "arXiv AI"
 url: "https://arxiv.org/abs/2502.11422"
-thumbnail: "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+thumbnail: "/assets/arxiv.png"
 ---
 

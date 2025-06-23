@@ -5,6 +5,6 @@ summary: "arXiv:2406.12593v3 Announce Type: replace-cross Abstract: Differentiab
 pubDate: "Mon, 23 Jun 2025 00:00:00 -0400"
 source: "arXiv AI"
 url: "https://arxiv.org/abs/2406.12593"
-thumbnail: "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+thumbnail: "/assets/arxiv.png"
 ---
 

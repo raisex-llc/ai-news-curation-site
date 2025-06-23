@@ -5,6 +5,6 @@ summary: "arXiv:2504.03353v2 Announce Type: replace-cross Abstract: We propose a
 pubDate: "Mon, 23 Jun 2025 00:00:00 -0400"
 source: "arXiv AI"
 url: "https://arxiv.org/abs/2504.03353"
-thumbnail: "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+thumbnail: "/assets/arxiv.png"
 ---
 

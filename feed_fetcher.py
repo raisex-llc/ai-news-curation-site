@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-統合版 feed_fetcher.py
-RSS → Markdown変換 + YAML整形 + OpenAI URL修正 +
-OpenAI/ArXiv/その他サムネイル補完 + バックスラッシュ削除
+最終版 feed_fetcher.py
+RSS → Markdown変換 + YAML整形 + サムネイル補完 + バックスラッシュ除去
+OpenAI/arXivはOGP抽出をスキップし、内部画像を使用
 """
 
 import feedparser
@@ -39,8 +39,14 @@ def sanitize(value: str) -> str:
         return ""
     return str(value).strip().replace('"', "'").replace("\\", "")
 
-def extract_thumbnail(url):
+def extract_thumbnail(url, source=""):
     try:
+        # ✅ sourceによってOGP抽出スキップ
+        if source == "OpenAI Blog":
+            return "/assets/openai_logo.png"
+        elif source == "arXiv AI":
+            return "/assets/arxiv.png"
+
         res = requests.get(url, timeout=10, headers={"User-Agent": "Mozilla/5.0"})
         soup = BeautifulSoup(res.text, "html.parser")
         og = soup.find("meta", property="og:image")
@@ -160,9 +166,9 @@ def main():
                 if not title or not pub or not link:
                     continue
                 print(f"🧪 CHECK URL: {link}")
-                thumb = extract_thumbnail(link)
+                thumb = extract_thumbnail(link, source=media)
                 print(f"→ EXTRACTED: {thumb}")
-                if not thumb:
+                if not thumb or not is_valid_url(thumb):
                     if media == "OpenAI Blog":
                         thumb = "/assets/openai_logo.png"
                     elif media == "arXiv AI":
@@ -176,7 +182,7 @@ def main():
         print(f"❌ Unhandled Error: {e}")
         sys.exit(1)
 
-    print("✅ 完了: Markdown 生成 + YAML整形 + URL置換 + サムネイル補完 + バックスラッシュ除去")
+    print("✅ 完了: Markdown生成 + YAML整形 + サムネイル補完 + バックスラッシュ除去")
     sys.exit(0)
 
 if __name__ == "__main__":

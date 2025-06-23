@@ -5,6 +5,6 @@ summary: "arXiv:2504.08584v2 Announce Type: replace-cross Abstract: Reliable art
 pubDate: "Mon, 23 Jun 2025 00:00:00 -0400"
 source: "arXiv AI"
 url: "https://arxiv.org/abs/2504.08584"
-thumbnail: "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+thumbnail: "/assets/arxiv.png"
 ---
 
