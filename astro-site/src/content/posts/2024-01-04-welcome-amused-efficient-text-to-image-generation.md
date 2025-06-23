@@ -2,9 +2,9 @@
 title: "Welcome aMUSEd: Efficient Text-to-Image Generation"
 description: ""
 summary: ""
-pubDate: "2000-01-01T00:00:00.000Z"
-source: ""
-url: "https://example.com"
-thumbnail: ""
+pubDate: "Thu, 04 Jan 2024 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/amused"
+thumbnail: "https://huggingface.co/blog/assets/amused/thumbnail.png"
 ---
 

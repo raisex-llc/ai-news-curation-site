@@ -1,10 +1,10 @@
 ---
 title: "Put AI to Work: Lessons from Hundreds of Successful Deployments"
-description: ""
-summary: ""
-pubDate: "2000-01-01T00:00:00.000Z"
-source: ""
-url: "https://example.com"
+description: "Put AI to Work: Lessons from Hundreds of Successful Deployments"
+summary: "Put AI to Work: Lessons from Hundreds of Successful Deployments"
+pubDate: "Tue, 10 Sep 2024 00:00:00 GMT"
+source: "OpenAI Blog"
+url: "https://openai.com/business/put-ai-to-work-lessons-from-hundreds-of-successful-deployments"
 thumbnail: ""
 ---
 

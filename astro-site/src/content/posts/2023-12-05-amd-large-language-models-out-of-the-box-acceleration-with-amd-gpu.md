@@ -2,9 +2,9 @@
 title: "AMD + 🤗: Large Language Models Out-of-the-Box Acceleration with AMD GPU"
 description: ""
 summary: ""
-pubDate: "2000-01-01T00:00:00.000Z"
-source: ""
-url: "https://example.com"
-thumbnail: ""
+pubDate: "Tue, 05 Dec 2023 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/huggingface-and-optimum-amd"
+thumbnail: "https://huggingface.co/blog/assets/optimum_amd/amd_hf_logo_fixed.png"
 ---
 

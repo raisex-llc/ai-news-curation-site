@@ -2,9 +2,9 @@
 title: "MTEB: Massive Text Embedding Benchmark"
 description: ""
 summary: ""
-pubDate: "2000-01-01T00:00:00.000Z"
-source: ""
-url: "https://example.com"
-thumbnail: ""
+pubDate: "Wed, 19 Oct 2022 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/mteb"
+thumbnail: "https://huggingface.co/blog/assets/110_mteb/thumbnail.png"
 ---
 

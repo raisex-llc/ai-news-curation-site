@@ -2,9 +2,9 @@
 title: "Confidence-Building Measures for Artificial Intelligence: Workshop proceedings"
 description: ""
 summary: ""
-pubDate: "2000-01-01T00:00:00.000Z"
-source: ""
-url: "https://example.com"
+pubDate: "Tue, 01 Aug 2023 07:00:00 GMT"
+source: "OpenAI Blog"
+url: "https://openai.com/index/confidence-building-measures-for-artificial-intelligence"
 thumbnail: ""
 ---
 

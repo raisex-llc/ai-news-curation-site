@@ -1,5 +1,5 @@
 ---
-title: "Ethics and Society Newsletter"
+title: "Ethics and Society Newsletter #1"
 description: ""
 summary: ""
 pubDate: "Thu, 22 Sep 2022 00:00:00 GMT"

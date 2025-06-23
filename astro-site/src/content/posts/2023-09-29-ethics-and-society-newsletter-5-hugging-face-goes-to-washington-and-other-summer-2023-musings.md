@@ -1,5 +1,5 @@
 ---
-title: "Ethics and Society Newsletter"
+title: "Ethics and Society Newsletter #5: Hugging Face Goes To Washington and Other Summer 2023 Musings"
 description: ""
 summary: ""
 pubDate: "Fri, 29 Sep 2023 00:00:00 GMT"

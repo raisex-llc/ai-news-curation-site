@@ -2,9 +2,9 @@
 title: "OpenRAIL: Towards open and responsible AI licensing frameworks"
 description: ""
 summary: ""
-pubDate: "2000-01-01T00:00:00.000Z"
-source: ""
-url: "https://example.com"
-thumbnail: ""
+pubDate: "Wed, 31 Aug 2022 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/open_rail"
+thumbnail: "https://huggingface.co/blog/assets/100_open_rail/100_open-rail.png"
 ---
 

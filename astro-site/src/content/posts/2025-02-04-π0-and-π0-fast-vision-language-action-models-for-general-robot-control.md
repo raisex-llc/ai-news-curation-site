@@ -2,9 +2,9 @@
 title: "π0 and π0-FAST: Vision-Language-Action Models for General Robot Control"
 description: ""
 summary: ""
-pubDate: "2000-01-01T00:00:00.000Z"
-source: ""
-url: "https://example.com"
-thumbnail: ""
+pubDate: "Tue, 04 Feb 2025 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/pi0"
+thumbnail: "https://huggingface.co/blog/assets/192_pi0/new_thumbnail_pi0.001.png"
 ---
 

@@ -2,9 +2,9 @@
 title: "SmolVLM2: Bringing Video Understanding to Every Device"
 description: ""
 summary: ""
-pubDate: "2000-01-01T00:00:00.000Z"
-source: ""
-url: "https://example.com"
-thumbnail: ""
+pubDate: "Thu, 20 Feb 2025 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/smolvlm2"
+thumbnail: "https://huggingface.co/blog/assets/smolvlm2/banner.png"
 ---
 

@@ -2,9 +2,9 @@
 title: "Introducing HuggingFace blog for Chinese speakers: Fostering Collaboration with the Chinese AI community"
 description: ""
 summary: ""
-pubDate: "2000-01-01T00:00:00.000Z"
-source: ""
-url: "https://example.com"
-thumbnail: ""
+pubDate: "Mon, 24 Apr 2023 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/chinese-language-blog"
+thumbnail: "https://huggingface.co/blog/assets/chinese-language-blog/thumbnail.png"
 ---
 

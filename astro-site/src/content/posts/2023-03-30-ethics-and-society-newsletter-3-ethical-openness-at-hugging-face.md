@@ -1,5 +1,5 @@
 ---
-title: "Ethics and Society Newsletter"
+title: "Ethics and Society Newsletter #3: Ethical Openness at Hugging Face"
 description: ""
 summary: ""
 pubDate: "Thu, 30 Mar 2023 00:00:00 GMT"

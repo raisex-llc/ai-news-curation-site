@@ -1,10 +1,10 @@
 ---
 title: "A Primer on the EU AI Act: What It Means for AI Providers and Deployers"
-description: ""
-summary: ""
-pubDate: "2000-01-01T00:00:00.000Z"
-source: ""
-url: "https://example.com"
+description: "We’re sharing a preliminary overview of the EU AI Act including upcoming deadlines and requirements, with a particular focus on prohibited and high-risk use cases"
+summary: "We’re sharing a preliminary overview of the EU AI Act including upcoming deadlines and requirements, with a particular focus on prohibited and high-risk use cases"
+pubDate: "Tue, 30 Jul 2024 00:00:00 GMT"
+source: "OpenAI Blog"
+url: "https://openai.com/global-affairs/a-primer-on-the-eu-ai-act"
 thumbnail: ""
 ---
 

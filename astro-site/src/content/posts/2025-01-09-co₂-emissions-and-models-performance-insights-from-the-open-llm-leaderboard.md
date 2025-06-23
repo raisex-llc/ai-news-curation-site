@@ -2,9 +2,9 @@
 title: "CO₂ Emissions and Models Performance: Insights from the Open LLM Leaderboard"
 description: ""
 summary: ""
-pubDate: "2000-01-01T00:00:00.000Z"
-source: ""
-url: "https://example.com"
-thumbnail: ""
+pubDate: "Thu, 09 Jan 2025 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/leaderboard-emissions-analysis"
+thumbnail: "https://huggingface.co/blog/assets/evaluating-mmlu-leaderboard/thumbnail.png"
 ---
 

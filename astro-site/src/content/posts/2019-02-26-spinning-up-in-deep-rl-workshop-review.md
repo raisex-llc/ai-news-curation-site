@@ -1,10 +1,10 @@
 ---
 title: "Spinning Up in Deep RL: Workshop review"
-description: ""
-summary: ""
-pubDate: "2000-01-01T00:00:00.000Z"
-source: ""
-url: "https://example.com"
+description: "On February 2, we held our first Spinning Up Workshop as part of our new education initiative at OpenAI."
+summary: "On February 2, we held our first Spinning Up Workshop as part of our new education initiative at OpenAI."
+pubDate: "Tue, 26 Feb 2019 08:00:00 GMT"
+source: "OpenAI Blog"
+url: "https://openai.com/index/spinning-up-in-deep-rl-workshop-review"
 thumbnail: ""
 ---
 

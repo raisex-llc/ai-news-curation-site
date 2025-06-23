@@ -2,9 +2,9 @@
 title: "Case Study: Millisecond Latency using Hugging Face Infinity and modern CPUs"
 description: ""
 summary: ""
-pubDate: "2000-01-01T00:00:00.000Z"
-source: ""
-url: "https://example.com"
-thumbnail: ""
+pubDate: "Thu, 13 Jan 2022 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/infinity-cpu-performance"
+thumbnail: "https://huggingface.co/blog/assets/46_infinity_cpu_performance/thumbnail.png"
 ---
 

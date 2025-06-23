@@ -2,9 +2,9 @@
 title: "Multi-Goal Reinforcement Learning: Challenging robotics environments and request for research"
 description: ""
 summary: ""
-pubDate: "2000-01-01T00:00:00.000Z"
-source: ""
-url: "https://example.com"
+pubDate: "Mon, 26 Feb 2018 08:00:00 GMT"
+source: "OpenAI Blog"
+url: "https://openai.com/index/multi-goal-reinforcement-learning"
 thumbnail: ""
 ---
 

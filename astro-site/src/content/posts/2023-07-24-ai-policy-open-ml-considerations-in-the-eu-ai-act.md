@@ -2,9 +2,9 @@
 title: "AI Policy @🤗: Open ML Considerations in the EU AI Act"
 description: ""
 summary: ""
-pubDate: "2000-01-01T00:00:00.000Z"
-source: ""
-url: "https://example.com"
-thumbnail: ""
+pubDate: "Mon, 24 Jul 2023 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/eu-ai-act-oss"
+thumbnail: "https://huggingface.co/blog/assets/eu_ai_act_oss/thumbnailEU.png"
 ---
 

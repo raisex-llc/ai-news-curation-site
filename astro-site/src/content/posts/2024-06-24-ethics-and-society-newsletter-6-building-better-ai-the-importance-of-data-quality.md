@@ -1,5 +1,5 @@
 ---
-title: "Ethics and Society Newsletter"
+title: "Ethics and Society Newsletter #6: Building Better AI: The Importance of Data Quality"
 description: ""
 summary: ""
 pubDate: "Mon, 24 Jun 2024 00:00:00 GMT"

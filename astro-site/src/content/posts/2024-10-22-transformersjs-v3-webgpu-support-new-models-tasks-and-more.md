@@ -2,9 +2,9 @@
 title: "Transformers.js v3: WebGPU support, new models & tasks, and more…"
 description: ""
 summary: ""
-pubDate: "2000-01-01T00:00:00.000Z"
-source: ""
-url: "https://example.com"
-thumbnail: ""
+pubDate: "Tue, 22 Oct 2024 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/transformersjs-v3"
+thumbnail: "https://huggingface.co/blog/assets/transformersjs-v3/thumbnail.png"
 ---
 

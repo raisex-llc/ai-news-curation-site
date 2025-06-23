@@ -1,10 +1,10 @@
 ---
 title: "New in ChatGPT for Business: March 2025"
-description: ""
-summary: ""
-pubDate: "2000-01-01T00:00:00.000Z"
-source: ""
-url: "https://example.com"
+description: "Join us as we share our latest releases and how ChatGPT is becoming more interactive, customized to the way your teams work, and agentic."
+summary: "Join us as we share our latest releases and how ChatGPT is becoming more interactive, customized to the way your teams work, and agentic."
+pubDate: "Tue, 18 Mar 2025 00:00:00 GMT"
+source: "OpenAI Blog"
+url: "https://openai.com/business/new-in-chatgpt-for-work-march-updates-2025"
 thumbnail: ""
 ---
 

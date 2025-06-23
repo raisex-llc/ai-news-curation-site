@@ -2,9 +2,9 @@
 title: "Personal Copilot: Train Your Own Coding Assistant"
 description: ""
 summary: ""
-pubDate: "2000-01-01T00:00:00.000Z"
-source: ""
-url: "https://example.com"
-thumbnail: ""
+pubDate: "Fri, 27 Oct 2023 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/personal-copilot"
+thumbnail: "https://huggingface.co/blog/assets/170_personal_copilot/thumbnail.png"
 ---
 

@@ -1,10 +1,10 @@
 ---
 title: "OpenAI Scholars 2019: Final projects"
-description: ""
-summary: ""
-pubDate: "2000-01-01T00:00:00.000Z"
-source: ""
-url: "https://example.com"
+description: "Our second class of OpenAI Scholars has concluded, with all eight scholars producing an exciting final project showcased at Scholars Demo Day at OpenAI."
+summary: "Our second class of OpenAI Scholars has concluded, with all eight scholars producing an exciting final project showcased at Scholars Demo Day at OpenAI."
+pubDate: "Thu, 23 May 2019 07:00:00 GMT"
+source: "OpenAI Blog"
+url: "https://openai.com/index/openai-scholars-2019-final-projects"
 thumbnail: ""
 ---
 

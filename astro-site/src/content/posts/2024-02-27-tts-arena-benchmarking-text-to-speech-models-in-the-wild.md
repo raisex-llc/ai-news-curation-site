@@ -2,9 +2,9 @@
 title: "TTS Arena: Benchmarking Text-to-Speech Models in the Wild"
 description: ""
 summary: ""
-pubDate: "2000-01-01T00:00:00.000Z"
-source: ""
-url: "https://example.com"
-thumbnail: ""
+pubDate: "Tue, 27 Feb 2024 00:00:00 GMT"
+source: "Hugging Face Blog"
+url: "https://huggingface.co/blog/arena-tts"
+thumbnail: "https://huggingface.co/blog/assets/arenas-on-the-hub/thumbnail.png"
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "Ethics and Society Newsletter"
+title: "Ethics and Society Newsletter #2: Let's talk about bias!"
 description: ""
 summary: ""
 pubDate: "Thu, 15 Dec 2022 00:00:00 GMT"

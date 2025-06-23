@@ -1,5 +1,5 @@
 ---
-title: "Ethics and Society Newsletter"
+title: "Ethics and Society Newsletter #4: Bias in Text-to-Image Models"
 description: ""
 summary: ""
 pubDate: "Mon, 26 Jun 2023 00:00:00 GMT"
