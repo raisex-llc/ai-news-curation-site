@@ -1,0 +1,10 @@
+---
+title: DALL·E: Introducing outpainting
+description: "Extend creativity and tell a bigger story with DALL·E images of any size."
+summary: "Extend creativity and tell a bigger story with DALL·E images of any size."
+pubDate: Wed, 31 Aug 2022 07:00:00 GMT
+source: OpenAI Blog
+url: https://openai.com/index/dall-e-introducing-outpainting
+
+---
+

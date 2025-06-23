@@ -76,21 +76,26 @@ def write_post(title, description, date, source, url, thumbnail):
         filename = f"{date_str}-{slug}.md"
         filepath = CONTENT_DIR / filename
 
-        # YAML出力に使う値（空やnullであっても文字列にする）
         desc = (description or '').strip().replace('"', "'")
-        thumb_line = f'thumbnail: "{thumbnail}"' if thumbnail and thumbnail.startswith("http") else ""
 
-        content = f"""---
-title: {title or 'Untitled'}
-description: "{desc}"
-summary: "{desc}"
-pubDate: {date}
-source: {source}
-url: {url}
-{thumb_line}
----
+        lines = [
+            "---",
+            f'title: {title or "Untitled"}',
+            f'description: "{desc}"',
+            f'summary: "{desc}"',
+            f'pubDate: {date}',
+            f'source: {source}',
+            f'url: {url}',
+        ]
 
-"""
+        if thumbnail and thumbnail.startswith("http"):
+            lines.append(f'thumbnail: "{thumbnail}"')
+
+        lines.append("---")
+        lines.append("")  # YAMLと本文の間に1行空行
+
+        content = "\n".join(lines)
+
         filepath.write_text(content, encoding="utf-8")
         print(f"✅ saved: {filename}")
     except Exception as e:
@@ -115,7 +120,6 @@ def main():
                 if not title or not pub or not link:
                     continue
 
-                # 🧪 デバッグログ（必要に応じて削除可）
                 print(f"\n🧪 CHECK URL: {link}")
                 extracted = extract_thumbnail(link)
                 print(f"→ EXTRACTED: {extracted}\n")

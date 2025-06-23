@@ -1,0 +1,10 @@
+---
+title: Machine Learning Unconference
+description: "The latest information about the Unconference is now available at the Unconference wiki, which will be periodically updated with more information for attendees."
+summary: "The latest information about the Unconference is now available at the Unconference wiki, which will be periodically updated with more information for attendees."
+pubDate: Thu, 18 Aug 2016 07:00:00 GMT
+source: OpenAI Blog
+url: https://openai.com/index/machine-learning-unconference
+
+---
+

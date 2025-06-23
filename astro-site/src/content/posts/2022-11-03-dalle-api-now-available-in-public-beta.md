@@ -1,0 +1,10 @@
+---
+title: DALL·E API now available in public beta
+description: "Starting today, developers can begin building apps with the DALL·E API."
+summary: "Starting today, developers can begin building apps with the DALL·E API."
+pubDate: Thu, 03 Nov 2022 07:00:00 GMT
+source: OpenAI Blog
+url: https://openai.com/index/dall-e-api-now-available-in-public-beta
+
+---
+

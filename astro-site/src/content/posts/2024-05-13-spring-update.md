@@ -1,0 +1,10 @@
+---
+title: Spring Update
+description: "Introducing GPT-4o and making more capabilities available for free in ChatGPT."
+summary: "Introducing GPT-4o and making more capabilities available for free in ChatGPT."
+pubDate: Mon, 13 May 2024 10:00:00 GMT
+source: OpenAI Blog
+url: https://openai.com/index/spring-update
+
+---
+
