@@ -16,6 +16,7 @@ from datetime import datetime
 from pathlib import Path
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
+from dateutil import parser  # ✅ 柔軟な日付解析に使用
 
 ROOT = Path(__file__).resolve().parent
 CONTENT_DIR = ROOT / "astro-site" / "src" / "content" / "posts"
@@ -74,8 +75,8 @@ def extract_thumbnail(url):
 def write_post(title, description, date, source, url, thumbnail):
     try:
         slug = slugify(title or hashlib.md5(url.encode()).hexdigest())
-        # ✅ 修正ポイント：+0000 形式に対応（%Z → %z）
-        dt = datetime.strptime(date, "%a, %d %b %Y %H:%M:%S %z")
+        # ✅ 柔軟な日付フォーマット対応
+        dt = parser.parse(date)
         date_str = dt.strftime(DATE_FMT_MD)
         filename = f"{date_str}-{slug}.md"
         filepath = CONTENT_DIR / filename

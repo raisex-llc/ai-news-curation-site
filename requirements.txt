@@ -3,3 +3,4 @@ requests
 trafilatura
 pyyaml
 beautifulsoup4
+python-dateutil
