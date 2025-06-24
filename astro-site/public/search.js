@@ -4,6 +4,12 @@ window.addEventListener("DOMContentLoaded", () => {
   const q = params.get("q")?.toLowerCase();
   let media = params.get("media");
 
+  // ✅ 入力欄・セレクトボックスへ反映
+  const qInput = document.querySelector('input[name="q"]');
+  const mediaSelect = document.querySelector('select[name="media"]');
+  if (qInput) qInput.value = q;
+  if (mediaSelect) mediaSelect.value = media;
+
   // ✅ data-mediaとの比較のため、mediaを正規化（小文字化+空白除去）
   media = media?.toLowerCase().replace(/\s+/g, "");
 

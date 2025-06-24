@@ -14,12 +14,10 @@ const qs = queryString ? `?${queryString}` : "";
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>最新AIニュースまとめ</title>
 
-    <!-- ✅ HTMLキャッシュ無効化 -->
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
     <meta http-equiv="Pragma" content="no-cache" />
     <meta http-equiv="Expires" content="0" />
 
-    <!-- ✅ キャッシュバスター付きCSS/JS -->
     <link rel="stylesheet" href="/ai-news-curation-site/search.css?v=20250624" />
     <script src="/ai-news-curation-site/search.js?v=20250624" defer></script>
   </head>
@@ -66,20 +64,20 @@ const qs = queryString ? `?${queryString}` : "";
       <!-- ✅ 検索フォーム -->
       <div class="mt-3 flex flex-col sm:flex-row justify-center items-center gap-4 px-2 w-full">
         <!-- 媒体名 -->
-        <form method="get" class="flex gap-2 w-full sm:w-auto justify-center">
+        <form method="get" action="/ai-news-curation-site/" class="flex gap-2 w-full sm:w-auto justify-center">
           <input type="hidden" name="q" value={q} />
           <select name="media" class="text-sm border rounded px-2 py-1 w-full sm:w-60">
             <option value="">媒体名で検索</option>
-            <option value="arXiv AI" selected={media === "arxiv ai"}>arXiv AI</option>
-            <option value="Hugging Face Blog" selected={media === "hugging face blog"}>Hugging Face Blog</option>
-            <option value="OpenAI Blog" selected={media === "openai blog"}>OpenAI Blog</option>
-            <option value="Google AI Blog" selected={media === "google ai blog"}>Google AI Blog</option>
-            <option value="Microsoft Research Blog" selected={media === "microsoft research blog"}>Microsoft Research Blog</option>
-            <option value="DeepMind Blog" selected={media === "deepmind blog"}>DeepMind Blog</option>
-            <option value="MIT" selected={media === "mit"}>MIT</option>
-            <option value="ITmedia AI" selected={media === "itmedia ai"}>ITmedia AI</option>
-            <option value="AI Smily" selected={media === "ai smily"}>AI Smily</option>
-            <option value="AI Shift" selected={media === "ai shift"}>AI Shift</option>
+            <option value="arXiv AI">arXiv AI</option>
+            <option value="Hugging Face Blog">Hugging Face Blog</option>
+            <option value="OpenAI Blog">OpenAI Blog</option>
+            <option value="Google AI Blog">Google AI Blog</option>
+            <option value="Microsoft Research Blog">Microsoft Research Blog</option>
+            <option value="DeepMind Blog">DeepMind Blog</option>
+            <option value="MIT">MIT</option>
+            <option value="ITmedia AI">ITmedia AI</option>
+            <option value="AI Smily">AI Smily</option>
+            <option value="AI Shift">AI Shift</option>
           </select>
           <button type="submit" class="bg-blue-500 text-white text-sm px-3 py-1 rounded hover:bg-blue-600">
             検索
@@ -87,7 +85,7 @@ const qs = queryString ? `?${queryString}` : "";
         </form>
 
         <!-- フリーワード -->
-        <form method="get" class="flex gap-2 w-full sm:w-auto justify-center">
+        <form method="get" action="/ai-news-curation-site/" class="flex gap-2 w-full sm:w-auto justify-center">
           <input type="hidden" name="media" value={media} />
           <input
             type="text"
