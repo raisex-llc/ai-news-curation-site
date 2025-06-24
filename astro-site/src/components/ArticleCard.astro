@@ -10,20 +10,20 @@ export interface Props {
 }
 const { title, pubDate, description, media, thumbnail, url } = Astro.props;
 
-// ✅ GitHub上の代替画像URL
+// ✅ GitHub上の代替画像URL（404防止用）
 const fallback = "https://github.com/raisex-llc/ai-news-curation-site/blob/gh-pages/assets/ai-icon.png?raw=true";
 ---
 
 <article
   class="article-card bg-white shadow rounded-lg overflow-hidden border border-gray-200 flex flex-col h-full"
-  data-media={media}
+  data-media={media}  <!-- ✅ 検索フィルター用に追加 -->
 >
   <!-- ✅ 媒体名 -->
   <div class="text-sm text-green-600 font-semibold px-3 pt-3">
     {media}
   </div>
 
-  <!-- ✅ サムネイル画像（存在しない場合は代替画像） -->
+  <!-- ✅ サムネイル画像 -->
   <a href={url} target="_blank" rel="noopener noreferrer" class="block px-3 pt-2">
     <img
       src={thumbnail || fallback}

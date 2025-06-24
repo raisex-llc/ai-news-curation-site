@@ -6,7 +6,7 @@ window.addEventListener("DOMContentLoaded", () => {
   const q = params.get("q")?.toLowerCase() || "";
   const media = params.get("media")?.toLowerCase() || "";
 
-  // ✅ 検索ボックスに値を保持する
+  // ✅ 検索フォームにパラメータを反映
   const qInputs = document.querySelectorAll('input[name="q"]');
   const mediaSelects = document.querySelectorAll('select[name="media"]');
 
@@ -22,7 +22,7 @@ window.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-  // ✅ カードを絞り込む（index.astro にて client-side filter する場合用）
+  // ✅ クライアント側でカード絞り込み（静的HTMLでの柔軟対応）
   const cards = document.querySelectorAll(".article-card");
   cards.forEach((card) => {
     const text = card.innerText.toLowerCase();
@@ -31,12 +31,6 @@ window.addEventListener("DOMContentLoaded", () => {
     const matchQ = !q || text.includes(q);
     const matchMedia = !media || source.includes(media);
 
-    if (!matchQ || !matchMedia) {
-      card.style.display = "none";
-    } else {
-      card.style.display = "";
-    }
+    card.style.display = matchQ && matchMedia ? "" : "none";
   });
 });
-
-

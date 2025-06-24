@@ -1,4 +1,5 @@
 ---
+// layouts/Layout.astro
 const { currentPage, totalPages, sort, q = "", media = "" } = Astro.props;
 
 // ✅ クエリ文字列を組み立て（ページ遷移リンク・フォーム用）
@@ -19,7 +20,6 @@ const qs = queryString ? `?${queryString}` : "";
     <!-- ✅ ヘッダー -->
     <header id="top" class="sticky top-0 z-50 bg-white border-b border-gray-200 px-4 py-3">
       <div class="max-w-[960px] mx-auto flex flex-col gap-2">
-        <!-- ロゴとページ数 -->
         <div class="flex items-center gap-3">
           <a href={`/ai-news-curation-site/${qs}`} class="flex items-center gap-3 hover:opacity-80">
             <img src="/ai-news-curation-site/assets/ai-icon.png" alt="AIアイコン" class="w-16 h-16" />
@@ -32,7 +32,7 @@ const qs = queryString ? `?${queryString}` : "";
           )}
         </div>
 
-        <!-- ページナビ -->
+        <!-- ✅ ページナビ -->
         {totalPages > 1 && (
           <div class="flex justify-between sm:justify-end text-sm text-blue-600">
             <div class="flex gap-4">
