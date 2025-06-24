@@ -9,47 +9,36 @@ window.addEventListener("DOMContentLoaded", () => {
     form.addEventListener("submit", (e) => {
       e.preventDefault();
 
-      if (overlay) {
-        overlay.style.display = "flex";
-        console.log("🔄 オーバーレイ表示開始");
-      }
+      if (overlay) overlay.style.display = "flex";
+      console.log("📨 フォーム送信 → オーバーレイ表示");
 
       requestAnimationFrame(() => {
         setTimeout(() => {
           const action = form.getAttribute("action") || window.location.pathname;
-          const method = (form.getAttribute("method") || "get").toLowerCase();
-
           const formData = new FormData(form);
           const params = new URLSearchParams(formData);
-
           params.delete("_");
 
-          if (method === "get") {
-            const query = params.toString();
-            console.log("📤 GET検索送信", `${action}?${query}`);
-            window.location.href = query ? `${action}?${query}` : action;
-          } else {
-            console.log("📤 POST検索送信");
-            form.submit();
-          }
+          const query = params.toString();
+          console.log("🔍 遷移URL:", `${action}?${query}`);
+          window.location.href = query ? `${action}?${query}` : action;
         }, 50);
       });
     });
   });
 
-  // URLパラメータ → inputへ反映
+  // クエリ取得
   const params = new URLSearchParams(window.location.search);
-  params.delete("_");
+  const q = params.get("q")?.toLowerCase()?.trim() || "";
+  const media = params.get("media")?.toLowerCase()?.replace(/\s+/g, "") || "";
 
-  const q = params.get("q")?.toLowerCase() || "";
-  const media = params.get("media")?.toLowerCase().replace(/\s+/g, "") || "";
+  console.log("🔍 クエリパラメータ受信 q:", q);
+  console.log("🔍 クエリパラメータ受信 media:", media);
 
-  console.log("🌐 クエリパラメータ受信 q:", q, "media:", media);
-
+  // inputに反映
   document.querySelectorAll('input[name="q"]').forEach((input) => {
     input.value = q;
   });
-
   document.querySelectorAll('select[name="media"]').forEach((select) => {
     Array.from(select.options).forEach((opt) => {
       if (opt.value.toLowerCase().replace(/\s+/g, "") === media) {
@@ -58,19 +47,18 @@ window.addEventListener("DOMContentLoaded", () => {
     });
   });
 
+  // オーバーレイ制御
   const cards = document.querySelectorAll(".article-card");
-  const hasVisible = Array.from(cards).some((card) => card.offsetParent !== null);
-  console.log("🧾 表示カード数（DOM上）:", cards.length, "可視:", hasVisible);
+  const visible = Array.from(cards).filter((card) => card.offsetParent !== null);
+  console.log("🧾 表示カード数 (DOM上):", cards.length, "可視:", visible.length);
 
   if (overlay && (q || media)) {
-    if (hasVisible) {
+    if (visible.length > 0) {
       overlay.style.display = "none";
       console.log("✅ 結果あり：オーバーレイ非表示");
     } else {
-      setTimeout(() => {
-        overlay.style.display = "none";
-        console.log("⚠️ 結果なし：5秒後オーバーレイ非表示");
-      }, 5000);
+      console.log("⚠️ 結果なし：3秒後にオーバーレイ非表示");
+      setTimeout(() => overlay.style.display = "none", 3000);
     }
   }
 });
