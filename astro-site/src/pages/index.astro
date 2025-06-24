@@ -40,7 +40,7 @@ const totalPages = 1;
 
 <!-- ✅ 検索中オーバーレイ -->
 <div id="search-overlay" class="fixed inset-0 z-50 bg-white/80 backdrop-blur-sm hidden flex items-center justify-center text-xl font-bold text-red-600">
-  検索中です… 少々お待ちください
+  🔍 検索中です… 少々お待ちください
 </div>
 
 <Layout currentPage={currentPage} totalPages={totalPages} sort={sort} q={q} media={media}>
@@ -59,7 +59,7 @@ const totalPages = 1;
   </div>
 </Layout>
 
-<!-- ✅ 検索時オーバーレイ制御 -->
+<!-- ✅ 検索オーバーレイ制御 -->
 <script>
   window.addEventListener("DOMContentLoaded", () => {
     const params = new URLSearchParams(window.location.search);
@@ -71,10 +71,19 @@ const totalPages = 1;
       const overlay = document.getElementById("search-overlay");
       if (overlay) overlay.classList.remove("hidden");
 
-      // 3秒後にフェードアウト（任意）
+      // 3秒後に非表示（任意調整可）
       setTimeout(() => {
         overlay.classList.add("hidden");
       }, 3000);
     }
+
+    // ✅ フォーム送信時に即表示（ページ遷移前に表示）
+    const forms = document.querySelectorAll("form");
+    forms.forEach((form) => {
+      form.addEventListener("submit", () => {
+        const overlay = document.getElementById("search-overlay");
+        if (overlay) overlay.classList.remove("hidden");
+      });
+    });
   });
 </script>

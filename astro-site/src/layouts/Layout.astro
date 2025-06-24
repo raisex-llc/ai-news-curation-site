@@ -2,7 +2,6 @@
 // layouts/Layout.astro
 const { currentPage, totalPages, sort, q = "", media = "" } = Astro.props;
 
-// ✅ クエリ文字列を組み立て（ページ遷移リンク・フォーム用）
 const queryString = [q && `q=${encodeURIComponent(q)}`, media && `media=${encodeURIComponent(media)}`]
   .filter(Boolean)
   .join("&");
@@ -14,13 +13,13 @@ const qs = queryString ? `?${queryString}` : "";
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>最新AIニュースまとめ</title>
-    <link rel="stylesheet" href="/ai-news-curation-site/search.css" /> <!-- ✅ オーバーレイCSS追加 -->
+    <link rel="stylesheet" href="/ai-news-curation-site/search.css" />
     <script src="/ai-news-curation-site/search.js" defer></script>
   </head>
   <body class="bg-gray-100 text-gray-800">
     <!-- ✅ 検索中オーバーレイ -->
-    <div id="search-overlay">
-      検索中です...
+    <div id="search-overlay" class="fixed inset-0 z-50 bg-white/80 backdrop-blur-sm hidden flex items-center justify-center text-xl font-bold text-red-600">
+      🔍 検索中です… 少々お待ちください
     </div>
 
     <!-- ✅ ヘッダー -->
@@ -147,5 +146,18 @@ const qs = queryString ? `?${queryString}` : "";
       )}
       <div>© 2024 raisex, LLC. All rights reserved.</div>
     </footer>
+
+    <!-- ✅ 検索フォーム送信時にオーバーレイを表示 -->
+    <script>
+      window.addEventListener("DOMContentLoaded", () => {
+        const forms = document.querySelectorAll("form");
+        forms.forEach((form) => {
+          form.addEventListener("submit", () => {
+            const overlay = document.getElementById("search-overlay");
+            if (overlay) overlay.classList.remove("hidden");
+          });
+        });
+      });
+    </script>
   </body>
 </html>
