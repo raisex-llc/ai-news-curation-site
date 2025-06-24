@@ -27,7 +27,6 @@ window.addEventListener("DOMContentLoaded", () => {
           params.delete("_");
 
           if (method === "get") {
-            // ✅ 不要なキャッシュバスターは付けない
             const query = params.toString();
             window.location.href = query ? `${action}?${query}` : action;
           } else {
@@ -42,8 +41,8 @@ window.addEventListener("DOMContentLoaded", () => {
   const params = new URLSearchParams(window.location.search);
   params.delete("_"); // ✅ 不審な _ パラメータを除去
 
-  const q = params.get("q")?.toLowerCase() || "";
-  const media = params.get("media")?.toLowerCase().replace(/\s+/g, "") || "";
+  const q = params.get("q")?.toLowerCase().trim() || "";
+  const media = params.get("media")?.toLowerCase().trim() || "";
 
   document.querySelectorAll('input[name="q"]').forEach((input) => {
     input.value = q;
@@ -51,7 +50,7 @@ window.addEventListener("DOMContentLoaded", () => {
 
   document.querySelectorAll('select[name="media"]').forEach((select) => {
     Array.from(select.options).forEach((opt) => {
-      if (opt.value.toLowerCase().replace(/\s+/g, "") === media) {
+      if (opt.value.toLowerCase().trim() === media) {
         opt.selected = true;
       }
     });
@@ -71,4 +70,3 @@ window.addEventListener("DOMContentLoaded", () => {
     }
   }
 });
-
