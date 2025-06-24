@@ -1,4 +1,3 @@
-// public/search.js
 console.log("✅ search.js loaded");
 
 window.addEventListener("DOMContentLoaded", () => {
@@ -22,7 +21,20 @@ window.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-  // ✅ クライアント側でカード絞り込み（静的HTMLでの柔軟対応）
+  // ✅ 検索オーバーレイ表示（検索条件が指定されたときのみ）
+  const overlay = document.getElementById("search-overlay");
+  const isSearching = q || media;
+
+  if (isSearching && overlay) {
+    overlay.style.display = "flex";
+
+    // 2〜4秒後に自動非表示（実データ取得に応じて調整）
+    setTimeout(() => {
+      overlay.style.display = "none";
+    }, 4000);
+  }
+
+  // ✅ クライアント側でカード絞り込み（静的HTML用の柔軟対応）
   const cards = document.querySelectorAll(".article-card");
   cards.forEach((card) => {
     const text = card.innerText.toLowerCase();

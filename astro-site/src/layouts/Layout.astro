@@ -14,9 +14,15 @@ const qs = queryString ? `?${queryString}` : "";
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>最新AIニュースまとめ</title>
+    <link rel="stylesheet" href="/ai-news-curation-site/search.css" /> <!-- ✅ オーバーレイCSS追加 -->
     <script src="/ai-news-curation-site/search.js" defer></script>
   </head>
   <body class="bg-gray-100 text-gray-800">
+    <!-- ✅ 検索中オーバーレイ -->
+    <div id="search-overlay">
+      検索中です...
+    </div>
+
     <!-- ✅ ヘッダー -->
     <header id="top" class="sticky top-0 z-50 bg-white border-b border-gray-200 px-4 py-3">
       <div class="max-w-[960px] mx-auto flex flex-col gap-2">

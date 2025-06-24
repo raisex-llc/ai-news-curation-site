@@ -8,14 +8,14 @@ const PAGE_SIZE = 30;
 const currentPage = 1;
 const sort = "date";
 
-// ✅ クエリパラメータ取得（小文字変換）
+// ✅ クエリパラメータ取得
 const q = Astro.url?.searchParams.get("q")?.toLowerCase() ?? "";
 const media = Astro.url?.searchParams.get("media")?.toLowerCase() ?? "";
 
 // ✅ 全記事取得
 const allPosts = await getCollection("posts");
 
-// ✅ 検索条件に一致する記事を抽出（AND条件）
+// ✅ フィルタ処理（AND条件）
 const filteredPosts = allPosts.filter(post => {
   const title = post.data.title?.toLowerCase() ?? "";
   const desc = post.data.description?.toLowerCase() ?? "";
@@ -33,16 +33,15 @@ const sortedPosts = [...filteredPosts].sort(
   (a, b) => new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime()
 );
 
-// ✅ 検索中はページネーション解除
-const isSearching = !!(q || media);
-const paginatedPosts = isSearching
-  ? sortedPosts
-  : sortedPosts.slice(0, PAGE_SIZE);
-
-const totalPages = isSearching
-  ? 1
-  : Math.ceil(sortedPosts.length / PAGE_SIZE);
+// ✅ 全件表示（ページネーション廃止構成）
+const paginatedPosts = sortedPosts;
+const totalPages = 1;
 ---
+
+<!-- ✅ 検索中オーバーレイ -->
+<div id="search-overlay" class="fixed inset-0 z-50 bg-white/80 backdrop-blur-sm hidden flex items-center justify-center text-xl font-bold text-red-600">
+  検索中です… 少々お待ちください
+</div>
 
 <Layout currentPage={currentPage} totalPages={totalPages} sort={sort} q={q} media={media}>
   <!-- ✅ 投稿カード表示 -->
@@ -59,3 +58,23 @@ const totalPages = isSearching
     ))}
   </div>
 </Layout>
+
+<!-- ✅ 検索時オーバーレイ制御 -->
+<script>
+  window.addEventListener("DOMContentLoaded", () => {
+    const params = new URLSearchParams(window.location.search);
+    const q = params.get("q")?.trim();
+    const media = params.get("media")?.trim();
+
+    const hasQuery = q || media;
+    if (hasQuery) {
+      const overlay = document.getElementById("search-overlay");
+      if (overlay) overlay.classList.remove("hidden");
+
+      // 3秒後にフェードアウト（任意）
+      setTimeout(() => {
+        overlay.classList.add("hidden");
+      }, 3000);
+    }
+  });
+</script>
