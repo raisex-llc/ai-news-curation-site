@@ -69,12 +69,14 @@ const totalPages = 1;
     const hasQuery = q || media;
     if (hasQuery) {
       const overlay = document.getElementById("search-overlay");
-      if (overlay) overlay.classList.remove("hidden");
+      if (overlay) {
+        overlay.classList.remove("hidden");
 
-      // 3秒後に非表示（任意調整可）
-      setTimeout(() => {
-        overlay.classList.add("hidden");
-      }, 3000);
+        // ✅ 最大6秒間表示（必要に応じて短縮可能）
+        setTimeout(() => {
+          overlay.classList.add("hidden");
+        }, 6000);
+      }
     }
 
     // ✅ フォーム送信時に即表示（ページ遷移前に表示）
