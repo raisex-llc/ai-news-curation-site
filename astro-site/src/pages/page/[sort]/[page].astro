@@ -64,16 +64,14 @@ const paginatedPosts = sortedPosts.slice(
   <!-- ✅ 投稿カード -->
   <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
     {paginatedPosts.map((post) => (
-      <div class="article-card" data-media={post.data.source}>
-        <ArticleCard
-          title={post.data.title}
-          pubDate={post.data.pubDate}
-          description={post.data.description}
-          media={post.data.source}
-          thumbnail={post.data.thumbnail}
-          url={post.data.url}
-        />
-      </div>
+      <ArticleCard
+        title={post.data.title}
+        pubDate={post.data.pubDate}
+        description={post.data.description}
+        media={post.data.source}
+        thumbnail={post.data.thumbnail}
+        url={post.data.url}
+      />
     ))}
   </div>
 </Layout>

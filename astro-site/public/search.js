@@ -15,6 +15,7 @@ window.addEventListener("DOMContentLoaded", () => {
     const matchQ = !q || text.includes(q);
     const matchMedia = !media || cardMedia.includes(media);
 
+    // AND 条件：両方一致したカードのみ表示
     card.style.display = matchQ && matchMedia ? "" : "none";
   });
 });

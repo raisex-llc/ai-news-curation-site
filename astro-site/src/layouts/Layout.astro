@@ -10,7 +10,6 @@ const queryString = [q && `q=${encodeURIComponent(q)}`, media && `media=${encode
   .join("&");
 const qs = queryString ? `?${queryString}` : "";
 ---
-
 <html lang="ja">
   <head>
     <meta charset="UTF-8" />
@@ -22,7 +21,7 @@ const qs = queryString ? `?${queryString}` : "";
     <!-- ✅ ヘッダー -->
     <header id="top" class="sticky top-0 z-50 bg-white border-b border-gray-200 px-4 py-3">
       <div class="max-w-[960px] mx-auto flex flex-col gap-2">
-        <!-- 1行目（共通）: ロゴ + タイトル + ページ数 -->
+        <!-- ロゴとページ数 -->
         <div class="flex items-center gap-3">
           <a href={`/ai-news-curation-site/${qs}`} class="flex items-center gap-3 hover:opacity-80">
             <img src="/ai-news-curation-site/assets/ai-icon.png" alt="AIアイコン" class="w-16 h-16" />
@@ -35,7 +34,7 @@ const qs = queryString ? `?${queryString}` : "";
           )}
         </div>
 
-        <!-- 2行目（PC:右寄せ、SP:flexで左右）: ナビ -->
+        <!-- ページナビ -->
         <div class="flex justify-between sm:justify-end text-sm text-blue-600">
           <div class="flex gap-4">
             {currentPage > 1 && (
@@ -54,6 +53,7 @@ const qs = queryString ? `?${queryString}` : "";
 
       <!-- ✅ 検索フォーム -->
       <div class="mt-3 flex flex-col sm:flex-row justify-center items-center gap-4 px-2 w-full">
+        <!-- 媒体名 -->
         <form method="get" class="flex gap-2 w-full sm:w-auto justify-center">
           <input type="hidden" name="q" value={q} />
           <select name="media" class="text-sm border rounded px-2 py-1 w-full sm:w-60">
@@ -74,6 +74,7 @@ const qs = queryString ? `?${queryString}` : "";
           </button>
         </form>
 
+        <!-- フリーワード -->
         <form method="get" class="flex gap-2 w-full sm:w-auto justify-center">
           <input type="hidden" name="media" value={media} />
           <input
