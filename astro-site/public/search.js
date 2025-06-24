@@ -1,4 +1,4 @@
-// ✅ public/search.js
+// public/search.js
 console.log("✅ search.js loaded");
 
 window.addEventListener("DOMContentLoaded", () => {
@@ -24,7 +24,10 @@ window.addEventListener("DOMContentLoaded", () => {
           const params = new URLSearchParams(formData).toString();
 
           if (method === "get") {
-            window.location.href = `${action}?${params}`;
+            // ✅ キャッシュ破棄のためにランダムクエリを付与
+            const cacheBuster = `_=${Date.now()}`;
+            const separator = params ? "&" : "";
+            window.location.href = `${action}?${params}${separator}${cacheBuster}`;
           } else {
             form.submit(); // POSTならsubmit継続
           }
