@@ -8,11 +8,14 @@ const PAGE_SIZE = 30;
 const currentPage = 1;
 const sort = "date";
 
-// ✅ クエリパラメータの正規化（小文字＋空白削除）
 const q = Astro.url?.searchParams.get("q")?.toLowerCase().trim() ?? "";
 const media = Astro.url?.searchParams.get("media")?.toLowerCase().replace(/\s+/g, "").trim() ?? "";
 
+console.log("🔍 index.astro loaded");
+console.log("クエリパラメータ q =", q, "media =", media);
+
 const allPosts = await getCollection("posts");
+console.log("取得件数 allPosts =", allPosts.length);
 
 const filteredPosts = allPosts.filter(post => {
   const title = post.data.title?.toLowerCase() ?? "";
@@ -25,6 +28,8 @@ const filteredPosts = allPosts.filter(post => {
 
   return matchQ && matchMedia;
 });
+
+console.log("フィルタ後 filteredPosts =", filteredPosts.length);
 
 const sortedPosts = [...filteredPosts].sort(
   (a, b) => new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime()
@@ -56,36 +61,5 @@ const hasResults = paginatedPosts.length > 0;
   </div>
 </Layout>
 
-<!-- ✅ 検索オーバーレイ制御スクリプト -->
-<script>
-  window.addEventListener("DOMContentLoaded", () => {
-    const params = new URLSearchParams(window.location.search);
-    const q = params.get("q")?.trim();
-    const media = params.get("media")?.trim();
-    const hasQuery = q || media;
-
-    const overlay = document.getElementById("search-overlay");
-    const hasResults = overlay?.dataset.hasResults === "true";
-
-    if (hasQuery && overlay) {
-      overlay.classList.remove("hidden");
-
-      if (hasResults) {
-        overlay.classList.add("hidden");
-      } else {
-        setTimeout(() => overlay.classList.add("hidden"), 10000);
-      }
-    }
-
-    // ✅ 検索フォーム送信時にオーバーレイ表示
-    const forms = document.querySelectorAll("form");
-    forms.forEach((form) => {
-      form.addEventListener("submit", () => {
-        if (overlay) overlay.classList.remove("hidden");
-      });
-    });
-  });
-</script>
-
-<!-- ✅ search.js 読み込み（キャッシュ対策用バージョン付き） -->
+<!-- ✅ search.js 読み込み -->
 <script src="/ai-news-curation-site/search.js?v=20250624" defer></script>

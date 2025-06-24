@@ -4,17 +4,16 @@ console.log("✅ search.js loaded");
 window.addEventListener("DOMContentLoaded", () => {
   const overlay = document.getElementById("search-overlay");
 
-  // ✅ 各フォームに対して submit イベントを制御
   const forms = document.querySelectorAll("form");
   forms.forEach((form) => {
     form.addEventListener("submit", (e) => {
-      e.preventDefault(); // 通常のsubmitをキャンセル
+      e.preventDefault();
 
       if (overlay) {
-        overlay.style.display = "flex"; // 🔍 検索中オーバーレイを即表示
+        overlay.style.display = "flex";
+        console.log("🔄 オーバーレイ表示開始");
       }
 
-      // ✅ 1フレーム待ってから遷移（オーバーレイ描画保証）
       requestAnimationFrame(() => {
         setTimeout(() => {
           const action = form.getAttribute("action") || window.location.pathname;
@@ -23,26 +22,29 @@ window.addEventListener("DOMContentLoaded", () => {
           const formData = new FormData(form);
           const params = new URLSearchParams(formData);
 
-          // ✅ 不審なクエリ（_）を除去
           params.delete("_");
 
           if (method === "get") {
             const query = params.toString();
+            console.log("📤 GET検索送信", `${action}?${query}`);
             window.location.href = query ? `${action}?${query}` : action;
           } else {
-            form.submit(); // POSTならsubmit継続
+            console.log("📤 POST検索送信");
+            form.submit();
           }
-        }, 50); // 最小遅延（オーバーレイ描画保証）
+        }, 50);
       });
     });
   });
 
-  // ✅ クエリパラメータ取得と input に反映
+  // URLパラメータ → inputへ反映
   const params = new URLSearchParams(window.location.search);
-  params.delete("_"); // ✅ 不審な _ パラメータを除去
+  params.delete("_");
 
-  const q = params.get("q")?.toLowerCase().trim() || "";
-  const media = params.get("media")?.toLowerCase().trim() || "";
+  const q = params.get("q")?.toLowerCase() || "";
+  const media = params.get("media")?.toLowerCase().replace(/\s+/g, "") || "";
+
+  console.log("🌐 クエリパラメータ受信 q:", q, "media:", media);
 
   document.querySelectorAll('input[name="q"]').forEach((input) => {
     input.value = q;
@@ -50,23 +52,25 @@ window.addEventListener("DOMContentLoaded", () => {
 
   document.querySelectorAll('select[name="media"]').forEach((select) => {
     Array.from(select.options).forEach((opt) => {
-      if (opt.value.toLowerCase().trim() === media) {
+      if (opt.value.toLowerCase().replace(/\s+/g, "") === media) {
         opt.selected = true;
       }
     });
   });
 
-  // ✅ 表示されているカードが1件でもあればオーバーレイ即時非表示
   const cards = document.querySelectorAll(".article-card");
   const hasVisible = Array.from(cards).some((card) => card.offsetParent !== null);
+  console.log("🧾 表示カード数（DOM上）:", cards.length, "可視:", hasVisible);
 
   if (overlay && (q || media)) {
     if (hasVisible) {
       overlay.style.display = "none";
+      console.log("✅ 結果あり：オーバーレイ非表示");
     } else {
       setTimeout(() => {
         overlay.style.display = "none";
-      }, 3000); // 検索結果がない場合は3秒後に非表示
+        console.log("⚠️ 結果なし：5秒後オーバーレイ非表示");
+      }, 5000);
     }
   }
 });
