@@ -39,11 +39,10 @@ const totalPages = 1;
 const hasResults = paginatedPosts.length > 0;
 ---
 
-<!-- ✅ 検索中オーバーレイ（結果あり／なしを data 属性で伝達） -->
+<!-- ✅ 検索中オーバーレイ（初期状態は非表示） -->
 <div
   id="search-overlay"
   class="fixed inset-0 z-50 bg-white/80 backdrop-blur-sm hidden flex items-center justify-center text-xl font-bold text-red-600"
-  data-has-results="{hasResults}"
 >
   🔍 検索中です… 少々お待ちください
 </div>
@@ -64,38 +63,3 @@ const hasResults = paginatedPosts.length > 0;
   </div>
 </Layout>
 
-<!-- ✅ 検索オーバーレイ制御 -->
-<script>
-  window.addEventListener("DOMContentLoaded", () => {
-    const params = new URLSearchParams(window.location.search);
-    const q = params.get("q")?.trim();
-    const media = params.get("media")?.trim();
-    const hasQuery = q || media;
-
-    const overlay = document.getElementById("search-overlay");
-
-    if (hasQuery && overlay) {
-      overlay.classList.remove("hidden");
-
-      const hasResults = overlay.dataset.hasResults === "true";
-
-      if (hasResults) {
-        // ✅ 検索結果があれば即非表示
-        overlay.classList.add("hidden");
-      } else {
-        // ✅ 結果がない場合は10秒間表示
-        setTimeout(() => {
-          overlay.classList.add("hidden");
-        }, 10000);
-      }
-    }
-
-    // ✅ フォーム送信時に即表示
-    const forms = document.querySelectorAll("form");
-    forms.forEach((form) => {
-      form.addEventListener("submit", () => {
-        if (overlay) overlay.classList.remove("hidden");
-      });
-    });
-  });
-</script>
