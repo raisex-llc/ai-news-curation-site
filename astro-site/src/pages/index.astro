@@ -8,14 +8,14 @@ const PAGE_SIZE = 30;
 const currentPage = 1;
 const sort = "date";
 
-// ✅ クエリパラメータ取得
+// ✅ クエリパラメータ取得（小文字変換）
 const q = Astro.url?.searchParams.get("q")?.toLowerCase() ?? "";
 const media = Astro.url?.searchParams.get("media")?.toLowerCase() ?? "";
 
 // ✅ 全記事取得
 const allPosts = await getCollection("posts");
 
-// ✅ フィルタ処理（AND条件）
+// ✅ 検索条件に一致する記事を抽出（AND条件）
 const filteredPosts = allPosts.filter(post => {
   const title = post.data.title?.toLowerCase() ?? "";
   const desc = post.data.description?.toLowerCase() ?? "";
@@ -33,10 +33,15 @@ const sortedPosts = [...filteredPosts].sort(
   (a, b) => new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime()
 );
 
-// ✅ 検索中はページネーション解除（全件表示）
+// ✅ 検索中はページネーション解除
 const isSearching = !!(q || media);
-const paginatedPosts = isSearching ? sortedPosts : sortedPosts.slice(0, PAGE_SIZE);
-const totalPages = isSearching ? 1 : Math.ceil(sortedPosts.length / PAGE_SIZE);
+const paginatedPosts = isSearching
+  ? sortedPosts
+  : sortedPosts.slice(0, PAGE_SIZE);
+
+const totalPages = isSearching
+  ? 1
+  : Math.ceil(sortedPosts.length / PAGE_SIZE);
 ---
 
 <Layout currentPage={currentPage} totalPages={totalPages} sort={sort} q={q} media={media}>
