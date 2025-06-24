@@ -1,42 +1,21 @@
 ---
-// src/pages/page/[sort]/[page].astro
-import Layout from "../../../layouts/Layout.astro";
-import ArticleCard from "../../../components/ArticleCard.astro";
+// src/pages/index.astro
+import Layout from "../layouts/Layout.astro";
+import ArticleCard from "../components/ArticleCard.astro";
 import { getCollection } from "astro:content";
 
-// ✅ 静的パス生成（検索なし前提で全ページ分をビルド）
-export async function getStaticPaths() {
-  const PAGE_SIZE = 30;
-  const allPosts = await getCollection("posts");
-
-  const sorts = ["date"];
-  const paths = [];
-
-  for (const sort of sorts) {
-    const sorted = [...allPosts].sort((a, b) => new Date(b.data.pubDate) - new Date(a.data.pubDate));
-    const totalPages = Math.ceil(sorted.length / PAGE_SIZE);
-    for (let i = 1; i <= totalPages; i++) {
-      paths.push({ params: { sort, page: String(i) } });
-    }
-  }
-
-  return paths;
-}
-
-// ✅ ページパラメータと検索クエリ取得
 const PAGE_SIZE = 30;
-const { sort, page } = Astro.params;
-const currentPage = Number(page);
+const currentPage = 1;
+const sort = "date";
 
-// ✅ 検索クエリ取得（クエリパラメータ）
+// ✅ クエリパラメータ取得
 const q = Astro.url?.searchParams.get("q")?.toLowerCase() ?? "";
 const media = Astro.url?.searchParams.get("media")?.toLowerCase() ?? "";
-const isSearching = !!(q || media);
 
 // ✅ 全記事取得
 const allPosts = await getCollection("posts");
 
-// ✅ フィルタ処理（AND 条件：フリーワード + 媒体名）
+// ✅ フィルタ処理（AND条件）
 const filteredPosts = allPosts.filter(post => {
   const title = post.data.title?.toLowerCase() ?? "";
   const desc = post.data.description?.toLowerCase() ?? "";
@@ -49,22 +28,18 @@ const filteredPosts = allPosts.filter(post => {
   return matchQ && matchMedia;
 });
 
-// ✅ 投稿日で降順ソート（固定）
+// ✅ pubDate 降順ソート
 const sortedPosts = [...filteredPosts].sort(
   (a, b) => new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime()
 );
 
-// ✅ ページネーション処理：検索中は全件、通常はページ分割
-const paginatedPosts = isSearching
-  ? sortedPosts
-  : sortedPosts.slice((currentPage - 1) * PAGE_SIZE, currentPage * PAGE_SIZE);
-const totalPages = isSearching
-  ? 1
-  : Math.ceil(sortedPosts.length / PAGE_SIZE);
+// ✅ 全件表示（ページネーション廃止構成）
+const paginatedPosts = sortedPosts;
+const totalPages = 1;
 ---
 
 <Layout currentPage={currentPage} totalPages={totalPages} sort={sort} q={q} media={media}>
-  <!-- ✅ 投稿カードリスト -->
+  <!-- ✅ 投稿カード表示 -->
   <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
     {paginatedPosts.map((post) => (
       <ArticleCard
