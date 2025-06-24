@@ -8,8 +8,9 @@ const PAGE_SIZE = 30;
 const currentPage = 1;
 const sort = "date";
 
-const q = Astro.url?.searchParams.get("q")?.toLowerCase() ?? "";
-const media = Astro.url?.searchParams.get("media")?.toLowerCase() ?? "";
+// ✅ クエリパラメータの正規化（小文字＋空白削除）
+const q = Astro.url?.searchParams.get("q")?.toLowerCase().trim() ?? "";
+const media = Astro.url?.searchParams.get("media")?.toLowerCase().replace(/\s+/g, "").trim() ?? "";
 
 const allPosts = await getCollection("posts");
 
@@ -17,7 +18,7 @@ const filteredPosts = allPosts.filter(post => {
   const title = post.data.title?.toLowerCase() ?? "";
   const desc = post.data.description?.toLowerCase() ?? "";
   const body = post.body?.toLowerCase() ?? "";
-  const source = post.data.source?.toLowerCase() ?? "";
+  const source = post.data.source?.toLowerCase().replace(/\s+/g, "") ?? "";
 
   const matchQ = !q || title.includes(q) || desc.includes(q) || body.includes(q);
   const matchMedia = !media || source.includes(media);
