@@ -1,12 +1,11 @@
 // public/search.js
-console.log("✅ search.js loaded");
-
 window.addEventListener("DOMContentLoaded", () => {
   const params = new URLSearchParams(window.location.search);
   const q = params.get("q")?.toLowerCase();
-
   let media = params.get("media");
-  media = media?.toLowerCase().replace(/\s+/g, ""); // ✅ 正規化！
+
+  // ✅ data-mediaとの比較のため、mediaを正規化（小文字化+空白除去）
+  media = media?.toLowerCase().replace(/\s+/g, "");
 
   const cards = document.querySelectorAll(".article-card");
   console.log("📦 表示カード数（DOM上）:", cards.length);
@@ -16,7 +15,6 @@ window.addEventListener("DOMContentLoaded", () => {
   cards.forEach((card) => {
     let show = true;
 
-    // ✅ mediaが指定されている場合は data-media と比較
     if (media) {
       const cardMedia = card.getAttribute("data-media")?.toLowerCase();
       if (cardMedia !== media) {
@@ -24,7 +22,6 @@ window.addEventListener("DOMContentLoaded", () => {
       }
     }
 
-    // ✅ フリーワードが指定されている場合は text に含まれるか確認
     if (q) {
       const text = card.innerText.toLowerCase();
       if (!text.includes(q)) {
@@ -38,11 +35,9 @@ window.addEventListener("DOMContentLoaded", () => {
 
   console.log("👀 フィルタ後の表示件数:", visibleCount);
 
-  // ✅ 結果が0件ならオーバーレイ表示
+  // ✅ オーバーレイの表示切替処理（検索結果ゼロ時のみ表示）
   const overlay = document.getElementById("search-overlay");
-  if (visibleCount === 0 && overlay) {
-    overlay.style.display = "flex";
-  } else if (overlay) {
-    overlay.style.display = "none";
+  if (overlay) {
+    overlay.style.display = visibleCount === 0 ? "flex" : "none";
   }
 });

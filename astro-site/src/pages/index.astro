@@ -41,8 +41,10 @@ const hasResults = paginatedPosts.length > 0;
 ---
 
 <!-- ✅ 検索中オーバーレイ -->
-<div id="search-overlay" class="fixed inset-0 z-50 bg-white/80 backdrop-blur-sm hidden flex items-center justify-center text-xl font-bold text-red-600"
-  data-has-results={hasResults}>
+<div id="search-overlay"
+    class="fixed inset-0 z-50 bg-white/80 backdrop-blur-sm flex items-center justify-center text-xl font-bold text-red-600"
+    style="display: none;"
+    data-has-results={hasResults}>
   🔍 検索中です… 少々お待ちください
 </div>
 
