@@ -103,20 +103,25 @@ const qs = queryString ? `?${queryString}` : "";
       </div>
     </header>
 
+    <!-- ✅ メイン -->
     <main class="max-w-screen-xl mx-auto px-4 py-8 flex flex-col lg:flex-row gap-8">
       <div class="w-full lg:w-3/4">
         <slot />
+        <!-- ✅ モバイル広告 -->
         <div class="mt-6 space-y-4 block lg:hidden">
           <div class="bg-gray-300 h-32 flex items-center justify-center">🔳 バナー広告募集中</div>
           <div class="bg-gray-300 h-32 flex items-center justify-center">🔳 バナー広告募集中</div>
           <div class="bg-gray-300 h-32 flex items-center justify-center">🔳 バナー広告募集中</div>
         </div>
+        <!-- ✅ フッター広告 -->
         <div class="mt-8 w-full flex justify-center">
           <div class="bg-gray-200 text-center py-2 text-sm w-full max-w-[960px] rounded">
             🔳 フッター固定広告募集中
           </div>
         </div>
       </div>
+
+      <!-- ✅ サイド広告 -->
       <aside class="hidden lg:block w-full lg:w-1/4">
         <div class="sticky top-60 space-y-4">
           <div class="bg-gray-300 h-32 flex items-center justify-center">🔳 バナー広告募集中</div>
@@ -126,6 +131,7 @@ const qs = queryString ? `?${queryString}` : "";
       </aside>
     </main>
 
+    <!-- ✅ フッター -->
     <footer class="text-center text-xs text-gray-500 py-6">
       {totalPages > 1 && (
         <div class="mb-2 space-x-4">
@@ -146,18 +152,5 @@ const qs = queryString ? `?${queryString}` : "";
       )}
       <div>© 2024 raisex, LLC. All rights reserved.</div>
     </footer>
-
-    <!-- ✅ 検索フォーム送信時にオーバーレイを表示 -->
-    <script>
-      window.addEventListener("DOMContentLoaded", () => {
-        const forms = document.querySelectorAll("form");
-        forms.forEach((form) => {
-          form.addEventListener("submit", () => {
-            const overlay = document.getElementById("search-overlay");
-            if (overlay) overlay.classList.remove("hidden");
-          });
-        });
-      });
-    </script>
   </body>
 </html>

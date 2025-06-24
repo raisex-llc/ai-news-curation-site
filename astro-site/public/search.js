@@ -11,10 +11,10 @@ window.addEventListener("DOMContentLoaded", () => {
       e.preventDefault(); // 通常のsubmitをキャンセル
 
       if (overlay) {
-        overlay.style.display = "flex";
+        overlay.style.display = "flex"; // 🔍 検索中オーバーレイを即表示
       }
 
-      // ✅ 確実に表示された次のフレームで遷移
+      // ✅ 1フレーム待ってから遷移（オーバーレイ描画保証）
       requestAnimationFrame(() => {
         setTimeout(() => {
           const action = form.getAttribute("action") || window.location.pathname;
@@ -26,36 +26,42 @@ window.addEventListener("DOMContentLoaded", () => {
           if (method === "get") {
             window.location.href = `${action}?${params}`;
           } else {
-            form.submit(); // POST用 fallback
+            form.submit(); // POSTならsubmit継続
           }
-        }, 50);
+        }, 50); // 最小遅延（オーバーレイ描画保証）
       });
     });
   });
 
-  // ✅ 初期化：クエリを input に反映
+  // ✅ クエリパラメータ取得と input に反映
   const params = new URLSearchParams(window.location.search);
   const q = params.get("q")?.toLowerCase() || "";
-  const media = params.get("media")?.toLowerCase() || "";
+  const media = params.get("media")?.toLowerCase().replace(/\s+/g, "") || "";
 
-  document.querySelectorAll('input[name="q"]').forEach((input) => (input.value = q));
+  document.querySelectorAll('input[name="q"]').forEach((input) => {
+    input.value = q;
+  });
+
   document.querySelectorAll('select[name="media"]').forEach((select) => {
     Array.from(select.options).forEach((opt) => {
-      if (opt.value.toLowerCase() === media) opt.selected = true;
+      if (opt.value.toLowerCase().replace(/\s+/g, "") === media) {
+        opt.selected = true;
+      }
     });
   });
 
-  // ✅ 検索後：絞り込みロジックを使って結果があれば overlay を閉じる
+  // ✅ 表示されているカードが1件でもあればオーバーレイ即時非表示
   const cards = document.querySelectorAll(".article-card");
   const hasVisible = Array.from(cards).some((card) => card.offsetParent !== null);
 
   if (overlay && (q || media)) {
     if (hasVisible) {
-      overlay.style.display = "none"; // ✅ 検索結果あればすぐ非表示
+      overlay.style.display = "none";
     } else {
       setTimeout(() => {
-        overlay.style.display = "none"; // ✅ 結果ゼロなら10秒で閉じる
-      }, 10000);
+        overlay.style.display = "none";
+      }, 10000); // 検索結果がない場合は10秒後に非表示
     }
   }
 });
+

@@ -12,11 +12,14 @@ const { title, pubDate, description, media, thumbnail, url } = Astro.props;
 
 // ✅ GitHub上の代替画像URL（404防止用）
 const fallback = "https://github.com/raisex-llc/ai-news-curation-site/blob/gh-pages/assets/ai-icon.png?raw=true";
+
+// ✅ 検索比較用の media 正規化（小文字 + スペース削除）
+const normalizedMedia = media.toLowerCase().replace(/\s+/g, "");
 ---
 
 <article
   class="article-card bg-white shadow rounded-lg overflow-hidden border border-gray-200 flex flex-col h-full"
-  data-media={media}
+  data-media={normalizedMedia}
 >
   <!-- ✅ 媒体名 -->
   <div class="text-sm text-green-600 font-semibold px-3 pt-3">
