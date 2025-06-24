@@ -27,7 +27,7 @@ window.addEventListener("DOMContentLoaded", () => {
         } else {
           form.submit(); // POSTなら元のsubmitで継続
         }
-      }, 50); // 50msくらい遅延を入れることでオーバーレイが描画される
+      }, 200); // 50msくらい遅延を入れることでオーバーレイが描画される
     });
   });
 
