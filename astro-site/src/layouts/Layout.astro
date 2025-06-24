@@ -21,33 +21,39 @@ const qs = queryString ? `?${queryString}` : "";
   <body class="bg-gray-100 text-gray-800">
     <!-- ✅ ヘッダー -->
     <header id="top" class="sticky top-0 z-50 bg-white border-b border-gray-200 px-4 py-3">
-      <div class="max-w-[960px] mx-auto flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
-        <!-- 左：ロゴ＆タイトル -->
+      <div class="max-w-[960px] mx-auto flex flex-col gap-2">
+        <!-- 1行目（共通）: ロゴ + タイトル + ページ数 -->
         <div class="flex items-center gap-3">
-          <img src="/ai-news-curation-site/assets/ai-icon.png" alt="AIアイコン" class="w-10 h-10" />
-          <div class="text-sky-500 text-xl font-bold">最新AIニュースまとめ</div>
+          <a href={`/ai-news-curation-site/${qs}`} class="flex items-center gap-3 hover:opacity-80">
+            <img src="/ai-news-curation-site/assets/ai-icon.png" alt="AIアイコン" class="w-10 h-10" />
+            <div class="text-sky-500 text-xl font-bold">最新AIニュースまとめ</div>
+          </a>
+          {currentPage && totalPages && (
+            <div class="text-sm text-gray-600 ml-2">
+              （ページ {currentPage} / 全{totalPages}ページ中）
+            </div>
+          )}
         </div>
 
-        <!-- 中央：ページ情報 -->
-        {currentPage && totalPages && (
-          <div class="text-sm text-gray-600 font-normal">
-            （ページ {currentPage} / 全{totalPages}ページ中）
+        <!-- 2行目（PC:右寄せ、SP:flexで左右）: ナビ -->
+        <div class="flex justify-between sm:justify-end text-sm text-blue-600">
+          <div class="flex gap-4">
+            {currentPage > 1 && (
+              <a href={`/ai-news-curation-site/page/${sort}/${currentPage - 1}${qs}`} class="hover:underline">
+                ← 前のページ
+              </a>
+            )}
+            {currentPage < totalPages && (
+              <a href={`/ai-news-curation-site/page/${sort}/${currentPage + 1}${qs}`} class="hover:underline">
+                次のページ →
+              </a>
+            )}
           </div>
-        )}
-
-        <!-- 右：次のページ -->
-        {currentPage < totalPages && (
-          <div class="text-sm text-blue-600">
-            <a href={`/ai-news-curation-site/page/${sort}/${currentPage + 1}${qs}`} class="hover:underline">
-              次のページ →
-            </a>
-          </div>
-        )}
+        </div>
       </div>
 
       <!-- ✅ 検索フォーム -->
       <div class="mt-3 flex flex-col sm:flex-row justify-center items-center gap-4 px-2 w-full">
-        <!-- プルダウン：媒体名 -->
         <form method="get" class="flex gap-2 w-full sm:w-auto justify-center">
           <input type="hidden" name="q" value={q} />
           <select name="media" class="text-sm border rounded px-2 py-1 w-full sm:w-60">
@@ -68,7 +74,6 @@ const qs = queryString ? `?${queryString}` : "";
           </button>
         </form>
 
-        <!-- フリーワード検索 -->
         <form method="get" class="flex gap-2 w-full sm:w-auto justify-center">
           <input type="hidden" name="media" value={media} />
           <input
@@ -92,28 +97,20 @@ const qs = queryString ? `?${queryString}` : "";
       </div>
     </header>
 
-    <!-- ✅ 本文 -->
     <main class="max-w-screen-xl mx-auto px-4 py-8 flex flex-col lg:flex-row gap-8">
-      <!-- 左：記事 -->
       <div class="w-full lg:w-3/4">
         <slot />
-
-        <!-- モバイル広告 -->
         <div class="mt-6 space-y-4 block lg:hidden">
           <div class="bg-gray-300 h-32 flex items-center justify-center">🔳 バナー広告募集中</div>
           <div class="bg-gray-300 h-32 flex items-center justify-center">🔳 バナー広告募集中</div>
           <div class="bg-gray-300 h-32 flex items-center justify-center">🔳 バナー広告募集中</div>
         </div>
-
-        <!-- ✅ フッター広告 -->
         <div class="mt-8 w-full flex justify-center">
           <div class="bg-gray-200 text-center py-2 text-sm w-full max-w-[960px] rounded">
             🔳 フッター固定広告募集中
           </div>
         </div>
       </div>
-
-      <!-- 右：PCバナー広告（固定） -->
       <aside class="hidden lg:block w-full lg:w-1/4">
         <div class="sticky top-48 space-y-4">
           <div class="bg-gray-300 h-32 flex items-center justify-center">🔳 バナー広告募集中</div>
@@ -123,7 +120,6 @@ const qs = queryString ? `?${queryString}` : "";
       </aside>
     </main>
 
-    <!-- ✅ フッター -->
     <footer class="text-center text-xs text-gray-500 py-6">
       <div class="mb-2 space-x-4">
         {currentPage > 1 && (
