@@ -4,7 +4,9 @@ console.log("✅ search.js loaded");
 window.addEventListener("DOMContentLoaded", () => {
   const params = new URLSearchParams(window.location.search);
   const q = params.get("q")?.toLowerCase();
-  const media = params.get("media")?.toLowerCase();
+
+  let media = params.get("media");
+  media = media?.toLowerCase().replace(/\s+/g, ""); // ✅ 正規化！
 
   const cards = document.querySelectorAll(".article-card");
   console.log("📦 表示カード数（DOM上）:", cards.length);
