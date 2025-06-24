@@ -32,7 +32,7 @@ window.addEventListener("DOMContentLoaded", () => {
     // 2〜4秒後に自動非表示（データ取得時間に応じて調整可能）
     setTimeout(() => {
       overlay.style.display = "none";
-    }, 3000); // ← 必要に応じて 2000〜4000 に調整可能
+    }, 3000);
   }
 
   // ✅ クライアント側でカード絞り込み（静的HTMLでも柔軟に対応）
@@ -45,5 +45,16 @@ window.addEventListener("DOMContentLoaded", () => {
     const matchMedia = !media || source.includes(media);
 
     card.style.display = matchQ && matchMedia ? "" : "none";
+  });
+
+  // ✅ フォーム送信時にオーバーレイを即表示
+  const forms = document.querySelectorAll("form");
+  forms.forEach((form) => {
+    form.addEventListener("submit", () => {
+      const overlay = document.getElementById("search-overlay");
+      if (overlay) {
+        overlay.style.display = "flex";
+      }
+    });
   });
 });
