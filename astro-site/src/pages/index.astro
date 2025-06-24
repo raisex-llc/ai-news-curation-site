@@ -8,14 +8,11 @@ const PAGE_SIZE = 30;
 const currentPage = 1;
 const sort = "date";
 
-// ✅ クエリパラメータ取得
 const q = Astro.url?.searchParams.get("q")?.toLowerCase() ?? "";
 const media = Astro.url?.searchParams.get("media")?.toLowerCase() ?? "";
 
-// ✅ 全記事取得
 const allPosts = await getCollection("posts");
 
-// ✅ フィルタ処理（AND条件）
 const filteredPosts = allPosts.filter(post => {
   const title = post.data.title?.toLowerCase() ?? "";
   const desc = post.data.description?.toLowerCase() ?? "";
@@ -28,27 +25,20 @@ const filteredPosts = allPosts.filter(post => {
   return matchQ && matchMedia;
 });
 
-// ✅ pubDate 降順ソート
 const sortedPosts = [...filteredPosts].sort(
   (a, b) => new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime()
 );
 
-// ✅ 全件表示（ページネーション廃止構成）
 const paginatedPosts = sortedPosts;
 const totalPages = 1;
-const hasResults = paginatedPosts.length > 0;
 ---
 
-<!-- ✅ 検索中オーバーレイ（初期状態は非表示） -->
-<div
-  id="search-overlay"
-  class="fixed inset-0 z-50 bg-white/80 backdrop-blur-sm hidden flex items-center justify-center text-xl font-bold text-red-600"
->
+<!-- ✅ 検索中オーバーレイ -->
+<div id="search-overlay" class="fixed inset-0 z-50 bg-white/80 backdrop-blur-sm hidden flex items-center justify-center text-xl font-bold text-red-600">
   🔍 検索中です… 少々お待ちください
 </div>
 
 <Layout currentPage={currentPage} totalPages={totalPages} sort={sort} q={q} media={media}>
-  <!-- ✅ 投稿カード表示 -->
   <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
     {paginatedPosts.map((post) => (
       <ArticleCard
@@ -62,4 +52,3 @@ const hasResults = paginatedPosts.length > 0;
     ))}
   </div>
 </Layout>
-
