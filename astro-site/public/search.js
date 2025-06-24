@@ -60,7 +60,7 @@ window.addEventListener("DOMContentLoaded", () => {
     } else {
       setTimeout(() => {
         overlay.style.display = "none";
-      }, 10000); // 検索結果がない場合は10秒後に非表示
+      }, 3000); // 検索結果がない場合は3秒後に非表示
     }
   }
 });
