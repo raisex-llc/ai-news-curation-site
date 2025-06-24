@@ -10,6 +10,11 @@ window.addEventListener("DOMContentLoaded", () => {
     form.addEventListener("submit", () => {
       if (overlay) {
         overlay.style.display = "flex";
+
+        // ✅ 5秒後に自動で非表示にする（遷移がなければ）
+        setTimeout(() => {
+          overlay.style.display = "none";
+        }, 5000);
       }
     });
   });
@@ -47,4 +52,3 @@ window.addEventListener("DOMContentLoaded", () => {
     card.style.display = matchQ && matchMedia ? "" : "none";
   });
 });
-
