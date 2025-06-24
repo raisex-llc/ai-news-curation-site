@@ -70,7 +70,7 @@ window.addEventListener("DOMContentLoaded", () => {
       // 検索結果ゼロ → 2秒後に消す（"検索中"を一瞬でも見せる）
       setTimeout(() => {
         overlay.style.display = "none";
-      }, 3000);
+      }, 5000);
     }
   }
 });
