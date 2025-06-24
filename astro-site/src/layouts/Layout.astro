@@ -13,8 +13,15 @@ const qs = queryString ? `?${queryString}` : "";
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>最新AIニュースまとめ</title>
-    <link rel="stylesheet" href="/ai-news-curation-site/search.css" />
-    <script src="/ai-news-curation-site/search.js" defer></script>
+
+    <!-- ✅ HTMLキャッシュ無効化 -->
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+
+    <!-- ✅ キャッシュバスター付きCSS/JS -->
+    <link rel="stylesheet" href="/ai-news-curation-site/search.css?v=20250624" />
+    <script src="/ai-news-curation-site/search.js?v=20250624" defer></script>
   </head>
   <body class="bg-gray-100 text-gray-800">
     <!-- ✅ 検索中オーバーレイ -->
