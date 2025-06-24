@@ -21,13 +21,15 @@ window.addEventListener("DOMContentLoaded", () => {
           const method = (form.getAttribute("method") || "get").toLowerCase();
 
           const formData = new FormData(form);
-          const params = new URLSearchParams(formData).toString();
+          const params = new URLSearchParams(formData);
+
+          // ✅ 不審なクエリ（_）を除去
+          params.delete("_");
 
           if (method === "get") {
-            // ✅ キャッシュ破棄のためにランダムクエリを付与
-            const cacheBuster = `_=${Date.now()}`;
-            const separator = params ? "&" : "";
-            window.location.href = `${action}?${params}${separator}${cacheBuster}`;
+            // ✅ 不要なキャッシュバスターは付けない
+            const query = params.toString();
+            window.location.href = query ? `${action}?${query}` : action;
           } else {
             form.submit(); // POSTならsubmit継続
           }
@@ -38,6 +40,8 @@ window.addEventListener("DOMContentLoaded", () => {
 
   // ✅ クエリパラメータ取得と input に反映
   const params = new URLSearchParams(window.location.search);
+  params.delete("_"); // ✅ 不審な _ パラメータを除去
+
   const q = params.get("q")?.toLowerCase() || "";
   const media = params.get("media")?.toLowerCase().replace(/\s+/g, "") || "";
 
@@ -67,3 +71,4 @@ window.addEventListener("DOMContentLoaded", () => {
     }
   }
 });
+
