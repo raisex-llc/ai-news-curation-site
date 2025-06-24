@@ -1,3 +1,4 @@
+// astro-site/public/search.js
 console.log("✅ search.js loaded");
 
 window.addEventListener("DOMContentLoaded", () => {
@@ -28,13 +29,13 @@ window.addEventListener("DOMContentLoaded", () => {
   if (isSearching && overlay) {
     overlay.style.display = "flex";
 
-    // 2〜4秒後に自動非表示（実データ取得に応じて調整）
+    // 2〜4秒後に自動非表示（データ取得時間に応じて調整可能）
     setTimeout(() => {
       overlay.style.display = "none";
-    }, 4000);
+    }, 3000); // ← 必要に応じて 2000〜4000 に調整可能
   }
 
-  // ✅ クライアント側でカード絞り込み（静的HTML用の柔軟対応）
+  // ✅ クライアント側でカード絞り込み（静的HTMLでも柔軟に対応）
   const cards = document.querySelectorAll(".article-card");
   cards.forEach((card) => {
     const text = card.innerText.toLowerCase();
