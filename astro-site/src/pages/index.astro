@@ -34,8 +34,9 @@ const sortedPosts = [...filteredPosts].sort(
 );
 
 // ✅ 検索中はページネーション解除（全件表示）
-const paginatedPosts = (q || media) ? sortedPosts : sortedPosts.slice(0, PAGE_SIZE);
-const totalPages = (q || media) ? 1 : Math.ceil(sortedPosts.length / PAGE_SIZE);
+const isSearching = !!(q || media);
+const paginatedPosts = isSearching ? sortedPosts : sortedPosts.slice(0, PAGE_SIZE);
+const totalPages = isSearching ? 1 : Math.ceil(sortedPosts.length / PAGE_SIZE);
 ---
 
 <Layout currentPage={currentPage} totalPages={totalPages} sort={sort} q={q} media={media}>

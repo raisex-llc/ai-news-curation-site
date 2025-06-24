@@ -52,11 +52,12 @@ const sortedPosts = [...filteredPosts].sort(
   (a, b) => new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime()
 );
 
-// ✅ 検索中はページネーション解除
-const paginatedPosts = (q || media)
+// ✅ 検索中はページネーション解除（全件表示）
+const isSearching = !!(q || media);
+const paginatedPosts = isSearching
   ? sortedPosts
   : sortedPosts.slice((currentPage - 1) * PAGE_SIZE, currentPage * PAGE_SIZE);
-const totalPages = (q || media)
+const totalPages = isSearching
   ? 1
   : Math.ceil(sortedPosts.length / PAGE_SIZE);
 ---

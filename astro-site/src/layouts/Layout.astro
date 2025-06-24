@@ -1,8 +1,7 @@
 ---
-// layouts/Layout.astro
 const { currentPage, totalPages, sort, q = "", media = "" } = Astro.props;
 
-// ✅ クエリ文字列を組み立て（ページ遷移リンク用）
+// ✅ クエリ文字列を組み立て（ページ遷移リンク・フォーム用）
 const queryString = [q && `q=${encodeURIComponent(q)}`, media && `media=${encodeURIComponent(media)}`]
   .filter(Boolean)
   .join("&");
