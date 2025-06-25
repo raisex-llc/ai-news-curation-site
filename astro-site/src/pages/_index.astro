@@ -1,31 +1,54 @@
 ---
-// /pages/index.astro
+// src/pages/index.astro
 import Layout from "../layouts/Layout.astro";
-import { getCollection } from "astro:content";
 import ArticleCard from "../components/ArticleCard.astro";
+import { getCollection } from "astro:content";
 
 const PAGE_SIZE = 30;
+const currentPage = 1;
+const sort = "date";
+
+const q = Astro.url?.searchParams.get("q")?.toLowerCase().trim() ?? "";
+const media = Astro.url?.searchParams.get("media")?.toLowerCase().replace(/\s+/g, "").trim() ?? "";
+
+console.log("🔍 index.astro loaded");
+console.log("クエリパラメータ q =", q, "media =", media);
+
 const allPosts = await getCollection("posts");
+console.log("取得件数 allPosts =", allPosts.length);
 
-// ✅ 安全なクエリ取得方法（Astro.url を使用）
-const search = Astro.url?.searchParams.get("q")?.toLowerCase() ?? "";
+const filteredPosts = allPosts.filter(post => {
+  const title = post.data.title?.toLowerCase() ?? "";
+  const desc = post.data.description?.toLowerCase() ?? "";
+  const body = post.body?.toLowerCase() ?? "";
+  const source = post.data.source?.toLowerCase().replace(/\s+/g, "") ?? "";
 
-// ✅ フィルタ処理
-const filteredPosts = allPosts.filter(post =>
-  post.data.title.toLowerCase().includes(search) ||
-  post.data.description.toLowerCase().includes(search) ||
-  (post.body && post.body.toLowerCase().includes(search))
-);
+  const matchQ = !q || title.includes(q) || desc.includes(q) || body.includes(q);
+  const matchMedia = !media || source.includes(media);
 
-// ✅ ソート＆ページング
-const sorted = [...filteredPosts].sort(
+  return matchQ && matchMedia;
+});
+
+console.log("フィルタ後 filteredPosts =", filteredPosts.length);
+
+const sortedPosts = [...filteredPosts].sort(
   (a, b) => new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime()
 );
-const paginatedPosts = sorted.slice(0, PAGE_SIZE);
-const totalPages = Math.ceil(sorted.length / PAGE_SIZE);
+
+const paginatedPosts = sortedPosts;
+const totalPages = 1;
+const hasResults = paginatedPosts.length > 0;
 ---
 
-<Layout currentPage={1} totalPages={totalPages} sort="date">
+<!-- ✅ 検索中オーバーレイ -->
+<div id="search-overlay"
+    class="fixed inset-0 z-50 bg-white/80 backdrop-blur-sm flex items-center justify-center text-xl font-bold text-red-600"
+    style="display: none;"
+    data-has-results={hasResults}>
+  🔍 検索中です… 少々お待ちください
+</div>
+
+<Layout currentPage={currentPage} totalPages={totalPages} sort={sort} q={q} media={media}>
   <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
     {paginatedPosts.map((post) => (
       <ArticleCard
@@ -39,3 +62,6 @@ const totalPages = Math.ceil(sorted.length / PAGE_SIZE);
     ))}
   </div>
 </Layout>
+
+<!-- ✅ search.js 読み込み -->
+<script src="/ai-news-curation-site/search.js?v=20250624" defer></script>

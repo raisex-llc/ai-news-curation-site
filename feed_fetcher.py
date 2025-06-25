@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-feed_fetcher.py 最終決定版（絶対URL指定）
-RSS → Markdown変換 + YAML整形 + サムネイル補完（絶対URL） + バックスラッシュ除去
+feed_fetcher.py 最終決定版（絶対URL指定 + articles.json 出力対応）
+RSS → Markdown変換 + YAML整形 + サムネイル補完 + バックスラッシュ除去 + JSON出力
 """
 
 import feedparser
@@ -12,18 +12,19 @@ import hashlib
 import os
 import sys
 import re
+import json
 from datetime import datetime
 from pathlib import Path
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin, urlparse
 from dateutil import parser as dtparser
 
-# ✅ GitHub Pages のルートURL（末尾スラッシュなし）
 SITE_BASE = "https://raisex-llc.github.io/ai-news-curation-site"
-
 ROOT = Path(__file__).resolve().parent
 CONTENT_DIR = ROOT / "astro-site" / "src" / "content" / "posts"
+PUBLIC_DIR = ROOT / "astro-site" / "public"
 CONTENT_DIR.mkdir(parents=True, exist_ok=True)
+PUBLIC_DIR.mkdir(parents=True, exist_ok=True)
 
 with open(ROOT / "rss_sources.yml", "r", encoding="utf-8") as f:
     SOURCES = yaml.safe_load(f)["sources"]
@@ -154,6 +155,34 @@ def fix_all_md_files():
         except Exception as e:
             print(f"❌ 修正失敗: {filepath.name} → {e}")
 
+def export_articles_json():
+    print("📦 articles.json 書き出し中...")
+    articles = []
+    for filepath in CONTENT_DIR.glob("*.md"):
+        try:
+            text = filepath.read_text(encoding="utf-8")
+            if text.startswith("---"):
+                parts = text.split("---")
+                if len(parts) >= 3:
+                    yaml_part = parts[1]
+                    data = yaml.safe_load(yaml_part)
+                    if isinstance(data, dict):
+                        articles.append({
+                            "title": data.get("title", ""),
+                            "description": data.get("description", ""),
+                            "summary": data.get("summary", ""),
+                            "pubDate": data.get("pubDate", ""),
+                            "source": data.get("source", ""),
+                            "url": data.get("url", ""),
+                            "thumbnail": data.get("thumbnail", ""),
+                        })
+        except Exception as e:
+            print(f"❌ JSON変換失敗: {filepath.name} → {e}")
+    json_path = PUBLIC_DIR / "articles.json"
+    with open(json_path, "w", encoding="utf-8") as f:
+        json.dump(articles, f, ensure_ascii=False, indent=2)
+    print(f"✅ 出力完了: {json_path.name}")
+
 def main():
     try:
         for source in SOURCES:
@@ -181,11 +210,13 @@ def main():
                 write_post(title, summary, pub, media, link, thumb)
 
         fix_all_md_files()
+        export_articles_json()
+
     except Exception as e:
         print(f"❌ Unhandled Error: {e}")
         sys.exit(1)
 
-    print("✅ 完了: Markdown生成 + サムネイル絶対URL補完 + バックスラッシュ除去")
+    print("✅ 完了: Markdown生成 + JSON出力 + サムネイル補完")
     sys.exit(0)
 
 if __name__ == "__main__":
