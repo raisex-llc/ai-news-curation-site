@@ -15,20 +15,16 @@ const media = Astro.url?.searchParams.get("media")?.toLowerCase().replace(/\s+/g
 
 <!-- ✅ 検索中オーバーレイ（JSX側でも制御されるが、初期非表示用）-->
 <div id="search-overlay"
-  class="fixed inset-0 z-50 bg-white/80 backdrop-blur-sm flex items-center justify-center text-xl font-bold text-red-600"
-  style="display: none;"
+    class="fixed inset-0 z-50 bg-white/80 backdrop-blur-sm flex items-center justify-center text-xl font-bold text-red-600"
+    style="display: none;"
 >
   🔍 検索中です… 少々お待ちください
 </div>
 
-<!-- ✅ ヘッダー右上に現在ページ／ページ数を表示（スマホでは下に） -->
-<div class="w-full flex flex-col lg:flex-row items-center justify-between px-4 mt-2 mb-2">
-  <!-- 左側：サイトタイトルと検索フォームは Layout.astro 側に含まれている想定 -->
-
-  <!-- 右側：ページインジケータ -->
-  <div class="text-base text-red-600 mt-2 lg:mt-0 lg:ml-auto">
-    ページ {currentPage} / 全{totalPages}ページ →
-    <span class="underline">次のページ</span>
+<!-- ✅ ヘッダー直下にページインジケータ表示 -->
+<div class="w-full flex justify-center items-center text-sm text-gray-600 mt-2 sm:mt-0 sm:absolute sm:top-4 sm:right-4 sm:w-auto">
+  <div class="text-sm text-gray-700">
+    ページ {currentPage} / 全{totalPages}ページ → <a href="#" class="text-blue-600 underline">次のページ</a>
   </div>
 </div>
 
@@ -36,3 +32,8 @@ const media = Astro.url?.searchParams.get("media")?.toLowerCase().replace(/\s+/g
   <!-- ✅ JSXベースの記事一覧コンポーネント -->
   <ArticleList client:load />
 </Layout>
+
+<!-- ✅ フッター下にページTOPリンクを追加 -->
+<div class="mt-4 w-full flex justify-center">
+  <a href="#" class="text-blue-600 underline">ページTOPへ</a>
+</div>

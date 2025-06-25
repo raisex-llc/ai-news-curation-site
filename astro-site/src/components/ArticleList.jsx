@@ -1,7 +1,8 @@
-// ✅ ArticleList.jsx（React Island） - 最終修正版
+// ✅ ArticleList.jsx（React Island） - 媒体名表示 + 高さ調整 対応済み
 import { useEffect, useState } from "react";
 
-const fallback = "https://github.com/raisex-llc/ai-news-curation-site/blob/gh-pages/assets/ai-icon.png?raw=true";
+const fallback =
+  "https://github.com/raisex-llc/ai-news-curation-site/blob/gh-pages/assets/ai-icon.png?raw=true";
 const PAGE_SIZE = 30;
 
 function normalize(text) {
@@ -31,7 +32,8 @@ export function ArticleList() {
       .then((res) => res.json())
       .then((data) => {
         const sorted = data.sort(
-          (a, b) => new Date(b.pubDate).getTime() - new Date(a.pubDate).getTime()
+          (a, b) =>
+            new Date(b.pubDate).getTime() - new Date(a.pubDate).getTime()
         );
         const results = sorted.filter((a) => {
           const text = `${a.title} ${a.description} ${a.summary}`.toLowerCase();
@@ -59,20 +61,20 @@ export function ArticleList() {
         </div>
       )}
 
-      {/* ✅ ページインジケータ（ヘッダーに表示されるようにクラス変更） */}
+      {/* ✅ ページインジケータ（ヘッダー右に浮かせ表示） */}
       <div className="text-sm text-blue-600 text-center mb-4 lg:absolute lg:top-6 lg:right-8 lg:text-base">
         ページ {page} / 全{totalPages}ページ
-        {page < totalPages && (
-          <span className="ml-2">→ 次のページ</span>
-        )}
+        {page < totalPages && <span className="ml-2">→ 次のページ</span>}
       </div>
 
+      {/* ✅ 記事カード一覧 */}
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
         {paginated.map((a, i) => (
           <ArticleCard key={i} article={a} />
         ))}
       </div>
 
+      {/* ✅ ページ切替 + ページTOPリンク */}
       {totalPages > 1 && (
         <div className="flex flex-wrap justify-center items-center mt-8 gap-4 text-sm text-blue-600">
           {page > 1 && (
@@ -102,14 +104,7 @@ export function ArticleList() {
 }
 
 function ArticleCard({ article }) {
-  const {
-    title,
-    pubDate,
-    description,
-    media,
-    thumbnail,
-    url,
-  } = article;
+  const { title, pubDate, description, media, thumbnail, url } = article;
   const normalizedMedia = normalize(media);
   const displayDate = new Date(pubDate).toLocaleDateString("ja-JP", {
     year: "numeric",
@@ -123,7 +118,7 @@ function ArticleCard({ article }) {
       className="article-card bg-white shadow rounded-lg overflow-hidden border border-gray-200 flex flex-col h-full min-h-[400px]"
       data-media={normalizedMedia}
     >
-      {/* ✅ 媒体名（サムネイル画像の上、スカイブルー、やや大きく） */}
+      {/* ✅ 媒体名（サムネイル画像の上、スカイブルー） */}
       <div className="text-base text-sky-500 font-bold px-3 pt-3">
         {media}
       </div>
