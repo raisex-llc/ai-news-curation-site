@@ -1,4 +1,4 @@
-// ✅ ArticleList.jsx（React Island） - 修正版
+// ✅ ArticleList.jsx（React Island）
 import { useEffect, useState } from "react";
 
 const fallback = "https://github.com/raisex-llc/ai-news-curation-site/blob/gh-pages/assets/ai-icon.png?raw=true";
@@ -59,14 +59,6 @@ export function ArticleList() {
         </div>
       )}
 
-      {/* ✅ ページインジケータ（ヘッダー用にも使えるように class を追加） */}
-      <div className="page-indicator-header text-sm text-blue-600 text-center mb-4">
-        ページ {page} / 全{totalPages}ページ
-        {page < totalPages && (
-          <span className="ml-2">→ 次のページ</span>
-        )}
-      </div>
-
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
         {paginated.map((a, i) => (
           <ArticleCard key={i} article={a} />
@@ -74,7 +66,7 @@ export function ArticleList() {
       </div>
 
       {totalPages > 1 && (
-        <div className="flex flex-wrap justify-center items-center mt-8 gap-4 text-sm text-blue-600">
+        <div className="flex justify-center mt-8 gap-4 text-sm text-blue-600">
           {page > 1 && (
             <button
               onClick={() => setPage(page - 1)}
@@ -92,9 +84,6 @@ export function ArticleList() {
               次のページ →
             </button>
           )}
-          <a href="#top" className="text-blue-600 hover:underline">
-            ページTOPへ
-          </a>
         </div>
       )}
     </div>
@@ -120,11 +109,10 @@ function ArticleCard({ article }) {
 
   return (
     <article
-      className="article-card bg-white shadow rounded-lg overflow-hidden border border-gray-200 flex flex-col h-full min-h-[360px]"
+      className="article-card bg-white shadow rounded-lg overflow-hidden border border-gray-200 flex flex-col h-full"
       data-media={normalizedMedia}
     >
-      {/* ✅ 媒体名（復活＋Sky系カラー） */}
-      <div className="text-base text-sky-500 font-bold px-3 pt-3">
+      <div className="text-sm text-green-600 font-semibold px-3 pt-3">
         {media}
       </div>
       <a
