@@ -1,3 +1,4 @@
+// src/components/ArticleList.jsx
 import { useEffect, useState } from "react";
 
 const fallback =
@@ -16,6 +17,7 @@ export function ArticleList() {
   const [q, setQ] = useState("");
   const [media, setMedia] = useState("");
 
+  // クエリ取得
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
     const query = params.get("q") ?? "";
@@ -24,6 +26,7 @@ export function ArticleList() {
     setMedia(normalize(mediaParam));
   }, []);
 
+  // JSON読込 + フィルタ・ソート処理
   useEffect(() => {
     fetch("/ai-news-curation-site/articles.json")
       .then((res) => res.json())
@@ -58,8 +61,8 @@ export function ArticleList() {
         </div>
       )}
 
-      {/* ✅ 中央固定のページネーション（スマホ・PC共通） */}
-      <div className="fixed left-1/2 -translate-x-1/2 top-[7.5rem] z-[9999] bg-white/80 backdrop-blur px-4 py-1 text-blue-600 text-sm shadow rounded">
+      {/* ✅ ヘッダー上グレー帯 + ページネーション中央表示 */}
+      <div className="w-full bg-gray-100 text-center py-1 text-sm text-blue-600 z-40">
         {page > 1 && (
           <button
             onClick={() => setPage(page - 1)}
@@ -80,13 +83,13 @@ export function ArticleList() {
       </div>
 
       {/* ✅ 記事カード一覧 */}
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mt-4">
         {paginated.map((a, i) => (
           <ArticleCard key={i} article={a} />
         ))}
       </div>
 
-      {/* ✅ 下部ページネーション */}
+      {/* ✅ ページ切替（下部） */}
       {totalPages > 1 && (
         <div className="flex flex-wrap justify-center items-center mt-8 gap-4 text-sm text-blue-600">
           {page > 1 && (
@@ -127,6 +130,7 @@ function ArticleCard({ article }) {
       className="article-card bg-white shadow rounded-lg overflow-hidden border border-gray-200 flex flex-col h-full min-h-[400px]"
       data-media={normalizedMedia}
     >
+      {/* ✅ 媒体名 */}
       <div className="text-base text-sky-500 font-bold px-3 pt-3">{media}</div>
       <a
         href={url}
