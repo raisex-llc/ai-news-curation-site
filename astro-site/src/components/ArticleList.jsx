@@ -1,3 +1,4 @@
+// ✅ ArticleList.jsx（React Island） - ヘッダーのページネーション改善 + スマホ対応
 import { useEffect, useState } from "react";
 
 const fallback =
@@ -60,27 +61,35 @@ export function ArticleList() {
         </div>
       )}
 
-      {/* ✅ ページインジケータ（上部中央に固定表示） */}
-      <div className="fixed top-[9rem] left-1/2 transform -translate-x-1/2 z-[9999] bg-white/80 backdrop-blur px-4 py-1 text-blue-600 text-sm shadow rounded">
+      {/* ✅ ヘッダー内ページネーション（右カラム上、スマホ非表示） */}
+      <div className="fixed right-4 top-[7.5rem] z-[9999] bg-white/80 backdrop-blur px-4 py-1 text-blue-600 text-sm shadow rounded hidden lg:block lg:right-[260px]">
+        {page > 1 && (
+          <button
+            onClick={() => setPage(page - 1)}
+            className="mr-2 hover:underline"
+          >
+            ← 前のページ
+          </button>
+        )}
         ページ {page} / 全{totalPages}ページ
         {page < totalPages && (
           <button
             onClick={() => setPage(page + 1)}
-            className="ml-2 text-blue-600 hover:underline"
+            className="ml-2 hover:underline"
           >
-            → 次のページ
+            次のページ →
           </button>
         )}
       </div>
 
       {/* ✅ 記事カード一覧 */}
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mt-12">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
         {paginated.map((a, i) => (
           <ArticleCard key={i} article={a} />
         ))}
       </div>
 
-      {/* ✅ ページ切替 + ページTOPリンク */}
+      {/* ✅ ページ切替（下部／常時表示） */}
       {totalPages > 1 && (
         <div className="flex flex-wrap justify-center items-center mt-8 gap-4 text-sm text-blue-600">
           {page > 1 && (
@@ -100,9 +109,6 @@ export function ArticleList() {
               次のページ →
             </button>
           )}
-          <a href="#" className="text-blue-600 hover:underline">
-            ページTOPへ
-          </a>
         </div>
       )}
     </div>
@@ -124,10 +130,8 @@ function ArticleCard({ article }) {
       className="article-card bg-white shadow rounded-lg overflow-hidden border border-gray-200 flex flex-col h-full min-h-[400px]"
       data-media={normalizedMedia}
     >
-      {/* ✅ 媒体名（サムネイル画像の上、スカイブルー） */}
-      <div className="text-base text-sky-500 font-bold px-3 pt-3">
-        {media}
-      </div>
+      {/* ✅ 媒体名 */}
+      <div className="text-base text-sky-500 font-bold px-3 pt-3">{media}</div>
       <a
         href={url}
         target="_blank"
