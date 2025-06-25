@@ -61,7 +61,7 @@ export function ArticleList() {
       )}
 
       {/* ✅ ページインジケータ（上部中央に固定表示） */}
-      <div className="fixed top-[7.5rem] left-1/2 transform -translate-x-1/2 z-[9999] bg-white/80 backdrop-blur px-4 py-1 text-blue-600 text-sm shadow rounded">
+      <div className="fixed top-[9rem] left-1/2 transform -translate-x-1/2 z-[9999] bg-white/80 backdrop-blur px-4 py-1 text-blue-600 text-sm shadow rounded">
         ページ {page} / 全{totalPages}ページ
         {page < totalPages && (
           <button
