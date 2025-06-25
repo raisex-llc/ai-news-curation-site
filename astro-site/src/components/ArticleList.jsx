@@ -61,11 +61,11 @@ export function ArticleList() {
         </div>
       )}
 
-      {/* ✅ ページインジケータ（ヘッダー右に浮かせ表示） */}
+      {/* /* {✅ ページインジケータ（ヘッダー右に浮かせ表示）
       <div className="text-sm text-blue-600 text-center mb-4 lg:absolute lg:top-6 lg:right-8 lg:text-base">
         ページ {page} / 全{totalPages}ページ
         {page < totalPages && <span className="ml-2">→ 次のページ</span>}
-      </div>
+      </div> }*/ }
 
       {/* ✅ 記事カード一覧 */}
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
