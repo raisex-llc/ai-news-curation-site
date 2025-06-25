@@ -52,60 +52,49 @@ export function ArticleList() {
 
   return (
     <div>
-      {loading && (
-        <div
-          id="search-overlay"
-          className="fixed inset-0 z-50 bg-white/80 backdrop-blur-sm flex items-center justify-center text-xl font-bold text-red-600"
-        >
-          🔍 検索中です… 少々お待ちください
-        </div>
-      )}
-
-      {/* ✅ ヘッダー上グレー帯 + ページネーション中央表示 */}
-      <div className="w-full bg-gray-100 text-center py-1 text-sm text-blue-600 z-40">
+      {/* ✅ ヘッダーのさらに上、最上段に表示 */}
+      <div className="fixed top-0 left-0 w-full z-[9999] bg-gray-100 py-1 text-center text-sm text-blue-700 shadow-sm">
         {page > 1 && (
-          <button
-            onClick={() => setPage(page - 1)}
-            className="mr-2 hover:underline"
-          >
+          <button onClick={() => setPage(page - 1)} className="mr-2 hover:underline">
             ← 前のページ
           </button>
         )}
         ページ {page} / 全{totalPages}ページ
         {page < totalPages && (
-          <button
-            onClick={() => setPage(page + 1)}
-            className="ml-2 hover:underline"
-          >
+          <button onClick={() => setPage(page + 1)} className="ml-2 hover:underline">
             次のページ →
           </button>
         )}
       </div>
 
-      {/* ✅ 記事カード一覧 */}
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mt-4">
+      {/* ✅ 読込中オーバーレイ */}
+      {loading && (
+        <div
+          id="search-overlay"
+          className="fixed inset-0 z-40 bg-white/80 backdrop-blur-sm flex items-center justify-center text-xl font-bold text-red-600"
+        >
+          🔍 検索中です… 少々お待ちください
+        </div>
+      )}
+
+      {/* ✅ 上部バーの分だけ余白追加 */}
+      <div className="mt-12 grid md:grid-cols-2 lg:grid-cols-3 gap-6">
         {paginated.map((a, i) => (
           <ArticleCard key={i} article={a} />
         ))}
       </div>
 
-      {/* ✅ ページ切替（下部） */}
+      {/* ✅ ページ下にも切替ボタン */}
       {totalPages > 1 && (
         <div className="flex flex-wrap justify-center items-center mt-8 gap-4 text-sm text-blue-600">
           {page > 1 && (
-            <button
-              onClick={() => setPage(page - 1)}
-              className="hover:underline"
-            >
+            <button onClick={() => setPage(page - 1)} className="hover:underline">
               ← 前のページ
             </button>
           )}
           <span>ページ {page} / 全{totalPages}ページ</span>
           {page < totalPages && (
-            <button
-              onClick={() => setPage(page + 1)}
-              className="hover:underline"
-            >
+            <button onClick={() => setPage(page + 1)} className="hover:underline">
               次のページ →
             </button>
           )}
@@ -130,14 +119,8 @@ function ArticleCard({ article }) {
       className="article-card bg-white shadow rounded-lg overflow-hidden border border-gray-200 flex flex-col h-full min-h-[400px]"
       data-media={normalizedMedia}
     >
-      {/* ✅ 媒体名 */}
       <div className="text-base text-sky-500 font-bold px-3 pt-3">{media}</div>
-      <a
-        href={url}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="block px-3 pt-2"
-      >
+      <a href={url} target="_blank" rel="noopener noreferrer" className="block px-3 pt-2">
         <img
           src={thumbnail || fallback}
           alt={title}
