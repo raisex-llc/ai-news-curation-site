@@ -1,4 +1,4 @@
-// ✅ ArticleList.jsx（React Island） - 修正版
+// ✅ ArticleList.jsx（React Island） - 最終修正版
 import { useEffect, useState } from "react";
 
 const fallback = "https://github.com/raisex-llc/ai-news-curation-site/blob/gh-pages/assets/ai-icon.png?raw=true";
@@ -59,8 +59,8 @@ export function ArticleList() {
         </div>
       )}
 
-      {/* ✅ ページインジケータ（ヘッダー用にも使えるように class を追加） */}
-      <div className="page-indicator-header text-sm text-blue-600 text-center mb-4">
+      {/* ✅ ページインジケータ（ヘッダーに表示されるようにクラス変更） */}
+      <div className="text-sm text-blue-600 text-center mb-4 lg:absolute lg:top-6 lg:right-8 lg:text-base">
         ページ {page} / 全{totalPages}ページ
         {page < totalPages && (
           <span className="ml-2">→ 次のページ</span>
@@ -120,10 +120,10 @@ function ArticleCard({ article }) {
 
   return (
     <article
-      className="article-card bg-white shadow rounded-lg overflow-hidden border border-gray-200 flex flex-col h-full min-h-[360px]"
+      className="article-card bg-white shadow rounded-lg overflow-hidden border border-gray-200 flex flex-col h-full min-h-[400px]"
       data-media={normalizedMedia}
     >
-      {/* ✅ 媒体名（復活＋Sky系カラー） */}
+      {/* ✅ 媒体名（サムネイル画像の上、スカイブルー、やや大きく） */}
       <div className="text-base text-sky-500 font-bold px-3 pt-3">
         {media}
       </div>
