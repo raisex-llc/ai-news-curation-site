@@ -61,7 +61,7 @@ export function ArticleList() {
       )}
 
       {/* ✅ ページインジケータ（上部中央に固定表示） */}
-      <div className="fixed top-[6rem] left-1/2 transform -translate-x-1/2 z-40 bg-white/80 backdrop-blur px-4 py-1 text-blue-600 text-sm shadow rounded">
+      <div className="fixed top-[10rem] left-1/2 transform -translate-x-1/2 z-40 bg-white/80 backdrop-blur px-4 py-1 text-blue-600 text-sm shadow rounded">
         ページ {page} / 全{totalPages}ページ
         {page < totalPages && <span className="ml-2">→ 次のページ</span>}
       </div>
