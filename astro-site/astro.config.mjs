@@ -3,6 +3,8 @@ import { defineConfig } from "astro/config";
 import tailwind from "@astrojs/tailwind";
 import mdx from "@astrojs/mdx";
 import sitemap from "@astrojs/sitemap";
+import react from "@astrojs/react";   // ✅ ← react
+
 
 export default defineConfig({
   site: "https://raisex-llc.github.io/ai-news-curation-site/",
