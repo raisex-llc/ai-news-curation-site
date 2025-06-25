@@ -1,0 +1,10 @@
+---
+title: "Evolutionary Level Repair"
+description: "arXiv:2506.19359v1 Announce Type: new Abstract: We address the problem of game level repair, which consists of taking a designed but non-functional game level and making it functional. This might consist of ensuring the completeness of the level, reachability of objects, or other performance characteristics. The repair problem may also be constrained in that it can only make a small number of changes to the level. We investigate search-based solutions to the level repair problem, particularly using evolutionary and quality-diversity algorithms, with good results. This level repair method is applied to levels generated using a machine learning-based procedural content generation (PCGML) method that generates stylistically appropriate but frequently broken levels. This combination of PCGML for generation and search-based methods for repair shows great promise as a hybrid procedural content generation (PCG) method."
+summary: "arXiv:2506.19359v1 Announce Type: new Abstract: We address the problem of game level repair, which consists of taking a designed but non-functional game level and making it functional. This might consist of ensuring the completeness of the level, reachability of objects, or other performance characteristics. The repair problem may also be constrained in that it can only make a small number of changes to the level. We investigate search-based solutions to the level repair problem, particularly using evolutionary and quality-diversity algorithms, with good results. This level repair method is applied to levels generated using a machine learning-based procedural content generation (PCGML) method that generates stylistically appropriate but frequently broken levels. This combination of PCGML for generation and search-based methods for repair shows great promise as a hybrid procedural content generation (PCG) method."
+pubDate: "Wed, 25 Jun 2025 00:00:00 -0400"
+source: "arXiv AI"
+url: "https://arxiv.org/abs/2506.19359"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/arxiv.png"
+---
+

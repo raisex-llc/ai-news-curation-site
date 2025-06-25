@@ -1,0 +1,10 @@
+---
+title: "Cross-regularization: Adaptive Model Complexity through Validation Gradients"
+description: "arXiv:2506.19755v1 Announce Type: cross Abstract: Model regularization requires extensive manual tuning to balance complexity against overfitting. Cross-regularization resolves this tradeoff by directly adapting regularization parameters through validation gradients during training. The method splits parameter optimization - training data guides feature learning while validation data shapes complexity controls - converging provably to cross-validation optima. When implemented through noise injection in neural networks, this approach reveals striking patterns: unexpectedly high noise tolerance and architecture-specific regularization that emerges organically during training. Beyond complexity control, the framework integrates seamlessly with data augmentation, uncertainty calibration and growing datasets while maintaining single-run efficiency through a simple gradient-based approach."
+summary: "arXiv:2506.19755v1 Announce Type: cross Abstract: Model regularization requires extensive manual tuning to balance complexity against overfitting. Cross-regularization resolves this tradeoff by directly adapting regularization parameters through validation gradients during training. The method splits parameter optimization - training data guides feature learning while validation data shapes complexity controls - converging provably to cross-validation optima. When implemented through noise injection in neural networks, this approach reveals striking patterns: unexpectedly high noise tolerance and architecture-specific regularization that emerges organically during training. Beyond complexity control, the framework integrates seamlessly with data augmentation, uncertainty calibration and growing datasets while maintaining single-run efficiency through a simple gradient-based approach."
+pubDate: "Wed, 25 Jun 2025 00:00:00 -0400"
+source: "arXiv AI"
+url: "https://arxiv.org/abs/2506.19755"
+thumbnail: "https://raisex-llc.github.io/ai-news-curation-site/assets/arxiv.png"
+---
+
