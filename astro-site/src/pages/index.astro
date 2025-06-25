@@ -15,16 +15,24 @@ const media = Astro.url?.searchParams.get("media")?.toLowerCase().replace(/\s+/g
 
 <!-- ✅ 検索中オーバーレイ（JSX側でも制御されるが、初期非表示用）-->
 <div id="search-overlay"
-    class="fixed inset-0 z-50 bg-white/80 backdrop-blur-sm flex items-center justify-center text-xl font-bold text-red-600"
-    style="display: none;"
+  class="fixed inset-0 z-50 bg-white/80 backdrop-blur-sm flex items-center justify-center text-xl font-bold text-red-600"
+  style="display: none;"
 >
   🔍 検索中です… 少々お待ちください
+</div>
+
+<!-- ✅ ヘッダー右上に現在ページ／ページ数を表示（スマホでは下に） -->
+<div class="w-full flex flex-col lg:flex-row items-center justify-between px-4 mt-2 mb-2">
+  <!-- 左側：サイトタイトルと検索フォームは Layout.astro 側に含まれている想定 -->
+
+  <!-- 右側：ページインジケータ -->
+  <div class="text-base text-red-600 mt-2 lg:mt-0 lg:ml-auto">
+    ページ {currentPage} / 全{totalPages}ページ →
+    <span class="underline">次のページ</span>
+  </div>
 </div>
 
 <Layout currentPage={currentPage} totalPages={totalPages} sort={sort} q={q} media={media}>
   <!-- ✅ JSXベースの記事一覧コンポーネント -->
   <ArticleList client:load />
 </Layout>
-
-<!-- ❌ 不要になったため search.js は読み込まない -->
-<!-- <script src="/ai-news-curation-site/search.js?v=20250624" defer></script> -->
