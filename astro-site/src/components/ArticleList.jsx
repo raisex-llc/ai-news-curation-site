@@ -94,9 +94,9 @@ export function ArticleList() {
               次のページ →
             </button>
           )}
-          <a href="#top" className="text-blue-600 hover:underline">
+          {/* <a href="#top" className="text-blue-600 hover:underline">
             ページTOPへ
-          </a>
+          </a> */}
         </div>
       )}
     </div>
