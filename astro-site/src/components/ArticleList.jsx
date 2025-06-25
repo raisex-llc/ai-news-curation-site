@@ -1,4 +1,3 @@
-// ✅ ArticleList.jsx（React Island） - 媒体名表示 + 高さ調整 対応済み
 import { useEffect, useState } from "react";
 
 const fallback =
@@ -61,14 +60,14 @@ export function ArticleList() {
         </div>
       )}
 
-      {/* /* {✅ ページインジケータ（ヘッダー右に浮かせ表示）
-      <div className="text-sm text-blue-600 text-center mb-4 lg:absolute lg:top-6 lg:right-8 lg:text-base">
+      {/* ✅ ページインジケータ（上部中央に固定表示） */}
+      <div className="fixed top-[4.5rem] left-1/2 transform -translate-x-1/2 z-40 bg-white/80 backdrop-blur px-4 py-1 text-blue-600 text-sm shadow rounded">
         ページ {page} / 全{totalPages}ページ
         {page < totalPages && <span className="ml-2">→ 次のページ</span>}
-      </div> }*/ }
+      </div>
 
       {/* ✅ 記事カード一覧 */}
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mt-12">
         {paginated.map((a, i) => (
           <ArticleCard key={i} article={a} />
         ))}
@@ -94,9 +93,9 @@ export function ArticleList() {
               次のページ →
             </button>
           )}
-          {<a href="#" className="text-blue-600 hover:underline">
+          <a href="#" className="text-blue-600 hover:underline">
             ページTOPへ
-          </a>}
+          </a>
         </div>
       )}
     </div>

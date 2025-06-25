@@ -13,97 +13,57 @@ const qs = queryString ? `?${queryString}` : "";
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>最新AIニュースまとめ</title>
-
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
     <meta http-equiv="Pragma" content="no-cache" />
     <meta http-equiv="Expires" content="0" />
-
-    <!-- <link rel="stylesheet" href="/ai-news-curation-site/search.css?v=20250624" /> -->
-    <script src="/ai-news-curation-site/search.js?v=20250624" defer></script>
   </head>
   <body class="bg-gray-100 text-gray-800">
-    <!-- ✅ 検索中オーバーレイ -->
     <div id="search-overlay" class="fixed inset-0 z-50 bg-white/80 backdrop-blur-sm hidden flex items-center justify-center text-xl font-bold text-red-600">
       🔍 検索中です… 少々お待ちください
     </div>
 
-    <!-- ✅ ヘッダー -->
+    <!-- ✅ ヘッダー（2行構成）-->
     <header id="top" class="sticky top-0 z-50 bg-white border-b border-gray-200 px-4 py-3">
-      <div class="max-w-[960px] mx-auto flex flex-col gap-2">
-        <div class="flex items-center gap-3">
+      <div class="max-w-[1280px] mx-auto">
+        <!-- 1行目 -->
+        <div class="flex flex-wrap lg:flex-nowrap items-center gap-3">
           <a href={`/ai-news-curation-site/${qs}`} class="flex items-center gap-3 hover:opacity-80">
             <img src="/ai-news-curation-site/assets/ai-icon.png" alt="AIアイコン" class="w-16 h-16" />
-            <div class="text-sky-500 text-3xl font-bold">最新AIニュースまとめ</div>
+            <div class="text-sky-500 text-2xl font-bold whitespace-nowrap">最新AIニュースまとめ</div>
           </a>
-          {currentPage && totalPages && totalPages > 1 && (
-            <div class="text-sm text-gray-600 ml-2">
-              （ページ {currentPage} / 全{totalPages}ページ中）
-            </div>
-          )}
+
+          <!-- ✅ 媒体名検索 -->
+          <form method="get" action="/ai-news-curation-site/" class="flex gap-2 items-center ml-auto">
+            <input type="hidden" name="q" value={q} />
+            <select name="media" class="text-sm border rounded px-2 py-1 w-48">
+              <option value="">媒体名で検索</option>
+              <option value="arXiv AI">arXiv AI</option>
+              <option value="Hugging Face Blog">Hugging Face Blog</option>
+              <option value="OpenAI Blog">OpenAI Blog</option>
+              <option value="Google AI Blog">Google AI Blog</option>
+              <option value="Microsoft Research Blog">Microsoft Research Blog</option>
+              <option value="DeepMind Blog">DeepMind Blog</option>
+              <option value="MIT">MIT</option>
+              <option value="ITmedia AI">ITmedia AI</option>
+              <option value="AI Smily">AI Smily</option>
+              <option value="AI Shift">AI Shift</option>
+            </select>
+            <button type="submit" class="bg-blue-500 text-white text-sm px-3 py-1 rounded hover:bg-blue-600">検索</button>
+          </form>
+
+          <!-- ✅ フリーワード検索 -->
+          <form method="get" action="/ai-news-curation-site/" class="flex gap-2 items-center">
+            <input type="hidden" name="media" value={media} />
+            <input type="text" name="q" value={q} placeholder="フリーワード検索" class="text-sm border rounded px-2 py-1 w-60" />
+            <button type="submit" class="bg-blue-500 text-white text-sm px-3 py-1 rounded hover:bg-blue-600">検索</button>
+          </form>
         </div>
 
-        <!-- ✅ ページナビ -->
-        {totalPages > 1 && (
-          <div class="flex justify-between sm:justify-end text-sm text-blue-600">
-            <div class="flex gap-4">
-              {currentPage > 1 && (
-                <a href={`/ai-news-curation-site/page/${sort}/${currentPage - 1}${qs}`} class="hover:underline">
-                  ← 前のページ
-                </a>
-              )}
-              {currentPage < totalPages && (
-                <a href={`/ai-news-curation-site/page/${sort}/${currentPage + 1}${qs}`} class="hover:underline">
-                  次のページ →
-                </a>
-              )}
-            </div>
+        <!-- 2行目：広告エリア -->
+        <div class="mt-3 w-full flex justify-center">
+          <div class="bg-gray-200 text-center py-2 text-sm w-full rounded">
+            🔳 ヘッダー内広告募集中
           </div>
-        )}
-      </div>
-
-      <!-- ✅ 検索フォーム -->
-      <div class="mt-3 flex flex-col sm:flex-row justify-center items-center gap-4 px-2 w-full">
-        <!-- 媒体名 -->
-        <form method="get" action="/ai-news-curation-site/" class="flex gap-2 w-full sm:w-auto justify-center">
-          <input type="hidden" name="q" value={q} />
-          <select name="media" class="text-sm border rounded px-2 py-1 w-full sm:w-60">
-            <option value="">媒体名で検索</option>
-            <option value="arXiv AI">arXiv AI</option>
-            <option value="Hugging Face Blog">Hugging Face Blog</option>
-            <option value="OpenAI Blog">OpenAI Blog</option>
-            <option value="Google AI Blog">Google AI Blog</option>
-            <option value="Microsoft Research Blog">Microsoft Research Blog</option>
-            <option value="DeepMind Blog">DeepMind Blog</option>
-            <option value="MIT">MIT</option>
-            <option value="ITmedia AI">ITmedia AI</option>
-            <option value="AI Smily">AI Smily</option>
-            <option value="AI Shift">AI Shift</option>
-          </select>
-          <button type="submit" class="bg-blue-500 text-white text-sm px-3 py-1 rounded hover:bg-blue-600">
-            検索
-          </button>
-        </form>
-
-        <!-- フリーワード -->
-        <form method="get" action="/ai-news-curation-site/" class="flex gap-2 w-full sm:w-auto justify-center">
-          <input type="hidden" name="media" value={media} />
-          <input
-            type="text"
-            name="q"
-            value={q}
-            placeholder="フリーワード検索"
-            class="text-sm border rounded px-2 py-1 w-full sm:w-72"
-          />
-          <button type="submit" class="bg-blue-500 text-white text-sm px-3 py-1 rounded hover:bg-blue-600">
-            検索
-          </button>
-        </form>
-      </div>
-
-      <!-- ✅ ヘッダー広告 -->
-      <div class="mt-3 w-full flex justify-center">
-        <div class="bg-gray-200 text-center py-2 text-sm w-full max-w-[960px] rounded">
-          🔳 ヘッダー内広告募集中
         </div>
       </div>
     </header>
@@ -150,7 +110,7 @@ const qs = queryString ? `?${queryString}` : "";
               次のページ →
             </a>
           )}
-          <a href={`/ai-news-curation-site/page/#top${qs}`} class="text-blue-500">
+          <a href={`/ai-news-curation-site/page/${sort}/${currentPage}#top${qs}`} class="text-blue-500">
             ページTOPへ
           </a>
         </div>
