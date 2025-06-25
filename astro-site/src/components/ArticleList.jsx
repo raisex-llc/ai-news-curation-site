@@ -1,4 +1,3 @@
-// ✅ ArticleList.jsx（React Island） - ヘッダーのページネーション中央表示 + スマホ対応
 import { useEffect, useState } from "react";
 
 const fallback =
@@ -17,7 +16,6 @@ export function ArticleList() {
   const [q, setQ] = useState("");
   const [media, setMedia] = useState("");
 
-  // クエリ取得
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
     const query = params.get("q") ?? "";
@@ -26,7 +24,6 @@ export function ArticleList() {
     setMedia(normalize(mediaParam));
   }, []);
 
-  // JSON読込 + フィルタ・ソート処理
   useEffect(() => {
     fetch("/ai-news-curation-site/articles.json")
       .then((res) => res.json())
@@ -61,8 +58,8 @@ export function ArticleList() {
         </div>
       )}
 
-      {/* ✅ ヘッダー内ページネーション（中央揃え／全端末で表示） */}
-      <div className="fixed left-1/2 top-[7.5rem] -translate-x-1/2 z-[9999] bg-white/80 backdrop-blur px-4 py-1 text-blue-600 text-sm shadow rounded">
+      {/* ✅ 中央固定のページネーション（スマホ・PC共通） */}
+      <div className="fixed left-1/2 -translate-x-1/2 top-[7.5rem] z-[9999] bg-white/80 backdrop-blur px-4 py-1 text-blue-600 text-sm shadow rounded">
         {page > 1 && (
           <button
             onClick={() => setPage(page - 1)}
@@ -89,7 +86,7 @@ export function ArticleList() {
         ))}
       </div>
 
-      {/* ✅ ページ切替（下部） */}
+      {/* ✅ 下部ページネーション */}
       {totalPages > 1 && (
         <div className="flex flex-wrap justify-center items-center mt-8 gap-4 text-sm text-blue-600">
           {page > 1 && (
@@ -130,7 +127,6 @@ function ArticleCard({ article }) {
       className="article-card bg-white shadow rounded-lg overflow-hidden border border-gray-200 flex flex-col h-full min-h-[400px]"
       data-media={normalizedMedia}
     >
-      {/* ✅ 媒体名 */}
       <div className="text-base text-sky-500 font-bold px-3 pt-3">{media}</div>
       <a
         href={url}
