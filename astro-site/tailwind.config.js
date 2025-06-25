@@ -8,4 +8,8 @@ export default {
   plugins: [
     // require('@tailwindcss/line-clamp'), // ← これを削除
   ],
+  safelist: [
+  'top-[6rem]',
+  'z-[9999]',
+],
 };
