@@ -12,6 +12,7 @@ export default defineConfig({
   integrations: [
     tailwind(),
     mdx(),
+    react(),      // ✅ 追加
     sitemap()
   ],
   outDir: "dist",

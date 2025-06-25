@@ -6,6 +6,6 @@ export default {
     extend: {},
   },
   plugins: [
-    require('@tailwindcss/line-clamp'), // ← これを追加
+    // require('@tailwindcss/line-clamp'), // ← これを削除
   ],
 };
