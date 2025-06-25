@@ -1,4 +1,4 @@
-// ✅ ArticleList.jsx（React Island） - ヘッダーのページネーション改善 + スマホ対応
+// ✅ ArticleList.jsx（React Island） - ヘッダーのページネーション中央表示 + スマホ対応
 import { useEffect, useState } from "react";
 
 const fallback =
@@ -61,8 +61,8 @@ export function ArticleList() {
         </div>
       )}
 
-      {/* ✅ ヘッダー内ページネーション（右カラム上、スマホ非表示） */}
-      <div className="fixed right-4 top-[7.5rem] z-[9999] bg-white/80 backdrop-blur px-4 py-1 text-blue-600 text-sm shadow rounded hidden lg:block lg:right-[260px]">
+      {/* ✅ ヘッダー内ページネーション（中央揃え／全端末で表示） */}
+      <div className="fixed left-1/2 top-[7.5rem] -translate-x-1/2 z-[9999] bg-white/80 backdrop-blur px-4 py-1 text-blue-600 text-sm shadow rounded">
         {page > 1 && (
           <button
             onClick={() => setPage(page - 1)}
@@ -89,7 +89,7 @@ export function ArticleList() {
         ))}
       </div>
 
-      {/* ✅ ページ切替（下部／常時表示） */}
+      {/* ✅ ページ切替（下部） */}
       {totalPages > 1 && (
         <div className="flex flex-wrap justify-center items-center mt-8 gap-4 text-sm text-blue-600">
           {page > 1 && (
