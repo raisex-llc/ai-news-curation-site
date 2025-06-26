@@ -1,3 +1,4 @@
+// src/components/ArticleList.jsx
 import { useEffect, useState } from "react";
 
 const fallback =
@@ -16,20 +17,17 @@ export function ArticleList() {
   const [q, setQ] = useState("");
   const [media, setMedia] = useState("");
 
-  // ✅ windowイベントで HeaderIsland からの検索更新を受け取る
   useEffect(() => {
     const handleSearchUpdate = (e) => {
       const { q: newQ, media: newMedia } = e.detail || {};
       setQ(newQ?.toLowerCase() ?? "");
       setMedia(normalize(newMedia ?? ""));
-      setPage(1); // ページ番号リセット
+      setPage(1);
     };
-
     window.addEventListener("searchUpdate", handleSearchUpdate);
     return () => window.removeEventListener("searchUpdate", handleSearchUpdate);
   }, []);
 
-  // ✅ JSON読み込み（初回のみ）
   useEffect(() => {
     fetch("/ai-news-curation-site/articles.json")
       .then((res) => res.json())
@@ -42,7 +40,6 @@ export function ArticleList() {
       });
   }, []);
 
-  // ✅ フィルタリング処理
   useEffect(() => {
     const results = articles.filter((a) => {
       const text = `${a.title} ${a.description} ${a.summary}`.toLowerCase();
@@ -59,7 +56,6 @@ export function ArticleList() {
 
   return (
     <div>
-      {/* ✅ ヘッダーのさらに上、最上段に表示 */}
       <div className="fixed top-0 left-0 w-full z-[9999] bg-gray-100 py-1 text-center text-sm text-blue-700 shadow-sm">
         {page > 1 && (
           <button onClick={() => setPage(page - 1)} className="mr-2 hover:underline">
@@ -74,7 +70,6 @@ export function ArticleList() {
         )}
       </div>
 
-      {/* ✅ 読込中オーバーレイ */}
       {loading && (
         <div
           id="search-overlay"
@@ -84,14 +79,12 @@ export function ArticleList() {
         </div>
       )}
 
-      {/* ✅ 上部バーの分だけ余白追加 */}
       <div className="mt-12 grid md:grid-cols-2 lg:grid-cols-3 gap-6">
         {paginated.map((a, i) => (
           <ArticleCard key={i} article={a} />
         ))}
       </div>
 
-      {/* ✅ ページ下にも切替ボタン */}
       {totalPages > 1 && (
         <div className="flex flex-wrap justify-center items-center mt-8 gap-4 text-sm text-blue-600">
           {page > 1 && (
@@ -123,14 +116,15 @@ function ArticleCard({ article }) {
   });
 
   return (
-    <article
+    <a
+      href={url}
+      target="_blank"
+      rel="noopener noreferrer"
       className="article-card bg-white shadow rounded-lg overflow-hidden border border-gray-200 flex flex-col h-full min-h-[400px] transition-transform duration-200 hover:shadow-xl hover:scale-[1.02] active:scale-95"
       data-media={normalizedMedia}
     >
-      {/* ✅ 媒体名の表示 */}
       <div className="text-base text-sky-500 font-bold px-3 pt-3">{media}</div>
-
-      <a href={url} target="_blank" rel="noopener noreferrer" className="block px-3 pt-2">
+      <div className="px-3 pt-2">
         <img
           src={thumbnail || fallback}
           alt={title}
@@ -138,21 +132,16 @@ function ArticleCard({ article }) {
           loading="lazy"
           onError={(e) => (e.target.src = fallback)}
         />
-      </a>
+      </div>
       <div className="p-3 flex flex-col justify-between h-full">
-        <a
-          href={url}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="block text-base font-bold text-blue-600 hover:underline mb-1 leading-snug"
-        >
+        <div className="block text-base font-bold text-blue-600 hover:underline mb-1 leading-snug">
           {title}
-        </a>
+        </div>
         <p className="text-sm text-black mb-2">{displayDate}</p>
         <p className="text-gray-700 text-sm line-clamp-2">
           {summary || description}
         </p>
       </div>
-    </article>
+    </a>
   );
 }
