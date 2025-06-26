@@ -33,47 +33,9 @@ const qs = queryString ? `?${queryString}` : "";
             <img src="/ai-news-curation-site/assets/ai-icon.png" alt="AIアイコン" class="w-16 h-16" />
             <div class="text-sky-500 text-2xl font-bold whitespace-nowrap">最新AIニュースまとめ</div>
           </a>
-
           <!-- ✅ React Island 検索フォーム（PC・モバイル共通） -->
           <HeaderIsland client:load />
-
-          <!-- ✅ 従来の検索フォーム（コメントアウト済） -->
-          {/*
-          <div class="hidden lg:flex items-center gap-4 ml-auto">
-            <form method="get" action="/ai-news-curation-site/" class="flex gap-2 items-center">
-              <input type="hidden" name="q" value={q} />
-              <select name="media" class="text-sm border rounded px-2 py-1 w-48">
-                <option value="">媒体名で検索</option>
-                <option value="arXiv AI">arXiv AI</option>
-                ...
-              </select>
-              <button type="submit" class="bg-blue-500 text-white text-sm px-3 py-1 rounded hover:bg-blue-600">検索</button>
-            </form>
-
-            <form method="get" action="/ai-news-curation-site/" class="flex gap-2 items-center">
-              <input type="hidden" name="media" value={media} />
-              <input type="text" name="q" value={q} placeholder="フリーワード検索" class="text-sm border rounded px-2 py-1 w-60" />
-              <button type="submit" class="bg-blue-500 text-white text-sm px-3 py-1 rounded hover:bg-blue-600">検索</button>
-            </form>
-          </div>
-          */}
         </div>
-
-        <!-- ✅ モバイル検索フォーム（コメントアウト済） -->
-        <!-- <div class="block lg:hidden mt-4 space-y-2">
-          <form method="get" action="/ai-news-curation-site/" class="flex flex-col gap-2">
-            <input type="hidden" name="q" value={q} />
-            <select name="media" class="text-sm border rounded px-2 py-2 w-full">
-              <option value="">媒体名で検索</option>
-              <option value="arXiv AI">arXiv AI</option>
-              ...
-            </select>
-            <div class="flex gap-2">
-              <input type="text" name="q" value={q} placeholder="フリーワード検索" class="text-sm border rounded px-2 py-2 w-full" />
-              <button type="submit" class="bg-blue-500 text-white text-sm px-3 py-1 rounded hover:bg-blue-600">検索</button>
-            </div>
-          </form>
-        </div> -->
 
         <!-- 2行目：広告エリア -->
         <div class="mt-3 w-full flex justify-center">
