@@ -8,18 +8,18 @@ export default function HeaderIsland() {
   // ArticleList 側に値を反映させるため、windowイベントを dispatch
   useEffect(() => {
     const event = new CustomEvent("searchUpdate", {
-      detail: { q, media }
+      detail: { q, media },
     });
     window.dispatchEvent(event);
   }, [q, media]);
 
   return (
-    <div className="hidden lg:flex items-center gap-4 ml-auto">
+    <div className="flex flex-col lg:flex-row gap-2 w-full lg:ml-auto mt-2 lg:mt-0">
       {/* ✅ 媒体名検索 */}
       <select
         value={media}
         onChange={(e) => setMedia(e.target.value)}
-        className="text-sm border rounded px-2 py-1 w-48"
+        className="text-sm border rounded px-2 py-2 w-full lg:w-48"
       >
         <option value="">媒体名で検索</option>
         <option value="arXiv AI">arXiv AI</option>
@@ -40,7 +40,7 @@ export default function HeaderIsland() {
         placeholder="フリーワード検索"
         value={q}
         onChange={(e) => setQ(e.target.value)}
-        className="text-sm border rounded px-2 py-1 w-60"
+        className="text-sm border rounded px-2 py-2 w-full lg:w-60"
       />
     </div>
   );
