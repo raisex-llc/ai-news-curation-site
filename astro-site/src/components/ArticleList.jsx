@@ -105,7 +105,7 @@ export function ArticleList() {
 }
 
 function ArticleCard({ article }) {
-  const { title, pubDate, description, thumbnail, url } = article;
+  const { title, pubDate, description, summary, thumbnail, url } = article;
   const media = article.media ?? article.source ?? "媒体不明";
   const normalizedMedia = normalize(media);
   const displayDate = new Date(pubDate).toLocaleDateString("ja-JP", {
@@ -120,7 +120,7 @@ function ArticleCard({ article }) {
       className="article-card bg-white shadow rounded-lg overflow-hidden border border-gray-200 flex flex-col h-full min-h-[400px]"
       data-media={normalizedMedia}
     >
-      {/* ✅ 媒体名の表示（修正済） */}
+      {/* ✅ 媒体名の表示 */}
       <div className="text-base text-sky-500 font-bold px-3 pt-3">{media}</div>
 
       <a href={url} target="_blank" rel="noopener noreferrer" className="block px-3 pt-2">
@@ -142,7 +142,9 @@ function ArticleCard({ article }) {
           {title}
         </a>
         <p className="text-sm text-black mb-2">{displayDate}</p>
-        <p className="text-gray-700 text-sm line-clamp-2">{description}</p>
+        <p className="text-gray-700 text-sm line-clamp-2">
+          {summary || description}
+        </p>
       </div>
     </article>
   );
