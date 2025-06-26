@@ -117,7 +117,7 @@ function ArticleCard({ article }) {
 
   return (
     <article
-      className="article-card bg-white shadow rounded-lg overflow-hidden border border-gray-200 flex flex-col h-full min-h-[400px]"
+      className="article-card bg-white shadow rounded-lg overflow-hidden border border-gray-200 flex flex-col h-full min-h-[400px] transition-transform duration-200 hover:shadow-xl hover:scale-[1.02] active:scale-95"
       data-media={normalizedMedia}
     >
       {/* ✅ 媒体名の表示 */}
