@@ -1,7 +1,8 @@
-// ✅ ArticleList.jsx（React Island）
+// src/components/ArticleList.jsx
 import { useEffect, useState } from "react";
 
-const fallback = "https://github.com/raisex-llc/ai-news-curation-site/blob/gh-pages/assets/ai-icon.png?raw=true";
+const fallback =
+  "https://github.com/raisex-llc/ai-news-curation-site/blob/gh-pages/assets/ai-icon.png?raw=true";
 const PAGE_SIZE = 30;
 
 function normalize(text) {
@@ -31,7 +32,8 @@ export function ArticleList() {
       .then((res) => res.json())
       .then((data) => {
         const sorted = data.sort(
-          (a, b) => new Date(b.pubDate).getTime() - new Date(a.pubDate).getTime()
+          (a, b) =>
+            new Date(b.pubDate).getTime() - new Date(a.pubDate).getTime()
         );
         const results = sorted.filter((a) => {
           const text = `${a.title} ${a.description} ${a.summary}`.toLowerCase();
@@ -50,37 +52,49 @@ export function ArticleList() {
 
   return (
     <div>
+      {/* ✅ ヘッダーのさらに上、最上段に表示 */}
+      <div className="fixed top-0 left-0 w-full z-[9999] bg-gray-100 py-1 text-center text-sm text-blue-700 shadow-sm">
+        {page > 1 && (
+          <button onClick={() => setPage(page - 1)} className="mr-2 hover:underline">
+            ← 前のページ
+          </button>
+        )}
+        ページ {page} / 全{totalPages}ページ
+        {page < totalPages && (
+          <button onClick={() => setPage(page + 1)} className="ml-2 hover:underline">
+            次のページ →
+          </button>
+        )}
+      </div>
+
+      {/* ✅ 読込中オーバーレイ */}
       {loading && (
         <div
           id="search-overlay"
-          className="fixed inset-0 z-50 bg-white/80 backdrop-blur-sm flex items-center justify-center text-xl font-bold text-red-600"
+          className="fixed inset-0 z-40 bg-white/80 backdrop-blur-sm flex items-center justify-center text-xl font-bold text-red-600"
         >
           🔍 検索中です… 少々お待ちください
         </div>
       )}
 
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+      {/* ✅ 上部バーの分だけ余白追加 */}
+      <div className="mt-12 grid md:grid-cols-2 lg:grid-cols-3 gap-6">
         {paginated.map((a, i) => (
           <ArticleCard key={i} article={a} />
         ))}
       </div>
 
+      {/* ✅ ページ下にも切替ボタン */}
       {totalPages > 1 && (
-        <div className="flex justify-center mt-8 gap-4 text-sm text-blue-600">
+        <div className="flex flex-wrap justify-center items-center mt-8 gap-4 text-sm text-blue-600">
           {page > 1 && (
-            <button
-              onClick={() => setPage(page - 1)}
-              className="hover:underline"
-            >
+            <button onClick={() => setPage(page - 1)} className="hover:underline">
               ← 前のページ
             </button>
           )}
           <span>ページ {page} / 全{totalPages}ページ</span>
           {page < totalPages && (
-            <button
-              onClick={() => setPage(page + 1)}
-              className="hover:underline"
-            >
+            <button onClick={() => setPage(page + 1)} className="hover:underline">
               次のページ →
             </button>
           )}
@@ -91,14 +105,8 @@ export function ArticleList() {
 }
 
 function ArticleCard({ article }) {
-  const {
-    title,
-    pubDate,
-    description,
-    media,
-    thumbnail,
-    url,
-  } = article;
+  const { title, pubDate, description, thumbnail, url } = article;
+  const media = article.media ?? article.source ?? "媒体不明";
   const normalizedMedia = normalize(media);
   const displayDate = new Date(pubDate).toLocaleDateString("ja-JP", {
     year: "numeric",
@@ -109,18 +117,13 @@ function ArticleCard({ article }) {
 
   return (
     <article
-      className="article-card bg-white shadow rounded-lg overflow-hidden border border-gray-200 flex flex-col h-full"
+      className="article-card bg-white shadow rounded-lg overflow-hidden border border-gray-200 flex flex-col h-full min-h-[400px]"
       data-media={normalizedMedia}
     >
-      <div className="text-sm text-green-600 font-semibold px-3 pt-3">
-        {media}
-      </div>
-      <a
-        href={url}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="block px-3 pt-2"
-      >
+      {/* ✅ 媒体名の表示（修正済） */}
+      <div className="text-base text-sky-500 font-bold px-3 pt-3">{media}</div>
+
+      <a href={url} target="_blank" rel="noopener noreferrer" className="block px-3 pt-2">
         <img
           src={thumbnail || fallback}
           alt={title}

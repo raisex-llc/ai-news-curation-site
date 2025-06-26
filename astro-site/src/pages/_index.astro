@@ -1,67 +1,35 @@
 ---
 // src/pages/index.astro
 import Layout from "../layouts/Layout.astro";
-import ArticleCard from "../components/ArticleCard.astro";
-import { getCollection } from "astro:content";
+import { ArticleList } from "../components/ArticleList.jsx";  // ✅ React Islandの読み込み
 
-const PAGE_SIZE = 30;
+// 不要になった処理（getCollection や filter 処理）は削除
 const currentPage = 1;
+const totalPages = 1;
 const sort = "date";
 
+// クエリ保持のためだけに取得（表示上は維持）
 const q = Astro.url?.searchParams.get("q")?.toLowerCase().trim() ?? "";
 const media = Astro.url?.searchParams.get("media")?.toLowerCase().replace(/\s+/g, "").trim() ?? "";
-
-console.log("🔍 index.astro loaded");
-console.log("クエリパラメータ q =", q, "media =", media);
-
-const allPosts = await getCollection("posts");
-console.log("取得件数 allPosts =", allPosts.length);
-
-const filteredPosts = allPosts.filter(post => {
-  const title = post.data.title?.toLowerCase() ?? "";
-  const desc = post.data.description?.toLowerCase() ?? "";
-  const body = post.body?.toLowerCase() ?? "";
-  const source = post.data.source?.toLowerCase().replace(/\s+/g, "") ?? "";
-
-  const matchQ = !q || title.includes(q) || desc.includes(q) || body.includes(q);
-  const matchMedia = !media || source.includes(media);
-
-  return matchQ && matchMedia;
-});
-
-console.log("フィルタ後 filteredPosts =", filteredPosts.length);
-
-const sortedPosts = [...filteredPosts].sort(
-  (a, b) => new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime()
-);
-
-const paginatedPosts = sortedPosts;
-const totalPages = 1;
-const hasResults = paginatedPosts.length > 0;
 ---
 
-<!-- ✅ 検索中オーバーレイ -->
+<!-- ✅ 検索中オーバーレイ（JSX側でも制御されるが、初期非表示用）-->
 <div id="search-overlay"
     class="fixed inset-0 z-50 bg-white/80 backdrop-blur-sm flex items-center justify-center text-xl font-bold text-red-600"
     style="display: none;"
-    data-has-results={hasResults}>
+>
   🔍 検索中です… 少々お待ちください
 </div>
 
-<Layout currentPage={currentPage} totalPages={totalPages} sort={sort} q={q} media={media}>
-  <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-    {paginatedPosts.map((post) => (
-      <ArticleCard
-        title={post.data.title}
-        pubDate={post.data.pubDate}
-        description={post.data.description}
-        media={post.data.source}
-        thumbnail={post.data.thumbnail}
-        url={post.data.url}
-      />
-    ))}
+<!-- ✅ ヘッダー直下にページインジケータ表示
+<div class="w-full flex justify-center items-center text-sm text-gray-600 mt-2 sm:mt-0 sm:absolute sm:top-4 sm:right-4 sm:w-auto">
+  <div class="text-sm text-gray-700">
+    ページ {currentPage} / 全{totalPages}ページ → <a href="#" class="text-blue-600 underline">次のページ</a>
   </div>
+</div> -->
+
+<Layout currentPage={currentPage} totalPages={totalPages} sort={sort} q={q} media={media}>
+  <!-- ✅ JSXベースの記事一覧コンポーネント -->
+  <ArticleList client:load />
 </Layout>
 
-<!-- ✅ search.js 読み込み -->
-<script src="/ai-news-curation-site/search.js?v=20250624" defer></script>
