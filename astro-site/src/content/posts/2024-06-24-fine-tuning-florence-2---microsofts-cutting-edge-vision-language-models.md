@@ -1,7 +1,7 @@
 ---
 title: "Fine-tuning Florence-2 - Microsoft's Cutting-edge Vision Language Models"
 description: ""
-summary: ""
+summary: "Fine-tuning Florence-2 - Microsoft's Cutting-edge Vision Language Models Florence-2, released by Mic..."
 pubDate: "Mon, 24 Jun 2024 00:00:00 GMT"
 source: "Hugging Face Blog"
 url: "https://huggingface.co/blog/finetune-florence2"

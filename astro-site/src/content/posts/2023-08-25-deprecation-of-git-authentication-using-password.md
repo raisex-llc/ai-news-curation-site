@@ -1,7 +1,7 @@
 ---
 title: "Deprecation of Git Authentication using password"
 description: ""
-summary: ""
+summary: "Hugging Face Hub: Important Git Authentication Changes Because we are committed to improving the sec..."
 pubDate: "Fri, 25 Aug 2023 00:00:00 GMT"
 source: "Hugging Face Blog"
 url: "https://huggingface.co/blog/password-git-deprecation"

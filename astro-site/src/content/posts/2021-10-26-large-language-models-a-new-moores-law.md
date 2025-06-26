@@ -1,7 +1,7 @@
 ---
 title: "Large Language Models: A New Moore's Law?"
 description: ""
-summary: ""
+summary: "Large Language Models: A New Moore's Law? A few days ago, Microsoft and NVIDIA introduced Megatron-T..."
 pubDate: "Tue, 26 Oct 2021 00:00:00 GMT"
 source: "Hugging Face Blog"
 url: "https://huggingface.co/blog/large-language-models"

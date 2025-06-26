@@ -1,7 +1,7 @@
 ---
 title: "Convert Transformers to ONNX with Hugging Face Optimum"
 description: ""
-summary: ""
+summary: "Convert Transformers to ONNX with Hugging Face Optimum Hundreds of Transformers experiments and mode..."
 pubDate: "Wed, 22 Jun 2022 00:00:00 GMT"
 source: "Hugging Face Blog"
 url: "https://huggingface.co/blog/convert-transformers-to-onnx"

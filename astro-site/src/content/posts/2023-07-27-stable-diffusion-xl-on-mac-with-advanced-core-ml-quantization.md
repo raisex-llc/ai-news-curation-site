@@ -1,7 +1,7 @@
 ---
 title: "Stable Diffusion XL on Mac with Advanced Core ML Quantization"
 description: ""
-summary: ""
+summary: "Stable Diffusion XL on Mac with Advanced Core ML Quantization Stable Diffusion XL was released yeste..."
 pubDate: "Thu, 27 Jul 2023 00:00:00 GMT"
 source: "Hugging Face Blog"
 url: "https://huggingface.co/blog/stable-diffusion-xl-coreml"

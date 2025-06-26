@@ -1,7 +1,7 @@
 ---
 title: "AI Policy @🤗: Open ML Considerations in the EU AI Act"
 description: ""
-summary: ""
+summary: "AI Policy @🤗: Open ML Considerations in the EU AI Act Like everyone else in Machine Learning, we’ve ..."
 pubDate: "Mon, 24 Jul 2023 00:00:00 GMT"
 source: "Hugging Face Blog"
 url: "https://huggingface.co/blog/eu-ai-act-oss"

@@ -1,7 +1,7 @@
 ---
 title: "Announcing Evaluation on the Hub"
 description: ""
-summary: ""
+summary: "Announcing Evaluation on the Hub This project has been archived. If you want to evaluate LLMs on the..."
 pubDate: "Tue, 28 Jun 2022 00:00:00 GMT"
 source: "Hugging Face Blog"
 url: "https://huggingface.co/blog/eval-on-the-hub"

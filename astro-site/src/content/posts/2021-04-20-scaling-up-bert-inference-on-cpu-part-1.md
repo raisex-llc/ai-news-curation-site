@@ -1,7 +1,7 @@
 ---
 title: "Scaling-up BERT Inference on CPU (Part 1)"
 description: ""
-summary: ""
+summary: "Scaling up BERT-like model Inference on modern CPU - Part 1 1. Context and Motivations Back in Octob..."
 pubDate: "Tue, 20 Apr 2021 00:00:00 GMT"
 source: "Hugging Face Blog"
 url: "https://huggingface.co/blog/bert-cpu-scaling-part-1"

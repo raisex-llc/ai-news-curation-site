@@ -1,7 +1,7 @@
 ---
 title: "Introducing 🤗 Accelerate"
 description: ""
-summary: ""
+summary: "Introducing 🤗 Accelerate 🤗 Accelerate Run your raw PyTorch training scripts on any kind of device. M..."
 pubDate: "Fri, 16 Apr 2021 00:00:00 GMT"
 source: "Hugging Face Blog"
 url: "https://huggingface.co/blog/accelerate-library"

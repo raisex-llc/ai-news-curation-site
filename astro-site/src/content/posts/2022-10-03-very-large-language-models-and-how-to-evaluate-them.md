@@ -1,7 +1,7 @@
 ---
 title: "Very Large Language Models and How to Evaluate Them"
 description: ""
-summary: ""
+summary: "Very Large Language Models and How to Evaluate Them Large language models can now be evaluated on ze..."
 pubDate: "Mon, 03 Oct 2022 00:00:00 GMT"
 source: "Hugging Face Blog"
 url: "https://huggingface.co/blog/zero-shot-eval-on-the-hub"

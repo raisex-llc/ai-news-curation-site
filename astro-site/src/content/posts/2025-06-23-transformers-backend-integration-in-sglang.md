@@ -1,7 +1,7 @@
 ---
 title: "Transformers backend integration in SGLang"
 description: ""
-summary: ""
+summary: "Transformers backend integration in SGLang Hugging Face transformers library is the standard for wor..."
 pubDate: "Mon, 23 Jun 2025 00:00:00 GMT"
 source: "Hugging Face Blog"
 url: "https://huggingface.co/blog/transformers-backend-sglang"

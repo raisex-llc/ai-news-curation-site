@@ -1,7 +1,7 @@
 ---
 title: "Overview of natively supported quantization schemes in 🤗 Transformers"
 description: ""
-summary: ""
+summary: "Overview of natively supported quantization schemes in 🤗 Transformers We aim to give a clear overvie..."
 pubDate: "Tue, 12 Sep 2023 00:00:00 GMT"
 source: "Hugging Face Blog"
 url: "https://huggingface.co/blog/overview-quantization-transformers"

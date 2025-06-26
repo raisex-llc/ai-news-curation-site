@@ -1,7 +1,7 @@
 ---
 title: "Welcome Stable-baselines3 to the Hugging Face Hub 🤗"
 description: ""
-summary: ""
+summary: "Welcome Stable-baselines3 to the Hugging Face Hub 🤗 At Hugging Face, we are contributing to the ecos..."
 pubDate: "Fri, 21 Jan 2022 00:00:00 GMT"
 source: "Hugging Face Blog"
 url: "https://huggingface.co/blog/sb3"

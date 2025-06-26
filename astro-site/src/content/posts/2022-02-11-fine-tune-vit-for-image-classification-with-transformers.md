@@ -1,7 +1,7 @@
 ---
 title: "Fine-Tune ViT for Image Classification with 🤗 Transformers"
 description: ""
-summary: ""
+summary: "Fine-Tune ViT for Image Classification with 🤗 Transformers Just as transformers-based models have re..."
 pubDate: "Fri, 11 Feb 2022 00:00:00 GMT"
 source: "Hugging Face Blog"
 url: "https://huggingface.co/blog/fine-tune-vit"

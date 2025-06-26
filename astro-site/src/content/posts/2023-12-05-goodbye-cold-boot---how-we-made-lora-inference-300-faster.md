@@ -1,7 +1,7 @@
 ---
 title: "Goodbye cold boot - how we made LoRA inference 300% faster"
 description: ""
-summary: ""
+summary: "Goodbye cold boot - how we made LoRA Inference 300% faster tl;dr: We swap the Stable Diffusion LoRA ..."
 pubDate: "Tue, 05 Dec 2023 00:00:00 GMT"
 source: "Hugging Face Blog"
 url: "https://huggingface.co/blog/lora-adapters-dynamic-loading"

@@ -1,7 +1,7 @@
 ---
 title: "Getting Started With Embeddings"
 description: ""
-summary: ""
+summary: "Getting Started With Embeddings Check out this tutorial with the Notebook Companion: Understanding e..."
 pubDate: "Thu, 23 Jun 2022 00:00:00 GMT"
 source: "Hugging Face Blog"
 url: "https://huggingface.co/blog/getting-started-with-embeddings"

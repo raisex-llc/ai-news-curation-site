@@ -1,7 +1,7 @@
 ---
 title: "Text-Generation Pipeline on Intel® Gaudi® 2 AI Accelerator"
 description: ""
-summary: ""
+summary: "Text-Generation Pipeline on Intel® Gaudi® 2 AI Accelerator With the Generative AI (GenAI) revolution..."
 pubDate: "Thu, 29 Feb 2024 00:00:00 GMT"
 source: "Hugging Face Blog"
 url: "https://huggingface.co/blog/textgen-pipe-gaudi"

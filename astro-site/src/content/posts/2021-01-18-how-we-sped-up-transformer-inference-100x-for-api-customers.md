@@ -1,7 +1,7 @@
 ---
 title: "How we sped up transformer inference 100x for 🤗 API customers"
 description: ""
-summary: ""
+summary: "How we sped up transformer inference 100x for 🤗 API customers 🤗 Transformers has become the default ..."
 pubDate: "Mon, 18 Jan 2021 00:00:00 GMT"
 source: "Hugging Face Blog"
 url: "https://huggingface.co/blog/accelerated-inference"

@@ -1,7 +1,7 @@
 ---
 title: "Accelerating Hugging Face Transformers with AWS Inferentia2"
 description: ""
-summary: ""
+summary: "Accelerating Hugging Face Transformers with AWS Inferentia2 In the last five years, Transformer mode..."
 pubDate: "Mon, 17 Apr 2023 00:00:00 GMT"
 source: "Hugging Face Blog"
 url: "https://huggingface.co/blog/accelerate-transformers-with-inferentia2"

@@ -1,7 +1,7 @@
 ---
 title: "Introducing DOI: the Digital Object Identifier to Datasets and Models"
 description: ""
-summary: ""
+summary: "Introducing DOI: the Digital Object Identifier to Datasets and Models Our mission at Hugging Face is..."
 pubDate: "Fri, 07 Oct 2022 00:00:00 GMT"
 source: "Hugging Face Blog"
 url: "https://huggingface.co/blog/introducing-doi"

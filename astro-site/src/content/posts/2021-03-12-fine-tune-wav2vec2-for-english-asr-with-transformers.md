@@ -1,7 +1,7 @@
 ---
 title: "Fine-Tune Wav2Vec2 for English ASR with 🤗 Transformers"
 description: ""
-summary: ""
+summary: "Fine-Tune Wav2Vec2 for English ASR with 🤗 Transformers Wav2Vec2 is a pretrained model for Automatic ..."
 pubDate: "Fri, 12 Mar 2021 00:00:00 GMT"
 source: "Hugging Face Blog"
 url: "https://huggingface.co/blog/fine-tune-wav2vec2-english"

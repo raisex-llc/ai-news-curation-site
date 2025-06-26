@@ -1,7 +1,7 @@
 ---
 title: "π0 and π0-FAST: Vision-Language-Action Models for General Robot Control"
 description: ""
-summary: ""
+summary: "π0 and π0-FAST: Vision-Language-Action Models for General Robot Control We have ported the first rob..."
 pubDate: "Tue, 04 Feb 2025 00:00:00 GMT"
 source: "Hugging Face Blog"
 url: "https://huggingface.co/blog/pi0"

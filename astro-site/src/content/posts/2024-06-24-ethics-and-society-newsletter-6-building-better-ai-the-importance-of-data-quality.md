@@ -1,7 +1,7 @@
 ---
 title: "Ethics and Society Newsletter #6: Building Better AI: The Importance of Data Quality"
 description: ""
-summary: ""
+summary: "Ethics and Society Newsletter #6: Building Better AI: The Importance of Data Quality In February, Re..."
 pubDate: "Mon, 24 Jun 2024 00:00:00 GMT"
 source: "Hugging Face Blog"
 url: "https://huggingface.co/blog/ethics-soc-6"

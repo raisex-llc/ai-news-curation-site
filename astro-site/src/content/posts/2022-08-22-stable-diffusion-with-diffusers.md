@@ -1,7 +1,7 @@
 ---
 title: "Stable Diffusion with 🧨 Diffusers"
 description: ""
-summary: ""
+summary: "Stable Diffusion with 🧨 Diffusers Stable Diffusion 🎨 ...using 🧨 Diffusers Stable Diffusion is a text..."
 pubDate: "Mon, 22 Aug 2022 00:00:00 GMT"
 source: "Hugging Face Blog"
 url: "https://huggingface.co/blog/stable_diffusion"

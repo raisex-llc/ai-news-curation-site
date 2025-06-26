@@ -1,7 +1,7 @@
 ---
 title: "Supercharged Searching on the Hugging Face Hub"
 description: ""
-summary: ""
+summary: "Supercharged Searching on the Hugging Face Hub The huggingface_hub library is a lightweight interfac..."
 pubDate: "Tue, 25 Jan 2022 00:00:00 GMT"
 source: "Hugging Face Blog"
 url: "https://huggingface.co/blog/searching-the-hub"

@@ -1,7 +1,7 @@
 ---
 title: "Retrieval Augmented Generation with Huggingface Transformers and Ray"
 description: ""
-summary: ""
+summary: "Retrieval Augmented Generation with Huggingface Transformers and Ray A guest blog post by Amog Kamse..."
 pubDate: "Wed, 10 Feb 2021 00:00:00 GMT"
 source: "Hugging Face Blog"
 url: "https://huggingface.co/blog/ray-rag"

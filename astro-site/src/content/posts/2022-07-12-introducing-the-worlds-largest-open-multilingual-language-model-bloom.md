@@ -1,7 +1,7 @@
 ---
 title: "Introducing The World's Largest Open Multilingual Language Model: BLOOM"
 description: ""
-summary: ""
+summary: "🌸 Introducing The World's Largest Open Multilingual Language Model: BLOOM 🌸 Large language models (L..."
 pubDate: "Tue, 12 Jul 2022 00:00:00 GMT"
 source: "Hugging Face Blog"
 url: "https://huggingface.co/blog/bloom"

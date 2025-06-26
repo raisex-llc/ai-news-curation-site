@@ -1,7 +1,7 @@
 ---
 title: "Getting Started with Hugging Face Transformers for IPUs with Optimum"
 description: ""
-summary: ""
+summary: "Getting Started with Hugging Face Transformers for IPUs with Optimum Transformer models have proven ..."
 pubDate: "Tue, 30 Nov 2021 00:00:00 GMT"
 source: "Hugging Face Blog"
 url: "https://huggingface.co/blog/graphcore-getting-started"
