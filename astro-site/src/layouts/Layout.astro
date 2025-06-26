@@ -1,5 +1,7 @@
 ---
 // layouts/Layout.astro
+import HeaderIsland from "../components/HeaderIsland.jsx";
+
 const { currentPage, totalPages, sort, q = "", media = "" } = Astro.props;
 
 const queryString = [q && `q=${encodeURIComponent(q)}`, media && `media=${encodeURIComponent(media)}`]
@@ -32,52 +34,39 @@ const qs = queryString ? `?${queryString}` : "";
             <div class="text-sky-500 text-2xl font-bold whitespace-nowrap">最新AIニュースまとめ</div>
           </a>
 
-          <!-- ✅ PC用検索フォーム -->
+          <!-- ✅ React Island 検索フォーム -->
+          <HeaderIsland client:load />
+
+          <!-- ✅ 従来の検索フォーム（コメントアウト済） -->
+          {/*
           <div class="hidden lg:flex items-center gap-4 ml-auto">
-            <!-- ✅ 媒体名検索 -->
             <form method="get" action="/ai-news-curation-site/" class="flex gap-2 items-center">
               <input type="hidden" name="q" value={q} />
               <select name="media" class="text-sm border rounded px-2 py-1 w-48">
                 <option value="">媒体名で検索</option>
                 <option value="arXiv AI">arXiv AI</option>
-                <option value="Hugging Face Blog">Hugging Face Blog</option>
-                <option value="OpenAI Blog">OpenAI Blog</option>
-                <option value="Google AI Blog">Google AI Blog</option>
-                <option value="Microsoft Research Blog">Microsoft Research Blog</option>
-                <option value="DeepMind Blog">DeepMind Blog</option>
-                <option value="MIT">MIT</option>
-                <option value="ITmedia AI">ITmedia AI</option>
-                <option value="AI Smily">AI Smily</option>
-                <option value="AI Shift">AI Shift</option>
+                ...
               </select>
               <button type="submit" class="bg-blue-500 text-white text-sm px-3 py-1 rounded hover:bg-blue-600">検索</button>
             </form>
 
-            <!-- ✅ フリーワード検索 -->
             <form method="get" action="/ai-news-curation-site/" class="flex gap-2 items-center">
               <input type="hidden" name="media" value={media} />
               <input type="text" name="q" value={q} placeholder="フリーワード検索" class="text-sm border rounded px-2 py-1 w-60" />
               <button type="submit" class="bg-blue-500 text-white text-sm px-3 py-1 rounded hover:bg-blue-600">検索</button>
             </form>
           </div>
+          */}
         </div>
 
-        <!-- ✅ モバイル検索フォーム（全幅2段） -->
+        <!-- ✅ モバイル検索フォーム（変更せず残す） -->
         <div class="block lg:hidden mt-4 space-y-2">
           <form method="get" action="/ai-news-curation-site/" class="flex flex-col gap-2">
             <input type="hidden" name="q" value={q} />
             <select name="media" class="text-sm border rounded px-2 py-2 w-full">
               <option value="">媒体名で検索</option>
               <option value="arXiv AI">arXiv AI</option>
-              <option value="Hugging Face Blog">Hugging Face Blog</option>
-              <option value="OpenAI Blog">OpenAI Blog</option>
-              <option value="Google AI Blog">Google AI Blog</option>
-              <option value="Microsoft Research Blog">Microsoft Research Blog</option>
-              <option value="DeepMind Blog">DeepMind Blog</option>
-              <option value="MIT">MIT</option>
-              <option value="ITmedia AI">ITmedia AI</option>
-              <option value="AI Smily">AI Smily</option>
-              <option value="AI Shift">AI Shift</option>
+              ...
             </select>
             <div class="flex gap-2">
               <input type="text" name="q" value={q} placeholder="フリーワード検索" class="text-sm border rounded px-2 py-2 w-full" />
@@ -146,4 +135,3 @@ const qs = queryString ? `?${queryString}` : "";
     </footer>
   </body>
 </html>
-

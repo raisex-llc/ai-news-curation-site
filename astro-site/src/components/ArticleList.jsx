@@ -1,4 +1,3 @@
-// src/components/ArticleList.jsx
 import { useEffect, useState } from "react";
 
 const fallback =
@@ -17,35 +16,43 @@ export function ArticleList() {
   const [q, setQ] = useState("");
   const [media, setMedia] = useState("");
 
-  // クエリ取得
+  // ✅ windowイベントで HeaderIsland からの検索更新を受け取る
   useEffect(() => {
-    const params = new URLSearchParams(window.location.search);
-    const query = params.get("q") ?? "";
-    const mediaParam = params.get("media") ?? "";
-    setQ(query.toLowerCase());
-    setMedia(normalize(mediaParam));
+    const handleSearchUpdate = (e) => {
+      const { q: newQ, media: newMedia } = e.detail || {};
+      setQ(newQ?.toLowerCase() ?? "");
+      setMedia(normalize(newMedia ?? ""));
+      setPage(1); // ページ番号リセット
+    };
+
+    window.addEventListener("searchUpdate", handleSearchUpdate);
+    return () => window.removeEventListener("searchUpdate", handleSearchUpdate);
   }, []);
 
-  // JSON読込 + フィルタ・ソート処理
+  // ✅ JSON読み込み（初回のみ）
   useEffect(() => {
     fetch("/ai-news-curation-site/articles.json")
       .then((res) => res.json())
       .then((data) => {
         const sorted = data.sort(
-          (a, b) =>
-            new Date(b.pubDate).getTime() - new Date(a.pubDate).getTime()
+          (a, b) => new Date(b.pubDate).getTime() - new Date(a.pubDate).getTime()
         );
-        const results = sorted.filter((a) => {
-          const text = `${a.title} ${a.description} ${a.summary}`.toLowerCase();
-          const source = normalize(a.source);
-          const matchQ = !q || text.includes(q);
-          const matchMedia = !media || source === media;
-          return matchQ && matchMedia;
-        });
-        setFiltered(results);
+        setArticles(sorted);
         setLoading(false);
       });
-  }, [q, media]);
+  }, []);
+
+  // ✅ フィルタリング処理
+  useEffect(() => {
+    const results = articles.filter((a) => {
+      const text = `${a.title} ${a.description} ${a.summary}`.toLowerCase();
+      const source = normalize(a.source);
+      const matchQ = !q || text.includes(q);
+      const matchMedia = !media || source === media;
+      return matchQ && matchMedia;
+    });
+    setFiltered(results);
+  }, [articles, q, media]);
 
   const totalPages = Math.ceil(filtered.length / PAGE_SIZE);
   const paginated = filtered.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE);
