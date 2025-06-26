@@ -14,7 +14,7 @@ export default function HeaderIsland() {
   }, [q, media]);
 
   return (
-    <div className="flex flex-col lg:flex-row gap-2 w-full lg:ml-auto mt-2 lg:mt-0">
+    <div className="flex flex-col lg:flex-row lg:items-center gap-2 w-full lg:w-auto lg:ml-auto mt-2 lg:mt-0">
       {/* ✅ 媒体名検索 */}
       <select
         value={media}
