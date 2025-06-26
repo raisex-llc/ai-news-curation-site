@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """
-feed_fetcher.py 最終決定版（絶対URL指定 + articles.json 出力対応）
+feed_fetcher.py 最終決定版
 RSS → Markdown変換 + YAML整形 + サムネイル補完 + バックスラッシュ除去 + JSON出力
+（summary自動生成対応 + 絶対URL + articles.json）
 """
 
 import feedparser
@@ -69,16 +70,31 @@ def extract_thumbnail(url, source=""):
     print(f"[No image found] {url}")
     return ""
 
+def extract_summary(url):
+    try:
+        downloaded = trafilatura.fetch_url(url)
+        if downloaded:
+            extracted = trafilatura.extract(downloaded, include_comments=False, include_tables=False, no_fallback=True)
+            if extracted:
+                clean = extracted.strip().replace("\n", " ")
+                return clean[:100] + "..." if len(clean) > 100 else clean
+    except Exception as e:
+        print(f"[summary error] {url} → {e}")
+    return ""
+
 def write_post(title, description, date, source, url, thumbnail):
     slug = slugify(title or hashlib.md5(url.encode()).hexdigest())
     dt = dtparser.parse(date)
     date_str = dt.strftime(DATE_FMT_MD)
     filename = f"{date_str}-{slug}.md"
     filepath = CONTENT_DIR / filename
+
+    summary = description.strip() or extract_summary(url)
+
     content = f"""---
 title: "{sanitize(title)}"
 description: "{sanitize(description)}"
-summary: "{sanitize(description)}"
+summary: "{sanitize(summary)}"
 pubDate: "{sanitize(date)}"
 source: "{sanitize(source)}"
 url: "{sanitize(url)}"
