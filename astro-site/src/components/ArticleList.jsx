@@ -1,9 +1,8 @@
-// src/components/ArticleList.jsx
 import { useEffect, useState } from "react";
 
 const fallback =
   "https://github.com/raisex-llc/ai-news-curation-site/blob/gh-pages/assets/ai-icon.png?raw=true";
-const PAGE_SIZE = 30;
+const PAGE_SIZE = 40;
 
 function normalize(text) {
   return text?.toLowerCase().replace(/\s+/g, "").trim();
@@ -79,7 +78,7 @@ export function ArticleList() {
         </div>
       )}
 
-      <div className="mt-12 grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-6">
         {paginated.map((a, i) => (
           <ArticleCard key={i} article={a} />
         ))}

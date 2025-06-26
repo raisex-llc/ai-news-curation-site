@@ -21,58 +21,27 @@ const qs = queryString ? `?${queryString}` : "";
     <link rel="icon" href="/favicon.ico" type="image/x-icon" />
   </head>
   <body class="bg-gray-100 text-gray-800">
+    <!-- ✅ 検索中オーバーレイ -->
     <div id="search-overlay" class="fixed inset-0 z-50 bg-white/80 backdrop-blur-sm hidden flex items-center justify-center text-xl font-bold text-red-600">
       🔍 検索中です… 少々お待ちください
     </div>
 
-    <!-- ✅ ヘッダー（2行構成）-->
+    <!-- ✅ ヘッダー -->
     <header id="top" class="sticky top-0 z-50 bg-white border-b border-gray-200 px-4 py-3 pt-[40px]">
       <div class="max-w-[1280px] mx-auto">
-        <!-- 1行目 -->
         <div class="flex flex-wrap lg:flex-nowrap items-center gap-3">
           <a href={`/ai-news-curation-site/${qs}`} class="flex items-center gap-3 hover:opacity-80">
             <img src="/ai-news-curation-site/assets/ai-icon.png" alt="AIアイコン" class="w-16 h-16" />
             <div class="text-sky-500 text-2xl font-bold whitespace-nowrap">最新AIニュースまとめ</div>
           </a>
-          <!-- ✅ React Island 検索フォーム（PC・モバイル共通） -->
           <HeaderIsland client:load />
-        </div>
-
-        <!-- 2行目：広告エリア -->
-        <div class="mt-3 w-full flex justify-center">
-          <!-- <div class="bg-gray-200 text-center py-2 text-sm w-full rounded">
-            🔳 ヘッダー内広告募集中
-          </div> -->
         </div>
       </div>
     </header>
 
-    <!-- ✅ メイン -->
-    <main class="max-w-screen-xl mx-auto px-4 py-0 flex flex-col lg:flex-row gap-8">
-      <div class="w-full lg:w-3/4">
-        <slot />
-        <!-- ✅ モバイル広告 -->
-        <div class="mt-6 space-y-4 block lg:hidden">
-          <!-- <div class="bg-gray-300 h-32 flex items-center justify-center">🔳 バナー広告募集中</div>
-          <div class="bg-gray-300 h-32 flex items-center justify-center">🔳 バナー広告募集中</div>
-          <div class="bg-gray-300 h-32 flex items-center justify-center">🔳 バナー広告募集中</div> -->
-        </div>
-        <!-- ✅ フッター広告 -->
-        <div class="mt-8 w-full flex justify-center">
-          <!-- <div class="bg-gray-200 text-center py-2 text-sm w-full max-w-[960px] rounded">
-            🔳 フッター固定広告募集中
-          </div> -->
-        </div>
-      </div>
-
-      <!-- ✅ サイド広告 -->
-      <aside class="hidden lg:block w-full lg:w-1/4">
-        <div class="sticky top-60 space-y-4">
-          <div class="bg-gray-300 h-32 flex items-center justify-center"></div>
-          <div class="bg-gray-300 h-32 flex items-center justify-center"></div>
-          <div class="bg-gray-300 h-32 flex items-center justify-center"></div>
-        </div>
-      </aside>
+    <!-- ✅ メインコンテンツ（1カラム全幅構成） -->
+    <main class="max-w-[1280px] mx-auto px-4 py-6">
+      <slot />
     </main>
 
     <!-- ✅ フッター -->
