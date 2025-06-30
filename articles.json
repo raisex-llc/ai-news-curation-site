@@ -2646,15 +2646,6 @@
     "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/SearchLive_SS.width-1300.png"
   },
   {
-    "title": "「三国志」に学ぶ生成AIの導入推進　「推進派」「反対派」「無関心派」の勢力争い、その攻略法は？",
-    "description": "企業における生成AI導入が進む中、企業内には生成AIに対して「推進派」「反対派」「無関心派」の三つの勢力が存在する。現代の三国志ともいえる状況で、AI活用を推進していくにはどうすればいいか。三国志の歴史に倣い、考える。",
-    "summary": "企業における生成AI導入が進む中、企業内には生成AIに対して「推進派」「反対派」「無関心派」の三つの勢力が存在する。現代の三国志ともいえる状況で、AI活用を推進していくにはどうすればいいか。三国志の歴史に倣い、考える。",
-    "pubDate": "Fri, 27 Jun 2025 12:00:00 +0900",
-    "source": "ITmedia AI",
-    "url": "https://www.itmedia.co.jp/aiplus/articles/2506/27/news018.html",
-    "thumbnail": "https://image.itmedia.co.jp/aiplus/articles/2506/27/cover_news018.jpg"
-  },
-  {
     "title": "Exploring the Structure of AI-Induced Language Change in Scientific English",
     "description": "arXiv:2506.21817v1 Announce Type: cross Abstract: Scientific English has undergone rapid and unprecedented changes in recent years, with words such as 'delve,' 'intricate,' and 'crucial' showing significant spikes in frequency since around 2022. These changes are widely attributed to the growing influence of Large Language Models like ChatGPT in the discourse surrounding bias and misalignment. However, apart from changes in frequency, the exact structure of these linguistic shifts has remained unclear. The present study addresses this and investigates whether these changes involve the replacement of synonyms by suddenly 'spiking words,' for example, 'crucial' replacing 'essential' and 'key,' or whether they reflect broader semantic and pragmatic qualifications. To further investigate structural changes, we include part of speech tagging in our analysis to quantify linguistic shifts over grammatical categories and differentiate between word forms, like 'potential' as a noun vs. as an adjective. We systematically analyze synonym groups for widely discussed 'spiking words' based on frequency trends in scientific abstracts from PubMed. We find that entire semantic clusters often shift together, with most or all words in a group increasing in usage. This pattern suggests that changes induced by Large Language Models are primarily semantic and pragmatic rather than purely lexical. Notably, the adjective 'important' shows a significant decline, which prompted us to systematically analyze decreasing lexical items. Our analysis of 'collapsing' words reveals a more complex picture, which is consistent with organic language change and contrasts with the patterns of the abrupt spikes. These insights into the structure of language change contribute to our understanding of how language technology continues to shape human language.",
     "summary": "arXiv:2506.21817v1 Announce Type: cross Abstract: Scientific English has undergone rapid and unprecedented changes in recent years, with words such as 'delve,' 'intricate,' and 'crucial' showing significant spikes in frequency since around 2022. These changes are widely attributed to the growing influence of Large Language Models like ChatGPT in the discourse surrounding bias and misalignment. However, apart from changes in frequency, the exact structure of these linguistic shifts has remained unclear. The present study addresses this and investigates whether these changes involve the replacement of synonyms by suddenly 'spiking words,' for example, 'crucial' replacing 'essential' and 'key,' or whether they reflect broader semantic and pragmatic qualifications. To further investigate structural changes, we include part of speech tagging in our analysis to quantify linguistic shifts over grammatical categories and differentiate between word forms, like 'potential' as a noun vs. as an adjective. We systematically analyze synonym groups for widely discussed 'spiking words' based on frequency trends in scientific abstracts from PubMed. We find that entire semantic clusters often shift together, with most or all words in a group increasing in usage. This pattern suggests that changes induced by Large Language Models are primarily semantic and pragmatic rather than purely lexical. Notably, the adjective 'important' shows a significant decline, which prompted us to systematically analyze decreasing lexical items. Our analysis of 'collapsing' words reveals a more complex picture, which is consistent with organic language change and contrasts with the patterns of the abrupt spikes. These insights into the structure of language change contribute to our understanding of how language technology continues to shape human language.",
@@ -5695,15 +5686,6 @@
     "source": "OpenAI Blog",
     "url": "https://openai.com/blog/unsupervised-sentiment-neuron",
     "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
-  },
-  {
-    "title": "Anthropic、読みは「アンソロピック」？　「アンスロピック」？",
-    "description": "大規模言語モデル「Claude」シリーズなどで知られる米AIベンチャーAnthropic。日本では「アンスロピック」とも「アンソロピック」とも読まれ、大手メディア間でも表記が揺れている。正しい読み方はどちらか。",
-    "summary": "大規模言語モデル「Claude」シリーズなどで知られる米AIベンチャーAnthropic。日本では「アンスロピック」とも「アンソロピック」とも読まれ、大手メディア間でも表記が揺れている。正しい読み方はどちらか。",
-    "pubDate": "Fri, 27 Jun 2025 11:30:00 +0900",
-    "source": "ITmedia AI",
-    "url": "https://www.itmedia.co.jp/news/articles/2506/27/news061.html",
-    "thumbnail": "https://image.itmedia.co.jp/news/articles/2506/27/cover_news061.jpg"
   },
   {
     "title": "IRanker: Towards Ranking Foundation Model",
@@ -10161,6 +10143,15 @@
     "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
   },
   {
+    "title": "Google、「Gemini for Education」などの教育向けAIツール提供開始",
+    "description": "Googleは、教育向けAIツール群を発表した。「Gemini for Education」を教育版Workspaceに無償で追加するほか、ClassroomでのGemini利用も無料化。NotebookLMなどを若年層にも開放し、データ保護や安全性を重視した責任あるアプローチを強調する。",
+    "summary": "Googleは、教育向けAIツール群を発表した。「Gemini for Education」を教育版Workspaceに無償で追加するほか、ClassroomでのGemini利用も無料化。NotebookLMなどを若年層にも開放し、データ保護や安全性を重視した責任あるアプローチを強調する。",
+    "pubDate": "Tue, 01 Jul 2025 08:04:00 +0900",
+    "source": "ITmedia AI",
+    "url": "https://www.itmedia.co.jp/aiplus/articles/2507/01/news058.html",
+    "thumbnail": "https://image.itmedia.co.jp/aiplus/articles/2507/01/cover_news058.jpg"
+  },
+  {
     "title": "OpenAI Scholars 2018: Final projects",
     "description": "Our first cohort of OpenAI Scholars has now completed the program.",
     "summary": "Our first cohort of OpenAI Scholars has now completed the program.",
@@ -11709,6 +11700,15 @@
     "thumbnail": "https://huggingface.co/blog/assets/24_sahajBERT/thumbnail.png"
   },
   {
+    "title": "生成AI活用、世界は快走、日本は迷走？　PwC調査が浮き彫りにした日本企業の課題と突破口",
+    "description": "PwCは「生成AIに関する実態調査2025春 5カ国比較」の結果を発表した。生成AI活用について、米国と英国では効果的な導入を示し、中国が積極的な活用を進めているのに対して、日本では効果創出に課題を抱えていることが分かった。",
+    "summary": "PwCは「生成AIに関する実態調査2025春 5カ国比較」の結果を発表した。生成AI活用について、米国と英国では効果的な導入を示し、中国が積極的な活用を進めているのに対して、日本では効果創出に課題を抱えていることが分かった。",
+    "pubDate": "Tue, 01 Jul 2025 08:00:00 +0900",
+    "source": "ITmedia AI",
+    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2507/01/news027.html",
+    "thumbnail": "https://image.itmedia.co.jp/ait/articles/2507/01/cover_news027.jpg"
+  },
+  {
     "title": "Jukebox",
     "description": "We’re introducing Jukebox, a neural net that generates music, including rudimentary singing, as raw audio in a variety of genres and artist styles. We’re releasing the model weights and code, along with a tool to explore the generated samples.",
     "summary": "We’re introducing Jukebox, a neural net that generates music, including rudimentary singing, as raw audio in a variety of genres and artist styles. We’re releasing the model weights and code, along with a tool to explore the generated samples.",
@@ -11941,6 +11941,15 @@
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/npc-gigax-cubzh",
     "thumbnail": "https://huggingface.co/blog/assets/181_npc-gigax-cubzh/thumbnail.png"
+  },
+  {
+    "title": "AI店長、客に“親切すぎて”赤字を出す　原価割れにクーポンの大量配布　Anthropicが実験結果を公開",
+    "description": "AIに売店の経営を任せたらどうなるのか――AI開発企業の米Anthropicは、このような実験の結果を公開した。",
+    "summary": "AIに売店の経営を任せたらどうなるのか――AI開発企業の米Anthropicは、このような実験の結果を公開した。",
+    "pubDate": "Tue, 01 Jul 2025 08:00:00 +0900",
+    "source": "ITmedia AI",
+    "url": "https://www.itmedia.co.jp/aiplus/articles/2507/01/news051.html",
+    "thumbnail": "https://image.itmedia.co.jp/aiplus/articles/2507/01/cover_news051.jpg"
   },
   {
     "title": "Personalizing education with ChatGPT",
@@ -14191,15 +14200,6 @@
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/clipseg-zero-shot",
     "thumbnail": "https://huggingface.co/blog/assets/123_clipseg-zero-shot/thumb.png"
-  },
-  {
-    "title": "Anthropicが日本法人を設立　「日本のために、日本と共に」",
-    "description": "Anthropicが2025年秋にも日本法人を設立することが分かった。同社が語る日本法人設立の目的とミッションとは。",
-    "summary": "Anthropicが2025年秋にも日本法人を設立することが分かった。同社が語る日本法人設立の目的とミッションとは。",
-    "pubDate": "Fri, 27 Jun 2025 11:00:00 +0900",
-    "source": "ITmedia AI",
-    "url": "https://www.itmedia.co.jp/enterprise/articles/2506/27/news059.html",
-    "thumbnail": "https://image.itmedia.co.jp/enterprise/articles/2506/27/cover_news059.jpg"
   },
   {
     "title": "Llama can now see and run on your device - welcome Llama 3.2",
