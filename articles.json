@@ -9,15 +9,6 @@
     "thumbnail": "https://news.mit.edu/sites/default/files/images/202504/MIT_Long-Horizon-01.jpg"
   },
   {
-    "title": "人とテクノロジーの融合でシナジー創出　ドコモ・ファイナンス「BPOセンター」の戦略は？",
-    "description": "生成AIを活用した業務の効率化も進む中、コンタクトセンターの現場で起こるリアルな課題や、次世代コンタクトセンターの構想をドコモ・ファイナンスのBPOセンター長に聞いた。",
-    "summary": "生成AIを活用した業務の効率化も進む中、コンタクトセンターの現場で起こるリアルな課題や、次世代コンタクトセンターの構想をドコモ・ファイナンスのBPOセンター長に聞いた。",
-    "pubDate": "Fri, 27 Jun 2025 08:00:00 +0900",
-    "source": "ITmedia AI",
-    "url": "https://www.itmedia.co.jp/business/articles/2506/27/news044.html",
-    "thumbnail": "https://image.itmedia.co.jp/business/articles/2506/27/cover_news044.jpg"
-  },
-  {
     "title": "Building networks of data science talent",
     "description": "Through collaborations with organizations like BREIT in Peru, the MIT Institute for Data, Systems, and Society is upskilling hundreds of learners around the world in data science and machine learning.",
     "summary": "Through collaborations with organizations like BREIT in Peru, the MIT Institute for Data, Systems, and Society is upskilling hundreds of learners around the world in data science and machine learning.",
@@ -6642,15 +6633,6 @@
     "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
   },
   {
-    "title": "AIエージェント時代、組織の在り方はどう変わる？　「上司はいらなくなるのか問題」を考察",
-    "description": "話題のAIエージェントは、企業の在り方をどのように変えるのか。人間とAIの協働が進化するにつれてこれまで「ピラミッド型」だった組織の在り方は変化するのだろうか。PwCコンサルティングの最新レポートから考察する。",
-    "summary": "話題のAIエージェントは、企業の在り方をどのように変えるのか。人間とAIの協働が進化するにつれてこれまで「ピラミッド型」だった組織の在り方は変化するのだろうか。PwCコンサルティングの最新レポートから考察する。",
-    "pubDate": "Mon, 30 Jun 2025 16:40:00 +0900",
-    "source": "ITmedia AI",
-    "url": "https://www.itmedia.co.jp/enterprise/articles/2506/30/news091.html",
-    "thumbnail": "https://image.itmedia.co.jp/enterprise/articles/2506/30/cover_news091.jpg"
-  },
-  {
     "title": "Supercharged Customer Service with Machine Learning",
     "description": "",
     "summary": "Supercharged Customer Service with Machine Learning In this blog post, we will simulate a real-world...",
@@ -9765,6 +9747,15 @@
     "thumbnail": "https://aismiley.co.jp/wp-content/uploads/2025/06/700_1200x628.jpg"
   },
   {
+    "title": "OpenAIがGoogleのAIチップ採用　非NVIDIA製を初めて使用",
+    "description": "米OpenAIがChatGPTなどの製品向けに、Google製AIチップの利用を始めた。関係者がロイターに明かした。",
+    "summary": "米OpenAIがChatGPTなどの製品向けに、Google製AIチップの利用を始めた。関係者がロイターに明かした。",
+    "pubDate": "Mon, 30 Jun 2025 18:21:00 +0900",
+    "source": "ITmedia AI",
+    "url": "https://www.itmedia.co.jp/news/articles/2506/30/news120.html",
+    "thumbnail": "https://image.itmedia.co.jp/news/articles/2506/30/cover_news120.jpg"
+  },
+  {
     "title": "Improving health literacy and patient well-being",
     "description": "Lifespan uses GPT-4 to radically improve health literacy and patient outcomes.",
     "summary": "Lifespan uses GPT-4 to radically improve health literacy and patient outcomes.",
@@ -10870,6 +10861,15 @@
     "source": "arXiv AI",
     "url": "https://arxiv.org/abs/2506.21567",
     "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/arxiv.png"
+  },
+  {
+    "title": "AIエージェント時代、企業の在り方はどう変わる？　「上司はいらなくなるのか問題」を考察",
+    "description": "話題のAIエージェントは、企業の在り方をどのように変えるのか。人間とAIの協働が進化するにつれてこれまで「ピラミッド型」だった組織の在り方は変化するのだろうか。PwCコンサルティングの最新レポートから考察する。",
+    "summary": "話題のAIエージェントは、企業の在り方をどのように変えるのか。人間とAIの協働が進化するにつれてこれまで「ピラミッド型」だった組織の在り方は変化するのだろうか。PwCコンサルティングの最新レポートから考察する。",
+    "pubDate": "Mon, 30 Jun 2025 16:40:00 +0900",
+    "source": "ITmedia AI",
+    "url": "https://www.itmedia.co.jp/enterprise/articles/2506/30/news091.html",
+    "thumbnail": "https://image.itmedia.co.jp/enterprise/articles/2506/30/cover_news091.jpg"
   },
   {
     "title": "OpenAI announces new members to board of directors",
