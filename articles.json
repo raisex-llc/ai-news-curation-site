@@ -2043,15 +2043,6 @@
     "thumbnail": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/gemini_2-5_pro_claybrook__dev_her.2e16d0ba.fill-1200x600.jpg"
   },
   {
-    "title": "3D modeling you can feel",
-    "description": "TactStyle, a system developed by CSAIL researchers, uses image prompts to replicate both the visual appearance and tactile properties of 3D models.",
-    "summary": "TactStyle, a system developed by CSAIL researchers, uses image prompts to replicate both the visual appearance and tactile properties of 3D models.",
-    "pubDate": "Tue, 22 Apr 2025 15:00:00 -0400",
-    "source": "MIT",
-    "url": "https://news.mit.edu/2025/3d-modeling-you-can-feel-0422",
-    "thumbnail": "https://news.mit.edu/sites/default/files/images/202504/MIT-TactStyle-00.jpg"
-  },
-  {
     "title": "Timm ❤️ Transformers: Use any timm model with transformers",
     "description": "",
     "summary": "Timm ❤️ Transformers: Use any timm model with transformers Get lightning-fast inference, quick quant...",
@@ -7180,6 +7171,15 @@
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/deepseek-r1-aws",
     "thumbnail": "https://huggingface.co/blog/assets/deepseek-r1-aws/thumbnail.png"
+  },
+  {
+    "title": "Accelerating scientific discovery with AI",
+    "description": "FutureHouse, co-founded by Sam Rodriques PhD ’19, has developed AI agents to automate key steps on the path toward scientific progress.",
+    "summary": "FutureHouse, co-founded by Sam Rodriques PhD ’19, has developed AI agents to automate key steps on the path toward scientific progress.",
+    "pubDate": "Mon, 30 Jun 2025 10:30:00 -0400",
+    "source": "MIT",
+    "url": "https://news.mit.edu/2025/futurehouse-accelerates-scientific-discovery-with-ai-0630",
+    "thumbnail": "https://news.mit.edu/sites/default/files/images/202506/MIT-Future-House-01-press.jpg"
   },
   {
     "title": "Testing robustness against unforeseen adversaries",
