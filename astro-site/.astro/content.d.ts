@@ -168,6 +168,14 @@ declare module 'astro:content' {
   rendered?: RenderedContent;
   filePath?: string;
 }>;
+"posts.bak": Record<string, {
+  id: string;
+  body?: string;
+  collection: "posts.bak";
+  data: any;
+  rendered?: RenderedContent;
+  filePath?: string;
+}>;
 
 	};
 
