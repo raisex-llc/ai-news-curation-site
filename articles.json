@@ -2808,15 +2808,6 @@
     "thumbnail": "https://huggingface.co/blog/assets/distill_sd/thumbnail.png"
   },
   {
-    "title": "FrodoKEM: A conservative quantum-safe cryptographic algorithm",
-    "description": "<p>The recent advances in quantum computing offer many advantages—but also challenge current cryptographic strategies. Learn how FrodoKEM could help strengthen security, even in a future with powerful quantum computers.</p> <p>The post <a href='https://www.microsoft.com/en-us/research/blog/frodokem-a-conservative-quantum-safe-cryptographic-algorithm/'>FrodoKEM: A conservative quantum-safe cryptographic algorithm</a> appeared first on <a href='https://www.microsoft.com/en-us/research'>Microsoft Research</a>.</p>",
-    "summary": "<p>The recent advances in quantum computing offer many advantages—but also challenge current cryptographic strategies. Learn how FrodoKEM could help strengthen security, even in a future with powerful quantum computers.</p> <p>The post <a href='https://www.microsoft.com/en-us/research/blog/frodokem-a-conservative-quantum-safe-cryptographic-algorithm/'>FrodoKEM: A conservative quantum-safe cryptographic algorithm</a> appeared first on <a href='https://www.microsoft.com/en-us/research'>Microsoft Research</a>.</p>",
-    "pubDate": "Tue, 27 May 2025 16:00:00 +0000",
-    "source": "Microsoft Research Blog",
-    "url": "https://www.microsoft.com/en-us/research/blog/frodokem-a-conservative-quantum-safe-cryptographic-algorithm/",
-    "thumbnail": "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31&h=30"
-  },
-  {
     "title": "Open-source DeepResearch – Freeing our search agents",
     "description": "",
     "summary": "Open-source DeepResearch – Freeing our search agents TLDR Yesterday, OpenAI released Deep Research, ...",
@@ -5803,6 +5794,15 @@
     "source": "AI Smily",
     "url": "https://aismiley.co.jp/ai_news/use-ai-private-consultant/",
     "thumbnail": "https://aismiley.co.jp/wp-content/uploads/2025/06/use-ai-private-consultant1.png"
+  },
+  {
+    "title": "AI Testing and Evaluation: Learnings from genome editing",
+    "description": "<p>Bioethics and law expert R. Alta Charo explores the value of regulating technologies at the application level and the role of coordinated oversight in genome editing, while Microsoft GM Daniel Kluttz reflects on Charo’s points, drawing parallels to AI governance.</p> <p>The post <a href='https://www.microsoft.com/en-us/research/podcast/ai-testing-and-evaluation-learnings-from-genome-editing/'>AI Testing and Evaluation: Learnings from genome editing</a> appeared first on <a href='https://www.microsoft.com/en-us/research'>Microsoft Research</a>.</p>",
+    "summary": "<p>Bioethics and law expert R. Alta Charo explores the value of regulating technologies at the application level and the role of coordinated oversight in genome editing, while Microsoft GM Daniel Kluttz reflects on Charo’s points, drawing parallels to AI governance.</p> <p>The post <a href='https://www.microsoft.com/en-us/research/podcast/ai-testing-and-evaluation-learnings-from-genome-editing/'>AI Testing and Evaluation: Learnings from genome editing</a> appeared first on <a href='https://www.microsoft.com/en-us/research'>Microsoft Research</a>.</p>",
+    "pubDate": "Mon, 30 Jun 2025 16:00:17 +0000",
+    "source": "Microsoft Research Blog",
+    "url": "https://www.microsoft.com/en-us/research/podcast/ai-testing-and-evaluation-learnings-from-genome-editing/",
+    "thumbnail": "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31&h=30"
   },
   {
     "title": "Team++",
