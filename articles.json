@@ -11538,15 +11538,6 @@
     "thumbnail": "https://huggingface.co/front/thumbnails/v2-2.png"
   },
   {
-    "title": "Anthropic、AIの「感情的利用」調査結果を公開　対策も提示",
-    "description": "Anthropicは、AI「Claude」の感情的な利用に関する調査結果を公開した。感情的な会話は全体の約3％と稀だが、内容は多岐にわたる。会話を通じてユーザーの感情が肯定的になる傾向が見られるが、AIを専門家の代替とはせず、安全対策を進める。",
-    "summary": "Anthropicは、AI「Claude」の感情的な利用に関する調査結果を公開した。感情的な会話は全体の約3％と稀だが、内容は多岐にわたる。会話を通じてユーザーの感情が肯定的になる傾向が見られるが、AIを専門家の代替とはせず、安全対策を進める。",
-    "pubDate": "Fri, 27 Jun 2025 08:49:00 +0900",
-    "source": "ITmedia AI",
-    "url": "https://www.itmedia.co.jp/aiplus/articles/2506/27/news057.html",
-    "thumbnail": "https://image.itmedia.co.jp/aiplus/articles/2506/27/cover_news057.jpg"
-  },
-  {
     "title": "Judge Arena: Benchmarking LLMs as Evaluators",
     "description": "",
     "summary": "Judge Arena: Benchmarking LLMs as Evaluators LLM-as-a-Judge has emerged as a popular way to grade na...",
@@ -12022,6 +12013,15 @@
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/cost-efficient-rag-applications-with-intel",
     "thumbnail": "https://huggingface.co/blog/assets/cost_efficient_rag_applications_with_intel/main.jpg"
+  },
+  {
+    "title": "［Pythonクイズ］リスト結合ってやり方はいろいろあるけれど、正しく使えていますか？",
+    "description": "複数あるリストを結合してひとまとめにしたいときってありますよね。多くの場合は+演算子を使えばいいでしょう。でも、それ以外にもいろいろな方法があります。知らない方法もあるかもしれませんよ！",
+    "summary": "複数あるリストを結合してひとまとめにしたいときってありますよね。多くの場合は+演算子を使えばいいでしょう。でも、それ以外にもいろいろな方法があります。知らない方法もあるかもしれませんよ！",
+    "pubDate": "Tue, 01 Jul 2025 05:00:00 +0900",
+    "source": "ITmedia AI",
+    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2507/01/news015.html",
+    "thumbnail": "https://image.itmedia.co.jp/ait/articles/2507/01/cover_news015.jpg"
   },
   {
     "title": "A landmark multi-year global partnership with News Corp",
