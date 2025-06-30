@@ -4491,6 +4491,15 @@
     "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
   },
   {
+    "title": "Expanded access to Google Vids and no-cost AI tools in Classroom",
+    "description": "Google Meet icon, Google Classroom icon, with various browser windows",
+    "summary": "Google Meet icon, Google Classroom icon, with various browser windows",
+    "pubDate": "Mon, 30 Jun 2025 13:00:00 +0000",
+    "source": "Google AI Blog",
+    "url": "https://blog.google/outreach-initiatives/education/expanded-access-to-google-vids-and-no-cost-ai-tools-in-classroom/",
+    "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/027-ISTE-EDU-Keyword_blog-Google_Workspace_fo.width-1300.png"
+  },
+  {
     "title": "Hugging Face Collaborates with Microsoft to Launch Hugging Face Model Catalog on Azure",
     "description": "",
     "summary": "Hugging Face Collaborates with Microsoft to launch Hugging Face Model Catalog on Azure Today, we are...",
@@ -5964,7 +5973,7 @@
     "pubDate": "Wed, 28 Sep 2022 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/autotrain-image-classification",
-    "thumbnail": "https://cdn-media.huggingface.co/assets/huggingface_logo.svg"
+    "thumbnail": "https://huggingface.co/blog/assets/105_autotrain-image-classification/thumbnail.png"
   },
   {
     "title": "OpenAI and Hearst Content Partnership",
@@ -10276,15 +10285,6 @@
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/structured-codeagent",
     "thumbnail": "https://huggingface.co/blog/assets/structured-codeagent/thumbnail-codeagent.png"
-  },
-  {
-    "title": "Portraits: personalized AI coaching built alongside real experts",
-    "description": "Kim Scott Portrait chat example",
-    "summary": "Kim Scott Portrait chat example",
-    "pubDate": "Thu, 05 Jun 2025 18:00:00 +0000",
-    "source": "Google AI Blog",
-    "url": "https://blog.google/technology/google-labs/portraits/",
-    "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/portraits-hero.width-1300.png"
   },
   {
     "title": "AI for the board game Diplomacy",
