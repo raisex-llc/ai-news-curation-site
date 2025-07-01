@@ -4626,15 +4626,6 @@
     "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
   },
   {
-    "title": "生成AIが変える消費者とのコミュニケーション　博報堂グループの活用例　企業が配慮すべき3つのポイント",
-    "description": "博報堂グループの総合制作事業会社である博報堂プロダクツは、生成AI技術を効率化手段とするのではなく、生活者と新たな接点を生み出すコミュニケーションのツールとして活用している。実際のマーケティング現場における生成AI活用の例を紹介する。",
-    "summary": "博報堂グループの総合制作事業会社である博報堂プロダクツは、生成AI技術を効率化手段とするのではなく、生活者と新たな接点を生み出すコミュニケーションのツールとして活用している。実際のマーケティング現場における生成AI活用の例を紹介する。",
-    "pubDate": "Mon, 30 Jun 2025 12:28:00 +0900",
-    "source": "ITmedia AI",
-    "url": "https://www.itmedia.co.jp/aiplus/articles/2506/30/news023.html",
-    "thumbnail": "https://image.itmedia.co.jp/aiplus/articles/2506/30/cover_news023.jpg"
-  },
-  {
     "title": "Online Human Action Detection during Escorting",
     "description": "arXiv:2506.23573v1 Announce Type: cross Abstract: The deployment of robot assistants in large indoor spaces has seen significant growth, with escorting tasks becoming a key application. However, most current escorting robots primarily rely on navigation-focused strategies, assuming that the person being escorted will follow without issue. In crowded environments, this assumption often falls short, as individuals may struggle to keep pace, become obstructed, get distracted, or need to stop unexpectedly. As a result, conventional robotic systems are often unable to provide effective escorting services due to their limited understanding of human movement dynamics. To address these challenges, an effective escorting robot must continuously detect and interpret human actions during the escorting process and adjust its movement accordingly. However, there is currently no existing dataset designed specifically for human action detection in the context of escorting. Given that escorting often occurs in crowded environments, where other individuals may enter the robot's camera view, the robot also needs to identify the specific human it is escorting (the subject) before predicting their actions. Since no existing model performs both person re-identification and action prediction in real-time, we propose a novel neural network architecture that can accomplish both tasks. This enables the robot to adjust its speed dynamically based on the escortee's movements and seamlessly resume escorting after any disruption. In comparative evaluations against strong baselines, our system demonstrates superior efficiency and effectiveness, showcasing its potential to significantly improve robotic escorting services in complex, real-world scenarios.",
     "summary": "arXiv:2506.23573v1 Announce Type: cross Abstract: The deployment of robot assistants in large indoor spaces has seen significant growth, with escorting tasks becoming a key application. However, most current escorting robots primarily rely on navigation-focused strategies, assuming that the person being escorted will follow without issue. In crowded environments, this assumption often falls short, as individuals may struggle to keep pace, become obstructed, get distracted, or need to stop unexpectedly. As a result, conventional robotic systems are often unable to provide effective escorting services due to their limited understanding of human movement dynamics. To address these challenges, an effective escorting robot must continuously detect and interpret human actions during the escorting process and adjust its movement accordingly. However, there is currently no existing dataset designed specifically for human action detection in the context of escorting. Given that escorting often occurs in crowded environments, where other individuals may enter the robot's camera view, the robot also needs to identify the specific human it is escorting (the subject) before predicting their actions. Since no existing model performs both person re-identification and action prediction in real-time, we propose a novel neural network architecture that can accomplish both tasks. This enables the robot to adjust its speed dynamically based on the escortee's movements and seamlessly resume escorting after any disruption. In comparative evaluations against strong baselines, our system demonstrates superior efficiency and effectiveness, showcasing its potential to significantly improve robotic escorting services in complex, real-world scenarios.",
@@ -8541,15 +8532,6 @@
     "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/arxiv.png"
   },
   {
-    "title": "バーチャルツインがもたらす医療の新常識　心臓治療も脳薬投与もまずは仮想空間で",
-    "description": "ダッソー・システムズは「医療分野におけるバーチャルツイン」に関する記者説明会を開催し、バーチャルツインの定義やライフサイエンスおよびヘルスケア領域での役割、具体的な導入事例、将来の展望について紹介した。",
-    "summary": "ダッソー・システムズは「医療分野におけるバーチャルツイン」に関する記者説明会を開催し、バーチャルツインの定義やライフサイエンスおよびヘルスケア領域での役割、具体的な導入事例、将来の展望について紹介した。",
-    "pubDate": "Mon, 30 Jun 2025 06:15:00 +0900",
-    "source": "ITmedia AI",
-    "url": "https://monoist.itmedia.co.jp/mn/articles/2506/30/news053.html",
-    "thumbnail": "https://image.itmedia.co.jp/mn/articles/2506/30/cover_news053.jpg"
-  },
-  {
     "title": "Training and Finetuning Embedding Models with Sentence Transformers v3",
     "description": "",
     "summary": "Training and Finetuning Embedding Models with Sentence Transformers v3 Sentence Transformers is a Py...",
@@ -10014,7 +9996,7 @@
     "pubDate": "Wed, 18 Jun 2025 10:01:47 +0000",
     "source": "Microsoft Research Blog",
     "url": "https://www.microsoft.com/en-us/research/blog/breaking-bonds-breaking-ground-advancing-the-accuracy-of-computational-chemistry-with-deep-learning/",
-    "thumbnail": "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31&h=30"
+    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
   },
   {
     "title": "ReasonBridge: Efficient Reasoning Transfer from Closed to Open-Source Language Models",
@@ -14445,6 +14427,15 @@
     "thumbnail": "https://huggingface.co/blog/assets/idefics/thumbnail.png"
   },
   {
+    "title": "生成AIが変える消費者とのコミュニケーション　博報堂ＤＹグループの活用例　企業が配慮すべき3つのポイント",
+    "description": "博報堂ＤＹグループの総合制作事業会社である博報堂プロダクツは、生成AI技術を効率化手段とするのではなく、生活者と新たな接点を生み出すコミュニケーションのツールとして活用している。実際のマーケティング現場における生成AI活用の例を紹介する。",
+    "summary": "博報堂ＤＹグループの総合制作事業会社である博報堂プロダクツは、生成AI技術を効率化手段とするのではなく、生活者と新たな接点を生み出すコミュニケーションのツールとして活用している。実際のマーケティング現場における生成AI活用の例を紹介する。",
+    "pubDate": "Mon, 30 Jun 2025 12:28:00 +0900",
+    "source": "ITmedia AI",
+    "url": "https://www.itmedia.co.jp/aiplus/articles/2506/30/news023.html",
+    "thumbnail": "https://image.itmedia.co.jp/aiplus/articles/2506/30/cover_news023.jpg"
+  },
+  {
     "title": "Ethics and Society Newsletter #2: Let's talk about bias!",
     "description": "",
     "summary": "Machine Learning in development: Let's talk about bias! Bias in ML is ubiquitous, and Bias in ML is ...",
@@ -15217,6 +15208,15 @@
     "source": "OpenAI Blog",
     "url": "https://openai.com/blog/scaling-coordinated-vulnerability-disclosure",
     "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
+  },
+  {
+    "title": "鳥取県、“性的ディープフェイク”作成・提供に行政罰、5万円以下の過料　条例改正案を可決",
+    "description": "鳥取県議会は、「鳥取県青少年健全育成条例」に関し、生成AIを利用して実在する子どものわいせつな画像を作成する“性的ディープフェイク”に、行政罰を導入する改正案を可決した。",
+    "summary": "鳥取県議会は、「鳥取県青少年健全育成条例」に関し、生成AIを利用して実在する子どものわいせつな画像を作成する“性的ディープフェイク”に、行政罰を導入する改正案を可決した。",
+    "pubDate": "Tue, 01 Jul 2025 18:30:00 +0900",
+    "source": "ITmedia AI",
+    "url": "https://www.itmedia.co.jp/aiplus/articles/2507/01/news107.html",
+    "thumbnail": "https://image.itmedia.co.jp/aiplus/articles/2507/01/cover_news107.jpg"
   },
   {
     "title": "Fanatics Betting and Gaming uses AI to focus on the big picture",
