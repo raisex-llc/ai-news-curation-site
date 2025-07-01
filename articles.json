@@ -360,15 +360,6 @@
     "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/arxiv.png"
   },
   {
-    "title": "7/9開催【生成AI品質改善ウェビナー】 本番品質の生成AIをどう作る？LLMOps×高精度データで実現する改善プロセス",
-    "description": "<p>AIポータルメディア「AIsmiley」は、2025年7月9日（水）12時から生成AI活用をテーマにウェビナーを開催します。 本ウェビナーでは、生成AI活用のポイントについてご紹介。生成AIを本番品質へ改善するポイントか [&#8230;]</p> <p>The post <a href='https://aismiley.co.jp/ai_news/20250709webinar/'>7/9開催【生成AI品質改善ウェビナー】 本番品質の生成AIをどう作る？LLMOps×高精度データで実現する改善プロセス</a> first appeared on <a href='https://aismiley.co.jp'>AIポータルメディアAIsmiley</a>.</p>",
-    "summary": "<p>AIポータルメディア「AIsmiley」は、2025年7月9日（水）12時から生成AI活用をテーマにウェビナーを開催します。 本ウェビナーでは、生成AI活用のポイントについてご紹介。生成AIを本番品質へ改善するポイントか [&#8230;]</p> <p>The post <a href='https://aismiley.co.jp/ai_news/20250709webinar/'>7/9開催【生成AI品質改善ウェビナー】 本番品質の生成AIをどう作る？LLMOps×高精度データで実現する改善プロセス</a> first appeared on <a href='https://aismiley.co.jp'>AIポータルメディアAIsmiley</a>.</p>",
-    "pubDate": "Mon, 16 Jun 2025 01:37:40 +0000",
-    "source": "AI Smily",
-    "url": "https://aismiley.co.jp/ai_news/20250709webinar/",
-    "thumbnail": "https://aismiley.co.jp/wp-content/uploads/2025/06/699_1200x628_2.jpg"
-  },
-  {
     "title": "Intel and Hugging Face Partner to Democratize Machine Learning Hardware Acceleration",
     "description": "",
     "summary": "Intel and Hugging Face Partner to Democratize Machine Learning Hardware Acceleration The mission of ...",
@@ -9996,7 +9987,7 @@
     "pubDate": "Wed, 18 Jun 2025 10:01:47 +0000",
     "source": "Microsoft Research Blog",
     "url": "https://www.microsoft.com/en-us/research/blog/breaking-bonds-breaking-ground-advancing-the-accuracy-of-computational-chemistry-with-deep-learning/",
-    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
+    "thumbnail": "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31&h=30"
   },
   {
     "title": "ReasonBridge: Efficient Reasoning Transfer from Closed to Open-Source Language Models",
@@ -12274,6 +12265,15 @@
     "source": "Google AI Blog",
     "url": "https://blog.google/technology/ai/ask-a-techspert-what-is-inference/",
     "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/InferenceHero_v3.width-1300.png"
+  },
+  {
+    "title": "スニフアウト、RAG Ready Converter（β）をリリース。全てのデータをRAGが扱いやすい形式へ変換",
+    "description": "<p>スニフアウトは、あらゆる形式のファイルを RAG が扱いやすい形式へ変換する新システム「RAG Ready Converter（β）」を公開しました。 このニュースのポイント スニフアウトは、あらゆる形式のファイルをRA [&#8230;]</p> <p>The post <a href='https://aismiley.co.jp/ai_news/sniffout-rag-ready-converter/'>スニフアウト、RAG Ready Converter（β）をリリース。全てのデータをRAGが扱いやすい形式へ変換</a> first appeared on <a href='https://aismiley.co.jp'>AIポータルメディアAIsmiley</a>.</p>",
+    "summary": "<p>スニフアウトは、あらゆる形式のファイルを RAG が扱いやすい形式へ変換する新システム「RAG Ready Converter（β）」を公開しました。 このニュースのポイント スニフアウトは、あらゆる形式のファイルをRA [&#8230;]</p> <p>The post <a href='https://aismiley.co.jp/ai_news/sniffout-rag-ready-converter/'>スニフアウト、RAG Ready Converter（β）をリリース。全てのデータをRAGが扱いやすい形式へ変換</a> first appeared on <a href='https://aismiley.co.jp'>AIポータルメディアAIsmiley</a>.</p>",
+    "pubDate": "Tue, 01 Jul 2025 08:57:11 +0000",
+    "source": "AI Smily",
+    "url": "https://aismiley.co.jp/ai_news/sniffout-rag-ready-converter/",
+    "thumbnail": "https://aismiley.co.jp/wp-content/uploads/2025/06/ragready.png"
   },
   {
     "title": "Scaling laws for neural language models",
