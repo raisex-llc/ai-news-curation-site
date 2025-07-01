@@ -6237,6 +6237,15 @@
     "thumbnail": "https://huggingface.co/blog/assets/transformers-model-definition/transformers-thumbnail.png"
   },
   {
+    "title": "イーロン・マスク氏のxAIが1.4兆円調達　Grokやデータセンターの開発加速",
+    "description": "イーロン・マスク氏のAI企業xAIが、100億ドルを調達した。半分は社債の発行や借り入れ、もう半分は株式発行によるもの。調達を主導した米Morgan StanleyがXで明らかにした。",
+    "summary": "イーロン・マスク氏のAI企業xAIが、100億ドルを調達した。半分は社債の発行や借り入れ、もう半分は株式発行によるもの。調達を主導した米Morgan StanleyがXで明らかにした。",
+    "pubDate": "Tue, 01 Jul 2025 18:13:00 +0900",
+    "source": "ITmedia AI",
+    "url": "https://www.itmedia.co.jp/news/articles/2507/01/news104.html",
+    "thumbnail": "https://image.itmedia.co.jp/news/articles/2507/01/cover_news104.jpg"
+  },
+  {
     "title": "Google DeepMind’s latest research at ICML 2023",
     "description": "Exploring AI safety, adaptability, and efficiency for the real world",
     "summary": "Exploring AI safety, adaptability, and efficiency for the real world",
@@ -6649,15 +6658,6 @@
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/tf_tpu",
     "thumbnail": "https://huggingface.co/blog/assets/tf_tpu_training/thumbnail.png"
-  },
-  {
-    "title": "AIに関わる人が知っておくべき“○○問題”、5選",
-    "description": "AIには、その仕組みや性能上の限界、人間とは根本的に異なる特性などを浮き彫りにする「○○問題」と呼ばれる用語が幾つかあります。その中でも特に代表的なものをピックアップしてご紹介します。取り上げるのは「シンボルグラウンディング問題」「フレーム問題」「トロッコ問題」「ブラックボックス問題」「コールドスタート問題」の5つです。",
-    "summary": "AIには、その仕組みや性能上の限界、人間とは根本的に異なる特性などを浮き彫りにする「○○問題」と呼ばれる用語が幾つかあります。その中でも特に代表的なものをピックアップしてご紹介します。取り上げるのは「シンボルグラウンディング問題」「フレーム問題」「トロッコ問題」「ブラックボックス問題」「コールドスタート問題」の5つです。",
-    "pubDate": "Mon, 30 Jun 2025 05:00:00 +0900",
-    "source": "ITmedia AI",
-    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2506/30/news020.html",
-    "thumbnail": "https://image.itmedia.co.jp/ait/articles/2506/30/cover_news020.jpg"
   },
   {
     "title": "Adaptive Rank Allocation for Federated Parameter-Efficient Fine-Tuning of Language Models",
