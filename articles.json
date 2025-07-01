@@ -1143,15 +1143,6 @@
     "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/arxiv.png"
   },
   {
-    "title": "YouTubeも検索結果を“AI要約”　複数動画の見どころ表示、説明文やタイトルも生成　米国で",
-    "description": "米YouTubeは、AIを活用した検索結果の要約機能を追加したと発表した。検索ワードに応じ、複数の動画のハイライトをスライド形式で強調表示。同日より米国の有料会員「Premium」ユーザー向けに、スマートフォンアプリで提供する。",
-    "summary": "米YouTubeは、AIを活用した検索結果の要約機能を追加したと発表した。検索ワードに応じ、複数の動画のハイライトをスライド形式で強調表示。同日より米国の有料会員「Premium」ユーザー向けに、スマートフォンアプリで提供する。",
-    "pubDate": "Fri, 27 Jun 2025 12:22:00 +0900",
-    "source": "ITmedia AI",
-    "url": "https://www.itmedia.co.jp/aiplus/articles/2506/27/news068.html",
-    "thumbnail": "https://image.itmedia.co.jp/aiplus/articles/2506/27/cover_news068.jpg"
-  },
-  {
     "title": "GPTs are GPTs: An early look at the labor market impact potential of large language models",
     "description": "",
     "summary": "",
@@ -5913,6 +5904,15 @@
     "thumbnail": "https://image.itmedia.co.jp/ait/articles/2506/30/cover_news020.jpg"
   },
   {
+    "title": "北朝鮮ITワーカーの不正収益、AIで巧妙化　米司法省が大規模摘発",
+    "description": "米司法省は、北朝鮮ITワーカーによる不正収益スキームの大規模な摘発を発表した。Microsoftによると、ワーカーはAIを悪用して身元を偽装し、活動を巧妙化させているという。司法省はラップトップファームの捜索や口座押収などの対策を講じた。",
+    "summary": "米司法省は、北朝鮮ITワーカーによる不正収益スキームの大規模な摘発を発表した。Microsoftによると、ワーカーはAIを悪用して身元を偽装し、活動を巧妙化させているという。司法省はラップトップファームの捜索や口座押収などの対策を講じた。",
+    "pubDate": "Tue, 01 Jul 2025 10:15:00 +0900",
+    "source": "ITmedia AI",
+    "url": "https://www.itmedia.co.jp/news/articles/2507/01/news062.html",
+    "thumbnail": "https://image.itmedia.co.jp/news/articles/2507/01/cover_news062.jpg"
+  },
+  {
     "title": "Our approach to data and AI",
     "description": "Just over a year after launching ChatGPT, AI is changing how we live, work and learn. It’s also raised important conversations about data in the age of AI. More on our approach, a new Media Manager for creators and content owners, and where we’re headed.",
     "summary": "Just over a year after launching ChatGPT, AI is changing how we live, work and learn. It’s also raised important conversations about data in the age of AI. More on our approach, a new Media Manager for creators and content owners, and where we’re headed.",
@@ -6856,6 +6856,15 @@
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/synthetic-data-generator",
     "thumbnail": "https://huggingface.co/blog/assets/synthetic-data-generator/_thumbnail.png"
+  },
+  {
+    "title": "「AI SHIFT SUMMIT 2025」レポート─企業の最前線に見るAIエージェント実装の今",
+    "description": "<p>2025年は「AIエージェント元年」とも呼ばれ、自律型AIの社会実装に注目が集まる年となっています。こうした潮流の中、株式会社AI Shift主催で開催された「AI SHIFT SUMMIT 2025」では、Micros [&#8230;]</p> <p>The post <a href='https://aismiley.co.jp/ai_news/ai-shift-summit-2025-ai-agent/'>「AI SHIFT SUMMIT 2025」レポート─企業の最前線に見るAIエージェント実装の今</a> first appeared on <a href='https://aismiley.co.jp'>AIポータルメディアAIsmiley</a>.</p>",
+    "summary": "<p>2025年は「AIエージェント元年」とも呼ばれ、自律型AIの社会実装に注目が集まる年となっています。こうした潮流の中、株式会社AI Shift主催で開催された「AI SHIFT SUMMIT 2025」では、Micros [&#8230;]</p> <p>The post <a href='https://aismiley.co.jp/ai_news/ai-shift-summit-2025-ai-agent/'>「AI SHIFT SUMMIT 2025」レポート─企業の最前線に見るAIエージェント実装の今</a> first appeared on <a href='https://aismiley.co.jp'>AIポータルメディアAIsmiley</a>.</p>",
+    "pubDate": "Tue, 01 Jul 2025 01:24:49 +0000",
+    "source": "AI Smily",
+    "url": "https://aismiley.co.jp/ai_news/ai-shift-summit-2025-ai-agent/",
+    "thumbnail": "https://aismiley.co.jp/wp-content/uploads/2025/06/main-1.png"
   },
   {
     "title": "Competitive self-play",
@@ -8322,7 +8331,7 @@
     "pubDate": "Tue, 05 Oct 2021 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/gradio-spaces",
-    "thumbnail": "https://huggingface.co/blog/assets/28_gradio-spaces/thumbnail.png"
+    "thumbnail": "https://cdn-media.huggingface.co/assets/huggingface_logo.svg"
   },
   {
     "title": "Text and code embeddings by contrastive pre-training",
@@ -9808,15 +9817,6 @@
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/hugging-face-wiz-security-blog",
     "thumbnail": "https://huggingface.co/blog/assets/wiz_security/security.png"
-  },
-  {
-    "title": "How do Probabilistic Graphical Models and Graph Neural Networks Look at Network Data?",
-    "description": "arXiv:2506.11869v2 Announce Type: replace-cross Abstract: Graphs are a powerful data structure for representing relational data and are widely used to describe complex real-world systems. Probabilistic Graphical Models (PGMs) and Graph Neural Networks (GNNs) can both leverage graph-structured data, but their inherent functioning is different. The question is how do they compare in capturing the information contained in networked datasets? We address this objective by solving a link prediction task and we conduct three main experiments, on both synthetic and real networks: one focuses on how PGMs and GNNs handle input features, while the other two investigate their robustness to noisy features and increasing heterophily of the graph. PGMs do not necessarily require features on nodes, while GNNs cannot exploit the network edges alone, and the choice of input features matters. We find that GNNs are outperformed by PGMs when input features are low-dimensional or noisy, mimicking many real scenarios where node attributes might be scalar or noisy. Then, we find that PGMs are more robust than GNNs when the heterophily of the graph is increased. Finally, to assess performance beyond prediction tasks, we also compare the two frameworks in terms of their computational complexity and interpretability.",
-    "summary": "arXiv:2506.11869v2 Announce Type: replace-cross Abstract: Graphs are a powerful data structure for representing relational data and are widely used to describe complex real-world systems. Probabilistic Graphical Models (PGMs) and Graph Neural Networks (GNNs) can both leverage graph-structured data, but their inherent functioning is different. The question is how do they compare in capturing the information contained in networked datasets? We address this objective by solving a link prediction task and we conduct three main experiments, on both synthetic and real networks: one focuses on how PGMs and GNNs handle input features, while the other two investigate their robustness to noisy features and increasing heterophily of the graph. PGMs do not necessarily require features on nodes, while GNNs cannot exploit the network edges alone, and the choice of input features matters. We find that GNNs are outperformed by PGMs when input features are low-dimensional or noisy, mimicking many real scenarios where node attributes might be scalar or noisy. Then, we find that PGMs are more robust than GNNs when the heterophily of the graph is increased. Finally, to assess performance beyond prediction tasks, we also compare the two frameworks in terms of their computational complexity and interpretability.",
-    "pubDate": "Mon, 30 Jun 2025 00:00:00 -0400",
-    "source": "arXiv AI",
-    "url": "https://arxiv.org/abs/2506.11869",
-    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/arxiv.png"
   },
   {
     "title": "Introducing Agents.js: Give tools to your LLMs using JavaScript",
@@ -11653,15 +11653,6 @@
     "source": "DeepMind Blog",
     "url": "https://deepmind.google/discover/blog/empowering-the-next-generation-for-an-ai-enabled-world/",
     "thumbnail": "https://lh3.googleusercontent.com/XJ10IR5bv5MmygxoFC0hrepTZtjq_Bwz69bL7d7jBy06fnEFodAa0tbIWKOwV7gW2Im3JY2GGda-xZKtVQhqcaozz6r_vdHXsgVu0CzyIhIz4VGs=w1200-h630-n-nu"
-  },
-  {
-    "title": "KMS、業務効率化サービス「DAIVERSE」にGPT-4.1とWeb情報登録機能を実装",
-    "description": "<p>KMSは、業務効率化サービス「DAIVERSE」に、Azure OpenAI ServiceのGPT-4.1モデルとWebサイト情報登録機能を実装しました。 このニュースのポイント 「DAIVERSE」にGPT-4.1モ [&#8230;]</p> <p>The post <a href='https://aismiley.co.jp/ai_news/kms-azure-openai-service/'>KMS、業務効率化サービス「DAIVERSE」にGPT-4.1とWeb情報登録機能を実装</a> first appeared on <a href='https://aismiley.co.jp'>AIポータルメディアAIsmiley</a>.</p>",
-    "summary": "<p>KMSは、業務効率化サービス「DAIVERSE」に、Azure OpenAI ServiceのGPT-4.1モデルとWebサイト情報登録機能を実装しました。 このニュースのポイント 「DAIVERSE」にGPT-4.1モ [&#8230;]</p> <p>The post <a href='https://aismiley.co.jp/ai_news/kms-azure-openai-service/'>KMS、業務効率化サービス「DAIVERSE」にGPT-4.1とWeb情報登録機能を実装</a> first appeared on <a href='https://aismiley.co.jp'>AIポータルメディアAIsmiley</a>.</p>",
-    "pubDate": "Fri, 13 Jun 2025 02:00:38 +0000",
-    "source": "AI Smily",
-    "url": "https://aismiley.co.jp/ai_news/kms-azure-openai-service/",
-    "thumbnail": "https://aismiley.co.jp/wp-content/uploads/2025/06/kms-azure-openai-service1.png"
   },
   {
     "title": "Evolving OpenAI’s structure",
