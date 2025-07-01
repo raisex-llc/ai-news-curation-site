@@ -4185,15 +4185,6 @@
     "thumbnail": "https://huggingface.co/blog/assets/intel-protein-language-model-protst/01.jpeg"
   },
   {
-    "title": "世界的YouTuber「MrBeast」さん、公開した「AIサムネイルツール」の提供取りやめ　X上での反発受け",
-    "description": "世界的なYouTuberと知られる「MrBeast」さんは、クリエイター向けに公開した「AIサムネイルツール」の提供を取りやめると発表した。",
-    "summary": "世界的なYouTuberと知られる「MrBeast」さんは、クリエイター向けに公開した「AIサムネイルツール」の提供を取りやめると発表した。",
-    "pubDate": "Sat, 28 Jun 2025 08:00:00 +0900",
-    "source": "ITmedia AI",
-    "url": "https://www.itmedia.co.jp/aiplus/articles/2506/28/news031.html",
-    "thumbnail": "https://image.itmedia.co.jp/aiplus/articles/2506/28/cover_news031.jpg"
-  },
-  {
     "title": "Introducing the Open Chain of Thought Leaderboard",
     "description": "",
     "summary": "Introducing the Open Chain of Thought Leaderboard Chain-of-thought prompting is emerging as a powerf...",
@@ -12274,6 +12265,15 @@
     "source": "OpenAI Blog",
     "url": "https://openai.com/blog/techniques-for-training-large-neural-networks",
     "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
+  },
+  {
+    "title": "SEM画像解析とAI活用、製造途中で性能を予測　日立製作所",
+    "description": "日立製作所と日立ハイテクは、製造ラインの立ち上げと歩留まり向上を支援する「プロセスインフォマティクス技術」を開発した。リチウムイオン電池の試作ラインに開発した技術を導入して検証したところ、中間工程品の段階において製品性能を高い精度で予測することに成功した。",
+    "summary": "日立製作所と日立ハイテクは、製造ラインの立ち上げと歩留まり向上を支援する「プロセスインフォマティクス技術」を開発した。リチウムイオン電池の試作ラインに開発した技術を導入して検証したところ、中間工程品の段階において製品性能を高い精度で予測することに成功した。",
+    "pubDate": "Tue, 01 Jul 2025 13:30:00 +0900",
+    "source": "ITmedia AI",
+    "url": "https://eetimes.itmedia.co.jp/ee/articles/2507/01/news037.html",
+    "thumbnail": "https://image.itmedia.co.jp/ee/articles/2507/01/cover_news037.jpg"
   },
   {
     "title": "Ask a Techspert: What is inference?",
