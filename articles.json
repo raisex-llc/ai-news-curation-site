@@ -5751,6 +5751,15 @@
     "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
   },
   {
+    "title": "Cloudflare、AI時代のクリエイター支援策を発表 「コンテンツ独立記念日」宣言",
+    "description": "Cloudflareは7月1日に「コンテンツ独立記念日」を宣言し、AI時代におけるクリエイターの権利保護と収益化を支援する新構想を発表した。AIクローラーをデフォルトでブロックし、コンテンツ利用に応じて課金する「pay per crawl」の導入などを目指す。",
+    "summary": "Cloudflareは7月1日に「コンテンツ独立記念日」を宣言し、AI時代におけるクリエイターの権利保護と収益化を支援する新構想を発表した。AIクローラーをデフォルトでブロックし、コンテンツ利用に応じて課金する「pay per crawl」の導入などを目指す。",
+    "pubDate": "Wed, 02 Jul 2025 07:38:00 +0900",
+    "source": "ITmedia AI",
+    "url": "https://www.itmedia.co.jp/news/articles/2507/02/news046.html",
+    "thumbnail": "https://image.itmedia.co.jp/news/articles/2507/02/cover_news046.jpg"
+  },
+  {
     "title": "PixelCNN++: Improving the PixelCNN with discretized logistic mixture likelihood and other modifications",
     "description": "",
     "summary": "",
@@ -6640,6 +6649,15 @@
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/tf_tpu",
     "thumbnail": "https://huggingface.co/blog/assets/tf_tpu_training/thumbnail.png"
+  },
+  {
+    "title": "エージェンティックAI固有の課題と対処法をまとめた資料をCSAが公開",
+    "description": "CSAジャパンはCSA本部が公開した「Agentic AI Red Teaming Guide」の日本語訳を発表した。このガイドはエージェンティックAIのレッドチーミング手法を提供し、その特有のリスクと脆弱性に対処するための指針を示している。",
+    "summary": "CSAジャパンはCSA本部が公開した「Agentic AI Red Teaming Guide」の日本語訳を発表した。このガイドはエージェンティックAIのレッドチーミング手法を提供し、その特有のリスクと脆弱性に対処するための指針を示している。",
+    "pubDate": "Wed, 02 Jul 2025 07:30:00 +0900",
+    "source": "ITmedia AI",
+    "url": "https://www.itmedia.co.jp/enterprise/articles/2507/02/news020.html",
+    "thumbnail": "https://image.itmedia.co.jp/enterprise/articles/2507/02/cover_news020.jpg"
   },
   {
     "title": "Adaptive Rank Allocation for Federated Parameter-Efficient Fine-Tuning of Language Models",
@@ -7756,15 +7774,6 @@
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/writer-case-study",
     "thumbnail": "https://huggingface.co/blog/assets/78_ml_director_insights/writer.png"
-  },
-  {
-    "title": "無料で使えるオープンソースAIエージェント「Gemini CLI」　Googleが発表",
-    "description": "Googleは、同社のLLM「Gemini」をターミナルで利用できるオープンソースのAIエージェント「Gemini CLI」を発表した。",
-    "summary": "Googleは、同社のLLM「Gemini」をターミナルで利用できるオープンソースのAIエージェント「Gemini CLI」を発表した。",
-    "pubDate": "Mon, 30 Jun 2025 08:00:00 +0900",
-    "source": "ITmedia AI",
-    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2506/30/news038.html",
-    "thumbnail": "https://image.itmedia.co.jp/ait/articles/2506/30/cover_news038.jpg"
   },
   {
     "title": "Introducing Stargate UAE",
@@ -14488,15 +14497,6 @@
     "source": "DeepMind Blog",
     "url": "https://deepmind.google/discover/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/",
     "thumbnail": "https://lh3.googleusercontent.com/tG6-MqdlvhQ-z7ENzGxR-kpGPPdPHbJ8UZtbTP66Rxi0UftTFU1yAvaBCVuigYuKvESMeEFf4jqNBVENFcZXEUnj8SSqj8zsop8UHAl0eD9A-hUCvQ=w1200-h630-n-nu"
-  },
-  {
-    "title": "Datadogが「AIエージェントの意志決定プロセス」を可視化するツールを発表",
-    "description": "DataDogは、「LLM Observability」の新機能を発表した。AIエージェントの動作全体を可視化するとともに、AIエージェントの管理を一元化するためのガバナンス体制の構築も支援するという。",
-    "summary": "DataDogは、「LLM Observability」の新機能を発表した。AIエージェントの動作全体を可視化するとともに、AIエージェントの管理を一元化するためのガバナンス体制の構築も支援するという。",
-    "pubDate": "Mon, 30 Jun 2025 08:00:00 +0900",
-    "source": "ITmedia AI",
-    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2506/30/news042.html",
-    "thumbnail": "https://image.itmedia.co.jp/ait/articles/2506/30/cover_news042.jpg"
   },
   {
     "title": "Benchmarking Deep Search over Heterogeneous Enterprise Data",
