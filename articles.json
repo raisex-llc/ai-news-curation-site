@@ -2439,15 +2439,6 @@
     "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
   },
   {
-    "title": "「ラーメンをゆでる」にも生成AIの時代が来たぞ",
-    "description": "ラーメンチェーン「ラーメン山岡家」が、麺をゆでる順番を処理する際、Amazonの生成AIサービス「Amazon Bedrock」を活用している、ということが明らかになった。画面の中のAIが、厨房という物理空間に降りてきた感じがして新鮮な事例だ。",
-    "summary": "ラーメンチェーン「ラーメン山岡家」が、麺をゆでる順番を処理する際、Amazonの生成AIサービス「Amazon Bedrock」を活用している、ということが明らかになった。画面の中のAIが、厨房という物理空間に降りてきた感じがして新鮮な事例だ。",
-    "pubDate": "Mon, 30 Jun 2025 11:39:00 +0900",
-    "source": "ITmedia AI",
-    "url": "https://www.itmedia.co.jp/news/articles/2506/30/news068.html",
-    "thumbnail": "https://image.itmedia.co.jp/news/articles/2506/30/cover_news068.jpg"
-  },
-  {
     "title": "Supercharged Searching on the Hugging Face Hub",
     "description": "",
     "summary": "Supercharged Searching on the Hugging Face Hub The huggingface_hub library is a lightweight interfac...",
@@ -13536,6 +13527,15 @@
     "thumbnail": "https://lh3.googleusercontent.com/tVTh_ZCW5Qozy4vOCpMH06B7Ac_eF7fmEULMMTwDellOh6hnOMUtf28toD68N527IHQTlBWfBCHcZykYPMdrS48yvuEcJKMJG8rU3YRM3u5Ojn3JXnc=w1200-h630-n-nu"
   },
   {
+    "title": "「視力を失った父に、AIを使わせてあげたい」　プログラミング未経験の娘が「季語ツール」を開発するまで",
+    "description": "病気で突然、視力を失った父。娘は「何とかして父のやる気を取り戻してあげたい」と、バイブコーディングを始めた。",
+    "summary": "病気で突然、視力を失った父。娘は「何とかして父のやる気を取り戻してあげたい」と、バイブコーディングを始めた。",
+    "pubDate": "Wed, 02 Jul 2025 11:58:00 +0900",
+    "source": "ITmedia AI",
+    "url": "https://www.itmedia.co.jp/aiplus/articles/2507/02/news061.html",
+    "thumbnail": "https://image.itmedia.co.jp/aiplus/articles/2507/02/cover_news061.png"
+  },
+  {
     "title": "Unified Multimodal Understanding via Byte-Pair Visual Encoding",
     "description": "arXiv:2506.23639v1 Announce Type: cross Abstract: Multimodal large language models (MLLMs) have made significant progress in vision-language understanding, yet effectively aligning different modalities remains a fundamental challenge. We present a framework that unifies multimodal understanding by applying byte-pair encoding to visual tokens. Unlike conventional approaches that rely on modality-specific encoders, our method directly incorporates structural information into visual tokens, mirroring successful tokenization strategies in text-only language models. We introduce a priority-guided encoding scheme that considers both frequency and spatial consistency, coupled with a multi-stage training procedure based on curriculum-driven data composition. These enhancements enable the transformer model to better capture cross-modal relationships and reason with visual information. Comprehensive experiments demonstrate improved performance across diverse vision-language tasks. By bridging the gap between visual and textual representations, our approach contributes to the advancement of more capable and efficient multimodal foundation models.",
     "summary": "arXiv:2506.23639v1 Announce Type: cross Abstract: Multimodal large language models (MLLMs) have made significant progress in vision-language understanding, yet effectively aligning different modalities remains a fundamental challenge. We present a framework that unifies multimodal understanding by applying byte-pair encoding to visual tokens. Unlike conventional approaches that rely on modality-specific encoders, our method directly incorporates structural information into visual tokens, mirroring successful tokenization strategies in text-only language models. We introduce a priority-guided encoding scheme that considers both frequency and spatial consistency, coupled with a multi-stage training procedure based on curriculum-driven data composition. These enhancements enable the transformer model to better capture cross-modal relationships and reason with visual information. Comprehensive experiments demonstrate improved performance across diverse vision-language tasks. By bridging the gap between visual and textual representations, our approach contributes to the advancement of more capable and efficient multimodal foundation models.",
@@ -13713,7 +13713,7 @@
     "pubDate": "Thu, 26 Jun 2025 16:08:25 +0000",
     "source": "Microsoft Research Blog",
     "url": "https://www.microsoft.com/en-us/research/blog/padchest-gr-a-bilingual-grounded-radiology-reporting-benchmark-for-chest-x-rays/",
-    "thumbnail": "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31&h=30"
+    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
   },
   {
     "title": "Uber enables outstanding on-demand experiences with AI",
