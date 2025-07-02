@@ -366,7 +366,7 @@
     "pubDate": "Tue, 14 Sep 2021 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/hardware-partners-program",
-    "thumbnail": "https://huggingface.co/front/thumbnails/v2-2.png"
+    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
   },
   {
     "title": "Disrupting deceptive uses of AI by covert influence operations",
@@ -645,7 +645,7 @@
     "pubDate": "Thu, 11 Jul 2024 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/winning-aimo-progress-prize",
-    "thumbnail": "https://huggingface.co/blog/assets/winning-aimo-progress-prize/thumbnail.png"
+    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
   },
   {
     "title": "Putting AI to work at Upwork",
@@ -1725,7 +1725,7 @@
     "pubDate": "Fri, 14 Feb 2025 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/fireworks-ai",
-    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
+    "thumbnail": "https://huggingface.co/blog/assets/inference-providers/welcome-fireworks.jpg"
   },
   {
     "title": "A Theory of Inference Compute Scaling: Reasoning through Directed Stochastic Skill Search",
@@ -2400,7 +2400,7 @@
     "pubDate": "Tue, 05 Dec 2023 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/lora-adapters-dynamic-loading",
-    "thumbnail": "https://huggingface.co/blog/assets/171_load_lora_adapters/thumbnail3.png"
+    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
   },
   {
     "title": "Introducing Gemma 3",
@@ -5523,7 +5523,7 @@
     "pubDate": "Mon, 25 Mar 2024 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/pollen-vision",
-    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
+    "thumbnail": "https://huggingface.co/blog/assets/pollen-vision/thumbnail.jpg"
   },
   {
     "title": "How AI training scales",
@@ -6360,7 +6360,7 @@
     "pubDate": "Fri, 01 Dec 2023 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/open-llm-leaderboard-drop",
-    "thumbnail": "https://huggingface.co/blog/assets/evaluating-mmlu-leaderboard/thumbnail.png"
+    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
   },
   {
     "title": "Fuel your creativity with new generative media models and tools",
@@ -9978,7 +9978,7 @@
     "pubDate": "Mon, 02 Jan 2023 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/intel-sapphire-rapids",
-    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
+    "thumbnail": "https://huggingface.co/blog/assets/124_intel_sapphire_rapids/02.png"
   },
   {
     "title": "Hugging Face partners with Wiz Research to Improve AI Security",
@@ -10563,7 +10563,7 @@
     "pubDate": "Fri, 04 Aug 2023 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/run-musicgen-as-an-api",
-    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
+    "thumbnail": "https://huggingface.co/blog/assets/run-musicgen-as-an-api/thumbnail.png"
   },
   {
     "title": "Assisted Generation: a new direction toward low-latency text generation",
@@ -12822,7 +12822,7 @@
     "pubDate": "Wed, 22 Jan 2025 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/friendliai-partnership",
-    "thumbnail": "https://huggingface.co/blog/assets/friendliai-partnership/thumbnail.png"
+    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
   },
   {
     "title": "Against 'softmaxing' culture",
