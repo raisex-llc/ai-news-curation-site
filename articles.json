@@ -969,7 +969,7 @@
     "pubDate": "Mon, 28 Mar 2022 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/decision-transformers",
-    "thumbnail": "https://huggingface.co/blog/assets/58_decision-transformers/thumbnail.jpg"
+    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
   },
   {
     "title": "OpenAI and Apple announce partnership",
@@ -7323,7 +7323,7 @@
     "pubDate": "Mon, 12 Aug 2024 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/falconmamba",
-    "thumbnail": "https://huggingface.co/blog/assets/falconmamba/thumbnail.png"
+    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
   },
   {
     "title": "TalentMine: LLM-Based Extraction and Question-Answering from Multimodal Talent Tables",
@@ -7611,7 +7611,7 @@
     "pubDate": "Mon, 02 Dec 2024 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/eu-ai-act-for-oss-developers",
-    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
+    "thumbnail": "https://huggingface.co/blog/assets/189_eu-ai-act-for-oss-developers/thumbnail.png"
   },
   {
     "title": "Hugging Face to sell open-source robots thanks to Pollen Robotics acquisition 🤖",
@@ -9492,7 +9492,7 @@
     "pubDate": "Wed, 14 Aug 2024 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/infini-attention",
-    "thumbnail": "https://huggingface.co/blog/infini-attention/assets/185_infini_attention/infini_attention_thumbnail.png"
+    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
   },
   {
     "title": "Announcing the 🤗 AI Research Residency Program",
@@ -11724,7 +11724,7 @@
     "pubDate": "Tue, 14 Sep 2021 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/graphcore",
-    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
+    "thumbnail": "https://huggingface.co/blog/assets/26_graphcore-ipu/thumbnail.png"
   },
   {
     "title": "Augmenting Molecular Graphs with Geometries via Machine Learning Interatomic Potentials",
@@ -12004,6 +12004,15 @@
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/falcon3",
     "thumbnail": "https://huggingface.co/blog/assets/falcon3/thumbnail.png"
+  },
+  {
+    "title": "The latest AI news we announced in June",
+    "description": "an mp4 carousel of images shoe people and dark blue icons including a magnifying glass",
+    "summary": "an mp4 carousel of images shoe people and dark blue icons including a magnifying glass",
+    "pubDate": "Wed, 02 Jul 2025 16:00:00 +0000",
+    "source": "Google AI Blog",
+    "url": "https://blog.google/technology/ai/google-ai-updates-june-2025/",
+    "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/June_AI_Recap_social-share.width-1300.png"
   },
   {
     "title": "Horus: A Protocol for Trustless Delegation Under Uncertainty",
@@ -13929,7 +13938,7 @@
     "pubDate": "Mon, 09 Jan 2023 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/ml-for-games-2",
-    "thumbnail": "https://huggingface.co/blog/assets/124_ml-for-games/thumbnail2.png"
+    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
   },
   {
     "title": "Fine-tuning 20B LLMs with RLHF on a 24GB consumer GPU",
@@ -14101,15 +14110,6 @@
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/codellama",
     "thumbnail": "https://huggingface.co/blog/assets/160_codellama/thumbnail.jpg"
-  },
-  {
-    "title": "The latest AI news we announced in May",
-    "description": "an mp4 showing a carousel of images including a collage of people, an illustrated graph with codes and the characters 'I/O'",
-    "summary": "an mp4 showing a carousel of images including a collage of people, an illustrated graph with codes and the characters 'I/O'",
-    "pubDate": "Thu, 05 Jun 2025 18:30:00 +0000",
-    "source": "Google AI Blog",
-    "url": "https://blog.google/technology/ai/google-ai-updates-may-2025/",
-    "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/May_AI_roundup_ss.width-1300.png"
   },
   {
     "title": "Some considerations on learning to explore via meta-reinforcement learning",
@@ -14325,7 +14325,7 @@
     "pubDate": "Tue, 01 Jul 2025 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/train-sparse-encoder",
-    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
+    "thumbnail": "https://huggingface.co/blog/assets/train-sentence-transformers/st-hf-thumbnail.png"
   },
   {
     "title": "Fine-tuning GPT-3 to scale video creation",
@@ -14568,7 +14568,7 @@
     "pubDate": "Wed, 15 Feb 2023 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/blip-2",
-    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
+    "thumbnail": "https://huggingface.co/blog/assets/blip-2/thumbnail.png"
   },
   {
     "title": "OpenAI Gym Beta",
