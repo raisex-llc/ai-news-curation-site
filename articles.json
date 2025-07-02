@@ -9738,15 +9738,6 @@
     "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/arxiv.png"
   },
   {
-    "title": "Google、敵に塩を送る？　OpenAIと協業──“緊張感”あるその内容",
-    "description": "米OpenAIはこのほど、ChatGPTやその他のプロダクトを稼働させるため、米Googleが開発したAI用半導体をレンタルし始めた。関係者がロイター通信に明かした。",
-    "summary": "米OpenAIはこのほど、ChatGPTやその他のプロダクトを稼働させるため、米Googleが開発したAI用半導体をレンタルし始めた。関係者がロイター通信に明かした。",
-    "pubDate": "Mon, 30 Jun 2025 14:50:00 +0900",
-    "source": "ITmedia AI",
-    "url": "https://www.itmedia.co.jp/business/articles/2506/30/news099.html",
-    "thumbnail": "https://image.itmedia.co.jp/business/articles/2506/30/cover_news099.jpg"
-  },
-  {
     "title": "DALL·E 2 research preview update",
     "description": "Early users have created over 3 million images to date and helped us improve our safety processes. We’re excited to begin adding up to 1,000 new users from our waitlist each week.",
     "summary": "Early users have created over 3 million images to date and helped us improve our safety processes. We’re excited to begin adding up to 1,000 new users from our waitlist each week.",
@@ -13480,6 +13471,15 @@
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/gradient_accumulation",
     "thumbnail": "https://huggingface.co/blog/assets/gradient_accumulation/gradient_accumulation.png"
+  },
+  {
+    "title": "AWSが日本に2兆円投資する理由　大規模イベントで語られた未来の姿",
+    "description": "「AWS Summit Japan 2025」の基調講演において、AWSが日本市場に2兆2600億円を投資し、生成AIやクラウドを基盤とするビジネス変革、人材育成、社会課題解決を支援する姿勢を明確にした。",
+    "summary": "「AWS Summit Japan 2025」の基調講演において、AWSが日本市場に2兆2600億円を投資し、生成AIやクラウドを基盤とするビジネス変革、人材育成、社会課題解決を支援する姿勢を明確にした。",
+    "pubDate": "Wed, 02 Jul 2025 17:00:00 +0900",
+    "source": "ITmedia AI",
+    "url": "https://www.itmedia.co.jp/enterprise/articles/2507/02/news051.html",
+    "thumbnail": "https://image.itmedia.co.jp/enterprise/articles/2507/02/cover_news051.jpg"
   },
   {
     "title": "Discovering types for entity disambiguation",
