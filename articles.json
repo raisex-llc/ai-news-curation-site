@@ -969,7 +969,7 @@
     "pubDate": "Mon, 28 Mar 2022 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/decision-transformers",
-    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
+    "thumbnail": "https://huggingface.co/blog/assets/58_decision-transformers/thumbnail.jpg"
   },
   {
     "title": "OpenAI and Apple announce partnership",
@@ -1725,7 +1725,7 @@
     "pubDate": "Fri, 14 Feb 2025 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/fireworks-ai",
-    "thumbnail": "https://huggingface.co/blog/assets/inference-providers/welcome-fireworks.jpg"
+    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
   },
   {
     "title": "A Theory of Inference Compute Scaling: Reasoning through Directed Stochastic Skill Search",
@@ -5523,7 +5523,7 @@
     "pubDate": "Mon, 25 Mar 2024 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/pollen-vision",
-    "thumbnail": "https://huggingface.co/blog/assets/pollen-vision/thumbnail.jpg"
+    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
   },
   {
     "title": "How AI training scales",
@@ -7323,7 +7323,7 @@
     "pubDate": "Mon, 12 Aug 2024 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/falconmamba",
-    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
+    "thumbnail": "https://huggingface.co/blog/assets/falconmamba/thumbnail.png"
   },
   {
     "title": "TalentMine: LLM-Based Extraction and Question-Answering from Multimodal Talent Tables",
@@ -9492,7 +9492,7 @@
     "pubDate": "Wed, 14 Aug 2024 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/infini-attention",
-    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
+    "thumbnail": "https://huggingface.co/blog/infini-attention/assets/185_infini_attention/infini_attention_thumbnail.png"
   },
   {
     "title": "Announcing the 🤗 AI Research Residency Program",
@@ -9978,7 +9978,7 @@
     "pubDate": "Mon, 02 Jan 2023 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/intel-sapphire-rapids",
-    "thumbnail": "https://huggingface.co/blog/assets/124_intel_sapphire_rapids/02.png"
+    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
   },
   {
     "title": "Hugging Face partners with Wiz Research to Improve AI Security",
@@ -10563,7 +10563,7 @@
     "pubDate": "Fri, 04 Aug 2023 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/run-musicgen-as-an-api",
-    "thumbnail": "https://huggingface.co/blog/assets/run-musicgen-as-an-api/thumbnail.png"
+    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
   },
   {
     "title": "Assisted Generation: a new direction toward low-latency text generation",
@@ -13938,7 +13938,7 @@
     "pubDate": "Mon, 09 Jan 2023 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/ml-for-games-2",
-    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
+    "thumbnail": "https://huggingface.co/blog/assets/124_ml-for-games/thumbnail2.png"
   },
   {
     "title": "Fine-tuning 20B LLMs with RLHF on a 24GB consumer GPU",
@@ -14325,7 +14325,7 @@
     "pubDate": "Tue, 01 Jul 2025 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/train-sparse-encoder",
-    "thumbnail": "https://huggingface.co/blog/assets/train-sentence-transformers/st-hf-thumbnail.png"
+    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
   },
   {
     "title": "Fine-tuning GPT-3 to scale video creation",
