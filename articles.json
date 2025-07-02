@@ -1356,7 +1356,7 @@
     "pubDate": "Tue, 08 Oct 2024 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/dynamic_speculation_lookahead",
-    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
+    "thumbnail": "https://huggingface.co/blog/assets/optimum_intel/intel_thumbnail.png"
   },
   {
     "title": "PaliGemma 2 Mix - New Instruction Vision Language Models by Google",
@@ -1626,7 +1626,7 @@
     "pubDate": "Thu, 03 Nov 2022 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/fine-tune-whisper",
-    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
+    "thumbnail": "https://huggingface.co/blog/assets/111_fine_tune_whisper/thumbnail.jpg"
   },
   {
     "title": "Introducing the LiveCodeBench Leaderboard - Holistic and Contamination-Free Evaluation of Code LLMs",
@@ -2571,7 +2571,7 @@
     "pubDate": "Wed, 13 Apr 2022 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/lewis-tunstall-interview",
-    "thumbnail": "https://huggingface.co/blog/assets/60_lewis_tunstall_interview/thumbnail.png"
+    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -6765,7 +6765,7 @@
     "pubDate": "Sat, 01 Jul 2023 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/writer-case-study",
-    "thumbnail": "https://huggingface.co/blog/assets/78_ml_director_insights/writer.png"
+    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
   },
   {
     "title": "Introducing Stargate UAE",
@@ -6801,7 +6801,7 @@
     "pubDate": "Tue, 18 Feb 2025 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/inference-providers-nebius-novita-hyperbolic",
-    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
+    "thumbnail": "https://huggingface.co/blog/assets/inference-providers/second-batch-thumbnail.webp"
   },
   {
     "title": "AI stirs up the recipe for concrete in MIT study",
@@ -8919,13 +8919,13 @@
     "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/arxiv.png"
   },
   {
-    "title": "Archaic、日本語特化型RAGシステムAIを開発。製造業分野でトップクラスの正答率",
-    "description": "<p>Archaicは日本語業務文書に特化したRAGシステムAIを開発。公開ベンチマークの評価データセットで製造業カテゴリと全体平均でトップクラスの正答率を記録しました。 このニュースのポイント 日本語業務文書に特化したRAG [&#8230;]</p> <p>The post <a href='https://aismiley.co.jp/ai_news/archaic-develops-japanese-specific-rag/'>Archaic、日本語特化型RAGシステムAIを開発。製造業分野でトップクラスの正答率</a> first appeared on <a href='https://aismiley.co.jp'>AIポータルメディアAIsmiley</a>.</p>",
-    "summary": "<p>Archaicは日本語業務文書に特化したRAGシステムAIを開発。公開ベンチマークの評価データセットで製造業カテゴリと全体平均でトップクラスの正答率を記録しました。 このニュースのポイント 日本語業務文書に特化したRAG [&#8230;]</p> <p>The post <a href='https://aismiley.co.jp/ai_news/archaic-develops-japanese-specific-rag/'>Archaic、日本語特化型RAGシステムAIを開発。製造業分野でトップクラスの正答率</a> first appeared on <a href='https://aismiley.co.jp'>AIポータルメディアAIsmiley</a>.</p>",
-    "pubDate": "Wed, 18 Jun 2025 05:51:09 +0000",
+    "title": "【7/18開催ウェビナー】ローカルLLMの大本命「Qwen3」×継続事前学習の解説＆デモ 1250万ダウンロードを突破した世界が注目するLLM",
+    "description": "<p>AIポータルメディア「AIsmiley」は、2025年7月18日（金）12時からLLMをテーマにウェビナーを開催します。 アリババが開発した注目のオープンソースLLM「Qwen3」！ OpenAI o1やDeepSeek [&#8230;]</p> <p>The post <a href='https://aismiley.co.jp/ai_news/20250718webinar/'>【7/18開催ウェビナー】ローカルLLMの大本命「Qwen3」×継続事前学習の解説＆デモ 1250万ダウンロードを突破した世界が注目するLLM</a> first appeared on <a href='https://aismiley.co.jp'>AIポータルメディアAIsmiley</a>.</p>",
+    "summary": "<p>AIポータルメディア「AIsmiley」は、2025年7月18日（金）12時からLLMをテーマにウェビナーを開催します。 アリババが開発した注目のオープンソースLLM「Qwen3」！ OpenAI o1やDeepSeek [&#8230;]</p> <p>The post <a href='https://aismiley.co.jp/ai_news/20250718webinar/'>【7/18開催ウェビナー】ローカルLLMの大本命「Qwen3」×継続事前学習の解説＆デモ 1250万ダウンロードを突破した世界が注目するLLM</a> first appeared on <a href='https://aismiley.co.jp'>AIポータルメディアAIsmiley</a>.</p>",
+    "pubDate": "Wed, 02 Jul 2025 07:24:05 +0000",
     "source": "AI Smily",
-    "url": "https://aismiley.co.jp/ai_news/archaic-develops-japanese-specific-rag/",
-    "thumbnail": "https://aismiley.co.jp/wp-content/uploads/2025/06/Archaic-develops-Japanese-specific-RAG1.png"
+    "url": "https://aismiley.co.jp/ai_news/20250718webinar/",
+    "thumbnail": "https://aismiley.co.jp/wp-content/uploads/2025/06/717_1200x628_5.jpg"
   },
   {
     "title": "Introducing the Private Hub: A New Way to Build With Machine Learning",
@@ -10140,7 +10140,7 @@
     "pubDate": "Wed, 31 Mar 2021 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/big-bird",
-    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
+    "thumbnail": "https://huggingface.co/blog/assets/18_big_bird/attn.png"
   },
   {
     "title": "Genmab launches “AI Everywhere”",
@@ -11031,7 +11031,7 @@
     "pubDate": "Thu, 19 Jun 2025 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/flux-qlora",
-    "thumbnail": "https://huggingface.co/blog/assets/flux-qlora/thumbnail.png"
+    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
   },
   {
     "title": "Welcome Gemma 3: Google's all new multimodal, multilingual, long context open LLM",
@@ -12570,7 +12570,7 @@
     "pubDate": "Mon, 08 Apr 2024 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/policy-blog",
-    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
+    "thumbnail": "https://huggingface.co/blog/assets/policy_docs/policy_blog_thumbnail.png"
   },
   {
     "title": "Driving scalable growth with OpenAI o3, GPT-4.1, and CUA",
@@ -13326,7 +13326,7 @@
     "pubDate": "Tue, 13 Aug 2024 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/introduction-to-ggml",
-    "thumbnail": "https://huggingface.co/blog/assets/introduction-to-ggml/cover.jpg"
+    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
   },
   {
     "title": "From PyTorch DDP to 🤗 Accelerate to 🤗 Trainer, mastery of distributed training with ease",
@@ -14532,7 +14532,7 @@
     "pubDate": "Wed, 21 Dec 2022 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/clipseg-zero-shot",
-    "thumbnail": "https://huggingface.co/blog/assets/123_clipseg-zero-shot/thumb.png"
+    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
   },
   {
     "title": "Llama can now see and run on your device - welcome Llama 3.2",
