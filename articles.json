@@ -2571,7 +2571,7 @@
     "pubDate": "Wed, 13 Apr 2022 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/lewis-tunstall-interview",
-    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
+    "thumbnail": "https://huggingface.co/blog/assets/60_lewis_tunstall_interview/thumbnail.png"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -3201,7 +3201,7 @@
     "pubDate": "Mon, 18 Dec 2023 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/2023-in-llms",
-    "thumbnail": "https://huggingface.co/blog/assets/cv_state/thumbnail.png"
+    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
   },
   {
     "title": "Creating an AI-powered Magic Studio",
@@ -4434,7 +4434,7 @@
     "pubDate": "Wed, 29 Jun 2022 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/your-first-ml-project",
-    "thumbnail": "https://huggingface.co/blog/assets/84_first_ml_project/thumbnail.png"
+    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
   },
   {
     "title": "Beyond Code: The Multidimensional Impacts of Large Language Models in Software Development",
@@ -6120,6 +6120,15 @@
     "thumbnail": "https://huggingface.co/blog/assets/150_autoformer/thumbnail.png"
   },
   {
+    "title": "Perplexityも月額200ドルの「Max」プラン提供開始",
+    "description": "AI検索エンジンのPerplexityが、月額200ドルの最上位プラン「Perplexity Max」の提供を開始した。Proプランの機能に加え、エージェントブラウザ「Comet」への早期アクセスや、Perplexity Labsへの無制限アクセスなどが可能になる。",
+    "summary": "AI検索エンジンのPerplexityが、月額200ドルの最上位プラン「Perplexity Max」の提供を開始した。Proプランの機能に加え、エージェントブラウザ「Comet」への早期アクセスや、Perplexity Labsへの無制限アクセスなどが可能になる。",
+    "pubDate": "Thu, 03 Jul 2025 06:55:00 +0900",
+    "source": "ITmedia AI",
+    "url": "https://www.itmedia.co.jp/aiplus/articles/2507/03/news054.html",
+    "thumbnail": "https://image.itmedia.co.jp/aiplus/articles/2507/03/cover_news054.jpg"
+  },
+  {
     "title": "SetFitABSA: Few-Shot Aspect Based Sentiment Analysis using SetFit",
     "description": "",
     "summary": "SetFitABSA: Few-Shot Aspect Based Sentiment Analysis using SetFit SetFitABSA is an efficient techniq...",
@@ -6765,7 +6774,7 @@
     "pubDate": "Sat, 01 Jul 2023 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/writer-case-study",
-    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
+    "thumbnail": "https://huggingface.co/blog/assets/78_ml_director_insights/writer.png"
   },
   {
     "title": "Introducing Stargate UAE",
@@ -7548,7 +7557,7 @@
     "pubDate": "Fri, 14 Feb 2025 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/math_verify_leaderboard",
-    "thumbnail": "https://huggingface.co/blog/assets/math_verify_leaderboard/thumbnail.png"
+    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
   },
   {
     "title": "Training Stable Diffusion with Dreambooth using 🧨 Diffusers",
@@ -8919,13 +8928,13 @@
     "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/arxiv.png"
   },
   {
-    "title": "【7/18開催ウェビナー】ローカルLLMの大本命「Qwen3」×継続事前学習の解説＆デモ 1250万ダウンロードを突破した世界が注目するLLM",
-    "description": "<p>AIポータルメディア「AIsmiley」は、2025年7月18日（金）12時からLLMをテーマにウェビナーを開催します。 アリババが開発した注目のオープンソースLLM「Qwen3」！ OpenAI o1やDeepSeek [&#8230;]</p> <p>The post <a href='https://aismiley.co.jp/ai_news/20250718webinar/'>【7/18開催ウェビナー】ローカルLLMの大本命「Qwen3」×継続事前学習の解説＆デモ 1250万ダウンロードを突破した世界が注目するLLM</a> first appeared on <a href='https://aismiley.co.jp'>AIポータルメディアAIsmiley</a>.</p>",
-    "summary": "<p>AIポータルメディア「AIsmiley」は、2025年7月18日（金）12時からLLMをテーマにウェビナーを開催します。 アリババが開発した注目のオープンソースLLM「Qwen3」！ OpenAI o1やDeepSeek [&#8230;]</p> <p>The post <a href='https://aismiley.co.jp/ai_news/20250718webinar/'>【7/18開催ウェビナー】ローカルLLMの大本命「Qwen3」×継続事前学習の解説＆デモ 1250万ダウンロードを突破した世界が注目するLLM</a> first appeared on <a href='https://aismiley.co.jp'>AIポータルメディアAIsmiley</a>.</p>",
-    "pubDate": "Wed, 02 Jul 2025 07:24:05 +0000",
+    "title": "Archaic、日本語特化型RAGシステムAIを開発。製造業分野でトップクラスの正答率",
+    "description": "<p>Archaicは日本語業務文書に特化したRAGシステムAIを開発。公開ベンチマークの評価データセットで製造業カテゴリと全体平均でトップクラスの正答率を記録しました。 このニュースのポイント 日本語業務文書に特化したRAG [&#8230;]</p> <p>The post <a href='https://aismiley.co.jp/ai_news/archaic-develops-japanese-specific-rag/'>Archaic、日本語特化型RAGシステムAIを開発。製造業分野でトップクラスの正答率</a> first appeared on <a href='https://aismiley.co.jp'>AIポータルメディアAIsmiley</a>.</p>",
+    "summary": "<p>Archaicは日本語業務文書に特化したRAGシステムAIを開発。公開ベンチマークの評価データセットで製造業カテゴリと全体平均でトップクラスの正答率を記録しました。 このニュースのポイント 日本語業務文書に特化したRAG [&#8230;]</p> <p>The post <a href='https://aismiley.co.jp/ai_news/archaic-develops-japanese-specific-rag/'>Archaic、日本語特化型RAGシステムAIを開発。製造業分野でトップクラスの正答率</a> first appeared on <a href='https://aismiley.co.jp'>AIポータルメディアAIsmiley</a>.</p>",
+    "pubDate": "Wed, 18 Jun 2025 05:51:09 +0000",
     "source": "AI Smily",
-    "url": "https://aismiley.co.jp/ai_news/20250718webinar/",
-    "thumbnail": "https://aismiley.co.jp/wp-content/uploads/2025/06/717_1200x628_5.jpg"
+    "url": "https://aismiley.co.jp/ai_news/archaic-develops-japanese-specific-rag/",
+    "thumbnail": "https://aismiley.co.jp/wp-content/uploads/2025/06/Archaic-develops-Japanese-specific-RAG1.png"
   },
   {
     "title": "Introducing the Private Hub: A New Way to Build With Machine Learning",
@@ -9916,15 +9925,6 @@
     "source": "AI Smily",
     "url": "https://aismiley.co.jp/ai_news/20250716webinar/",
     "thumbnail": "https://aismiley.co.jp/wp-content/uploads/2025/06/700_1200x628.jpg"
-  },
-  {
-    "title": "OpenAIがGoogleのAIチップ採用　非NVIDIA製を初めて使用",
-    "description": "米OpenAIがChatGPTなどの製品向けに、Google製AIチップの利用を始めた。関係者がロイターに明かした。",
-    "summary": "米OpenAIがChatGPTなどの製品向けに、Google製AIチップの利用を始めた。関係者がロイターに明かした。",
-    "pubDate": "Mon, 30 Jun 2025 18:21:00 +0900",
-    "source": "ITmedia AI",
-    "url": "https://www.itmedia.co.jp/news/articles/2506/30/news120.html",
-    "thumbnail": "https://image.itmedia.co.jp/news/articles/2506/30/cover_news120.jpg"
   },
   {
     "title": "Improving health literacy and patient well-being",
@@ -11031,7 +11031,7 @@
     "pubDate": "Thu, 19 Jun 2025 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/flux-qlora",
-    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
+    "thumbnail": "https://huggingface.co/blog/assets/flux-qlora/thumbnail.png"
   },
   {
     "title": "Welcome Gemma 3: Google's all new multimodal, multilingual, long context open LLM",
@@ -11817,6 +11817,15 @@
     "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/capability__native-audio_16-9_121.width-1300.jpg"
   },
   {
+    "title": "生成AIとの会話で“あなたにぴったりの商品”提案　「Yahoo!ショッピング」新機能",
+    "description": "「Yahoo!ショッピング」iOS版で、生成AIとの会話を通じ、ユーザーにマッチした商品を提案する機能。",
+    "summary": "「Yahoo!ショッピング」iOS版で、生成AIとの会話を通じ、ユーザーにマッチした商品を提案する機能。",
+    "pubDate": "Thu, 03 Jul 2025 06:37:00 +0900",
+    "source": "ITmedia AI",
+    "url": "https://www.itmedia.co.jp/aiplus/articles/2507/03/news053.html",
+    "thumbnail": "https://image.itmedia.co.jp/aiplus/articles/2507/03/cover_news053.png"
+  },
+  {
     "title": "Filling crucial language learning gaps",
     "description": "GPT-4 deepens the conversation on Duolingo.",
     "summary": "GPT-4 deepens the conversation on Duolingo.",
@@ -12229,15 +12238,6 @@
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/cost-efficient-rag-applications-with-intel",
     "thumbnail": "https://huggingface.co/blog/assets/cost_efficient_rag_applications_with_intel/main.jpg"
-  },
-  {
-    "title": "［Pythonクイズ］リスト結合ってやり方はいろいろあるけれど、正しく使えていますか？",
-    "description": "複数あるリストを結合してひとまとめにしたいときってありますよね。多くの場合は+演算子を使えばいいでしょう。でも、それ以外にもいろいろな方法があります。知らない方法もあるかもしれませんよ！",
-    "summary": "複数あるリストを結合してひとまとめにしたいときってありますよね。多くの場合は+演算子を使えばいいでしょう。でも、それ以外にもいろいろな方法があります。知らない方法もあるかもしれませんよ！",
-    "pubDate": "Tue, 01 Jul 2025 05:00:00 +0900",
-    "source": "ITmedia AI",
-    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2507/01/news015.html",
-    "thumbnail": "https://image.itmedia.co.jp/ait/articles/2507/01/cover_news015.jpg"
   },
   {
     "title": "A landmark multi-year global partnership with News Corp",
@@ -12912,7 +12912,7 @@
     "pubDate": "Tue, 06 Aug 2024 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/2024-security-features",
-    "thumbnail": "https://huggingface.co/blog/assets/2024-security-features/thumbnail.png"
+    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
   },
   {
     "title": "Learning from human preferences",
@@ -13326,7 +13326,7 @@
     "pubDate": "Tue, 13 Aug 2024 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/introduction-to-ggml",
-    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
+    "thumbnail": "https://huggingface.co/blog/assets/introduction-to-ggml/cover.jpg"
   },
   {
     "title": "From PyTorch DDP to 🤗 Accelerate to 🤗 Trainer, mastery of distributed training with ease",
@@ -14532,7 +14532,7 @@
     "pubDate": "Wed, 21 Dec 2022 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/clipseg-zero-shot",
-    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
+    "thumbnail": "https://huggingface.co/blog/assets/123_clipseg-zero-shot/thumb.png"
   },
   {
     "title": "Llama can now see and run on your device - welcome Llama 3.2",
