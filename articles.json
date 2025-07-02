@@ -4599,6 +4599,15 @@
     "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
   },
   {
+    "title": "OpenAI、競技プログラミング「AtCoder」世界大会のスポンサーに　人間 vs. AIのエキシビションマッチも",
+    "description": "競技プログラミングコンテストサイト「AtCoder」を運営するAtCoder社は、同社が主催する世界大会「AtCoder World Tour Finals 2025」に、米OpenAIがスポンサーとして参画すると発表した。",
+    "summary": "競技プログラミングコンテストサイト「AtCoder」を運営するAtCoder社は、同社が主催する世界大会「AtCoder World Tour Finals 2025」に、米OpenAIがスポンサーとして参画すると発表した。",
+    "pubDate": "Wed, 02 Jul 2025 14:26:00 +0900",
+    "source": "ITmedia AI",
+    "url": "https://www.itmedia.co.jp/aiplus/articles/2507/02/news072.html",
+    "thumbnail": "https://image.itmedia.co.jp/aiplus/articles/2507/02/cover_news072.jpg"
+  },
+  {
     "title": "GLM-4.1V-Thinking: Towards Versatile Multimodal Reasoning with Scalable Reinforcement Learning",
     "description": "arXiv:2507.01006v1 Announce Type: cross Abstract: We present GLM-4.1V-Thinking, a vision-language model (VLM) designed to advance general-purpose multimodal reasoning. In this report, we share our key findings in the development of the reasoning-centric training framework. We first develop a capable vision foundation model with significant potential through large-scale pre-training, which arguably sets the upper bound for the final performance. Reinforcement Learning with Curriculum Sampling (RLCS) then unlocks the full potential of the model, leading to comprehensive capability enhancement across a diverse range of tasks, including STEM problem solving, video understanding, content recognition, coding, grounding, GUI-based agents, and long document understanding, among others. To facilitate research in this field, we open-source GLM-4.1V-9B-Thinking, which achieves state-of-the-art performance among models of comparable size. In a comprehensive evaluation across 28 public benchmarks, our model outperforms Qwen2.5-VL-7B on nearly all tasks and achieves comparable or even superior performance on 18 benchmarks relative to the significantly larger Qwen2.5-VL-72B. Notably, GLM-4.1V-9B-Thinking also demonstrates competitive or superior performance compared to closed-source models such as GPT-4o on challenging tasks including long document understanding and STEM reasoning, further underscoring its strong capabilities. Code, models and more information are released at https://github.com/THUDM/GLM-4.1V-Thinking.",
     "summary": "arXiv:2507.01006v1 Announce Type: cross Abstract: We present GLM-4.1V-Thinking, a vision-language model (VLM) designed to advance general-purpose multimodal reasoning. In this report, we share our key findings in the development of the reasoning-centric training framework. We first develop a capable vision foundation model with significant potential through large-scale pre-training, which arguably sets the upper bound for the final performance. Reinforcement Learning with Curriculum Sampling (RLCS) then unlocks the full potential of the model, leading to comprehensive capability enhancement across a diverse range of tasks, including STEM problem solving, video understanding, content recognition, coding, grounding, GUI-based agents, and long document understanding, among others. To facilitate research in this field, we open-source GLM-4.1V-9B-Thinking, which achieves state-of-the-art performance among models of comparable size. In a comprehensive evaluation across 28 public benchmarks, our model outperforms Qwen2.5-VL-7B on nearly all tasks and achieves comparable or even superior performance on 18 benchmarks relative to the significantly larger Qwen2.5-VL-72B. Notably, GLM-4.1V-9B-Thinking also demonstrates competitive or superior performance compared to closed-source models such as GPT-4o on challenging tasks including long document understanding and STEM reasoning, further underscoring its strong capabilities. Code, models and more information are released at https://github.com/THUDM/GLM-4.1V-Thinking.",
@@ -8584,15 +8593,6 @@
     "source": "arXiv AI",
     "url": "https://arxiv.org/abs/2507.00191",
     "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/arxiv.png"
-  },
-  {
-    "title": "“純国産人型ロボ”開発へ　京都発・村田製作所などが新団体　26年度内に災害現場への実装目指す",
-    "description": "村田製作所は、早稲田大学などとともに、国産の人型ロボット開発を推進する団体「KyoHA」（京都ヒューマノイドアソシエーション）を7月に設立すると発表した。まずは2026年度内に、災害現場で活躍する人型ロボの開発を目指す。",
-    "summary": "村田製作所は、早稲田大学などとともに、国産の人型ロボット開発を推進する団体「KyoHA」（京都ヒューマノイドアソシエーション）を7月に設立すると発表した。まずは2026年度内に、災害現場で活躍する人型ロボの開発を目指す。",
-    "pubDate": "Mon, 30 Jun 2025 14:19:00 +0900",
-    "source": "ITmedia AI",
-    "url": "https://www.itmedia.co.jp/aiplus/articles/2506/30/news097.html",
-    "thumbnail": "https://image.itmedia.co.jp/aiplus/articles/2506/30/cover_news097.jpg"
   },
   {
     "title": "Avoid Forgetting by Preserving Global Knowledge Gradients in Federated Learning with Non-IID Data",
