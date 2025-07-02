@@ -1104,7 +1104,7 @@
     "pubDate": "Mon, 23 Sep 2024 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/fine-video",
-    "thumbnail": "https://huggingface.co/blog/assets/186_fine_video/thumbnail.png"
+    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
   },
   {
     "title": "Making LLMs even more accessible with bitsandbytes, 4-bit quantization and QLoRA",
@@ -3201,7 +3201,7 @@
     "pubDate": "Mon, 18 Dec 2023 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/2023-in-llms",
-    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
+    "thumbnail": "https://huggingface.co/blog/assets/cv_state/thumbnail.png"
   },
   {
     "title": "Creating an AI-powered Magic Studio",
@@ -4434,7 +4434,7 @@
     "pubDate": "Wed, 29 Jun 2022 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/your-first-ml-project",
-    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
+    "thumbnail": "https://huggingface.co/blog/assets/84_first_ml_project/thumbnail.png"
   },
   {
     "title": "Beyond Code: The Multidimensional Impacts of Large Language Models in Software Development",
@@ -6495,7 +6495,7 @@
     "pubDate": "Tue, 12 Jul 2022 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/bloom",
-    "thumbnail": "https://huggingface.co/blog/assets/86_bloom/thumbnail.png"
+    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
   },
   {
     "title": "LLM Inference on Edge: A Fun and Easy Guide to run LLMs via React Native on your Phone!",
@@ -6738,7 +6738,7 @@
     "pubDate": "Tue, 04 Mar 2025 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/jfrog",
-    "thumbnail": "https://huggingface.co/blog/assets/jfrog/thumbnail.png"
+    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
   },
   {
     "title": "Introducing DOI: the Digital Object Identifier to Datasets and Models",
@@ -7557,7 +7557,7 @@
     "pubDate": "Fri, 14 Feb 2025 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/math_verify_leaderboard",
-    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
+    "thumbnail": "https://huggingface.co/blog/assets/math_verify_leaderboard/thumbnail.png"
   },
   {
     "title": "Training Stable Diffusion with Dreambooth using 🧨 Diffusers",
@@ -10644,7 +10644,7 @@
     "pubDate": "Tue, 06 Jun 2023 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/fasttext",
-    "thumbnail": "https://huggingface.co/blog/assets/147_fasttext/thumbnail.png"
+    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
   },
   {
     "title": "New Credit Facility Enhances Financial Flexibility",
@@ -12912,7 +12912,7 @@
     "pubDate": "Tue, 06 Aug 2024 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/2024-security-features",
-    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
+    "thumbnail": "https://huggingface.co/blog/assets/2024-security-features/thumbnail.png"
   },
   {
     "title": "Learning from human preferences",
