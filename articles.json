@@ -1356,7 +1356,7 @@
     "pubDate": "Tue, 08 Oct 2024 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/dynamic_speculation_lookahead",
-    "thumbnail": "https://huggingface.co/blog/assets/optimum_intel/intel_thumbnail.png"
+    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
   },
   {
     "title": "PaliGemma 2 Mix - New Instruction Vision Language Models by Google",
@@ -1626,7 +1626,7 @@
     "pubDate": "Thu, 03 Nov 2022 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/fine-tune-whisper",
-    "thumbnail": "https://huggingface.co/blog/assets/111_fine_tune_whisper/thumbnail.jpg"
+    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
   },
   {
     "title": "Introducing the LiveCodeBench Leaderboard - Holistic and Contamination-Free Evaluation of Code LLMs",
@@ -5769,15 +5769,6 @@
     "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
   },
   {
-    "title": "住友生命、PFNに出資　「協業も検討」",
-    "description": "住友生命はAIスタートアップのPreferred Networks（PFN）に出資すると発表した。PFNとの協業も検討する。",
-    "summary": "住友生命はAIスタートアップのPreferred Networks（PFN）に出資すると発表した。PFNとの協業も検討する。",
-    "pubDate": "Mon, 30 Jun 2025 15:35:00 +0900",
-    "source": "ITmedia AI",
-    "url": "https://www.itmedia.co.jp/aiplus/articles/2506/30/news104.html",
-    "thumbnail": "https://image.itmedia.co.jp/aiplus/articles/2506/30/cover_news104.png"
-  },
-  {
     "title": "Introducing OpenAI for Countries",
     "description": "A new initiative to support countries around the world that want to build on democratic AI rails.",
     "summary": "A new initiative to support countries around the world that want to build on democratic AI rails.",
@@ -5956,6 +5947,15 @@
     "source": "OpenAI Blog",
     "url": "https://openai.com/blog/bug-bounty-program",
     "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
+  },
+  {
+    "title": "生成AIで変わるサイバーセキュリティ　NECとIDCが語る「AI×セキュリティ」の要点",
+    "description": "NEC Corporate Executive CISOの淵上真一氏と、IDC Japan リサーチマネージャーの赤間健一氏による講演の内容から、AI時代のセキュリティ戦略の最前線を読み解く。",
+    "summary": "NEC Corporate Executive CISOの淵上真一氏と、IDC Japan リサーチマネージャーの赤間健一氏による講演の内容から、AI時代のセキュリティ戦略の最前線を読み解く。",
+    "pubDate": "Thu, 03 Jul 2025 05:00:00 +0900",
+    "source": "ITmedia AI",
+    "url": "https://www.itmedia.co.jp/business/articles/2507/02/news031.html",
+    "thumbnail": "https://image.itmedia.co.jp/business/articles/2507/02/cover_news031.jpg"
   },
   {
     "title": "Distill",
@@ -6561,15 +6561,6 @@
     "thumbnail": "https://huggingface.co/blog/assets/42_gradio_joins_hf/thumbnail.png"
   },
   {
-    "title": "Designing a new way to optimize complex coordinated systems",
-    "description": "Using diagrams to represent interactions in multipart systems can provide a faster way to design software improvements.",
-    "summary": "Using diagrams to represent interactions in multipart systems can provide a faster way to design software improvements.",
-    "pubDate": "Thu, 24 Apr 2025 15:00:00 -0400",
-    "source": "MIT",
-    "url": "https://news.mit.edu/2025/designing-new-way-optimize-complex-coordinated-systems-0424",
-    "thumbnail": "https://news.mit.edu/sites/default/files/images/202504/deep-learning-diagram.jpg"
-  },
-  {
     "title": "Retrieval Augmented Generation with Huggingface Transformers and Ray",
     "description": "",
     "summary": "Retrieval Augmented Generation with Huggingface Transformers and Ray A guest blog post by Amog Kamse...",
@@ -6810,7 +6801,7 @@
     "pubDate": "Tue, 18 Feb 2025 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/inference-providers-nebius-novita-hyperbolic",
-    "thumbnail": "https://huggingface.co/blog/assets/inference-providers/second-batch-thumbnail.webp"
+    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
   },
   {
     "title": "AI stirs up the recipe for concrete in MIT study",
@@ -7836,7 +7827,7 @@
     "pubDate": "Mon, 15 Jan 2024 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/sdxl_ort_inference",
-    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
+    "thumbnail": "https://huggingface.co/blog/assets/optimum_onnxruntime-training/thumbnail.png"
   },
   {
     "title": "Empowering defenders through our Cybersecurity Grant Program",
@@ -8676,6 +8667,15 @@
     "thumbnail": "https://huggingface.co/blog/assets/74_tapex/thumbnail.png"
   },
   {
+    "title": "［データ分析］区間推定のために必要なサンプルサイズはどれぐらい？",
+    "description": "データ分析の初歩から応用まで少しずつステップアップしながら学んでいく連載（区間推定編）の第8回。今回は適切に区間推定を行うために必要なサンプルサイズの求め方とその考え方を解説します。",
+    "summary": "データ分析の初歩から応用まで少しずつステップアップしながら学んでいく連載（区間推定編）の第8回。今回は適切に区間推定を行うために必要なサンプルサイズの求め方とその考え方を解説します。",
+    "pubDate": "Thu, 03 Jul 2025 05:00:00 +0900",
+    "source": "ITmedia AI",
+    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2507/03/news003.html",
+    "thumbnail": "https://image.itmedia.co.jp/ait/articles/2507/03/cover_news003.png"
+  },
+  {
     "title": "Surging developer productivity with custom GPTs",
     "description": "Paf adopted ChatGPT Enterprise across its entire company, with engineers using custom GPTs on a daily basis to speed up routine development tasks. Paf also integrated ChatGPT Enterprise into the grit:lab coding academy (gritlab.ax), training the next generation of software developers using an AI-augmented, systems-architecture mindset from day one. In addition to the wide range of use cases for developers and grit:lab students, 70% of Paf employees actively use ChatGPT Enterprise, spanning business teams like finance, HR, marketing, and customer support.",
     "summary": "Paf adopted ChatGPT Enterprise across its entire company, with engineers using custom GPTs on a daily basis to speed up routine development tasks. Paf also integrated ChatGPT Enterprise into the grit:lab coding academy (gritlab.ax), training the next generation of software developers using an AI-augmented, systems-architecture mindset from day one. In addition to the wide range of use cases for developers and grit:lab students, 70% of Paf employees actively use ChatGPT Enterprise, spanning business teams like finance, HR, marketing, and customer support.",
@@ -8919,13 +8919,13 @@
     "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/arxiv.png"
   },
   {
-    "title": "【7/18開催ウェビナー】ローカルLLMの大本命「Qwen3」×継続事前学習の解説＆デモ 1250万ダウンロードを突破した世界が注目するLLM",
-    "description": "<p>AIポータルメディア「AIsmiley」は、2025年7月18日（金）12時からLLMをテーマにウェビナーを開催します。 アリババが開発した注目のオープンソースLLM「Qwen3」！ OpenAI o1やDeepSeek [&#8230;]</p> <p>The post <a href='https://aismiley.co.jp/ai_news/20250718webinar/'>【7/18開催ウェビナー】ローカルLLMの大本命「Qwen3」×継続事前学習の解説＆デモ 1250万ダウンロードを突破した世界が注目するLLM</a> first appeared on <a href='https://aismiley.co.jp'>AIポータルメディアAIsmiley</a>.</p>",
-    "summary": "<p>AIポータルメディア「AIsmiley」は、2025年7月18日（金）12時からLLMをテーマにウェビナーを開催します。 アリババが開発した注目のオープンソースLLM「Qwen3」！ OpenAI o1やDeepSeek [&#8230;]</p> <p>The post <a href='https://aismiley.co.jp/ai_news/20250718webinar/'>【7/18開催ウェビナー】ローカルLLMの大本命「Qwen3」×継続事前学習の解説＆デモ 1250万ダウンロードを突破した世界が注目するLLM</a> first appeared on <a href='https://aismiley.co.jp'>AIポータルメディアAIsmiley</a>.</p>",
-    "pubDate": "Wed, 02 Jul 2025 07:24:05 +0000",
+    "title": "Archaic、日本語特化型RAGシステムAIを開発。製造業分野でトップクラスの正答率",
+    "description": "<p>Archaicは日本語業務文書に特化したRAGシステムAIを開発。公開ベンチマークの評価データセットで製造業カテゴリと全体平均でトップクラスの正答率を記録しました。 このニュースのポイント 日本語業務文書に特化したRAG [&#8230;]</p> <p>The post <a href='https://aismiley.co.jp/ai_news/archaic-develops-japanese-specific-rag/'>Archaic、日本語特化型RAGシステムAIを開発。製造業分野でトップクラスの正答率</a> first appeared on <a href='https://aismiley.co.jp'>AIポータルメディアAIsmiley</a>.</p>",
+    "summary": "<p>Archaicは日本語業務文書に特化したRAGシステムAIを開発。公開ベンチマークの評価データセットで製造業カテゴリと全体平均でトップクラスの正答率を記録しました。 このニュースのポイント 日本語業務文書に特化したRAG [&#8230;]</p> <p>The post <a href='https://aismiley.co.jp/ai_news/archaic-develops-japanese-specific-rag/'>Archaic、日本語特化型RAGシステムAIを開発。製造業分野でトップクラスの正答率</a> first appeared on <a href='https://aismiley.co.jp'>AIポータルメディアAIsmiley</a>.</p>",
+    "pubDate": "Wed, 18 Jun 2025 05:51:09 +0000",
     "source": "AI Smily",
-    "url": "https://aismiley.co.jp/ai_news/20250718webinar/",
-    "thumbnail": "https://aismiley.co.jp/wp-content/uploads/2025/06/717_1200x628_5.jpg"
+    "url": "https://aismiley.co.jp/ai_news/archaic-develops-japanese-specific-rag/",
+    "thumbnail": "https://aismiley.co.jp/wp-content/uploads/2025/06/Archaic-develops-Japanese-specific-RAG1.png"
   },
   {
     "title": "Introducing the Private Hub: A New Way to Build With Machine Learning",
@@ -10140,7 +10140,7 @@
     "pubDate": "Wed, 31 Mar 2021 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/big-bird",
-    "thumbnail": "https://huggingface.co/blog/assets/18_big_bird/attn.png"
+    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
   },
   {
     "title": "Genmab launches “AI Everywhere”",
@@ -11041,15 +11041,6 @@
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/gemma3",
     "thumbnail": "https://huggingface.co/blog/assets/gemma3/thumbnail.png"
-  },
-  {
-    "title": "AIエージェント時代、企業の在り方はどう変わる？　「上司はいらなくなるのか問題」を考察",
-    "description": "話題のAIエージェントは、企業の在り方をどのように変えるのか。人間とAIの協働が進化するにつれてこれまで「ピラミッド型」だった組織の在り方は変化するのだろうか。PwCコンサルティングの最新レポートから考察する。",
-    "summary": "話題のAIエージェントは、企業の在り方をどのように変えるのか。人間とAIの協働が進化するにつれてこれまで「ピラミッド型」だった組織の在り方は変化するのだろうか。PwCコンサルティングの最新レポートから考察する。",
-    "pubDate": "Mon, 30 Jun 2025 16:40:00 +0900",
-    "source": "ITmedia AI",
-    "url": "https://www.itmedia.co.jp/enterprise/articles/2506/30/news091.html",
-    "thumbnail": "https://image.itmedia.co.jp/enterprise/articles/2506/30/cover_news091.jpg"
   },
   {
     "title": "OpenAI announces new members to board of directors",
@@ -12579,7 +12570,7 @@
     "pubDate": "Mon, 08 Apr 2024 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/policy-blog",
-    "thumbnail": "https://huggingface.co/blog/assets/policy_docs/policy_blog_thumbnail.png"
+    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
   },
   {
     "title": "Driving scalable growth with OpenAI o3, GPT-4.1, and CUA",
@@ -14155,6 +14146,15 @@
     "source": "arXiv AI",
     "url": "https://arxiv.org/abs/2507.00971",
     "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/arxiv.png"
+  },
+  {
+    "title": "Confronting the AI/energy conundrum",
+    "description": "The MIT Energy Initiative’s annual research symposium explores artificial intelligence as both a problem and a solution for the clean energy transition.",
+    "summary": "The MIT Energy Initiative’s annual research symposium explores artificial intelligence as both a problem and a solution for the clean energy transition.",
+    "pubDate": "Wed, 02 Jul 2025 15:00:00 -0400",
+    "source": "MIT",
+    "url": "https://news.mit.edu/2025/confronting-ai-energy-conundrum-0702",
+    "thumbnail": "https://news.mit.edu/sites/default/files/images/202506/MITEI-evelyn-wang.JPG"
   },
   {
     "title": "Deciding When Not to Decide: Indeterminacy-Aware Intrusion Detection with NeutroSENSE",
