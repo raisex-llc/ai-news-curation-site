@@ -2916,6 +2916,15 @@
     "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/arxiv.png"
   },
   {
+    "title": "チャットAIに“感情を共有”できる人は64.9％、「親友」「母」を上回る　電通調査",
+    "description": "チャットAIに感情を共有できる人は64.9％で、親友や母親を上回る――電通はこんな調査結果を発表した。チャットAIを週1回以上利用する12～69歳の1000人にWebでアンケートを実施。チャットAIとの接し方や、世代ごとの活用の傾向などが判明したという。",
+    "summary": "チャットAIに感情を共有できる人は64.9％で、親友や母親を上回る――電通はこんな調査結果を発表した。チャットAIを週1回以上利用する12～69歳の1000人にWebでアンケートを実施。チャットAIとの接し方や、世代ごとの活用の傾向などが判明したという。",
+    "pubDate": "Thu, 03 Jul 2025 14:08:00 +0900",
+    "source": "ITmedia AI",
+    "url": "https://www.itmedia.co.jp/aiplus/articles/2507/03/news080.html",
+    "thumbnail": "https://image.itmedia.co.jp/aiplus/articles/2507/03/cover_news080.jpg"
+  },
+  {
     "title": "Snorkel AI x Hugging Face: unlock foundation models for enterprises",
     "description": "",
     "summary": "Snorkel AI x Hugging Face: unlock foundation models for enterprises This article is a cross-post fro...",
@@ -3021,7 +3030,7 @@
     "pubDate": "Tue, 26 Oct 2021 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/large-language-models",
-    "thumbnail": "https://huggingface.co/blog/assets/33_large_language_models/01_model_size.jpg"
+    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
   },
   {
     "title": "Ethics and Society Newsletter #4: Bias in Text-to-Image Models",
@@ -3489,7 +3498,7 @@
     "pubDate": "Fri, 24 Jan 2025 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/smolagents-can-see",
-    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
+    "thumbnail": "https://huggingface.co/blog/assets/smolagents-can-see/thumbnail.png"
   },
   {
     "title": "Evolution through large models",
@@ -5397,7 +5406,7 @@
     "pubDate": "Thu, 09 Jan 2025 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/leaderboard-emissions-analysis",
-    "thumbnail": "https://huggingface.co/blog/assets/evaluating-mmlu-leaderboard/thumbnail.png"
+    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
   },
   {
     "title": "The Transformers Library: standardizing model definitions",
@@ -5787,15 +5796,6 @@
     "thumbnail": "https://image.itmedia.co.jp/enterprise/articles/2507/02/cover_news020.jpg"
   },
   {
-    "title": "北朝鮮ITワーカーの不正収益、AIで巧妙化　米司法省が大規模摘発",
-    "description": "米司法省は、北朝鮮ITワーカーによる不正収益スキームの大規模な摘発を発表した。Microsoftによると、ワーカーはAIを悪用して身元を偽装し、活動を巧妙化させているという。司法省はラップトップファームの捜索や口座押収などの対策を講じた。",
-    "summary": "米司法省は、北朝鮮ITワーカーによる不正収益スキームの大規模な摘発を発表した。Microsoftによると、ワーカーはAIを悪用して身元を偽装し、活動を巧妙化させているという。司法省はラップトップファームの捜索や口座押収などの対策を講じた。",
-    "pubDate": "Tue, 01 Jul 2025 10:15:00 +0900",
-    "source": "ITmedia AI",
-    "url": "https://www.itmedia.co.jp/news/articles/2507/01/news062.html",
-    "thumbnail": "https://image.itmedia.co.jp/news/articles/2507/01/cover_news062.jpg"
-  },
-  {
     "title": "A Fuzzy Approach to the Specification, Verification and Validation of Risk-Based Ethical Decision Making Models",
     "description": "arXiv:2507.01410v1 Announce Type: new Abstract: The ontological and epistemic complexities inherent in the moral domain make it challenging to establish clear standards for evaluating the performance of a moral machine. In this paper, we present a formal method to describe Ethical Decision Making models based on ethical risk assessment. Then, we show how these models that are specified as fuzzy rules can be verified and validated using fuzzy Petri nets. A case study from the medical field is considered to illustrate the proposed approach.",
     "summary": "arXiv:2507.01410v1 Announce Type: new Abstract: The ontological and epistemic complexities inherent in the moral domain make it challenging to establish clear standards for evaluating the performance of a moral machine. In this paper, we present a formal method to describe Ethical Decision Making models based on ethical risk assessment. Then, we show how these models that are specified as fuzzy rules can be verified and validated using fuzzy Petri nets. A case study from the medical field is considered to illustrate the proposed approach.",
@@ -6075,6 +6075,15 @@
     "thumbnail": "https://huggingface.co/blog/assets/124_ml-for-games/thumbnail3.png"
   },
   {
+    "title": "「ドラゴンボール」のブルマはITエンジニアの理想像──ファインディがテレビCMに起用",
+    "description": "エンジニア向けの転職サービス「Findy」を運営するファインディは、テレビアニメ「ドラゴンボールZ」のキャラクターを起用したテレビコマーシャルを放送すると発表した。",
+    "summary": "エンジニア向けの転職サービス「Findy」を運営するファインディは、テレビアニメ「ドラゴンボールZ」のキャラクターを起用したテレビコマーシャルを放送すると発表した。",
+    "pubDate": "Thu, 03 Jul 2025 13:41:00 +0900",
+    "source": "ITmedia AI",
+    "url": "https://www.itmedia.co.jp/aiplus/articles/2507/03/news085.html",
+    "thumbnail": "https://image.itmedia.co.jp/aiplus/articles/2507/03/cover_news085.jpg"
+  },
+  {
     "title": "生成AIに「期待している」人は全体で33％、一方10代男性では70％　NTTドコモ調査",
     "description": "生成AIに「期待している」人は全体で33％――NTTドコモのモバイル社会研究所は、こんな調査結果を発表した。生成AIに期待していると回答した割合は、10代男性が70％で最も高く、若い年代や男性の方が高い傾向にあったという。",
     "summary": "生成AIに「期待している」人は全体で33％――NTTドコモのモバイル社会研究所は、こんな調査結果を発表した。生成AIに期待していると回答した割合は、10代男性が70％で最も高く、若い年代や男性の方が高い傾向にあったという。",
@@ -6306,7 +6315,7 @@
     "pubDate": "Mon, 03 Jul 2023 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/text-to-webapp",
-    "thumbnail": "https://huggingface.co/blog/assets/153_text_to_webapp/thumbnail.jpg"
+    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
   },
   {
     "title": "Serverless Inference with Hugging Face and NVIDIA NIMs",
@@ -7026,7 +7035,7 @@
     "pubDate": "Fri, 25 Nov 2022 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/diffusion-models-event",
-    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
+    "thumbnail": "https://huggingface.co/blog/assets/diffusion-models-event/thumbnail.png"
   },
   {
     "title": "Finetune Stable Diffusion Models with DDPO via TRL",
@@ -7494,7 +7503,7 @@
     "pubDate": "Mon, 07 Nov 2022 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/dreambooth",
-    "thumbnail": "https://huggingface.co/blog/assets/sd_dreambooth_training/thumbnail.jpg"
+    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
   },
   {
     "title": "AI-written critiques help humans notice flaws",
@@ -10239,7 +10248,7 @@
     "pubDate": "Thu, 25 Jan 2024 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/gcp-partnership",
-    "thumbnail": "https://huggingface.co/blog/assets/173_gcp-partnership/thumbnail.jpg"
+    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
   },
   {
     "title": "Multivariate Probabilistic Time Series Forecasting with Informer",
@@ -10779,7 +10788,7 @@
     "pubDate": "Thu, 23 Jan 2025 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/smolervlm",
-    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
+    "thumbnail": "https://huggingface.co/blog/assets/smolervlm/banner.png"
   },
   {
     "title": "How we're supporting better tropical cyclone prediction with AI",
@@ -13974,7 +13983,7 @@
     "pubDate": "Fri, 23 May 2025 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/python-tiny-agents",
-    "thumbnail": "https://huggingface.co/blog/assets/python-tiny-agents/thumbnail.png"
+    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
   },
   {
     "title": "Comparing the Performance of LLMs: A Deep Dive into Roberta, Llama 2, and Mistral for Disaster Tweets Analysis with Lora",
@@ -14011,15 +14020,6 @@
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/llama32",
     "thumbnail": "https://huggingface.co/blog/assets/llama32/thumbnail.jpg"
-  },
-  {
-    "title": "MicrosoftのAI、医療診断精度で人間の医師を超える可能性",
-    "description": "Microsoftは、開発中のAI「MAI-DxO」が医療診断の精度で人間の医師を大幅に上回ったと発表した。新しいベンチマークによる評価では、AIの診断精度が80％に達し、経験豊富な医師の20％を大きく超えた。診断コストの削減効果も示された。",
-    "summary": "Microsoftは、開発中のAI「MAI-DxO」が医療診断の精度で人間の医師を大幅に上回ったと発表した。新しいベンチマークによる評価では、AIの診断精度が80％に達し、経験豊富な医師の20％を大きく超えた。診断コストの削減効果も示された。",
-    "pubDate": "Tue, 01 Jul 2025 11:34:00 +0900",
-    "source": "ITmedia AI",
-    "url": "https://www.itmedia.co.jp/news/articles/2507/01/news066.html",
-    "thumbnail": "https://image.itmedia.co.jp/news/articles/2507/01/cover_news066.jpg"
   },
   {
     "title": "Early methods for studying affective use and emotional well-being on ChatGPT",
