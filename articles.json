@@ -3912,7 +3912,7 @@
     "pubDate": "Thu, 03 Apr 2025 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/llm-course",
-    "thumbnail": "https://huggingface.co/blog/assets/llm-course/llm-course-rename-thumbnail.png"
+    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
   },
   {
     "title": "VQ Diffusion with 🧨 Diffusers",
@@ -4974,7 +4974,7 @@
     "pubDate": "Mon, 25 Apr 2022 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/education",
-    "thumbnail": "https://huggingface.co/blog/assets/61_education/thumbnail.png"
+    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
   },
   {
     "title": "Real-Time Emergency Vehicle Siren Detection with Efficient CNNs on Embedded Hardware",
@@ -6603,7 +6603,7 @@
     "pubDate": "Fri, 12 Aug 2022 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/tensorflow-philosophy",
-    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
+    "thumbnail": "https://huggingface.co/blog/assets/96_tensorflow_philosophy/thumbnail.png"
   },
   {
     "title": "Reducing Variability of Multiple Instance Learning Methods for Digital Pathology",
@@ -6855,7 +6855,7 @@
     "pubDate": "Wed, 27 Apr 2022 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/ml-director-insights",
-    "thumbnail": "https://huggingface.co/blog/assets/61_ml_director_insights/thumbnail.png"
+    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
   },
   {
     "title": "Improving Prompt Consistency with Structured Generations",
@@ -7206,7 +7206,7 @@
     "pubDate": "Fri, 22 Apr 2022 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/carbon-emissions-on-the-hub",
-    "thumbnail": "https://huggingface.co/blog/assets/60_carbon_emissions_on_the_hub/thumbnail.jpg"
+    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
   },
   {
     "title": "Synthetic data: save money, time and carbon with open source",
@@ -8142,7 +8142,7 @@
     "pubDate": "Tue, 25 Jun 2024 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/xlscout-case-study",
-    "thumbnail": "https://huggingface.co/blog/assets/xlscout-case-study/thumbnail.png"
+    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
   },
   {
     "title": "GPT-4o System Card",
@@ -8943,7 +8943,7 @@
     "pubDate": "Mon, 08 Jul 2024 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/datasets-filters",
-    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
+    "thumbnail": "https://huggingface.co/blog/assets/datasets-filters/thumbnail.png"
   },
   {
     "title": "Try new data visualizations and graphs for finance queries in AI Mode.",
@@ -9150,7 +9150,7 @@
     "pubDate": "Tue, 26 Apr 2022 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/getting-started-habana",
-    "thumbnail": "https://huggingface.co/blog/assets/61_getting_started_habana/habana01.png"
+    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
   },
   {
     "title": "Solving complex problems with OpenAI o1 models",
@@ -10437,7 +10437,7 @@
     "pubDate": "Mon, 29 Jan 2024 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/leaderboard-hallucinations",
-    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
+    "thumbnail": "https://huggingface.co/blog/assets/leaderboards-on-the-hub/thumbnail.png"
   },
   {
     "title": "Best practices for deploying language models",
@@ -12183,7 +12183,7 @@
     "pubDate": "Mon, 18 Jan 2021 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/accelerated-inference",
-    "thumbnail": "https://huggingface.co/blog/assets/09_accelerated_inference/thumbnail.png"
+    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
   },
   {
     "title": "Enhancing Robustness to Missing Modalities through Clustered Federated Learning",
@@ -12237,7 +12237,7 @@
     "pubDate": "Mon, 02 Nov 2020 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/ray-tune",
-    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
+    "thumbnail": "https://huggingface.co/blog/assets/06_ray_tune/ray-hf.jpg"
   },
   {
     "title": "A Dive into Text-to-Video Models",
@@ -12660,7 +12660,7 @@
     "pubDate": "Tue, 07 Nov 2023 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/inferentia-llama2",
-    "thumbnail": "https://huggingface.co/blog/assets/inferentia-llama2/thumbnail.png"
+    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
   },
   {
     "title": "DocShaDiffusion: Diffusion Model in Latent Space for Document Image Shadow Removal",
@@ -13938,7 +13938,7 @@
     "pubDate": "Mon, 30 Sep 2024 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/vertex-colored-to-textured-mesh",
-    "thumbnail": "https://huggingface.co/blog/assets/vertex-colored-to-textured-mesh/thumbnail.png"
+    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
   },
   {
     "title": "A glimpse of the next generation of AlphaFold",
@@ -14019,7 +14019,7 @@
     "pubDate": "Wed, 25 Sep 2024 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/llama32",
-    "thumbnail": "https://huggingface.co/blog/assets/llama32/thumbnail.jpg"
+    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
   },
   {
     "title": "Early methods for studying affective use and emotional well-being on ChatGPT",
