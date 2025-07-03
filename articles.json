@@ -1095,7 +1095,7 @@
     "pubDate": "Wed, 04 Sep 2024 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/trufflesecurity-partnership",
-    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
+    "thumbnail": "https://huggingface.co/blog/assets/trufflesecurity-partnership/thumbnail.png"
   },
   {
     "title": "GPT, But Backwards: Exactly Inverting Language Model Outputs",
@@ -1374,7 +1374,7 @@
     "pubDate": "Wed, 19 Feb 2025 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/paligemma2mix",
-    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
+    "thumbnail": "https://huggingface.co/blog/assets/paligemma2/thumbnail.png"
   },
   {
     "title": "Introducing OpenAI",
@@ -2500,15 +2500,6 @@
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/train-your-controlnet",
     "thumbnail": "https://huggingface.co/blog/assets/136_train-your-controlnet/thumbnail.png"
-  },
-  {
-    "title": "AIエディタ「Cursor」に、スマホ版が登場　Webブラウザ版も同時提供",
-    "description": "AIエディタ「Cursor」を開発する米Anysphereは、同エディタのモバイル版の提供を始めた。あわせて、Webブラウザにも対応。自然言語の指示によるコードの生成や修正などの機能を、モバイル環境でも使えるようにする。",
-    "summary": "AIエディタ「Cursor」を開発する米Anysphereは、同エディタのモバイル版の提供を始めた。あわせて、Webブラウザにも対応。自然言語の指示によるコードの生成や修正などの機能を、モバイル環境でも使えるようにする。",
-    "pubDate": "Tue, 01 Jul 2025 12:20:00 +0900",
-    "source": "ITmedia AI",
-    "url": "https://www.itmedia.co.jp/aiplus/articles/2507/01/news070.html",
-    "thumbnail": "https://image.itmedia.co.jp/aiplus/articles/2507/01/cover_news070.jpg"
   },
   {
     "title": "Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -5139,6 +5130,15 @@
     "thumbnail": "https://huggingface.co/blog/assets/autoround/thumbnail.png"
   },
   {
+    "title": "Arm搭載AI半導体の迅速な開発を支援、OKIアイディエス",
+    "description": "OKIアイディエス（OIDS）は、Armと「Arm Approved Design Partner」契約を結んだ。Armアーキテクチャを搭載したASIC／LSIの開発を計画している顧客に対し、OIDSはFPGAを活用したプロトタイプの開発・検証サービスを提供していく。",
+    "summary": "OKIアイディエス（OIDS）は、Armと「Arm Approved Design Partner」契約を結んだ。Armアーキテクチャを搭載したASIC／LSIの開発を計画している顧客に対し、OIDSはFPGAを活用したプロトタイプの開発・検証サービスを提供していく。",
+    "pubDate": "Thu, 03 Jul 2025 15:30:00 +0900",
+    "source": "ITmedia AI",
+    "url": "https://eetimes.itmedia.co.jp/ee/articles/2507/03/news032.html",
+    "thumbnail": "https://image.itmedia.co.jp/ee/articles/2507/03/cover_news032.jpg"
+  },
+  {
     "title": "Google DeepMind at NeurIPS 2024",
     "description": "Advancing adaptive AI agents, empowering 3D scene creation, and innovating LLM training for a smarter, safer future",
     "summary": "Advancing adaptive AI agents, empowering 3D scene creation, and innovating LLM training for a smarter, safer future",
@@ -5640,7 +5640,7 @@
     "pubDate": "Fri, 05 Aug 2022 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/deep-rl-ppo",
-    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
+    "thumbnail": "https://huggingface.co/blog/assets/93_deep_rl_ppo/thumbnail.png"
   },
   {
     "title": "RL²: Fast reinforcement learning via slow reinforcement learning",
@@ -6162,7 +6162,7 @@
     "pubDate": "Fri, 28 Mar 2025 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/intel-gaudi-backend-for-tgi",
-    "thumbnail": "https://huggingface.co/front/thumbnails/v2-2.png"
+    "thumbnail": "https://huggingface.co/blog/assets/intel-gaudi-backend-for-tgi/tgi-gaudi-thumbnail.png"
   },
   {
     "title": "Improving GANs using optimal transport",
@@ -6828,7 +6828,7 @@
     "pubDate": "Fri, 13 Sep 2024 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/accelerate-v1",
-    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
+    "thumbnail": "https://huggingface.co/blog/assets/186_accelerate_v1/accelerate_v1_thumbnail.png"
   },
   {
     "title": "Agent-as-Tool: A Study on the Hierarchical Decision Making with Reinforcement Learning",
@@ -7368,7 +7368,7 @@
     "pubDate": "Wed, 15 Jan 2025 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/static-embeddings",
-    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
+    "thumbnail": "https://huggingface.co/blog/assets/train-sentence-transformers/st-hf-thumbnail.png"
   },
   {
     "title": "Our latest advances in robot dexterity",
@@ -7611,7 +7611,7 @@
     "pubDate": "Wed, 04 May 2022 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/deep-rl-intro",
-    "thumbnail": "https://huggingface.co/blog/assets/63_deep_rl_intro/thumbnail.png"
+    "thumbnail": "https://cdn-media.huggingface.co/assets/huggingface_logo.svg"
   },
   {
     "title": "Reducing bias and improving safety in DALL·E 2",
