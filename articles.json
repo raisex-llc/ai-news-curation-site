@@ -3447,6 +3447,15 @@
     "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
   },
   {
+    "title": "CloudflareがAIクローラー対策を実装　Webコンテンツの無断収集をブロック",
+    "description": "CloudflareはAIクローラーによるWebコンテンツの無断収集を初期設定でブロックする機能を導入した。Webサイト運営者はAIの利用目的に応じてアクセスの可否を選択できる。",
+    "summary": "CloudflareはAIクローラーによるWebコンテンツの無断収集を初期設定でブロックする機能を導入した。Webサイト運営者はAIの利用目的に応じてアクセスの可否を選択できる。",
+    "pubDate": "Fri, 04 Jul 2025 07:30:00 +0900",
+    "source": "ITmedia AI",
+    "url": "https://www.itmedia.co.jp/enterprise/articles/2507/04/news041.html",
+    "thumbnail": "https://image.itmedia.co.jp/enterprise/articles/2507/04/cover_news041.jpg"
+  },
+  {
     "title": "Visualize proteins on Hugging Face Spaces",
     "description": "",
     "summary": "Visualize proteins on Hugging Face Spaces In this post we will look at how we can visualize proteins...",
@@ -4932,6 +4941,15 @@
     "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
   },
   {
+    "title": "生成AIを全社レベルで使うGMOペパボ、DMM.com、MIXIなど8社の現状は？　日本CTO協会がヒアリングレポートを公開",
+    "description": "日本CTO協会は「生成AI活用ヒアリングレポート」を公開した。生成AIに関する先進的な取り組みを進める企業8社に調査した内容がまとめられている。",
+    "summary": "日本CTO協会は「生成AI活用ヒアリングレポート」を公開した。生成AIに関する先進的な取り組みを進める企業8社に調査した内容がまとめられている。",
+    "pubDate": "Fri, 04 Jul 2025 08:00:00 +0900",
+    "source": "ITmedia AI",
+    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2507/04/news034.html",
+    "thumbnail": "https://image.itmedia.co.jp/ait/articles/2507/04/cover_news034.jpg"
+  },
+  {
     "title": "Continual Learning with Strategic Selection and Forgetting for Network Intrusion Detection",
     "description": "arXiv:2412.16264v4 Announce Type: replace-cross Abstract: Intrusion Detection Systems (IDS) are crucial for safeguarding digital infrastructure. In dynamic network environments, both threat landscapes and normal operational behaviors are constantly changing, resulting in concept drift. While continuous learning mitigates the adverse effects of concept drift, insufficient attention to drift patterns and excessive preservation of outdated knowledge can still hinder the IDS's adaptability. In this paper, we propose SSF (Strategic Selection and Forgetting), a novel continual learning method for IDS, providing continuous model updates with a constantly refreshed memory buffer. Our approach features a strategic sample selection algorithm to select representative new samples and a strategic forgetting mechanism to drop outdated samples. The proposed strategic sample selection algorithm prioritizes new samples that cause the `drifted' pattern, enabling the model to better understand the evolving landscape. Additionally, we introduce strategic forgetting upon detecting significant drift by discarding outdated samples to free up memory, allowing the incorporation of more recent data. SSF captures evolving patterns effectively and ensures the model is aligned with the change of data patterns, significantly enhancing the IDS's adaptability to concept drift. The state-of-the-art performance of SSF on NSL-KDD and UNSW-NB15 datasets demonstrates its superior adaptability to concept drift for network intrusion detection. The code is released at https://github.com/xinchen930/SSF-Strategic-Selection-and-Forgetting.",
     "summary": "arXiv:2412.16264v4 Announce Type: replace-cross Abstract: Intrusion Detection Systems (IDS) are crucial for safeguarding digital infrastructure. In dynamic network environments, both threat landscapes and normal operational behaviors are constantly changing, resulting in concept drift. While continuous learning mitigates the adverse effects of concept drift, insufficient attention to drift patterns and excessive preservation of outdated knowledge can still hinder the IDS's adaptability. In this paper, we propose SSF (Strategic Selection and Forgetting), a novel continual learning method for IDS, providing continuous model updates with a constantly refreshed memory buffer. Our approach features a strategic sample selection algorithm to select representative new samples and a strategic forgetting mechanism to drop outdated samples. The proposed strategic sample selection algorithm prioritizes new samples that cause the `drifted' pattern, enabling the model to better understand the evolving landscape. Additionally, we introduce strategic forgetting upon detecting significant drift by discarding outdated samples to free up memory, allowing the incorporation of more recent data. SSF captures evolving patterns effectively and ensures the model is aligned with the change of data patterns, significantly enhancing the IDS's adaptability to concept drift. The state-of-the-art performance of SSF on NSL-KDD and UNSW-NB15 datasets demonstrates its superior adaptability to concept drift for network intrusion detection. The code is released at https://github.com/xinchen930/SSF-Strategic-Selection-and-Forgetting.",
@@ -5002,15 +5020,6 @@
     "source": "OpenAI Blog",
     "url": "https://openai.com/blog/openai-and-future-partner-on-specialist-content",
     "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
-  },
-  {
-    "title": "Cloudflare、AI時代のクリエイター支援策を発表 「コンテンツ独立記念日」宣言",
-    "description": "Cloudflareは7月1日に「コンテンツ独立記念日」を宣言し、AI時代におけるクリエイターの権利保護と収益化を支援する新構想を発表した。AIクローラーをデフォルトでブロックし、コンテンツ利用に応じて課金する「pay per crawl」の導入などを目指す。",
-    "summary": "Cloudflareは7月1日に「コンテンツ独立記念日」を宣言し、AI時代におけるクリエイターの権利保護と収益化を支援する新構想を発表した。AIクローラーをデフォルトでブロックし、コンテンツ利用に応じて課金する「pay per crawl」の導入などを目指す。",
-    "pubDate": "Wed, 02 Jul 2025 07:38:00 +0900",
-    "source": "ITmedia AI",
-    "url": "https://www.itmedia.co.jp/news/articles/2507/02/news046.html",
-    "thumbnail": "https://image.itmedia.co.jp/news/articles/2507/02/cover_news046.jpg"
   },
   {
     "title": "PixelCNN++: Improving the PixelCNN with discretized logistic mixture likelihood and other modifications",
@@ -5785,15 +5794,6 @@
     "source": "arXiv AI",
     "url": "https://arxiv.org/abs/2406.03747",
     "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/arxiv.png"
-  },
-  {
-    "title": "エージェンティックAI固有の課題と対処法をまとめた資料をCSAが公開",
-    "description": "CSAジャパンはCSA本部が公開した「Agentic AI Red Teaming Guide」の日本語訳を発表した。このガイドはエージェンティックAIのレッドチーミング手法を提供し、その特有のリスクと脆弱性に対処するための指針を示している。",
-    "summary": "CSAジャパンはCSA本部が公開した「Agentic AI Red Teaming Guide」の日本語訳を発表した。このガイドはエージェンティックAIのレッドチーミング手法を提供し、その特有のリスクと脆弱性に対処するための指針を示している。",
-    "pubDate": "Wed, 02 Jul 2025 07:30:00 +0900",
-    "source": "ITmedia AI",
-    "url": "https://www.itmedia.co.jp/enterprise/articles/2507/02/news020.html",
-    "thumbnail": "https://image.itmedia.co.jp/enterprise/articles/2507/02/cover_news020.jpg"
   },
   {
     "title": "A Fuzzy Approach to the Specification, Verification and Validation of Risk-Based Ethical Decision Making Models",
@@ -6847,6 +6847,15 @@
     "source": "arXiv AI",
     "url": "https://arxiv.org/abs/2507.01489",
     "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/arxiv.png"
+  },
+  {
+    "title": "SAPの「2027年問題」、メルセデス・ベンツ・グループはどう解決した？【事例紹介】",
+    "description": "オンプレミス環境でERPを運用してきたユーザーは、「SAPの2027年問題」にどう立ち向かうか。ビジネス環境の先行き不透明感が強まる中で、変化に迅速に対応するためのIT基盤の実現やAIの活用が喫緊の課題になる中、メルセデス・ベンツ・グループの取り組みを紹介する。",
+    "summary": "オンプレミス環境でERPを運用してきたユーザーは、「SAPの2027年問題」にどう立ち向かうか。ビジネス環境の先行き不透明感が強まる中で、変化に迅速に対応するためのIT基盤の実現やAIの活用が喫緊の課題になる中、メルセデス・ベンツ・グループの取り組みを紹介する。",
+    "pubDate": "Fri, 04 Jul 2025 08:00:00 +0900",
+    "source": "ITmedia AI",
+    "url": "https://www.itmedia.co.jp/enterprise/articles/2507/04/news019.html",
+    "thumbnail": "https://image.itmedia.co.jp/enterprise/articles/2507/04/cover_news019.jpg"
   },
   {
     "title": "WWDC 24: Running Mistral 7B with Core ML",
@@ -10095,7 +10104,7 @@
     "pubDate": "Thu, 11 Apr 2024 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/vlms",
-    "thumbnail": "https://huggingface.co/blog/assets/vlms_explained/thumbnail.png"
+    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
   },
   {
     "title": "Introducing ChatGPT Team",
@@ -11833,15 +11842,6 @@
     "source": "DeepMind Blog",
     "url": "https://deepmind.google/discover/blog/alphageometry-an-olympiad-level-ai-system-for-geometry/",
     "thumbnail": "https://lh3.googleusercontent.com/tVTh_ZCW5Qozy4vOCpMH06B7Ac_eF7fmEULMMTwDellOh6hnOMUtf28toD68N527IHQTlBWfBCHcZykYPMdrS48yvuEcJKMJG8rU3YRM3u5Ojn3JXnc=w1200-h630-n-nu"
-  },
-  {
-    "title": "「視力を失った父に、AIを使わせてあげたい」　プログラミング未経験の娘が「季語ツール」を開発するまで",
-    "description": "病気で突然、視力を失った父。娘は「何とかして父のやる気を取り戻してあげたい」と、バイブコーディングを始めた。",
-    "summary": "病気で突然、視力を失った父。娘は「何とかして父のやる気を取り戻してあげたい」と、バイブコーディングを始めた。",
-    "pubDate": "Wed, 02 Jul 2025 11:58:00 +0900",
-    "source": "ITmedia AI",
-    "url": "https://www.itmedia.co.jp/aiplus/articles/2507/02/news061.html",
-    "thumbnail": "https://image.itmedia.co.jp/aiplus/articles/2507/02/cover_news061.png"
   },
   {
     "title": "Autonomous AI Surveillance: Multimodal Deep Learning for Cognitive and Behavioral Monitoring",
