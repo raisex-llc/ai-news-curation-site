@@ -5667,7 +5667,7 @@
     "pubDate": "Mon, 30 Jun 2025 16:00:17 +0000",
     "source": "Microsoft Research Blog",
     "url": "https://www.microsoft.com/en-us/research/podcast/ai-testing-and-evaluation-learnings-from-genome-editing/",
-    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
+    "thumbnail": "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31&h=30"
   },
   {
     "title": "Reasoner for Real-World Event Detection: Scaling Reinforcement Learning via Adaptive Perplexity-Aware Sampling Strategy",
@@ -10284,7 +10284,7 @@
     "pubDate": "Tue, 17 Jun 2025 16:00:00 +0000",
     "source": "Microsoft Research Blog",
     "url": "https://www.microsoft.com/en-us/research/blog/new-methods-boost-reasoning-in-small-and-large-language-models/",
-    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
+    "thumbnail": "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31&h=30"
   },
   {
     "title": "Music AI Sandbox, now with new features and broader access",
@@ -10842,7 +10842,7 @@
     "pubDate": "Mon, 19 Jun 2023 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/mms_adapters",
-    "thumbnail": "https://huggingface.co/blog/assets/151_mms/mms_map.png"
+    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
   },
   {
     "title": "Making AI-generated code more accurate in any language",
@@ -13812,7 +13812,7 @@
     "pubDate": "Tue, 01 Jul 2025 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/train-sparse-encoder",
-    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
+    "thumbnail": "https://huggingface.co/blog/assets/train-sentence-transformers/st-hf-thumbnail.png"
   },
   {
     "title": "Fine-tuning GPT-3 to scale video creation",
