@@ -42,7 +42,7 @@
     "pubDate": "Wed, 25 Oct 2023 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/scalable-data-inspection",
-    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
+    "thumbnail": "https://huggingface.co/blog/assets/scalable-data-inspection/thumbnail.png"
   },
   {
     "title": "Empowering Manufacturers with Privacy-Preserving AI Tools: A Case Study in Privacy-Preserving Machine Learning to Solve Real-World Problems",
@@ -2988,6 +2988,15 @@
     "thumbnail": "https://lh3.googleusercontent.com/Jt_Vw7PIJEZtXcMIKM1HbWbBCLxv7RUyjyf07eHp-YOfxMCUZA6mPI9kSCaz65UkMoGcZ8CwlD3dNBvy7bnnYchjSkWyN-SugglT3dmg1A9KdoDqdQM=w1200-h630-n-nu"
   },
   {
+    "title": "スマホゲーム「D4DJ」、ライブイベントのキービジュアルに生成AI利用　SNSの反応受け明らかに",
+    "description": "ゲーム開発などを手掛けるDONUTSは、スマートフォン向けゲーム「D4DJ」のライブイベントのキービジュアルに生成AIを利用していたと、公式Xで明らかにした。Xでは、細部の乱れなどからキービジュアルに対し「画像生成AIを使っているのでは？」などの声が上がっていた。",
+    "summary": "ゲーム開発などを手掛けるDONUTSは、スマートフォン向けゲーム「D4DJ」のライブイベントのキービジュアルに生成AIを利用していたと、公式Xで明らかにした。Xでは、細部の乱れなどからキービジュアルに対し「画像生成AIを使っているのでは？」などの声が上がっていた。",
+    "pubDate": "Thu, 03 Jul 2025 19:51:00 +0900",
+    "source": "ITmedia AI",
+    "url": "https://www.itmedia.co.jp/aiplus/articles/2507/03/news113.html",
+    "thumbnail": "https://image.itmedia.co.jp/aiplus/articles/2507/03/cover_news113.jpg"
+  },
+  {
     "title": "Efficient training of language models to fill in the middle",
     "description": "",
     "summary": "",
@@ -3876,7 +3885,7 @@
     "pubDate": "Thu, 05 Dec 2024 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/paligemma2",
-    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
+    "thumbnail": "https://huggingface.co/blog/assets/paligemma/Paligemma2.png"
   },
   {
     "title": "BioPars: A Pretrained Biomedical Large Language Model for Persian Biomedical Text Mining",
@@ -5409,15 +5418,6 @@
     "thumbnail": "https://huggingface.co/blog/assets/transformers-model-definition/transformers-thumbnail.png"
   },
   {
-    "title": "イーロン・マスク氏のxAIが1.4兆円調達　Grokやデータセンターの開発加速",
-    "description": "イーロン・マスク氏のAI企業xAIが、100億ドルを調達した。半分は社債の発行や借り入れ、もう半分は株式発行によるもの。調達を主導した米Morgan StanleyがXで明らかにした。",
-    "summary": "イーロン・マスク氏のAI企業xAIが、100億ドルを調達した。半分は社債の発行や借り入れ、もう半分は株式発行によるもの。調達を主導した米Morgan StanleyがXで明らかにした。",
-    "pubDate": "Tue, 01 Jul 2025 18:13:00 +0900",
-    "source": "ITmedia AI",
-    "url": "https://www.itmedia.co.jp/news/articles/2507/01/news104.html",
-    "thumbnail": "https://image.itmedia.co.jp/news/articles/2507/01/cover_news104.jpg"
-  },
-  {
     "title": "Google DeepMind’s latest research at ICML 2023",
     "description": "Exploring AI safety, adaptability, and efficiency for the real world",
     "summary": "Exploring AI safety, adaptability, and efficiency for the real world",
@@ -5820,7 +5820,7 @@
     "pubDate": "Wed, 28 Sep 2022 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/autotrain-image-classification",
-    "thumbnail": "https://huggingface.co/blog/assets/105_autotrain-image-classification/thumbnail.png"
+    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
   },
   {
     "title": "OpenAI and Hearst Content Partnership",
@@ -6396,7 +6396,7 @@
     "pubDate": "Sun, 11 May 2025 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/lerobot-datasets",
-    "thumbnail": "https://huggingface.co/blog/assets/195_lerobot_datasets/1.png"
+    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
   },
   {
     "title": "OpenAI partners with Schibsted Media Group",
@@ -8817,7 +8817,7 @@
     "pubDate": "Fri, 07 Jun 2024 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/sagemaker-huggingface-embedding",
-    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
+    "thumbnail": "https://huggingface.co/blog/assets/sagemaker-huggingface-embedding/thumbnail.jpg"
   },
   {
     "title": "アイスマイリー、7/23（水）から3日間「 総務・人事・経理Week [名古屋] 」にブース出展",
@@ -11094,7 +11094,7 @@
     "pubDate": "Mon, 04 Nov 2024 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/argilla-ui-hub",
-    "thumbnail": "https://huggingface.co/blog/assets/argilla-ui-hub/thumbnail.png"
+    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
   },
   {
     "title": "Envisioning a future where health care tech leaves some behind",
@@ -11283,7 +11283,7 @@
     "pubDate": "Fri, 27 Oct 2023 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/personal-copilot",
-    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
+    "thumbnail": "https://huggingface.co/blog/assets/170_personal_copilot/thumbnail.png"
   },
   {
     "title": "Hugging Face and Graphcore partner for IPU-optimized Transformers",
@@ -12822,7 +12822,7 @@
     "pubDate": "Mon, 24 Jul 2023 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/eu-ai-act-oss",
-    "thumbnail": "https://huggingface.co/blog/assets/eu_ai_act_oss/thumbnailEU.png"
+    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
   },
   {
     "title": "Introduction to ggml",
