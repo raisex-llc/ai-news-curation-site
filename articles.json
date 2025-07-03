@@ -4209,7 +4209,7 @@
     "pubDate": "Tue, 14 Jun 2022 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/ml-director-insights-3",
-    "thumbnail": "https://huggingface.co/blog/assets/78_ml_director_insights/thumbnail.png"
+    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
   },
   {
     "title": "Economic impacts research at OpenAI",
@@ -6255,6 +6255,15 @@
     "thumbnail": "https://huggingface.co/blog/assets/173_gcp-partnership/thumbnail.jpg"
   },
   {
+    "title": "東南アジア有数の旅行予約プラットフォーム「トラベロカ」　社長に聞く日本進出の狙い",
+    "description": "東南アジア有数の旅行予約プラットフォーム「トラベロカ」（Traveloka）が2025年春、日本市場に参入した。同社の強みと、東南アジア特有の観光課題は何か。同社のシーザー・インドラ社長に聞いた。",
+    "summary": "東南アジア有数の旅行予約プラットフォーム「トラベロカ」（Traveloka）が2025年春、日本市場に参入した。同社の強みと、東南アジア特有の観光課題は何か。同社のシーザー・インドラ社長に聞いた。",
+    "pubDate": "Thu, 03 Jul 2025 17:00:00 +0900",
+    "source": "ITmedia AI",
+    "url": "https://www.itmedia.co.jp/business/articles/2507/03/news040.html",
+    "thumbnail": "https://image.itmedia.co.jp/business/articles/2507/03/cover_news040.jpg"
+  },
+  {
     "title": "Gemma 3n fully available in the open-source ecosystem!",
     "description": "",
     "summary": "Gemma 3n fully available in the open-source ecosystem! Gemma 3n was announced as a preview during Go...",
@@ -7611,7 +7620,7 @@
     "pubDate": "Wed, 04 May 2022 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/deep-rl-intro",
-    "thumbnail": "https://cdn-media.huggingface.co/assets/huggingface_logo.svg"
+    "thumbnail": "https://huggingface.co/blog/assets/63_deep_rl_intro/thumbnail.png"
   },
   {
     "title": "Reducing bias and improving safety in DALL·E 2",
@@ -8565,7 +8574,7 @@
     "pubDate": "Thu, 01 Feb 2024 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/constitutional_ai",
-    "thumbnail": "https://huggingface.co/blog/assets/175_constitutional_ai/thumbnail.png"
+    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
   },
   {
     "title": "Customized Exploration of Landscape Features Driving Multi-Objective Combinatorial Optimization Performance",
@@ -10644,7 +10653,7 @@
     "pubDate": "Wed, 12 Mar 2025 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/gemma3",
-    "thumbnail": "https://huggingface.co/blog/assets/gemma3/thumbnail.png"
+    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
   },
   {
     "title": "OpenAI announces new members to board of directors",
@@ -10690,15 +10699,6 @@
     "source": "OpenAI Blog",
     "url": "https://openai.com/blog/techniques-for-training-large-neural-networks",
     "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
-  },
-  {
-    "title": "SEM画像解析とAI活用、製造途中で性能を予測　日立製作所",
-    "description": "日立製作所と日立ハイテクは、製造ラインの立ち上げと歩留まり向上を支援する「プロセスインフォマティクス技術」を開発した。リチウムイオン電池の試作ラインに開発した技術を導入して検証したところ、中間工程品の段階において製品性能を高い精度で予測することに成功した。",
-    "summary": "日立製作所と日立ハイテクは、製造ラインの立ち上げと歩留まり向上を支援する「プロセスインフォマティクス技術」を開発した。リチウムイオン電池の試作ラインに開発した技術を導入して検証したところ、中間工程品の段階において製品性能を高い精度で予測することに成功した。",
-    "pubDate": "Tue, 01 Jul 2025 13:30:00 +0900",
-    "source": "ITmedia AI",
-    "url": "https://eetimes.itmedia.co.jp/ee/articles/2507/01/news037.html",
-    "thumbnail": "https://image.itmedia.co.jp/ee/articles/2507/01/cover_news037.jpg"
   },
   {
     "title": "Ask a Techspert: What is inference?",
