@@ -123,7 +123,7 @@
     "pubDate": "Mon, 16 May 2022 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/gradio-blocks",
-    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
+    "thumbnail": "https://huggingface.co/blog/assets/68_gradio_blocks/block-party.png"
   },
   {
     "title": "Getting started with Hugging Face Inference Endpoints",
@@ -906,7 +906,7 @@
     "pubDate": "Mon, 15 May 2023 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/chatbot-amd-gpu",
-    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
+    "thumbnail": "https://huggingface.co/blog/assets/chatbot-amd-gpu/thumbnail.png"
   },
   {
     "title": "Introducing the Open Ko-LLM Leaderboard: Leading the Korean LLM Evaluation Ecosystem",
@@ -3120,7 +3120,7 @@
     "pubDate": "Thu, 20 Feb 2025 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/smolvlm2",
-    "thumbnail": "https://huggingface.co/blog/assets/smolvlm2/banner.png"
+    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
   },
   {
     "title": "BioMARS: A Multi-Agent Robotic System for Autonomous Biological Experiments",
@@ -5667,7 +5667,7 @@
     "pubDate": "Mon, 30 Jun 2025 16:00:17 +0000",
     "source": "Microsoft Research Blog",
     "url": "https://www.microsoft.com/en-us/research/podcast/ai-testing-and-evaluation-learnings-from-genome-editing/",
-    "thumbnail": "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31&h=30"
+    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
   },
   {
     "title": "Reasoner for Real-World Event Detection: Scaling Reinforcement Learning via Adaptive Perplexity-Aware Sampling Strategy",
@@ -7107,7 +7107,7 @@
     "pubDate": "Mon, 26 Feb 2024 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/watermarking",
-    "thumbnail": "https://huggingface.co/blog/assets/watermarking/thumbnail.png"
+    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
   },
   {
     "title": "From Files to Chunks: Improving Hugging Face Storage Efficiency",
@@ -10653,7 +10653,7 @@
     "pubDate": "Wed, 12 Mar 2025 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/gemma3",
-    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
+    "thumbnail": "https://huggingface.co/blog/assets/gemma3/thumbnail.png"
   },
   {
     "title": "OpenAI announces new members to board of directors",
@@ -12849,7 +12849,7 @@
     "pubDate": "Tue, 30 Jul 2024 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/quanto-diffusers",
-    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
+    "thumbnail": "https://huggingface.co/blog/assets/quanto-diffusers/thumbnail.png"
   },
   {
     "title": "Enterprise-ready trust and safety",
@@ -13677,7 +13677,7 @@
     "pubDate": "Wed, 17 Aug 2022 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/hf-bitsandbytes-integration",
-    "thumbnail": "https://huggingface.co/blog/assets/96_hf_bitsandbytes_integration/Thumbnail_blue.png"
+    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
   },
   {
     "title": "ChatGPT can now see, hear, and speak",
