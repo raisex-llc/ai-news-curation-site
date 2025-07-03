@@ -3231,6 +3231,15 @@
     "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
   },
   {
+    "title": "OpenAIの共同創業者サツケバー氏、SSIのCEOに　ダニエル・グロス氏は退社",
+    "description": "代CEOのダニエル・グロス氏は退社し、Metaに移籍するとみられる。サツケバー氏はMetaによる買収の噂も認めた上で、独立を維持する姿勢を示した。",
+    "summary": "代CEOのダニエル・グロス氏は退社し、Metaに移籍するとみられる。サツケバー氏はMetaによる買収の噂も認めた上で、独立を維持する姿勢を示した。",
+    "pubDate": "Fri, 04 Jul 2025 07:03:00 +0900",
+    "source": "ITmedia AI",
+    "url": "https://www.itmedia.co.jp/news/articles/2507/04/news058.html",
+    "thumbnail": "https://image.itmedia.co.jp/news/articles/2507/04/cover_news058.jpg"
+  },
+  {
     "title": "Google for Nonprofits will expand to 100+ new countries and launch 10+ new no-cost AI features",
     "description": "Collage on a white background showing people in multiple different situations including two people in suits sitting on the back of an ambulance, and an adult and child using a laptop together",
     "summary": "Collage on a white background showing people in multiple different situations including two people in suits sitting on the back of an ambulance, and an adult and child using a laptop together",
@@ -10842,7 +10851,7 @@
     "pubDate": "Mon, 19 Jun 2023 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/mms_adapters",
-    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
+    "thumbnail": "https://huggingface.co/blog/assets/151_mms/mms_map.png"
   },
   {
     "title": "Making AI-generated code more accurate in any language",
@@ -13237,15 +13246,6 @@
     "source": "OpenAI Blog",
     "url": "https://openai.com/blog/scaling-coordinated-vulnerability-disclosure",
     "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
-  },
-  {
-    "title": "鳥取県、“性的ディープフェイク”作成・提供に行政罰、5万円以下の過料　条例改正案を可決",
-    "description": "鳥取県議会は、「鳥取県青少年健全育成条例」に関し、生成AIを利用して実在する子どものわいせつな画像を作成する“性的ディープフェイク”に、行政罰を導入する改正案を可決した。",
-    "summary": "鳥取県議会は、「鳥取県青少年健全育成条例」に関し、生成AIを利用して実在する子どものわいせつな画像を作成する“性的ディープフェイク”に、行政罰を導入する改正案を可決した。",
-    "pubDate": "Tue, 01 Jul 2025 18:30:00 +0900",
-    "source": "ITmedia AI",
-    "url": "https://www.itmedia.co.jp/aiplus/articles/2507/01/news107.html",
-    "thumbnail": "https://image.itmedia.co.jp/aiplus/articles/2507/01/cover_news107.jpg"
   },
   {
     "title": "Fanatics Betting and Gaming uses AI to focus on the big picture",
