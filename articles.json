@@ -3120,7 +3120,7 @@
     "pubDate": "Thu, 20 Feb 2025 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/smolvlm2",
-    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
+    "thumbnail": "https://huggingface.co/blog/assets/smolvlm2/banner.png"
   },
   {
     "title": "BioMARS: A Multi-Agent Robotic System for Autonomous Biological Experiments",
@@ -5667,7 +5667,7 @@
     "pubDate": "Mon, 30 Jun 2025 16:00:17 +0000",
     "source": "Microsoft Research Blog",
     "url": "https://www.microsoft.com/en-us/research/podcast/ai-testing-and-evaluation-learnings-from-genome-editing/",
-    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
+    "thumbnail": "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31&h=30"
   },
   {
     "title": "Reasoner for Real-World Event Detection: Scaling Reinforcement Learning via Adaptive Perplexity-Aware Sampling Strategy",
@@ -6603,7 +6603,7 @@
     "pubDate": "Fri, 12 Aug 2022 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/tensorflow-philosophy",
-    "thumbnail": "https://huggingface.co/blog/assets/96_tensorflow_philosophy/thumbnail.png"
+    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
   },
   {
     "title": "Reducing Variability of Multiple Instance Learning Methods for Digital Pathology",
@@ -7107,7 +7107,7 @@
     "pubDate": "Mon, 26 Feb 2024 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/watermarking",
-    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
+    "thumbnail": "https://huggingface.co/blog/assets/watermarking/thumbnail.png"
   },
   {
     "title": "From Files to Chunks: Improving Hugging Face Storage Efficiency",
@@ -8943,7 +8943,7 @@
     "pubDate": "Mon, 08 Jul 2024 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/datasets-filters",
-    "thumbnail": "https://huggingface.co/blog/assets/datasets-filters/thumbnail.png"
+    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
   },
   {
     "title": "Try new data visualizations and graphs for finance queries in AI Mode.",
@@ -10437,7 +10437,7 @@
     "pubDate": "Mon, 29 Jan 2024 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/leaderboard-hallucinations",
-    "thumbnail": "https://huggingface.co/blog/assets/leaderboards-on-the-hub/thumbnail.png"
+    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
   },
   {
     "title": "Best practices for deploying language models",
@@ -12237,7 +12237,7 @@
     "pubDate": "Mon, 02 Nov 2020 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/ray-tune",
-    "thumbnail": "https://huggingface.co/blog/assets/06_ray_tune/ray-hf.jpg"
+    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
   },
   {
     "title": "A Dive into Text-to-Video Models",
@@ -13677,7 +13677,7 @@
     "pubDate": "Wed, 17 Aug 2022 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/hf-bitsandbytes-integration",
-    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
+    "thumbnail": "https://huggingface.co/blog/assets/96_hf_bitsandbytes_integration/Thumbnail_blue.png"
   },
   {
     "title": "ChatGPT can now see, hear, and speak",
