@@ -5877,15 +5877,6 @@
     "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
   },
   {
-    "title": "生成AIで変わるサイバーセキュリティ　NECとIDCが語る「AI×セキュリティ」の要点",
-    "description": "NEC Corporate Executive CISOの淵上真一氏と、IDC Japan リサーチマネージャーの赤間健一氏による講演の内容から、AI時代のセキュリティ戦略の最前線を読み解く。",
-    "summary": "NEC Corporate Executive CISOの淵上真一氏と、IDC Japan リサーチマネージャーの赤間健一氏による講演の内容から、AI時代のセキュリティ戦略の最前線を読み解く。",
-    "pubDate": "Thu, 03 Jul 2025 05:00:00 +0900",
-    "source": "ITmedia AI",
-    "url": "https://www.itmedia.co.jp/business/articles/2507/02/news031.html",
-    "thumbnail": "https://image.itmedia.co.jp/business/articles/2507/02/cover_news031.jpg"
-  },
-  {
     "title": "Distill",
     "description": "We’re excited to support today’s launch of Distill, a new kind of journal aimed at excellent communication of machine learning results (novel or existing).",
     "summary": "We’re excited to support today’s launch of Distill, a new kind of journal aimed at excellent communication of machine learning results (novel or existing).",
@@ -7054,6 +7045,15 @@
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/jat",
     "thumbnail": "https://huggingface.co/blog/assets/jat/thumbnail.png"
+  },
+  {
+    "title": "清水建設、生成AIアシスタントを全社導入　施工要領書などRAGで瞬時に検索・参照",
+    "description": "清水建設が、ChatGPTをベースにした生成AIアシスタントサービスを全社に導入した。",
+    "summary": "清水建設が、ChatGPTをベースにした生成AIアシスタントサービスを全社に導入した。",
+    "pubDate": "Fri, 04 Jul 2025 16:38:00 +0900",
+    "source": "ITmedia AI",
+    "url": "https://www.itmedia.co.jp/aiplus/articles/2507/04/news103.html",
+    "thumbnail": "https://image.itmedia.co.jp/aiplus/articles/2507/04/cover_news103.png"
   },
   {
     "title": "Diffusion Models Live Event",
@@ -11502,15 +11502,6 @@
     "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/capability__native-audio_16-9_121.width-1300.jpg"
   },
   {
-    "title": "生成AIとの会話で“あなたにぴったりの商品”提案　「Yahoo!ショッピング」新機能",
-    "description": "「Yahoo!ショッピング」iOS版で、生成AIとの会話を通じ、ユーザーにマッチした商品を提案する機能。",
-    "summary": "「Yahoo!ショッピング」iOS版で、生成AIとの会話を通じ、ユーザーにマッチした商品を提案する機能。",
-    "pubDate": "Thu, 03 Jul 2025 06:37:00 +0900",
-    "source": "ITmedia AI",
-    "url": "https://www.itmedia.co.jp/aiplus/articles/2507/03/news053.html",
-    "thumbnail": "https://image.itmedia.co.jp/aiplus/articles/2507/03/cover_news053.png"
-  },
-  {
     "title": "Filling crucial language learning gaps",
     "description": "GPT-4 deepens the conversation on Duolingo.",
     "summary": "GPT-4 deepens the conversation on Duolingo.",
@@ -12211,6 +12202,15 @@
     "source": "OpenAI Blog",
     "url": "https://openai.com/blog/meta-learning-for-wrestling",
     "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
+  },
+  {
+    "title": "川崎重工、鴻海と共同で“半人型ロボ”開発　看護師の業務を補助、26年度中の投入目指す",
+    "description": "川崎重工業は、電子機器の受託製造（EMS）で世界最大手の台湾・鴻海（ホンハイ）科技集団と共同で、半人型の看護師補助ロボット「Nurabot」を開発したと発表した。2025年4月から台湾にある「台中栄民総医院」にて実証実験をしており、26年度中の市場投入を目指す。",
+    "summary": "川崎重工業は、電子機器の受託製造（EMS）で世界最大手の台湾・鴻海（ホンハイ）科技集団と共同で、半人型の看護師補助ロボット「Nurabot」を開発したと発表した。2025年4月から台湾にある「台中栄民総医院」にて実証実験をしており、26年度中の市場投入を目指す。",
+    "pubDate": "Fri, 04 Jul 2025 17:03:00 +0900",
+    "source": "ITmedia AI",
+    "url": "https://www.itmedia.co.jp/aiplus/articles/2507/04/news104.html",
+    "thumbnail": "https://image.itmedia.co.jp/aiplus/articles/2507/04/cover_news104.jpg"
   },
   {
     "title": "Optimum+ONNX Runtime - Easier, Faster training for your Hugging Face models",
