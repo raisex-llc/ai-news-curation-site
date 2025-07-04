@@ -13839,7 +13839,7 @@
     "pubDate": "Tue, 01 Jul 2025 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/train-sparse-encoder",
-    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
+    "thumbnail": "https://huggingface.co/blog/assets/train-sentence-transformers/st-hf-thumbnail.png"
   },
   {
     "title": "Fine-tuning GPT-3 to scale video creation",
