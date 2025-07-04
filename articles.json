@@ -1734,7 +1734,7 @@
     "pubDate": "Fri, 14 Feb 2025 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/fireworks-ai",
-    "thumbnail": "https://huggingface.co/blog/assets/inference-providers/welcome-fireworks.jpg"
+    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
   },
   {
     "title": "Joint Matching and Pricing for Crowd-shipping with In-store Customers",
@@ -7494,7 +7494,7 @@
     "pubDate": "Thu, 29 May 2025 15:13:48 +0000",
     "source": "Microsoft Research Blog",
     "url": "https://www.microsoft.com/en-us/research/podcast/what-ais-impact-on-individuals-means-for-the-health-workforce-and-industry/",
-    "thumbnail": "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31&h=30"
+    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
   },
   {
     "title": "Powering virtual education for the classroom",
@@ -8178,7 +8178,7 @@
     "pubDate": "Wed, 20 Oct 2021 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/the-age-of-ml-as-code",
-    "thumbnail": "https://huggingface.co/blog/assets/31_age_of_ml_as_code/05_vision_transformer.png"
+    "thumbnail": "https://cdn-media.huggingface.co/assets/huggingface_logo.svg"
   },
   {
     "title": "An Introduction to Q-Learning Part 1",
@@ -10104,7 +10104,7 @@
     "pubDate": "Thu, 11 Apr 2024 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/vlms",
-    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
+    "thumbnail": "https://huggingface.co/blog/assets/vlms_explained/thumbnail.png"
   },
   {
     "title": "Introducing ChatGPT Team",
