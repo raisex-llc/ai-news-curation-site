@@ -1950,7 +1950,7 @@
     "pubDate": "Thu, 10 Sep 2020 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/pytorch_block_sparse",
-    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
+    "thumbnail": "https://huggingface.co/blog/assets/04_pytorch_block_sparse/thumbnail.png"
   },
   {
     "title": "OpenAI Fellows Winter 2019 & Interns Summer 2019",
@@ -2662,6 +2662,15 @@
     "source": "OpenAI Blog",
     "url": "https://openai.com/blog/introducing-operator",
     "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
+  },
+  {
+    "title": "アドビ、CCに廉価プラン新設、AIやモバイル版に制限　従来のフルプランは月額9080円に値上げ",
+    "description": "アドビが、クリエイティブツール「Creative Cloud」コンプリートプランの廉価版を発表した。生成AIなど一部機能を制限した「Creative Cloud Standard」プランを新設。従来のプランは「Creative Cloud Pro」として、実質的な値上げの上提供する。どちらも8月1日に提供を始める。",
+    "summary": "アドビが、クリエイティブツール「Creative Cloud」コンプリートプランの廉価版を発表した。生成AIなど一部機能を制限した「Creative Cloud Standard」プランを新設。従来のプランは「Creative Cloud Pro」として、実質的な値上げの上提供する。どちらも8月1日に提供を始める。",
+    "pubDate": "Fri, 04 Jul 2025 15:33:00 +0900",
+    "source": "ITmedia AI",
+    "url": "https://www.itmedia.co.jp/news/articles/2507/04/news094.html",
+    "thumbnail": "https://image.itmedia.co.jp/news/articles/2507/04/cover_news094.png"
   },
   {
     "title": "Faster Text Generation with TensorFlow and XLA",
@@ -8566,15 +8575,6 @@
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/tapex",
     "thumbnail": "https://huggingface.co/blog/assets/74_tapex/thumbnail.png"
-  },
-  {
-    "title": "［データ分析］区間推定のために必要なサンプルサイズはどれぐらい？",
-    "description": "データ分析の初歩から応用まで少しずつステップアップしながら学んでいく連載（区間推定編）の第8回。今回は適切に区間推定を行うために必要なサンプルサイズの求め方とその考え方を解説します。",
-    "summary": "データ分析の初歩から応用まで少しずつステップアップしながら学んでいく連載（区間推定編）の第8回。今回は適切に区間推定を行うために必要なサンプルサイズの求め方とその考え方を解説します。",
-    "pubDate": "Thu, 03 Jul 2025 05:00:00 +0900",
-    "source": "ITmedia AI",
-    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2507/03/news003.html",
-    "thumbnail": "https://image.itmedia.co.jp/ait/articles/2507/03/cover_news003.png"
   },
   {
     "title": "Surging developer productivity with custom GPTs",
