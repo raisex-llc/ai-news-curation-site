@@ -1734,7 +1734,7 @@
     "pubDate": "Fri, 14 Feb 2025 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/fireworks-ai",
-    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
+    "thumbnail": "https://huggingface.co/blog/assets/inference-providers/welcome-fireworks.jpg"
   },
   {
     "title": "Joint Matching and Pricing for Crowd-shipping with In-store Customers",
@@ -2598,7 +2598,7 @@
     "pubDate": "Fri, 14 Jul 2023 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/stable-diffusion-finetuning-intel",
-    "thumbnail": "https://huggingface.co/blog/assets/stable-diffusion-finetuning-intel/01.png"
+    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
   },
   {
     "title": "OpenAI and Elon Musk",
@@ -5931,6 +5931,15 @@
     "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/openai_logo.png"
   },
   {
+    "title": "骨のような3Dプリンタ製チェア　生物模倣を取り入れAI搭載バーチャルツインで開発",
+    "description": "ダッソー・システムズは、フランスのデザイナーであるパトリック・ジュアン氏と共同開発した軽量チェア「Ta.Tamu」を発表した。格子構造のデザインは「3DEXPERIENCEプラットフォーム・オン・ザ・クラウド」を活用して設計され、3Dプリンタで一体造形されている。",
+    "summary": "ダッソー・システムズは、フランスのデザイナーであるパトリック・ジュアン氏と共同開発した軽量チェア「Ta.Tamu」を発表した。格子構造のデザインは「3DEXPERIENCEプラットフォーム・オン・ザ・クラウド」を活用して設計され、3Dプリンタで一体造形されている。",
+    "pubDate": "Fri, 04 Jul 2025 12:00:00 +0900",
+    "source": "ITmedia AI",
+    "url": "https://monoist.itmedia.co.jp/mn/articles/2507/04/news062.html",
+    "thumbnail": "https://image.itmedia.co.jp/mn/articles/2507/04/cover_news062.jpg"
+  },
+  {
     "title": "Strategic Content Partnership with TIME",
     "description": "We’re partnering with TIME and its 101 years of archival content to enhance responses and provide links to stories on Time.com",
     "summary": "We’re partnering with TIME and its 101 years of archival content to enhance responses and provide links to stories on Time.com",
@@ -7494,7 +7503,7 @@
     "pubDate": "Thu, 29 May 2025 15:13:48 +0000",
     "source": "Microsoft Research Blog",
     "url": "https://www.microsoft.com/en-us/research/podcast/what-ais-impact-on-individuals-means-for-the-health-workforce-and-industry/",
-    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
+    "thumbnail": "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31&h=30"
   },
   {
     "title": "Powering virtual education for the classroom",
@@ -8178,7 +8187,7 @@
     "pubDate": "Wed, 20 Oct 2021 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/the-age-of-ml-as-code",
-    "thumbnail": "https://cdn-media.huggingface.co/assets/huggingface_logo.svg"
+    "thumbnail": "https://huggingface.co/blog/assets/31_age_of_ml_as_code/05_vision_transformer.png"
   },
   {
     "title": "An Introduction to Q-Learning Part 1",
@@ -12229,15 +12238,6 @@
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/ram-efficient-pytorch-fsdp",
     "thumbnail": "https://huggingface.co/blog/assets/160_fsdp_llama/thumbnail.jpg"
-  },
-  {
-    "title": "AIで漫画家サポートする新会社　「本人の画風再現」で自動ペン入れ　コルク佐渡島氏・THE GUILD深津氏も参画",
-    "description": "Visual Bankは、AI技術で漫画家をサポートする企業「THE PEN」を設立したと発表した。作家本人の画風を再現し、ネーム原稿に自動でペン入れを行うAIツール「PEN editor」を提供。作画時間を短縮し、漫画家の生産性向上につなげるという。",
-    "summary": "Visual Bankは、AI技術で漫画家をサポートする企業「THE PEN」を設立したと発表した。作家本人の画風を再現し、ネーム原稿に自動でペン入れを行うAIツール「PEN editor」を提供。作画時間を短縮し、漫画家の生産性向上につなげるという。",
-    "pubDate": "Wed, 02 Jul 2025 12:45:00 +0900",
-    "source": "ITmedia AI",
-    "url": "https://www.itmedia.co.jp/aiplus/articles/2507/02/news060.html",
-    "thumbnail": "https://image.itmedia.co.jp/aiplus/articles/2507/02/cover_news060.jpg"
   },
   {
     "title": "Hyperparameter Search with Transformers and Ray Tune",
