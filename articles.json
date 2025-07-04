@@ -987,7 +987,7 @@
     "pubDate": "Mon, 28 Mar 2022 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/decision-transformers",
-    "thumbnail": "https://cdn-media.huggingface.co/assets/huggingface_logo.svg"
+    "thumbnail": "https://huggingface.co/blog/assets/58_decision-transformers/thumbnail.jpg"
   },
   {
     "title": "On Characterizations for Language Generation: Interplay of Hallucinations, Breadth, and Stability",
@@ -8088,7 +8088,7 @@
     "pubDate": "Wed, 30 Apr 2025 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/gradio-mcp",
-    "thumbnail": "https://huggingface.co/blog/assets/gradio-mcp/thumbnail.png"
+    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
   },
   {
     "title": "LiteReality: Graphics-Ready 3D Scene Reconstruction from RGB-D Scans",
