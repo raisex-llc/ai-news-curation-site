@@ -2004,7 +2004,7 @@
     "pubDate": "Thu, 16 Jan 2025 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/timm-transformers",
-    "thumbnail": "https://huggingface.co/blog/assets/timm-transformers/thumbnail.png"
+    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
   },
   {
     "title": "The Falcon has landed in the Hugging Face ecosystem",
@@ -5073,7 +5073,7 @@
     "pubDate": "Thu, 15 Dec 2022 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/audio-datasets",
-    "thumbnail": "https://huggingface.co/blog/assets/116_audio_datasets/thumbnail.jpg"
+    "thumbnail": "https://cdn-media.huggingface.co/assets/huggingface_logo.svg"
   },
   {
     "title": "More on Dota 2",
@@ -10590,7 +10590,7 @@
     "pubDate": "Tue, 23 Mar 2021 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/the-partnership-amazon-sagemaker-and-hugging-face",
-    "thumbnail": "https://cdn-media.huggingface.co/assets/huggingface_logo.svg"
+    "thumbnail": "https://huggingface.co/blog/assets/17_the_partnership_amazon_sagemaker_and_hugging_face/thumbnail.png"
   },
   {
     "title": "Nubank elevates customer experiences with OpenAI",
@@ -13839,7 +13839,7 @@
     "pubDate": "Tue, 01 Jul 2025 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/train-sparse-encoder",
-    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
+    "thumbnail": "https://huggingface.co/blog/assets/train-sentence-transformers/st-hf-thumbnail.png"
   },
   {
     "title": "Fine-tuning GPT-3 to scale video creation",
