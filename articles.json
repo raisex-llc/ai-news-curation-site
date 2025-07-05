@@ -2004,7 +2004,7 @@
     "pubDate": "Thu, 16 Jan 2025 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/timm-transformers",
-    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
+    "thumbnail": "https://huggingface.co/blog/assets/timm-transformers/thumbnail.png"
   },
   {
     "title": "The Falcon has landed in the Hugging Face ecosystem",
@@ -5073,7 +5073,7 @@
     "pubDate": "Thu, 15 Dec 2022 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/audio-datasets",
-    "thumbnail": "https://cdn-media.huggingface.co/assets/huggingface_logo.svg"
+    "thumbnail": "https://huggingface.co/blog/assets/116_audio_datasets/thumbnail.jpg"
   },
   {
     "title": "More on Dota 2",
@@ -6603,7 +6603,7 @@
     "pubDate": "Thu, 26 May 2022 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/graphcore-update",
-    "thumbnail": "https://huggingface.co/blog/assets/77_graphcore-update/graphcore_update.png"
+    "thumbnail": "https://cdn-media.huggingface.co/assets/huggingface_logo.svg"
   },
   {
     "title": "Fast Inference on Large Language Models: BLOOMZ on Habana Gaudi2 Accelerator",
