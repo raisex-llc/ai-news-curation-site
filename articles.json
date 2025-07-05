@@ -10689,7 +10689,7 @@
     "pubDate": "Tue, 03 Dec 2024 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/cfm-case-study",
-    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
+    "thumbnail": "https://huggingface.co/blog/assets/cfm-case-study/blogpost_cfm.png"
   },
   {
     "title": "How we sped up transformer inference 100x for 🤗 API customers",
