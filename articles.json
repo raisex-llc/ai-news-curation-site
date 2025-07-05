@@ -10293,7 +10293,7 @@
     "pubDate": "Tue, 20 Apr 2021 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/bert-cpu-scaling-part-1",
-    "thumbnail": "https://huggingface.co/blog/assets/21_bert_cpu_scaling_part_1/imgs/numa_set.png"
+    "thumbnail": "https://cdn-media.huggingface.co/assets/huggingface_logo.svg"
   },
   {
     "title": "Introducing OpenAI for Government",
