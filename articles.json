@@ -7674,7 +7674,7 @@
     "pubDate": "Wed, 03 Aug 2022 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/introducing-private-hub",
-    "thumbnail": "https://huggingface.co/blog/assets/92_introducing_private_hub/thumbnail.png"
+    "thumbnail": "https://cdn-media.huggingface.co/assets/huggingface_logo.svg"
   },
   {
     "title": "Personalizing travel at scale with OpenAI",
@@ -12264,7 +12264,7 @@
     "pubDate": "Fri, 23 May 2025 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/python-tiny-agents",
-    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
+    "thumbnail": "https://huggingface.co/blog/assets/python-tiny-agents/thumbnail.png"
   },
   {
     "title": "Comparing the Performance of LLMs: A Deep Dive into Roberta, Llama 2, and Mistral for Disaster Tweets Analysis with Lora",
