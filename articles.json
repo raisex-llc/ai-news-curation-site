@@ -213,7 +213,7 @@
     "pubDate": "Wed, 15 Jun 2022 00:00:00 GMT",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/intel",
-    "thumbnail": "https://huggingface.co/blog/assets/80_intel/01.png"
+    "thumbnail": "https://cdn-media.huggingface.co/assets/huggingface_logo.svg"
   },
   {
     "title": "From Chunks to Blocks: Accelerating Uploads and Downloads on the Hub",
@@ -7647,7 +7647,7 @@
     "pubDate": "Wed, 18 Jun 2025 10:01:47 +0000",
     "source": "Microsoft Research Blog",
     "url": "https://www.microsoft.com/en-us/research/blog/breaking-bonds-breaking-ground-advancing-the-accuracy-of-computational-chemistry-with-deep-learning/",
-    "thumbnail": "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31&h=30"
+    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
   },
   {
     "title": "How to train your model dynamically using adversarial data",
@@ -7809,7 +7809,7 @@
     "pubDate": "Tue, 10 Jun 2025 16:00:00 +0000",
     "source": "Microsoft Research Blog",
     "url": "https://www.microsoft.com/en-us/research/blog/rewriting-symcrypt-in-rust-to-modernize-microsofts-cryptographic-library/",
-    "thumbnail": "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31&h=30"
+    "thumbnail": "https://raisex-llc.github.io/ai-news-curation-site/assets/ai-icon.png"
   },
   {
     "title": "Rationale engineering generates a compact new tool for gene therapy",
